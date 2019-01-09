@@ -42,3 +42,11 @@ Literatura uzupełniająca:
 -------------------------
 
 
+# Tematy do dodania
+
+* reprodukowaność wyników
+* odtwarzanie modeli
+* lista metadanych dla modeli
+* Pomysły na projekty: wyjaśnialność - performance - trade off
+* różne implementacje bibliotek np. randomForest
+* ciepły start dla wybranych parametrów
