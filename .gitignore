@@ -6,5 +6,8 @@
 .RData
 
 
-#Rproj.user data
+# Rproj.user data
 .Rproj.user
+
+# Session Info in parent directory (possible mistake)
+/sessionInfo.txt

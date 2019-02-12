@@ -112,7 +112,9 @@ Structure of model.json
 -	date - addition date
 -	task_id - id of corresponding task
 -	dataset_id - id of corresponding data set
--	parameters - JSON object with *all possible* parameters and their values,
+-	parameters - JSON object with *all possible* parameters and their values. It should contain also values of parameter if default were used.
+
+    For `mlr` learners you can use `getLearnerParVals()` and `getLearnerParamSet()` functions.  
 - preprocessing - JSON object with description of variables after preprocessing, should have the same structure as variables in `dataset.json`
 
 
