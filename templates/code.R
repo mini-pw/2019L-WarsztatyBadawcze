@@ -15,17 +15,17 @@ head(liver)
 head(liver)
 
 #:# model
-regr.task = makeRegrTask(id = "lvr", data = liver, target = "drinks")
-regr.lrn = makeLearner("regr.gbm", par.vals = list(n.trees = 500, interaction.depth = 3))
+regr_task = makeRegrTask(id = "lvr", data = liver, target = "drinks")
+regr_lrn = makeLearner("regr_gbm", par.vals = list(n.trees = 500, interaction.depth = 3))
 
 #:# hash 
 #:# 5b2c4babcf5363847614d2b486a71534
-hash <- digest(regr.lrn)
+hash <- digest(regr_lrn)
 hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(regr.lrn, regr.task, cv)
+r <- resample(regr_lrn, regr_task, cv)
 MSE <- r$aggr
 MSE
 
