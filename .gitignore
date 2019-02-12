@@ -4,3 +4,7 @@
 
 # Session Data files
 .RData
+
+
+#Rproj.user data
+.Rproj.user
