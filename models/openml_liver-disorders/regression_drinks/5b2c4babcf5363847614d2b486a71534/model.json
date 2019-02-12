@@ -1,0 +1,115 @@
+[{
+	"id": "5b2c4babcf5363847614d2b486a71534",
+	"added_by": "agosiewska",
+	"date": "11-02-2019",
+	"task_id": "regression_drinks",
+	"dataset_id": "openml_liver-disorders",
+	"parameters": {
+		"distribution": "gaussian",
+		"n.trees": 500,
+		"cv.folds": 0,
+		"interaction.depth": 3,
+		"n.minobsinnode": 10,
+		"shrinkage": 0.001,
+		"bag.fraction": 0.5,
+		"train.fraction": 1,
+		"keep.data": true,
+		"verbose": true
+	},
+	"preprocessing": {
+		"mcv": {
+			"name": "mcv",
+			"type": "numerical",
+			"number_of_unique_values": 26,
+			"number_of_missing_values": 0,
+			"cat_frequencies": null,
+			"num_minimum": 65,
+			"num_1qu": 87,
+			"num_median": 90,
+			"num_mean": 90.159420289855078,
+			"num_3qu": 93,
+			"num_maximum": 103
+		},
+		"alkphos": {
+			"name": "alkphos",
+			"type": "numerical",
+			"number_of_unique_values": 78,
+			"number_of_missing_values": 0,
+			"cat_frequencies": null,
+			"num_minimum": 23,
+			"num_1qu": 57,
+			"num_median": 67,
+			"num_mean": 69.869565217391298,
+			"num_3qu": 80,
+			"num_maximum": 138
+		},
+		"sqpt": {
+			"name": "sgpt",
+			"type": "numerical",
+			"number_of_unique_values": 67,
+			"number_of_missing_values": 0,
+			"cat_frequencies": null,
+			"num_minimum": 4,
+			"num_1qu": 19,
+			"num_median": 26,
+			"num_mean": 30.405797101449274,
+			"num_3qu": 34,
+			"num_maximum": 155
+		},
+		"sgot": {
+			"name": "sgot",
+			"type": "numerical",
+			"number_of_unique_values": 47,
+			"number_of_missing_values": 0,
+			"cat_frequencies": null,
+			"num_minimum": 5,
+			"num_1qu": 19,
+			"num_median": 23,
+			"num_mean": 24.643478260869564,
+			"num_3qu": 27,
+			"num_maximum": 82
+		},
+		"gammagt": {
+			"name": "gammagt",
+			"type": "numerical",
+			"number_of_unique_values": 94,
+			"number_of_missing_values": 0,
+			"cat_frequencies": null,
+			"num_minimum": 5,
+			"num_1qu": 15,
+			"num_median": 25,
+			"num_mean": 38.284057971014491,
+			"num_3qu": 46,
+			"num_maximum": 297
+		},
+		"drinks": {
+			"name": "drinks",
+			"type": "numerical",
+			"number_of_unique_values": 16,
+			"number_of_missing_values": 0,
+			"cat_frequencies": null,
+			"num_minimum": 0,
+			"num_1qu": 0.5,
+			"num_median": 3,
+			"num_mean": 3.4550724637681158,
+			"num_3qu": 6,
+			"num_maximum": 20
+		},
+		"selector": {
+			"name": "selector",
+			"type": "categorical",
+			"number_of_unique_values": 2,
+			"number_of_missing_values": 0,
+			"cat_frequencies": {
+				"1": 145,
+				"2": 200
+			},
+			"num_minimum": null,
+			"num_1qu": null,
+			"num_median": null,
+			"num_mean": null,
+			"num_3qu": null,
+			"num_maximum": null
+		}
+	}
+}]

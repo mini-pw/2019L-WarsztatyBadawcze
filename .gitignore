@@ -1,0 +1,13 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+
+# Rproj.user data
+.Rproj.user
+
+# Session Info in parent directory (possible mistake)
+/sessionInfo.txt
