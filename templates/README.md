@@ -8,7 +8,7 @@ Do not use spaces and special characters in file and folder names.
 
 Database of models has the followig nested structure:
 
-- data base of models 
+- database of models 
 
   - data set `source_name`
   
@@ -29,7 +29,7 @@ Database of models has the followig nested structure:
           The name of the folder should be an md5 has of model object.
           E.g. `c1994bdb7ecb3c6f3c8f3b35f4b47f1f`
           
-          This folder should contain `model.json`, "audit.json", 'code.R`, and `sessionInfo.txt` files.
+          This folder should contain `model.json`, `audit.json`, `code.R`, and `sessionInfo.txt` files.
 
 
 ## code.R
