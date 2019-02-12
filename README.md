@@ -2,6 +2,12 @@
 
 Strona przedmiotu Warsztaty Badawcze dla specjalności IAD na wydziale MiNI PW
 
+[Baza modeli](models)
+
+[Opis struktury bazy oraz szablony plików](templates)
+
+[Materiały na laboratoria](labs)
+
 # Tematy spotkań
 
 * [1] W: Wprowadzenie do [OpenML](https://www.openml.org/), [interfejsu do OpenML](https://github.com/openml/openml-r) i bibliotek do trenowania modeli ([caret](http://topepo.github.io/caret/index.html), [mlr](https://mlr.mlr-org.com/), [parsnip](https://tidymodels.github.io/parsnip/))
