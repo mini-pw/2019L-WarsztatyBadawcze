@@ -1,0 +1,10 @@
+language: r
+cache: packages
+
+install:
+  - Rscript -e 'install.packages("testthat")'
+  - Rscript -e 'install.packages("jsonlite")'
+  - Rscript -e 'install.packages("readr")'
+
+script:
+  - Rscript tests/json_validation.R
