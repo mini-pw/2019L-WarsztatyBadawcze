@@ -8,9 +8,9 @@ json_files <- list.files(pattern = "*.json$", recursive = TRUE)
 test_that("validate jsons", {
   for(json in json_files){
     json_to_validate <- read_file(json)
-    is_jason_valid <- validate(json_to_validate)
+    is_json_valid <- validate(json_to_validate)
     if(!is_json_valid) print(json)
-    expect_true(is_jason_valid)
+    expect_true(is_json_valid)
   }
 })
 
