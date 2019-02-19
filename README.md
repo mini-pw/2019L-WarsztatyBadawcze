@@ -52,11 +52,3 @@ Literatura uzupełniająca:
 
 * [Pełna playlista z wykładami Andrew Ng](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
 
-# Tematy do dodania
-
-* reprodukowaność wyników
-* odtwarzanie modeli
-* lista metadanych dla modeli
-* pomysły na projekty: wyjaśnialność - performance - trade off
-* różne implementacje bibliotek np. randomForest
-* ciepły start dla wybranych parametrów
