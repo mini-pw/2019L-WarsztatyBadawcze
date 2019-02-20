@@ -6,7 +6,7 @@
         "name": "adult",
         "source": "openml",
         "url": "https://www.openml.org/d/1590",
-        "number_of_features": 14,
+        "number_of_features": 15,
         "number_of_instances": 48842,
         "number_of_missing_values": 6465,
         "number_of_instances_with_missing_values": 3620,
@@ -286,6 +286,22 @@
                     "38.0": 46,
                     "39.0": 30,
                     "40.0": 1
+                },
+                "num_minimum": null,
+                "num_1qu": null,
+                "num_median": null,
+                "num_mean": null,
+                "num_3qu": null,
+                "num_maximum": null
+            },
+            "target": {
+                "name": "target",
+                "type": "categorical",
+                "number_of_unique_values": 2,
+                "number_of_missing_values": 0,
+                "cat_frequencies": {
+                    "0": 11687,
+                    "1": 37155
                 },
                 "num_minimum": null,
                 "num_1qu": null,
