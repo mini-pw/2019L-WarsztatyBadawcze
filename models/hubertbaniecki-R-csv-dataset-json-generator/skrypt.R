@@ -102,4 +102,4 @@ dane <- unknownToNA(dane, missing)
 x <- makeList(dane, types)
 y <- jsonlite::toJSON(x, pretty = TRUE, auto_unbox = TRUE, .na = "null")
 write(y, "dataset.json")
-
+# do pliku na początku i końcu trzeba dodać "[" "]", bo inaczej nie przejdzie przez skrypt na gicie
