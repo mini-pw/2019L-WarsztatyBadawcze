@@ -118,19 +118,19 @@
         "Uruguay": 336,
         "Uzbekistan": 264
       },
-      "num_minimum": "null",
-      "num_1qu": "null",
-      "num_median": "null",
-      "num_mean": "null",
-      "num_3qu": "null",
-      "num_maximum": "null"
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
     },
     "year": {
       "name": "year",
       "type": "numerical",
       "number_of_unique_values": 32,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 1985,
       "num_1qu": 1995,
       "num_median": 2002,
@@ -147,12 +147,12 @@
         "female": 13910,
         "male": 13910
       },
-      "num_minimum": "null",
-      "num_1qu": "null",
-      "num_median": "null",
-      "num_mean": "null",
-      "num_3qu": "null",
-      "num_maximum": "null"
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
     },
     "age": {
       "name": "age",
@@ -167,19 +167,19 @@
         "55-74 years": 4642,
         "75+ years": 4642
       },
-      "num_minimum": "null",
-      "num_1qu": "null",
-      "num_median": "null",
-      "num_mean": "null",
-      "num_3qu": "null",
-      "num_maximum": "null"
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
     },
     "suicides_no": {
       "name": "suicides_no",
       "type": "numerical",
       "number_of_unique_values": 2084,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 0,
       "num_1qu": 3,
       "num_median": 25,
@@ -192,7 +192,7 @@
       "type": "numerical",
       "number_of_unique_values": 25564,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 278,
       "num_1qu": 97498.5,
       "num_median": 430150,
@@ -205,7 +205,7 @@
       "type": "numerical",
       "number_of_unique_values": 5298,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 0,
       "num_1qu": 0.92,
       "num_median": 5.99,
@@ -2541,19 +2541,19 @@
         "Uzbekistan2013": 12,
         "Uzbekistan2014": 12
       },
-      "num_minimum": "null",
-      "num_1qu": "null",
-      "num_median": "null",
-      "num_mean": "null",
-      "num_3qu": "null",
-      "num_maximum": "null"
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
     },
     "HDI for year": {
       "name": "HDI for year",
       "type": "numerical",
       "number_of_unique_values": 305,
       "number_of_missing_values": 19456,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 0.483,
       "num_1qu": 0.713,
       "num_median": 0.779,
@@ -2566,7 +2566,7 @@
       "type": "numerical",
       "number_of_unique_values": 2321,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 46919625,
       "num_1qu": 8985352832,
       "num_median": 48114688201,
@@ -2579,7 +2579,7 @@
       "type": "numerical",
       "number_of_unique_values": 2233,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 251,
       "num_1qu": 3447,
       "num_median": 9372,
@@ -2600,12 +2600,12 @@
         "Millenials": 5844,
         "Silent": 6364
       },
-      "num_minimum": "null",
-      "num_1qu": "null",
-      "num_median": "null",
-      "num_mean": "null",
-      "num_3qu": "null",
-      "num_maximum": "null"
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
     }
   }
 }
