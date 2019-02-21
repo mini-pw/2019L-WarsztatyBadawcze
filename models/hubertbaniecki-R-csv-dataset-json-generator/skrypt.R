@@ -58,7 +58,7 @@ makeList <- function(dane, types) {
   ret <- list(
     "id" = paste(from, "_", someId, sep=""),
     "added_by" = "hubertbaniecki",
-    "date" = format(Sys.Date()),
+    "date" = format(Sys.Date(), format="%d-%m-%Y"),
     "name" = someName,
     "source" = from,
     "url" = URL,
