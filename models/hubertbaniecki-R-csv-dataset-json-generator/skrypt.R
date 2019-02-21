@@ -13,12 +13,12 @@ categoricalColumnToList <- function(column, name) {
                  "number_of_unique_values" = length(unique(rownames(table(column)))),
                  "number_of_missing_values" = sum(is.na(column)),
                  "cat_frequencies" = catFrequenciesList,
-                 "num_minimum" = "null",
-                 "num_1qu" = "null",
-                 "num_median" = "null",
-                 "num_mean" = "null",
-                 "num_3qu" = "null",
-                 "num_maximum" = "null")
+                 "num_minimum" = NA,
+                 "num_1qu" = NA,
+                 "num_median" = NA,
+                 "num_mean" = NA,
+                 "num_3qu" = NA,
+                 "num_maximum" = NA)
   ret
 }
 
@@ -29,7 +29,7 @@ numericalColumnToList <- function(column, name) {
                  "type" = "numerical",
                  "number_of_unique_values" = length(unique(rownames(table(column)))),
                  "number_of_missing_values" = sum(is.na(column)),
-                 "cat_frequencies" = "null",
+                 "cat_frequencies" = NA,
                  "num_minimum" = quantiles[[1]],
                  "num_1qu" = quantiles[[2]],
                  "num_median" = quantiles[[3]],
@@ -100,6 +100,6 @@ dane <- unknownToNA(dane, missing)
           ####################################
 
 x <- makeList(dane, types)
-y <- jsonlite::toJSON(x, pretty = TRUE, auto_unbox = TRUE)
+y <- jsonlite::toJSON(x, pretty = TRUE, auto_unbox = TRUE, .na = "null")
 write(y, "dataset.json")
 
