@@ -5,7 +5,7 @@
     "date": "21-02-2019",
     "name": "transplant",
     "source": "openml",
-    "url": "https://www.openml.org/d/161",
+    "url": "https://www.openml.org/d/885",
     "number_of_features": 4,
     "number_of_instances": 131,
     "number_of_missing_values": 0,
