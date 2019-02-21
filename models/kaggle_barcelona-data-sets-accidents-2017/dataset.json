@@ -27,12 +27,12 @@
         "Sants-Montjuic": 1104,
         "Sarria-Sant Gervasi": 1104
       },
-      "num_minimum": "null",
-      "num_1qu": "null",
-      "num_median": "null",
-      "num_mean": "null",
-      "num_3qu": "null",
-      "num_maximum": "null"
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
     },
     "Neighborhood Name": {
       "name": "Neighborhood Name",
@@ -114,12 +114,12 @@
         "Verdun": 24,
         "Vilapicina i la Torre Llobeta": 88
       },
-      "num_minimum": "null",
-      "num_1qu": "null",
-      "num_median": "null",
-      "num_mean": "null",
-      "num_3qu": "null",
-      "num_maximum": "null"
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
     },
     "Street": {
       "name": "Street",
@@ -4381,12 +4381,12 @@
         "Zona Franca / Sant Eloi": 1,
         "Zurbarán": 1
       },
-      "num_minimum": "null",
-      "num_1qu": "null",
-      "num_median": "null",
-      "num_mean": "null",
-      "num_3qu": "null",
-      "num_maximum": "null"
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
     },
     "Weekday": {
       "name": "Weekday",
@@ -4402,12 +4402,12 @@
         "Tuesday": 1691,
         "Wednesday": 1650
       },
-      "num_minimum": "null",
-      "num_1qu": "null",
-      "num_median": "null",
-      "num_mean": "null",
-      "num_3qu": "null",
-      "num_maximum": "null"
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
     },
     "Month": {
       "name": "Month",
@@ -4428,19 +4428,19 @@
         "October": 928,
         "September": 769
       },
-      "num_minimum": "null",
-      "num_1qu": "null",
-      "num_median": "null",
-      "num_mean": "null",
-      "num_3qu": "null",
-      "num_maximum": "null"
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
     },
     "Day": {
       "name": "Day",
       "type": "numerical",
       "number_of_unique_values": 31,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 1,
       "num_1qu": 8,
       "num_median": 16,
@@ -4453,7 +4453,7 @@
       "type": "numerical",
       "number_of_unique_values": 24,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 0,
       "num_1qu": 10,
       "num_median": 14,
@@ -4471,19 +4471,19 @@
         "Morning": 4067,
         "Night": 1190
       },
-      "num_minimum": "null",
-      "num_1qu": "null",
-      "num_median": "null",
-      "num_mean": "null",
-      "num_3qu": "null",
-      "num_maximum": "null"
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
     },
     "Mild injuries": {
       "name": "Mild injuries",
       "type": "numerical",
       "number_of_unique_values": 11,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 0,
       "num_1qu": 1,
       "num_median": 1,
@@ -4496,7 +4496,7 @@
       "type": "numerical",
       "number_of_unique_values": 4,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 0,
       "num_1qu": 0,
       "num_median": 0,
@@ -4509,7 +4509,7 @@
       "type": "numerical",
       "number_of_unique_values": 11,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 0,
       "num_1qu": 1,
       "num_median": 1,
@@ -4522,7 +4522,7 @@
       "type": "numerical",
       "number_of_unique_values": 14,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 0,
       "num_1qu": 2,
       "num_median": 2,
@@ -4535,7 +4535,7 @@
       "type": "numerical",
       "number_of_unique_values": 5492,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 2.0919,
       "num_1qu": 2.145,
       "num_median": 2.1634,
@@ -4548,7 +4548,7 @@
       "type": "numerical",
       "number_of_unique_values": 5442,
       "number_of_missing_values": 0,
-      "cat_frequencies": "null",
+      "cat_frequencies": null,
       "num_minimum": 41.3231,
       "num_1qu": 41.3863,
       "num_median": 41.3967,
