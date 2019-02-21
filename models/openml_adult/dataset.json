@@ -2,7 +2,7 @@
     {
         "id": "openml_adult",
         "added_by": "Siemashko",
-        "date": "20-02-2019",
+        "date": "21-02-2019",
         "name": "adult",
         "source": "openml",
         "url": "https://www.openml.org/d/1590",
@@ -294,8 +294,8 @@
                 "num_3qu": null,
                 "num_maximum": null
             },
-            "target": {
-                "name": "target",
+            "class": {
+                "name": "class",
                 "type": "categorical",
                 "number_of_unique_values": 2,
                 "number_of_missing_values": 0,

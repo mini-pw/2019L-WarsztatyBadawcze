@@ -2,7 +2,7 @@
     {
         "id": "openml_texture",
         "added_by": "Siemashko",
-        "date": "20-02-2019",
+        "date": "21-02-2019",
         "name": "texture",
         "source": "openml",
         "url": "https://www.openml.org/d/40499",
@@ -491,8 +491,8 @@
                 "num_3q": -0.3449999988079071,
                 "num_maximum": 0.4650000035762787
             },
-            "target": {
-                "name": "target",
+            "Class": {
+                "name": "Class",
                 "type": "categorical",
                 "number_of_unique_values": 11,
                 "number_of_missing_values": 0,

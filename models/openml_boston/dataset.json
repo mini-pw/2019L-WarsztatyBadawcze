@@ -2,7 +2,7 @@
     {
         "id": "openml_boston",
         "added_by": "Siemashko",
-        "date": "20-02-2019",
+        "date": "21-02-2019",
         "name": "boston",
         "source": "openml",
         "url": "https://www.openml.org/d/853",
@@ -171,8 +171,8 @@
                 "num_3q": 16.954999446868896,
                 "num_maximum": 37.970001220703125
             },
-            "target": {
-                "name": "target",
+            "binaryClass": {
+                "name": "binaryClass",
                 "type": "categorical",
                 "number_of_unique_values": 2,
                 "number_of_missing_values": 0,
