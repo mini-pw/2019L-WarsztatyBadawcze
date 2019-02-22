@@ -1,0 +1,64 @@
+[
+    {
+        "id": "ucimlr_habermans-survival",
+        "added_by": "DominikRafacz",
+        "date": "22-02-2019",
+        "name": "habermans-survival",
+        "source": "ucimlr",
+        "url": "https://archive.ics.uci.edu/ml/datasets/Haberman%27s+Survival",
+        "number_of_features": 4,
+        "number_of_instances": 306,
+        "number_of_missing_values": 0,
+        "number_of_instances_with_missing_values": 0,
+        "variables": {
+            "V1": {
+                "name": "V1",
+                "type": "numerical",
+                "number_of_unique_values": 49,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 30.0,
+                "num_1qu": 44.0,
+                "num_median": 52.0,
+                "num_3q": 60.75,
+                "num_maximum": 83.0
+            },
+            "V2": {
+                "name": "V2",
+                "type": "numerical",
+                "number_of_unique_values": 12,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 58.0,
+                "num_1qu": 60.0,
+                "num_median": 63.0,
+                "num_3q": 65.75,
+                "num_maximum": 69.0
+            },
+            "V3": {
+                "name": "V3",
+                "type": "numerical",
+                "number_of_unique_values": 31,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.0,
+                "num_1qu": 0.0,
+                "num_median": 1.0,
+                "num_3q": 4.0,
+                "num_maximum": 52
+            },
+            "V4": {
+                "name": "V4",
+                "type": "numerical",
+                "number_of_unique_values": 2,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 1.0,
+                "num_1qu": 1.0,
+                "num_median": 1.0,
+                "num_3q": 2.0,
+                "num_maximum": 2.0
+            }
+        }
+    }
+]
