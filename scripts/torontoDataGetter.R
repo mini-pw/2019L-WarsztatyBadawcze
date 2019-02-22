@@ -69,7 +69,7 @@ getTorontoDataset <- function(name, added_by) {
                      number_of_missing_values = sum(is.na(table)),
                      number_of_instances_with_missing_values = sum(apply(table, 1, function(x) any(is.na(x)))),
                      variables = variables)
-  json <- notYetJson %>% toJSON(auto_unbox = TRUE, pretty = TRUE)   # convert to JSON, make it legible
+  json <- list(notYetJson) %>% toJSON(auto_unbox = TRUE, pretty = TRUE)   # convert to JSON, make it legible
   dir.create(paste0("toronto_", name))
   write(json, paste0("./toronto_", name, "/dataset.json"))
 }
