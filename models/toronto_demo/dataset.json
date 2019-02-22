@@ -1,0 +1,88 @@
+{
+  "id": "toronto_demo",
+  "added_by": "MatiFilozof",
+  "date": "22-02-2019",
+  "name": "demo",
+  "source": "cs.toronto.edu",
+  "url": "http://www.cs.toronto.edu/~delve/data/demo/desc.html",
+  "number_of_features": 5,
+  "number_of_instances": 2048,
+  "number_of_missing_values": 0,
+  "number_of_instances_with_missing_values": 0,
+  "variables": {
+    "SEX": {
+      "name": "SEX",
+      "type": "categorical",
+      "number_of_unique_values": 2,
+      "number_of_missing_values": 0,
+      "cat_frequencies": {
+        "female": 1099,
+        "male": 949
+      },
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
+    },
+    "AGE": {
+      "name": "AGE",
+      "type": "numerical",
+      "number_of_unique_values": 689,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": 0,
+      "num_1qu": 10.675,
+      "num_median": 23.1,
+      "num_mean": 27.8727,
+      "num_3qu": 39.425,
+      "num_maximum": 146.4
+    },
+    "SIBLINGS": {
+      "name": "SIBLINGS",
+      "type": "numerical",
+      "number_of_unique_values": 21,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": 0,
+      "num_1qu": 0,
+      "num_median": 1,
+      "num_mean": 2.0537,
+      "num_3qu": 3,
+      "num_maximum": 24
+    },
+    "INCOME": {
+      "name": "INCOME",
+      "type": "numerical",
+      "number_of_unique_values": 1795,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": 0,
+      "num_1qu": 593.25,
+      "num_median": 2925,
+      "num_mean": 13105.1729,
+      "num_3qu": 16323,
+      "num_maximum": 205578
+    },
+    "COLOUR": {
+      "name": "COLOUR",
+      "type": "categorical",
+      "number_of_unique_values": 5,
+      "number_of_missing_values": 0,
+      "cat_frequencies": {
+        "blue": 635,
+        "green": 385,
+        "pink": 317,
+        "purple": 210,
+        "red": 501
+      },
+      "num_minimum": null,
+      "num_1qu": null,
+      "num_median": null,
+      "num_mean": null,
+      "num_3qu": null,
+      "num_maximum": null
+    }
+  }
+}
