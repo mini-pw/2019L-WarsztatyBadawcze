@@ -1,6 +1,6 @@
 # Warsztaty Badawcze Lato 2018/2019
 
-[![Build Status](https://api.travis-ci.org/pbiecek/CaseStudies2019S.png)](https://travis-ci.org/pbiecek/CaseStudies2019S)
+[![Build Status](https://travis-ci.org/mini-pw/2019L-WarsztatyBadawcze.svg?branch=master)](https://travis-ci.org/mini-pw/2019L-WarsztatyBadawcze)
 
 Strona przedmiotu Warsztaty Badawcze dla specjalności IAD na wydziale MiNI PW
 
