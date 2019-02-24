@@ -1,0 +1,185 @@
+[
+  {
+    "id": "openml_tic-tac-toe",
+    "added_by": "pysiakk",
+    "date": "24-02-2019",
+    "name": "tic-tac-toe",
+    "source": "openml",
+    "url": "https://www.openml.org/d/50",
+    "number_of_features": 10,
+    "number_of_instances": 958,
+    "number_of_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "variables": {
+      "top.left.square": {
+        "name": "top.left.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 205,
+          "o": 335,
+          "x": 418
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "top.middle.square": {
+        "name": "top.middle.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 250,
+          "o": 330,
+          "x": 378
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "top.right.square": {
+        "name": "top.right.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 205,
+          "o": 335,
+          "x": 418
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "middle.left.square": {
+        "name": "middle.left.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 250,
+          "o": 330,
+          "x": 378
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "middle.middle.square": {
+        "name": "middle.middle.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 160,
+          "o": 340,
+          "x": 458
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "middle.right.square": {
+        "name": "middle.right.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 250,
+          "o": 330,
+          "x": 378
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "bottom.left.square": {
+        "name": "bottom.left.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 205,
+          "o": 335,
+          "x": 418
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "bottom.middle.square": {
+        "name": "bottom.middle.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 250,
+          "o": 330,
+          "x": 378
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "bottom.right.square": {
+        "name": "bottom.right.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 205,
+          "o": 335,
+          "x": 418
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Class": {
+        "name": "Class",
+        "type": "nominal",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "positive": 332,
+          "negative": 626
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+    }
+  }
+] 

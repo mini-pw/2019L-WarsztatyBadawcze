@@ -1,0 +1,98 @@
+[
+  {
+    "id": "openml_phoneme",
+    "added_by": "pysiakk",
+    "date": "24-02-2019",
+    "name": "phoneme",
+    "source": "openml",
+    "url": "https://www.openml.org/d/1489",
+    "number_of_features": 6,
+    "number_of_instances": 5404,
+    "number_of_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "variables": {
+      "V1": {
+        "name": "V1",
+        "type": "numeric",
+        "number_of_unique_values": 5336,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.9337,
+        "num_1qu": -0.6698,
+        "num_median": -0.3802,
+        "num_mean": 0.0000,
+        "num_3qu": 0.3149,
+        "num_maximum": 3.8286
+      },
+      "V2": {
+        "name": "V2",
+        "type": "numeric",
+        "number_of_unique_values": 5312,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -3.0387,
+        "num_1qu": -0.7791,
+        "num_median": -0.2151,
+        "num_mean": 0.0000,
+        "num_3qu": 0.7137,
+        "num_maximum": 3.6648
+      },
+      "V3":{
+        "name": "V3",
+        "type": "numeric",
+        "number_of_unique_values": 5308,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.79587,
+        "num_1qu": -0.95058,
+        "num_median": -0.03862,
+        "num_mean": 0.00000,
+        "num_3qu": 0.77714,
+        "num_maximum": 2.63087
+      },
+      "V4": {
+        "name": "V4",
+        "type": "numeric",
+        "number_of_unique_values": 5336,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.4853,
+        "num_1qu": -0.7583,
+        "num_median": -0.1423,
+        "num_mean": 0.0000,
+        "num_3qu": 0.6759,
+        "num_maximum": 3.0469
+      },
+      "V5": {
+        "name": "V5",
+        "type": "numeric",
+        "number_of_unique_values": 4499,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.3675,
+        "num_1qu": -0.5405,
+        "num_median": -0.2127,
+        "num_mean": 0.0000,
+        "num_3qu": 0.2045,
+        "num_maximum": 4.5867
+      },
+      "Class": {
+        "name": "Class",
+        "type": "nominal",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 3818,
+          "2": 1586
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+] 
