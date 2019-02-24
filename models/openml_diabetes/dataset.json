@@ -1,0 +1,136 @@
+[
+  {
+    "id": "openml_diabetes",
+    "added_by": "GoniaW",
+    "date": "21-02-2019",
+    "name": "diabetes",
+    "source": "openml",
+    "url": "https://www.openml.org/d/37",
+    "number_of_features": 9,
+    "number_of_instances": 768,
+    "number_of_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "variables": {
+      "preg": {
+        "name": "preg",
+        "type": "numerical",
+        "number_of_unique_values": 17,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 3,
+        "num_mean": 3.845,
+        "num_3qu": 6,
+        "num_maximum": 17
+      },
+      "plas": {
+        "name": "plas",
+        "type": "numerical",
+        "number_of_unique_values": 136,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 99,
+        "num_median": 117,
+        "num_mean": 120.9,
+        "num_3qu": 140.2,
+        "num_maximum": 199
+      },
+      "pres":{
+        "name": "pres",
+        "type": "numerical",
+        "number_of_unique_values": 47,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 62,
+        "num_median": 72,
+        "num_mean": 69.11,
+        "num_3qu": 80,
+        "num_maximum": 122
+      },
+      "skin": {
+        "name": "skin",
+        "type": "numerical",
+        "number_of_unique_values": 51,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 23,
+        "num_mean": 20.54,
+        "num_3qu": 32,
+        "num_maximum": 99
+      },
+      "insu": {
+        "name": "insu",
+        "type": "numerical",
+        "number_of_unique_values": 186,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 30.5,
+        "num_mean": 79.8,
+        "num_3qu": 127.2,
+        "num_maximum": 846
+      },
+      "mass": {
+        "name": "mass",
+        "type": "numerical",
+        "number_of_unique_values": 248,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 27.3,
+        "num_median": 32,
+        "num_mean": 31.99,
+        "num_3qu": 36.6,
+        "num_maximum": 67.1
+      },
+      "pedi": {
+        "name": "pedi",
+        "type": "numerical",
+        "number_of_unique_values": 517,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.0780,
+        "num_1qu": 0.2437,
+        "num_median": 0.3725,
+        "num_mean": 0.4719,
+        "num_3qu": 0.6262,
+        "num_maximum": 2.4200
+      },
+      "age": {
+        "name": "age",
+        "type": "numerical",
+        "number_of_unique_values": 52,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 21,
+        "num_1qu": 24,
+        "num_median": 29,
+        "num_mean": 33.24,
+        "num_3qu": 41,
+        "num_maximum": 81
+      },
+      "class": {
+        "name": "class",
+        "type": "nominal",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 500,
+          "2": 268
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+] 
