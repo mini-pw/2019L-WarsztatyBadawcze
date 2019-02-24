@@ -8,3 +8,4 @@ install:
 
 script:
   - Rscript tests/json_validation.R
+
