@@ -1,6 +1,17 @@
 [
     {
+              
+        "id": "openml_volcanoes-e1",
+        "added_by": "airi314",
+        "date": "24-02-2019",
         "name": "volcanoes-e1",
+        "source": "openml",
+        "url": "https://www.openml.org/d/1542",
+        "number_of_features": 4,
+        "number_of_instances": 1183,
+        "number_of_missing_values": 0,
+        "number_of_instances_with_missing_values": 0,
+        
         "variables": {
             "V1": {
                 "name": "V1",
@@ -57,15 +68,7 @@
                 "num_3q": 0.47931449115276337,
                 "num_median": 0.41487500071525574
             }
-        },
-        "number_of_missing_values": 0,
-        "id": "openml_volcanoes-e1",
-        "url": "https://www.openml.org/d/1542",
-        "added_by": "airi314",
-        "number_of_instances_with_missing_values": 0,
-        "source": "openml",
-        "number_of_features": 4,
-        "number_of_instances": 1183,
-        "date": "24-02-2019"
+        }
+
     }
 ]

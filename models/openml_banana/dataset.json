@@ -1,6 +1,17 @@
 [
     {
+      
+        "id": "openml_banana",
+        "added_by": "airi314",
+        "date": "24-02-2019",
         "name": "banana",
+        "source": "openml",
+        "url": "https://www.openml.org/d/1460",
+        "number_of_features": 3,
+        "number_of_instances": 5300,
+        "number_of_missing_values": 0,
+        "number_of_instances_with_missing_values": 0,
+        
         "variables": {
             "V1": {
                 "name": "V1",
@@ -42,15 +53,7 @@
                 "num_3q": 0.8225000202655792,
                 "num_median": -0.03720000013709068
             }
-        },
-        "number_of_missing_values": 0,
-        "id": "openml_banana",
-        "url": "https://www.openml.org/d/1460",
-        "added_by": "airi314",
-        "number_of_instances_with_missing_values": 0,
-        "source": "openml",
-        "number_of_features": 3,
-        "number_of_instances": 5300,
-        "date": "24-02-2019"
+        }
+        
     }
 ]

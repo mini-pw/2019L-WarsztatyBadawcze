@@ -1,6 +1,15 @@
 [
     {
+        "id": "openml_abalone",
+        "added_by": "airi314",
+        "date": "24-02-2019",
         "name": "abalone",
+        "source": "openml",
+        "url": "https://www.openml.org/d/183",
+        "number_of_features": 9,
+        "number_of_instances": 4177,
+        "number_of_missing_values": 0,
+        "number_of_instances_with_missing_values": 0,
         "variables": {
             "Sex": {
                 "name": "Sex",
@@ -145,15 +154,6 @@
                 "num_3q": 1.152999997138977,
                 "num_median": 0.7994999885559082
             }
-        },
-        "number_of_missing_values": 0,
-        "id": "openml_abalone",
-        "url": "https://www.openml.org/d/183",
-        "added_by": "airi314",
-        "number_of_instances_with_missing_values": 0,
-        "source": "openml",
-        "number_of_features": 9,
-        "number_of_instances": 4177,
-        "date": "24-02-2019"
+        }
     }
 ]
