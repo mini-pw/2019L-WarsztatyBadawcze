@@ -1,7 +1,7 @@
 [
     {
         "id": "openml_Satellite",
-        "added_by": "Siemashko",
+        "added_by": "WojciechKretowicz",
         "date": "25-02-2019",
         "name": "Satellite",
         "source": "openml",
