@@ -25,7 +25,7 @@
         "num_maximum": 187
       },
       "sleep_state": {
-        "name": "selector",
+        "name": "sleep_state",
         "type": "categorical",
         "number_of_unique_values": 4,
         "number_of_missing_values": 0,
