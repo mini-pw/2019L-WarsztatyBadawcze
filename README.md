@@ -12,8 +12,8 @@ Strona przedmiotu Warsztaty Badawcze dla specjalności IAD na wydziale MiNI PW
 
 # Tematy spotkań
 
-* [1] W: Wprowadzenie do [OpenML](https://www.openml.org/), [interfejsu do OpenML](https://github.com/openml/openml-r) i bibliotek do trenowania modeli ([caret](http://topepo.github.io/caret/index.html), [mlr](https://mlr.mlr-org.com/), [parsnip](https://tidymodels.github.io/parsnip/))
-* [2] W: Modele niskowymiarowe ([lm](https://www.youtube.com/watch?v=Q4GNLhRtZNc&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=18), [regresja logistyczna](https://www.youtube.com/watch?v=-la3q9d7AKQ&index=32&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), drzewa, [svm](https://www.youtube.com/watch?v=hCOIMkcsm_g&index=70&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN))
+* [1] W: Wprowadzenie do [OpenML](https://www.openml.org/), [interfejsu do OpenML](https://github.com/openml/openml-r)
+* [2] W: Modele niskowymiarowe ([lm](https://www.youtube.com/watch?v=Q4GNLhRtZNc&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=18), [regresja logistyczna](https://www.youtube.com/watch?v=-la3q9d7AKQ&index=32&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), drzewa, [svm](https://www.youtube.com/watch?v=hCOIMkcsm_g&index=70&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)). Wprowadzenie do bibliotek do trenowania modeli ([caret](http://topepo.github.io/caret/index.html), [mlr](https://mlr.mlr-org.com/), [parsnip](https://tidymodels.github.io/parsnip/))
 * [4] W: Miary oceny modelu (loss functions, CV)
 * [3] W: Modele wysoko wymiarowe (lasy, xgboost, [sieci neuronowe](https://www.youtube.com/watch?v=1ZhtwInuOD0&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=43))
 * [5] W: Strategie doboru hiperparametrów (random search, grid search, [mlrMBO](http://mlrmbo.mlr-org.com))
