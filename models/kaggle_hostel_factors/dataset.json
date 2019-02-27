@@ -1,4 +1,5 @@
-{
+[
+  {
   "id": "kaggle_hostel_factors",
   "added_by": "bogdanjastrzebski",
   "date": "26-02-2019",
@@ -187,3 +188,4 @@
     }
   }
 }
+]
