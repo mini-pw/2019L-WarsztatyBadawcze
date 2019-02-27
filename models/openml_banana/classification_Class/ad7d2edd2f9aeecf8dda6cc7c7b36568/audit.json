@@ -1,5 +1,3 @@
-
-14 lines (14 sloc) 333 Bytes
 [
   {
     "id": "audit_6ad7d2edd2f9aeecf8dda6cc7c7b36568",
@@ -13,4 +11,4 @@
       "AUC": 0.9661421
     }
   }
-] 
+]
