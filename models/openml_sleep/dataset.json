@@ -1,0 +1,112 @@
+[
+    {
+        "id": "openml_sleep",
+        "added_by": "granatb",
+        "date": "27-02-2019",
+        "name": "sleep",
+        "source": "openml",
+        "url": "https://www.openml.org/d/205",
+        "number_of_features": 8,
+        "number_of_instances": 62,
+        "number_of_missing_values": 12,
+        "number_of_instances_with_missing_values": 11,
+        "variables": {
+            "body_weight": {
+                "name": "body_weight",
+                "type": "numerical",
+                "number_of_unique_values": 60,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.004999999888241291,
+                "num_1qu": 0.6000000089406967,
+                "num_median": 3.3424999713897705,
+                "num_3q": 48.202500343322754,
+                "num_maximum": 6654.0
+            },
+            "brain_weight": {
+                "name": "brain_weight",
+                "type": "numerical",
+                "number_of_unique_values": 59,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.14000000059604645,
+                "num_1qu": 4.25,
+                "num_median": 17.25,
+                "num_3q": 166.0,
+                "num_maximum": 5712.0
+            },
+            "max_life_span": {
+                "name": "max_life_span",
+                "type": "numerical",
+                "number_of_unique_values": 47,
+                "number_of_missing_values": 4,
+                "cat_frequencies": null,
+                "num_minimum": 2.0,
+                "num_1qu": 6.625,
+                "num_median": 15.100000381469727,
+                "num_3q": 27.75,
+                "num_maximum": 100.0
+            },
+            "gestation_time": {
+                "name": "gestation_time",
+                "type": "numerical",
+                "number_of_unique_values": 49,
+                "number_of_missing_values": 4,
+                "cat_frequencies": null,
+                "num_minimum": 12.0,
+                "num_1qu": 35.75,
+                "num_median": 79.0,
+                "num_3q": 207.5,
+                "num_maximum": 645.0
+            },
+            "predation_index": {
+                "name": "predation_index",
+                "type": "numerical",
+                "number_of_unique_values": 5,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 1.0,
+                "num_1qu": 2.0,
+                "num_median": 3.0,
+                "num_3q": 4.0,
+                "num_maximum": 5.0
+            },
+            "sleep_exposure_index": {
+                "name": "sleep_exposure_index",
+                "type": "numerical",
+                "number_of_unique_values": 5,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 1.0,
+                "num_1qu": 1.0,
+                "num_median": 2.0,
+                "num_3q": 4.0,
+                "num_maximum": 5.0
+            },
+            "total_sleep": {
+                "name": "total_sleep",
+                "type": "numerical",
+                "number_of_unique_values": 44,
+                "number_of_missing_values": 4,
+                "cat_frequencies": null,
+                "num_minimum": 2.5999999046325684,
+                "num_1qu": 8.049999952316284,
+                "num_median": 10.450000286102295,
+                "num_3q": 13.199999809265137,
+                "num_maximum": 19.899999618530273
+            },
+            "danger_index": {
+                "name": "danger_index",
+                "type": "numerical",
+                "number_of_unique_values": 5,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 1.0,
+                "num_1qu": 1.0,
+                "num_median": 2.0,
+                "num_3q": 4.0,
+                "num_maximum": 5.0
+            }
+        }
+    }
+]

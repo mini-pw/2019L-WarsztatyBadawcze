@@ -38,7 +38,7 @@
         "num_maximum": 138
       },
       "sqpt":{
-        "name": "sgpt",
+        "name": "sqpt",
         "type": "numerical",
         "number_of_unique_values": 67,
         "number_of_missing_values": 0,
