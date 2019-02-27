@@ -1,0 +1,14 @@
+[
+  {
+    "id": "audit_0e248702ee967ea380294b26423d6b1a",
+    "date": "27-02-2019",
+    "added_by": "Pastuszka",
+    "model_id": "0e248702ee967ea380294b26423d6b1a",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_banknote-authentication",
+    "performance": {
+      "ACC":  0.9970856,
+      "AUC": 1.0000000
+    }
+  }
+] 
