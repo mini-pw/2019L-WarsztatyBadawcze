@@ -1,10 +1,12 @@
 # Data Sets
 
-## Number of data sets: 46
+## Number of data sets: 57
 
 |name                                |source         | features| instances| missing_values|
 |:-----------------------------------|:--------------|--------:|---------:|--------------:|
+|Affairs                             |kaggle         |       10|      6366|              0|
 |Barcelona data sets                 |kaggle         |       14|     10339|             27|
+|Beauty                              |kaggle         |       10|      1260|              0|
 |heart-disease                       |kaggle         |       14|       100|              0|
 |Multidimensional Poverty Measures   |kaggle         |        8|       102|              0|
 |pokemon                             |kaggle         |       12|       800|            386|
@@ -15,6 +17,8 @@
 |Gender Recognition by voice         |kaggle         |       21|      3168|              0|
 |abalone                             |openml         |        9|      4177|              0|
 |adult                               |openml         |       15|     48842|           3620|
+|aids                                |openml         |        5|        50|              0|
+|arcene                              |openml         |    10001|       200|              0|
 |artificial-characters               |openml         |        8|     10218|              0|
 |auto_price                          |openml         |       16|       159|              0|
 |banana                              |openml         |        3|      5300|              0|
@@ -24,14 +28,18 @@
 |BNG-credit-g                        |openml         |       21|   1000000|              0|
 |boston                              |openml         |       14|       506|              0|
 |credit-g                            |openml         |       21|      1000|              0|
+|dermatology                         |openml         |       35|       366|              8|
 |diabetes                            |openml         |        9|       768|              0|
 |electricity                         |openml         |        9|     45312|              0|
+|fertility                           |openml         |       10|       100|              0|
 |glass                               |openml         |       10|       214|              0|
 |haberman                            |openml         |        4|       306|              0|
 |humandevel                          |openml         |        4|       131|              0|
 |irish                               |openml         |        6|       500|             32|
+|isolet                              |openml         |      618|      7797|              0|
 |kr-vs-kp                            |openml         |       37|      3196|              0|
 |liver-disorders                     |openml         |        6|       345|              0|
+|lupus                               |openml         |        4|        87|              0|
 |monk-problems-1                     |openml         |        7|       556|              0|
 |monk                                |openml         |        7|       601|              0|
 |monk-problems-3                     |openml         |        7|       554|              0|
@@ -39,10 +47,13 @@
 |ozone-level-8hr                     |openml         |       73|      2534|              0|
 |phoneme                             |openml         |        6|      5404|              0|
 |PopularKids                         |openml         |       11|       478|              0|
+|prnn_synth                          |openml         |        3|       250|              0|
 |profb                               |openml         |       10|       672|            666|
+|rmftsa_sleepdata                    |openml         |        3|      1024|              0|
 |Satellite                           |openml         |       37|      5100|              0|
 |SEA(50)                             |openml         |        4|   1000000|              0|
 |skin-segmentation                   |openml         |        4|    245057|              0|
+|SpeedDating                         |openml         |      123|      8378|              0|
 |stock                               |openml         |       10|       950|              0|
 |texture                             |openml         |       41|      5500|              0|
 |tic-tac-toe                         |openml         |       10|       958|              0|

@@ -1,6 +1,7 @@
 library(testthat)
 library(jsonlite)
 library(readr)
+library(dplyr)
 
 json_files <- list.files(pattern = "dataset.json$", recursive = TRUE)
 dataset_files <- json_files[grepl("^models/", json_files)]
