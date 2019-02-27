@@ -1,0 +1,58 @@
+[
+  {
+    "id": "openml_prnn-synth",
+    "added_by": "Pastuszka",
+    "date": "23-02-2019",
+    "name": "prnn_synth",
+    "source": "openml",
+    "url": "https://www.openml.org/d/464",
+    "number_of_features": 3,
+    "number_of_instances": 250,
+    "number_of_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "variables": {
+      "xs": {
+        "name": "xs",
+        "type": "numerical",
+        "number_of_unique_values": 250,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.24652451,
+        "num_1qu": -0.5092338,
+        "num_median": -0.041833635,
+        "num_mean": -0.0727579616,
+        "num_3qu": 0.3699636425,
+        "num_maximum": 0.8612962
+      },
+      "ys": {
+        "name": "ys",
+        "type": "numerical",
+        "number_of_unique_values": 250,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.19131316,
+        "num_1qu": 0.3233652325,
+        "num_median": 0.489827335,
+        "num_mean": 0.50436192692,
+        "num_3qu": 0.7043904125,
+        "num_maximum": 1.09317811
+      },
+      "yc": {
+        "name": "yc",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 125,
+          "1": 125
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+  ] 
