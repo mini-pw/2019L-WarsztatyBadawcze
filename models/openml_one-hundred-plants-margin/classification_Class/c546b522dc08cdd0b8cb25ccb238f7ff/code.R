@@ -2,6 +2,7 @@
 library(digest)
 library(OpenML)
 library(mlr)
+library(farff)
 
 #:# config
 set.seed(42)
@@ -19,7 +20,7 @@ classif_task <- makeClassifTask(id = "plants", data = plants, target = "Class")
 classif_lrn <- makeLearner("classif.ranger", predict.type = "prob")
 
 #:# hash 
-#:# 4854f305f42ae8beb4f19d3de2ba2d8e
+#:# c546b522dc08cdd0b8cb25ccb238f7ff
 hash <- digest(classif_lrn)
 hash
 
