@@ -20,7 +20,7 @@ classif_lrn = makeLearner("classif.glmnet", predict.type = "prob")
 
 #:# hash 
 #:# 61e76ce015f3433786f04c2700266f89
-hash <- digest(classif.lrn)
+hash <- digest(classif_lrn)
 hash
 
 #:# audit
