@@ -8,7 +8,7 @@
   	"autoencoder": false,
 "use_all_factor_level": true,
 "activation": "Rectifier",
-"hidden": 200 200,
+"hidden": "200 200",
 "epochs": 10,
 "train_samples_per_iteration": -2,
 "seed": null,
