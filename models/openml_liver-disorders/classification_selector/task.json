@@ -1,6 +1,6 @@
 [
   {
-    "id": "regression_drinks",
+    "id": "classification_selector",
     "added_by": "agosiewska",
     "date": "12-02-2019",
     "dataset_id": "openml_liver-disorders",

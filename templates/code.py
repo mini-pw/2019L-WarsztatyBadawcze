@@ -64,7 +64,7 @@ print(f'Area under ROC: {roc_auc_score(y_test, y_pred_proba)}')
 
 #:# session info
 
-# Dodaj wersję pythona w session info
+# Dodaj wersję pythona w session info - DONE
 
 sessionInfo = {
     "python_version": python_version(),
