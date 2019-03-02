@@ -64,6 +64,10 @@ E.g. JSON for model should have name `model.json` not `c1994bdb7ecb3c6f3c8f3b35f
 
 Example: [dataset.json](dataset.json)
 
+[Script for automatic generation of a JSON file for data from OpenML (Python).](/scripts/generate_dataset_json_siemashko.ipynb)
+
+[Script for generation of a JSON file for from csv file (R).](/scripts/generate_dataset_json_hubertbaniecki.R)
+
 Structure of dataset.json:
 - id - id of the data set, naming convention is the same as for folder with data set (`source_name`),
 - name - name of the data set in the source,
