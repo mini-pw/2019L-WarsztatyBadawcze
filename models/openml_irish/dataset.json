@@ -86,12 +86,12 @@
         "number_of_unique_values": 28,
         "number_of_missing_values": 26,
         "cat_frequencies": null,
-        "num_minimum": 1,
-        "num_1qu": 4,
-        "num_median": 10,
-        "num_mean": 10.74,
-        "num_3qu": 14,
-        "num_maximum": 29
+        "num_minimum": 18,
+        "num_1qu": 28,
+        "num_median": 37,
+        "num_mean": 38.9345991561181,
+        "num_3qu": 46,
+        "num_maximum": 75
       },
       "Type_school": {
         "name": "Type_school",
