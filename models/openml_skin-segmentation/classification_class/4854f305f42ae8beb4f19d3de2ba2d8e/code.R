@@ -16,7 +16,7 @@ head(skin_seg)
 
 #:# model
 classif_task = makeClassifTask(data = skin_seg, target = "Class")
-classif_lrn = makeLearner("classif.randomForestSRC", predict.type = "prob")
+classif_lrn = makeLearner("classif.logreg", predict.type = "prob")
 
 #:# hash 
 #:# 4854f305f42ae8beb4f19d3de2ba2d8e
