@@ -1,0 +1,10 @@
+[
+  {
+    "id": "toronto_image-seg",
+    "added_by": "MatiFilozof",
+    "date": "03-03-2019",
+    "dataset_id": "image-seg",
+    "type": "regression",
+    "target": "vedge.mean"
+  }
+]

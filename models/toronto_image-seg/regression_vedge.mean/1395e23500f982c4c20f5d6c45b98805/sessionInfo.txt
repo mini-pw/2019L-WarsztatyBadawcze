@@ -1,0 +1,28 @@
+R version 3.5.1 (2018-07-02)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows >= 8 x64 (build 9200)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=Polish_Poland.1250  LC_CTYPE=Polish_Poland.1250    LC_MONETARY=Polish_Poland.1250 LC_NUMERIC=C                  
+[5] LC_TIME=Polish_Poland.1250    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] digest_0.6.15        mlr_2.12.1           ParamHelpers_1.11    reader_1.0.6         NCmisc_1.1.5         purrr_0.2.5         
+ [7] jsonlite_1.5         knitr_1.20           DataExplorer_0.6.0   dataMaid_1.1.2       ggplot2_3.0.0        RevoUtils_11.0.1    
+[13] RevoUtilsMath_11.0.0
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_0.12.18        lattice_0.20-35     assertthat_0.2.0    rprojroot_1.3-2     R6_2.2.2            plyr_1.8.4          backports_1.1.2    
+ [8] evaluate_0.11       pillar_1.3.0        rlang_0.2.1         lazyeval_0.2.1      data.table_1.11.4   rpart_4.1-13        Matrix_1.2-14      
+[15] checkmate_1.8.5     rmarkdown_1.10      labeling_0.3        splines_3.5.1       stringr_1.3.1       pander_0.6.2        htmlwidgets_1.2    
+[22] igraph_1.2.2        munsell_0.5.0       compiler_3.5.1      pkgconfig_2.0.1     BBmisc_1.11         htmltools_0.3.6     tidyselect_0.2.4   
+[29] tibble_1.4.2        gridExtra_2.3       randomForest_4.6-14 XML_3.98-1.12       crayon_1.3.4        dplyr_0.7.6         withr_2.1.2        
+[36] grid_3.5.1          gtable_0.2.0        magrittr_1.5        scales_0.5.0        stringi_1.1.7       proftools_0.99-2    parallelMap_1.3    
+[43] bindrcpp_0.2.2      robustbase_0.93-2   fastmatch_1.1-0     tools_3.5.1         forcats_0.3.0       glue_1.3.0          DEoptimR_1.0-8     
+[50] hms_0.4.2           networkD3_0.4       parallel_3.5.1      survival_2.42-3     yaml_2.2.0          colorspace_1.3-2    bindr_0.1.1        
+[57] haven_1.1.2        
