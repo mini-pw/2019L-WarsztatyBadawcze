@@ -164,8 +164,8 @@ createTorontoTask <- function(name, added_by, target, learner, measures = list(a
   
   hash <- digest(learner)
   toAuditJson <- list(id = paste0("audit_", hash),
-                      added_by = added_by,
                       date = format(Sys.Date(), "%d-%m-%Y"),
+                      added_by = added_by,
                       model_id = hash,
                       task_id = paste0(type, "_", target),
                       dataset_id = paste0("toronto_", name),
