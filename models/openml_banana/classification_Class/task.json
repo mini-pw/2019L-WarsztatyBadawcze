@@ -2,7 +2,7 @@
   {
     "id": "classification_Class",
     "added_by": "airi314",
-    "date": "27-02-2019",
+    "date": "03-03-2019",
     "dataset_id": "openml_banana",
     "type": "classification",
     "target": "Class"
