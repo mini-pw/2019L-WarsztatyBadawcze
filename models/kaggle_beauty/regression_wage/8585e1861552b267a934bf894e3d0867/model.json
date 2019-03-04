@@ -75,7 +75,7 @@
       "num_median": null,
       "num_mean": null,
       "num_3qu": null,
-"num_maximum": null
+      "num_maximum": null
     },
     "female": {
       "name": "female",
@@ -91,6 +91,7 @@
       "num_median": null,
       "num_mean": null,
       "num_3qu": null,
+      "num_maximum": null
     },
     "married": {
       "name": "married",
@@ -106,6 +107,7 @@
       "num_median": null,
       "num_mean": null,
       "num_3qu": null,
+      "num_maximum": null
     },
     "service": {
       "name": "service",
@@ -121,6 +123,7 @@
       "num_median": null,
       "num_mean": null,
       "num_3qu": null,
+      "num_maximum": null
     },
     "educ": {
       "name": "educ",
