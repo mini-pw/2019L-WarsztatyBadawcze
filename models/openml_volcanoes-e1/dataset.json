@@ -1,0 +1,74 @@
+[
+    {
+              
+        "id": "openml_volcanoes-e1",
+        "added_by": "airi314",
+        "date": "24-02-2019",
+        "name": "volcanoes-e1",
+        "source": "openml",
+        "url": "https://www.openml.org/d/1542",
+        "number_of_features": 4,
+        "number_of_instances": 1183,
+        "number_of_missing_values": 0,
+        "number_of_instances_with_missing_values": 0,
+        
+        "variables": {
+            "V1": {
+                "name": "V1",
+                "num_1qu": 307.5,
+                "number_of_missing_values": 0,
+                "type": "numerical",
+                "cat_frequencies": null,
+                "number_of_unique_values": 669,
+                "num_maximum": 1005.0,
+                "num_minimum": 16.0,
+                "num_3q": 780.5,
+                "num_median": 536.0
+            },
+            "Class": {
+                "name": "Class",
+                "num_1qu": null,
+                "number_of_missing_values": 0,
+                "num_mean": null,
+                "type": "categorical",
+                "cat_frequencies": {
+                    "1": 9,
+                    "2": 21,
+                    "0": 1083,
+                    "3": 49,
+                    "4": 21
+                },
+                "number_of_unique_values": 5,
+                "num_maximum": null,
+                "num_minimum": null,
+                "num_3qu": null,
+                "num_median": null
+            },
+            "V2": {
+                "name": "V2",
+                "num_1qu": 242.5,
+                "number_of_missing_values": 0,
+                "type": "numerical",
+                "cat_frequencies": null,
+                "number_of_unique_values": 682,
+                "num_maximum": 1006.0,
+                "num_minimum": 16.0,
+                "num_3q": 735.0,
+                "num_median": 471.0
+            },
+            "V3": {
+                "name": "V3",
+                "num_1qu": 0.3761865049600601,
+                "number_of_missing_values": 0,
+                "type": "numerical",
+                "cat_frequencies": null,
+                "number_of_unique_values": 1178,
+                "num_maximum": 0.7754690051078796,
+                "num_minimum": 0.3500179946422577,
+                "num_3q": 0.47931449115276337,
+                "num_median": 0.41487500071525574
+            }
+        }
+
+    }
+]
