@@ -1,0 +1,13 @@
+[
+  {
+    "id": "audit_6a67bcde2a248865705df75dfec11d49",
+    "date": "05-03-2019",
+    "added_by": "maksymiuks",
+    "model_id": "6a67bcde2a248865705df75dfec11d49",
+    "task_id": "classification_STATUS",
+    "dataset_id": "openml_lupus",
+    "performance": {
+      "MSE": 0.3235
+    }
+  }
+]
