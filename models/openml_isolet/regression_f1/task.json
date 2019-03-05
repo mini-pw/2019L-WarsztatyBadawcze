@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_f1",
+    "added_by": "maksymiuks",
+    "date": "05-03-2019",
+    "dataset_id": "openml_isolet",
+    "type": "regression",
+    "target": "f1"
+  }
+]
