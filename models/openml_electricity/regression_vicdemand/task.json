@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_vicdemand",
+    "added_by": "pysiakk",
+    "date": "02-03-2019",
+    "dataset_id": "openml_electricity",
+    "type": "regression",
+    "target": "vicdemand"
+  }
+] 
