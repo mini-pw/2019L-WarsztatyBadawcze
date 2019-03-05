@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_day",
+    "added_by": "pysiakk",
+    "date": "02-03-2019",
+    "dataset_id": "openml_electricity",
+    "type": "classification",
+    "target": "class"
+  }
+] 

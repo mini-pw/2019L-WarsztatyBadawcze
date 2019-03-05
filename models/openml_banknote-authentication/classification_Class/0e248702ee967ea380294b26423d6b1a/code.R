@@ -7,19 +7,19 @@ library(mlr)
 set.seed(1)
 
 #:# data
-liver_disorders <- getOMLDataSet(data.id = 8L)
-liver <- liver_disorders$data
-head(liver)
+banknote_authentication <- getOMLDataSet(data.id = 1462L)
+banknote <- banknote_authentication$data
+head(banknote)
 
 #:# preprocessing
-head(liver)
+head(banknote)
 
 #:# model
-classif_task = makeClassifTask(id = "lvr", data = liver, target = "selector")
-classif_lrn = makeLearner("classif.glmnet", predict.type = "prob")
+classif_task = makeClassifTask(id = "banknote", data = banknote, target = "Class")
+classif_lrn = makeLearner("classif.bartMachine", predict.type = "prob")
 
 #:# hash 
-#:# 61e76ce015f3433786f04c2700266f89
+#:# 0e248702ee967ea380294b26423d6b1a
 hash <- digest(classif_lrn)
 hash
 

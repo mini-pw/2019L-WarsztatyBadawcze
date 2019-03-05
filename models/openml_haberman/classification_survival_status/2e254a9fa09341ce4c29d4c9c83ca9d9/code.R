@@ -2,24 +2,24 @@
 library(digest)
 library(OpenML)
 library(mlr)
+library(randomForestSRC)
 
 #:# config
-set.seed(1)
+set.seed(997)
 
 #:# data
-liver_disorders <- getOMLDataSet(data.id = 8L)
-liver <- liver_disorders$data
-head(liver)
+haberman <- getOMLDataSet(data.id = 43L)
+haberman <- haberman$data
 
 #:# preprocessing
-head(liver)
+head(haberman)
 
 #:# model
-classif_task = makeClassifTask(id = "lvr", data = liver, target = "selector")
-classif_lrn = makeLearner("classif.glmnet", predict.type = "prob")
+classif_task = makeClassifTask(data = haberman, target = "Survival_status")
+classif_lrn = makeLearner("classif.randomForestSRC", predict.type = "prob")
 
 #:# hash 
-#:# 61e76ce015f3433786f04c2700266f89
+#:# 2e254a9fa09341ce4c29d4c9c83ca9d9
 hash <- digest(classif_lrn)
 hash
 

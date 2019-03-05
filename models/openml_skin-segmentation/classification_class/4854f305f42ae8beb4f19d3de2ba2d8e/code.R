@@ -2,24 +2,24 @@
 library(digest)
 library(OpenML)
 library(mlr)
+library(randomForestSRC)
 
 #:# config
-set.seed(1)
+set.seed(997)
 
 #:# data
-liver_disorders <- getOMLDataSet(data.id = 8L)
-liver <- liver_disorders$data
-head(liver)
+skin_seg <- getOMLDataSet(data.id = 1502)
+skin_seg <- skin_seg$data
 
 #:# preprocessing
-head(liver)
+head(skin_seg)
 
 #:# model
-classif_task = makeClassifTask(id = "lvr", data = liver, target = "selector")
-classif_lrn = makeLearner("classif.glmnet", predict.type = "prob")
+classif_task = makeClassifTask(data = skin_seg, target = "Class")
+classif_lrn = makeLearner("classif.logreg", predict.type = "prob")
 
 #:# hash 
-#:# 61e76ce015f3433786f04c2700266f89
+#:# 4854f305f42ae8beb4f19d3de2ba2d8e
 hash <- digest(classif_lrn)
 hash
 
