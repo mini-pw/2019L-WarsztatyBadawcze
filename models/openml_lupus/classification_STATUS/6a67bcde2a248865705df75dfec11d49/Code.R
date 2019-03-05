@@ -22,7 +22,7 @@ hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(classif_lrn, classif_task, cv)
+r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc))
 MSE <- r$aggr
 MSE
 
