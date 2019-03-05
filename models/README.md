@@ -2,9 +2,9 @@
 
 ## Number of data sets: 62
 
-## Number of tasks: 20
+## Number of tasks: 24
 
-## Number of models: 22
+## Number of models: 26
 
 |name                                |source         | features| instances| missing_val| tasks| models|
 |:-----------------------------------|:--------------|--------:|---------:|-----------:|-----:|------:|
@@ -34,10 +34,10 @@
 |BNG-credit-g                        |openml         |       21|   1000000|           0|     0|      0|
 |boston                              |openml         |       14|       506|           0|     1|      1|
 |credit-g                            |openml         |       21|      1000|           0|     0|      0|
-|dermatology                         |openml         |       35|       366|           8|     0|      0|
+|dermatology                         |openml         |       35|       366|           8|     1|      1|
 |diabetes                            |openml         |        9|       768|           0|     0|      0|
 |electricity                         |openml         |        9|     45312|           0|     2|      2|
-|fertility                           |openml         |       10|       100|           0|     0|      0|
+|fertility                           |openml         |       10|       100|           0|     1|      1|
 |glass                               |openml         |       10|       214|           0|     0|      0|
 |haberman                            |openml         |        4|       306|           0|     1|      1|
 |humandevel                          |openml         |        4|       131|           0|     0|      0|
@@ -53,7 +53,7 @@
 |one-hundred-plants-margin           |openml         |       65|      1600|           0|     1|      1|
 |ozone-level-8hr                     |openml         |       73|      2534|           0|     1|      1|
 |phoneme                             |openml         |        6|      5404|           0|     0|      0|
-|PopularKids                         |openml         |       11|       478|           0|     0|      0|
+|PopularKids                         |openml         |       11|       478|           0|     2|      2|
 |prnn_synth                          |openml         |        3|       250|           0|     0|      0|
 |profb                               |openml         |       10|       672|         666|     0|      0|
 |rmftsa_sleepdata                    |openml         |        3|      1024|           0|     1|      1|
