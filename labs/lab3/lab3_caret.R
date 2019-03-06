@@ -37,8 +37,8 @@ MSE <- RMSE^2
 MSE
 
 # Zadanie
-# Dopasować model klasyfikacyjny, np drzewo lub regresję logistyczną i na podstawie CV sprawdzić jego MSE.
-
+# Dopasować model klasyfikacyjny, np drzewo lub regresję logistyczną i na podstawie CV.
+# Sprawdzić jego MSE.AUC, ACC, Sensitivity, Specisivity i F1.
 
 
 
