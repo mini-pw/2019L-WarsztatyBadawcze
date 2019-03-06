@@ -1,0 +1,13 @@
+[
+    {
+        "id": "audit_a5a078898703d7e1e7b6b3322b4f0ac8",
+        "added_by": "WojciechKretowicz",
+        "date": "06-03-2019",
+        "model_id": "a5a078898703d7e1e7b6b3322b4f0ac8",
+        "task_id": "regression_Mg",
+        "dataset_id": "openml_glass",
+        "performance": {
+            "MSE": 0.006763851811677226
+        }
+    }
+]
