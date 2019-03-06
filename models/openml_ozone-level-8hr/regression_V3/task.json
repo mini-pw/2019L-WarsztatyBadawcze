@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_V3",
+    "added_by": "DominikRafacz",
+    "date": "03-03-2019",
+    "dataset_id": "openml_ozone-level-8hr",
+    "type": "regression",
+    "target": "V3"
+  }
+]

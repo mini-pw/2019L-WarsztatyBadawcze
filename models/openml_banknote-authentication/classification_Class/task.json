@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Class",
+    "added_by": "Pastuszka",
+    "date": "27-02-2019",
+    "dataset_id": "openml_banknote-authentication",
+    "type": "classification",
+    "target": "Class"
+  }
+] 
