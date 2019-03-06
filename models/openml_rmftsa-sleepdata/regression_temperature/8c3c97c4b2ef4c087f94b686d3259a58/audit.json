@@ -1,0 +1,13 @@
+[
+  {
+    "id": "audit_8c3c97c4b2ef4c087f94b686d3259a58",
+    "date": "28-02-2019",
+    "added_by": "Pastuszka",
+    "model_id": "8c3c97c4b2ef4c087f94b686d3259a58",
+    "task_id": "regression_temperature",
+    "dataset_id": "openml_rmftsa-sleepdata",
+    "performance": {
+      "MSE":  0.01485756
+    }
+  }
+] 
