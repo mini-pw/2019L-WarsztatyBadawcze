@@ -1,0 +1,119 @@
+[
+    {
+        "id": "8e4d9e45a4c1c8802d4b210c4a84cf3e",
+        "added_by": "Siemashko",
+        "date": "06-03-2019",
+        "task_id": "classification_selector",
+        "dataset_id": "openml_liver-disorders",
+        "parameters": {
+            "bootstrap": true,
+            "class_weight": null,
+            "criterion": "gini",
+            "max_depth": 6,
+            "max_features": 4,
+            "max_leaf_nodes": null,
+            "min_impurity_decrease": 0.0,
+            "min_impurity_split": null,
+            "min_samples_leaf": 1,
+            "min_samples_split": 2,
+            "min_weight_fraction_leaf": 0.0,
+            "n_estimators": 2000,
+            "n_jobs": 3,
+            "oob_score": false,
+            "random_state": 42,
+            "verbose": true,
+            "warm_start": false
+        },
+        "preprocessing": {
+            "mcv": {
+                "name": "mcv",
+                "type": "numerical",
+                "number_of_unique_values": 26,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 65.0,
+                "num_1qu": 87.0,
+                "num_median": 90.0,
+                "num_3q": 93.0,
+                "num_maximum": 103.0
+            },
+            "alkphos": {
+                "name": "alkphos",
+                "type": "numerical",
+                "number_of_unique_values": 73,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 23.0,
+                "num_1qu": 57.0,
+                "num_median": 67.0,
+                "num_3q": 79.0,
+                "num_maximum": 134.0
+            },
+            "sgpt": {
+                "name": "sgpt",
+                "type": "numerical",
+                "number_of_unique_values": 66,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 4.0,
+                "num_1qu": 20.0,
+                "num_median": 26.0,
+                "num_3q": 34.0,
+                "num_maximum": 155.0
+            },
+            "sgot": {
+                "name": "sgot",
+                "type": "numerical",
+                "number_of_unique_values": 46,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 5.0,
+                "num_1qu": 19.0,
+                "num_median": 23.0,
+                "num_3q": 27.0,
+                "num_maximum": 82.0
+            },
+            "gammagt": {
+                "name": "gammagt",
+                "type": "numerical",
+                "number_of_unique_values": 88,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 5.0,
+                "num_1qu": 15.0,
+                "num_median": 24.0,
+                "num_3q": 48.0,
+                "num_maximum": 225.0
+            },
+            "drinks": {
+                "name": "drinks",
+                "type": "categorical",
+                "number_of_unique_values": 15,
+                "number_of_missing_values": 0,
+                "cat_frequencies": {
+                    "0.0": 7,
+                    "0.5": 90,
+                    "1.0": 17,
+                    "2.0": 28,
+                    "3.0": 19,
+                    "4.0": 42,
+                    "5.0": 15,
+                    "6.0": 33,
+                    "7.0": 6,
+                    "8.0": 20,
+                    "9.0": 2,
+                    "10.0": 6,
+                    "12.0": 4,
+                    "16.0": 2,
+                    "20.0": 2
+                },
+                "num_minimum": null,
+                "num_1qu": null,
+                "num_median": null,
+                "num_mean": null,
+                "num_3qu": null,
+                "num_maximum": null
+            }
+        }
+    }
+]
