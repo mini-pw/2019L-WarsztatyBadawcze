@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_attrib1",
+    "added_by": "michalSt98",
+    "date": "02-03-2019",
+    "dataset_id": "openml_Sea(50)",
+    "type": "regression",
+    "target": "attrib1"
+  }
+] 
