@@ -7,8 +7,12 @@
     "task_id": "classification_Class",
     "dataset_id": "openml_banknote-authentication",
     "performance": {
-      "ACC":  0.9970856,
-      "AUC": 1.0000000
+      "ACC":  0.9970803,
+      "AUC": 1.0000000,
+      "Specificity": 1.0000000, 
+      "Recall": 0.9947107, 
+      "Precision": 1.0000000, 
+      "F1": 0.9973332 
     }
   }
 ] 
