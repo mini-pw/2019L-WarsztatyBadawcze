@@ -1,8 +1,8 @@
 [
   {
     "id": "audit_8c3c97c4b2ef4c087f94b686d3259a58",
-    "added_by": "wernerolaf",
     "date": "02-03-2019",
+    "added_by": "wernerolaf",
     "model_id": "8c3c97c4b2ef4c087f94b686d3259a58",
     "task_id": "regression_company1",
     "dataset_id": "openml_stock",

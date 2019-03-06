@@ -56,8 +56,8 @@ modeldozapisu<-toJSON(list(modeldozapisu),pretty = TRUE,auto_unbox = TRUE)
 taskdozapisu<-list(id=paste("regression_",dane$target.features,sep = ""),added_by= "wernerolaf",
                    date= format.Date(Sys.Date(),"%d-%m-%Y") ,dataset_id= dataset$id,type="regression",target=dane$target.features)
 
-auditdozapisu<-list(id=paste("audit_",hash,sep = ""),added_by= "wernerolaf",
-                    date= format.Date(Sys.Date(),"%d-%m-%Y"),model_id=hash,task_id=paste("regression_",dane$target.features,sep = ""),dataset_id=dataset$id,performance=list(MSE=MSE))
+auditdozapisu<-list(id=paste("audit_",hash,sep = ""),
+                    date= format.Date(Sys.Date(),"%d-%m-%Y"),added_by= "wernerolaf",model_id=hash,task_id=paste("regression_",dane$target.features,sep = ""),dataset_id=dataset$id,performance=list(MSE=MSE))
 
 taskdozapisu<-toJSON(list(taskdozapisu),pretty = TRUE,auto_unbox = TRUE)
 
