@@ -87,32 +87,15 @@
             },
             "drinks": {
                 "name": "drinks",
-                "type": "categorical",
+                "type": "numerical",
                 "number_of_unique_values": 15,
                 "number_of_missing_values": 0,
-                "cat_frequencies": {
-                    "0.0": 7,
-                    "0.5": 90,
-                    "1.0": 17,
-                    "2.0": 28,
-                    "3.0": 19,
-                    "4.0": 42,
-                    "5.0": 15,
-                    "6.0": 33,
-                    "7.0": 6,
-                    "8.0": 20,
-                    "9.0": 2,
-                    "10.0": 6,
-                    "12.0": 4,
-                    "16.0": 2,
-                    "20.0": 2
-                },
-                "num_minimum": null,
-                "num_1qu": null,
-                "num_median": null,
-                "num_mean": null,
-                "num_3qu": null,
-                "num_maximum": null
+                "cat_frequencies": null,
+                "num_minimum": 0.0,
+                "num_1qu": 0.5,
+                "num_median": 3.0,
+                "num_3q": 6.0,
+                "num_maximum": 20.0
             }
         }
     }
