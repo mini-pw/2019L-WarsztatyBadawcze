@@ -194,3 +194,8 @@ createTorontoTask <- function(name, added_by, target, learner, measures = list(a
   # setwd(paste0("toronto_", name, "/", type, "_", target, "/", hash, "/"))
   # source("code.R", echo = TRUE)
 }
+
+#:# PRZYK£ADOWE WYWO£ANIA #:#
+# createTorontoDataset("image-seg", "MatiFilozof")
+# createTorontoTask("image-seg", "MatiFilozof", "pixel.class", "classif.randomForest", list(acc, auc),
+#                   c("ACC", "AUC"), list(mtry = 5, ntree = 450))
