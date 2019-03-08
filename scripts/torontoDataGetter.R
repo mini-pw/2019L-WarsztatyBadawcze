@@ -1,8 +1,9 @@
 library(jsonlite)
 library(purrr)
 library(reader)
-library(mlr)
 library(digest)
+library(caret)
+library(mlr)
 
 # MOCNO przekształcony kod funkcji summary.default
 # właściwie to napisany od podstaw
@@ -43,6 +44,19 @@ ACC
 sink(paste0(\"sessionInfo.txt\"))
 sessionInfo()
 sink()"))
+}
+
+extendedTwoClassSummary <- function (data, lev = NULL, model = NULL) {
+  out <- twoClassSummary(data, lev, model)
+  out <- c(out, precision(data[, "pred"], data[, "obs"]))
+  data[, "pred"] <- factor(data[, "pred"], levels = levels(data[, "obs"]))
+  caret:::requireNamespaceQuietStop("e1071")
+  out <- c(unlist(e1071::classAgreement(table(data[, "obs"], data[, "pred"])))[c("diag", "kappa")], out)
+  out <- c(out, 2*out[5]*out[6]/(out[5] + out[6]))
+  names(out) <- c("Accuracy", "Kappa", "AUC", "Recall", "Specificity", "Precision", "F1")
+  if (any(is.nan(out))) 
+    out[is.nan(out)] <- NA
+  out
 }
 
 dummary <- function (object, colname, ...) {
@@ -132,11 +146,21 @@ createTorontoDataset <- function(name, added_by) {
   write(dataJson, paste0("./toronto_", name, "/dataset.json"))
 }
 
-createTorontoTask <- function(name, added_by, target, learner, measures = list(acc), measureNames = "ACC", pars = list()) {
-  stopifnot(length(measures) == length(measureNames))
+createTorontoTask <- function(name, added_by, target, learner, measurer = "mlr", type = "", pars = list()) {
   table <- getTorontoData(name)
-  type <- ifelse(substr(learner, 1, 4) == "clas", "classification", "regression")
-  isRegr <- ifelse(substr(learner, 1, 4) == "clas", FALSE, TRUE)
+  if (measurer == "mlr" && type == "") {
+    isRegr <- ifelse(substr(learner, 1, 4) == "clas", FALSE, TRUE)
+    type <- ifelse(isRegr, "regression", "classification")
+  }
+  else {
+    if (type %in% c("regression", "classification")) {
+      isRegr <- (type == "regression")
+    }
+    else {
+      stop("Incorrect type. Set regression or classification.")
+    }
+  }
+  
   toTaskJson <- list(id = paste0("toronto_", name),
                      added_by = added_by,
                      date = format(Sys.Date(), "%d-%m-%Y"),
@@ -148,19 +172,64 @@ createTorontoTask <- function(name, added_by, target, learner, measures = list(a
   dir.create(paste0("toronto_", name, "/", type, "_", target))
   write(taskJson, paste0("./toronto_", name, "/", type, "_", target, "/task.json"))
   
-  if (type == "classification") {
-    class_task <- makeClassifTask(id = paste0("toronto_", name), data = table, target = target)
-    class_lrn <- makeLearner(learner, par.vals = pars, predict.type = "prob")
+  cv <- makeResampleDesc("CV", iters = 5)
+  
+  
+  if (measurer == "mlr") {
+    if (isRegr) {
+      mes <- list(mse, rmse, mae, rsq)
+    }
+    else {
+      if (length(unique(table$target)) == 2) {
+        mes <- list(acc, auc, tnr, tpr, ppv, f1)
+      }
+      else {
+        mes <- list(acc)
+      }
+    }
+    if (isRegr) {
+      regr_task <- makeRegrTask(id = paste0("toronto_", name), data = table, target = target)
+      regr_lrn <- makeLearner(learner, par.vals = pars)
+      r <- resample(regr_lrn, regr_task, cv, measures = mes)
+    }
+    else {
+      class_task <- makeClassifTask(id = paste0("toronto_", name), data = table, target = target)
+      class_lrn <- makeLearner(learner, par.vals = pars, predict.type = "prob")
+      r <- resample(class_lrn, class_task, cv, measures = mes)
+    }
+    results <- r$aggr
   }
-  else {
-    class_task <- makeRegrTask(id = paste0("toronto_", name), data = table, target = target)
-    class_lrn <- makeLearner(learner, par.vals = pars)
+  else if (measurer == "caret") {
+    train_control <- trainControl(method = "cv", number = 5,
+      summaryFunction = ifelse(length(unique(table$target)) == 2, extendedTwoClassSummary, defaultSummary))
+    if (is_empty(pars)) {
+      cv <- train(target ~ ., data = table, method = learner, trControl = train_control)
+      tune <- cv$bestTune
+      cv <- train(target ~ ., data = table, method = learner, tuneGrid = expand.grid(tune),
+                          trControl = train_control)
+      if (length(unique(table$target)) == 2) {
+        results <- cv$results[, c("Accuracy", "AUC", "Specificity", "Recall", "Precision", "F1")]
+      }
+      else {
+        results <- cv$results[, "Accuracy"]
+      }
+    }
+    else {
+      cv <- train(target ~ ., data = table, method = learner, tuneGrid = expand.grid(pars),
+                          trControl = train_control)
+      results <- cv$results[, c("RMSE", "RMSE", "MAE", "Rsquared")]
+      results[, 1] <- results[, 1]^2
+    }
   }
   
-  cv <- makeResampleDesc("CV", iters = 5)
-  r <- resample(class_lrn, class_task, cv, measures = measures)
-  MSE <- r$aggr
-  names(MSE) <- measureNames
+  if (isRegr) {
+    length(results) <- 4
+    names(results) <- c("MSE", "RMSE", "MAE", "R2")
+  }
+  else {
+    length(results) <- 6
+    names(results) <- c("ACC", "AUC", "Specificity", "Recall", "Precision", "F1")
+  }
   
   hash <- digest(learner)
   toAuditJson <- list(id = paste0("audit_", hash),
@@ -169,8 +238,8 @@ createTorontoTask <- function(name, added_by, target, learner, measures = list(a
                       model_id = hash,
                       task_id = paste0(type, "_", target),
                       dataset_id = paste0("toronto_", name),
-                      performance = as.list(MSE))
-  auditJson <- list(toAuditJson) %>% toJSON(auto_unbox = TRUE, pretty = TRUE, null = "null")
+                      performance = as.list(results))
+  auditJson <- list(toAuditJson) %>% toJSON(auto_unbox = TRUE, pretty = TRUE, na = "null", null = "null")
   dir.create(paste0("toronto_", name, "/", type, "_", target, "/", hash))
   write(auditJson, paste0("toronto_", name, "/", type, "_", target, "/", hash, "/audit.json"))
   
@@ -187,15 +256,17 @@ createTorontoTask <- function(name, added_by, target, learner, measures = list(a
   modelJson <- list(toModelJson) %>% toJSON(auto_unbox = TRUE, pretty = TRUE, null = "null")
   write(modelJson, paste0("toronto_", name, "/", type, "_", target, "/", hash, "/model.json"))
   
-  write(getFilledCode(name, target, learner, measures, pars, hash, isRegr),
-        paste0("toronto_", name, "/", type, "_", target, "/", hash, "/code.R"))
+  if (measurer == "mlr") {
+    write(getFilledCode(name, target, learner, mes, pars, hash, isRegr),
+          paste0("toronto_", name, "/", type, "_", target, "/", hash, "/code.R"))
+  }
   # z tym poniżej poczekaj do pojawienia się datasetu na githubie
   # EDIT: jednak nie, jednak należy to robić ręcznie; automatyczne wykonanie kodu dodaje niechciane linie do sessionInfo.txt
   # setwd(paste0("toronto_", name, "/", type, "_", target, "/", hash, "/"))
   # source("code.R", echo = TRUE)
 }
 
-#:# PRZYK�ADOWE WYWO�ANIA #:#
+#:# PRZYK?ADOWE WYWO?ANIA #:#
 # createTorontoDataset("image-seg", "MatiFilozof")
-# createTorontoTask("image-seg", "MatiFilozof", "pixel.class", "classif.randomForest", list(acc, auc),
-#                   c("ACC", "AUC"), list(mtry = 5, ntree = 450))
+# createTorontoTask("image-seg", "MatiFilozof", "pixel.class", "classif.randomForest", "mlr",
+#                   list(mtry = 5, ntree = 450))
