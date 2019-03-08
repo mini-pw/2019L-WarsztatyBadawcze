@@ -1,0 +1,13 @@
+[
+  {
+    "id": "audit_61e76ce015f3433786f04c2700266f89",
+    "date": "02-03-2019",
+    "added_by": "michalSt98",
+    "model_id": "61e76ce015f3433786f04c2700266f89",
+    "task_id": "regression_attrib1",
+    "dataset_id": "openml_Sea(50)",
+    "performance": {
+      "MSE":  6.1931264
+    }
+  }
+] 
