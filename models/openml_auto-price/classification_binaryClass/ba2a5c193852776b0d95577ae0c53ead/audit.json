@@ -9,7 +9,7 @@
     "performance": {
       "ACC": 0.9748,
       "AUC": 0.9982,
-      "Specifity": 0.9909,
+      "Specificity": 0.9909,
       "Precision": 0.9464,
       "F1": 0.9809
     }
