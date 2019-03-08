@@ -2,19 +2,27 @@
   {
     "id": "1395e23500f982c4c20f5d6c45b98805",
     "added_by": "MatiFilozof",
-    "date": "03-03-2019",
+    "date": "08-03-2019",
     "task_id": "regression_vedge.mean",
     "dataset_id": "toronto_image-seg",
     "parameters": {
-      "minsplit": 20,
-      "minbucket": null,
-      "cp": 0.01,
-      "maxcompete": 4,
-      "maxsurrogate": 5,
-      "usesurrogate": 2,
-      "surrogatestyle": 0,
-      "maxdepth": 30,
-      "xval": 10
+      "ntree": 500,
+      "mtry": null,
+      "replace": true,
+      "classwt": null,
+      "cutoff": null,
+      "strata": null,
+      "sampsize": null,
+      "nodesize": 1,
+      "maxnodes": null,
+      "importance": false,
+      "localImp": false,
+      "proximity": false,
+      "oob.prox": null,
+      "norm.votes": true,
+      "do.trace": false,
+      "keep.forest": true,
+      "keep.inbag": false
     },
     "preprocessing": {
       "pixel.class": {

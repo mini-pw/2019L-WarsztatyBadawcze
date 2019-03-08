@@ -1,13 +1,18 @@
 [
   {
     "id": "audit_95842077c0cec4f693b49e4ac3902054",
-    "date": "03-03-2019",
+    "date": "08-03-2019",
     "added_by": "MatiFilozof",
     "model_id": "95842077c0cec4f693b49e4ac3902054",
     "task_id": "classification_pixel.class",
     "dataset_id": "toronto_image-seg",
     "performance": {
-      "ACC": 0.9814
+      "ACC": 0.9792,
+      "AUC": null,
+      "Specificity": null,
+      "Recall": null,
+      "Precision": null,
+      "F1": null
     }
   }
 ]

@@ -14,7 +14,7 @@ head(dataset)
 
 #:# model
 task = makeRegrTask(id = "image-seg", data = dataset, target = "vedge.mean")
-lrn = makeLearner("regr.rpart", par.vals = list(maxdepth = 5))
+lrn = makeLearner("regr.rpart", par.vals = list())
 
 #:# hash 
 #:# 1395e23500f982c4c20f5d6c45b98805
@@ -23,7 +23,7 @@ hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(lrn, task, cv, measures = list(mse))
+r <- resample(lrn, task, cv, measures = list(mse, rmse, mae, rsq))
 ACC <- r$aggr
 ACC
 
