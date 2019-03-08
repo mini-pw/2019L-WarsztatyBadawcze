@@ -6,18 +6,18 @@
     "task_id": "regression_horsepower",
     "dataset_id": "auto_price",
     "parameters": {
-      "boos": true,
-      "mfinal": 100,
-      "coeflearn": "Breiman",
-      "minsplit": 20,
-      "minbucket": null,
-      "cp": 0.01,
-      "maxcompete": 4,
-      "maxsurrogate": 5,
-      "usesurrogate": 2,
-      "surrogatestyle": 0,
-      "maxdepth": 30,
-      "xval": 10
+      "family": "gaussian",
+      "gaussia.link": "identity",
+      "Gamma.link": "inverse",
+      "poisson.link": "log",
+      "inverse.gaussian.link": 1/mu^2,
+      "epsilon": 1e-08,
+      "maxit": 25,
+      "trace": false,
+      "model": true,
+      "method": glm.fit,
+      "x": false,
+      "y": true
     },
     "preprocessing": {
       "symboling": {
