@@ -1,0 +1,13 @@
+[
+  {
+    "id": "audit_4fb88a2fef713e94b2773add10cd1f99",
+    "date": "05-03-2019",
+    "added_by": "lukaszbrzozowski",
+    "model_id": "4fb88a2fef713e94b2773add10cd1f99",
+    "task_id": "classification_class",
+    "dataset_id": "openml_dermatology",
+    "performance": {
+      "ACC":  0.9720266
+    }
+  }
+]

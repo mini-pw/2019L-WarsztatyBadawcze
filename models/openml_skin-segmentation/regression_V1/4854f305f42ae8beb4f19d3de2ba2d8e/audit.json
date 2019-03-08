@@ -1,0 +1,13 @@
+[
+  {
+    "id": "audit_6284e089672fe91b703313fcc38de19b",
+    "date": "02-03-2019",
+    "added_by": "mckraqs",
+    "model_id": "6284e089672fe91b703313fcc38de19b",
+    "task_id": "regression_V1",
+    "dataset_id": "openml_skin-segmentation",
+    "performance": {
+      "MSE": 875.716
+    }
+  }
+] 
