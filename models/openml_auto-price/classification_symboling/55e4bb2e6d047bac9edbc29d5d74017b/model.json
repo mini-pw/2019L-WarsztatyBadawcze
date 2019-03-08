@@ -6,7 +6,6 @@
     "task_id": "classification_symboling",
     "dataset_id": "auto_price",
     "parameters": {
-      "parameter": null
     },
     "preprocessing": {
       "symboling": {
