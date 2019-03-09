@@ -1,5 +1,5 @@
 #paczki i seed
-set.seed(1)
+set.seed(123, "L'Ecuyer")
 library(jsonlite)
 library(OpenML)
 library(farff)
@@ -16,13 +16,14 @@ library(digest)
   train<-dane$data
   
   #sprawdzamy paczki
-  listLearners(check.packages = TRUE)
+  mozliwosci<-listLearners(check.packages = TRUE)
   
   #robimy taska i learnera
   classif_task = makeClassifTask(id = paste("classif_",dane$target.features,sep = ""), data = train, target =dane$target.features)
-  classif_learner<-makeLearner("classif.logreg")
+  classif_learner<-makeLearner("classif.featureless")
   
-  #testy
+  #testy Acc, AUC, Specificity, Recall, Precision, F1 regresja:MSE, RMSE, MAE, R2
+  listMeasures(classif_task)
   cv <- makeResampleDesc("CV", iters = 5)
   r <- resample(classif_learner, classif_task, cv,measures = list(acc))
   ACC <- r$aggr
@@ -31,8 +32,8 @@ library(digest)
   parametry<-getParamSet(classif_learner)
   parametry<-parametry$pars
   parametry<-lapply(parametry, FUN=function(x){x$default})
-  getHyperPars(classif_learner)
-  
+  hiper<-getHyperPars(classif_learner)
+  parametry[names(hiper)]<-hiper
   #haszujemy
   hash <- digest(classif_learner)
   hash    
