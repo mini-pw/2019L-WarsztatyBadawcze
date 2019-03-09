@@ -1,13 +1,16 @@
 [
   {
     "id": "audit_8585e1861552b267a934bf894e3d0867",
-    "date": "05-03-2019",
+    "date": "09-03-2019",
     "added_by": "WojtekBogucki",
     "model_id": "8585e1861552b267a934bf894e3d0867",
     "task_id": "Regression_Grades",
     "dataset_id": "openml_PopularKids",
     "performance": {
-      "MSE": 0.0418
+      "MSE": 0.0416,
+      "RMSE": 0.204,
+      "MAE": 0.055,
+      "R2": 0.9633
     }
   }
 ]
