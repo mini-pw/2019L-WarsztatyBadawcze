@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_sex",
+    "added_by": "BogdanJastrzebski",
+    "date": "05-03-2019",
+    "dataset_id": "kaggle_heart_disease",
+    "type": "classification",
+    "target": "sex"
+  }
+]
