@@ -3,7 +3,7 @@
     "id": "69bc0aa77dce2c944a698ab026cee70e",
     "added_by": "WojtekBogucki",
     "date": "09-03-2019",
-    "task_id": "Regression_company1",
+    "task_id": "regression_company1",
     "dataset_id": "openml_stock",
     "parameters": {
       "distribution": "gaussian",
