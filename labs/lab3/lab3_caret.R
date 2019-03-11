@@ -30,14 +30,17 @@ regr_rf_cv <- train(drinks ~ ., data = liver, method = "ranger", tuneGrid = expa
                                                                   mtry = 3, 
                                                                   splitrule = "variance",
                                                                   min.node.size = 5),
+   trControl = train_control,
    metric = "RMSE")
-print(regr_gbm_cv)
+print(regr_rf_cv)
 RMSE <-regr_rf_cv$results$RMSE
 MSE <- RMSE^2
 MSE
 
 # Zadanie
-# Dopasować model klasyfikacyjny, np drzewo lub regresję logistyczną i na podstawie CV sprawdzić jego MSE.
+# Dopasować model klasyfikacyjny przewidyjący zmienną selector.
+# Na podstawie CV sprawdzić jego AUC, Accuracy, Sensitivity, Specisivity i F1.
+
 
 
 

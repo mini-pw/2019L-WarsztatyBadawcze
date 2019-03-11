@@ -2,22 +2,22 @@
 
 ## Number of data sets: 62
 
-## Number of tasks: 24
+## Number of tasks: 30
 
-## Number of models: 26
+## Number of models: 32
 
 |name                                |source         | features| instances| missing_val| tasks| models|
 |:-----------------------------------|:--------------|--------:|---------:|-----------:|-----:|------:|
 |Affairs                             |kaggle         |       10|      6366|           0|     0|      0|
 |Barcelona data sets                 |kaggle         |       14|     10339|          27|     1|      1|
 |Beauty                              |kaggle         |       10|      1260|           0|     2|      2|
-|heart-disease                       |kaggle         |       14|       100|           0|     0|      0|
+|heart-disease                       |kaggle         |       14|       100|           0|     2|      2|
 |Hostel Factors                      |kaggle         |       12|        18|           0|     0|      0|
 |Multidimensional Poverty Measures   |kaggle         |        8|       102|           0|     0|      0|
 |pokemon                             |kaggle         |       12|       800|         386|     0|      0|
 |Predicting a Pulsar Star            |kaggle         |        9|     17898|           0|     0|      0|
 |Red Wine Quality                    |kaggle         |       12|      1599|           0|     0|      0|
-|Suicide Rates Overview 1985 to 2016 |kaggle         |       12|     27820|       19456|     0|      0|
+|Suicide Rates Overview 1985 to 2016 |kaggle         |       12|     27820|       19456|     1|      1|
 |Toy Dataset                         |kaggle         |        6|    150000|           0|     0|      0|
 |Video Games Sales                   |kaggle         |       16|     16719|        9772|     0|      0|
 |Gender Recognition by voice         |kaggle         |       21|      3168|           0|     0|      0|
@@ -36,17 +36,17 @@
 |credit-g                            |openml         |       21|      1000|           0|     0|      0|
 |dermatology                         |openml         |       35|       366|           8|     1|      1|
 |diabetes                            |openml         |        9|       768|           0|     0|      0|
-|electricity                         |openml         |        9|     45312|           0|     2|      2|
+|electricity                         |openml         |        9|     45312|           0|     3|      3|
 |fertility                           |openml         |       10|       100|           0|     1|      1|
 |glass                               |openml         |       10|       214|           0|     0|      0|
 |haberman                            |openml         |        4|       306|           0|     1|      1|
 |humandevel                          |openml         |        4|       131|           0|     0|      0|
 |irish                               |openml         |        6|       500|          32|     2|      3|
-|isolet                              |openml         |      618|      7797|           0|     0|      0|
+|isolet                              |openml         |      618|      7797|           0|     1|      1|
 |kc1-numeric                         |openml         |       95|       145|           0|     1|      1|
 |kr-vs-kp                            |openml         |       37|      3196|           0|     0|      0|
 |liver-disorders                     |openml         |        6|       345|           0|     2|      2|
-|lupus                               |openml         |        4|        87|           0|     0|      0|
+|lupus                               |openml         |        4|        87|           0|     1|      1|
 |monk-problems-1                     |openml         |        7|       556|           0|     0|      0|
 |monk                                |openml         |        7|       601|           0|     0|      0|
 |monk-problems-3                     |openml         |        7|       554|           0|     0|      0|
