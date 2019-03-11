@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_V4",
+    "added_by": "Pastuszka",
+    "date": "09-03-2019",
+    "dataset_id": "openml_banknote-authentication",
+    "type": "regression",
+    "target": "V4"
+  }
+] 
