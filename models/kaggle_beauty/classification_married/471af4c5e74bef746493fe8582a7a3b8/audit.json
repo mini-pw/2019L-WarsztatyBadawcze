@@ -7,8 +7,11 @@
     "task_id": "classification_married",
     "dataset_id": "kaggle_beauty",
     "performance": {
-        "ACC":  0.7039683,
-        "AUC": 0.7337401
+        "ACC":  0.7063492,
+        "AUC": 0.7409024,
+        "Specifity": 0.3750908,
+        "Precision": 0.8571660,
+        "F1": 0.4386246
     }
   }
 ] 
