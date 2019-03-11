@@ -5,7 +5,7 @@ import hashlib
 
 from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_auc_score, recall_score, precision_score
 
 # Loading data
 
@@ -40,4 +40,6 @@ mdl.fit(X_train,y_train)
 
 y_pred = mdl.predict(X_test)
 
-print(str.format("ACC: {0}\nAUC: {1}", np.mean(y_pred == y_test), roc_auc_score(y_test, y_pred)))
+print(str.format("ACC: {0}\nAUC: {1}\nRecall: {2}\nPrecision: {3}", np.mean(y_pred == y_test),
+                 roc_auc_score(y_test, y_pred), recall_score(y_test, y_pred),
+                 precision_score(y_test, y_pred)))
