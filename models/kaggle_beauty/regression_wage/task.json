@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_wage",
+    "added_by": "Adamoso",
+    "date": "27-02-2019",
+    "dataset_id": "kaggle_beauty",
+    "type": "regression",
+    "target": "wage"
+  }
+] 
