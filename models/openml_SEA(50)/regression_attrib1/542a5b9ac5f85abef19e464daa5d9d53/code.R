@@ -2,7 +2,7 @@
 library(digest)
 library(OpenML)
 library(mlr)
-library("gbm")
+
 
 
 #:# config
@@ -18,7 +18,7 @@ head(Sea)
 
 #:# model
 regr_task = makeRegrTask(id = "Sea", data = Sea, target = "attrib1")
-regr_lrn = makeLearner("regr.gbm", par.vals = list(n.trees = 500, interaction.depth = 3))
+regr_lrn = makeLearner("regr.lm")
 
 #:# hash 
 #:# 61e76ce015f3433786f04c2700266f89
@@ -27,7 +27,7 @@ hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(regr_lrn, regr_task, cv, measures = list(mse,rmse,mae,rsq))
+r <- resample(regr_lrn, regr_task, cv,measures = list(mse,rmse,mae,rsq))
 r$aggr
 
 
