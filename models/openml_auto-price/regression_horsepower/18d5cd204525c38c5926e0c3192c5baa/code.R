@@ -7,19 +7,18 @@ library(digest)
 set.seed(1)
 
 #:# data
-irish <- getOMLDataSet(data.id = 451L)
-irish <- irish$data
-df <- irish
-head(irish)
+auto <- getOMLDataSet(data.id = 745L)
+auto <- auto$data
+df <- auto
 
 #:# preprocessing
 
 #:# model
-regr_task <- makeRegrTask(id = "irsh_regr", data = irish, target = "DVRT")
-regr_lrn <- makeLearner("regr.rpart", par.vals = list(maxdepth = 5))
+regr_task <- makeRegrTask(id = "auto_regr", data = auto, target = "horsepower")
+regr_lrn <- makeLearner("regr.rpart", par.vals = list(maxdepth = 10))
 
 #:# hash 
-#:# 3b3b244bb8c811eee2435d534406befe
+#:# 18d5cd204525c38c5926e0c3192c5baa
 hash <- digest(regr_lrn)
 hash
 

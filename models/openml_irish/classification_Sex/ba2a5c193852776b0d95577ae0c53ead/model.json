@@ -1,11 +1,14 @@
 [
   {
-    "id": "3b3b244bb8c811eee2435d534406befe",
+    "id": "ba2a5c193852776b0d95577ae0c53ead",
     "added_by": "witoldmerkel",
     "date": "06-03-2019",
-    "task_id": "regression_DVRT",
+    "task_id": "classification_Sex",
     "dataset_id": "openml_irish",
     "parameters": {
+      "boos": true,
+      "mfinal": 100,
+      "coeflearn": "Breiman",
       "minsplit": 20,
       "minbucket": 7,
       "cp": 0.01,
@@ -13,7 +16,7 @@
       "maxsurrogate": 5,
       "usesurrogate": 2,
       "surrogatestyle": 0,
-      "maxdepth": 5,
+      "maxdepth": 30,
       "xval": 0
     },
     "preprocessing": {

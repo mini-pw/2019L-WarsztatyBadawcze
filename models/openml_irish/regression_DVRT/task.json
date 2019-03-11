@@ -2,9 +2,9 @@
   {
     "id": "regression_DVRT",
     "added_by": "witoldmerkel",
-    "date": "27-02-2019",
+    "date": "06-03-2019",
     "dataset_id": "openml_irish",
     "type": "regression",
     "target": "DVRT"
   }
-] 
+]
