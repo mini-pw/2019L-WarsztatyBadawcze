@@ -5,7 +5,7 @@ library(mlr)
 library(farff)
 
 #:# config
-set.seed(42)
+set.seed(123, "L'Ecuyer")
 
 #:# data
 plants_ds <- getOMLDataSet(data.id = 1491L)
@@ -27,8 +27,8 @@ hash
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
 r <- resample(classif_lrn, classif_task, cv, measures = list(acc))
-ACC <- r$aggr
-ACC
+aggr <- r$aggr
+
 
 #:# session info
 sink(paste0("sessionInfo.txt"))

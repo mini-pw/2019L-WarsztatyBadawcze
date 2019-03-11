@@ -8,19 +8,19 @@ library(farff)
 set.seed(123, "L'Ecuyer")
 
 #:# data
-ozone_ds <- getOMLDataSet(data.id = 1487L)
-ozone <- ozone_ds$data
-head(ozone)
+geyser_ds <- getOMLDataSet(data.id = 712L)
+geyser <- geyser_ds$data
+head(geyser)
 
 #:# preprocessing
-head(ozone)
+head(geyser)
 
 #:# model
-regr_task = makeRegrTask(id = "oz", data = ozone, target = "V3")
-regr_lrn = makeLearner("regr.nnet", par.vals = list(size = 5, maxit = 1000))
+regr_task = makeRegrTask(id = "g", data = geyser, target = "col_3")
+regr_lrn = makeLearner("regr.rvm")
 
 #:# hash 
-#:# 3fb67752e195ca5a26369e96f141ebcd
+#:# 3e73eb3740a19a2c12efacc5c0af48c5
 hash <- digest(regr_lrn)
 hash
 
