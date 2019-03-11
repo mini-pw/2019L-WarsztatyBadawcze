@@ -2,7 +2,6 @@
 library(digest)
 library(OpenML)
 library(mlr)
-library(randomForestSRC)
 
 #:# config
 set.seed(997)
@@ -15,17 +14,17 @@ skin_seg <- skin_seg$data
 head(skin_seg)
 
 #:# model
-classif_task = makeClassifTask(data = skin_seg, target = "Class")
-classif_lrn = makeLearner("classif.logreg", predict.type = "prob")
+regr_task = makeRegrTask(data = skin_seg, target = "V1")
+regr_lrn = makeLearner("regr.rpart", par.vals = list(maxdepth = 5))
 
 #:# hash 
-#:# 4854f305f42ae8beb4f19d3de2ba2d8e
-hash <- digest(classif_lrn)
+#:# 3b3b244bb8c811eee2435d534406befe
+hash <- digest(regr_lrn)
 hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc, tpr, tnr, f1, ppv))
+r <- resample(regr_lrn, regr_task, cv, measures = list(mse,rmse,mae,rsq))
 er <- r$aggr
 er
 

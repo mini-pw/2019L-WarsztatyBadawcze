@@ -15,9 +15,8 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
- [1] randomForestSRC_2.8.0 rqPen_2.0             regpro_0.1.1          denpro_0.9.2          quantreg_5.38         SparseM_1.77         
- [7] readr_1.3.1           OpenML_1.8            mlr_2.13              ParamHelpers_1.12     digest_0.6.18         caret_6.0-81         
-[13] ggplot2_3.1.0         lattice_0.20-35      
+ [1] rqPen_2.0         regpro_0.1.1      denpro_0.9.2      quantreg_5.38     SparseM_1.77      readr_1.3.1       OpenML_1.8       
+ [8] mlr_2.13          ParamHelpers_1.12 digest_0.6.18     caret_6.0-81      ggplot2_3.1.0     lattice_0.20-35  
 
 loaded via a namespace (and not attached):
  [1] Rcpp_1.0.0         lubridate_1.7.4    class_7.3-14       assertthat_0.2.0   ipred_0.9-8        foreach_1.4.4      R6_2.4.0          
