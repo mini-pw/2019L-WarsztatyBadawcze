@@ -6,7 +6,7 @@
     "task_id": "classification_Sex",
     "dataset_id": "openml_irish",
     "parameters": {
-      "distribution": null,
+      "distribution": "bernoulli",
       "n.trees": 100,
       "cv.folds": 0,
       "interaction.depth": 1,
@@ -14,7 +14,7 @@
       "shrinkage": 0.001,
       "bag.fraction": 0.5,
       "train.fraction": 1,
-      "keep.data": true,
+      "keep.data": false,
       "verbose": false
     },
     "preprocessing": {

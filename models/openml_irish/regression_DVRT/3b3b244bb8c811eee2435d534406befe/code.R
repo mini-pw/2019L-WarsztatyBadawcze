@@ -9,6 +9,7 @@ set.seed(1)
 #:# data
 irish <- getOMLDataSet(data.id = 451L)
 irish <- irish$data
+df <- irish
 head(irish)
 
 #:# preprocessing
@@ -24,9 +25,7 @@ hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(regr_lrn, regr_task, cv, measures = list(mse))
-MSE <- r$aggr
-MSE
+r <- resample(regr_lrn, regr_task, cv, measures = list(mse, rmse, mae, rsq))
 
 #:# session info
 sink(paste0("sessionInfo.txt"))
