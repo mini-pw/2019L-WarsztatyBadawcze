@@ -1,22 +1,13 @@
 [{
-	"id": "ba2a5c193852776b0d95577ae0c53ead",
+	"id": "59ff8edf82c39484a97b3009e36624ca",
 	"added_by": "pmizinski",
-	"date": "04-03-2019",
-	"task_id": "classification_Class",
+	"date": "12-03-2019",
+	"task_id": "regression_V1",
 	"dataset_id": "openml_wine-quality-white",
 	"parameters": {
-          "boos": true,  
-          "mfinal": 100,    
-          "coeflearn ":"Breiman", 
-          "minsplit":20,
-          "minbucket ":null,
-          "cp":0.01,
-          "maxcompete":4,
-          "maxsurrogate":5,
-          "usesurrogate":2,
-          "surrogatestyle":0, 
-          "maxdepth":30, 
-          "xval":10
+          "mtry": 3,
+      		"splitrule": "variance",
+      		"min.node.size": 5
 	},
 	"preprocessing": {
 		"V1": {
