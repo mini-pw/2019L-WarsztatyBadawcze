@@ -1,20 +1,12 @@
 [
   {
-    "id": "8585e1861552b267a934bf894e3d0867",
+    "id": "caf8e7688c79e1241dfa050eac9f3fe1",
     "added_by": "WojtekBogucki",
-    "date": "05-03-2019",
-    "task_id": "regression_Grades",
+    "date": "10-03-2019",
+    "task_id": "classification_Goals",
     "dataset_id": "openml_PopularKids",
     "parameters": {
-      "minsplit": 20,
-      "minbucket": 7,
-      "cp": 0.01,
-      "maxcompete": 4,
-      "maxsurrogate": 5,
-      "usesurrogate": 2,
-      "surrogatestyle": 0,
-      "maxdepth": 30,
-      "xval": 0
+      "nIter": 20
     },
     "preprocessing": {
       "Gender": {
