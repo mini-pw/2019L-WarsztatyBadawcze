@@ -1,0 +1,14 @@
+[
+  {
+    "id": "audit_ba2a5c193852776b0d95577ae0c53ead",
+    "date": "12-02-2019",
+    "added_by": "granatb",
+    "model_id": "ba2a5c193852776b0d95577ae0c53ead",
+    "task_id": "classification_predator",
+    "dataset_id": "openml_zoo",
+    "performance": {
+      "ACC":  0.6252381,
+      "AUC": 0.7073237
+    }
+  }
+] 

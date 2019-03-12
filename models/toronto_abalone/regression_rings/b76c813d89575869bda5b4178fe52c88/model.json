@@ -1,0 +1,151 @@
+[
+  {
+    "id": "b76c813d89575869bda5b4178fe52c88",
+    "added_by": "MatiFilozof",
+    "date": "08-03-2019",
+    "task_id": "regression_rings",
+    "dataset_id": "toronto_abalone",
+    "parameters": {
+      "ntree": 500,
+      "mtry": null,
+      "replace": true,
+      "classwt": null,
+      "cutoff": null,
+      "strata": null,
+      "sampsize": null,
+      "nodesize": 1,
+      "maxnodes": null,
+      "importance": false,
+      "localImp": false,
+      "proximity": false,
+      "oob.prox": null,
+      "norm.votes": true,
+      "do.trace": false,
+      "keep.forest": true,
+      "keep.inbag": false
+    },
+    "preprocessing": {
+      "sex": {
+        "name": "sex",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "F": 1307,
+          "I": 1342,
+          "M": 1528
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "length": {
+        "name": "length",
+        "type": "numerical",
+        "number_of_unique_values": 134,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.075,
+        "num_1qu": 0.45,
+        "num_median": 0.545,
+        "num_mean": 0.524,
+        "num_3qu": 0.615,
+        "num_maximum": 0.815
+      },
+      "diameter": {
+        "name": "diameter",
+        "type": "numerical",
+        "number_of_unique_values": 111,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.055,
+        "num_1qu": 0.35,
+        "num_median": 0.425,
+        "num_mean": 0.4079,
+        "num_3qu": 0.48,
+        "num_maximum": 0.65
+      },
+      "height": {
+        "name": "height",
+        "type": "numerical",
+        "number_of_unique_values": 51,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0.115,
+        "num_median": 0.14,
+        "num_mean": 0.1395,
+        "num_3qu": 0.165,
+        "num_maximum": 1.13
+      },
+      "whole_weight": {
+        "name": "whole_weight",
+        "type": "numerical",
+        "number_of_unique_values": 2429,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.002,
+        "num_1qu": 0.4415,
+        "num_median": 0.7995,
+        "num_mean": 0.8287,
+        "num_3qu": 1.153,
+        "num_maximum": 2.8255
+      },
+      "sh": {
+        "name": "sh",
+        "type": "numerical",
+        "number_of_unique_values": 1515,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.001,
+        "num_1qu": 0.186,
+        "num_median": 0.336,
+        "num_mean": 0.3594,
+        "num_3qu": 0.502,
+        "num_maximum": 1.488
+      },
+      "viscera_weight": {
+        "name": "viscera_weight",
+        "type": "numerical",
+        "number_of_unique_values": 880,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.0005,
+        "num_1qu": 0.0935,
+        "num_median": 0.171,
+        "num_mean": 0.1806,
+        "num_3qu": 0.253,
+        "num_maximum": 0.76
+      },
+      "shell_weight": {
+        "name": "shell_weight",
+        "type": "numerical",
+        "number_of_unique_values": 926,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.0015,
+        "num_1qu": 0.13,
+        "num_median": 0.234,
+        "num_mean": 0.2388,
+        "num_3qu": 0.329,
+        "num_maximum": 1.005
+      },
+      "rings": {
+        "name": "rings",
+        "type": "numerical",
+        "number_of_unique_values": 28,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 8,
+        "num_median": 9,
+        "num_mean": 9.9337,
+        "num_3qu": 11,
+        "num_maximum": 29
+      }
+    }
+  }
+]

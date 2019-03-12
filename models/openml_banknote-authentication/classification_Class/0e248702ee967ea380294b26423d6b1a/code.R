@@ -4,7 +4,7 @@ library(OpenML)
 library(mlr)
 
 #:# config
-set.seed(1)
+set.seed(123, "L'Ecuyer")
 
 #:# data
 banknote_authentication <- getOMLDataSet(data.id = 1462L)
@@ -25,7 +25,7 @@ hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc))
+r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc, tnr, tpr, ppv, f1))
 ACC <- r$aggr
 ACC
 

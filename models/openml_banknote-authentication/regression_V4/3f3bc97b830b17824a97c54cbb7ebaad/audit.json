@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_3f3bc97b830b17824a97c54cbb7ebaad",
+    "date": "09-03-2019",
+    "added_by": "Pastuszka",
+    "model_id": "3f3bc97b830b17824a97c54cbb7ebaad",
+    "task_id": "regression_V4",
+    "dataset_id": "openml_banknote-authentication",
+    "performance": {
+      "MSE":  2.509221,
+      "RMSE":  1.584052,
+      "MAE":  1.243836,
+      "R2":  0.4580378
+    }
+  }
+] 

@@ -25,6 +25,7 @@ make3JSON <- function() {
   id <- classif_task$task.desc$target               # regr_task 
   target <- classif_task$task.desc$target           # regr_task
   parameters <- lapply(getLearnerParamSet(classif_lrn)$pars, function(x){ ifelse(is.null(x$default), NA, x$default)}) #regr_lrn
+  parameters[names(getHyperPars(classif_lrn))] <- getHyperPars(classif_lrn)
   task_id <- paste(modelType, "_", id, sep = "")
   
   measures <- as.list(r$aggr)                     

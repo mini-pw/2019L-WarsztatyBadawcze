@@ -32,7 +32,7 @@ hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 4)
-r <- resample(regr_lrn, regr_task, cv, measures = list(mse))
+r <- resample(regr_lrn, regr_task, cv, measures = list(mse, rmse, mae, rsq))
 r$aggr
 
 #:# session info
