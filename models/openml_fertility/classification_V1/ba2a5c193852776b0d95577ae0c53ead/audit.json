@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_ba2a5c193852776b0d95577ae0c53ead",
+    "date": "12-03-2019",
+    "added_by": "lukaszbrzozowski",
+    "model_id": "ba2a5c193852776b0d95577ae0c53ead",
+    "task_id": "classification_V1",
+    "dataset_id": "openml_fertility",
+    "performance": {
+      "Acc": 0.32,
+      "AUC": null,
+      "Specificity": null,
+      "Recall": null,
+      "Precision": null,
+      "F1": null
+    }
+  }
+]
