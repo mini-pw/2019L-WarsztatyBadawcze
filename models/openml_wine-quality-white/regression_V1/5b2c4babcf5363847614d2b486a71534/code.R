@@ -25,9 +25,9 @@ hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- mlr::resample(regr_lrn, regr_task, cv,measures = list(mse))
-MSE <- r$aggr
-MSE
+r <- mlr::resample(regr_lrn, regr_task, cv,measures = list(mse, rmse, mae, rsq))
+r$aggr
+
 
 #:# session info
 sink(paste0("sessionInfo.txt"))
