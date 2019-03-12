@@ -1,0 +1,37 @@
+R version 3.5.1 (2018-07-02)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 17134)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=Polish_Poland.1250  LC_CTYPE=Polish_Poland.1250   
+[3] LC_MONETARY=Polish_Poland.1250 LC_NUMERIC=C                  
+[5] LC_TIME=Polish_Poland.1250    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods  
+[7] base     
+
+other attached packages:
+[1] OpenML_1.8        dplyr_0.8.0.1     naniar_0.4.2     
+[4] readr_1.3.1       mlr_2.13          ParamHelpers_1.12
+[7] digest_0.6.18    
+
+loaded via a namespace (and not attached):
+ [1] parallelMap_1.3   Rcpp_1.0.0        pillar_1.3.1     
+ [4] compiler_3.5.1    plyr_1.8.4        class_7.3-14     
+ [7] tools_3.5.1       packrat_0.5.0     memoise_1.1.0    
+[10] jsonlite_1.5      tibble_2.0.1      gtable_0.2.0     
+[13] checkmate_1.9.1   lattice_0.20-35   pkgconfig_2.0.2  
+[16] rlang_0.3.1       Matrix_1.2-14     fastmatch_1.1-0  
+[19] rstudioapi_0.8    curl_3.2          parallel_3.5.1   
+[22] gbm_2.1.5         gridExtra_2.3     e1071_1.7-0.1    
+[25] httr_1.3.1        hms_0.4.2         grid_3.5.1       
+[28] tidyselect_0.2.5  glue_1.3.0        data.table_1.12.0
+[31] farff_1.0         R6_2.3.0          XML_3.98-1.17    
+[34] survival_2.42-3   ggplot2_3.1.0     purrr_0.2.5      
+[37] magrittr_1.5      backports_1.1.2   scales_1.0.0     
+[40] BBmisc_1.11       splines_3.5.1     visdat_0.5.3     
+[43] assertthat_0.2.0  colorspace_1.3-2  stringi_1.2.4    
+[46] lazyeval_0.2.1    munsell_0.5.0     crayon_1.3.4     
