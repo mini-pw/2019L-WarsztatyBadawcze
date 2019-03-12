@@ -3,7 +3,7 @@ from sklearn.preprocessing import Imputer, StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV, train_test_split
-from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 from matplotlib import pyplot as plt
 from platform import python_version
 
@@ -39,7 +39,7 @@ df = pd.DataFrame(vals)
 
 X = df.drop('NUMDEFECTS', axis=1)
 y = df.loc[:, 'NUMDEFECTS']
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15)
 
 #:# preprocessing
 
@@ -59,6 +59,9 @@ print(f'md5: {md5}')
 y_pred = regressor.predict(X_test)
 
 print(f'MSE: {mean_squared_error(y_test, y_pred)}')
+print(f'RMSE: {np.sqrt(mean_squared_error(y_test, y_pred))}')
+print(f'MAE: {mean_absolute_error(y_test, y_pred)}')
+print(f'R2: {r2_score(y_test, y_pred)}')
 
 #:# session info
 
