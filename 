@@ -1,0 +1,2683 @@
+[33mcommit 269d956c5cffcdb636d62d94b09cef543e4cc5d1[m
+Merge: 0158c6c 88eb2af
+Author: airi314 <olka.wichrowska@gmail.com>
+Date:   Tue Mar 12 20:48:01 2019 +0100
+
+    Merge branch 'master' of https://github.com/mini-pw/2019L-WarsztatyBadawcze
+
+[33mcommit 88eb2af545a8a392549ca5ab06d61503c92ab3ad[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 12 17:38:52 2019 +0100
+
+    Update README.md
+
+[33mcommit a8bdb8d0a7efeadb57454a2420042524b9e2b07c[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 12 17:36:42 2019 +0100
+
+    Update README.md
+
+[33mcommit 0af06593e0e518321ee69722b53bb3034cc73e2d[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Mar 12 17:35:17 2019 +0100
+
+    Update Readme
+
+[33mcommit c1624fa4dcf700876cc82e21b3a8ee0b4851e46a[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Mar 12 15:07:18 2019 +0100
+
+    Update README.md
+
+[33mcommit ba3cf6d935e62c8a69b0795274f0c60eed2178c3[m
+Merge: 37f7a91 ad9f04b
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Mar 12 15:06:51 2019 +0100
+
+    Merge branch 'master' of https://github.com/mini-pw/2019L-WarsztatyBadawcze
+
+[33mcommit 37f7a919dfbae293d24fa72cba8c9f92108a34e2[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Mar 12 15:06:38 2019 +0100
+
+    Update README for models
+
+[33mcommit ad9f04b42a069693ed6bb8ad251c15c278a76cb3[m
+Merge: 36f9394 5bb50bd
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 12 15:02:39 2019 +0100
+
+    Merge pull request #84 from wernerolaf/master
+    
+    zadanie domowe 3
+
+[33mcommit 36f9394f866ce72e21f63cf2ffab550069259576[m
+Merge: 57ec8d2 f6d29b1
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 12 15:00:41 2019 +0100
+
+    Merge pull request #83 from WojtekBogucki/master
+    
+    PD3
+
+[33mcommit f6d29b11e0e6eb2ed9c6d45a94a8f4c0aab80710[m
+Merge: 316a63a 57ec8d2
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 12 15:00:15 2019 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit 57ec8d29206b2f90385334686619bbc04bc316c4[m
+Merge: 4270f76 3ceb74d
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 12 14:53:49 2019 +0100
+
+    Merge pull request #82 from WojciechKretowicz/master
+    
+    Poprawienie jsonow
+
+[33mcommit 5bb50bd5b90124130d562936ba38029524a7a299[m
+Author: wernerolaf <olafowerner@gmail.com>
+Date:   Mon Mar 11 22:34:41 2019 +0100
+
+    zadanie3
+
+[33mcommit 685d100532ee12641102a80787302f2ea99faab5[m
+Merge: b66b89f 4270f76
+Author: wernerolaf <o.werner@student.mini.pw.edu.pl>
+Date:   Mon Mar 11 20:28:50 2019 +0100
+
+    Merge pull request #3 from mini-pw/master
+    
+    x
+
+[33mcommit 3ceb74d3f3cadee973444a010a5b52425e3b7140[m
+Author: WojciechKretowicz <wojtekkretowicz@gmail.com>
+Date:   Mon Mar 11 18:45:23 2019 +0100
+
+    Polowa zadania 3
+
+[33mcommit 316a63a5680df48ac76d92ec7464c93708cb5a9d[m
+Author: WojtekBogucki <boguckiw@student.mini.pw.edu.pl>
+Date:   Mon Mar 11 17:58:59 2019 +0100
+
+    Poprawa literowek
+
+[33mcommit 1ae988f28068f9c33ae5bdf2fce25db8b74e00e3[m
+Author: WojciechKretowicz <wojtekkretowicz@gmail.com>
+Date:   Mon Mar 11 16:08:09 2019 +0100
+
+    ...
+
+[33mcommit 9193d1ce6066352cf087ee895ad9afa93af433c4[m
+Author: WojciechKretowicz <wojtekkretowicz@gmail.com>
+Date:   Mon Mar 11 14:58:18 2019 +0100
+
+    Poprawa zadania 2 oraz czesc zadania 3
+
+[33mcommit 64ecc3e3af2ae562dd2bba7999cd466c46cc114a[m
+Author: WojciechKretowicz <wojtekkretowicz@gmail.com>
+Date:   Mon Mar 11 14:36:23 2019 +0100
+
+    Troche poprawiona wersja skryptu Huberta
+
+[33mcommit 4270f7621c25b3cdd6daf55195a66b13e65eb012[m
+Merge: 41c5e75 09786cc
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:29:00 2019 +0100
+
+    Merge pull request #77 from witoldmerkel/master
+    
+    PD3 - Witold Merkel
+
+[33mcommit 41c5e751e84ccde40005e155d71b7a1d07abfde9[m
+Merge: 9896d6a d52c34c
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:25:06 2019 +0100
+
+    Merge pull request #79 from Pastuszka/master
+    
+    praca domowa 3
+
+[33mcommit 9896d6aceebab3711fd043fc6d4e8e08060f80c6[m
+Merge: 0c59ce7 567ba24
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:24:01 2019 +0100
+
+    Merge pull request #78 from hubertbaniecki/master
+    
+    PD3
+
+[33mcommit 09786cca577ab1ece0e4daee41dae6dff25c6760[m
+Merge: b5aebb5 0c59ce7
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:20:32 2019 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit 0c59ce789c4faee768b1cf78a594260756dc4da1[m
+Merge: b1668c2 360e082
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:18:14 2019 +0100
+
+    Merge pull request #76 from mckraqs/master
+    
+    PD3 - Mateusz Polakowski
+
+[33mcommit b1668c21674353637fc3c541ba12277a7b9e8099[m
+Merge: 7b9c05d 6133e95
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:16:56 2019 +0100
+
+    Merge pull request #75 from michalSt98/patch-1
+    
+    Update model.json
+
+[33mcommit 7b9c05d77cd317a2e9c69076b18739c4732c2e05[m
+Merge: 396349d 3739d02
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:16:02 2019 +0100
+
+    Merge pull request #74 from Adamoso/master
+    
+    PD3 - Adam Rydelek
+
+[33mcommit fd11d31ad540c03acd962cb5c4a68d5c07ae9a6a[m
+Merge: cd790e2 396349d
+Author: Wojciech Kretowicz <32495076+WojciechKretowicz@users.noreply.github.com>
+Date:   Mon Mar 11 14:15:25 2019 +0100
+
+    Merge pull request #3 from mini-pw/master
+    
+    merge
+
+[33mcommit 396349d599a9acc2b3189cfae2653ab0348c305b[m
+Merge: aad88ff 3a09c8b
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:15:15 2019 +0100
+
+    Merge pull request #73 from michalSt98/master
+    
+    Updated
+
+[33mcommit aad88ff7352af56a5c8d5a6aa77d755153e41daa[m
+Merge: 08bfe37 49a529c
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:10:52 2019 +0100
+
+    Merge pull request #71 from Siemashko/master
+    
+    Laboratorium 3 - liver_disorders
+
+[33mcommit 08bfe3753b4c6c8e5babd2a13e7694d70522f819[m
+Merge: f38ba90 1521be3
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:09:57 2019 +0100
+
+    Merge pull request #59 from pmizinski/master
+    
+    pd2
+
+[33mcommit f38ba909174d45fe1648049400ccc1ffbff5db8e[m
+Merge: a151e4a 18a6b26
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:08:48 2019 +0100
+
+    Merge pull request #57 from MatiFilozof/master
+    
+    PD2 + PD3 + dodanie PD2/3 do skryptu
+
+[33mcommit a151e4a19e74540748f4a15483c179a7da1c6abe[m
+Merge: 45f6f5c 5dc6a43
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:04:59 2019 +0100
+
+    Merge pull request #56 from airi314/master
+    
+    Praca domowa 2
+
+[33mcommit 45f6f5c9ec1315e76397451185ee7827881d0fcb[m
+Merge: 505555b b66b89f
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 14:03:45 2019 +0100
+
+    Merge pull request #54 from wernerolaf/master
+    
+    zadanieDomowe
+
+[33mcommit 505555befb968a65c585cf75e877dd086f1b476e[m
+Merge: 5b64081 41b58ba
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 13:48:02 2019 +0100
+
+    Merge pull request #48 from GoniaW/master
+    
+    dodanie pracy domowej
+
+[33mcommit 5b64081ce6fa5a3b07ec59a93bd03ab950f3f3c2[m
+Merge: 2df87c6 be60091
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Mon Mar 11 13:44:18 2019 +0100
+
+    Merge pull request #43 from granatb/master
+    
+    lab2
+
+[33mcommit 124737d4b76fa1d9b59303b71eb72791f1d6105c[m
+Author: WojtekBogucki <boguckiw@student.mini.pw.edu.pl>
+Date:   Sun Mar 10 20:36:27 2019 +0100
+
+    PD3 caret  + usuniecie pomocniczego pliku
+
+[33mcommit d52c34c312a2cd530219fe73b0c2ef952974c6ca[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Sat Mar 9 18:27:58 2019 +0100
+
+    yc logreg
+
+[33mcommit e08f4cafb3cfb8618645aaac587824ef6ee90b36[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Sat Mar 9 18:21:49 2019 +0100
+
+    popr
+
+[33mcommit f4aeb50950d4fd40a3d3fec3e2390a1a5affc519[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Sat Mar 9 18:09:04 2019 +0100
+
+    yc classification
+
+[33mcommit 53f36b12afa127bd064f54b096bdb14bd869aae2[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Sat Mar 9 17:32:59 2019 +0100
+
+    regr v4
+
+[33mcommit b66b89f79a1d427734912a16943666fd0834fad6[m
+Merge: 3ed5eda 1bbf52a
+Author: wernerolaf <olafowerner@gmail.com>
+Date:   Sat Mar 9 17:28:55 2019 +0100
+
+    Merge branch 'master' of https://github.com/wernerolaf/2019L-WarsztatyBadawcze
+
+[33mcommit 3ed5eda14bb7a3defd4367b9dfbb9d02c9b8d3ea[m
+Author: wernerolaf <olafowerner@gmail.com>
+Date:   Sat Mar 9 17:28:28 2019 +0100
+
+    poprawka
+
+[33mcommit 89eef572aa33ff35e087e9018034fa01bfff92fe[m
+Author: WojtekBogucki <boguckiw@student.mini.pw.edu.pl>
+Date:   Sat Mar 9 17:15:18 2019 +0100
+
+    PD3 - regresja w mlr
+
+[33mcommit 86b75919bda1201fad996faf2f2e63fce7b80c19[m
+Author: WojtekBogucki <boguckiw@student.mini.pw.edu.pl>
+Date:   Sat Mar 9 16:52:02 2019 +0100
+
+    PD3 - klasyfikacja w mlr
+
+[33mcommit 08f2897a20e62d9a1df66542a0d4fa06a787bf82[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Sat Mar 9 16:24:57 2019 +0100
+
+    liver selector
+
+[33mcommit 65aa5bb05f1fe46c2597b18b5fa634249e7bde2a[m
+Author: WojtekBogucki <boguckiw@student.mini.pw.edu.pl>
+Date:   Sat Mar 9 15:51:52 2019 +0100
+
+    Dodanie miar do poprzednich modeli
+
+[33mcommit fc89845bab9b04aab7f4583695e9f8741331d6e6[m
+Merge: 4dab8ab 2df87c6
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Sat Mar 9 14:53:35 2019 +0100
+
+    Merge pull request #4 from mini-pw/master
+    
+    pull
+
+[33mcommit 3a09c8ba7cc7876cc6895f60fee9a1a5c89c5767[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 9 14:51:37 2019 +0100
+
+    regr_lm
+
+[33mcommit 2fe66412888166f4033c8a9f6def37eee71e52bf[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 9 14:50:49 2019 +0100
+
+    regr_V10
+
+[33mcommit 7698f2b489404c2bce90a59cea8ef8003e66bdb7[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 9 14:50:08 2019 +0100
+
+    class_kknn
+
+[33mcommit 504ebf8e01dbd60033d6eff68b2fe7f7ef4e8b1c[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 9 14:49:36 2019 +0100
+
+    regr_lm
+
+[33mcommit 70fa2cd7757e74c9c0a18dd14eaec4927a3340f5[m
+Merge: 44ae214 2df87c6
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 9 14:48:25 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    PD3
+
+[33mcommit 4dab8abd27d56c327b4c315c49f0e86973fd7789[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Sat Mar 9 12:22:28 2019 +0100
+
+    d
+
+[33mcommit 1866602f1f9c03bf435c8c620a0263eed5670f42[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Sat Mar 9 12:09:55 2019 +0100
+
+    c
+
+[33mcommit 18a6b2687a84bca351484cc4889db5784a07996e[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Fri Mar 8 22:12:19 2019 +0100
+
+    PD3
+
+[33mcommit 98ddc81628d2b5d9476ffc41a4a42ae131b43125[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Fri Mar 8 22:10:50 2019 +0100
+
+    fixy i dodane funkcjonalności skryptu (chyba)
+
+[33mcommit c383050a1b5795691c6a6f4316581ec6ca80bea6[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Fri Mar 8 19:51:44 2019 +0100
+
+    odświeżone PD2 do wymagań PD3
+
+[33mcommit 05e1668b6af8de34213eb7ab8e7dd1748f444d49[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Fri Mar 8 19:50:42 2019 +0100
+
+    dodane funkcje PD3 (wybór między mlr i caretem)
+
+[33mcommit 567ba24fd2a50ece055aa85e8c7f3bacb87caa15[m
+Author: hubertbaniecki <h.baniecki@student.mini.pw.edu.pl>
+Date:   Fri Mar 8 15:38:53 2019 +0100
+
+    caret
+
+[33mcommit fde251afc55c55e8e184112c1f6120e5bb8b52c3[m
+Author: hubertbaniecki <h.baniecki@student.mini.pw.edu.pl>
+Date:   Fri Mar 8 15:38:00 2019 +0100
+
+    poprawkaPoKimś
+
+[33mcommit b5aebb54f43b70837dfd13aa1842d96a76306b5b[m
+Author: witoldmerkel <32493195+witoldmerkel@users.noreply.github.com>
+Date:   Fri Mar 8 13:00:50 2019 +0100
+
+    Add files via upload
+
+[33mcommit 15903181dc74f58dc77d37199492d6c0ece2d39b[m
+Author: witoldmerkel <32493195+witoldmerkel@users.noreply.github.com>
+Date:   Fri Mar 8 12:59:25 2019 +0100
+
+    Add files via upload
+
+[33mcommit f064f6eb2694fa171def0fcced02d5f45b8c10f7[m
+Author: witoldmerkel <32493195+witoldmerkel@users.noreply.github.com>
+Date:   Fri Mar 8 12:57:08 2019 +0100
+
+    Add files via upload
+
+[33mcommit c80a20ccde80cee8838f306ca038eca15fb93388[m
+Author: witoldmerkel <32493195+witoldmerkel@users.noreply.github.com>
+Date:   Fri Mar 8 12:56:26 2019 +0100
+
+    Add files via upload
+
+[33mcommit 6eb048b6846a266470540d6b4943126fabd4f14f[m
+Author: witoldmerkel <32493195+witoldmerkel@users.noreply.github.com>
+Date:   Fri Mar 8 12:55:13 2019 +0100
+
+    Add files via upload
+
+[33mcommit 2c7f9fe7900fa46bf11d7363388f59be1892b1e9[m
+Merge: d58a9a4 2df87c6
+Author: witoldmerkel <32493195+witoldmerkel@users.noreply.github.com>
+Date:   Fri Mar 8 12:50:25 2019 +0100
+
+    Merge pull request #3 from mini-pw/master
+    
+    update
+
+[33mcommit 360e082936d9c3ed5d746cfa809d598f8aba8244[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Fri Mar 8 12:21:24 2019 +0100
+
+    Update audit.json
+
+[33mcommit a7267f02542d1894ce277b3025299c1ce891f66d[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Fri Mar 8 12:19:34 2019 +0100
+
+    Update audit.json
+
+[33mcommit 0026d15df75788d32554d27eea02dc6bab47d9a6[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Fri Mar 8 11:42:25 2019 +0100
+
+    PD3 - Mateusz Polakowski
+
+[33mcommit 5ecf76bd9e23a1e7c6aa0e88e6a4d44624502c8c[m
+Merge: fa71ce1 2df87c6
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Fri Mar 8 11:39:35 2019 +0100
+
+    Merge pull request #3 from mini-pw/master
+
+[33mcommit 3739d0268923c062b2f541811a2d33cb312f0a8d[m
+Author: Adam Rydelek <32574203+Adamoso@users.noreply.github.com>
+Date:   Fri Mar 8 11:23:10 2019 +0100
+
+    Update parametrów
+
+[33mcommit adb4aa7ed1a46e2d833faaf34d8c7813683af1aa[m
+Author: Adam Rydelek <32574203+Adamoso@users.noreply.github.com>
+Date:   Fri Mar 8 11:19:50 2019 +0100
+
+    Update parametrów
+
+[33mcommit 9da99631f6c731c27ee23bfe9419b586bc70763d[m
+Author: Adam Rydelek <32574203+Adamoso@users.noreply.github.com>
+Date:   Fri Mar 8 11:19:09 2019 +0100
+
+    Update parametrów
+
+[33mcommit 791e50697e513f62eb409557f6586eab6e6e394f[m
+Author: Adam Rydelek <32574203+Adamoso@users.noreply.github.com>
+Date:   Fri Mar 8 11:03:39 2019 +0100
+
+    Update model.json
+
+[33mcommit 4e3375538272edd28e10265297b21765d9e50e6d[m
+Author: Adam Rydelek <32574203+Adamoso@users.noreply.github.com>
+Date:   Fri Mar 8 11:02:32 2019 +0100
+
+    Dodanie brakujących metryk
+
+[33mcommit a655a7b3754f6b40b06ff0ffbc2c8fd65c4e2505[m
+Author: Adam Rydelek <32574203+Adamoso@users.noreply.github.com>
+Date:   Fri Mar 8 10:57:51 2019 +0100
+
+    Poprawa literówki
+
+[33mcommit 5dc6a43367286f72088cc08f39977c3b802e0a8c[m
+Author: airi314 <32496852+airi314@users.noreply.github.com>
+Date:   Fri Mar 8 00:23:53 2019 +0100
+
+    Update generate_dataset_json_siemashko.ipynb
+
+[33mcommit f5c8d1914c57506c50f83b3a1d34968d8cc15d47[m
+Author: airi314 <32496852+airi314@users.noreply.github.com>
+Date:   Fri Mar 8 00:23:08 2019 +0100
+
+    Delete generate_dataset_json_siemashko-checkpoint.ipynb
+
+[33mcommit 8972fd3105bd09ff21b5e8c03540ab50db92e13c[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Thu Mar 7 23:12:41 2019 +0100
+
+    dodane przykłady wywołań
+
+[33mcommit 3773a25a82662367e2ff5d7aa5944156018480f7[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Thu Mar 7 23:12:21 2019 +0100
+
+    dodane przykłady wywołań
+
+[33mcommit 6133e958d76900ce22e92ecc262c6d8e6ce0e965[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Thu Mar 7 20:02:40 2019 +0100
+
+    Update model.json
+
+[33mcommit be600914a1828026046c2c8bdc22f25bd1cd3fc3[m
+Author: granatb <32493624+granatb@users.noreply.github.com>
+Date:   Thu Mar 7 18:27:53 2019 +0100
+
+    Add files via upload
+
+[33mcommit 6afad2205fbbdafcda0b68062c975a6e4faae79e[m
+Author: Adam Rydelek <32574203+Adamoso@users.noreply.github.com>
+Date:   Thu Mar 7 15:02:31 2019 +0100
+
+    PD3 - Adam Rydelek
+
+[33mcommit 16ba96ad71c9e71259589fe80c4d05feb4d06ddd[m
+Author: Adam Rydelek <32574203+Adamoso@users.noreply.github.com>
+Date:   Thu Mar 7 15:01:15 2019 +0100
+
+    PD3 - Adam Rydelek
+
+[33mcommit 4f7f765c3abb3a8367cca48d13a8e3724f952c46[m
+Author: WojtekBogucki <32553009+WojtekBogucki@users.noreply.github.com>
+Date:   Thu Mar 7 10:57:01 2019 +0100
+
+    Add files via upload
+
+[33mcommit 5d53ac46a8f991aa1362dc8572d0e6c35cb2dd31[m
+Author: granatb <32493624+granatb@users.noreply.github.com>
+Date:   Wed Mar 6 23:56:52 2019 +0100
+
+    Add files via upload
+
+[33mcommit 1521be31907f78259406428caa807fe680b67dbd[m
+Author: pmizinski <32573991+pmizinski@users.noreply.github.com>
+Date:   Wed Mar 6 23:52:01 2019 +0100
+
+    up
+
+[33mcommit e30905f861f4bf2e76e662a472b526debaf8618e[m
+Author: pmizinski <32573991+pmizinski@users.noreply.github.com>
+Date:   Wed Mar 6 23:51:24 2019 +0100
+
+    up
+
+[33mcommit 0c64b1753546d786d5ae771b93a9895f826c436e[m
+Author: pmizinski <32573991+pmizinski@users.noreply.github.com>
+Date:   Wed Mar 6 23:51:08 2019 +0100
+
+    up
+
+[33mcommit 50a8db722b761144bef22c38a4598e6351a0ef1c[m
+Author: pmizinski <32573991+pmizinski@users.noreply.github.com>
+Date:   Wed Mar 6 23:50:44 2019 +0100
+
+    up
+
+[33mcommit 196a6ac51025d47ff56476d08c4b2618e5637f8a[m
+Merge: 4a36058 2df87c6
+Author: pmizinski <32573991+pmizinski@users.noreply.github.com>
+Date:   Wed Mar 6 23:50:10 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    up
+
+[33mcommit fa71ce147ff017fe60ebd5781c4626e475cb1d3d[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Wed Mar 6 22:03:36 2019 +0100
+
+    PD3 - Mateusz Polakowski
+
+[33mcommit 574cbdf23231db69925f2f001be4418bd39c1961[m
+Author: hubertbaniecki <h.baniecki@student.mini.pw.edu.pl>
+Date:   Wed Mar 6 20:16:41 2019 +0100
+
+    dodanie2mlr
+
+[33mcommit 2600650f6a6df42e3e21c56dad9240dc05c53632[m
+Author: hubertbaniecki <h.baniecki@student.mini.pw.edu.pl>
+Date:   Wed Mar 6 20:14:06 2019 +0100
+
+    zaktualizowaniePoprzednichModeli
+
+[33mcommit 24e4be45cbae9809f71790686632e8c79906059d[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Wed Mar 6 19:19:48 2019 +0100
+
+    b
+
+[33mcommit 44ae214f277bc5cedf0dd3dd9c9faf34ecaa8d80[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Wed Mar 6 19:13:13 2019 +0100
+
+    Update audit.json
+
+[33mcommit 904aece154d93b5b1a0e9e05ed1dc0563cd314f5[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Wed Mar 6 19:08:09 2019 +0100
+
+    Update code.R
+
+[33mcommit 9b35b39a98fa6895c1d52503788bdfdcdb1f8173[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Wed Mar 6 19:06:25 2019 +0100
+
+    Update code.R
+
+[33mcommit 175de6de6841b0b9edf96296c12f2872af560a13[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Wed Mar 6 19:03:57 2019 +0100
+
+    Update code.R
+
+[33mcommit 49a529c39fec9f4ecf53e38af7f001f6ef012df2[m
+Author: siemashko <siemashko@github.com>
+Date:   Wed Mar 6 18:47:12 2019 +0100
+
+    categorical variable fix
+
+[33mcommit 81c7ec05937bea6dc18fb55364fdb255cfd50cd2[m
+Merge: 1a0839c 2df87c6
+Author: airi314 <32496852+airi314@users.noreply.github.com>
+Date:   Wed Mar 6 18:47:06 2019 +0100
+
+    Merge pull request #3 from mini-pw/master
+    
+    6.03
+
+[33mcommit dab0fc167df7707167d3f30da68e680e8137b058[m
+Author: siemashko <siemashko@github.com>
+Date:   Wed Mar 6 18:41:00 2019 +0100
+
+    openml_liver-disorders classification model
+
+[33mcommit 5f686a9aa156a474778a260f8bfbd71d5ecc75c5[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Wed Mar 6 18:38:40 2019 +0100
+
+    Update audit.json
+
+[33mcommit 44505bee2a4ec5aee466329cd8ed5c103b4fed41[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Wed Mar 6 18:32:24 2019 +0100
+
+    Update code.R
+
+[33mcommit 2df87c679dfd3ed2cee544bf6f3682ecea6e810d[m
+Merge: e2a4e24 47c9930
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Wed Mar 6 18:32:03 2019 +0100
+
+    Merge pull request #67 from Siemashko/master
+    
+    audit.json key order fix
+
+[33mcommit e2a4e242abb1ac516fd01d3a9dd11838b90bb2f0[m
+Merge: a0cecee d4679e2
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Wed Mar 6 18:31:52 2019 +0100
+
+    Merge pull request #68 from hubertbaniecki/master
+    
+    addHyperPars
+
+[33mcommit 1bbf52a8a5356cd4ee956201ec71e8df53f5f8be[m
+Author: 291139 werner olaf <wernero@p21916.mini.pw.edu.pl>
+Date:   Wed Mar 6 18:06:51 2019 +0100
+
+    poprawka
+
+[33mcommit a0ceceeb6d0bae71b39ef1671ebbc807c57bb112[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Wed Mar 6 17:41:11 2019 +0100
+
+    Update lab3_caret.R
+
+[33mcommit 41b58bab59e031cc5513d924ebc423c265b7f001[m
+Merge: 99e9dc6 97be235
+Author: GoniaW <32526340+GoniaW@users.noreply.github.com>
+Date:   Wed Mar 6 17:29:03 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    update
+
+[33mcommit d4679e2d1dafb74f7e80450d5522cde7311bc29d[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Wed Mar 6 17:22:34 2019 +0100
+
+    addHyperPars
+
+[33mcommit c1539abf8be75d093e4ffb89e0fd91a8d3024e1d[m
+Merge: b57af93 97be235
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Wed Mar 6 17:21:29 2019 +0100
+
+    Merge pull request #3 from mini-pw/master
+    
+    hh
+
+[33mcommit 47c9930fb5abf80afe999dd2311792f7dc8c3178[m
+Author: siemashko <siemashko@github.com>
+Date:   Wed Mar 6 16:59:18 2019 +0100
+
+    audit.json key order fix
+
+[33mcommit 99e9dc619240ea9ac4bbd66ce7e85dd644c5fc66[m
+Author: Gonia Wachulec <gosia.wachulec@gmail.com>
+Date:   Wed Mar 6 16:30:51 2019 +0100
+
+    poprawa task.json
+
+[33mcommit b55b42d73d5919b18ac77f4df24c64355d8b8ec0[m
+Merge: e811f84 97be235
+Author: Kacper Siemaszko <32499287+Siemashko@users.noreply.github.com>
+Date:   Wed Mar 6 16:09:00 2019 +0100
+
+    Merge pull request #4 from mini-pw/master
+    
+    fork update
+
+[33mcommit 97be235885f2fa38652b8ffb657bd5497ea560b1[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Wed Mar 6 16:01:52 2019 +0100
+
+    Update readme
+
+[33mcommit cd790e2f888f731afc56309b5be6ceb2402e2eeb[m
+Author: WojciechKretowicz <wojtekkretowicz@gmail.com>
+Date:   Wed Mar 6 15:34:37 2019 +0100
+
+    Zadanie domowe 2
+
+[33mcommit ff2d72c293bbef5fa163ca19ea2915bb450acca7[m
+Merge: e05440d 8207a1a
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Wed Mar 6 15:17:40 2019 +0100
+
+    Merge pull request #65 from k-sap/master
+    
+    PD2_files
+
+[33mcommit 66216ce0ee224db524ca58a2a52275fc3f8837e6[m
+Merge: 3a02efd e05440d
+Author: Wojciech Kretowicz <32495076+WojciechKretowicz@users.noreply.github.com>
+Date:   Wed Mar 6 11:17:50 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    merge
+
+[33mcommit e05440d74beab1dc88fc2062199358055d58a501[m
+Merge: 85714f2 0fe1b0f
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Wed Mar 6 10:05:33 2019 +0100
+
+    Merge pull request #64 from BogdanJastrzebski/master
+    
+    pd2_V2
+
+[33mcommit 8207a1ac81c73f3f31b4ba57a8cebb475ff5e09f[m
+Author: Karol Saputa <32554739+k-sap@users.noreply.github.com>
+Date:   Wed Mar 6 01:16:53 2019 +0100
+
+    PD2_files
+
+[33mcommit 0fe1b0fc403fcec717511f4f9faa27b215782078[m
+Author: BogdanJastrzebski <32574029+BogdanJastrzebski@users.noreply.github.com>
+Date:   Wed Mar 6 00:28:23 2019 +0100
+
+    Update audit.json
+
+[33mcommit b38576d382c75c88d3958ebb2bcd9f729e22c44c[m
+Author: BogdanJastrzebski <32574029+BogdanJastrzebski@users.noreply.github.com>
+Date:   Wed Mar 6 00:27:37 2019 +0100
+
+    Update audit.json
+
+[33mcommit 1bca8ba32c5ce8585ccd8f0b98b960cf99f08e13[m
+Author: BogdanJastrzebski <32574029+BogdanJastrzebski@users.noreply.github.com>
+Date:   Wed Mar 6 00:06:14 2019 +0100
+
+    pd2
+
+[33mcommit 85714f2cbef9b76f2af0b9a67609df9a78ac9257[m
+Merge: a76e17d 0996e84
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 23:07:06 2019 +0100
+
+    Merge pull request #62 from maksymiuks/master
+    
+    Pd2
+
+[33mcommit 0996e8400df0446f6defeba944b7801a4697a2e0[m
+Author: maksymiuks <32574056+maksymiuks@users.noreply.github.com>
+Date:   Tue Mar 5 22:54:20 2019 +0100
+
+    Pd2
+
+[33mcommit 020b4e85f12ee21a41354f28c7b58110b000368c[m
+Author: maksymiuks <32574056+maksymiuks@users.noreply.github.com>
+Date:   Tue Mar 5 22:53:26 2019 +0100
+
+    Pd2 korekta
+
+[33mcommit a76e17d7ca26f4c188ec5ce6618b5f600d11e3d6[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Mar 5 22:27:51 2019 +0100
+
+    Update lab 2 and readme
+
+[33mcommit 91e8e7399dce75cbf21feab6149ab3ab55a70054[m
+Merge: d57b882 c5818b6
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 22:25:47 2019 +0100
+
+    Merge pull request #61 from lukaszbrzozowski/master
+    
+    lbrzozowski PD2
+
+[33mcommit 4baad8094ab230e336008c0d81c2a96f5fdc551f[m
+Author: maksymiuks <32574056+maksymiuks@users.noreply.github.com>
+Date:   Tue Mar 5 22:20:08 2019 +0100
+
+    Pd2
+
+[33mcommit c5818b6b3d01e5a25259c5e97ea8246a1487a6a3[m
+Author: lukaszbrzozowski <32491719+lukaszbrzozowski@users.noreply.github.com>
+Date:   Tue Mar 5 21:52:25 2019 +0100
+
+    lbrzozowski PD2
+
+[33mcommit d57b8823a6d14e058468f25ff8886e5263db269f[m
+Merge: fe0fcd6 5f7b6d6
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 21:21:19 2019 +0100
+
+    Merge pull request #60 from WojtekBogucki/master
+    
+    Praca domowa nr 2
+
+[33mcommit 70c7a390e3af389622179858eeeecdf26fef3761[m
+Author: lukaszbrzozowski <32491719+lukaszbrzozowski@users.noreply.github.com>
+Date:   Tue Mar 5 21:17:47 2019 +0100
+
+    lbrzozowski PD2
+
+[33mcommit fe0fcd660740c79a2d494b8b4c39cdc46565d31c[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Mar 5 20:47:17 2019 +0100
+
+    Update datasets readme
+
+[33mcommit 5f7b6d600d7940a5262e541f82ec805f5bd1372b[m
+Author: WojtekBogucki <boguckiw@student.mini.pw.edu.pl>
+Date:   Tue Mar 5 20:07:21 2019 +0100
+
+    Usunięcie wstępnych kodów
+
+[33mcommit 489bf395a6a6e457d76e5a5fa866294140453bd1[m
+Author: WojtekBogucki <boguckiw@student.mini.pw.edu.pl>
+Date:   Tue Mar 5 20:05:34 2019 +0100
+
+    Praca domowa 2
+
+[33mcommit 1070174f58ef275805e5973b5a3aca30464db121[m
+Author: wernerolaf <olafowerner@gmail.com>
+Date:   Tue Mar 5 20:03:13 2019 +0100
+
+    skrypt
+
+[33mcommit 0158c6c23b705b7e4397c896b0e703fa8ad4f4a3[m
+Author: airi314 <olka.wichrowska@gmail.com>
+Date:   Tue Mar 5 19:29:10 2019 +0100
+
+    zadanie domowe
+
+[33mcommit 063585ec113a73190e4988e424108a59d39f23ed[m
+Merge: b854c4f b57af93
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 14:36:08 2019 +0100
+
+    Merge pull request #55 from hubertbaniecki/master
+    
+    PD2 + skrypt R
+
+[33mcommit b57af936754b3061b919a8a6230b664a95f63a6f[m
+Merge: 9757f21 b854c4f
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 14:28:09 2019 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit b854c4f7847570b4b91e9f2ca21d15490a0d3689[m
+Merge: 0c388cb e811f84
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 14:25:38 2019 +0100
+
+    Merge pull request #50 from Siemashko/master
+    
+    code.py template w folderze templates + notebook do generowania pozostałych jsonów + praca domowa nr 2
+
+[33mcommit 0c388cb5451bb91a9cbb9b0e1808409ae1e8b33b[m
+Merge: dcdf373 d3df29f
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 09:50:34 2019 +0100
+
+    Merge pull request #58 from Adamoso/master
+    
+    PD2 - Adam Rydelek
+
+[33mcommit dcdf373f1319a3528cb4f99fb3cb32b92eea5001[m
+Merge: 70b56f4 acac8c5
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 09:39:49 2019 +0100
+
+    Merge pull request #53 from pysiakk/master
+    
+    Praca Domowa 2 - Karol Pysiak
+
+[33mcommit 70b56f468f0511849bb2b276cb12e71a6653e8d4[m
+Merge: 457f227 8f55a1a
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 09:37:45 2019 +0100
+
+    Merge pull request #52 from mckraqs/master
+    
+    [PD2] Mateusz Polakowski
+
+[33mcommit 457f22785a6236922ebc1c035db526b038204767[m
+Merge: c3d66b7 7025830
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 09:32:28 2019 +0100
+
+    Merge pull request #51 from michalSt98/master
+    
+    Michał Stawikowski - PD2
+
+[33mcommit c3d66b7b91ed00ecb70861e8e1c5ca5ecb4ac85a[m
+Merge: f9533e0 bac30f0
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 09:31:04 2019 +0100
+
+    Merge pull request #47 from Pastuszka/master
+    
+    pd2 Michal Pastuszka
+
+[33mcommit f9533e0875b6846172c876bbf929530bb2608b31[m
+Merge: 8324313 3cbd914
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 09:29:49 2019 +0100
+
+    Merge pull request #45 from DominikRafacz/master
+    
+    PD2
+
+[33mcommit 8324313f0c524f3bb009563c6a6885916f3193cb[m
+Merge: 7ba2a7e d58a9a4
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 09:28:26 2019 +0100
+
+    Merge pull request #44 from witoldmerkel/master
+    
+    PD2 - Witold Merkel
+
+[33mcommit 7ba2a7eb735d2aab3112737672c6e9b9d4fba3aa[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Mar 5 09:21:11 2019 +0100
+
+    Update model.json
+
+[33mcommit d3df29f908dd46dfde606c973c3952dad6fc6547[m
+Author: Adam Rydelek <32574203+Adamoso@users.noreply.github.com>
+Date:   Mon Mar 4 21:27:01 2019 +0100
+
+    Update model.json - błąd z przecinkami
+
+[33mcommit 27f028eedcf07dc1e9a1c5bb074845decbd28d97[m
+Author: Adam Rydelek <32574203+Adamoso@users.noreply.github.com>
+Date:   Mon Mar 4 21:25:43 2019 +0100
+
+    Update - błąd z przecinkami
+
+[33mcommit 4a360585e5687afbcec5ea37152765d40b5db6c4[m
+Author: pmizinski <32573991+pmizinski@users.noreply.github.com>
+Date:   Mon Mar 4 18:18:38 2019 +0100
+
+    up
+
+[33mcommit ab3969415e416949f34f30f7e8da04191101b86b[m
+Merge: 7883d6b 825acc5
+Author: pmizinski <32573991+pmizinski@users.noreply.github.com>
+Date:   Mon Mar 4 18:18:06 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+    
+    up
+
+[33mcommit 212b6d69476ee0c49bb34369d703943a542aafec[m
+Author: Adam Rydelek <32574203+Adamoso@users.noreply.github.com>
+Date:   Sun Mar 3 19:15:17 2019 +0100
+
+    PD2 - Adam Rydelek
+
+[33mcommit f2047126cb9d6b49c8057dd3d413d8b577c41a2e[m
+Merge: a930cae 825acc5
+Author: Adam Rydelek <32574203+Adamoso@users.noreply.github.com>
+Date:   Sun Mar 3 19:14:18 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    pull
+
+[33mcommit d873bcc55fbe9418e8099763b0d7695cbe61e5d6[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Sun Mar 3 18:36:43 2019 +0100
+
+    poprawiona kolejność kolumn w jsonach
+
+[33mcommit b83b09bfd19dd51e0a8113b99286204180cbb57c[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Sun Mar 3 18:35:53 2019 +0100
+
+    poprawiona kolejność kolumn
+
+[33mcommit 12117c5282f0f962cc9336e1550f421f1c2168c2[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Sun Mar 3 18:21:15 2019 +0100
+
+    dodane generowanie PD2
+
+[33mcommit 992cca3dba8f50c63e04278a69e0e0e0000cc86c[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Sun Mar 3 18:20:34 2019 +0100
+
+    PD2 - jsony
+
+[33mcommit 3cbd9143e1799b0e526862a209dd754c668f09a8[m
+Author: DominikRafacz <d.rafacz@student.mini.pw.edu.pl>
+Date:   Sun Mar 3 16:25:25 2019 +0100
+
+    PD2, czesc druga
+
+[33mcommit 04d52b06d2adb8e74fa663971b81b90ba2839df0[m
+Merge: 927b240 825acc5
+Author: DominikRafacz <32573752+DominikRafacz@users.noreply.github.com>
+Date:   Sun Mar 3 15:31:26 2019 +0100
+
+    Merge pull request #3 from mini-pw/master
+    
+    merge
+
+[33mcommit 1a0839c2f6203ea2a58913a0f5b74fcdfbe2ceea[m
+Author: airi314 <olka.wichrowska@gmail.com>
+Date:   Sun Mar 3 13:28:41 2019 +0100
+
+    praca domowa
+
+[33mcommit a1ab06826b94505b4310c3019798b7d9ff5b87a9[m
+Author: airi314 <olka.wichrowska@gmail.com>
+Date:   Sun Mar 3 13:26:17 2019 +0100
+
+    praca domowa
+
+[33mcommit e811f84c06f72da4dccee9d2bbdbf32f5aa5b1c8[m
+Author: Kacper Siemaszko <32499287+Siemashko@users.noreply.github.com>
+Date:   Sun Mar 3 04:29:24 2019 +0100
+
+    Update audit.json
+
+[33mcommit 3e4f63396d3d4d2dc301e84b07db895dc5e2b229[m
+Author: Kacper Siemaszko <32499287+Siemashko@users.noreply.github.com>
+Date:   Sun Mar 3 04:28:50 2019 +0100
+
+    Update model.json
+
+[33mcommit 92eb5c178570a3193f0de182b39c843ada4ff02c[m
+Author: Kacper Siemaszko <32499287+Siemashko@users.noreply.github.com>
+Date:   Sun Mar 3 04:23:22 2019 +0100
+
+    Update task.json
+
+[33mcommit 247644bdf21c47dcd268857da2076b2658cf7b81[m
+Author: Kacper Siemaszko <32499287+Siemashko@users.noreply.github.com>
+Date:   Sun Mar 3 04:20:12 2019 +0100
+
+    Update audit.json
+
+[33mcommit 9757f21ed7bd8da0dcba3c7a7e239be6071320ca[m
+Author: Hubert <h.baniecki@student.mini.pw.edu.pl>
+Date:   Sat Mar 2 22:42:51 2019 +0100
+
+    wb2
+
+[33mcommit 69893efc4bc818cd0db9db6e430667c3155278ac[m
+Merge: d9cd0a4 825acc5
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Sat Mar 2 22:32:28 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    hh
+
+[33mcommit c514c0f774565f1596e03fcbae58cbabbe6cdbd1[m
+Author: wernerolaf <olafowerner@gmail.com>
+Date:   Sat Mar 2 21:41:54 2019 +0100
+
+    zadanieDomowe
+
+[33mcommit 2c27a1c8f8381c12deacff8c0df3660923ca9c4e[m
+Author: wernerolaf <olafowerner@gmail.com>
+Date:   Sat Mar 2 21:40:39 2019 +0100
+
+    zadanieDomowe
+
+[33mcommit acac8c5de7fc23e19c1b4659d7ac1288c8724aa5[m
+Author: pysiakk <k.pysiak@student.mini.pw.edu.pl>
+Date:   Sat Mar 2 19:25:23 2019 +0100
+
+    Praca Domowa 2 - Karol Pysiak
+
+[33mcommit 7025830fc2bef21bf7d31e9a3c59a42dcccebc3d[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 19:07:54 2019 +0100
+
+    Update model.json
+
+[33mcommit 3b00ba84be21f31c3119b0d91101a5175c87a0ec[m
+Merge: e1fe925 a530875
+Author: siemashko <siemashko@github.com>
+Date:   Sat Mar 2 16:54:42 2019 +0100
+
+    Merge branch 'master' of github.com:Siemashko/2019L-WarsztatyBadawcze
+
+[33mcommit e1fe9254f32ab0b8a0d3e4f1606fcb4bac35221a[m
+Author: siemashko <siemashko@github.com>
+Date:   Sat Mar 2 16:54:29 2019 +0100
+
+    audit.json fields order fix
+
+[33mcommit 8a0484611e676429dac26346d8e571e64c8b9a77[m
+Author: siemashko <siemashko@github.com>
+Date:   Sat Mar 2 16:54:02 2019 +0100
+
+    audit.json fields order fix
+
+[33mcommit c1e1dfd8e18100ad17d93003b918623f9464e298[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 16:31:10 2019 +0100
+
+    Update model.json
+
+[33mcommit 8f55a1a9bed007e0fdf5891fc8a405600a7976dd[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Sat Mar 2 15:49:24 2019 +0100
+
+    regression_V1
+
+[33mcommit a53087553993cd357ff1debfe39fe84e9f970ffd[m
+Author: Kacper Siemaszko <32499287+Siemashko@users.noreply.github.com>
+Date:   Sat Mar 2 15:48:00 2019 +0100
+
+    Update code.py
+
+[33mcommit e30037450d2841250a2ad46aac1070b6858365aa[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:47:27 2019 +0100
+
+    Delete sessionInfo.txt
+
+[33mcommit 3d96e90bc6666224b83a67f9f41bdf4279aa5e89[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:47:20 2019 +0100
+
+    Delete model.json
+
+[33mcommit 5af9f0e2f438021bdf0a5fb29a5d806fd21a03d5[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:47:15 2019 +0100
+
+    Delete code.R
+
+[33mcommit 1ae06f68826fc1349c68ff971aeb1dfd1240e26c[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:47:08 2019 +0100
+
+    Delete audit.json
+
+[33mcommit fa49a40400dce63abcddad1367ab3be3f10f18b2[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:46:59 2019 +0100
+
+    Delete task.json
+
+[33mcommit f2d4281fb2be747df3741fd58c2c03d87b3608b2[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:46:51 2019 +0100
+
+    Delete sessionInfo.txt
+
+[33mcommit 078dd327687ddf6330510af2f66225d468e8abdf[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:46:45 2019 +0100
+
+    Delete model.json
+
+[33mcommit 1354d7a154e878ce1a447576ec2f04d318bf58bd[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:46:38 2019 +0100
+
+    Delete code.R
+
+[33mcommit ed8f7882a30ce483c97e25baf2eb33fac1dd640f[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:46:32 2019 +0100
+
+    Delete audit.json
+
+[33mcommit c350fc69d5c061066f2393c4c03c014a38ccfb0e[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:46:21 2019 +0100
+
+    Delete task.json
+
+[33mcommit 3c3a7c9653dc32b6fc586485c00d62cc27b11ccf[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:44:47 2019 +0100
+
+    PD2
+
+[33mcommit af5d00e66f799df4998bf42422b10258f4d98a26[m
+Merge: 1d33cc6 825acc5
+Author: Kacper Siemaszko <32499287+Siemashko@users.noreply.github.com>
+Date:   Sat Mar 2 15:44:02 2019 +0100
+
+    Merge pull request #3 from mini-pw/master
+    
+    repo update
+
+[33mcommit 1d33cc6b80a10860d63fed7a93d7027d072dd03e[m
+Author: siemashko <siemashko@github.com>
+Date:   Sat Mar 2 15:43:12 2019 +0100
+
+    Regression model + small notebook update
+
+[33mcommit 7191c3e3b691da4c3e8fe3a95b29c4dbc167dfe8[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:37:22 2019 +0100
+
+    Michał Stawikowski - PD2
+
+[33mcommit 920c0d4a78a5b042c1182fbf880cdab03117e2f8[m
+Merge: 287978d 825acc5
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Sat Mar 2 15:36:28 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+    
+    Merge1
+
+[33mcommit 1f5ff55a7135b6e79c190952282e1db2f78aa3c7[m
+Author: siemashko <siemashko@github.com>
+Date:   Sat Mar 2 15:19:17 2019 +0100
+
+    template code.py + notebook for generating audit.json, model.json and task.json + classification model
+
+[33mcommit a2dcf01d4734809e15609d5bd4f57d603ff8d98d[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Sat Mar 2 14:00:02 2019 +0100
+
+    Update code.R
+
+[33mcommit 3ec3f1ba79429594c40f453664cff17da09d2699[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Sat Mar 2 13:59:27 2019 +0100
+
+    Update model.json
+
+[33mcommit c730391755711231ac14a15a17e9e84835b764a3[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Sat Mar 2 13:50:37 2019 +0100
+
+    Create README.md
+
+[33mcommit acba436744a7499316b3db7343913df462386f2f[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Sat Mar 2 13:50:21 2019 +0100
+
+    Create README.md
+
+[33mcommit d52b93cde4f6eff25d0285ce0e7c82c4a0333ab0[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Sat Mar 2 13:49:56 2019 +0100
+
+    classification_survival_status
+
+[33mcommit b1140167ab0287d1b4339093664155100d1e2a89[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Sat Mar 2 13:48:33 2019 +0100
+
+    Create README.md
+
+[33mcommit 153d08b58fe5a7c53874163639e348470cfbed9f[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Sat Mar 2 13:47:51 2019 +0100
+
+    classification_Class
+
+[33mcommit e7ea3bc2ca550dd3ad45ae0c0f187cfed33c60b1[m
+Merge: d5a3d89 825acc5
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Sat Mar 2 13:46:46 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+
+[33mcommit 863783054fe529ecba495d112dfa40a00e3b2fbd[m
+Author: Gonia Wachulec <gosia.wachulec@gmail.com>
+Date:   Thu Feb 28 21:36:15 2019 +0100
+
+    dodanie modelu regresji
+
+[33mcommit bac30f013ab5c2382b17aee513364886d3bdd412[m
+Merge: a124803 825acc5
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Thu Feb 28 20:04:49 2019 +0100
+
+    Merge pull request #3 from mini-pw/master
+    
+    d
+
+[33mcommit a12480381cd7bb897e25711f735f8d44e06deb80[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Thu Feb 28 20:02:36 2019 +0100
+
+    c
+
+[33mcommit 4151d990594fe3582de30d56e3857d473ca6b244[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Thu Feb 28 19:31:26 2019 +0100
+
+    b
+
+[33mcommit b1831a9c8d91b3672e9be97c91cef72d2b77e444[m
+Merge: b67ab20 825acc5
+Author: wernerolaf <o.werner@student.mini.pw.edu.pl>
+Date:   Thu Feb 28 15:18:13 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    Update
+
+[33mcommit 927b2408b555b88f0ea732e891df4ba2d2ed3998[m
+Author: DominikRafacz <d.rafacz@student.mini.pw.edu.pl>
+Date:   Wed Feb 27 22:31:28 2019 +0100
+
+    zmiana hashu, dokonczenie jednego modelu
+
+[33mcommit d58a9a49686378ff5189181c070b7795080ff27b[m
+Author: witoldmerkel <32493195+witoldmerkel@users.noreply.github.com>
+Date:   Wed Feb 27 21:16:29 2019 +0100
+
+    PD2 - Witold Merkel
+
+[33mcommit f97aa3fb0a6877c5243241d3d75620fc46b06f43[m
+Merge: b219e24 825acc5
+Author: witoldmerkel <32493195+witoldmerkel@users.noreply.github.com>
+Date:   Wed Feb 27 21:10:03 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    update
+
+[33mcommit 74da8a65b8869d92db9ea7bebb944ffcc564e18f[m
+Author: airi314 <olka.wichrowska@gmail.com>
+Date:   Wed Feb 27 20:29:29 2019 +0100
+
+    add classification task
+
+[33mcommit 821177f87bc9e6a26ef9361f00a7cb34b120eb64[m
+Author: 291121 bogucki wojciech <boguckiw@p21916.mini.pw.edu.pl>
+Date:   Wed Feb 27 19:35:08 2019 +0100
+
+    kod i wstepny generator
+
+[33mcommit 38eba9e75f39e03b1a4d81eb39a9a347dcb89b2e[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Wed Feb 27 19:34:54 2019 +0100
+
+    a
+
+[33mcommit 577b7e05ae3928337a53230b8f3cc0e3e41ac0bb[m
+Author: 293790 wachulec malgorzata <wachulecm@p21902.mini.pw.edu.pl>
+Date:   Wed Feb 27 19:32:40 2019 +0100
+
+    dodanie klasyfikatora
+
+[33mcommit 7e82ac7cd5cc5cb76847c8ffb42cca5533d16b5c[m
+Author: granatb <32493624+granatb@users.noreply.github.com>
+Date:   Wed Feb 27 19:30:49 2019 +0100
+
+    Add files via upload
+
+[33mcommit c54893dbfce437f920b37490e0fd83cd39fa59f5[m
+Author: 291128 rafacz dominik <rafaczd@p21914.mini.pw.edu.pl>
+Date:   Wed Feb 27 19:30:41 2019 +0100
+
+    poczatek PD2
+
+[33mcommit 3bf82c3801e7d56348a9dc31965b0e43d776025e[m
+Merge: b3bfedd 825acc5
+Author: granatb <32493624+granatb@users.noreply.github.com>
+Date:   Wed Feb 27 19:30:19 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+    
+    pd1
+
+[33mcommit 3a02efd487410c5bed303400ffc8462f2607d2e6[m
+Author: 291127 kretowicz wojciech <kretowiczw@p21921.mini.pw.edu.pl>
+Date:   Wed Feb 27 19:29:42 2019 +0100
+
+    Zadanie domowe part 1
+
+[33mcommit 36ab31264da731b485eac63770dc178f663ada79[m
+Author: 291140 wichrowska aleksandra <wichrowskaa@p21912.mini.pw.edu.pl>
+Date:   Wed Feb 27 19:24:46 2019 +0100
+
+    add classification task
+
+[33mcommit 825acc53087d7f32e9ecbf542128f1e25d35c35a[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Wed Feb 27 19:09:52 2019 +0100
+
+    Update code.R
+
+[33mcommit b67ab2013d0be97d70feb84c4217a30e097f402c[m
+Merge: 6e38f11 e6da6bf
+Author: wernerolaf <o.werner@student.mini.pw.edu.pl>
+Date:   Wed Feb 27 19:08:42 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+    
+    update
+
+[33mcommit e6da6bf495736d94ca5b1ebcfa4b92d46f2e6cad[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Wed Feb 27 19:05:04 2019 +0100
+
+    Update task.json
+
+[33mcommit c2f2e0be796da0e377d3b0914290a27996784dc7[m
+Merge: b763c4b da66d03
+Author: GoniaW <32526340+GoniaW@users.noreply.github.com>
+Date:   Wed Feb 27 18:12:48 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+    
+    update
+
+[33mcommit fcb8844a5e3f701369bd0bb8e9262070fc62f596[m
+Merge: fe9173d da66d03
+Author: DominikRafacz <32573752+DominikRafacz@users.noreply.github.com>
+Date:   Wed Feb 27 18:08:34 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    merge
+
+[33mcommit 94030bc473fb2c03d8ca21b9baaea07ccba851df[m
+Merge: 1993303 da66d03
+Author: Karol Pysiak <32498018+pysiakk@users.noreply.github.com>
+Date:   Wed Feb 27 18:08:05 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    Update
+
+[33mcommit 8c80f2ee1fcf1969348705e7622484747cbfa4b0[m
+Merge: e5672bb da66d03
+Author: airi314 <32496852+airi314@users.noreply.github.com>
+Date:   Wed Feb 27 18:04:19 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    27.02
+
+[33mcommit aff3ba8ecf6ee8a5f82451b6061f008df8f7d639[m
+Merge: 73181d7 da66d03
+Author: Wojciech Kretowicz <32495076+WojciechKretowicz@users.noreply.github.com>
+Date:   Wed Feb 27 18:03:27 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+    
+    merge
+
+[33mcommit da66d0320e70a8f230524dfaeff688933d111547[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Wed Feb 27 17:42:12 2019 +0100
+
+    Add intro
+
+[33mcommit 2c115d823b4a8c924cfe93d1829ba4df29d5c9bf[m
+Merge: 402fc94 e7aa727
+Author: Kacper Siemaszko <32499287+Siemashko@users.noreply.github.com>
+Date:   Wed Feb 27 16:25:31 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    update
+
+[33mcommit e7aa7270ec6ccb6e5f6f2b6e4c4ba4b002586f44[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Wed Feb 27 15:56:33 2019 +0100
+
+    Update datasets readme
+
+[33mcommit d1253cc2f29666dfe78bb15ad08980f8ec50d3b8[m
+Merge: 8835c9c de9232b
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Wed Feb 27 15:53:03 2019 +0100
+
+    Merge pull request #39 from BogdanJastrzebski/master
+    
+    poprawka
+
+[33mcommit 8835c9cee9c1741780d05058cb193e24cff85597[m
+Merge: 6345586 b3bfedd
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Wed Feb 27 15:51:42 2019 +0100
+
+    Merge pull request #40 from granatb/master
+    
+    Add files via upload
+
+[33mcommit b3bfeddefe41b6da47361802a930459c3e3dc0cd[m
+Author: granatb <32493624+granatb@users.noreply.github.com>
+Date:   Wed Feb 27 15:10:12 2019 +0100
+
+    Add files via upload
+
+[33mcommit 63455866dd5e63b10c7c9cca90b17ccdae02a25d[m
+Merge: d8b17d6 9df1a99
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Wed Feb 27 10:58:23 2019 +0100
+
+    Merge branch 'master' of https://github.com/mini-pw/2019L-WarsztatyBadawcze
+
+[33mcommit d8b17d660d8f57e56eeeb8a0c79bce44526a27f9[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Wed Feb 27 10:57:57 2019 +0100
+
+    Update README.md
+
+[33mcommit de9232b8de41d9f45145261a4f6c94e628ed5814[m
+Author: BogdanJastrzebski <32574029+BogdanJastrzebski@users.noreply.github.com>
+Date:   Wed Feb 27 10:56:09 2019 +0100
+
+    Update dataset.json
+
+[33mcommit 7ac90fcbe2eb7f4fdf55e2a80886941103b7633e[m
+Author: BogdanJastrzebski <32574029+BogdanJastrzebski@users.noreply.github.com>
+Date:   Wed Feb 27 10:55:02 2019 +0100
+
+    Update dataset.json
+
+[33mcommit e51b9fc553edfcd8b6641261011ef02592d36649[m
+Author: BogdanJastrzebski <32574029+BogdanJastrzebski@users.noreply.github.com>
+Date:   Wed Feb 27 10:53:13 2019 +0100
+
+    Add files via upload
+
+[33mcommit 9df1a990ef2b3132f420320ed22c2b406d974537[m
+Merge: 75053ba 7666e82
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Wed Feb 27 10:53:05 2019 +0100
+
+    Merge pull request #12 from maksymiuks/master
+    
+    Lupus database
+
+[33mcommit 75053ba547b87885b03964470e17f13795da983f[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Wed Feb 27 09:33:08 2019 +0100
+
+    Add lab2
+
+[33mcommit 7666e827dabbfbf319a52a3bbeb0cc93a555c9eb[m
+Author: maksymiuks <32574056+maksymiuks@users.noreply.github.com>
+Date:   Wed Feb 27 00:24:57 2019 +0100
+
+    Homework 1
+
+[33mcommit d4a07bb3093f7e6720567feb8bd8da496fa509dc[m
+Author: maksymiuks <32574056+maksymiuks@users.noreply.github.com>
+Date:   Wed Feb 27 00:24:05 2019 +0100
+
+    Delete lupus.json
+
+[33mcommit e14417d94cffbe174a842a2c4d031c6785406b32[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 22:19:16 2019 +0100
+
+    Update README.md
+
+[33mcommit 85c1ccb3f654bf7a5005d1ae04864abf3a1b5f27[m
+Merge: 01040a8 db80f0b
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 22:18:01 2019 +0100
+
+    Merge pull request #18 from lukaszbrzozowski/master
+    
+    Fertility dataset
+
+[33mcommit db80f0ba9399e30991205e866a0ba06a91d8d074[m
+Author: lukaszbrzozowski <32491719+lukaszbrzozowski@users.noreply.github.com>
+Date:   Tue Feb 26 21:13:20 2019 +0100
+
+    lbrzozowski PD1
+
+[33mcommit a3019f6e65b7493cfc91c9aac525131d9637cc57[m
+Author: lukaszbrzozowski <32491719+lukaszbrzozowski@users.noreply.github.com>
+Date:   Tue Feb 26 20:06:18 2019 +0100
+
+    changed name
+
+[33mcommit 01040a843b4816582129a0f0753ca49825cad8a0[m
+Merge: cb67ffd a930cae
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 19:27:22 2019 +0100
+
+    Merge pull request #37 from Adamoso/master
+    
+    PD1 - Adam Rydelek
+
+[33mcommit a930cae5e9ef955b0d91bde6cc7fa7d7655145d9[m
+Author: Adamoso <32574203+Adamoso@users.noreply.github.com>
+Date:   Tue Feb 26 19:06:53 2019 +0100
+
+    PD1 - Adam Rydelek
+
+[33mcommit 6f4eb7398587dc0cd1d0de69cbeca0f9db82e8dc[m
+Merge: 8863ea2 cb67ffd
+Author: Adamoso <32574203+Adamoso@users.noreply.github.com>
+Date:   Tue Feb 26 19:04:27 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+    
+    pull
+
+[33mcommit cb67ffdaa6acc3920e5e65ceec43ad6f440561fb[m
+Merge: d4d5b2c 51ce1db
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 12:39:04 2019 +0100
+
+    Merge pull request #36 from Pastuszka/master
+    
+    poprawione sleep_data
+
+[33mcommit d4d5b2c8427598f140ee0e2dbe14c20817633025[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Feb 26 12:35:52 2019 +0100
+
+    Add readme for datasets
+
+[33mcommit 51ce1dba4921ed714a8a1c546b74742884019a3b[m
+Merge: 0dd7ea4 e181ce8
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Tue Feb 26 12:29:50 2019 +0100
+
+    Merge pull request #2 from mini-pw/master
+    
+    a
+
+[33mcommit 0dd7ea468987621eecfcb3b9022602dc1d25ce18[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Tue Feb 26 12:28:02 2019 +0100
+
+    poprawione sleep-data
+
+[33mcommit e181ce84c8601ad454a15a477e94c67d3dd3f5a9[m
+Merge: 42f9af6 c29bc2c
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 11:28:45 2019 +0100
+
+    Merge pull request #30 from WojtekBogucki/master
+    
+    Praca domowa 1 + skrypt ułatwiający tworzenie plików JSON
+
+[33mcommit 42f9af6e9792e2abaa274d91999d76fb22521690[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Feb 26 11:21:09 2019 +0100
+
+    Fix openml_phoneme dataset.json
+
+[33mcommit e5f233522c8dfcd625e75a4d3541e93a07516dbb[m
+Merge: d022446 e5672bb
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 11:11:21 2019 +0100
+
+    Merge pull request #10 from airi314/master
+    
+    Lab1 - abalone dataset + praca domowa
+
+[33mcommit d0224460efd038ba892266141797e34773911455[m
+Merge: 404a119 4baafc7
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 11:10:41 2019 +0100
+
+    Merge pull request #31 from k-sap/master
+    
+    GenderRecognition, PovertyIndex
+
+[33mcommit 404a1197bc38314700030a6ff6f8c878ecdf9b27[m
+Merge: 005c3cb d5a3d89
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 11:09:57 2019 +0100
+
+    Merge pull request #33 from mckraqs/master
+    
+    PD1_Models(haberman&skin-segmentation)
+
+[33mcommit 005c3cb5442f68e6a9d2a77f7c240a12bb45fd8e[m
+Merge: 7d6dc81 6e38f11
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 11:01:24 2019 +0100
+
+    Merge pull request #29 from wernerolaf/master
+    
+    pokemon_and_glass_datasets
+
+[33mcommit 7d6dc817646ad3ffd3eb49bb1f97469dabad07ed[m
+Merge: cf87065 7883d6b
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 10:55:32 2019 +0100
+
+    Merge pull request #34 from pmizinski/master
+    
+    pd1
+
+[33mcommit cf8706586269541c24c13d3af3577122f9accff8[m
+Merge: 823d007 73181d7
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 10:54:48 2019 +0100
+
+    Merge pull request #35 from WojciechKretowicz/master
+    
+    PD1
+
+[33mcommit 823d007e58141977407a4c4293d830178a3a5d3d[m
+Merge: e9cb952 1993303
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 10:53:38 2019 +0100
+
+    Merge pull request #32 from pysiakk/master
+    
+    Praca Domowa 1 - pysiakk
+
+[33mcommit e9cb9523df62a866d7ed3110ff41bbb853113eea[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Feb 26 10:40:22 2019 +0100
+
+    Add test for names of variables in dataset.json
+
+[33mcommit fa226a0905cc4a9741fdd4a436f8a586866e031b[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Feb 26 10:01:14 2019 +0100
+
+    Delete lab1.R
+
+[33mcommit 82fcbe6466ef1afd4aea9a1e75996f08a7e229f5[m
+Merge: 9e502d0 fe9173d
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 09:51:59 2019 +0100
+
+    Merge pull request #27 from DominikRafacz/master
+    
+    Praca z laboratoriów dodana poniewczasie + praca domowa nr 1
+
+[33mcommit 9e502d00fac68b13de2e6f316efcb4703566b842[m
+Merge: 049b907 01fcb98
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 26 09:50:22 2019 +0100
+
+    Merge pull request #25 from MatiFilozof/master
+    
+    PD1 & funkcja getTorontoDataset
+
+[33mcommit fe9173d688e18fb4fe1f7da7d96c60f3e398edba[m
+Author: DominikRafacz <d.rafacz@student.mini.pw.edu.pl>
+Date:   Mon Feb 25 23:29:08 2019 +0100
+
+    dodanie trzech datasetow
+
+[33mcommit 73181d7610d03d7b800210a8578eca3fb0bb65fc[m
+Author: WojciechKretowicz <wojtekkretowicz@gmail.com>
+Date:   Mon Feb 25 19:38:46 2019 +0100
+
+    Dwa zbiory danych
+
+[33mcommit b3987ef2164f0ec2705ce8d230857a295c501d57[m
+Author: WojciechKretowicz <wojtekkretowicz@gmail.com>
+Date:   Mon Feb 25 19:36:42 2019 +0100
+
+    Dwa zbiory danych
+
+[33mcommit 7883d6b11c3e5c96b30e7ec3724ec96b980b8fea[m
+Author: pmizinski <32573991+pmizinski@users.noreply.github.com>
+Date:   Mon Feb 25 18:40:22 2019 +0100
+
+    pd1
+
+[33mcommit 1504093fc9c52853e4a4e7369ad8c88ad821515d[m
+Author: DominikRafacz <d.rafacz@student.mini.pw.edu.pl>
+Date:   Mon Feb 25 10:24:36 2019 +0100
+
+    dodanie nawiasów w plikach
+
+[33mcommit 9c6febd0c86177a2b2714d64c870f7e3f3e5a7bf[m
+Author: DominikRafacz <d.rafacz@student.mini.pw.edu.pl>
+Date:   Mon Feb 25 10:02:53 2019 +0100
+
+    praca domowa - dodanie dwoch datasetow
+
+[33mcommit 1993303511c28d254a7d50f84dc48dc0075afa9a[m
+Author: pysiakk <k.pysiak@student.mini.pw.edu.pl>
+Date:   Sun Feb 24 22:24:29 2019 +0100
+
+    tic-tac-toe repaired
+
+[33mcommit d5a3d89075538d58e24e35b3e03f30f5abe6d293[m
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Sun Feb 24 22:19:01 2019 +0100
+
+    PD1_Models(haberman&skin-segmentation)
+
+[33mcommit 9ea9e542ee249695947fb64a2b4e72bb8d33eeef[m
+Merge: 69c56cc 049b907
+Author: Mateusz Polakowski <32831307+mckraqs@users.noreply.github.com>
+Date:   Sun Feb 24 22:17:55 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+
+[33mcommit cd143af75a688058d224fa4222458de37cb6ab3f[m
+Author: pysiakk <k.pysiak@student.mini.pw.edu.pl>
+Date:   Sun Feb 24 22:13:14 2019 +0100
+
+    Praca Domowa 1 - pysiakk
+
+[33mcommit e5672bb337bdd7d432a522b9d80f1ee70c531f51[m
+Author: airi314 <olka.wichrowska@gmail.com>
+Date:   Sun Feb 24 19:22:08 2019 +0100
+
+    praca domowa
+
+[33mcommit 116acc9601ea3012d69f6e8853561454435e160e[m
+Author: airi314 <olka.wichrowska@gmail.com>
+Date:   Sun Feb 24 19:00:51 2019 +0100
+
+    praca domowa
+
+[33mcommit c83d069d327410e3c1a772b6dc617fa8fec7dbcf[m
+Merge: d797c31 049b907
+Author: airi314 <32496852+airi314@users.noreply.github.com>
+Date:   Sun Feb 24 18:58:27 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+    
+    24.02
+
+[33mcommit 54883a27d51b3bb1851af323b5e6ce64da17a9f6[m
+Merge: f1c2d40 049b907
+Author: Karol Pysiak <32498018+pysiakk@users.noreply.github.com>
+Date:   Sun Feb 24 18:32:23 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+    
+    Update
+
+[33mcommit 4baafc73deae1faa9792a9a235337c8a2eeb582e[m
+Author: Karol Saputa <32554739+k-sap@users.noreply.github.com>
+Date:   Sun Feb 24 14:48:32 2019 +0100
+
+    Add files via upload
+
+[33mcommit c29bc2cb8accd3af28f3d33c34788d01a9087d57[m
+Author: WojtekBogucki <boguckiw@student.mini.pw.edu.pl>
+Date:   Sat Feb 23 17:36:47 2019 +0100
+
+    Praca domowa 1 + skrypt ułatwiający tworzenie plików JSON
+
+[33mcommit 6e38f11c8f457b4fff07e9005db8360b309b94fb[m
+Author: wernerolaf <olafowerner@gmail.com>
+Date:   Sat Feb 23 16:09:56 2019 +0100
+
+    z_laboratoriow
+
+[33mcommit d7963ad2178da8380e494e72fd0cf3e8b5948d8f[m
+Author: wernerolaf <olafowerner@gmail.com>
+Date:   Sat Feb 23 16:00:50 2019 +0100
+
+    pokemon_and_glass_datasets
+
+[33mcommit 6cd1f1e47b0713e9ce5cf02abfb7af957507b5cf[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Sat Feb 23 11:01:31 2019 +0100
+
+    praca domowa 1
+
+[33mcommit 5923fa8254d56ddb4a43fa9786f758804c8e3f1d[m
+Merge: 575aa6b 049b907
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Sat Feb 23 11:00:50 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+    
+    a
+
+[33mcommit 049b907dd991bb7744e29906e70d33b434f65013[m
+Merge: 64c4c6f 402fc94
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Sat Feb 23 09:40:35 2019 +0100
+
+    Merge pull request #26 from Siemashko/master
+    
+    added include_ignored_attributes param to dataset.json generator
+
+[33mcommit 72a3e65bf0bd1d4e61a73463f382c89d0516801f[m
+Author: DominikRafacz <d.rafacz@student.mini.pw.edu.pl>
+Date:   Fri Feb 22 23:16:14 2019 +0100
+
+    dodanie datasetu z zajec
+
+[33mcommit 4fffbc519bcfdf4a087e658afaae9dfcce199983[m
+Merge: 69c56cc 64c4c6f
+Author: DominikRafacz <32573752+DominikRafacz@users.noreply.github.com>
+Date:   Fri Feb 22 22:54:33 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+    
+    merge
+
+[33mcommit 402fc94753bd4f5a30ad1ea56cd26fafe4a21ce5[m
+Merge: 1a86e9d 64c4c6f
+Author: Kacper Siemaszko <32499287+Siemashko@users.noreply.github.com>
+Date:   Fri Feb 22 21:00:09 2019 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit 1a86e9d153902e3b300875d87b9920d080f399bd[m
+Author: siemashko <siemashko@github.com>
+Date:   Fri Feb 22 20:53:08 2019 +0100
+
+    solving merge conflicts
+
+[33mcommit e6f20b922c6385c241cffb8d8b475c287be71cf3[m
+Author: siemashko <siemashko@github.com>
+Date:   Fri Feb 22 20:47:03 2019 +0100
+
+    added include_ignored_attributes param to dataset.json generator
+
+[33mcommit 01fcb98574f5f4cda2713a03f92b43473328bc78[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Fri Feb 22 17:08:06 2019 +0100
+
+    updated to generate square brackets
+
+[33mcommit f346c8e781ed4efc855f06174464cba3901e562b[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Fri Feb 22 17:07:28 2019 +0100
+
+    updated with added [] brackets
+
+[33mcommit 117f43050695cb84a9b7345eb494a4f57c528c6a[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Fri Feb 22 12:15:42 2019 +0100
+
+    PD1 - toronto datasets added
+
+[33mcommit e67f4f0a824d946130f383715203d86c956ca815[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Fri Feb 22 12:14:48 2019 +0100
+
+    added script generating json from cs.toronto.edu
+
+[33mcommit 02106d550ec2394b15880a6c5ab279d0e8baa198[m
+Merge: efc8b02 64c4c6f
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Fri Feb 22 12:13:50 2019 +0100
+
+    Merge pull request #1 from mini-pw/master
+    
+    aktualizacja
+
+[33mcommit 64c4c6f349efa896431e00679e6029d3d6bfeb71[m
+Merge: c1be494 f1c2d40
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Fri Feb 22 10:26:07 2019 +0100
+
+    Merge pull request #24 from pysiakk/master
+    
+    Added openml_electricity
+
+[33mcommit c1be49419c827a9d9d1d26370f7ef9cbf8e2b5a0[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Fri Feb 22 10:24:47 2019 +0100
+
+    Update .gitignore
+
+[33mcommit 658f58101d42d26914dca4df377f5804971c0988[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Fri Feb 22 10:24:17 2019 +0100
+
+    Delete .DS_Store
+
+[33mcommit cfe31f7fe497355194b8772f545ee9254f5e65d1[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Fri Feb 22 10:16:18 2019 +0100
+
+    Update README.md
+
+[33mcommit 415a1bf8c3c41ed5cb4b1b7f42512c3a1c976404[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Fri Feb 22 10:15:42 2019 +0100
+
+    Move hubertbaniecki script
+
+[33mcommit 08bb7bc0c09e003286d6a3c08fe520b82e65d634[m
+Merge: 841155f d9cd0a4
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Fri Feb 22 10:11:56 2019 +0100
+
+    Merge pull request #23 from hubertbaniecki/master
+    
+    poprawaLab1 + PD1 + Skrypt do generowania dataset.json z pliku csv
+
+[33mcommit 841155f520dc5bb3042770cc51b91c160276532c[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Fri Feb 22 09:53:40 2019 +0100
+
+    Move siemashko script
+
+[33mcommit 8e0bebb82152cfe2414fe8bbafb39adde2916609[m
+Merge: dd8268b ea8df98
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Fri Feb 22 09:49:34 2019 +0100
+
+    Merge pull request #20 from Siemashko/master
+    
+    Laboratorium 1 + Praca domowa 1 + Skrypt do generowania dataset.json z openML przy pomocy datasetID
+
+[33mcommit ea8df982e1ac7d813a852d74ecc494ff2e9ea284[m
+Author: siemashko <siemashko@github.com>
+Date:   Thu Feb 21 23:51:23 2019 +0100
+
+    saving original target class name. Changed method for deciding if target is numerical or nominal.
+
+[33mcommit d9cd0a48a67cb4fae3ca41ad39a0ecd1c7461df8[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 23:27:34 2019 +0100
+
+    komentarz
+
+[33mcommit a7d4c984241b49a967901cb0e3e01da3efc56cc9[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 23:16:43 2019 +0100
+
+    traceNadzieje
+
+[33mcommit 5fda5d4713f49c26c655beedbc33ea55e8441e6b[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 23:15:57 2019 +0100
+
+    traceNadzieje
+
+[33mcommit f1c2d40fc4a482ec7d7df2d2b6ef15abf8616434[m
+Author: pysiakk <k.pysiak@student.mini.pw.edu.pl>
+Date:   Thu Feb 21 22:48:42 2019 +0100
+
+    Added openml_electricity
+
+[33mcommit 54333d4e1c024f2792414a00eaa691c21f0e0074[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 22:39:16 2019 +0100
+
+    zamiana "null" na null
+
+[33mcommit fa1dd355711d739ad46056ab52b527f44a983dcf[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 22:38:04 2019 +0100
+
+    zamiana "null" na null
+
+[33mcommit 0b87a8d767f6c0e89559108294b49c8df62004fa[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 22:36:32 2019 +0100
+
+    zamiana "null" na null
+
+[33mcommit ed6f2f5033c8ced1c461cd7182f148a83ab6acdf[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 21:48:06 2019 +0100
+
+    poprawka daty
+
+[33mcommit dd8268bfb407d94ebfb814b45cd1c6e092bee420[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 21:47:49 2019 +0100
+
+    Update README.md
+
+[33mcommit 63a0c68ee9bde9a0dec373697438c18d7b287eb2[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 21:47:25 2019 +0100
+
+    poprawka daty
+
+[33mcommit bbd727e0969c31130edc8a1f79ed9533617a0f06[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 21:46:03 2019 +0100
+
+    Update skrypt.R
+    
+    poprawka daty
+
+[33mcommit b6b3af4d794df1f08a361cd38846149e6171a6dc[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Thu Feb 21 21:44:33 2019 +0100
+
+    Move kaggle_heart-disease
+
+[33mcommit 603db4694c1996d294ef3863072b35e0c77b60e6[m
+Merge: aea2f8f 287978d
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 21:42:30 2019 +0100
+
+    Merge pull request #22 from michalSt98/master
+    
+    Praca domowa nr 1
+
+[33mcommit aea2f8f08fb9c80b80a92f462285b0fec93853b5[m
+Merge: 7c7e423 b219e24
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 21:41:42 2019 +0100
+
+    Merge pull request #21 from witoldmerkel/master
+    
+    PD1 - Witold Merkel
+
+[33mcommit 7c7e423d1880da046bc37929f1f67e9e809e6141[m
+Merge: 8c1588f b763c4b
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 21:40:31 2019 +0100
+
+    Merge pull request #16 from GoniaW/master
+    
+    Lab1 - artificial-characters; Pd1 - diabetes, blood_transfusion
+
+[33mcommit 8c1588ffc89e4fadb3d3c262ca067b2244392761[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 21:34:00 2019 +0100
+
+    Update .travis.yml
+
+[33mcommit 118e1fc28d7913ff91d3a9abc778c6e898b7f529[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 21:33:01 2019 +0100
+
+    Add files via upload
+
+[33mcommit 818ad4ee316ebf5cf3ef22162662555841001ab8[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 21:24:05 2019 +0100
+
+    Add files via upload
+    
+    bez bezsensownej kolumny id
+
+[33mcommit 92604f35ae4293080fd64373dd46a9e7adadc15e[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 21:23:28 2019 +0100
+
+    Add files via upload
+
+[33mcommit 4cf9bbd49774ed4e2717d5e5b4069bf358edc45f[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 20:54:22 2019 +0100
+
+    poprawka
+    
+    podczas labów wkradł się błąd
+
+[33mcommit 8bfababcb266fed3f04400ac24e33876ad2742bb[m
+Merge: 302c2f1 796f954
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Thu Feb 21 20:52:34 2019 +0100
+
+    Merge pull request #1 from pbiecek/master
+    
+    hb
+
+[33mcommit 287978d0a104dba77da4c7ebeccab04f0d0dc3f9[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Thu Feb 21 20:12:58 2019 +0100
+
+    Update dataset.json
+
+[33mcommit 65f4f5572b67a9ffb29e01c301ed97383dc8b239[m
+Author: michalSt98 <32554595+michalSt98@users.noreply.github.com>
+Date:   Thu Feb 21 20:09:37 2019 +0100
+
+    Praca domowa nr 1
+
+[33mcommit b763c4b79669ef378d61a474b9f94bf9085036ae[m
+Author: GoniaW <32526340+GoniaW@users.noreply.github.com>
+Date:   Thu Feb 21 12:48:22 2019 +0100
+
+    Delete WachulecMalgorzata_lab1.json
+
+[33mcommit 2fee2e4432260a0dc12ed96ba6ba5b2f645c0f53[m
+Author: GoniaW <32526340+GoniaW@users.noreply.github.com>
+Date:   Thu Feb 21 12:48:14 2019 +0100
+
+    Delete blood_transfusion_pd1.json
+
+[33mcommit b1b056281aa25ebcf70c50417d73cb8fd206c011[m
+Author: GoniaW <32526340+GoniaW@users.noreply.github.com>
+Date:   Thu Feb 21 12:48:06 2019 +0100
+
+    Delete diabetes_pd1.json
+
+[33mcommit 57234984fe197ffb1613341462d9544485fcbb0f[m
+Author: GoniaW <32526340+GoniaW@users.noreply.github.com>
+Date:   Thu Feb 21 12:47:52 2019 +0100
+
+    Delete .DS_Store
+
+[33mcommit bb327b761d436b231494cfa92a08c6f7c0e3eab0[m
+Author: GoniaW <32526340+GoniaW@users.noreply.github.com>
+Date:   Thu Feb 21 12:47:18 2019 +0100
+
+    Delete .DS_Store
+
+[33mcommit 70359c7902e6be2b61c1235280c37243951eb835[m
+Author: GoniaW <32526340+GoniaW@users.noreply.github.com>
+Date:   Thu Feb 21 12:47:05 2019 +0100
+
+    Delete .DS_Store
+
+[33mcommit 7e222844bf6100eea265b3e4e2e3afac2d19d1ed[m
+Author: Gonia Wachulec <gosia.wachulec@gmail.com>
+Date:   Thu Feb 21 12:30:32 2019 +0100
+
+    poprawienie pracy domowej i laboratoriow
+
+[33mcommit 796f9540578ac20b9269fc88feebb936e79a1f55[m
+Merge: d745b55 c8f61d8
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 11:29:28 2019 +0100
+
+    Merge pull request #8 from k-sap/master
+    
+    humandev dataset
+
+[33mcommit b219e24405ba8d93ae40e8c9da9da823f0e1d92e[m
+Author: witoldmerkel <32493195+witoldmerkel@users.noreply.github.com>
+Date:   Thu Feb 21 10:46:09 2019 +0100
+
+    PD1 - Witold Merkel
+    
+    monk-problems-1: https://www.openml.org/d/333
+    monk-problems-3: https://www.openml.org/d/335
+
+[33mcommit 8252361ae806cfa08983e71e8c9a09b0d1b5c161[m
+Merge: 7123aa8 d745b55
+Author: witoldmerkel <32493195+witoldmerkel@users.noreply.github.com>
+Date:   Thu Feb 21 10:44:51 2019 +0100
+
+    Merge pull request #1 from pbiecek/master
+    
+    update
+
+[33mcommit c8f61d8b6e4a0fb886d2ea23eb330a3fe17fd71e[m
+Author: Karol Saputa <32554739+k-sap@users.noreply.github.com>
+Date:   Thu Feb 21 10:13:56 2019 +0100
+
+    Rename openml_humandevel.json to dataset.json
+
+[33mcommit d745b55ba7c0cfbbcdb951b3f08827f1b7e739b2[m
+Merge: 714e960 8863ea2
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 10:09:03 2019 +0100
+
+    Merge pull request #19 from Adamoso/master
+    
+    heart disease from kaggle
+
+[33mcommit 714e9606895f27ec90742fc69bd4ab7494368356[m
+Merge: c495e05 302c2f1
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 10:05:22 2019 +0100
+
+    Merge pull request #17 from hubertbaniecki/master
+    
+    Lab1
+
+[33mcommit c495e05a110f7906811391e5f7485a68e43e9ddb[m
+Merge: 2890989 32f6f68
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 10:03:40 2019 +0100
+
+    Merge pull request #15 from granatb/master
+    
+    Add files via upload
+
+[33mcommit 28909893807fba11f844011c3205c4a49b3e137b[m
+Merge: e99f3cd 05c6c1b
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 10:01:56 2019 +0100
+
+    Merge pull request #14 from WojciechKretowicz/master
+    
+    dataset
+
+[33mcommit e99f3cd836c3140aa6181a08149f351490b6d525[m
+Merge: d6a78d8 efc8b02
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 09:59:59 2019 +0100
+
+    Merge pull request #13 from MatiFilozof/master
+    
+    json zbioru auto_price
+
+[33mcommit d6a78d8002e341a7e59bb13035298f7165b9dd12[m
+Merge: ef911db 7123aa8
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 09:55:24 2019 +0100
+
+    Merge pull request #11 from witoldmerkel/master
+    
+    monk-problems-2
+
+[33mcommit ef911db8117c8a3e347ca4a0f080b2caf8b41316[m
+Merge: 69c56cc 575aa6b
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Thu Feb 21 09:45:53 2019 +0100
+
+    Merge pull request #7 from Pastuszka/master
+    
+    added banknote-authentication
+
+[33mcommit 329ed26eb39c696c4acb6f33a13a4587b943685d[m
+Author: Gonia Wachulec <gosia.wachulec@gmail.com>
+Date:   Thu Feb 21 09:07:48 2019 +0100
+
+    Pd1 diabetes blood_transfusion
+
+[33mcommit 6bfdf803b163fb7d957970df63eaa228e132c3e4[m
+Author: siemashko <siemashko@github.com>
+Date:   Wed Feb 20 23:00:18 2019 +0100
+
+    praca domowa nr 1 + automatyzacja skryptu do generowania dataset.json dla danych z openML
+
+[33mcommit c64e9b85c812e7a7d136f7b25faf9933f896ea4f[m
+Author: siemashko <siemashko@github.com>
+Date:   Wed Feb 20 22:11:15 2019 +0100
+
+    updating notebook and html preview
+
+[33mcommit 895e393adfd0e5ba1c00f09333d5e9c917dfab8a[m
+Author: siemashko <siemashko@github.com>
+Date:   Wed Feb 20 22:08:04 2019 +0100
+
+    keeping dataset.json arguments order
+
+[33mcommit 99414c4362d000885290b6f56d53fe20b9317903[m
+Author: siemashko <siemashko@github.com>
+Date:   Wed Feb 20 21:58:26 2019 +0100
+
+    saving json as list
+
+[33mcommit b28f9485ce9676a80116fe17dca27ddc50d9a934[m
+Author: siemashko <siemashko@github.com>
+Date:   Wed Feb 20 21:50:56 2019 +0100
+
+    json save fix
+
+[33mcommit 5eeeb8711aad0cefe88ae9750f442847a4f9bc11[m
+Author: Karol Saputa <32554739+k-sap@users.noreply.github.com>
+Date:   Wed Feb 20 20:58:48 2019 +0100
+
+    Add files via upload
+
+[33mcommit 16622b2183368d056c595f7722e19f9f76fd06c1[m
+Author: Karol Saputa <32554739+k-sap@users.noreply.github.com>
+Date:   Wed Feb 20 20:58:33 2019 +0100
+
+    Delete openml_humandevel.json
+
+[33mcommit 966f788b2040daff67f6c725849a84e8390ae292[m
+Author: siemashko <siemashko@github.com>
+Date:   Wed Feb 20 17:53:58 2019 +0100
+
+    Laboratorium 1 - openml_adult + Skrypt do ladowania zbiorow z openml
+
+[33mcommit 4d862607abf55d787329d2da95b07b5434775d1c[m
+Author: Karol Saputa <32554739+k-sap@users.noreply.github.com>
+Date:   Wed Feb 20 17:42:11 2019 +0100
+
+    Add files via upload
+
+[33mcommit 1aa114ca35bd2562aecff61a833c05d64139a70f[m
+Author: Karol Saputa <32554739+k-sap@users.noreply.github.com>
+Date:   Wed Feb 20 17:41:34 2019 +0100
+
+    Delete openml_humandevel.json
+
+[33mcommit 8863ea2939960635bedf732e0527ee5cdccb46f5[m
+Author: Adamoso <32574203+Adamoso@users.noreply.github.com>
+Date:   Wed Feb 20 17:41:27 2019 +0100
+
+    heart disease from kaggle
+
+[33mcommit 240ba90ff1ec00243b657c55112306cdc32822bf[m
+Author: lukaszbrzozowski <32491719+lukaszbrzozowski@users.noreply.github.com>
+Date:   Wed Feb 20 17:39:30 2019 +0100
+
+    fertility dataset
+
+[33mcommit 302c2f1c5808d10802f2814a060fd260ebe1102b[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Wed Feb 20 17:39:30 2019 +0100
+
+    Update dataset.json
+
+[33mcommit bfaeffd7c8fd9c4a8ca175488a98acf7a1f27e4d[m
+Author: lukaszbrzozowski <32491719+lukaszbrzozowski@users.noreply.github.com>
+Date:   Wed Feb 20 17:39:12 2019 +0100
+
+    Delete lukaszbrzozowski_lab1.json
+
+[33mcommit 203dc1a110576c552a02543171676a8e0ecdcf87[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Wed Feb 20 17:38:51 2019 +0100
+
+    Update dataset.json
+
+[33mcommit 52a816e828358c5eff22b971dff1d37471be8b89[m
+Author: hubertbaniecki <32574004+hubertbaniecki@users.noreply.github.com>
+Date:   Wed Feb 20 17:38:18 2019 +0100
+
+    Lab1 irish
+    
+    Hubert Baniecki
+    Mateusz Polakowski
+
+[33mcommit 2e41f2eb4c50bdb902915d426df169d66bbfff5f[m
+Author: 293790 wachulec malgorzata <wachulecm@p20102.mini.pw.edu.pl>
+Date:   Wed Feb 20 17:37:43 2019 +0100
+
+    dodanie pliku json Malgorzata Wachulec
+
+[33mcommit 32f6f68f60c5d2cdae8e82b8c3e8f3d0420aa163[m
+Author: granatb <32493624+granatb@users.noreply.github.com>
+Date:   Wed Feb 20 17:37:40 2019 +0100
+
+    Add files via upload
+
+[33mcommit 05c6c1b9b3789820340b815baf600bb9e043748e[m
+Author: 291127 kretowicz wojciech <kretowiczw@p20110.mini.pw.edu.pl>
+Date:   Wed Feb 20 17:36:44 2019 +0100
+
+    dataset
+
+[33mcommit cf9a90a01e573a88f1925a6e803418b3728c26c8[m
+Author: maksymiuks <32574056+maksymiuks@users.noreply.github.com>
+Date:   Wed Feb 20 17:35:35 2019 +0100
+
+    Lupus dataset
+
+[33mcommit 7123aa82d0ec84173e1c85ea1e3e62785d0eed6e[m
+Author: witoldmerkel <32493195+witoldmerkel@users.noreply.github.com>
+Date:   Wed Feb 20 17:34:00 2019 +0100
+
+    monk-problems-2
+    
+    laboratoria 1, Michał Stawikowski, Witold Merkel
+
+[33mcommit efc8b02f1ca548c5711825ab6f4c16b2f8a27a49[m
+Author: MatiFilozof <32573962+MatiFilozof@users.noreply.github.com>
+Date:   Wed Feb 20 17:33:16 2019 +0100
+
+    json zbioru auto_price
+
+[33mcommit b98d7634e14613880358ba19e14df7434f0c9662[m
+Author: maksymiuks <32574056+maksymiuks@users.noreply.github.com>
+Date:   Wed Feb 20 17:31:51 2019 +0100
+
+    Delete lupus.json
+
+[33mcommit 7c536952b7458dfd2b69fda1a7598f4b28275f30[m
+Author: 291126 pysiak karol <pysiakk@p20103.mini.pw.edu.pl>
+Date:   Wed Feb 20 17:30:23 2019 +0100
+
+    Adding karolpysiak_lab1.json
+
+[33mcommit d797c318e2d5653720057f03a4f91d05f51faf16[m
+Author: 291140 wichrowska aleksandra <wichrowskaa@p20101.mini.pw.edu.pl>
+Date:   Wed Feb 20 17:30:22 2019 +0100
+
+    lab1
+
+[33mcommit a1e3f9bd588f5f4cb878c35ae387f34d37c9d96a[m
+Author: Karol Saputa <32554739+k-sap@users.noreply.github.com>
+Date:   Wed Feb 20 17:29:33 2019 +0100
+
+    Add files via upload
+
+[33mcommit 575aa6bfded318e47533d37a5e7662bf3ce7b8a6[m
+Author: Pastuszka <32496556+Pastuszka@users.noreply.github.com>
+Date:   Wed Feb 20 17:28:43 2019 +0100
+
+    added banknote-authentication
+
+[33mcommit 2582c60a8d4f66d79dab72d751588b68f231be19[m
+Author: lukaszbrzozowski <32491719+lukaszbrzozowski@users.noreply.github.com>
+Date:   Wed Feb 20 17:21:19 2019 +0100
+
+    Dataset lab1
+
+[33mcommit f53d9a8d3cf2c555bd5c8bc390c564e4fb94e39e[m
+Author: maksymiuks <32574056+maksymiuks@users.noreply.github.com>
+Date:   Wed Feb 20 17:15:48 2019 +0100
+
+    Lupus database added
+
+[33mcommit 58bc123314b1b4c7ebc1cdbb1b8535532f3a25be[m
+Author: maksymiuks <32574056+maksymiuks@users.noreply.github.com>
+Date:   Wed Feb 20 17:13:54 2019 +0100
+
+    json database added
+
+[33mcommit 69c56ccece1244de39dc799913e0e5570aae51c6[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 19 22:54:37 2019 +0100
+
+    Update README.md
+
+[33mcommit 01fece10f8185312cafe80095ba55568037c1f47[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Wed Feb 13 08:15:01 2019 +0100
+
+    Fix tests
+
+[33mcommit f0e2eb03149d512011b2e8e860e82aff16884957[m
+Author: Przemysław Biecek <pbiecek@users.noreply.github.com>
+Date:   Wed Feb 13 00:45:04 2019 +0100
+
+    Delete dataset.json
+
+[33mcommit 66b9a4bb724969860ea1329b76b33a445fbc170b[m
+Author: Przemysław Biecek <pbiecek@users.noreply.github.com>
+Date:   Wed Feb 13 00:32:31 2019 +0100
+
+    Update README.md
+
+[33mcommit a2a3c190cc1f1912d1dffc61451fd1d43a3879c9[m
+Author: Przemysław Biecek <pbiecek@users.noreply.github.com>
+Date:   Wed Feb 13 00:28:57 2019 +0100
+
+    Create dataset.json
+
+[33mcommit ddb7924598a8617c12835da6fad10cbbffc69375[m
+Merge: 1d2382b e7f492c
+Author: Przemysław Biecek <pbiecek@users.noreply.github.com>
+Date:   Wed Feb 13 00:22:16 2019 +0100
+
+    Merge pull request #2 from agosiewska/master
+    
+    Database and templates
+
+[33mcommit e7f492c04b65d6cbef3d3dda8c295e14cd1e8ce8[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 12 15:07:55 2019 +0100
+
+    Update code.R
+
+[33mcommit c40c1a8f5b74fe967b8576f020d5f9d5c76eab92[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 12 15:06:50 2019 +0100
+
+    Update README.md
+
+[33mcommit 34df3d50d21bcaea5da907fbc19de3e7e190c9f2[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Feb 12 14:45:42 2019 +0100
+
+    Add liver, classification, glmnet
+
+[33mcommit 1a99bae1f89301cceeb8f4c652f7488520210364[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Feb 12 13:54:33 2019 +0100
+
+    Add Rproject
+
+[33mcommit 3ba5dd3db0ee2e57408461397756899b0f011d79[m
+Author: Alicja Gosiewska <18423383+agosiewska@users.noreply.github.com>
+Date:   Tue Feb 12 12:49:21 2019 +0100
+
+    Update README.md
+
+[33mcommit 28cafe0b11899a1f86d1ae95bc285688e0e3cd1a[m
+Author: jusira <alicjagosiewska@gmail.com>
+Date:   Tue Feb 12 12:45:48 2019 +0100
+
+    init database
+
+[33mcommit 1d2382bf313160fa3e8559d4e653b67d10e09613[m
+Author: Przemysław Biecek <pbiecek@users.noreply.github.com>
+Date:   Wed Jan 9 21:13:38 2019 +0100
+
+    Update README.md
+
+[33mcommit be653b88e3f03a49c91a374139c4ae5ed215612a[m
+Author: Przemysław Biecek <pbiecek@users.noreply.github.com>
+Date:   Wed Jan 9 21:09:23 2019 +0100
+
+    Update README.md
+
+[33mcommit 5c4a85f7e6fc87c5aea7e45e5b3c3924271959ab[m
+Author: Przemysław Biecek <pbiecek@users.noreply.github.com>
+Date:   Wed Jan 9 20:57:48 2019 +0100
+
+    Initial commit
