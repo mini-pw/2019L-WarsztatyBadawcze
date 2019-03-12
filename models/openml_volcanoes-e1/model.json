@@ -1,0 +1,79 @@
+[
+  {
+    "id": "771fc710553e780d7a1d18176346d4fb",
+    "added_by": "wernerolaf",
+    "date": "11-03-2019",
+    "task_id": "regression_V3",
+    "dataset_id": "openml_volcanoes-e1",
+    "parameters": {
+      "ntree": 500,
+      "se.ntree": 100,
+      "se.method": "sd",
+      "se.boot": 50,
+      "mtry": null,
+      "replace": true,
+      "strata": null,
+      "sampsize": null,
+      "nodesize": 5,
+      "maxnodes": null,
+      "importance": false,
+      "localImp": false,
+      "nPerm": 1,
+      "proximity": false,
+      "oob.prox": null,
+      "do.trace": false,
+      "keep.forest": true,
+      "keep.inbag": false
+    },
+    "preprocessing": [
+      {
+        "V1": {
+          "name": "V1",
+          "num_1qu": 307.5,
+          "number_of_missing_values": 0,
+          "type": "numerical",
+          "number_of_unique_values": 669,
+          "num_maximum": 1005,
+          "num_minimum": 16,
+          "num_3q": 780.5,
+          "num_median": 536
+        },
+        "Class": {
+          "name": "Class",
+          "number_of_missing_values": 0,
+          "type": "categorical",
+          "cat_frequencies": {
+            "1": 9,
+            "2": 21,
+            "0": 1083,
+            "3": 49,
+            "4": 21
+          },
+          "number_of_unique_values": 5
+        },
+        "V2": {
+          "name": "V2",
+          "num_1qu": 242.5,
+          "number_of_missing_values": 0,
+          "type": "numerical",
+          "number_of_unique_values": 682,
+          "num_maximum": 1006,
+          "num_minimum": 16,
+          "num_3q": 735,
+          "num_median": 471
+        },
+        "V3": {
+          "name": "V3",
+          "num_1qu": 0.3762,
+          "number_of_missing_values": 0,
+          "type": "numerical",
+          "number_of_unique_values": 1178,
+          "num_maximum": 0.7755,
+          "num_minimum": 0.35,
+          "num_3q": 0.4793,
+          "num_median": 0.4149
+        }
+      }
+    ]
+  }
+]
