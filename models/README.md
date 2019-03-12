@@ -2,9 +2,9 @@
 
 ## Number of data sets: 65
 
-## Number of tasks: 65
+## Number of tasks: 71
 
-## Number of models: 83
+## Number of models: 95
 
 |name                                |source         | features| instances| missing_val| tasks| models|
 |:-----------------------------------|:--------------|--------:|---------:|-----------:|-----:|------:|
@@ -23,21 +23,21 @@
 |Gender Recognition by voice         |kaggle         |       21|      3168|           0|     0|      0|
 |abalone                             |openml         |        9|      4177|           0|     2|      2|
 |adult                               |openml         |       15|     48842|        3620|     0|      0|
-|aids                                |openml         |        5|        50|           0|     1|      1|
+|aids                                |openml         |        5|        50|           0|     2|      2|
 |arcene                              |openml         |    10001|       200|           0|     0|      0|
 |artificial-characters               |openml         |        8|     10218|           0|     0|      0|
-|auto_price                          |openml         |       16|       159|           0|     4|      5|
+|auto_price                          |openml         |       16|       159|           0|     4|      6|
 |banana                              |openml         |        3|      5300|           0|     1|      1|
 |bank                                |openml         |       17|     45211|           0|     1|      1|
 |banknote-authentication             |openml         |        5|      1372|           0|     2|      2|
-|blood-transfusion-service-center    |openml         |        5|       748|           0|     0|      0|
+|blood-transfusion-service-center    |openml         |        5|       748|           0|     1|      1|
 |BNG-credit-g                        |openml         |       21|   1000000|           0|     0|      0|
 |boston                              |openml         |       14|       506|           0|     1|      1|
 |credit-g                            |openml         |       21|      1000|           0|     2|      2|
-|dermatology                         |openml         |       35|       366|           8|     1|      1|
+|dermatology                         |openml         |       35|       366|           8|     2|      2|
 |diabetes                            |openml         |        9|       768|           0|     2|      2|
 |electricity                         |openml         |        9|     45312|           0|     3|      3|
-|fertility                           |openml         |       10|       100|           0|     1|      1|
+|fertility                           |openml         |       10|       100|           0|     4|      4|
 |glass                               |openml         |       10|       214|           0|     1|      1|
 |haberman                            |openml         |        4|       306|           0|     1|      2|
 |humandevel                          |openml         |        4|       131|           0|     0|      0|
@@ -67,7 +67,7 @@
 |tic-tac-toe                         |openml         |       10|       958|           0|     0|      0|
 |transplant                          |openml         |        4|       131|           0|     0|      0|
 |volcanoes-e1                        |openml         |        4|      1183|           0|     0|      0|
-|White Wine Quality                  |openml         |       12|      4898|           0|     2|      2|
+|White Wine Quality                  |openml         |       12|      4898|           0|     2|      7|
 |zoo                                 |openml         |       18|       101|           0|     2|      2|
 |abalone                             |cs.toronto.edu |        9|      4177|           0|     2|      4|
 |demo                                |cs.toronto.edu |        5|      2048|           0|     0|      0|
