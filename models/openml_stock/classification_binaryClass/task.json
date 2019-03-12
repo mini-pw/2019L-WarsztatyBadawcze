@@ -1,0 +1,10 @@
+[
+    {
+        "id": "classification_binaryClass",
+        "added_by": "WojciechKretowicz",
+        "date": "11-03-2019",
+        "dataset_id": "openml_stock",
+        "type": "classification",
+        "target": "binaryClass"
+    }
+]
