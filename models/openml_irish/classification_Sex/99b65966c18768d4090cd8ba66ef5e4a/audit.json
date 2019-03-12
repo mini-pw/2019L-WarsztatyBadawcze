@@ -7,8 +7,12 @@
     "task_id": "classification_Sex",
     "dataset_id": "openml_irish",
     "performance": {
-      "ACC": 0.6261,
-      "AUC": 0.6599
+      "Acc": 0.6261,
+      "AUC": 0.6599,
+      "Specificity": 0.5820,
+      "Recall": 0.6629,
+      "Precision": 0.6167,
+      "F1": 0.6377
     }
   }
 ]

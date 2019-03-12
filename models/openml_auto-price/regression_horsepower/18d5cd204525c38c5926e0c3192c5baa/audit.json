@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_18d5cd204525c38c5926e0c3192c5baa",
+    "date": "06-03-2019",
+    "added_by": "witoldmerkel",
+    "model_id": "18d5cd204525c38c5926e0c3192c5baa",
+    "task_id": "regression_horsepower",
+    "dataset_id": "openml_auto-price",
+    "performance": {
+      "MSE": 177.2695,
+      "RMSE": 13.3143,
+      "MAE": 8.6664,
+      "R2": 0.8074
+    }
+  }
+]
