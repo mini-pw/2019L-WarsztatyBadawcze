@@ -13,22 +13,23 @@ head(dat)
 #:# preprocessing
 head(dat)
 dat <- na.omit(dat)
-levels(dat$Class) <- c("n", "y")
+levels(dat$Class) <- c("y", "n")
 
 #:# model
-classif_trn <- train(Class ~ ., data = dat, method = "treebag", seed = 123)
-classif_trn$times <- NULL
+classif_trn <- train(Class ~ ., data = dat, method = "treebag")
 
 #:# hash 
-#:# cd75bbac64f538dd242c98cc3b5547bd
-hash <- digest(classif_trn)
+#:# f57702688fff5d79201a00efc0f81a4c
+hash <- digest(list(Class ~ ., dat, "treebag", NULL))
 hash
 
 #:# audit
 set.seed(123, "L'Ecuyer")
-ctrl <- trainControl(method="cv", number=5, classProbs = TRUE, summaryFunction = twoClassSummary)
+ctrl <- trainControl(method="cv", 
+                     number=5, 
+                     classProbs = TRUE, 
+                     summaryFunction = twoClassSummary)
 classif_trn_ctr <- train(Class ~ ., data = dat, method = "treebag",
-  seed = 123,
   trControl = ctrl,
   metric = "ROC")
 print(classif_trn_ctr)

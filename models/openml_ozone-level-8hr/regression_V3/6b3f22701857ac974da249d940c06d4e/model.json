@@ -1,8 +1,10 @@
 [
   {
-    "id": "3fb67752e195ca5a26369e96f141ebcd",
+    "id": "6b3f22701857ac974da249d940c06d4e",
     "added_by": "DominikRafacz",
     "date": "03-03-2019",
+    "library" : "mlr",
+    "model_name" : "regr.nnet",
     "task_id": "regression_V3",
     "dataset_id": "openml_ozone-level-8hr",
     "parameters": {

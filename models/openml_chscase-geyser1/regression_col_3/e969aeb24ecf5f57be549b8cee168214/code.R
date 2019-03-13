@@ -17,8 +17,8 @@ head(geyser)
 regr_trn <- train(col_3 ~ ., data = geyser, method = "treebag")
 
 #:# hash 
-#:# 7879abf36284374a7bb6ab646e834922
-hash <- digest(geyser)
+#:# e969aeb24ecf5f57be549b8cee168214
+hash <- digest(list(col_3~., geyser, "treebag", NULL))
 hash
 
 #:# audit
