@@ -22,12 +22,12 @@ df$PartOfTheDay <- ifelse(df$PartOfTheDay == "Morning",1,0)
 head(df)
 
 #:# model
-regr_task <- makeRegrTask(id = "barcelona", data = df, target = "PartOfTheDay")
+regr_task <- makeRegrTask(id = "task", data = df, target = "PartOfTheDay")
 regr_lrn <- makeLearner("regr.svm")
 
 #:# hash 
-#:# 678075b0369fbd9353d30a59d2a7a011
-hash <- digest(regr_lrn)
+#:# 25d9d874a28a8989e295fe65b193f1c7
+hash <- digest(list(regr_task, regr_lrn))
 hash
 
 #:# audit
