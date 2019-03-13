@@ -19,8 +19,7 @@ classif_task = makeClassifTask(id = "banana2", data = banana, target = "Class")
 classif_lrn = makeLearner("classif.svm", predict.type='prob')
 
 #:# hash 
-#:# 5b2c4babcf5363847614d2b486a71534
-hash <- digest(classif_lrn)
+hash <- digest(c(classif_task, classif_lrn))
 hash
 
 #:# audit
