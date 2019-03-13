@@ -17,13 +17,12 @@ head(df)
 #:# model
 train_control <- trainControl(method="cv", number=5)
 set.seed(1)
-regr_rf <- train(drinks ~ ., data = df, method = "rf", tuneGrid = expand.grid(
-    mtry = 3),
+regr_rf <- train(drinks ~ ., data = df, method = "rf", tuneGrid = expand.grid(mtry = 3),
     trControl = train_control)
 
 #:# hash 
-#:# e835d7ebe88fea5f767c77426787cd52
-hash <- digest(c("liver_disorder_drinks", "caret", "rf", regr_rf$bestTune))
+#:# d7cd0d400ad28d9aa08c78b7ad4aef96
+hash <- digest(list(drinks ~ ., df, "rf", expand.grid(mtry = 3)))
 hash
 
 #:# audit
@@ -31,7 +30,7 @@ RMSE <-regr_rf$results$RMSE
 MSE <- RMSE^2
 MAE <-regr_rf$results$MAE
 R2 <- regr_rf$results$Rsquared
-measures <- list("MSE" = MSE, "RMSE" = RMSE, "MAE" = MAE, "R2" = R2)
+measures <- list("mse" = MSE, "rmse" = RMSE, "mae" = MAE, "r2" = R2)
 measures
 
 #:# session info
