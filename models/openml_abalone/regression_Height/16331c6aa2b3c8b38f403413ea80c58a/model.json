@@ -2,9 +2,11 @@
   {
     "id": "bfada34b7500a8f6a1caa95fbcd1a334",
     "added_by": "airi314",
-    "date": "03-03-2019",
+    "date": "13-03-2019",
     "task_id": "regression_Height",
     "dataset_id": "openml_abalone",
+    "library" : "mlr",
+    "model_name" : "regr.bcart",
     "parameters": {
       "bprior": "bflat",
       "tree": 0.5,
