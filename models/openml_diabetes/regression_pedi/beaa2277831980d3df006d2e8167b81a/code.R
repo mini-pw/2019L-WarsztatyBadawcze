@@ -16,12 +16,12 @@ head(diabetes)
 head(diabetes)
 
 #:# model
-regr_task <- makeRegrTask(id = "diab", data = diabetes, target = "pedi")
+regr_task <- makeRegrTask(id = "task", data = diabetes, target = "pedi")
 regr_lrn <- makeLearner("regr.gbm", par.vals = list(n.trees = 500, interaction.depth = 3))
 
 #:# hash
-#:# 7388a6e027f8648dbc177df228c6eed6
-hash <- digest(regr_task)
+#:# beaa2277831980d3df006d2e8167b81a
+hash <- digest(list(regr_task,regr_lrn))
 hash
 
 #:# audit 

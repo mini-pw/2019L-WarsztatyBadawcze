@@ -1,14 +1,25 @@
 [{
-	"id": "387c82721c99b109bcaad4eb46eb2618",
+	"id": "beaa2277831980d3df006d2e8167b81a",
 	"added_by": "GoniaW",
-	"date": "27-02-2019",
-	"task_id": "classification_class",
+	"date": "28-02-2019",
+        "library": "mlr",
+        "model_name": "regr.gbm",
+	"task_id": "regression_pedi",
 	"dataset_id": "openml_diabetes",
 	"parameters": {
-  	"model": true
-    	},
-	"preprocessing": {
-      "preg": {
+		"distribution": "gaussian",
+		"n.trees": 100,
+		"cv.folds": 0,
+		"interaction.depth": 1,
+		"n.minobsinnode": 10,
+		"shrinkage": 0.001,
+		"bag.fraction": 0.5,
+		"train.fraction": 1,
+		"keep.data": true,
+		"verbose": false
+	},
+		"preprocessing": {
+	"preg": {
         "name": "preg",
         "type": "numerical",
         "number_of_unique_values": 17,

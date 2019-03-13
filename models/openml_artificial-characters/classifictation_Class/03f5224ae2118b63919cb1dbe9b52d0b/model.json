@@ -1,13 +1,16 @@
 [
   {
-    "id": "2db0516ed9d968f250199a68e3fd545a",
+    "id": "03f5224ae2118b63919cb1dbe9b52d0b",
     "added_by": "GoniaW",
-    "date": "11-03-2019",
-    "task_id": "classification_Class",
+    "date": "13-03-2019",
+    "library": "caret",
+    "model_name": "glmnet",
+    "task_id": "classification_",
     "dataset_id": "openml_artificial-characters",
     "parameters": {
-      "laplace": 0
-    },
+	"alpha": 0, 
+	"lambda": 0.5
+	},
     "preprocessing": {
       "V1": {
         "name": "V1",
@@ -106,16 +109,16 @@
         "number_of_unique_values": 10,
         "number_of_missing_values": 0,
         "cat_frequencies": {
-          "1": 1196,
-          "10": 600,
-          "2": 1192,
-          "3": 1416,
-          "4": 808,
-          "5": 1008,
-          "6": 1000,
-          "7": 800,
-          "8": 1198,
-          "9": 1000
+          "A": 1196,
+          "B": 1192,
+          "C": 1416,
+          "D": 808,
+          "E": 1008,
+          "F": 1000,
+          "G": 800,
+          "H": 1198,
+          "I": 1000,
+          "J": 600
         },
         "num_minimum": null,
         "num_1qu": null,

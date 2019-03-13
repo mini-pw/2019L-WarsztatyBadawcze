@@ -1,14 +1,18 @@
 [
   {
-    "id": "2cfa4afcd80d23466ca3cd66a64f809f",
+    "id": "7d1e71e7e7a35c5650176983941e5fa8",
     "added_by": "GoniaW",
-    "date": "13-03-2019",
-    "task_id": "classification_",
+    "date": "10-03-2019",
+    "library": "mlr",
+    "model_name": "classif.kknn",
+    "task_id": "classification_Class",
     "dataset_id": "openml_artificial-characters",
     "parameters": {
-	"alpha": 0, 
-	"lambda": 0.0002343928
-	},
+      "k": 7,
+      "distance": 2,
+      "kernel": "optimal",
+      "scale": true
+    },
     "preprocessing": {
       "V1": {
         "name": "V1",
@@ -107,16 +111,16 @@
         "number_of_unique_values": 10,
         "number_of_missing_values": 0,
         "cat_frequencies": {
-          "A": 1196,
-          "B": 1192,
-          "C": 1416,
-          "D": 808,
-          "E": 1008,
-          "F": 1000,
-          "G": 800,
-          "H": 1198,
-          "I": 1000,
-          "J": 600
+          "1": 1196,
+          "10": 600,
+          "2": 1192,
+          "3": 1416,
+          "4": 808,
+          "5": 1008,
+          "6": 1000,
+          "7": 800,
+          "8": 1198,
+          "9": 1000
         },
         "num_minimum": null,
         "num_1qu": null,

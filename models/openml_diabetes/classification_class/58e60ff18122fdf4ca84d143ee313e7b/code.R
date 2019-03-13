@@ -15,12 +15,12 @@ head(diabetes)
 head(diabetes)
 
 #:# model
-classif_task <- makeClassifTask(id = "diab", data = diabetes, target = "class")
+classif_task <- makeClassifTask(id = "task", data = diabetes, target = "class")
 classif_lrn <- makeLearner("classif.logreg", predict.type = "prob")
 
 #:# hash
-#:# 387c82721c99b109bcaad4eb46eb2618
-hash <- digest(classif_task)
+#:# 58e60ff18122fdf4ca84d143ee313e7b
+hash <- digest(list(classif_task,classif_lrn))
 hash
 
 #:# audit 

@@ -1,15 +1,14 @@
 [
   {
-    "id": "2e9c256d6932fda4e922cd2c3191664b",
+    "id": "cc0d522bd7ee1e2497597a0522760530",
     "added_by": "GoniaW",
-    "date": "10-03-2019",
+    "date": "11-03-2019",
+    "library": "mlr",
+    "model_name": "classif.naiveBayes",
     "task_id": "classification_Class",
     "dataset_id": "openml_artificial-characters",
     "parameters": {
-      "k": 7,
-      "distance": 2,
-      "kernel": "optimal",
-      "scale": true
+      "laplace": 0
     },
     "preprocessing": {
       "V1": {

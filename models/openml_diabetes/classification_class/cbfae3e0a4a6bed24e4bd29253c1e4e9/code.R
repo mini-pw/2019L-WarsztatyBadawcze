@@ -15,12 +15,11 @@ head(diabetes)
 head(diabetes)
 
 #:# model
-classif_glm <- train(class ~ ., data = diabetes, method = "glm",family=binomial())
-classif_glm$times <- NULL
+classif_glm <- train(class ~ ., data = diabetes, method = "glm", family=binomial())
 
 #:# hash
-#:# 7937fd7196ede74c4b317670f7b6d6a3
-hash <- digest(classif_glm)
+#:# cbfae3e0a4a6bed24e4bd29253c1e4e9
+hash <- digest(list(class ~ ., diabetes, "glm",NULL,family=binomial()))
 hash
 
 #:# audit 
