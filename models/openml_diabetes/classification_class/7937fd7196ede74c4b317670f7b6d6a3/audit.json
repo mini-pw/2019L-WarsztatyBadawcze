@@ -7,11 +7,12 @@
     "task_id": "classification_class",
     "dataset_id": "openml_diabetes",
     "performance": {
-      "ACC": "none",
-      "AUC": 0.483,
-      "Specificity": 0.8318,
-      "Recall": 0.793,
-      "F1": 0.776
+      "ACC": 0.7720822,
+      "AUC": 0.8326422,
+      "Specificity": 0.5740741,
+      "Recall": 0.878,
+      "Precision": 0.7943649,
+      "F1": 0.8338043
     }
   }
 ]

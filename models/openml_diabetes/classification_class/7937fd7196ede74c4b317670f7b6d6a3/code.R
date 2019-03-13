@@ -37,6 +37,8 @@ Specificity <- classif_glm_cv$results[9]
 Specificity
 Recall <- classif_glm_cv$results[8]
 Recall
+Precision <- classif_glm_cv$results[12]
+Precision
 F1 <- classif_glm_cv$results[7]
 F1
 
