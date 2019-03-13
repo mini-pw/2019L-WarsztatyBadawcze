@@ -7,8 +7,12 @@
     "task_id": "classification_Class",
     "dataset_id": "openml_skin-segmentation",
     "performance": {
-      "ACC": 0.9187903,
-      "AUC": 0.9509612
+      "ACC": 0.9187781,
+      "AUC": 0.9509606,
+      "SPECIFICITY": 0.8235702,
+      "RECALL": 0.9437127,
+      "PRECISION": 0.7930468, 
+      "F1": 0.8080151
     }
   }
 ] 

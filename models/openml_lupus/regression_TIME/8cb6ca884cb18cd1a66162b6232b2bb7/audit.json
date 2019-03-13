@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_8cb6ca884cb18cd1a66162b6232b2bb7",
+    "date": "09-03-2019",
+    "added_by": "michalSt98",
+    "model_id": "8cb6ca884cb18cd1a66162b6232b2bb7",
+    "task_id": "regression_TIME",
+    "dataset_id": "openml_lupus",
+    "performance": {
+      "MSE": 3683.311,
+      "RMSE": 60.69029,
+      "MAE": 51.75633,
+      "R2": 0.324859
+    }
+  }
+]

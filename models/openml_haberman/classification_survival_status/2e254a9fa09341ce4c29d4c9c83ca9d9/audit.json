@@ -7,8 +7,12 @@
     "task_id": "classification_survival_status",
     "dataset_id": "openml_haberman",
     "performance": {
-      "ACC": 0.6831306,
-      "AUC": 0.6727973
+      "ACC": 0.6864093,
+      "AUC": 0.6936719,
+      "SPECIFICITY": 0.8218687,
+      "RECALL": 0.3088989,
+      "PRECISION": 0.7826684, 
+      "F1": 0.7923664
     }
   }
 ] 

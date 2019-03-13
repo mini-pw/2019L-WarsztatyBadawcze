@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_V1",
+    "added_by": "pmizinski",
+    "date": "06-03-2019",
+    "dataset_id": "openml_wine-quality-white",
+    "type": "regression",
+    "target": "V1"
+  }
+] 

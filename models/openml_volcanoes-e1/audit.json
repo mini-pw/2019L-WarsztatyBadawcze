@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_771fc710553e780d7a1d18176346d4fb",
+    "date": "11-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "771fc710553e780d7a1d18176346d4fb",
+    "task_id": "regression_V3",
+    "dataset_id": "openml_volcanoes-e1",
+    "performance": {
+      "mae.test.mean": 0.0572,
+      "rmse.test.rmse": 0.0737,
+      "mse.test.mean": 0.0054,
+      "rsq.test.mean": 0.1522
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_0f2ce5aa2b90fa3c8c4df7861a69be63",
+    "date": "09-03-2019",
+    "added_by": "Pastuszka",
+    "model_id": "0f2ce5aa2b90fa3c8c4df7861a69be63",
+    "task_id": "classification_selector",
+    "dataset_id": "openml_liver-disorders",
+    "performance": {
+      "ACC":  0.7362,
+      "AUC": 0.2217241,
+      "Specificity": 0.83,
+      "Recall": 0.6068966,
+      "Precision": 0.720339,
+      "F1": 0.6587697
+    }
+  }
+] 

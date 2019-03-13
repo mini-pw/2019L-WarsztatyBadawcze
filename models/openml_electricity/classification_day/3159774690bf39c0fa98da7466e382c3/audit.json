@@ -7,8 +7,12 @@
     "task_id": "classification_day",
     "dataset_id": "openml_electricity",
     "performance": {
-      "ACC":  0.7313957,
-      "AUC": 0.8032843
+      "acc": 0.7313957,
+      "auc": 0.8032843,
+      "tnr": 0.8719882,
+      "tpr": 0.5411512,
+      "ppv": 0.7572347,
+      "f1": 0.6311817
     }
   }
 ] 

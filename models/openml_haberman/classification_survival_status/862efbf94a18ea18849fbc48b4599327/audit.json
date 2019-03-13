@@ -1,0 +1,18 @@
+[
+    {
+        "id": "audit_862efbf94a18ea18849fbc48b4599327",
+        "date": "06-03-2019",
+        "added_by": "mckraqs",
+        "model_id": "862efbf94a18ea18849fbc48b4599327",
+        "task_id": "classification_Survival_status",
+        "dataset_id": "openml_haberman",
+        "performance": {
+            "ACC": 0.717391304347826,
+            "AUC": 0.634032634032634,
+            "SPECIFICITY": 0.9393939393939394,
+            "RECALL": 0.15384615384615385,
+            "PRECISION": 0.5,
+            "F1": 0.23529411764705882
+        }
+    }
+]

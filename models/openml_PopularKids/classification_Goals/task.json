@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Goals",
+    "added_by": "WojtekBogucki",
+    "date": "10-03-2019",
+    "dataset_id": "openml_PopularKids",
+    "type": "classification",
+    "target": "Goals"
+  }
+]
