@@ -19,13 +19,11 @@ head(df)
 #:# model
 train_control <- trainControl(method="cv", number=5)
 set.seed(1)
-regr_rf <- train(quality ~ ., data = df, method = "rf", tuneGrid = expand.grid(
-  mtry = 4),
-  trControl = train_control)
+regr_rf <- train(quality ~., data = df, method = "rf", tuneGrid = expand.grid(mtry = 4), trControl = train_control)
 
 #:# hash 
-#:# bf895d83fd6e82254f25d11e3ddf76da
-hash <- digest(c("winequality-red_drinks", "caret", "rf", regr_rf$bestTune))
+#:# 5ca1382e2db158d4bd18e43dc91441dd
+hash <- digest(list(quality ~ ., df, "rf", expand.grid(mtry = 4)))
 hash
 
 #:# audit
@@ -33,7 +31,7 @@ RMSE <-regr_rf$results$RMSE
 MSE <- RMSE^2
 MAE <-regr_rf$results$MAE
 R2 <- regr_rf$results$Rsquared
-measures <- list("MSE" = MSE, "RMSE" = RMSE, "MAE" = MAE, "R2" = R2)
+measures <- list("mse" = MSE, "rmse" = RMSE, "mae" = MAE, "r2" = R2)
 measures
 
 #:# session info

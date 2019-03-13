@@ -1,0 +1,39 @@
+
+> sessionInfo()
+R version 3.5.1 (2018-07-02)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 17134)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=Polish_Poland.1250  LC_CTYPE=Polish_Poland.1250   
+[3] LC_MONETARY=Polish_Poland.1250 LC_NUMERIC=C                  
+[5] LC_TIME=Polish_Poland.1250    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] dplyr_0.8.0.1     readr_1.3.1       caret_6.0-81      ggplot2_3.1.0     lattice_0.20-35  
+[6] OpenML_1.8        mlr_2.13          ParamHelpers_1.12 digest_0.6.18    
+
+loaded via a namespace (and not attached):
+ [1] tidyselect_0.2.5    purrr_0.2.5         reshape2_1.4.3      splines_3.5.1      
+ [5] colorspace_1.3-2    generics_0.0.2      stats4_3.5.1        prodlim_2018.04.18 
+ [9] survival_2.42-3     XML_3.98-1.17       rlang_0.3.1         ModelMetrics_1.2.2 
+[13] pillar_1.3.1        glue_1.3.0          withr_2.1.2         foreach_1.4.4      
+[17] plyr_1.8.4          lava_1.6.5          stringr_1.3.1       timeDate_3043.102  
+[21] munsell_0.5.0       gtable_0.2.0        recipes_0.1.4       codetools_0.2-15   
+[25] memoise_1.1.0       parallelMap_1.3     parallel_3.5.1      curl_3.2           
+[29] class_7.3-14        Rcpp_1.0.0          scales_1.0.0        backports_1.1.2    
+[33] checkmate_1.9.1     ipred_0.9-8         jsonlite_1.5        fastmatch_1.1-0    
+[37] hms_0.4.2           stringi_1.2.4       BBmisc_1.11         grid_3.5.1         
+[41] tools_3.5.1         magrittr_1.5        lazyeval_0.2.1      tibble_2.0.1       
+[45] randomForest_4.6-14 crayon_1.3.4        pkgconfig_2.0.2     MASS_7.3-50        
+[49] Matrix_1.2-14       data.table_1.12.0   lubridate_1.7.4     gower_0.1.2        
+[53] assertthat_0.2.0    httr_1.3.1          rstudioapi_0.8      iterators_1.0.10   
+[57] rpart_4.1-13        R6_2.3.0            nnet_7.3-12         nlme_3.1-137       
+[61] compiler_3.5.1     
+
+> sink()
