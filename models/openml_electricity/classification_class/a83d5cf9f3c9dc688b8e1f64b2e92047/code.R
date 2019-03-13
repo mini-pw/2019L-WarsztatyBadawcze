@@ -16,12 +16,13 @@ df <- data$data
 head(df)
 
 #:# model
-classif_task <- makeClassifTask(id = "el1", data = df, target = "class")
-classif_lrn <- makeLearner("classif.randomForest", predict.type = "prob")
+task <- makeClassifTask(id = "task", data = df, target = "class")
+learner <- makeLearner("classif.randomForest", predict.type = "prob")
 
 #:# hash
 #:# f12fd85a0d595b3964d6adb4ed3195db
-hash <- digest(classif_task)
+list_to_hash <-list(task, learner)
+hash <- digest(list_to_hash)
 hash
 
 #:# audit
