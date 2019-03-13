@@ -14,8 +14,8 @@ auto$symboling <- droplevels(auto$symboling)
 classif_treebag <- train(symboling ~ ., data = auto, method = "treebag")
 
 #:# hash 
-#:# bfeb2e0538fad7c621310d0b44c797b0
-hash <- digest(list(symboling ~ ., auto, classif_treebag, NULL))
+#:# d1d0b3f54b6442e270e6424aedeccbc2
+hash <- digest(list(symboling ~ ., auto, "treebag", NULL))
 hash
 #:# audit
 train_control <- trainControl(method="cv", number=5)

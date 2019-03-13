@@ -1,13 +1,14 @@
 [
   {
-    "id": "bfeb2e0538fad7c621310d0b44c797b0",
+    "id": "f43eac1d8cca3d365c54df528994169a",
     "added_by": "Adamoso",
     "date": "06-03-2019",
     "library": "caret",
-    "model_name": "classif_treebag",
-    "task_id": "classification_symboling",
+    "model_name": "regr_lm",
+    "task_id": "regression_length",
     "dataset_id": "auto_price",
     "parameters": {
+      "intercept": true
     },
     "preprocessing": {
       "symboling": {

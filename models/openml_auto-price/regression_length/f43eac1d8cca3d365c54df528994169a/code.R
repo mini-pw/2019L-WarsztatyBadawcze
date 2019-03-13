@@ -15,8 +15,8 @@ regr_lm <- train(length ~ ., data = auto, method = "lm", tuneGrid = expand.grid(
   intercept=TRUE))
 
 #:# hash 
-#:# 0846a67c96707f3ea43f2333bea489f4
-hash <- digest(list(length ~ .,auto,regr_lm,expand.grid(intercept=TRUE)))
+#:# f43eac1d8cca3d365c54df528994169a
+hash <- digest(list(length ~ .,auto,"lm",expand.grid(intercept=TRUE)))
 hash
 #:# audit
 train_control <- trainControl(method="cv", number=5)
