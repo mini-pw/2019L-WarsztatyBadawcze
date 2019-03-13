@@ -17,13 +17,13 @@ head(art_char)
 head(art_char)
 
 #:# model
-classif_naive <- makeClassifTask(id = "naiveBayes", data = art_char, target = "Class")
+classif_task <- makeClassifTask(id = "task", data = art_char, target = "Class")
 classif_lrn <- makeLearner("classif.naiveBayes", predict.type = "prob")
 
 
 #:# hash
-#:# 2db0516ed9d968f250199a68e3fd545a
-hash <- digest(classif_naive)
+#:# cc0d522bd7ee1e2497597a0522760530
+hash <- digest(list(classif_task,classif_lrn))
 hash
 
 #:# audit 

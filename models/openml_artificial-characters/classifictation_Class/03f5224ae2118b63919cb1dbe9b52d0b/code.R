@@ -1,9 +1,7 @@
 #:# libraries
 library(digest)
 library(OpenML)
-library(mlr)
 library(caret)
-library(MLmetrics)
 
 #:# config
 set.seed(1)
@@ -22,14 +20,14 @@ classif_glm <- train(Class ~ ., data = art_char, method = "glmnet",
                         tuneGrid = expand.grid(alpha = 0, lambda = 0.5))
 
 #:# hash
-#:# 2cfa4afcd80d23466ca3cd66a64f809f
-hash <- digest(classif_glm)
+#:# 03f5224ae2118b63919cb1dbe9b52d0b
+hash <- digest(list(Class ~ .,art_char,"glmnet",expand.grid(alpha = 0, lambda = 0.5)))
 hash
 
 #:# audit 
 train_control <- trainControl(method="cv", number=5,  classProbs = TRUE, summaryFunction = multiClassSummary, savePredictions = "final")
 classif_glm_cv <- train(Class ~ ., data = art_char, method = "glmnet",
-                        tuneGrid = expand.grid(alpha = 0, lambda = 0.0002343928),
+                        tuneGrid = expand.grid(alpha = 0, lambda = 0.5),
                         metric = "logLoss",
                         preProc=c("center", "scale"),
                         trControl = train_control)
@@ -37,16 +35,6 @@ print(classif_glm_cv)
 
 ACC <- classif_glm_cv$results[6]
 ACC
-AUC <- classif_glm_cv$results[4]
-AUC
-MeanSpecificity <- classif_glm_cv$results[10]
-MeanSpecificity
-MeanRecall <- classif_glm_cv$results[9]
-MeanRecall
-MeanPrecision <- classif_glm_cv$results[13]
-MeanPrecision
-MeanF1 <- classif_glm_cv$results[8]
-MeanF1
 
 #:# session info
 sink(paste0("sessionInfo.txt"))
