@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_fe524db85730fb06050b8e5d0539ab1e",
+    "date": "13-03-2019",
+    "added_by": "airi314",
+    "model_id": "fe524db85730fb06050b8e5d0539ab1e",
+    "task_id": "regression_Na",
+    "dataset_id": "openml_glass",
+    "performance": {
+      "mse": 0.4805549,
+      "rmse" : 0.6932207,
+      "mae": 0.4517925,
+      "rsq": 0.2730214
+    }
+  }
+]

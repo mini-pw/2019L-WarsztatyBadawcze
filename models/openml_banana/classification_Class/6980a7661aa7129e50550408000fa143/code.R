@@ -4,7 +4,7 @@ library(OpenML)
 library(mlr)
 
 #:# config
-set.seed(2)
+set.seed(123, "L'Ecuyer")
 
 #:# data
 banana_dataset <- getOMLDataSet(data.id = 1460)
@@ -19,8 +19,8 @@ classif_task = makeClassifTask(id = "banana2", data = banana, target = "Class")
 classif_lrn = makeLearner("classif.svm", predict.type='prob')
 
 #:# hash 
-#:# 5b2c4babcf5363847614d2b486a71534
-hash <- digest(classif_lrn)
+#:# 6980a7661aa7129e50550408000fa143
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit

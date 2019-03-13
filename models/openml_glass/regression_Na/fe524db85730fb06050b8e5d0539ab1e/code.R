@@ -4,22 +4,22 @@ library(OpenML)
 library(mlr)
 
 #:# config
-set.seed(4)
+set.seed(123, "L'Ecuyer")
 
 #:# data
-boston_dataset <- getOMLDataSet(data.id = 853)
-boston <- boston_dataset$data
-head(boston)
+glass_dataset <- getOMLDataSet(data.id = 41)
+glass <- glass_dataset$data
+head(glass)
 
 #:# preprocessing
-head(boston)
+head(glass)
 
 #:# model
-regr_task = makeRegrTask(id = "boston", data = boston, target = "TAX")
+regr_task = makeRegrTask(id = "glass", data = glass, target = "Na")
 regr_lrn = makeLearner("regr.bcart")
 #:# hash 
-#:# 5b2c4babcf5363847614d2b486a71534
-hash <- digest(regr_lrn)
+#:# fe524db85730fb06050b8e5d0539ab1e
+hash <- digest(c(regr_task,regr_lrn))
 hash
 
 #:# audit

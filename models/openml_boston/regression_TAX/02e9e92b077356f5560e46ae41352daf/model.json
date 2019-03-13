@@ -1,8 +1,10 @@
 [
   {
-    "id": "bfada34b7500a8f6a1caa95fbcd1a334",
+    "id": "02e9e92b077356f5560e46ae41352daf",
     "added_by": "airi314",
     "date": "13-03-2019",
+    "library" : "mlr",
+    "model_name" : "regr.bcart",
     "task_id": "regression_TAX",
     "dataset_id": "openml_boston",
     "parameters": {

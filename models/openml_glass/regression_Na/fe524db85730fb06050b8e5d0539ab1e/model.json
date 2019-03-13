@@ -1,8 +1,10 @@
 [
   {
-    "id": "bfada34b7500a8f6a1caa95fbcd1a334",
+    "id": "fe524db85730fb06050b8e5d0539ab1e",
     "added_by": "airi314",
     "date": "13-03-2019",
+    "library" : "mlr",
+    "model_name" : "regr.bcart",
     "task_id": "regression_Na",
     "dataset_id": "openml_glass",
     "parameters": {
