@@ -1,8 +1,10 @@
 [
   {
-    "id": "e2c4980ad46218287bef2e4c0829c02d",
+    "id": "75e556e26ffc96fc9b0982c26c081331",
     "added_by": "pysiakk",
     "date": "12-03-2019",
+	"library": "mlr",
+    "model_name": "classif.randomForest",
     "task_id": "classification_class",
     "dataset_id": "openml_diabetes",
     "parameters": {

@@ -16,12 +16,12 @@ head(dat)
 dat <- na.omit(dat)
 
 #:# model
-task = makeRegrTask(id = "mass.regr", data = dat, target = "mass")
-lrn = makeLearner("regr.plsr")
+regr_task <- makeRegrTask(id = "task", data = dat, target = "mass")
+regr_lrn <- makeLearner("regr.plsr")
 
 #:# hash 
-#:# 5e0cf05549a1055549dfeee898dbfc0a
-hash <- digest(regr_lrn)
+#:# 66ca68532158b416b4260fd4b9cb0929
+hash <- digest(list(regr_task, regr_lrn))
 hash
 
 #:# audit

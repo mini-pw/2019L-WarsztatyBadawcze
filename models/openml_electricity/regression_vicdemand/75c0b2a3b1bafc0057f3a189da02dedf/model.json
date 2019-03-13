@@ -1,16 +1,26 @@
 [{
-	"id": "331b514de9db363b5623044e6725303d",
+	"id": "75c0b2a3b1bafc0057f3a189da02dedf",
 	"added_by": "pysiakk",
 	"date": "02-03-2019",
-	"task_id": "classification_day",
+	"library": "mlr",
+	"model_name": "75c0b2a3b1bafc0057f3a189da02dedf",
+	"task_id": "regression_vicdemand",
 	"dataset_id": "openml_electricity",
 	"parameters": {
-        "method": "moment",
-        "nu": null,
-        "tol": 0.0001,
-        "predict.method": "plug-in",
-        "CV": false,
-        "prior": null
+		"keepxy": false,
+		"trace": 0,
+		"degree": 1,
+		"penalty": null,
+		"nk": null,
+		"thresh": 0.001,
+		"minspan": 0,
+		"endspan": 0,
+		"newvar.penalty": 0,
+		"fast.k": 20,
+		"fast.beta": 1,
+		"pmethod": "backward",
+		"nprune": null,
+		"nfold": 0
 	},
 	"preprocessing": {
 		"date": {

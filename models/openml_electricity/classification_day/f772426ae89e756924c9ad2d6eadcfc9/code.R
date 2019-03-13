@@ -15,17 +15,17 @@ head(electr)
 head(electr)
 
 #:# model
-regr_task = makeRegrTask(id = "elc", data = electr, target = "vicdemand")
-regr_lrn = makeLearner("regr.earth")
+classif_task = makeClassifTask(id = "task", data = electr, target = "class")
+classif_lrn = makeLearner("classif.lda", predict.type = "prob")
 
 #:# hash 
-#:# a6c911540d024c85b94402cde5c19f53
-hash <- digest(regr_lrn)
+#:# f772426ae89e756924c9ad2d6eadcfc9
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(regr_lrn, regr_task, cv, measures = list(mse, rmse, mae, rsq))
+r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc, tnr, tpr, ppv, f1))
 MSE <- r$aggr
 MSE
 

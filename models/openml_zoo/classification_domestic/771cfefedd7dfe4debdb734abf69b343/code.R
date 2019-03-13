@@ -29,7 +29,7 @@ ctrl <- trainControl(method="cv", number=5, classProbs = TRUE, summaryFunction =
 classif_trn_ctr <- train(domestic ~ ., data = dat, method = "gaussprPoly",
                          seed = 123,
                          trControl = ctrl,
-                         metric = "RMSE")
+                         metric = "ROC")
 print(classif_trn_ctr)
 cm <- confusionMatrix(classif_trn_ctr)
 cm

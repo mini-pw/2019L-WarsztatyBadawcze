@@ -1,9 +1,9 @@
 [
   {
-    "id": "audit_331b514de9db363b5623044e6725303d",
+    "id": "audit_f772426ae89e756924c9ad2d6eadcfc9",
     "date": "02-03-2019",
     "added_by": "pysiakk",
-    "model_id": "331b514de9db363b5623044e6725303d",
+    "model_id": "f772426ae89e756924c9ad2d6eadcfc9",
     "task_id": "classification_day",
     "dataset_id": "openml_electricity",
     "performance": {

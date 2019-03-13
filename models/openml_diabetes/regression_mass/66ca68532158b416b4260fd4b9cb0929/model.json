@@ -1,8 +1,10 @@
 [
   {
-    "id": "5e0cf05549a1055549dfeee898dbfc0a",
+    "id": "66ca68532158b416b4260fd4b9cb0929",
     "added_by": "pysiakk",
     "date": "12-03-2019",
+	"library": "mlr",
+    "model_name": "regr.plsr",
     "task_id": "regression_mass",
     "dataset_id": "openml_diabetes",
     "parameters": {

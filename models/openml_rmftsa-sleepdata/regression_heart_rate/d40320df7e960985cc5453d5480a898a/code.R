@@ -19,8 +19,8 @@ regr_trn <- train(heart_rate ~ ., data = dat, method = "rlm", seed = 123)
 regr_trn$times <- NULL
 
 #:# hash 
-#:# cee7917f80569d5e041fbeec419fe1ea
-hash <- digest(regr_trn)
+#:# d40320df7e960985cc5453d5480a898a
+hash <- digest(list(heart_rate ~ ., dat, "rlm", expand.grid(NULL)))
 hash
 
 #:# audit
@@ -30,8 +30,7 @@ regr_trn_ctr <- train(heart_rate ~ ., data = dat, method = "rlm",
                          seed = 123,
                          trControl = ctrl)
 print(regr_trn_ctr)
-cm <- confusionMatrix(regr_trn_ctr)
-cm
+
 #:# session info
 sink(paste0("sessionInfo.txt"))
 sessionInfo()

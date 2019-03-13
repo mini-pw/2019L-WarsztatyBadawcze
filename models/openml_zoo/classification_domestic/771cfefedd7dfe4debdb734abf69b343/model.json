@@ -1,7 +1,9 @@
 [{
-	"id": "b33a3c5b894aad0ed2181453b483af86",
+	"id": "771cfefedd7dfe4debdb734abf69b343",
 	"added_by": "pysiakk",
 	"date": "12-03-2019",
+	"library": "caret",
+	"model_name": "gaussprPoly",
 	"task_id": "classification_domestic",
 	"dataset_id": "openml_zoo",
 	"parameters": {

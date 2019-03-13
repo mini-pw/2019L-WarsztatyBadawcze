@@ -1,7 +1,9 @@
 [{
-	"id": "cee7917f80569d5e041fbeec419fe1ea",
+	"id": "d40320df7e960985cc5453d5480a898a",
 	"added_by": "pysiakk",
 	"date": "12-02-2019",
+	"library": "caret",
+	"model_name": "rlm",
 	"task_id": "regression_heart_rate",
 	"dataset_id": "openml_rmftsa-sleepdata",
 	"parameters": {

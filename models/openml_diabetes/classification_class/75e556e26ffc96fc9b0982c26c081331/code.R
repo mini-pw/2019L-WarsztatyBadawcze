@@ -16,12 +16,12 @@ head(dat)
 dat <- na.omit(dat)
 
 #:# model
-classif_task <- makeClassifTask(id = "class.class", data = dat, target = "class")
+classif_task <- makeClassifTask(id = "task", data = dat, target = "class")
 classif_lrn <- makeLearner("classif.randomForest", predict.type = "prob")
 
 #:# hash
-#:# e2c4980ad46218287bef2e4c0829c02d
-hash <- digest(classif_task)
+#:# 75e556e26ffc96fc9b0982c26c081331
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit 
