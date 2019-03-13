@@ -16,12 +16,12 @@ auto.price$symboling <- as.numeric(auto.price$symboling)
 head(auto.price)
 
 #:# model
-regr_task = makeRegrTask(data = auto.price, target = "length")
+regr_task = makeRegrTask(id = "task", data = auto.price, target = "length")
 regr_lrn = makeLearner("regr.xgboost")
 
 #:# hash 
-#:# 435aa911c12ebd1146d9df0a6b4c5dc8
-hash <- digest(regr_lrn)
+#:# 72304e35adc17774e4b2eff429ad48c8
+hash <- digest(list(regr_task, regr_lrn))
 hash
 
 #:# audit

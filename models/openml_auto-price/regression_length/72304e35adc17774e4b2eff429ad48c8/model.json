@@ -1,8 +1,10 @@
 [
   {
-    "id": "435aa911c12ebd1146d9df0a6b4c5dc8",
+    "id": "72304e35adc17774e4b2eff429ad48c8",
     "added_by": "Siemashko",
     "date": "12-03-2019",
+    "library": "mlr",
+    "model_name": "regr.xgboost",
     "task_id": "regression_length",
     "dataset_id": "openml_auto-price",
     "parameters": {
