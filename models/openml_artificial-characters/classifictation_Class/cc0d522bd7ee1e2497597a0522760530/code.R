@@ -31,14 +31,6 @@ cv <- makeResampleDesc("CV", iters = 5)
 r <- resample(classif_lrn, classif_naive, cv, measures = list(acc,multiclass.au1p,multiclass.au1u,multiclass.aunp,multiclass.aunu))
 ACC <- r$aggr[1]
 ACC
-AUC1vs1 <- r$aggr[3]
-AUC1vs1
-AUCweighted1vs1 <- r$aggr[2]
-AUCweighted1vs1
-AUC1vsRest <- r$aggr[5]
-AUC1vsRest
-AUCweighted1vsRest <- r$aggr[4]
-AUCweighted1vsRest
 
 #:# session info
 sink(paste0("sessionInfo.txt"))
