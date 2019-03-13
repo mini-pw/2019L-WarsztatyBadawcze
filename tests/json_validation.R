@@ -53,7 +53,7 @@ model_json_files <- list.files(pattern = "model.json$", recursive = TRUE)
 test_that("validate model jsons", {
   for(json in model_json_files){
     json_to_validate <- fromJSON(json)
-    expect_equal(colnames(json_to_validate), c("id",  "added_by", "date", "task_id", "dataset_id", "parameters", "preprocessing"))
+    expect_equal(colnames(json_to_validate), c("id",  "added_by", "date", "library", "model_name", "task_id", "dataset_id", "parameters", "preprocessing"))
   }
 })
 
