@@ -8,7 +8,11 @@
     "dataset_id": "openml_diabetes",
     "performance": {
       "ACC":  0.7772939,
-      "AUC": 0.8284589
+      "AUC": 0.8284589,
+      "Specificity": 0.5767741,
+      "Recall": 0.8814141,
+      "Precision": 0.7974684,
+      "F1": 0.836508
     }
   }
 ] 
