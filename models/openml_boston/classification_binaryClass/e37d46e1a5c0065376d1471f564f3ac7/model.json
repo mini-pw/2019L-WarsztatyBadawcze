@@ -3,6 +3,7 @@
         "id": "e37d46e1a5c0065376d1471f564f3ac7",
         "added_by": "Siemashko",
         "date": "02-03-2019",
+        "library": "LogisticRegression"
         "task_id": "classification_binaryClass",
         "dataset_id": "openml_boston",
         "parameters": {
