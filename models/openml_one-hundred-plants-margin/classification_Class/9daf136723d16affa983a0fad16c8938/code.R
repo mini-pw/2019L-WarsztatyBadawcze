@@ -16,12 +16,12 @@ head(plants)
 head(plants)
 
 #:# model
-classif_task <- makeClassifTask(id = "plants", data = plants, target = "Class")
+classif_task <- makeClassifTask(id = "task", data = plants, target = "Class")
 classif_lrn <- makeLearner("classif.ranger", predict.type = "prob")
 
 #:# hash 
-#:# c546b522dc08cdd0b8cb25ccb238f7ff
-hash <- digest(classif_lrn)
+#:# 9daf136723d16affa983a0fad16c8938
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit

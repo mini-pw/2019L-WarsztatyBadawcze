@@ -1,11 +1,29 @@
 [
   {
-    "id": "9f9f92ba64f5580d962f99a6a1a965e3",
+    "id": "800e6b2ac2b9e0cb6309e97222354cc4",
     "added_by": "DominikRafacz",
     "date": "11-03-2019",
+    "library" : "mlr",
+    "model_name" : "regr.rvm",
     "task_id": "regression_col_3",
     "dataset_id": "openml_chscase-geyser1",
-    "parameters": {},
+    "parameters": {
+      "kernel": "rbfdot",
+      "sigma": null,
+      "degree": 3,
+      "scale": 1,
+      "offset": 1,
+      "order": 1,
+      "alpha": 5,
+      "var": 0.1,
+      "var.fix": false,
+      "iterations": 100,
+      "tol": 2.2204e-16,
+      "minmaxdiff": 0.001,
+      "verbosity": false,
+      "fit": false,
+      "cross": 0
+    },
     "preprocessing": {
       "col_1": {
         "name": "col_1",

@@ -1,8 +1,10 @@
 [
   {
-    "id" : "c546b522dc08cdd0b8cb25ccb238f7ff",
+    "id" : "9daf136723d16affa983a0fad16c8938",
     "added_by" : "DominikRafacz",
     "date" : "27-02-2019",
+    "library" : "mlr",
+    "model_name" : "classif.ranger",
     "task_id" : "classification_Class",
     "dataset_id": "openml_one-hundred-plants-margin",
     "parameters" : {

@@ -2,6 +2,7 @@
 library(digest)
 library(OpenML)
 library(mlr)
+library(farff)
 
 #:# config
 set.seed(123, "L'Ecuyer")
@@ -16,12 +17,12 @@ head(dat)
 dat <- na.omit(dat)
 
 #:# model
-classif_task = makeClassifTask(id = "bc", data = dat, target = "Class")
+classif_task = makeClassifTask(id = "task", data = dat, target = "Class")
 classif_lrn = makeLearner("classif.kknn", predict.type = "prob")
 
 #:# hash 
-#:# 17d36960d513eaeb991058a7aa8bf57b
-hash <- digest(classif_lrn)
+#:# b629fee12bc484aede97f759d1767272
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit

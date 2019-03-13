@@ -1,8 +1,10 @@
 [
   {
-    "id": "17d36960d513eaeb991058a7aa8bf57b",
+    "id": "b629fee12bc484aede97f759d1767272",
     "added_by": "DominikRafacz",
     "date": "11-03-2019",
+    "library" : "mlr",
+    "model_name" : "classif.kknn",
     "task_id": "classification_Class",
     "dataset_id": "openml_breast-cancer",
     "parameters": {
