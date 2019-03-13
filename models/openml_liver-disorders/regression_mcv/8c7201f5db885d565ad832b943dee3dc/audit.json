@@ -6,9 +6,9 @@
     "task_id": "regression_mcv",
     "dataset_id": "openml_liver_disorders",
     "performance": {
-      "MSE": 18.1128,
-      "RMSE": 4.2559,
-      "MAE": 3.2801,
-      "R2": 0.1018
+      "mse": 18.11284,
+      "rmse": 4.255918,
+      "mae": 3.280137,
+      "rsq": 0.1018167
     }
 }]

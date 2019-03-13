@@ -22,7 +22,7 @@ hash <- digest(c(regr_task,regr_lrn))
 hash
 
 #:# audit
-# fca27638b5520f93056583296ab8b8da
+#:# fca27638b5520f93056583296ab8b8da
 cv <- makeResampleDesc("CV", iters = 5)
 r <- resample(regr_lrn, regr_task, cv, measures = list(mse, rmse, mae, rsq))
 mse <- r$aggr
