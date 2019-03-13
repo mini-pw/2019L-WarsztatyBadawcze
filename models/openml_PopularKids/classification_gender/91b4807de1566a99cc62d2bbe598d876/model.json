@@ -1,12 +1,30 @@
 [
   {
-    "id": "caf8e7688c79e1241dfa050eac9f3fe1",
+    "id": "91b4807de1566a99cc62d2bbe598d876",
     "added_by": "WojtekBogucki",
-    "date": "10-03-2019",
-    "task_id": "classification_Goals",
+    "date": "04-03-2019",
+    "library": "mlr",
+    "model_name": "classif.randomForest",
+    "task_id": "classification_Gender",
     "dataset_id": "openml_PopularKids",
     "parameters": {
-      "nIter": 20
+      "ntree": 750,
+      "mtry": 3,
+      "replace": true,
+      "classwt": null,
+      "cutoff": null,
+      "strata": null,
+      "sampsize": 478,
+      "nodesize": 1,
+      "maxnodes": null,
+      "importance": false,
+      "localImp": false,
+      "proximity": false,
+      "oob.prox": false,
+      "norm.votes": true,
+      "do.trace": false,
+      "keep.forest": true,
+      "keep.inbag": false
     },
     "preprocessing": {
       "Gender": {

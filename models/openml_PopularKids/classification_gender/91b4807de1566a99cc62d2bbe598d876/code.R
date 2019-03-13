@@ -16,12 +16,12 @@ head(kids)
 summary(kids)
 
 #:# model
-classif_task <- makeClassifTask(id="kids", data = kids, target = "Gender")
+classif_task <- makeClassifTask(id="task", data = kids, target = "Gender")
 classif_lrn <- makeLearner("classif.randomForest", predict.type = 'prob',par.vals = list(ntree=750))
 
 
 #:# hash 
-hash <- digest(classif_lrn)
+hash <- digest(list(classif_task,classif_lrn))
 hash
 
 

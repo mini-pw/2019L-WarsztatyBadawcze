@@ -16,13 +16,13 @@ head(kids)
 summary(kids)
 
 #:# model
-regr_task <- makeRegrTask(id="kids_reg", data = kids, target = "Grades")
+regr_task <- makeRegrTask(id="task", data = kids, target = "Grades")
 regr_lrn <- makeLearner("regr.rpart")
 
 
 
 #:# hash 
-hash <- digest(regr_lrn)
+hash <- digest(list(regr_task, regr_lrn))
 hash
 
 

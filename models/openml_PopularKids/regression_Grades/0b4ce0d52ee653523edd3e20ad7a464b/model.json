@@ -1,28 +1,22 @@
 [
   {
-    "id": "f2ccb52924d435c26652ca9395e75aba",
+    "id": "0b4ce0d52ee653523edd3e20ad7a464b",
     "added_by": "WojtekBogucki",
-    "date": "04-03-2019",
-    "task_id": "classification_Gender",
+    "date": "05-03-2019",
+    "library": "mlr",
+    "model_name": "regr.rpart",
+    "task_id": "regression_Grades",
     "dataset_id": "openml_PopularKids",
     "parameters": {
-      "ntree": 750,
-      "mtry": 3,
-      "replace": true,
-      "classwt": null,
-      "cutoff": null,
-      "strata": null,
-      "sampsize": 478,
-      "nodesize": 1,
-      "maxnodes": null,
-      "importance": false,
-      "localImp": false,
-      "proximity": false,
-      "oob.prox": false,
-      "norm.votes": true,
-      "do.trace": false,
-      "keep.forest": true,
-      "keep.inbag": false
+      "minsplit": 20,
+      "minbucket": 7,
+      "cp": 0.01,
+      "maxcompete": 4,
+      "maxsurrogate": 5,
+      "usesurrogate": 2,
+      "surrogatestyle": 0,
+      "maxdepth": 30,
+      "xval": 0
     },
     "preprocessing": {
       "Gender": {
