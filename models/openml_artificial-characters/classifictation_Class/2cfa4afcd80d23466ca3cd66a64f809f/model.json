@@ -6,8 +6,8 @@
     "task_id": "classification_",
     "dataset_id": "openml_artificial-characters",
     "parameters": {
-	alpha = 0, 
-	lambda = 0.0002343928
+	"alpha": 0, 
+	"lambda": 0.0002343928
 	},
     "preprocessing": {
       "V1": {
