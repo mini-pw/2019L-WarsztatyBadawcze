@@ -1,0 +1,105 @@
+[
+  {
+    "id": "678075b0369fbd9353d30a59d2a7a011",
+    "added_by": "hubertbaniecki",
+    "date": "02-03-2019",
+    "task_id": "regression_PartOfTheDay",
+    "dataset_id": "kaggle_barcelona-data-sets-accidents-2017",
+    "parameters": {
+      "type": "eps-regression",
+      "kernel": "radial",
+      "degree": 3,
+      "gamma": 0.16666666666,
+      "coef0": 0,
+      "cost": 1,
+      "nu": 0.5,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "epsilon": 0.1,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing": {
+      "Hour": {
+        "name": "Hour",
+        "type": "numerical",
+        "number_of_unique_values": 16,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 6,
+        "num_1qu": 11,
+        "num_median": 14,
+        "num_mean": 14.1051,
+        "num_3qu": 18,
+        "num_maximum": 21
+      },
+      "PartOfTheDay": {
+        "name": "PartOfTheDay",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.4443,
+        "num_3qu": 1,
+        "num_maximum": 1
+      },
+      "MildInjuries": {
+        "name": "MildInjuries",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 1,
+        "num_mean": 1.1573,
+        "num_3qu": 1,
+        "num_maximum": 10
+      },
+      "SeriousInjuries": {
+        "name": "SeriousInjuries",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.0217,
+        "num_3qu": 0,
+        "num_maximum": 4
+      },
+      "Victims": {
+        "name": "Victims",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 1,
+        "num_mean": 1.18,
+        "num_3qu": 1,
+        "num_maximum": 10
+      },
+      "VehiclesInvolved": {
+        "name": "VehiclesInvolved",
+        "type": "numerical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 2,
+        "num_median": 2,
+        "num_mean": 1.9227,
+        "num_3qu": 2,
+        "num_maximum": 13
+      }
+    }
+  }
+]

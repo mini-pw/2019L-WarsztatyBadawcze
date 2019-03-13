@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_ba2a5c193852776b0d95577ae0c53ead",
+    "date": "06-03-2019",
+    "added_by": "witoldmerkel",
+    "model_id": "ba2a5c193852776b0d95577ae0c53ead",
+    "task_id": "classification_Sex",
+    "dataset_id": "openml_irish",
+    "performance": {
+      "ACC": 0.582,
+      "AUC": 0.6271,
+      "Specificity": 0.5934,
+      "Recall": 0.5736,
+      "Precision": 0.5842,
+      "F1": 0.5771
+    }
+  }
+]

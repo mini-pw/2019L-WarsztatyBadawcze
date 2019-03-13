@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_cd75bbac64f538dd242c98cc3b5547bd",
+    "date": "11-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "cd75bbac64f538dd242c98cc3b5547bd",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_breast-cancer",
+    "performance": {
+      "ACC": 0.6931,
+      "AUC": 0.6889741,
+      "Specificity": 0.4338235,
+      "Recall": 0.8015385,
+      "Precision": 0.773399,
+      "F1": 0.7872174
+    }
+  }
+]

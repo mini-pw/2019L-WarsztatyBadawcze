@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_542a5b9ac5f85abef19e464daa5d9d53",
+    "date": "06-03-2019",
+    "added_by": "hubertbaniecki",
+    "model_id": "542a5b9ac5f85abef19e464daa5d9d53",
+    "task_id": "regression_Sex",
+    "dataset_id": "openml_abalone",
+    "performance": {
+      "MSE": 0.2431,
+      "RMSE": 0.493,
+      "MAE": 0.4851,
+      "R2": 0.0199
+    }
+  }
+]
