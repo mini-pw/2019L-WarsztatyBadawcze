@@ -1,8 +1,10 @@
 [
   {
-    "id": "8585e1861552b267a934bf894e3d0867",
+    "id": "0b4ce0d52ee653523edd3e20ad7a464b",
     "added_by": "WojtekBogucki",
     "date": "05-03-2019",
+    "library": "mlr",
+    "model_name": "regr.rpart",
     "task_id": "regression_Grades",
     "dataset_id": "openml_PopularKids",
     "parameters": {
