@@ -7,7 +7,10 @@
     "task_id": "regression_Height",
     "dataset_id": "openml_abalone",
     "performance": {
-      "MSE": 0.0015
-    }
+      "mse": 0.001532689,
+      "rmse": 0.039149568,
+      "mae": 0.027791646,
+      "rsq": 0.082058276
+      }
   }
 ]

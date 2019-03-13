@@ -4,18 +4,18 @@ library(OpenML)
 library(mlr)
 
 #:# config
-set.seed(2)
+set.seed(4)
 
 #:# data
-abalone_dataset <- getOMLDataSet(data.id = 183)
-abalone <- abalone_dataset$data
-head(abalone)
+boston_dataset <- getOMLDataSet(data.id = 853)
+boston <- boston_dataset$data
+head(boston)
 
 #:# preprocessing
-head(abalone)
+head(boston)
 
 #:# model
-regr_task = makeRegrTask(id = "abalone", data = abalone, target = "Height")
+regr_task = makeRegrTask(id = "boston", data = boston, target = "TAX")
 regr_lrn = makeLearner("regr.bcart")
 #:# hash 
 #:# 5b2c4babcf5363847614d2b486a71534
