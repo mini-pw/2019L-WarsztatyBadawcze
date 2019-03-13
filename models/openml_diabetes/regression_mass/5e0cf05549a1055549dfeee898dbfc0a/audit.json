@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_5e0cf05549a1055549dfeee898dbfc0a",
+    "date": "12-03-2019",
+    "added_by": "pysiakk",
+    "model_id": "5e0cf05549a1055549dfeee898dbfc0a",
+    "task_id": "regression_mass",
+    "dataset_id": "openml_diabetes",
+    "performance": {
+      "mse": 47.0204,
+      "rmse": 6.8571,
+      "mae": 5.0784,
+      "rsq": 0.2396
+    }
+  }
+]

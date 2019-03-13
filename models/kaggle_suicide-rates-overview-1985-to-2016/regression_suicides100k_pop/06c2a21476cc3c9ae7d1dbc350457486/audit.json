@@ -1,0 +1,13 @@
+[
+  {
+    "id": "audit_06c2a21476cc3c9ae7d1dbc350457486",
+    "date": "05-03-2019",
+    "added_by": "k-sap",
+    "model_id": "06c2a21476cc3c9ae7d1dbc350457486",
+    "task_id": "regression_suicides100k_pop",
+    "dataset_id": "kaggle_suicide-rates-overview-1985-to-2016",
+    "performance": {
+      "MSE": 0.0049628
+    }
+  }
+]

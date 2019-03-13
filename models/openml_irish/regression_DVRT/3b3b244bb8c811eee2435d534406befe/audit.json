@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_3b3b244bb8c811eee2435d534406befe",
+    "date": "06-03-2019",
+    "added_by": "witoldmerkel",
+    "model_id": "3b3b244bb8c811eee2435d534406befe",
+    "task_id": "regression_DVRT",
+    "dataset_id": "openml_irish",
+    "performance": {
+      "MSE": 180.6825,
+      "RMSE": 13.4418,
+      "MAE": 10.7493,
+      "R2": 0.2376
+    }
+  }
+]

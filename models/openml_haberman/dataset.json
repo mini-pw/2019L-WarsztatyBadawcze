@@ -1,0 +1,68 @@
+[
+    {
+        "id": "openml_haberman",
+        "added_by": "mckraqs",
+        "date": "24-02-2019",
+        "name": "haberman",
+        "source": "openml",
+        "url": "https://www.openml.org/d/43",
+        "number_of_features": 4,
+        "number_of_instances": 306,
+        "number_of_missing_values": 0,
+        "number_of_instances_with_missing_values": 0,
+        "variables": {
+            "Age_of_patient_at_time_of_operation": {
+                "name": "Age_of_patient_at_time_of_operation",
+                "type": "numerical",
+                "number_of_unique_values": 49,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 30,
+                "num_1qu": 44,
+                "num_median": 52,
+                "num_3q": 60.75,
+                "num_maximum": 83
+            },
+            "Patients_year_of_operation": {
+                "name": "Patients_year_of_operation",
+                "type": "numerical",
+                "number_of_unique_values": 12,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 58,
+                "num_1qu": 60,
+                "num_median": 63,
+                "num_3q": 65.75,
+                "num_maximum": 69
+            },
+            "Number_of_positive_axillary_nodes_detected": {
+                "name": "Number_of_positive_axillary_nodes_detected",
+                "type": "numerical",
+                "number_of_unique_values": 31,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0,
+                "num_1qu": 0,
+                "num_median": 1,
+                "num_3q": 4,
+                "num_maximum": 52
+            },
+            "Survival_status": {
+                "name": "Survival_status",
+                "type": "categorical",
+                "number_of_unique_values": 2,
+                "number_of_missing_values": 0,
+                "cat_frequencies": {
+                    "1": 225,
+                    "2": 81
+                },
+                "num_minimum": null,
+                "num_1qu": null,
+                "num_median": null,
+                "num_mean": null,
+                "num_3qu": null,
+                "num_maximum": null
+            }
+        }
+    }
+]
