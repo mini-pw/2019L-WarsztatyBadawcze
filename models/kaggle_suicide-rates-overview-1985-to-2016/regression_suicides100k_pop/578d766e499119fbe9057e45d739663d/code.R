@@ -32,7 +32,7 @@ task <- createDummyFeatures(obj = task)
 learner <- makeLearner("regr.evtree")
 
 #:# hash 
-#:# 06c2a21476cc3c9ae7d1dbc350457486
+#:# 578d766e499119fbe9057e45d739663d
 list_to_hash <- list(task, learner)
 hash <- digest(list_to_hash)
 hash
