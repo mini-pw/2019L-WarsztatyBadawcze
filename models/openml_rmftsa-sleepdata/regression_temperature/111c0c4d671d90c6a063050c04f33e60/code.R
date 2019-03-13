@@ -15,12 +15,12 @@ head(sleep)
 head(sleep)
 
 #:# model
-regr_task = makeRegrTask(id = "temp", data = sleep, target = "temperature")
+regr_task = makeRegrTask(id = "task", data = sleep, target = "temperature")
 regr_lrn = makeLearner("regr.gbm")
 
 #:# hash 
-#:# 8c3c97c4b2ef4c087f94b686d3259a58
-hash <- digest(regr_lrn)
+#:# 111c0c4d671d90c6a063050c04f33e60
+hash <- digest(list(regr_task, regr_lrn))
 hash
 
 #:# audit
