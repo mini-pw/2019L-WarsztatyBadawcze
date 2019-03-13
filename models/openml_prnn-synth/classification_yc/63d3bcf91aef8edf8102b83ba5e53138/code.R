@@ -15,12 +15,12 @@ head(synth)
 head(synth)
 
 #:# model
-classif_task = makeClassifTask(id = "yc", data = synth, target = "yc")
+classif_task = makeClassifTask(id = "task", data = synth, target = "yc")
 classif_lrn = makeLearner("classif.logreg",  predict.type = "prob")
 
 #:# hash 
-#:# 4854f305f42ae8beb4f19d3de2ba2d8e
-hash <- digest(classif_lrn)
+#:# 63d3bcf91aef8edf8102b83ba5e53138
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit

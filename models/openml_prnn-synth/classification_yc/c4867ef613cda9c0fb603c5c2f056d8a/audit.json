@@ -1,18 +1,18 @@
 [
   {
-    "id": "audit_ad7d2edd2f9aeecf8dda6cc7c7b36568",
-    "date": "09-03-2019",
+    "id": "audit_c4867ef613cda9c0fb603c5c2f056d8a",
+    "date": "13-03-2019",
     "added_by": "Pastuszka",
-    "model_id": "ad7d2edd2f9aeecf8dda6cc7c7b36568",
+    "model_id": "c4867ef613cda9c0fb603c5c2f056d8a",
     "task_id": "classification_yc",
     "dataset_id": "openml_prnn-synth",
     "performance": {
-      "ACC": 0.856,
-      "AUC": 0.9344,
-      "Specificity": 0.8553,
-      "Recall": 0.8674,
-      "Precision": 0.8562,
-      "F1": 0.8586
+      "acc": 0.856,
+      "auc": 0.9344,
+      "specificity": 0.8553,
+      "recall": 0.8674,
+      "precision": 0.8562,
+      "f1": 0.8586
     }
   }
 ]

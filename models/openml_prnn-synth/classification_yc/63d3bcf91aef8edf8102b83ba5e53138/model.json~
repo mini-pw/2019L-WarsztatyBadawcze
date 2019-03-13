@@ -1,27 +1,12 @@
 [
   {
-    "id": "c4867ef613cda9c0fb603c5c2f056d8a",
+    "id": "4854f305f42ae8beb4f19d3de2ba2d8e",
     "added_by": "Pastuszka",
-    "date": "13-03-2019",
-    "library": "mlr",
-	"model_name": "classif.svm",
+    "date": "09-03-2019",
     "task_id": "classification_yc",
     "dataset_id": "openml_prnn-synth",
     "parameters": {
-      "type": "C-classification",
-      "cost": 1,
-      "nu": 0.5,
-      "class.weights": null,
-      "kernel": "radial",
-      "degree": 3,
-      "coef0": 0,
-      "gamma": null,
-      "cachesize": 40,
-      "tolerance": 0.001,
-      "shrinking": true,
-      "cross": 0,
-      "fitted": true,
-      "scale": true
+      "model": false
     },
     "preprocessing": {
       "xs": {

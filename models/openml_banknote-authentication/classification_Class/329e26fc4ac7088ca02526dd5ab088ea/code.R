@@ -15,12 +15,12 @@ head(banknote)
 head(banknote)
 
 #:# model
-classif_task = makeClassifTask(id = "banknote", data = banknote, target = "Class")
-classif_lrn = makeLearner("classif.bartMachine", predict.type = "prob")
+classif_task = makeClassifTask(id = "task", data = banknote, target = "Class")
+classif_lrn = makeLearner("classif.bartMachine", predict.type = "prob", seed=123)
 
 #:# hash 
-#:# 0e248702ee967ea380294b26423d6b1a
-hash <- digest(classif_lrn)
+#:# 329e26fc4ac7088ca02526dd5ab088ea
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit
