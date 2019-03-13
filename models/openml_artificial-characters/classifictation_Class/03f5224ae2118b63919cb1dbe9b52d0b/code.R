@@ -29,7 +29,6 @@ train_control <- trainControl(method="cv", number=5,  classProbs = TRUE, summary
 classif_glm_cv <- train(Class ~ ., data = art_char, method = "glmnet",
                         tuneGrid = expand.grid(alpha = 0, lambda = 0.5),
                         metric = "logLoss",
-                        preProc=c("center", "scale"),
                         trControl = train_control)
 print(classif_glm_cv)
 
