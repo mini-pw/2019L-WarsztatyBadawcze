@@ -19,7 +19,7 @@ library(digest)
   listLearners(check.packages = TRUE)
   
   #robimy taska i learnera
-  classif_task = makeClassifTask(id = paste("classif_",dane$target.features,sep = ""), data = train, target =dane$target.features)
+  classif_task = makeClassifTask(id = "task", data = train, target =dane$target.features)
   classif_learner<-makeLearner("classif.logreg")
   
   #testy
@@ -34,7 +34,7 @@ library(digest)
   getHyperPars(classif_learner)
   
   #haszujemy
-  hash <- digest(classif_learner)
+  hash <- digest(list(classif_task,classif_learner))
   hash    
   
   #robimy jsony
@@ -42,6 +42,8 @@ library(digest)
   id= hash,
   added_by= "wernerolaf",
   date= format.Date(Sys.Date(),"%d-%m-%Y") ,
+  library= "mlr",
+  model_name= "classif.logreg",
   task_id=paste("classification_",dane$target.features,sep = ""),
   dataset_id= dataset$id,
   parameters=parametry,
@@ -54,19 +56,22 @@ library(digest)
                         date= format.Date(Sys.Date(),"%d-%m-%Y") ,dataset_id= dataset$id,type="classification",target=dane$target.features)
   
   auditdozapisu<-list(id=paste("audit_",hash,sep = ""),
-                      date= format.Date(Sys.Date(),"%d-%m-%Y"),added_by= "wernerolaf",model_id=hash,task_id=paste("classification_",dane$target.features,sep = ""),dataset_id=dataset$id,performance=list(ACC=ACC))
+                      date= format.Date(Sys.Date(),"%d-%m-%Y"),added_by= "wernerolaf",
+                      model_id=hash,task_id=paste("classification_",
+                      dane$target.features,sep = ""),
+                      dataset_id=dataset$id,performance=list(acc=ACC))
   
   taskdozapisu<-toJSON(list(taskdozapisu),pretty = TRUE,auto_unbox = TRUE)
   
   auditdozapisu<-toJSON(list(auditdozapisu),pretty = TRUE,auto_unbox = TRUE)
   
   #zapisujemy
-  write(taskdozapisu,"task.json")
+  #write(taskdozapisu,"task.json")
   write(modeldozapisu,"model.json")
   write(auditdozapisu,"audit.json")
   
   # info o sesji
-  sink(paste0("sessionInfo_", hash,".txt"))
+  sink("sessionInfo.txt")
   sessionInfo()
   sink()
   

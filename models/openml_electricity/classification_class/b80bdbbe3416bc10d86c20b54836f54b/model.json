@@ -1,8 +1,10 @@
 [
   {
-    "id": "04d2cc8e0bc79ff40bb6536e6b8051f6",
+    "id": "b80bdbbe3416bc10d86c20b54836f54b",
     "added_by": "wernerolaf",
-    "date": "02-03-2019",
+    "date": "13-03-2019",
+    "library": "mlr",
+    "model_name": "classif.logreg",
     "task_id": "classification_class",
     "dataset_id": "openml_electricity",
     "parameters": {
