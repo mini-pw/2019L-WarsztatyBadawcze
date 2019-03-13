@@ -4,7 +4,7 @@ library(OpenML)
 library(mlr)
 
 #:# config
-set.seed(2)
+set.seed(123, "L'Ecuyer")
 
 #:# data
 abalone_dataset <- getOMLDataSet(data.id = 183)
@@ -22,6 +22,7 @@ hash <- digest(c(regr_task,regr_lrn))
 hash
 
 #:# audit
+# fca27638b5520f93056583296ab8b8da
 cv <- makeResampleDesc("CV", iters = 5)
 r <- resample(regr_lrn, regr_task, cv, measures = list(mse, rmse, mae, rsq))
 mse <- r$aggr

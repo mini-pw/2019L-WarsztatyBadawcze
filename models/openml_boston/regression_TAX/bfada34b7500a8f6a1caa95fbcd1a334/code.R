@@ -4,7 +4,7 @@ library(OpenML)
 library(mlr)
 
 #:# config
-set.seed(4)
+set.seed(3)
 
 #:# data
 boston_dataset <- getOMLDataSet(data.id = 853)
@@ -18,8 +18,7 @@ head(boston)
 regr_task = makeRegrTask(id = "boston", data = boston, target = "TAX")
 regr_lrn = makeLearner("regr.bcart")
 #:# hash 
-#:# 5b2c4babcf5363847614d2b486a71534
-hash <- digest(regr_lrn)
+hash <- digest(list(regr_task,regr_lrn))
 hash
 
 #:# audit

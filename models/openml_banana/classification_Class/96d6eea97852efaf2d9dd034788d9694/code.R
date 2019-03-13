@@ -4,7 +4,7 @@ library(OpenML)
 library(mlr)
 
 #:# config
-set.seed(2)
+set.seed(123, "L'Ecuyer")
 
 #:# data
 banana_dataset <- getOMLDataSet(data.id = 1460)
