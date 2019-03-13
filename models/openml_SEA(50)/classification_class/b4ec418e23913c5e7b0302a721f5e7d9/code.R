@@ -15,12 +15,12 @@ head(df)
 head(df)
 
 #:# model
-classif_task = makeClassifTask(id = "class", data = df, target = "class")
+classif_task = makeClassifTask(id = "task", data = df, target = "class")
 classif_lrn = makeLearner("classif.logreg", predict.type = "prob")
 
 #:# hash 
-#:# 4854f305f42ae8beb4f19d3de2ba2d8e
-hash <- digest(classif_lrn)
+#:# b4ec418e23913c5e7b0302a721f5e7d9
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit

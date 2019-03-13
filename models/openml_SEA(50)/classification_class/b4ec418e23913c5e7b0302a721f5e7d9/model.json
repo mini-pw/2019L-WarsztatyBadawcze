@@ -1,8 +1,10 @@
 [
   {
-    "id": "4854f305f42ae8beb4f19d3de2ba2d8e",
+    "id": "b4ec418e23913c5e7b0302a721f5e7d9",
     "added_by": "hubertbaniecki",
-    "date": "06-03-2019",
+    "date": "13-03-2019",
+    "library": "mlr",
+    "model_name": "classif.logreg",
     "task_id": "classification_class",
     "dataset_id": "openml_SEA(50)",
     "parameters": {

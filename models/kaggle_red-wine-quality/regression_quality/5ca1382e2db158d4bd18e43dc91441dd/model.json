@@ -1,8 +1,10 @@
 [
   {
-    "id": "bf895d83fd6e82254f25d11e3ddf76da",
+    "id": "5ca1382e2db158d4bd18e43dc91441dd",
     "added_by": "hubertbaniecki",
-    "date": "08-03-2019",
+    "date": "13-03-2019",
+    "library": "caret",
+    "model_name": "rf",
     "task_id": "regression_quality",
     "dataset_id": "kaggle_red-wine-quality",
     "parameters": {

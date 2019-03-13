@@ -1,8 +1,10 @@
 [
   {
-    "id": "542a5b9ac5f85abef19e464daa5d9d53",
+    "id": "9f6a685a9d30e47223fdd383258ecae5",
     "added_by": "hubertbaniecki",
-    "date": "06-03-2019",
+    "date": "13-03-2019",
+    "library": "mlr",
+    "model_name": "regr.lm",
     "task_id": "regression_Sex",
     "dataset_id": "openml_abalone",
     "parameters": {
