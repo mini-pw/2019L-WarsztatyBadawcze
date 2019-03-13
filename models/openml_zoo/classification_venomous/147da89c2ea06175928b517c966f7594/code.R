@@ -15,12 +15,12 @@ df <- zoo
 #:# preprocessing
 
 #:# model
-classif_task <- makeClassifTask(id = "zoo", data = zoo, target = "venomous")
+classif_task <- makeClassifTask(id = "task", data = zoo, target = "venomous")
 classif_lrn <- makeLearner("classif.ada", predict.type = "prob")
 
 #:# hash 
-#:# 42f7bd544ff81bcf2b1e66e0b7610ba6
-hash <- digest(classif_lrn)
+#:# 147da89c2ea06175928b517c966f7594
+hash <- digest(list(classif_task, classif_task))
 hash
 
 #:# audit

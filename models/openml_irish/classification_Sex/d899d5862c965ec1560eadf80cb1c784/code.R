@@ -10,24 +10,24 @@ set.seed(1)
 #:# data
 irish <- getOMLDataSet(data.id = 451L)
 irish <- irish$data
+df <- irish
 head(irish)
 
 #:# preprocessing
 
 #:# model
-class_task <- makeClassifTask(id = "irish_class", data = irish, target = "Sex")
-class_lrn <- makeLearner("classif.boosting")
+classif_task <- makeClassifTask(data = irish, target = "Sex", id="task")
+classif_lrn <- makeLearner("classif.boosting", predict.type = "prob")
 
 #:# hash 
-#:# 5b2c4babcf5363847614d2b486a71534
-hash <- digest(class_lrn)
+#:# ba2a5c193852776b0d95577ae0c53ead
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(class_lrn, class_task, cv, measures = list(acc))
-ACC <- r$aggr
-ACC
+r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc, tnr, tpr, ppv, f1)) 
+
 
 #:# session info
 sink(paste0("sessionInfo.txt"))

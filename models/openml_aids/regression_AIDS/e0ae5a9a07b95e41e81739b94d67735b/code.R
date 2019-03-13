@@ -7,20 +7,21 @@ library(digest)
 set.seed(123, "L'Ecuyer")
 
 #:# data
-skin_segmentation <- getOMLDataSet(data.id = 1502)
-skin_segmentation <- skin_segmentation$data
+aids <- getOMLDataSet(data.id = 346)
+aids <- aids$data
 
 #:# model
-regr_lm <- train(V3 ~ ., data = skin_segmentation, method = "lm", tuneGrid = expand.grid(
+regr_lm <- train(AIDS ~ ., data = aids, method = "lm", tuneGrid = expand.grid(
   intercept=TRUE))
 
 #:# hash 
-#:# b50c3de24d9523ed569def111300b4d9
-hash <- digest(regr_lm)
+#:# e0ae5a9a07b95e41e81739b94d67735b
+hash <- digest(list(AIDS ~ ., aids, "lm", expand.grid(
+  intercept=TRUE)))
 
 #:# audit
 train_control <- trainControl(method="cv", number=5)
-regr_lm_cv <- train(V3 ~ ., data = skin_segmentation, method = "lm", tuneGrid = expand.grid(
+regr_lm_cv <- train(AIDS ~ ., data = aids, method = "lm", tuneGrid = expand.grid(
   intercept=TRUE),trControl=train_control)
 RMSE <-regr_lm_cv$results$RMSE
 MSE <- RMSE^2
@@ -32,5 +33,3 @@ result <- cbind(result,MSE)
 sink(paste0("sessionInfo.txt"))
 sessionInfo()
 sink()
-
-result

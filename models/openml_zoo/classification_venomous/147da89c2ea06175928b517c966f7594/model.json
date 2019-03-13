@@ -1,8 +1,10 @@
 [
   {
-    "id": "42f7bd544ff81bcf2b1e66e0b7610ba6",
+    "id": "147da89c2ea06175928b517c966f7594",
     "added_by": "witoldmerkel",
-    "date": "06-03-2019",
+    "date": "13-03-2019",
+    "library": "mlr",
+    "model_name": "classif.ada",
     "task_id": "classification_venomous",
     "dataset_id": "openml_zoo",
     "parameters": {

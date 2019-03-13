@@ -7,20 +7,21 @@ library(digest)
 set.seed(123, "L'Ecuyer")
 
 #:# data
-aids <- getOMLDataSet(data.id = 346)
-aids <- aids$data
+skin_segmentation <- getOMLDataSet(data.id = 1502)
+skin_segmentation <- skin_segmentation$data
 
 #:# model
-regr_lm <- train(AIDS ~ ., data = aids, method = "lm", tuneGrid = expand.grid(
+regr_lm <- train(V3 ~ ., data = skin_segmentation, method = "lm", tuneGrid = expand.grid(
   intercept=TRUE))
 
 #:# hash 
-#:# 8cb6ca884cb18cd1a66162b6232b2bb7
-hash <- digest(regr_lm)
+#:# 55e054cbff6cc8c168b267c0580d2f9f
+hash <- digest(list(V3 ~ ., skin_segmentation, "lm", expand.grid(
+  intercept=TRUE)))
 
 #:# audit
 train_control <- trainControl(method="cv", number=5)
-regr_lm_cv <- train(AIDS ~ ., data = aids, method = "lm", tuneGrid = expand.grid(
+regr_lm_cv <- train(V3 ~ ., data = skin_segmentation, method = "lm", tuneGrid = expand.grid(
   intercept=TRUE),trControl=train_control)
 RMSE <-regr_lm_cv$results$RMSE
 MSE <- RMSE^2

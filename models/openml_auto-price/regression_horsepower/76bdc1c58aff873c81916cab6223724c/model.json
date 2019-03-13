@@ -1,8 +1,10 @@
 [
   {
-    "id": "18d5cd204525c38c5926e0c3192c5baa",
+    "id": "76bdc1c58aff873c81916cab6223724c",
     "added_by": "witoldmerkel",
-    "date": "06-03-2019",
+    "date": "13-03-2019",
+    "library": "mlr",
+    "model_name": "regr.rpart",
     "task_id": "regression_horsepower",
     "dataset_id": "openml_auto-price",
     "parameters": {

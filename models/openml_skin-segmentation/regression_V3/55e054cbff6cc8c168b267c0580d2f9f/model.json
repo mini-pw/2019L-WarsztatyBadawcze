@@ -1,8 +1,10 @@
 [
   {
-    "id": "b50c3de24d9523ed569def111300b4d9",
+    "id": "55e054cbff6cc8c168b267c0580d2f9f",
     "added_by": "witoldmerkel",
-    "date": "07-03-2019",
+    "date": "13-03-2019",
+    "library": "caret",
+    "model_name": "lm",
     "task_id": "regression_V3",
     "dataset_id": "openml_skin-segmentation",
     "parameters": {

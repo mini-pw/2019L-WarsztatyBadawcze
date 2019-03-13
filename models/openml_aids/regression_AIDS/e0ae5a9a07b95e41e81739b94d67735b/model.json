@@ -1,8 +1,10 @@
 [
   {
-    "id": "8cb6ca884cb18cd1a66162b6232b2bb7",
+    "id": "e0ae5a9a07b95e41e81739b94d67735b",
     "added_by": "witoldmerkel",
-    "date": "07-03-2019",
+    "date": "13-03-2019",
+    "library": "caret",
+    "model_name": "lm",
     "task_id": "regression_AIDS",
     "dataset_id": "openml_aids",
     "parameters": {

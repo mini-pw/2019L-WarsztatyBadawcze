@@ -1,11 +1,16 @@
 [
   {
-    "id": "3b3b244bb8c811eee2435d534406befe",
+    "id": "d899d5862c965ec1560eadf80cb1c784",
     "added_by": "witoldmerkel",
-    "date": "06-03-2019",
-    "task_id": "regression_DVRT",
+    "date": "13-03-2019",
+    "library": "mar",
+    "model_name": "classif.boosting",
+    "task_id": "classification_Sex",
     "dataset_id": "openml_irish",
     "parameters": {
+      "boos": true,
+      "mfinal": 100,
+      "coeflearn": "Breiman",
       "minsplit": 20,
       "minbucket": 7,
       "cp": 0.01,
@@ -13,7 +18,7 @@
       "maxsurrogate": 5,
       "usesurrogate": 2,
       "surrogatestyle": 0,
-      "maxdepth": 5,
+      "maxdepth": 30,
       "xval": 0
     },
     "preprocessing": {

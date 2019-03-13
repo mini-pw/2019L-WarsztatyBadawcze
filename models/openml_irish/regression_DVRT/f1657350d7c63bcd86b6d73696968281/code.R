@@ -1,7 +1,6 @@
 #:# libraries
 library(OpenML)
 library(mlr)
-library(farff)
 library(digest)
 
 #:# config
@@ -16,18 +15,17 @@ head(irish)
 #:# preprocessing
 
 #:# model
-classif_task <- makeClassifTask(id = "irish_class", data = irish, target = "Sex")
-classif_lrn <- makeLearner("classif.boosting", predict.type = "prob")
+regr_task <- makeRegrTask(id = "task", data = irish, target = "DVRT")
+regr_lrn <- makeLearner("regr.rpart", par.vals = list(maxdepth = 5))
 
 #:# hash 
-#:# ba2a5c193852776b0d95577ae0c53ead
-hash <- digest(classif_lrn)
+#:# f1657350d7c63bcd86b6d73696968281
+hash <- digest(list(regr_task, regr_lrn))
 hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc, tnr, tpr, ppv, f1)) 
-
+r <- resample(regr_lrn, regr_task, cv, measures = list(mse, rmse, mae, rsq))
 
 #:# session info
 sink(paste0("sessionInfo.txt"))
