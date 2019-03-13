@@ -36,7 +36,7 @@ hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 10)
-r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc))
+r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc, tnr, tpr, ppv, f1))
 r$aggr
 
 #:# session info

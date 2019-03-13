@@ -25,7 +25,7 @@ hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(regr_lrn, regr_task, cv)
+r <- resample(regr_lrn, regr_task, cv, measures = list(mse, rmse, mae, rsq))
 MSE <- r$aggr
 MSE
 

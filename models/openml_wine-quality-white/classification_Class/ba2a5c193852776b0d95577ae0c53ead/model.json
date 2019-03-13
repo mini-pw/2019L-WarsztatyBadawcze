@@ -9,7 +9,7 @@
           "mfinal": 100,    
           "coeflearn ":"Breiman", 
           "minsplit":20,
-          "minbucket ":"-",
+          "minbucket ":null,
           "cp":0.01,
           "maxcompete":4,
           "maxsurrogate":5,

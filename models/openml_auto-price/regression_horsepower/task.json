@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_horsepower",
+    "added_by": "witoldmerkel",
+    "date": "06-03-2019",
+    "dataset_id": "openml_auto-price",
+    "type": "regression",
+    "target": "horsepower"
+  }
+]
