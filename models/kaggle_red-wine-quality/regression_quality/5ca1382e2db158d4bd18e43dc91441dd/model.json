@@ -7,11 +7,9 @@
     "model_name": "rf",
     "task_id": "regression_quality",
     "dataset_id": "kaggle_winequality-red",
-    "parameters": [
-      {
+    "parameters": {
         "mtry": 4
-      }
-    ],
+      },
     "preprocessing": {
       "fixed acidity": {
         "name": "fixed acidity",
