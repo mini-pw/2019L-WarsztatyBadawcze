@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_quality",
+    "added_by": "hubertbaniecki",
+    "date": "08-03-2019",
+    "dataset_id": "kaggle_red-wine-quality",
+    "type": "regression",
+    "target": "quality"
+  }
+]
