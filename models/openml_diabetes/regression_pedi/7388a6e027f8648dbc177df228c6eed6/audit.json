@@ -8,6 +8,9 @@
     "dataset_id": "openml_diabetes",
     "performance": {
       "MSE":  0.1317857
+      "RMSE": 0.3630231,
+      "MAE": 0.2696386,
+      "R2": -0.2183094
     }
   }
 ]
