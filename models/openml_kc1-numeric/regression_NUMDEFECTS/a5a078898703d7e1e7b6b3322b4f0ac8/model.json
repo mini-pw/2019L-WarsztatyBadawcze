@@ -3,6 +3,8 @@
         "id": "a5a078898703d7e1e7b6b3322b4f0ac8",
         "added_by": "Siemashko",
         "date": "02-03-2019",
+        "library": "scikit",
+        "model_name": "LinearRegression",
         "task_id": "regression_NUMDEFECTS",
         "dataset_id": "openml_kc1-numeric",
         "parameters": {

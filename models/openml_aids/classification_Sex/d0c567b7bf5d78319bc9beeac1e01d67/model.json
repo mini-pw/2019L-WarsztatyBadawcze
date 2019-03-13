@@ -3,6 +3,8 @@
         "id": "d0c567b7bf5d78319bc9beeac1e01d67",
         "added_by": "Siemashko",
         "date": "12-03-2019",
+        "library": "scikit",
+        "model_name": "RandomForestClassifier",
         "task_id": "classification_Sex",
         "dataset_id": "openml_aids",
         "parameters": {
