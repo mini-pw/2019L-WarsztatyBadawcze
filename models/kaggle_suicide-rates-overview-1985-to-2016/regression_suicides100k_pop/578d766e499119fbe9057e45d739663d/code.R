@@ -26,7 +26,7 @@ data <- data[sample(nrow(data), 1000), ]
 head(data)
 
 #:# model
-task <- makeRegrTask(id = "reg_suic", data = data, target = "suicides100k_pop")
+task <- makeRegrTask(id = "task", data = data, target = "suicides100k_pop")
 task <- createDummyFeatures(obj = task)
 #regr_lrn = makeLearner("regr.lm")
 learner <- makeLearner("regr.evtree")
