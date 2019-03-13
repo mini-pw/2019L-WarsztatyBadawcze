@@ -17,12 +17,12 @@ df$Sex <- as.integer(df$Sex)
 head(df)
 
 #:# model
-regr_task = makeRegrTask(id = "abalone", data = df, target = "Sex")
+regr_task = makeRegrTask(id = "task", data = df, target = "Sex")
 regr_lrn = makeLearner("regr.lm")
 
 #:# hash 
-#:# 542a5b9ac5f85abef19e464daa5d9d53
-hash <- digest(regr_lrn)
+#:# 9f6a685a9d30e47223fdd383258ecae5
+hash <- digest(list(regr_task, regr_lrn))
 hash
 
 #:# audit
