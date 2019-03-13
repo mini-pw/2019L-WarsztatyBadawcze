@@ -20,7 +20,7 @@ task <- makeClassifTask(id = "task", data = df, target = "class")
 learner <- makeLearner("classif.randomForest", predict.type = "prob")
 
 #:# hash
-#:# f12fd85a0d595b3964d6adb4ed3195db
+#:# a83d5cf9f3c9dc688b8e1f64b2e92047
 list_to_hash <-list(task, learner)
 hash <- digest(list_to_hash)
 hash
