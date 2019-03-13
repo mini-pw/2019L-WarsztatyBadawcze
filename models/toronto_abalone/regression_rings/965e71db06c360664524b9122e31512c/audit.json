@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_965e71db06c360664524b9122e31512c",
+    "date": "13-03-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "965e71db06c360664524b9122e31512c",
+    "task_id": "regression_rings",
+    "dataset_id": "toronto_abalone",
+    "performance": {
+      "mse": 4.2953,
+      "rmse": 2.0725,
+      "mae": 1.4647,
+      "r2": 0.5859
+    }
+  }
+]
