@@ -1,0 +1,13 @@
+[
+  {
+    "id": "audit_17d3c8d35162c6cd17a226a2ac0ba4d5",
+    "date": "09-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "17d3c8d35162c6cd17a226a2ac0ba4d5",
+    "task_id": "classification_Goals",
+    "dataset_id": "openml_PopularKids",
+    "performance": {
+      "acc.test.mean": 0.5609
+    }
+  }
+]

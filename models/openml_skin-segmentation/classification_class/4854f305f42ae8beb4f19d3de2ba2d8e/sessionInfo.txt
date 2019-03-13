@@ -15,12 +15,18 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] readr_1.3.1           randomForestSRC_2.8.0 OpenML_1.8            mlr_2.13              ParamHelpers_1.12     digest_0.6.18        
+ [1] randomForestSRC_2.8.0 rqPen_2.0             regpro_0.1.1          denpro_0.9.2          quantreg_5.38         SparseM_1.77         
+ [7] readr_1.3.1           OpenML_1.8            mlr_2.13              ParamHelpers_1.12     digest_0.6.18         caret_6.0-81         
+[13] ggplot2_3.1.0         lattice_0.20-35      
 
 loaded via a namespace (and not attached):
- [1] parallelMap_1.3   Rcpp_1.0.0        pillar_1.3.1      compiler_3.4.4    plyr_1.8.4        tools_3.4.4       jsonlite_1.6     
- [8] memoise_1.1.0     tibble_2.0.1      gtable_0.2.0      checkmate_1.9.1   lattice_0.20-35   pkgconfig_2.0.2   rlang_0.3.1      
-[15] Matrix_1.2-12     fastmatch_1.1-0   curl_3.3          yaml_2.2.0        parallel_3.4.4    httr_1.4.0        hms_0.4.2        
-[22] grid_3.4.4        data.table_1.12.0 farff_1.0         R6_2.4.0          XML_3.98-1.17     survival_2.41-3   ggplot2_3.1.0    
-[29] backports_1.1.3   scales_1.0.0      BBmisc_1.11       splines_3.4.4     colorspace_1.4-0  stringi_1.3.1     lazyeval_0.2.1   
-[36] munsell_0.5.0     crayon_1.3.4     
+ [1] Rcpp_1.0.0         lubridate_1.7.4    class_7.3-14       assertthat_0.2.0   ipred_0.9-8        foreach_1.4.4      R6_2.4.0          
+ [8] plyr_1.8.4         backports_1.1.3    MatrixModels_0.4-1 stats4_3.4.4       httr_1.4.0         pillar_1.3.1       rlang_0.3.1       
+[15] lazyeval_0.2.1     curl_3.3           data.table_1.12.0  kernlab_0.9-27     rpart_4.1-13       Matrix_1.2-12      checkmate_1.9.1   
+[22] splines_3.4.4      gower_0.1.2        stringr_1.4.0      munsell_0.5.0      compiler_3.4.4     pkgconfig_2.0.2    BBmisc_1.11       
+[29] nnet_7.3-12        tidyselect_0.2.5   tibble_2.0.1       prodlim_2018.04.18 farff_1.0          codetools_0.2-15   XML_3.98-1.17     
+[36] crayon_1.3.4       dplyr_0.8.0.1      withr_2.1.2        MASS_7.3-49        recipes_0.1.4      ModelMetrics_1.2.2 grid_3.4.4        
+[43] nlme_3.1-131       jsonlite_1.6       gtable_0.2.0       magrittr_1.5       scales_1.0.0       stringi_1.3.1      reshape2_1.4.3    
+[50] parallelMap_1.3    timeDate_3043.102  generics_0.0.2     fastmatch_1.1-0    lava_1.6.5         iterators_1.0.10   tools_3.4.4       
+[57] glue_1.3.0         purrr_0.3.1        hms_0.4.2          parallel_3.4.4     survival_2.41-3    yaml_2.2.0         colorspace_1.4-0  
+[64] memoise_1.1.0     

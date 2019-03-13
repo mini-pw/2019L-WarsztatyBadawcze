@@ -1,0 +1,16 @@
+[
+    {
+        "id": "audit_a5a078898703d7e1e7b6b3322b4f0ac8",
+        "date": "13-03-2019",
+        "added_by": "WojciechKretowicz",
+        "model_id": "a5a078898703d7e1e7b6b3322b4f0ac8",
+        "task_id": "regression_Class",
+        "dataset_id": "openml_isolet",
+        "performance": {
+            "MSE": 0.0050394886407922074,
+            "RMSE": 0.07098935582742111,
+            "MAE": 0.05272126731543389,
+            "R2": 0.9040725409044515
+        }
+    }
+]
