@@ -1,7 +1,9 @@
 [{
-	"id": "7388a6e027f8648dbc177df228c6eed6",
+	"id": "beaa2277831980d3df006d2e8167b81a",
 	"added_by": "GoniaW",
 	"date": "28-02-2019",
+        "library": "mlr",
+        "model_name": "regr.gbm",
 	"task_id": "regression_pedi",
 	"dataset_id": "openml_diabetes",
 	"parameters": {
