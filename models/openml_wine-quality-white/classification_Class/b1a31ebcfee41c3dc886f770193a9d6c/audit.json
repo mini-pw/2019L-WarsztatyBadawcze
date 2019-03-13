@@ -8,10 +8,10 @@
     "dataset_id": "openml_wine-quality-white",
     "performance": {
       "acc": 0.6825,
-      "auc": 0,
-      "precision": 0,
-      "recall": 0,
-      "f1": 0
+      "auc": null,
+      "precision": null,
+      "recall": null,
+      "f1": null
     }
   }
 ]
