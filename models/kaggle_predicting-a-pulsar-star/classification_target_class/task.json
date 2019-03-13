@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_target_class",
+    "added_by": "BogdanJastrzebski",
+    "date": "12-03-2019",
+    "dataset_id": "kaggle_predicting-a-pulsar-star",
+    "type": "classification",
+    "target": "target_class"
+  }
+]
