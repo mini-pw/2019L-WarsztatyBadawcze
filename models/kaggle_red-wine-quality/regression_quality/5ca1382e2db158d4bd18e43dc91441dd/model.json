@@ -6,7 +6,7 @@
     "library": "caret",
     "model_name": "rf",
     "task_id": "regression_quality",
-    "dataset_id": "kaggle_winequality-red",
+    "dataset_id": "kaggle_red-wine-quality",
     "parameters": {
         "mtry": 4
       },
