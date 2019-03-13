@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_8da9a1cc0f5ecfa8729f7412a93d05cc",
+    "date": "12-03-2019",
+    "added_by": "BogdanJastrzebski",
+    "model_id": "8da9a1cc0f5ecfa8729f7412a93d05cc",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_artificial-characters",
+    "performance": {
+      "ACC": 0.8460563,
+      "AUC": null,
+      "Specificity": null,
+      "Recall": null,
+      "Precision": null,
+      "F1": null
+    }
+  }
+]

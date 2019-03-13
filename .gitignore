@@ -11,3 +11,7 @@
 
 # Session Info in parent directory (possible mistake)
 /sessionInfo.txt
+
+
+# DS_Store files
+.DS_Store

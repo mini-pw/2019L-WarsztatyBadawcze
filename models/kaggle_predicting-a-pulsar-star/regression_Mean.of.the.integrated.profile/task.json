@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_Mean.of.the.integrated.profile",
+    "added_by": "BogdanJastrzebski",
+    "date": "12-03-2019",
+    "dataset_id": "kaggle_predicting-a-pulsar-star",
+    "type": "regression",
+    "target": "Mean.of.the.integrated.profile"
+  }
+]
