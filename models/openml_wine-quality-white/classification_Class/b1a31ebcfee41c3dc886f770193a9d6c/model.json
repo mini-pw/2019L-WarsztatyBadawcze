@@ -1,8 +1,10 @@
 [
   {
-    "id": "2e254a9fa09341ce4c29d4c9c83ca9d9",
+    "id": "b1a31ebcfee41c3dc886f770193a9d6c",
     "added_by": "Siemashko",
     "date": "12-03-2019",
+    "library": "mlr",
+    "model_name": "classif.randomForestSRC",
     "task_id": "classification_Class",
     "dataset_id": "openml_wine-quality-white",
     "parameters": {
