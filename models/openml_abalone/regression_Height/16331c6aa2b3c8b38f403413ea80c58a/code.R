@@ -18,8 +18,7 @@ head(abalone)
 regr_task = makeRegrTask(id = "abalone", data = abalone, target = "Height")
 regr_lrn = makeLearner("regr.bcart")
 #:# hash 
-#:# 5b2c4babcf5363847614d2b486a71534
-hash <- digest(regr_lrn)
+hash <- digest(c(regr_task,regr_lrn))
 hash
 
 #:# audit
