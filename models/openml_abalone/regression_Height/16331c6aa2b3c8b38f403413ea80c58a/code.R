@@ -18,11 +18,11 @@ head(abalone)
 regr_task = makeRegrTask(id = "abalone", data = abalone, target = "Height")
 regr_lrn = makeLearner("regr.bcart")
 #:# hash 
-hash <- digest(c(regr_task,regr_lrn))
+hash <- digest(list(regr_task,regr_lrn))
 hash
 
 #:# audit
-#:# fca27638b5520f93056583296ab8b8da
+#:# 16331c6aa2b3c8b38f403413ea80c58a
 cv <- makeResampleDesc("CV", iters = 5)
 r <- resample(regr_lrn, regr_task, cv, measures = list(mse, rmse, mae, rsq))
 mse <- r$aggr

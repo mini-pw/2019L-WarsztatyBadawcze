@@ -21,7 +21,8 @@ regr_rf <- caret::train(mcv ~ ., data = df, method = "rf", tuneGrid = expand.gri
   trControl = train_control)
 
 #:# hash 
-hash <- digest(c("liver_disorder_mcv", "rf"))
+#:# 14643142a46756daa57ecc08cc9ce9c6
+hash <- digest(list(mcv ~ ., df, "rf", expand.grid(mtry = 4), trControl = train_control))
 hash
 
 #:# audit
