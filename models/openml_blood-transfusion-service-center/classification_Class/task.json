@@ -1,0 +1,10 @@
+[
+    {
+        "id": "classification_Class",
+        "added_by": "Siemashko",
+        "date": "11-03-2019",
+        "dataset_id": "openml_blood-transfusion-service-center",
+        "type": "classification",
+        "target": "Class"
+    }
+]

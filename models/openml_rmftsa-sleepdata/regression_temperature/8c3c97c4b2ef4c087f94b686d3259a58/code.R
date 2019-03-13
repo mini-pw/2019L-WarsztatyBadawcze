@@ -8,7 +8,7 @@ set.seed(1)
 
 #:# data
 rmftsa_sleepdata <- getOMLDataSet(data.id = 679L)
-sleep <- sleep_data$data
+sleep <- rmftsa_sleepdata$data
 head(sleep)
 
 #:# preprocessing
@@ -25,7 +25,7 @@ hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(regr_lrn, regr_task, cv)
+r <- resample(regr_lrn, regr_task, cv, measures = list(mse, rmse, mae, rsq))
 ACC <- r$aggr
 ACC
 
