@@ -7,15 +7,15 @@ library(mlr)
 set.seed(2)
 
 #:# data
-abalone_dataset <- getOMLDataSet(data.id = 183)
-abalone <- abalone_dataset$data
-head(abalone)
+glass_dataset <- getOMLDataSet(data.id = 41)
+glass <- glass_dataset$data
+head(glass)
 
 #:# preprocessing
-head(abalone)
+head(glass)
 
 #:# model
-regr_task = makeRegrTask(id = "abalone", data = abalone, target = "Height")
+regr_task = makeRegrTask(id = "glass", data = abalone, target = "Na")
 regr_lrn = makeLearner("regr.bcart")
 #:# hash 
 #:# 5b2c4babcf5363847614d2b486a71534

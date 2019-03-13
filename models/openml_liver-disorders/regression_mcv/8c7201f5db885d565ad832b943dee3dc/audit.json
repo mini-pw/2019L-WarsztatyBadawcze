@@ -1,0 +1,14 @@
+[{
+    "id": "audit_8c7201f5db885d565ad832b943dee3dc",
+    "date": "13-03-2019",
+    "added_by": "airi314",
+    "model_id": "8c7201f5db885d565ad832b943dee3dc",
+    "task_id": "regression_mcv",
+    "dataset_id": "openml_liver_disorders",
+    "performance": {
+      "MSE": 18.1128,
+      "RMSE": 4.2559,
+      "MAE": 3.2801,
+      "R2": 0.1018
+    }
+}]
