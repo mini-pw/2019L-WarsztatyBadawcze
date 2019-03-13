@@ -39,7 +39,7 @@ hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(learner, task, cv)
+r <- resample(learner, task, cv, measures = list(mse,rmse,mae,rsq))
 MSE <- r$aggr
 MSE
 
