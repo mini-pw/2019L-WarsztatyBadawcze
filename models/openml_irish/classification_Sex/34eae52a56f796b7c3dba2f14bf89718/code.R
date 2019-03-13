@@ -26,16 +26,16 @@ head(df)
 
 
 #:# model
-classif_task <- makeClassifTask(id = "irish", data = df, target = "Sex")
+classif_task <- makeClassifTask(id = "task", data = df, target = "Sex")
 classif_lrn <- makeLearner("classif.gbm", predict.type = "prob", par.vals = list(distribution = "bernoulli"))
 
 #:# hash 
-#:# 99b65966c18768d4090cd8ba66ef5e4a
-hash <- digest(classif_lrn)
+#:# 34eae52a56f796b7c3dba2f14bf89718
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit
-cv <- makeResampleDesc("CV", iters = 10)
+cv <- makeResampleDesc("CV", iters = 5)
 r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc, tnr, tpr, ppv, f1))
 r$aggr
 

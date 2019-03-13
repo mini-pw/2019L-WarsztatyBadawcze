@@ -1,8 +1,10 @@
 [
   {
-    "id": "99b65966c18768d4090cd8ba66ef5e4a",
+    "id": "34eae52a56f796b7c3dba2f14bf89718",
     "added_by": "hubertbaniecki",
-    "date": "02-03-2019",
+    "date": "13-03-2019",
+    "library": "mlr",
+    "model_name": "classif.gbm",
     "task_id": "classification_Sex",
     "dataset_id": "openml_irish",
     "parameters": {
