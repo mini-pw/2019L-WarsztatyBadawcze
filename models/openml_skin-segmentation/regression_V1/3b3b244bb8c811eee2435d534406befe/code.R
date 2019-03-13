@@ -4,7 +4,7 @@ library(OpenML)
 library(mlr)
 
 #:# config
-set.seed(997)
+set.seed(123, "L'Ecuyer")
 
 #:# data
 skin_seg <- getOMLDataSet(data.id = 1502)

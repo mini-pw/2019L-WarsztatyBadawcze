@@ -1,7 +1,9 @@
 [{
-	"id": "6284e089672fe91b703313fcc38de19b",
+	"id": "8c3c97c4b2ef4c087f94b686d3259a58",
 	"added_by": "mckraqs",
 	"date": "02-03-2019",
+	"library": "mlr",
+	"model": "regr.gbm",
 	"task_id": "regression_V1",
 	"dataset_id": "openml_skin-segmentation",
 	"parameters": {
