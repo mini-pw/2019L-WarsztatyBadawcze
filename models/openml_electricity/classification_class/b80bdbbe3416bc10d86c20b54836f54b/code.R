@@ -56,7 +56,10 @@ library(digest)
                         date= format.Date(Sys.Date(),"%d-%m-%Y") ,dataset_id= dataset$id,type="classification",target=dane$target.features)
   
   auditdozapisu<-list(id=paste("audit_",hash,sep = ""),
-                      date= format.Date(Sys.Date(),"%d-%m-%Y"),added_by= "wernerolaf",model_id=hash,task_id=paste("classification_",dane$target.features,sep = ""),dataset_id=dataset$id,performance=list(ACC=ACC))
+                      date= format.Date(Sys.Date(),"%d-%m-%Y"),added_by= "wernerolaf",
+                      model_id=hash,task_id=paste("classification_",
+                      dane$target.features,sep = ""),
+                      dataset_id=dataset$id,performance=list(acc=ACC))
   
   taskdozapisu<-toJSON(list(taskdozapisu),pretty = TRUE,auto_unbox = TRUE)
   
