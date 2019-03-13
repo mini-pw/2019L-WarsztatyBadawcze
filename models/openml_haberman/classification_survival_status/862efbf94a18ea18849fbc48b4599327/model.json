@@ -3,6 +3,8 @@
         "id": "862efbf94a18ea18849fbc48b4599327",
         "added_by": "mckraqs",
         "date": "06-03-2019",
+	"library": "scikit",
+	"model_name": "KNeighborsClassifier",
         "task_id": "classification_Survival_status",
         "dataset_id": "openml_haberman",
         "parameters": {
