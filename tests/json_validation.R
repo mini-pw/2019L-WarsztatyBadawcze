@@ -43,6 +43,9 @@ task_json_files <- list.files(pattern = "task.json$", recursive = TRUE)
 test_that("validate task jsons", {
   for(json in task_json_files){
     json_to_validate <- fromJSON(json)
+    if(colnames(json_to_validate) != c("id", "added_by", "date", "dataset_id", "type", "target")){
+      print(json)
+    }
     expect_equal(colnames(json_to_validate), c("id", "added_by", "date", "dataset_id", "type", "target"))
   }
 })
@@ -53,7 +56,10 @@ model_json_files <- list.files(pattern = "model.json$", recursive = TRUE)
 test_that("validate model jsons", {
   for(json in model_json_files){
     json_to_validate <- fromJSON(json)
-    expect_equal(colnames(json_to_validate), c("id",  "added_by", "date", "task_id", "dataset_id", "parameters", "preprocessing"))
+    if(colnames(json_to_validate) != c("id",  "added_by", "date", "library", "model_name", "task_id", "dataset_id", "parameters", "preprocessing")){
+      print(json)
+    }
+    expect_equal(colnames(json_to_validate), c("id",  "added_by", "date", "library", "model_name", "task_id", "dataset_id", "parameters", "preprocessing"))
   }
 })
 
@@ -63,6 +69,9 @@ audit_json_files <- list.files(pattern = "audit.json$", recursive = TRUE)
 test_that("validate audit jsons", {
   for(json in audit_json_files){
     json_to_validate <- fromJSON(json)
+    if(colnames(json_to_validate) !=  c("id", "date", "added_by", "model_id", "task_id", "dataset_id", "performance")){
+      print(json)
+    }
     expect_equal(colnames(json_to_validate), c("id", "date", "added_by", "model_id", "task_id", "dataset_id", "performance"))
   }
 })
