@@ -1,10 +1,10 @@
 [
   {
-    "id": "Regression_Grades",
+    "id": "regression_Grades",
     "added_by": "WojtekBogucki",
     "date": "05-03-2019",
     "dataset_id": "openml_PopularKids",
-    "type": "Regression",
+    "type": "regression",
     "target": "Grades"
   }
 ]

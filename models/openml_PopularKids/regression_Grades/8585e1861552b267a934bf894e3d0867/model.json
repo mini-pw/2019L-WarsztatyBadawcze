@@ -3,7 +3,7 @@
     "id": "8585e1861552b267a934bf894e3d0867",
     "added_by": "WojtekBogucki",
     "date": "05-03-2019",
-    "task_id": "Regression_Grades",
+    "task_id": "regression_Grades",
     "dataset_id": "openml_PopularKids",
     "parameters": {
       "minsplit": 20,

@@ -7,7 +7,10 @@
     "task_id": "regression_PartOfTheDay",
     "dataset_id": "kaggle_barcelona-data-sets-accidents-2017",
     "performance": {
-      "MSE": 0.033
+      "MSE": 0.033,
+      "RMSE": 0.182,
+      "MAE": 0.122,
+      "R2": 0.866 
     }
   }
 ]

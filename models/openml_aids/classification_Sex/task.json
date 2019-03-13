@@ -1,0 +1,10 @@
+[
+    {
+        "id": "classification_Sex",
+        "added_by": "Siemashko",
+        "date": "12-03-2019",
+        "dataset_id": "openml_aids",
+        "type": "classification",
+        "target": "Sex"
+    }
+]

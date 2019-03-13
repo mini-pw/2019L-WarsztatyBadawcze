@@ -1,0 +1,10 @@
+[
+    {
+      "id": "classification_erythema",
+      "added_by": "lukaszbrzozowski",
+      "date": "05-03-2019",
+      "dataset_id": "openml_dermatology",
+      "type": "classification",
+      "target": "erythema"
+    }
+  ]
