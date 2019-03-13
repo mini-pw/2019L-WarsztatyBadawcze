@@ -4,7 +4,7 @@
         "added_by": "Siemashko",
         "date": "11-03-2019",
         "library": "scikit",
-        "model_name": "GradientBoostingClassifier"
+        "model_name": "GradientBoostingClassifier",
         "task_id": "classification_Class",
         "dataset_id": "openml_blood-transfusion-service-center",
         "parameters": {
