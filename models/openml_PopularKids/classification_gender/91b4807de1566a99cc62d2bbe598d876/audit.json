@@ -1,18 +1,18 @@
 [
   {
-    "id": "audit_f2ccb52924d435c26652ca9395e75aba",
+    "id": "audit_91b4807de1566a99cc62d2bbe598d876",
     "date": "09-03-2019",
     "added_by": "WojtekBogucki",
-    "model_id": "f2ccb52924d435c26652ca9395e75aba",
+    "model_id": "91b4807de1566a99cc62d2bbe598d876",
     "task_id": "classification_Gender",
     "dataset_id": "openml_PopularKids",
     "performance": {
-      "ACC": 0.6883,
-      "AUC": 0.7331,
-      "Specificity": 0.7222,
-      "Recall": 0.6502,
-      "Precision": 0.6803,
-      "F1": 0.6614
+      "acc": 0.6883,
+      "auc": 0.7331,
+      "specificity": 0.7222,
+      "recall": 0.6502,
+      "precision": 0.6803,
+      "f1": 0.6614
     }
   }
 ]

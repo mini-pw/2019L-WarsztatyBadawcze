@@ -22,8 +22,8 @@ classif <- train(Goals ~ ., data=data, method="LogitBoost", tuneGrid=expand.grid
 classif$times <- NULL  #zeby hash byl zawsze taki sam
 
 #:# hash
-#:# caf8e7688c79e1241dfa050eac9f3fe1
-hash <- digest(classif)
+#:# 5f66b79b600b4656f3b2a2923a8ed2d3
+hash <- digest(list(Goals ~ ., data,"LogitBoost",expand.grid(nIter=20)))
 hash
 
 

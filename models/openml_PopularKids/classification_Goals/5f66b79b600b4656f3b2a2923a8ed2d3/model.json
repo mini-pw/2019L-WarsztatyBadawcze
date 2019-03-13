@@ -1,8 +1,10 @@
 [
   {
-    "id": "caf8e7688c79e1241dfa050eac9f3fe1",
+    "id": "5f66b79b600b4656f3b2a2923a8ed2d3",
     "added_by": "WojtekBogucki",
     "date": "10-03-2019",
+    "library": "caret",
+    "model_name": "LogitBoost",
     "task_id": "classification_Goals",
     "dataset_id": "openml_PopularKids",
     "parameters": {

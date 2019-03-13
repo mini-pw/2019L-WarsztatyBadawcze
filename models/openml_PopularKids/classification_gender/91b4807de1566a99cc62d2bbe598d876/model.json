@@ -1,8 +1,10 @@
 [
   {
-    "id": "f2ccb52924d435c26652ca9395e75aba",
+    "id": "91b4807de1566a99cc62d2bbe598d876",
     "added_by": "WojtekBogucki",
     "date": "04-03-2019",
+    "library": "mlr",
+    "model_name": "classif.randomForest",
     "task_id": "classification_Gender",
     "dataset_id": "openml_PopularKids",
     "parameters": {
