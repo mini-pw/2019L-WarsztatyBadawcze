@@ -2,8 +2,8 @@
   {
     "id": "classification_",
     "added_by": "GoniaW",
-    "date": "12-03-2019",
-    "dataset_id": "openml_diabetes",
+    "date": "13-03-2019",
+    "dataset_id": "openml_artificial-characters",
     "type": "classification",
     "target": {}
   }
