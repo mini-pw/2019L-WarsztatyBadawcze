@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_domestic",
+    "added_by": "pysiakk",
+    "date": "12-03-2019",
+    "dataset_id": "openml_zoo",
+    "type": "classification",
+    "target": "domestic"
+  }
+] 

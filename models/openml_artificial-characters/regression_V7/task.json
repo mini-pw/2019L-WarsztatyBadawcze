@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_V7",
+    "added_by": "BogdanJastrzebski",
+    "date": "12-03-2019",
+    "dataset_id": "openml_artificial-characters",
+    "type": "regression",
+    "target": "V7"
+  }
+]

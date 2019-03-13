@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_class",
+    "added_by": "WojciechKretowicz",
+    "date": "11-03-2019",
+    "dataset_id": "openml_kr-vs-kp",
+    "type": "classification",
+    "target": "class"
+  }
+]
