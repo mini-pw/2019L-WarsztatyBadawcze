@@ -43,6 +43,8 @@ MeanSpecificity <- classif_glm_cv$results[10]
 MeanSpecificity
 MeanRecall <- classif_glm_cv$results[9]
 MeanRecall
+MeanPrecision <- classif_glm_cv$results[13]
+MeanPrecision
 MeanF1 <- classif_glm_cv$results[8]
 MeanF1
 

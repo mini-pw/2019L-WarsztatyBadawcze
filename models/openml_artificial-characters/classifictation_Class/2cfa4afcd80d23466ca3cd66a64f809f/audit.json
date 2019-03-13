@@ -11,6 +11,7 @@
       "AUC": 0.803943,
       "MeanSpecificity": 0.9251107,
       "MeanRecall": 0.3112939,
+      "MeanPrecision": 0.2928172,
       "MeanF1": 0.2852035
     }
   }
