@@ -1,15 +1,14 @@
-[
-  {
+  [{
     "id": "8c7201f5db885d565ad832b943dee3dc",
     "added_by": "airi314",
     "date": "13-03-2019",
     "task_id": "regression_mcv",
     "dataset_id": "openml_liver_disorders",
-    "parameters": [
+    "parameters": 
       {
         "mtry": 4
       }
-    ],
+    ,
     "preprocessing": {
       "mcv": {
         "name": "mcv",
@@ -106,5 +105,4 @@
         "num_maximum": null
       }
     }
-  }
-]
+  }]
