@@ -4,7 +4,7 @@
 
 ## Number of tasks: 81
 
-## Number of models: 113
+## Number of models: 115
 
 |name                                |source         | features| instances| missing_val| tasks| models|
 |:-----------------------------------|:--------------|--------:|---------:|-----------:|-----:|------:|
@@ -27,7 +27,7 @@
 |arcene                              |openml         |    10001|       200|           0|     0|      0|
 |artificial-characters               |openml         |        8|     10218|           0|     2|      2|
 |auto_price                          |openml         |       16|       159|           0|     4|      6|
-|banana                              |openml         |        3|      5300|           0|     1|      1|
+|banana                              |openml         |        3|      5300|           0|     1|      2|
 |bank                                |openml         |       17|     45211|           0|     1|      1|
 |banknote-authentication             |openml         |        5|      1372|           0|     2|      2|
 |blood-transfusion-service-center    |openml         |        5|       748|           0|     1|      1|
@@ -44,7 +44,7 @@
 |haberman                            |openml         |        4|       306|           0|     1|      2|
 |humandevel                          |openml         |        4|       131|           0|     0|      0|
 |irish                               |openml         |        6|       500|          32|     2|      4|
-|isolet                              |openml         |      618|      7797|           0|     1|      1|
+|isolet                              |openml         |      618|      7797|           0|     1|      2|
 |kc1-numeric                         |openml         |       95|       145|           0|     1|      1|
 |kr-vs-kp                            |openml         |       37|      3196|           0|     1|      1|
 |liver-disorders                     |openml         |        6|       345|           0|     2|      5|
