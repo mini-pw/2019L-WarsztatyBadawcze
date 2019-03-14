@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_72304e35adc17774e4b2eff429ad48c8",
+    "date": "12-03-2019",
+    "added_by": "Siemashko",
+    "model_id": "72304e35adc17774e4b2eff429ad48c8",
+    "task_id": "regression_length",
+    "dataset_id": "openml_auto-price",
+    "performance": {
+      "mse": 14709.9604,
+      "mae": 120.7388,
+      "rmse": 121.2846,
+      "r2": -112.307
+    }
+  }
+]

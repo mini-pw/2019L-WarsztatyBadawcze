@@ -3,6 +3,8 @@
         "id": "b62645bf5869b7ac46140582b4c4b486",
         "added_by": "Siemashko",
         "date": "11-03-2019",
+        "library": "scikit",
+        "model_name": "GradientBoostingClassifier",
         "task_id": "classification_Class",
         "dataset_id": "openml_blood-transfusion-service-center",
         "parameters": {
