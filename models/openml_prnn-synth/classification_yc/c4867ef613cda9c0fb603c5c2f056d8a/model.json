@@ -4,7 +4,7 @@
     "added_by": "Pastuszka",
     "date": "13-03-2019",
     "library": "mlr",
-	"model_name": "classif.svm",
+    "model_name": "classif.svm",
     "task_id": "classification_yc",
     "dataset_id": "openml_prnn-synth",
     "parameters": {
