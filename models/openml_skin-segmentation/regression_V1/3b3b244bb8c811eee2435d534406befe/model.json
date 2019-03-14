@@ -1,0 +1,74 @@
+[{
+	"id": "3b3b244bb8c811eee2435d534406befe",
+	"added_by": "mckraqs",
+	"date": "02-03-2019",
+	"library": "mlr",
+	"model": "regr.rpart",
+	"task_id": "regression_V1",
+	"dataset_id": "openml_skin-segmentation",
+	"parameters": {
+	  "minspli": 20,
+	  "minbucket": null,
+	  "cp": 0.01,
+	  "maxcompete": 4,
+	  "maxsurrogate": 5,
+	  "usesurrogate": 2,
+	  "surrogatestyle": 0,
+	  "maxdepth": 30,
+	  "xval": 10
+	},
+	"preprocessing": {
+		"V1": {
+                "name": "V1",
+                "type": "numerical",
+                "number_of_unique_values": 256,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0,
+                "num_1qu": 68,
+                "num_median": 139,
+                "num_3q": 176,
+                "num_maximum": 255
+            },
+            "V2": {
+                "name": "V2",
+                "type": "numerical",
+                "number_of_unique_values": 256,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0,
+                "num_1qu": 87,
+                "num_median": 153,
+                "num_3q": 177,
+                "num_maximum": 255
+            },
+            "V3": {
+                "name": "V3",
+                "type": "numerical",
+                "number_of_unique_values": 256,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0,
+                "num_1qu": 70,
+                "num_median": 128,
+                "num_3q": 164,
+                "num_maximum": 255
+            },
+            "Class": {
+                "name": "Class",
+                "type": "categorical",
+                "number_of_unique_values": 2,
+                "number_of_missing_values": 0,
+                "cat_frequencies": {
+                    "1": 50859,
+                    "2": 194198
+                },
+                "num_minimum": null,
+                "num_1qu": null,
+                "num_median": null,
+                "num_mean": null,
+                "num_3qu": null,
+                "num_maximum": null
+            }
+	}
+}]

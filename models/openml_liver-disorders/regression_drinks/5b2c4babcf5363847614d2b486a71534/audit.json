@@ -7,7 +7,7 @@
     "task_id": "regression_drinks",
     "dataset_id": "openml_liver-disorders",
     "performance": {
-      "MSE":  10.94886
+      "mse":  10.94886
     }
   }
 ] 
