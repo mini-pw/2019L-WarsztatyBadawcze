@@ -7,20 +7,21 @@ library(digest)
 set.seed(1)
 
 #:# data
-lupus <- getOMLDataSet(data.id = 472)
-lupus <- lupus$data
+bank <- getOMLDataSet(data.id = 1461)
+bank <- bank$data
 
 #:# model
-regr_lm <- train(TIME ~ ., data = lupus, method = "lm", tuneGrid = expand.grid(
+regr_lm <- train(V10 ~ ., data = bank, method = "lm", tuneGrid = expand.grid(
   intercept=TRUE))
 
 #:# hash 
-#:# 8cb6ca884cb18cd1a66162b6232b2bb7
-hash <- digest(regr_lm)
+#:# 38e19ef4ab959caebda3edc6cb0780b3
+hash <- digest(list(V10 ~ .,bank,'lm',expand.grid(
+  intercept=TRUE)))
 
 #:# audit
 train_control <- trainControl(method="cv", number=5)
-regr_lm_cv <- train(TIME ~ ., data = lupus, method = "lm", tuneGrid = expand.grid(
+regr_lm_cv <- train(V10 ~ ., data = bank, method = "lm", tuneGrid = expand.grid(
   intercept=TRUE),trControl=train_control)
 RMSE <-regr_lm_cv$results$RMSE
 MSE <- RMSE^2

@@ -15,8 +15,9 @@ regr_lm <- train(TIME ~ ., data = lupus, method = "lm", tuneGrid = expand.grid(
   intercept=TRUE))
 
 #:# hash 
-#:# 8cb6ca884cb18cd1a66162b6232b2bb7
-hash <- digest(regr_lm)
+#:# e3eeb3e89c23740693fb73e72d1d9bf7
+hash <- digest(list(TIME ~ .,lupus,'lm',expand.grid(
+  intercept=TRUE)))
 
 #:# audit
 train_control <- trainControl(method="cv", number=5)

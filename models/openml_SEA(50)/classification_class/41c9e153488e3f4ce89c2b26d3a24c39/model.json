@@ -1,7 +1,9 @@
 [{
-	"id": "acc698a8e5559e9fc46742b4d378bf1c",
+	"id": "41c9e153488e3f4ce89c2b26d3a24c39",
 	"added_by": "michalSt98",
 	"date": "02-03-2019",
+        "library": "mlr",
+	"model_name": "classif.h2o.deeplearning",
 	"task_id": "classification_class",
 	"dataset_id": "openml_Sea(50)",
 	"parameters": {

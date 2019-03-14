@@ -1,12 +1,15 @@
 [
   {
-    "id": "66a2f72af7e7357bf782e7752c8ec701",
+    "id": "9d85b0b5d75456fed4fd4a9ed5cdeed1",
     "added_by": "michalSt98",
     "date": "09-03-2019",
-    "task_id": "classification_class",
+    "library": "mlr",
+    "model_name":"regr.lm",
+    "task_id": "regression_attrib1",
     "dataset_id": "openml_SEA(50)",
     "parameters": {
-      "laplace": 0
+      "tol": 1e-007,
+      "singular.ok": true
     },
     "preprocessing": {
       "attrib1": {
