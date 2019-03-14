@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_91b4807de1566a99cc62d2bbe598d876",
+    "date": "09-03-2019",
+    "added_by": "WojtekBogucki",
+    "model_id": "91b4807de1566a99cc62d2bbe598d876",
+    "task_id": "classification_Gender",
+    "dataset_id": "openml_PopularKids",
+    "performance": {
+      "acc": 0.6883,
+      "auc": 0.7331,
+      "specificity": 0.7222,
+      "recall": 0.6502,
+      "precision": 0.6803,
+      "f1": 0.6614
+    }
+  }
+]

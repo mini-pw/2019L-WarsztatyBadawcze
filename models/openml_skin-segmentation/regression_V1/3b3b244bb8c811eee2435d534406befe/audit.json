@@ -7,10 +7,10 @@
     "task_id": "regression_V1",
     "dataset_id": "openml_skin-segmentation",
     "performance": {
-      "MSE": 874.7228942,
-      "RMSE": 29.5757146,
-      "MAE": 17.0094561,
-      "R2": 0.7743063
+      "mse": 873.863687,
+      "rmse": 29.561185,
+      "mae": 17.001072,
+      "r2": 0.774521
     }
   }
 ] 

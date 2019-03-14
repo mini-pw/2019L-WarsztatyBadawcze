@@ -5,6 +5,6 @@
     "date": "13-03-2019",
     "dataset_id": "openml_artificial-characters",
     "type": "classification",
-    "target": {}
+    "target": "Class"
   }
 ]

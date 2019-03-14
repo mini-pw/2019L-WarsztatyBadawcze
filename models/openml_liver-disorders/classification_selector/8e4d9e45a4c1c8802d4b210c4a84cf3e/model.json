@@ -3,6 +3,8 @@
         "id": "8e4d9e45a4c1c8802d4b210c4a84cf3e",
         "added_by": "Siemashko",
         "date": "06-03-2019",
+        "library": "scikit",
+        "model_name": "RandomForestClassifier",
         "task_id": "classification_selector",
         "dataset_id": "openml_liver-disorders",
         "parameters": {
