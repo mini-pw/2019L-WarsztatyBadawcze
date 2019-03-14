@@ -8,7 +8,7 @@
     "task_id": "classification_class",
     "dataset_id": "openml_SEA(50)",
     "parameters": {
-      "distribution": bernoulli,
+      "distribution": "bernoulli",
       "n.trees": 100,
       "cv.folds": 0,
       "interaction.depth": 1,
