@@ -19,13 +19,13 @@ head(banknote)
 regr_bag <- train(V4 ~ ., data = banknote, method = "svmLinear")
 
 #:# hash 
-#:# 3f3bc97b830b17824a97c54cbb7ebaad
-hash <- digest(regr_bag)
+#:# 1af103d55130314ed79889c3db375d5b
+hash <- digest(list(V4 ~ ., banknote, "svmLinear", expand.grid(C=1)))
 hash
 
 #:# audit
 train_control <- trainControl(method="cv", number=5)
-regr_bag_cv <- train(V4 ~ ., data = banknote, method = "svmLinear",
+regr_bag_cv <- train(V4 ~ ., data = banknote, method = "svmLinear", tuneGrid = expand.grid(C=1),
   trControl = train_control,
   metric = "RMSE")
 print(regr_bag_cv)

@@ -1,7 +1,9 @@
 [{
-	"id": "0e248702ee967ea380294b26423d6b1a",
+	"id": "329e26fc4ac7088ca02526dd5ab088ea",
 	"added_by": "Pastuszka",
-	"date": "27-02-2019",
+	"date": "13-03-2019",
+	"library": "mlr",
+	"model_name": "classif.bartMachine",
 	"task_id": "classification_Class",
 	"dataset_id": "openml_banknote-authentication",
 	"parameters": {
@@ -25,7 +27,7 @@
     "impute_missingness_with_x_j_bar_for_lm": true,
     "mem_cache_for_speed": true,
     "serialize": false,
-    "seed": null,
+    "seed": 123,
     "verbose": true
 	},
 	"preprocessing": {

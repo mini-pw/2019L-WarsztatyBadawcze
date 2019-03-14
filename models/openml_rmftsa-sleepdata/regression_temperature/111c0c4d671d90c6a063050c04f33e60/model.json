@@ -1,7 +1,9 @@
 [{
-	"id": "5b2c4babcf5363847614d2b486a71534",
-	"added_by": "agosiewska",
-	"date": "11-02-2019",
+	"id": "111c0c4d671d90c6a063050c04f33e60",
+	"added_by": "Pastuszka",
+	"date": "13-02-2019",
+	"library": "mlr",
+	"model_name": "regr.gbm",
 	"task_id": "regression_drinks",
 	"dataset_id": "openml_liver-disorders",
 	"parameters": {

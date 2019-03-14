@@ -1,25 +1,14 @@
 [
   {
-    "id": "ad7d2edd2f9aeecf8dda6cc7c7b36568",
+    "id": "63d3bcf91aef8edf8102b83ba5e53138",
     "added_by": "Pastuszka",
-    "date": "09-03-2019",
+    "date": "13-03-2019",
+    "library": "mlr",
+    "model_name": "classif.logreg",
     "task_id": "classification_yc",
     "dataset_id": "openml_prnn-synth",
     "parameters": {
-      "type": "C-classification",
-      "cost": 1,
-      "nu": 0.5,
-      "class.weights": null,
-      "kernel": "radial",
-      "degree": 3,
-      "coef0": 0,
-      "gamma": null,
-      "cachesize": 40,
-      "tolerance": 0.001,
-      "shrinking": true,
-      "cross": 0,
-      "fitted": true,
-      "scale": true
+      "model": false
     },
     "preprocessing": {
       "xs": {

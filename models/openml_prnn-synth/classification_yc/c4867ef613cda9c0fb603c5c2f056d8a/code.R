@@ -19,8 +19,8 @@ classif_task = makeClassifTask(id = "yc", data = synth, target = "yc")
 classif_lrn = makeLearner("classif.svm",  predict.type = "prob")
 
 #:# hash 
-#:# ad7d2edd2f9aeecf8dda6cc7c7b36568
-hash <- digest(classif_lrn)
+#:# c4867ef613cda9c0fb603c5c2f056d8a
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit

@@ -7,20 +7,20 @@ library(mlr)
 set.seed(123, "L'Ecuyer")
 
 #:# data
-banknote_authentication <- getOMLDataSet(data.id = 1462L)
-banknote <- banknote_authentication$data
-head(banknote)
+prnn_synth <- getOMLDataSet(data.id = 464L)
+synth <- prnn_synth$data
+head(synth)
 
 #:# preprocessing
-head(banknote)
+head(synth)
 
 #:# model
-classif_task = makeClassifTask(id = "banknote", data = banknote, target = "Class")
-classif_lrn = makeLearner("classif.bartMachine", predict.type = "prob")
+classif_task = makeClassifTask(id = "task", data = synth, target = "yc")
+classif_lrn = makeLearner("classif.logreg",  predict.type = "prob")
 
 #:# hash 
-#:# 0e248702ee967ea380294b26423d6b1a
-hash <- digest(classif_lrn)
+#:# 63d3bcf91aef8edf8102b83ba5e53138
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit

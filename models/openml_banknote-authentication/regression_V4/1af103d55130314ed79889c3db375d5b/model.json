@@ -1,11 +1,13 @@
 [{
-	"id": "3f3bc97b830b17824a97c54cbb7ebaad",
+	"id": "1af103d55130314ed79889c3db375d5b",
 	"added_by": "Pastuszka",
 	"date": "09-03-2019",
+	"library": "caret",
+	"model_name": "svmLinear",
 	"task_id": "regression_V4",
 	"dataset_id": "openml_banknote-authentication",
 	"parameters": {
-  	"c": 1
+  	"C": 1
 	},
 	"preprocessing": {
 		"V1": {
