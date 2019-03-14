@@ -4,7 +4,7 @@
     "added_by": "Pastuszka",
     "date": "13-03-2019",
     "library": "mlr",
-	 "model_name": "classif.logreg",
+    "model_name": "classif.logreg",
     "task_id": "classification_yc",
     "dataset_id": "openml_prnn-synth",
     "parameters": {
