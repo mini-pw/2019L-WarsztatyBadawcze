@@ -2,6 +2,8 @@
 	"id": "2e254a9fa09341ce4c29d4c9c83ca9d9",
 	"added_by": "mckraqs",
 	"date": "27-02-2019",
+	"library": "mlr",
+	"model_name": "classif.randomForestSRC",
 	"task_id": "classification_survival_status",
 	"dataset_id": "openml_haberman",
 	"parameters": {
