@@ -1,3 +1,4 @@
+source("extendedDataGetter.R")
 source("additionalFunctions.R")
 source("modelsSettings.R")
 
@@ -100,7 +101,7 @@ generateMultipleModels <- function(username,
                           type = "",
                           measurer = "mlr"),
       error = function(e) {
-        warning("Error occured while creating this model:")
+        warning("Internal error occured while creating model. ")
         message(e)
         if(halt_on_errors) {
           stop("Aborting!")
@@ -122,7 +123,7 @@ generateMultipleModels <- function(username,
 # 
 # example usage:
 #
-#generateMultipleModels("DominikRafacz",
+# generateMultipleModels("DominikRafacz",
 #                       MS("classif.ranger", num.trees = c(200, 500, 1000), num.random.splits = 1:5) +
 #                       MS("classif.ada", loss = c("exponential", "logistic")) +
 #                       MS("classif.binomial", link = c("logit" ,"probit", "cloglog", "cauchit")) +
