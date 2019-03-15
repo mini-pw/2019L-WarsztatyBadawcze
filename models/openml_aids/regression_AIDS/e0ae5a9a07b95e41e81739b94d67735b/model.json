@@ -1,0 +1,94 @@
+[
+  {
+    "id": "e0ae5a9a07b95e41e81739b94d67735b",
+    "added_by": "witoldmerkel",
+    "date": "13-03-2019",
+    "library": "caret",
+    "model_name": "lm",
+    "task_id": "regression_AIDS",
+    "dataset_id": "openml_aids",
+    "parameters": {
+      "intercept": true
+	},
+    "preprocessing": {
+      "Sex": {
+                "cat_frequencies": {
+                    "1": 25, 
+                    "0": 25
+                }, 
+                "num_3qu": null, 
+                "number_of_unique_values": 2, 
+                "name": "Sex", 
+                "num_maximum": null, 
+                "num_mean": null, 
+                "number_of_missing_values": 0, 
+                "num_minimum": null, 
+                "num_median": null, 
+                "type": "categorical", 
+                "num_1qu": null
+            }, 
+            "AIDS": {
+                "num_3q": 9073.75, 
+                "cat_frequencies": null, 
+                "name": "AIDS", 
+                "num_maximum": 82334.0, 
+                "number_of_unique_values": 50, 
+                "num_median": 1640.0, 
+                "type": "numerical", 
+                "number_of_missing_values": 0, 
+                "num_minimum": 3.0, 
+                "num_1qu": 114.5
+            }, 
+            "Age": {
+                "cat_frequencies": {
+                    "0.0": 10, 
+                    "2.0": 10, 
+                    "1.0": 10, 
+                    "4.0": 10, 
+                    "3.0": 10
+                }, 
+                "num_3qu": null, 
+                "number_of_unique_values": 5, 
+                "name": "Age", 
+                "num_maximum": null, 
+                "num_mean": null, 
+                "number_of_missing_values": 0, 
+                "num_minimum": null, 
+                "num_median": null, 
+                "type": "categorical", 
+                "num_1qu": null
+            }, 
+            "Race": {
+                "cat_frequencies": {
+                    "0.0": 10, 
+                    "2.0": 10, 
+                    "1.0": 10, 
+                    "4.0": 10, 
+                    "3.0": 10
+                }, 
+                "num_3qu": null, 
+                "number_of_unique_values": 5, 
+                "name": "Race", 
+                "num_maximum": null, 
+                "num_mean": null, 
+                "number_of_missing_values": 0, 
+                "num_minimum": null, 
+                "num_median": null, 
+                "type": "categorical", 
+                "num_1qu": null
+            }, 
+            "Total": {
+                "num_3q": 2806359.25, 
+                "cat_frequencies": null, 
+                "name": "Total", 
+                "num_maximum": 22686934.0, 
+                "number_of_unique_values": 50, 
+                "num_median": 1616417.5, 
+                "type": "numerical", 
+                "number_of_missing_values": 0, 
+                "num_minimum": 162616.0, 
+                "num_1qu": 702786.5
+            }
+        }
+    }
+]

@@ -7,11 +7,11 @@
         "task_id": "classification_Class",
         "dataset_id": "openml_blood-transfusion-service-center",
         "performance": {
-            "Acc": 0.7699115044247787,
-            "Precision": 0.5238095238095238,
-            "Recall": 0.4074074074074074,
-            "F1": 0.4583333333333333,
-            "AUC": 0.6907838070628768
+            "acc": 0.7699115044247787,
+            "precision": 0.5238095238095238,
+            "recall": 0.4074074074074074,
+            "f1": 0.4583333333333333,
+            "auc": 0.6907838070628768
         }
     }
 ]
