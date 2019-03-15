@@ -48,6 +48,7 @@ getFilledAuditCode <- function(measurer, measures) {
 }
 
 getFilledCode <- function(site, name, target, learner, measures, measurer, parsText, hash, isRegr) {
+  require(R.utils)
   return(paste0(
 "#:# libraries\nlibrary(digest)\nlibrary(mlr)",
 ifelse(tolower(site) == "openml", "\nlibrary(OpenML)\nlibrary(farff)", ""), "\n\n",
@@ -341,7 +342,7 @@ createOpenMLTask <- function(name, local, added_by, target, learner, measurer, t
   else {
     openMLData <- getOMLDataSet(data.name = name)
   }
-  table <- openMLData$data
+  table <- na.omit(openMLData$data)
   name <- openMLData$desc$name
   createTask.internal("openml", table, name, added_by, target, learner, measurer, type, pars)
 }
@@ -357,10 +358,10 @@ createDataset <- function(site, name, added_by) {
 
 createTask <- function(site, name, local = FALSE, added_by, target, learner, measurer = "mlr", type = "", pars = list()) {
   if (tolower(site) == "toronto") {
-    createTorontoTask(name, local, added_by, target, learner, measurer = "mlr", type = "", pars = list())
+    createTorontoTask(name, local, added_by, target, learner, measurer = "mlr", type = type, pars = list())
   }
   else if (tolower(site) == "openml") {
-    createOpenMLTask(name, local, added_by, target, learner, measurer = "mlr", type = "", pars = list())
+    createOpenMLTask(name, local, added_by, target, learner, measurer = "mlr", type = type, pars = list())
   }
 }
 
