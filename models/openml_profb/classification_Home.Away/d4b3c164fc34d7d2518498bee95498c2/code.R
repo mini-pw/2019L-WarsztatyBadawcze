@@ -23,10 +23,10 @@ classf <- train(Home.Away ~ ., data = df, method = "svmPoly", tuneGrid = expand.
 ))
 #:# hash
 #:# 3ea466dae4197369912558011e56432d
-hash <- digest(list(TIME ~ ., df, "ranger", expand.grid(
-  mtry = 3, 
-  splitrule = "variance",
-  min.node.size = 5)))
+hash <- digest(list(Home.Away ~ ., df, "svmPoly", expand.grid(
+  degree = 1,
+  scale = 1,
+  C = 1)))
 hash
 
 #:# audit
