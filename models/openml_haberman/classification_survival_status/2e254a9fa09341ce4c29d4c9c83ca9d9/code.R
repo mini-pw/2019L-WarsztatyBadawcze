@@ -5,7 +5,7 @@ library(mlr)
 library(randomForestSRC)
 
 #:# config
-set.seed(997)
+set.seed(123, "L'Ecuyer")
 
 #:# data
 haberman <- getOMLDataSet(data.id = 43L)

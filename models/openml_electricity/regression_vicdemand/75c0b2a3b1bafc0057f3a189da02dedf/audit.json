@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_75c0b2a3b1bafc0057f3a189da02dedf",
+    "date": "02-03-2019",
+    "added_by": "pysiakk",
+    "model_id": "75c0b2a3b1bafc0057f3a189da02dedf",
+    "task_id": "regression_vicdemand",
+    "dataset_id": "openml_electricity",
+    "performance": {
+      "mse": 0.003688705,
+      "rmse": 0.060721140,
+      "mae": 0.046839542,
+      "rsq": 0.747940400
+    }
+  }
+] 
