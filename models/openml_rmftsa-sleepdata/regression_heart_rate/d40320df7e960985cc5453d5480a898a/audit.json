@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_d40320df7e960985cc5453d5480a898a",
+    "date": "12-03-2019",
+    "added_by": "pysiakk",
+    "model_id": "d40320df7e960985cc5453d5480a898a",
+    "task_id": "regression_heart_rate",
+    "dataset_id": "openml_rmftsa-sleepdata",
+    "performance": {
+      "mse": 196.9509,
+      "rmse":  14.03392,
+      "mae":  10.76249,
+      "r2":  0.1509261
+    }
+  }
+] 

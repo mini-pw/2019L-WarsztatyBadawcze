@@ -1,0 +1,311 @@
+[
+  {
+    "id": "19df07e2ad30532f5143974ec555db82",
+    "added_by": "michalSt98",
+    "date": "14-03-2019",
+    "library": "mlr",
+    "model_name": "classif.ada",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_bank",
+    "parameters": {
+      "loss": "exponential",
+      "type": "discrete",
+      "iter": 50,
+      "nu": 0.1,
+      "bag.frac": 0.5,
+      "model.coef": true,
+      "bag.shift": false,
+      "max.iter": 20,
+      "delta": 1e-010,
+      "verbose": false,
+      "minsplit": 20,
+      "minbucket": null,
+      "cp": 0.01,
+      "maxcompete": 4,
+      "maxsurrogate": 5,
+      "usesurrogate": 2,
+      "surrogatestyle": 0,
+      "maxdepth": 30,
+      "xval": 0
+    },
+    "preprocessing": {
+      "V1": {
+        "name": "V1",
+        "type": "numerical",
+        "number_of_unique_values": 77,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 18,
+        "num_1qu": 33,
+        "num_median": 39,
+        "num_mean": 40.9362,
+        "num_3qu": 48,
+        "num_maximum": 95
+      },
+      "V2": {
+        "name": "V2",
+        "type": "categorical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "admin.": 5171,
+          "blue-collar": 9732,
+          "entrepreneur": 1487,
+          "housemaid": 1240,
+          "management": 9458,
+          "retired": 2264,
+          "self-employed": 1579,
+          "services": 4154,
+          "student": 938,
+          "technician": 7597,
+          "unemployed": 1303,
+          "unknown": 288
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V3": {
+        "name": "V3",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "divorced": 5207,
+          "married": 27214,
+          "single": 12790
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V4": {
+        "name": "V4",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "primary": 6851,
+          "secondary": 23202,
+          "tertiary": 13301,
+          "unknown": 1857
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V5": {
+        "name": "V5",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 44396,
+          "yes": 815
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V6": {
+        "name": "V6",
+        "type": "numerical",
+        "number_of_unique_values": 7168,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -8019,
+        "num_1qu": 72,
+        "num_median": 448,
+        "num_mean": 1362.2721,
+        "num_3qu": 1428,
+        "num_maximum": 102127
+      },
+      "V7": {
+        "name": "V7",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 20081,
+          "yes": 25130
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V8": {
+        "name": "V8",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 37967,
+          "yes": 7244
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V9": {
+        "name": "V9",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "cellular": 29285,
+          "telephone": 2906,
+          "unknown": 13020
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V10": {
+        "name": "V10",
+        "type": "numerical",
+        "number_of_unique_values": 31,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 8,
+        "num_median": 16,
+        "num_mean": 15.8064,
+        "num_3qu": 21,
+        "num_maximum": 31
+      },
+      "V11": {
+        "name": "V11",
+        "type": "categorical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "apr": 2932,
+          "aug": 6247,
+          "dec": 214,
+          "feb": 2649,
+          "jan": 1403,
+          "jul": 6895,
+          "jun": 5341,
+          "mar": 477,
+          "may": 13766,
+          "nov": 3970,
+          "oct": 738,
+          "sep": 579
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V12": {
+        "name": "V12",
+        "type": "numerical",
+        "number_of_unique_values": 1573,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 103,
+        "num_median": 180,
+        "num_mean": 258.1631,
+        "num_3qu": 319,
+        "num_maximum": 4918
+      },
+      "V13": {
+        "name": "V13",
+        "type": "numerical",
+        "number_of_unique_values": 48,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 1,
+        "num_median": 2,
+        "num_mean": 2.7638,
+        "num_3qu": 3,
+        "num_maximum": 63
+      },
+      "V14": {
+        "name": "V14",
+        "type": "numerical",
+        "number_of_unique_values": 559,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1,
+        "num_1qu": -1,
+        "num_median": -1,
+        "num_mean": 40.1978,
+        "num_3qu": -1,
+        "num_maximum": 871
+      },
+      "V15": {
+        "name": "V15",
+        "type": "numerical",
+        "number_of_unique_values": 41,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.5803,
+        "num_3qu": 0,
+        "num_maximum": 275
+      },
+      "V16": {
+        "name": "V16",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "failure": 4901,
+          "other": 1840,
+          "success": 1511,
+          "unknown": 36959
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Class": {
+        "name": "Class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 39922,
+          "2": 5289
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
