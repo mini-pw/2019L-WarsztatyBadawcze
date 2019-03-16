@@ -2,7 +2,6 @@
 library(caret)
 library(digest)
 library(OpenML)
-library(mlr)
 
 #:# config
 set.seed(1)
@@ -16,7 +15,6 @@ df <- data$data
 head(df)
 
 #:# model
-train_control <- trainControl(method="cv", number=5)
 regr_rf <- train(TIME ~ ., data = df, method = "ranger", tuneGrid = expand.grid(
   mtry = 3, 
   splitrule = "variance",
