@@ -1,25 +1,16 @@
 [
     {
-        "id": "6152b351b8bbbc33d3736e0a819722d7",
+        "id": "eddc80da42940ee05ed92bea2fa85b15",
         "added_by": "k-sap",
         "date": "13-03-2019",
         "task_id": "regression_TIME",
         "dataset_id": "openml_lupus",
-		"library": "mlr",
-		"model_name": "regr.evtree",
+		"library": "caret",
+		"model_name": "ranger",
         "parameters": {
-		  "minibucket": "7",
-		  "minsplit": 20,
-		  "maxdepth": 9,
-		  "niterations": 10000,
-		  "ntrees": 100,
-		  "alpha": 1,
-		  "pmutatemajor": 20,
-		  "pmutateminor": 20,
-		  "pcrossover": 20,
-		  "psplit": 20,
-		  "pprune": 20
-
+		   "mtry": 3,
+		   "splitrule": "variance",
+			"min.code.size": 5
         },
         "preprocessing": {
      "TIME": {
