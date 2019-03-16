@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_col_3",
+    "added_by": "DominikRafacz",
+    "date": "11-03-2019",
+    "dataset_id": "openml_chscase-geyser1",
+    "type": "regression",
+    "target": "col_3"
+  }
+]

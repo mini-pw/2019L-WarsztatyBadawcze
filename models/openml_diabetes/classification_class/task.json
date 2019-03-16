@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_",
+    "added_by": "GoniaW",
+    "date": "12-03-2019",
+    "dataset_id": "openml_diabetes",
+    "type": "classification",
+    "target": {}
+  }
+]

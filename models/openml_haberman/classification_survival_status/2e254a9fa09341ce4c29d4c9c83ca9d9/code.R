@@ -5,7 +5,7 @@ library(mlr)
 library(randomForestSRC)
 
 #:# config
-set.seed(997)
+set.seed(123, "L'Ecuyer")
 
 #:# data
 haberman <- getOMLDataSet(data.id = 43L)
@@ -25,9 +25,9 @@ hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc))
-ACC <- r$aggr
-ACC
+r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc, tpr, tnr, f1, ppv))
+er <- r$aggr
+er
 
 #:# session info
 sink(paste0("sessionInfo.txt"))
