@@ -31,7 +31,7 @@ lrn = makeLearner(\"", learner, "\", par.vals = ", deparse(pars), ifelse(isRegr,
 
 #:# hash 
 #:# ", hash, "
-hash <- digest(task, lrn)
+hash <- digest(list(task, lrn))
 hash
 
 #:# audit
@@ -147,13 +147,23 @@ createTorontoDataset <- function(name, added_by) {
   write(dataJson, paste0("./toronto_", name, "/dataset.json"))
 }
 
-createTorontoTask <- function(name, added_by, target, learner, measurer = "mlr", type = "", pars = list(), local = FALSE) {
+createTask <- function(site, ...) {
+  if (site == "toronto") {
+    createTorontoTask(...)
+  }
+}
+
+createTorontoTask <- function(name, local = FALSE, ...) {
   if (local) {
     table <- read.csv(paste0(name, ".csv"))
   }
   else {
     table <- getTorontoData(name)
   }
+  createTask.internal("toronto", table, name, ...)
+}
+
+createTask.internal <- function(site, table, name, added_by, target, learner, measurer = "mlr", type = "", pars = list()) {
   if (measurer == "mlr" && type == "") {
     isRegr <- ifelse(substr(learner, 1, 4) == "clas", FALSE, TRUE)
     type <- ifelse(isRegr, "regression", "classification")
