@@ -2,7 +2,7 @@
   {
     "id": "78f10f5935583e71f81bb60cf2273b03",
     "added_by": "DominikRafacz",
-    "date": "15-03-2019",
+    "date": "17-03-2019",
     "library": "mlr",
     "model_name": "k-Nearest Neighbor",
     "task_id": "classification_class",

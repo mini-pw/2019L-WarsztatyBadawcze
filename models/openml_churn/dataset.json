@@ -2,7 +2,7 @@
   {
     "id": "openml_churn",
     "added_by": "DominikRafacz",
-    "date": "15-03-2019",
+    "date": "17-03-2019",
     "name": "churn",
     "source": "openml",
     "url": "https://www.openml.org/data/v1/download/4965302/churn.arff",

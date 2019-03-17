@@ -2,14 +2,14 @@
   {
     "id": "fb1de61cfc264387165ac6534d48d3b5",
     "added_by": "DominikRafacz",
-    "date": "15-03-2019",
+    "date": "17-03-2019",
     "library": "mlr",
     "model_name": "Binomial Regression",
     "task_id": "classification_class",
     "dataset_id": "openml_churn",
     "parameters": {
-      "link": "logit",
-      "model": true
+      "link": "cauchit",
+      "model": false
     },
     "preprocessing": {
       "state": {

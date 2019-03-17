@@ -1,18 +1,18 @@
 [
   {
     "id": "audit_23cc982f8ccd5dbfa089e6ad46198c5d",
-    "date": "15-03-2019",
+    "date": "17-03-2019",
     "added_by": "DominikRafacz",
     "model_id": "23cc982f8ccd5dbfa089e6ad46198c5d",
     "task_id": "classification_class",
     "dataset_id": "openml_churn",
     "performance": {
-      "acc": 0.9562,
-      "auc": 0.912,
-      "specificity": 0.7332,
-      "recall": 0.993,
-      "precision": 0.9575,
-      "f1": 0.9749
+      "acc": 0.9564,
+      "auc": 0.9175,
+      "specificity": 0.7441,
+      "recall": 0.9914,
+      "precision": 0.9593,
+      "f1": 0.975
     }
   }
 ]

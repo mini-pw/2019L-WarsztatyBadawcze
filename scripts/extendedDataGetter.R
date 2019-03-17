@@ -118,7 +118,7 @@ processParams <- function(defaults, hypers) {
   defaults <- sapply(defaults$pars, "[", "default")
   names(defaults) <- listNames
   params <- modifyList(defaults, hypers)
-  return(defaults)
+  return(params)
 }
 
 getTorontoData <- function(name, saveToCsv = FALSE) {
