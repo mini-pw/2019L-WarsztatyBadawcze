@@ -8,14 +8,14 @@ library(farff)
 set.seed(1)
 
 #:# data
-dataset <- getOMLDataSet(data.name = churn)
-head(dataset)
+dataset <- getOMLDataSet(data.name = "churn")
+head(dataset$data)
 
 #:# preprocessing
-head(dataset)
+head(dataset$data)
 
 #:# model
-task = makeClassifTask(id = "task", data = dataset, target = "class")
+task = makeClassifTask(id = "task", data = dataset$data, target = "class")
 lrn = makeLearner("classif.ada", par.vals = list(loss = "logistic"), predict.type = "prob")
 
 #:# hash
@@ -23,7 +23,8 @@ lrn = makeLearner("classif.ada", par.vals = list(loss = "logistic"), predict.typ
 hash <- digest(list(task, lrn))
 hash
 
-#:# auditcv <- makeResampleDesc("CV", iters = 5)
+#:# audit
+cv <- makeResampleDesc("CV", iters = 5)
 r <- mlr::resample(lrn, task, cv, measures = list(acc, auc, tnr, tpr, ppv, f1))
 ACC <- r$aggr
 ACC

@@ -7,12 +7,12 @@
     "task_id": "classification_class",
     "dataset_id": "openml_churn",
     "performance": {
-      "acc": 0.955,
-      "auc": 0.9114,
-      "specificity": 0.7289,
-      "recall": 0.9923,
-      "precision": 0.9569,
-      "f1": 0.9743
+      "acc": 0.9556,
+      "auc": 0.9149,
+      "specificity": 0.7349,
+      "recall": 0.9918,
+      "precision": 0.9579,
+      "f1": 0.9746
     }
   }
 ]

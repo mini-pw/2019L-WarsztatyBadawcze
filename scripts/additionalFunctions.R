@@ -44,8 +44,23 @@ createOpenMLTaskWDS.internal <- function(site, table, name, added_by, target, le
     write(taskJson, paste0(site, "_", name, sep, type, "_", target, sep, "task.json"))
   }
   
+  
+  
   if (measurer == "mlr") {
     library("mlr")
+    
+    set.seed(1)
+    if (isRegr) {
+      task <- makeRegrTask(id = "task", data = table, target = target)
+      lrn <- makeLearner(learner, par.vals = pars)
+    }
+    else {
+      task <- makeClassifTask(id = "task", data = table, target = target)
+      lrn <- makeLearner(learner, par.vals = pars, predict.type = "prob")
+    }
+    hash <- digest(list(task, lrn))
+    message("Learner and task hashed: ", hash)
+    
     cv <- makeResampleDesc("CV", iters = 5)
     if (isRegr) {
       mes <- list(mse, rmse, mae, rsq)
@@ -58,16 +73,6 @@ createOpenMLTaskWDS.internal <- function(site, table, name, added_by, target, le
         mes <- list(acc)
       }
     }
-    if (isRegr) {
-      task <- makeRegrTask(id = "task", data = table, target = target)
-      lrn <- makeLearner(learner, par.vals = pars)
-    }
-    else {
-      task <- makeClassifTask(id = "task", data = table, target = target)
-      lrn <- makeLearner(learner, par.vals = pars, predict.type = "prob")
-    }
-    hash <- digest(list(task, lrn))
-    message("Learner and task hashed: ", hash)
     
     someone_was_faster <- FALSE
     if(dir.exists(paste0(site, "_", name, sep, type, "_", target, sep, hash))) {
