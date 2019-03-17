@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_4854f305f42ae8beb4f19d3de2ba2d8e",
+    "date": "02-03-2019",
+    "added_by": "mckraqs",
+    "model_id": "4854f305f42ae8beb4f19d3de2ba2d8e",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_skin-segmentation",
+    "performance": {
+      "acc": 0.9187822,
+      "auc": 0.9509622,
+      "specificity": 0.9437019,
+      "recall": 0.8236287,
+      "precision": 0.7930271, 
+      "f1": 0.8080352
+    }
+  }
+] 

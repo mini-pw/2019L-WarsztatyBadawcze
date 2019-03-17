@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_25d9d874a28a8989e295fe65b193f1c7",
+    "date": "13-03-2019",
+    "added_by": "hubertbaniecki",
+    "model_id": "25d9d874a28a8989e295fe65b193f1c7",
+    "task_id": "regression_PartOfTheDay",
+    "dataset_id": "kaggle_barcelona-data-sets-accidents-2017",
+    "performance": {
+      "mse": 0.033,
+      "rmse": 0.1817,
+      "mae": 0.1217,
+      "r2": 0.8662
+    }
+  }
+]

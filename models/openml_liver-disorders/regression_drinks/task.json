@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_drinks",
+    "added_by": "agosiewska",
+    "date": "11-02-2019",
+    "dataset_id": "openml_liver-disorders",
+    "type": "regression",
+    "target": "drinks"
+  }
+] 
