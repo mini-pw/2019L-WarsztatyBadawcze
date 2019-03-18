@@ -4,7 +4,7 @@
     "added_by": "DominikRafacz",
     "date": "17-03-2019",
     "library": "mlr",
-    "model_name": "k-Nearest Neighbor",
+    "model_name": "classif.kknn",
     "task_id": "classification_class",
     "dataset_id": "openml_churn",
     "parameters": {

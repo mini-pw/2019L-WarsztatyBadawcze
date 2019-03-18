@@ -86,7 +86,7 @@ createOpenMLTaskWDS.internal <- function(site, table, name, added_by, target, le
       r <- mlr::resample(lrn, task, cv, measures = mes)
       results <- r$aggr
       params <- processParams(getParamSet(lrn), getHyperPars(lrn))
-      internalName <- lrn$name
+      internalName <- learner
     }
   }
   else if (measurer == "caret") {

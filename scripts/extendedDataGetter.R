@@ -213,7 +213,7 @@ createTask.internal <- function(site, table, name, added_by, target, learner, me
     r <- mlr::resample(lrn, task, cv, measures = mes)
     results <- r$aggr
     params <- processParams(getParamSet(lrn), getHyperPars(lrn))
-    internalName <- lrn$name
+    internalName <- learner
     hash <- digest(list(task, lrn))
   }
   else if (measurer == "caret") {
