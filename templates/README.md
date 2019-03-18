@@ -150,7 +150,7 @@ Structure of audit.json
       
 ## Session info
 
-Each model should have corresponding session info saved in file `sessionInfo_hash.txt` where hash is MD5 hash created for model with the `digest()` function from the `digest` R package.
+Each model should have corresponding session info saved in file `sessionInfo.txt` where hash is MD5 hash created for model with the `digest()` function from the `digest` R package.
 
 ```{r}
 sink(paste0("sessionInfo.txt"))
