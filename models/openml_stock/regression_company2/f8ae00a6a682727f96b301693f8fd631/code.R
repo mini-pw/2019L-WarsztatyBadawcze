@@ -21,15 +21,12 @@ summary(data)
 regr <- train(company2 ~ ., data=data, method="M5", tuneGrid = expand.grid(pruned="Yes",
                                                                            smoothed="No",
                                                                            rules="No"))
-regr$times <- NULL  #zeby hash byl zawsze taki sam
-regr
-modelLookup("HYFIS")
-regr$modelInfo$parameters
-regr$bestTune
 
 #:# hash
-#:# caf8e7688c79e1241dfa050eac9f3fe1
-hash <- digest(regr)
+#:# f8ae00a6a682727f96b301693f8fd631
+hash <- digest(list(company2 ~ .,data,"M5",expand.grid(pruned="Yes",
+                                                       smoothed="No",
+                                                       rules="No")))
 hash
 
 
