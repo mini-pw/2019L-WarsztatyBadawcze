@@ -17,14 +17,13 @@ head(stock)
 summary(stock)
 
 #:# model
-classif_task <- makeClassifTask(id="stock", data = stock, target = "binaryClass")
+classif_task <- makeClassifTask(id="task", data = stock, target = "binaryClass")
 classif_lrn <- makeLearner("classif.rknn",par.vals = list("k"=3,"mtry"=3, "seed"=13))
 
-getParamSet(classif_lrn)
-helpLearnerParam(classif_lrn)
-getHyperPars(classif_lrn)
+
 #:# hash 
-hash <- digest(classif_lrn)
+#:# 23f6915be2c5eae872fb2a6e6e375f50
+hash <- digest(list(classif_task,classif_lrn))
 hash
 
 
