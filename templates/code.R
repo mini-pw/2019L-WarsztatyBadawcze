@@ -29,6 +29,6 @@ r <- resample(regr_lrn, regr_task, cv, measures = list(mse, rmse, mae, rsq))
 r$aggr
 
 #:# session info
-sink(paste0("sessionInfo_", hash,".txt"))
+sink(paste0("sessionInfo.txt"))
 sessionInfo()
 sink()
