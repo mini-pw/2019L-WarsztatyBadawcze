@@ -17,12 +17,13 @@ head(data)
 summary(data)
 
 #:# model
-regr_task <- makeRegrTask(id="stock_reg", data = data, target = "company1")
+regr_task <- makeRegrTask(id="task", data = data, target = "company1")
 regr_lrn <- makeLearner("regr.gbm",par.vals = list(n.trees=2000))
 
 
 #:# hash 
-hash <- digest(regr_lrn)
+#:# f26c495402a766d4720bf7dc8234231b
+hash <- digest(list(regr_task,regr_lrn))
 hash
 
 
