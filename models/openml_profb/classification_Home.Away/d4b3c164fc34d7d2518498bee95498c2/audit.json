@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_d4b3c164fc34d7d2518498bee95498c2",
+    "date": "13-03-2019",
+    "added_by": "k-sap",
+    "model_id": "d4b3c164fc34d7d2518498bee95498c2",
+    "task_id": "classification_Home.Away",
+    "dataset_id": "openml_profb",
+    "performance": {
+		"acc": 0.7426,
+		"auc": 0.8454266,
+		"specificity": 0.3930303,
+		"recall": 0.9174282,
+		"precision": 0.7524021,
+		"f1": 0.8258225 
+    }
+  }
+]

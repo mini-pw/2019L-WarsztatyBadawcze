@@ -26,20 +26,20 @@ data <- data[sample(nrow(data), 1000), ]
 head(data)
 
 #:# model
-task <- makeRegrTask(id = "reg_suic", data = data, target = "suicides100k_pop")
+task <- makeRegrTask(id = "task", data = data, target = "suicides100k_pop")
 task <- createDummyFeatures(obj = task)
 #regr_lrn = makeLearner("regr.lm")
 learner <- makeLearner("regr.evtree")
 
 #:# hash 
-#:# 06c2a21476cc3c9ae7d1dbc350457486
+#:# 578d766e499119fbe9057e45d739663d
 list_to_hash <- list(task, learner)
 hash <- digest(list_to_hash)
 hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(learner, task, cv)
+r <- resample(learner, task, cv, measures = list(mse,rmse,mae,rsq))
 MSE <- r$aggr
 MSE
 

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_9f9f92ba64f5580d962f99a6a1a965e3",
+    "date": "11-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "9f9f92ba64f5580d962f99a6a1a965e3",
+    "task_id": "regression_col_3",
+    "dataset_id": "openml_chscase-geyser1",
+    "performance": {
+      "MSE": 40.08765,
+      "RMSE": 6.331481,
+      "MAE": 5.06487,
+      "R2": 0.7583533
+    }
+  }
+]

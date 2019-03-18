@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_2db0516ed9d968f250199a68e3fd545a",
+    "date": "11-03-2019",
+    "added_by": "GoniaW",
+    "model_id": "2db0516ed9d968f250199a68e3fd545a",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_artificial-characters",
+    "performance": {
+      "ACC": 0.2672,
+      "AUC": null,
+      "Specificity": null,
+      "Recall": null,
+      "Precision": null,
+      "F1": null
+    }
+  }
+]
