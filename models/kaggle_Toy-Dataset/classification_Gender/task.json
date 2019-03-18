@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Gender",
+    "added_by": "hubertbaniecki",
+    "date": "14-03-2019",
+    "dataset_id": "kaggle_Toy-Dataset",
+    "type": "classification",
+    "target": "Gender"
+  }
+]

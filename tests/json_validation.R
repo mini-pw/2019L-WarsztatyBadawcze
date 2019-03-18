@@ -57,7 +57,7 @@ test_that("validate model jsons", {
   for(json in model_json_files){
     json_to_validate <- fromJSON(json)
     if(any(colnames(json_to_validate) != c("id",  "added_by", "date", "library", "model_name", "task_id", "dataset_id", "parameters", "preprocessing"))){
-      print(json)
+      print(paste(json_to_validate$added_by, json, sep = "    "))
     }
     expect_equal(colnames(json_to_validate), c("id",  "added_by", "date", "library", "model_name", "task_id", "dataset_id", "parameters", "preprocessing"))
   }
