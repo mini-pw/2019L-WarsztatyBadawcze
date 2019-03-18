@@ -15,19 +15,18 @@ head(liver)
 head(liver)
 
 #:# model
-regr_task = makeRegrTask(id = "lvr", data = liver, target = "drinks")
-regr_lrn = makeLearner("regr.gbm", par.vals = list(n.trees = 500, interaction.depth = 3))
+classif_task = makeClassifTask(id = "task", data = liver, target = "selector")
+classif_lrn = makeLearner("classif.glmnet", predict.type = "prob")
 
 #:# hash 
-#:# 5b2c4babcf5363847614d2b486a71534
-hash <- digest(regr_lrn)
+#:# e9ad52ac38aa4dedf92095b699914932
+hash <- digest(list(classif_task, classif_lrn))
 hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(regr_lrn, regr_task, cv)
-MSE <- r$aggr
-MSE
+r <- resample(classif_lrn, classif_task, cv, measures = list(acc, auc, tnr, tpr, ppv, f1))
+r$aggr
 
 #:# session info
 sink(paste0("sessionInfo.txt"))
