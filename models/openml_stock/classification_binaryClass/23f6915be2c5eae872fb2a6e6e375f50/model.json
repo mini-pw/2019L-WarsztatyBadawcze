@@ -3,6 +3,8 @@
     "id": "23f6915be2c5eae872fb2a6e6e375f50",
     "added_by": "WojtekBogucki",
     "date": "09-03-2019",
+    "library": "mlr",
+    "model_name": "classif.rknn",
     "task_id": "classification_binaryClass",
     "dataset_id": "openml_stock",
     "parameters": {

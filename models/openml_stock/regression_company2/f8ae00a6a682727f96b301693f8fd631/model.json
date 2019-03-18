@@ -3,6 +3,8 @@
     "id": "f8ae00a6a682727f96b301693f8fd631",
     "added_by": "WojtekBogucki",
     "date": "10-03-2019",
+    "library": "caret",
+    "model_name": "M5",
     "task_id": "regression_company2",
     "dataset_id": "openml_stock",
     "parameters": {

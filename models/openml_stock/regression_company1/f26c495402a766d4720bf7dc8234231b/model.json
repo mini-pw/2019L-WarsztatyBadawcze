@@ -3,6 +3,8 @@
     "id": "f26c495402a766d4720bf7dc8234231b",
     "added_by": "WojtekBogucki",
     "date": "09-03-2019",
+    "library": "mlr",
+    "model_name": "regr.gbm",
     "task_id": "regression_company1",
     "dataset_id": "openml_stock",
     "parameters": {
