@@ -1,0 +1,375 @@
+[
+  {
+    "id": "561cf16583c76962a5d9cea1256a33cf",
+    "added_by": "Adamoso",
+    "date": "15-03-2019",
+    "library": "mlr",
+    "model_name": "Random forest based on conditional inference trees",
+    "task_id": "classification_class",
+    "dataset_id": "openml_credit-g",
+    "parameters": {
+      "ntree": 50,
+      "mtry": 6,
+      "replace": false,
+      "fraction": 0.632,
+      "trace": false,
+      "teststat": "quad",
+      "testtype": "Univariate",
+      "mincriterion": 0,
+      "minsplit": 20,
+      "minbucket": 7,
+      "stump": false,
+      "nresample": 9999,
+      "maxsurrogate": 0,
+      "maxdepth": 0,
+      "savesplitstats": false
+    },
+    "preprocessing": {
+      "checking_status": {
+        "name": "checking_status",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "<0": 274,
+          "0<=X<200": 269,
+          ">=200": 63,
+          "no checking": 394
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "duration": {
+        "name": "duration",
+        "type": "numerical",
+        "number_of_unique_values": 33,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 4,
+        "num_1qu": 12,
+        "num_median": 18,
+        "num_mean": 20.903,
+        "num_3qu": 24,
+        "num_maximum": 72
+      },
+      "credit_history": {
+        "name": "credit_history",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no credits/all paid": 40,
+          "all paid": 49,
+          "existing paid": 530,
+          "delayed previously": 88,
+          "critical/other existing credit": 293
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "purpose": {
+        "name": "purpose",
+        "type": "categorical",
+        "number_of_unique_values": 10,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "new car": 234,
+          "used car": 103,
+          "furniture/equipment": 181,
+          "radio/tv": 280,
+          "domestic appliance": 12,
+          "repairs": 22,
+          "education": 50,
+          "vacation": 0,
+          "retraining": 9,
+          "business": 97,
+          "other": 12
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "credit_amount": {
+        "name": "credit_amount",
+        "type": "numerical",
+        "number_of_unique_values": 921,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 250,
+        "num_1qu": 1365.5,
+        "num_median": 2319.5,
+        "num_mean": 3271.258,
+        "num_3qu": 3972.25,
+        "num_maximum": 18424
+      },
+      "savings_status": {
+        "name": "savings_status",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "<100": 603,
+          "100<=X<500": 103,
+          "500<=X<1000": 63,
+          ">=1000": 48,
+          "no known savings": 183
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "employment": {
+        "name": "employment",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "unemployed": 62,
+          "<1": 172,
+          "1<=X<4": 339,
+          "4<=X<7": 174,
+          ">=7": 253
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "installment_commitment": {
+        "name": "installment_commitment",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 2,
+        "num_median": 3,
+        "num_mean": 2.973,
+        "num_3qu": 4,
+        "num_maximum": 4
+      },
+      "personal_status": {
+        "name": "personal_status",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "male div/sep": 50,
+          "female div/dep/mar": 310,
+          "male single": 548,
+          "male mar/wid": 92,
+          "female single": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "other_parties": {
+        "name": "other_parties",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "none": 907,
+          "co applicant": 41,
+          "guarantor": 52
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "residence_since": {
+        "name": "residence_since",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 2,
+        "num_median": 3,
+        "num_mean": 2.845,
+        "num_3qu": 4,
+        "num_maximum": 4
+      },
+      "property_magnitude": {
+        "name": "property_magnitude",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "real estate": 282,
+          "life insurance": 232,
+          "car": 332,
+          "no known property": 154
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "age": {
+        "name": "age",
+        "type": "numerical",
+        "number_of_unique_values": 53,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 19,
+        "num_1qu": 27,
+        "num_median": 33,
+        "num_mean": 35.546,
+        "num_3qu": 42,
+        "num_maximum": 75
+      },
+      "other_payment_plans": {
+        "name": "other_payment_plans",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "bank": 139,
+          "stores": 47,
+          "none": 814
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "housing": {
+        "name": "housing",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "rent": 179,
+          "own": 713,
+          "for free": 108
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "existing_credits": {
+        "name": "existing_credits",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 1,
+        "num_median": 1,
+        "num_mean": 1.407,
+        "num_3qu": 2,
+        "num_maximum": 4
+      },
+      "job": {
+        "name": "job",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "unemp/unskilled non res": 22,
+          "unskilled resident": 200,
+          "skilled": 630,
+          "high qualif/self emp/mgmt": 148
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "num_dependents": {
+        "name": "num_dependents",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 1,
+        "num_median": 1,
+        "num_mean": 1.155,
+        "num_3qu": 1,
+        "num_maximum": 2
+      },
+      "own_telephone": {
+        "name": "own_telephone",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "none": 596,
+          "yes": 404
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "foreign_worker": {
+        "name": "foreign_worker",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "yes": 963,
+          "no": 37
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "class": {
+        "name": "class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "good": 700,
+          "bad": 300
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
