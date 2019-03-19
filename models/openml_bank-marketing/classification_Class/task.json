@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_bank-marketing",
+    "added_by": "airi314",
+    "date": "19-03-2019",
+    "dataset_id": "bank-marketing",
+    "type": "classification",
+    "target": "Class"
+  }
+]
