@@ -8,7 +8,11 @@
     "dataset_id": "openml_electricity",
     "performance": {
       "acc":  0.8950168,
-      "auc": 0.9639436
+      "auc": 0.9639436,
+      "specificity": 0.9192899, 
+      "recall": 0.8620937, 
+      "precision": 0.8874325, 
+      "f1": 0.8745757 
     }
   }
 ] 
