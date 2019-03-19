@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_e74d83c615a56610cb2884e9a927e092",
+    "date": "19-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "e74d83c615a56610cb2884e9a927e092",
+    "task_id": "classification_class",
+    "dataset_id": "openml_diabetes",
+    "performance": {
+      "f1": 0.8197,
+      "acc": 0.7538,
+      "auc": 0.8259,
+      "tnr": 0.5308,
+      "tpr": 0.8757,
+      "ppv": 0.7733
+    }
+  }
+]

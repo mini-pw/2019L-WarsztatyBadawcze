@@ -17,7 +17,7 @@ train<-dane$data
 
 #sprawdzamy paczki
 listLearners(check.packages = TRUE)
-model<-"classif.randomForest"
+model<-"classif.svm"
 #robimy taska i learnera
 classif_task = makeClassifTask(id = "task", data = train, target =dane$target.features)
 classif_learner<-makeLearner(model,predict.type = "prob")
