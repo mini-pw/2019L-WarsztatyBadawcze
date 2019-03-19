@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_77f1cfa1edfeb36edd896e483bf57bc8",
+    "date": "12-03-2019",
+    "added_by": "BogdanJastrzebski",
+    "model_id": "77f1cfa1edfeb36edd896e483bf57bc8",
+    "task_id": "regression_Mean.of.the.integrated.profile",
+    "dataset_id": "kaggle_predicting-a-pulsar-star",
+    "performance": {
+		"MSE": 69.15261,
+		"RMSE":8.315805,
+		"MAE":6.597948,
+		"R2": 0.8949159
+    }
+  }
+]

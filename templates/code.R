@@ -15,21 +15,20 @@ head(liver)
 head(liver)
 
 #:# model
-regr_task = makeRegrTask(id = "lvr", data = liver, target = "drinks")
-regr_lrn = makeLearner("regr_gbm", par.vals = list(n.trees = 500, interaction.depth = 3))
+regr_task = makeRegrTask(id = "task", data = liver, target = "drinks")
+regr_lrn = makeLearner("regr.gbm", par.vals = list(n.trees = 500, interaction.depth = 3))
 
 #:# hash 
-#:# 5b2c4babcf5363847614d2b486a71534
-hash <- digest(regr_lrn)
+#:# 7e8a035605a4f5cab6a8bc454a4b4fc9
+hash <- digest(list(regr_task, regr_lrn))
 hash
 
 #:# audit
 cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(regr_lrn, regr_task, cv)
-MSE <- r$aggr
-MSE
+r <- resample(regr_lrn, regr_task, cv, measures = list(mse, rmse, mae, rsq))
+r$aggr
 
 #:# session info
-sink(paste0("sessionInfo_", hash,".txt"))
+sink(paste0("sessionInfo.txt"))
 sessionInfo()
 sink()

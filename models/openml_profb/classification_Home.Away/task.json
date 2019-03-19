@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Home.Away",
+    "added_by": "k-sap",
+    "date": "05-03-2019",
+    "dataset_id": "openml_profb",
+    "type": "classification",
+    "target": "Home.Away"
+  }
+]
