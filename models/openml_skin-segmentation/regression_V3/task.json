@@ -2,7 +2,7 @@
   {
     "id": "regression_V3",
     "added_by": "witoldmerkel",
-    "date": "07-03-2019",
+    "date": "13-03-2019",
     "dataset_id": "openml_skin-segmentation",
     "type": "regression",
     "target": "V3"
