@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_churn",
+    "added_by": "DominikRafacz",
+    "date": "17-03-2019",
+    "dataset_id": "churn",
+    "type": "classification",
+    "target": "class"
+  }
+]

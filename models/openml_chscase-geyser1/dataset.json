@@ -1,0 +1,55 @@
+[
+{
+  "id": "openml_chscase-geyser1",
+  "added_by": "DominikRafacz",
+  "date": "11-03-2019",
+  "name": "Chscase geyser 1",
+  "source": "openml",
+  "url": "https://www.openml.org/d/712",
+  "number_of_features": 3,
+  "number_of_instances": 222,
+  "number_of_missing_values": 0,
+  "number_of_instances_with_missing_values": 0,
+  "variables": {
+    "col_1": {
+      "name": "col_1",
+      "type": "numerical",
+      "number_of_unique_values": 16,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": 1,
+      "num_1qu": 5,
+      "num_median": 16,
+      "num_mean": 12.2973,
+      "num_3qu": 20,
+      "num_maximum": 23
+    },
+    "col_2": {
+      "name": "col_2",
+      "type": "numerical",
+      "number_of_unique_values": 34,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": 1.7,
+      "num_1qu": 2.3,
+      "num_median": 4,
+      "num_mean": 3.5761,
+      "num_3qu": 4.4,
+      "num_maximum": 5.2
+    },
+    "col_3": {
+      "name": "col_3",
+      "type": "numerical",
+      "number_of_unique_values": 50,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": 42,
+      "num_1qu": 60,
+      "num_median": 75,
+      "num_mean": 71.009,
+      "num_3qu": 81,
+      "num_maximum": 95
+    }
+  }
+}
+]

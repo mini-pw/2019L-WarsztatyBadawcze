@@ -1,0 +1,128 @@
+[{
+	"id": "77f1cfa1edfeb36edd896e483bf57bc8",
+	"added_by": "BogdanJastrzebski",
+	"date": "12-03-2019",
+	"task_id": "regression_Mean.of.the.integrated.profile",
+	"dataset_id": "kaggle_predicting-a-pulsar-star",
+	"parameters": {
+    },
+    "preprocessing": {
+    "Mean of the integrated profile": {
+      "name": "Mean of the integrated profile",
+      "type": "numerical",
+      "number_of_unique_values": 8626,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": 5.8125,
+      "num_1qu": 100.9297,
+      "num_median": 115.0781,
+      "num_mean": 111.08,
+      "num_3qu": 127.0859,
+      "num_maximum": 192.6172
+    },
+    "Standard deviation of the integrated profile": {
+      "name": "Standard deviation of the integrated profile",
+      "type": "numerical",
+      "number_of_unique_values": 17862,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": 24.772,
+      "num_1qu": 42.376,
+      "num_median": 46.9475,
+      "num_mean": 46.5495,
+      "num_3qu": 51.0232,
+      "num_maximum": 98.7789
+    },
+    "Excess kurtosis of the integrated profile": {
+      "name": "Excess kurtosis of the integrated profile",
+      "type": "numerical",
+      "number_of_unique_values": 17897,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": -1.876,
+      "num_1qu": 0.0271,
+      "num_median": 0.2232,
+      "num_mean": 0.4779,
+      "num_3qu": 0.4733,
+      "num_maximum": 8.0695
+    },
+    "Skewness of the integrated profile": {
+      "name": "Skewness of the integrated profile",
+      "type": "numerical",
+      "number_of_unique_values": 17898,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": -1.7919,
+      "num_1qu": -0.1886,
+      "num_median": 0.1987,
+      "num_mean": 1.7703,
+      "num_3qu": 0.9278,
+      "num_maximum": 68.1016
+    },
+    "Mean of the DM-SNR curve": {
+      "name": "Mean of the DM-SNR curve",
+      "type": "numerical",
+      "number_of_unique_values": 9000,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": 0.2132,
+      "num_1qu": 1.9231,
+      "num_median": 2.8018,
+      "num_mean": 12.6144,
+      "num_3qu": 5.4643,
+      "num_maximum": 223.3921
+    },
+    "Standard deviation of the DM-SNR curve": {
+      "name": "Standard deviation of the DM-SNR curve",
+      "type": "numerical",
+      "number_of_unique_values": 17894,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": 7.3704,
+      "num_1qu": 14.4373,
+      "num_median": 18.4613,
+      "num_mean": 26.3265,
+      "num_3qu": 28.4281,
+      "num_maximum": 110.6422
+    },
+    "Excess kurtosis of the DM-SNR curve": {
+      "name": "Excess kurtosis of the DM-SNR curve",
+      "type": "numerical",
+      "number_of_unique_values": 17895,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": -3.1393,
+      "num_1qu": 5.7815,
+      "num_median": 8.4335,
+      "num_mean": 8.3036,
+      "num_3qu": 10.703,
+      "num_maximum": 34.5398
+    },
+    "Skewness of the DM-SNR curve": {
+      "name": "Skewness of the DM-SNR curve",
+      "type": "numerical",
+      "number_of_unique_values": 17895,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": -1.977,
+      "num_1qu": 34.9605,
+      "num_median": 83.0646,
+      "num_mean": 104.8577,
+      "num_3qu": 139.3093,
+      "num_maximum": 1191.0008
+    },
+    "target_class": {
+      "name": "target_class",
+      "type": "numerical",
+      "number_of_unique_values": 2,
+      "number_of_missing_values": 0,
+      "cat_frequencies": null,
+      "num_minimum": 0,
+      "num_1qu": 0,
+      "num_median": 0,
+      "num_mean": 0.0916,
+      "num_3qu": 0,
+      "num_maximum": 1
+    }
+  }
+}]
