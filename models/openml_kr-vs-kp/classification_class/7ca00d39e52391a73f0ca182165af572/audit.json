@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_7ca00d39e52391a73f0ca182165af572",
+    "date": "11-03-2019",
+    "added_by": "WojciechKretowicz",
+    "model_id": "7ca00d39e52391a73f0ca182165af572",
+    "task_id": "classification_class",
+    "dataset_id": "openml_kr-vs-kp",
+    "performance": {
+      "ACC": 0.9937,
+      "AUC": 0.9998,
+      "Recall": 0.9946,
+      "Precision": 0.9934,
+      "f1": 0.994,
+      "Specificity": 0.9928
+    }
+  }
+]

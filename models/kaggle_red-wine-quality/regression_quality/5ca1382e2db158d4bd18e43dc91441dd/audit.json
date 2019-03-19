@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_5ca1382e2db158d4bd18e43dc91441dd",
+    "date": "13-03-2019",
+    "added_by": "hubertbaniecki",
+    "model_id": "5ca1382e2db158d4bd18e43dc91441dd",
+    "task_id": "regression_quality",
+    "dataset_id": "kaggle_red-wine-quality",
+    "performance": {
+      "mse": 0.3242,
+      "rmse": 0.5694,
+      "mae": 0.4188,
+      "r2": 0.5083
+    }
+  }
+]

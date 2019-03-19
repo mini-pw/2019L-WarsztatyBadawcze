@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_f26c495402a766d4720bf7dc8234231b",
+    "date": "09-03-2019",
+    "added_by": "WojtekBogucki",
+    "model_id": "f26c495402a766d4720bf7dc8234231b",
+    "task_id": "regression_company1",
+    "dataset_id": "openml_stock",
+    "performance": {
+      "mse": 3.2728,
+      "rmse": 1.8091,
+      "mae": 1.3379,
+      "r2": 0.9715
+    }
+  }
+]

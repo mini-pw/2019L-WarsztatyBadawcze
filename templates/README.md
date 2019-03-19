@@ -112,8 +112,16 @@ Example: [model.json](model.json)
 
 Structure of model.json
 - id -  hash of model reated with `digest()` function from the `digest` R package, e.g. `5b2c4babcf5363847614d2b486a71534`,
+    - mlr - hashed unnamed list. `list(task, learner)` where task is mlr Task and learner is corresponding mlr Learner. 
+        - set Task parameter `id = "task"`.
+    - caret - hashed unnamed list `list(formula, data, model, parameters)`, elements of list should be the same as in `train` function.
+        - if model do not have parameters, fourth element of list should be NULL.
+        - if train takes additional arguents, pass them in the end of list in alphabetical order, e.g. for `train(target ~ ., data ,"glm", tuneGrid, famliy = binomial)` hash is genereted from `list(target ~ ., data, "glm", tuneGrid, famliy = binomial)`.
+        - 
 -	added_by - GitHub username
 -	date - addition date
+- library - `"mlr"`, `"caret"`, or `"scikit"`
+- model_name - name of model, specified in `Learner`, `train`, or name of scikit class. 
 -	task_id - id of corresponding task
 -	dataset_id - id of corresponding data set
 -	parameters - JSON object with *all possible* parameters and their values. It should contain also values of parameter if default were used.
@@ -142,7 +150,7 @@ Structure of audit.json
       
 ## Session info
 
-Each model should have corresponding session info saved in file `sessionInfo_hash.txt` where hash is MD5 hash created for model with the `digest()` function from the `digest` R package.
+Each model should have corresponding session info saved in file `sessionInfo.txt` where hash is MD5 hash created for model with the `digest()` function from the `digest` R package.
 
 ```{r}
 sink(paste0("sessionInfo.txt"))

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "96d6eea97852efaf2d9dd034788d9694",
+    "added_by": "airi314",
+    "date": "12-03-2019",
+    "library" : "mlr",
+    "model_name" : "classif.svm",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_banana",
+    "parameters": {
+      "type": "C-classification",
+      "cost": 1,
+      "nu": 0.5,
+      "class.weights": null,
+      "kernel": "radial",
+      "degree": 3,
+      "coef0": 0,
+      "gamma": null,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing": {
+      "V1": {
+        "name": "V1",
+        "type": "numerical",
+        "number_of_unique_values": 2112,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -3.09,
+        "num_1qu": -0.7532,
+        "num_median": -0.0152,
+        "num_mean": 0,
+        "num_3qu": 0.782,
+        "num_maximum": 2.81
+      },
+      "V2": {
+        "name": "V2",
+        "type": "numerical",
+        "number_of_unique_values": 1933,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.39,
+        "num_1qu": -0.914,
+        "num_median": -0.0372,
+        "num_mean": 0,
+        "num_3qu": 0.8225,
+        "num_maximum": 3.19
+      },
+      "Class": {
+        "name": "Class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 2924,
+          "2": 2376
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

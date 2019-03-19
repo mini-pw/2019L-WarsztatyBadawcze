@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_16331c6aa2b3c8b38f403413ea80c58a",
+    "date": "13-03-2019",
+    "added_by": "airi314",
+    "model_id": "16331c6aa2b3c8b38f403413ea80c58a",
+    "task_id": "regression_Height",
+    "dataset_id": "openml_abalone",
+    "performance": {
+      "mse": 0.001520721,
+      "rmse": 0.038996421,
+      "mae": 0.027841471,
+      "rsq": 0.150902887
+      }
+  }
+]
