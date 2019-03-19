@@ -39,11 +39,11 @@
                 "number_of_unique_values": 12,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.42931762219395464,
-                "num_1qu": -0.42931762219395464,
-                "num_median": -0.42931762219395464,
-                "num_3q": -0.42931762219395464,
-                "num_maximum": 2.761381322208246
+                "num_minimum": -0.42931762219395453,
+                "num_1qu": -0.42931762219395453,
+                "num_median": -0.42931762219395453,
+                "num_3q": -0.42931762219395453,
+                "num_maximum": 2.7613813222082455
             },
             "ACCESS_TO_PUB_DATA": {
                 "name": "ACCESS_TO_PUB_DATA",
@@ -63,11 +63,11 @@
                 "number_of_unique_values": 24,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -1.3637268730286376,
-                "num_1qu": -0.8191216607477206,
-                "num_median": 0.03668652997943461,
-                "num_3q": 0.8146939760950301,
-                "num_maximum": 2.3707088683262216
+                "num_minimum": -1.3637268730286374,
+                "num_1qu": -0.8191216607477205,
+                "num_median": 0.0366865299794346,
+                "num_3q": 0.81469397609503,
+                "num_maximum": 2.370708868326221
             },
             "DEPTH": {
                 "name": "DEPTH",
@@ -77,7 +77,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -0.7778241797351476,
                 "num_1qu": -0.7778241797351476,
-                "num_median": -0.012445186875762633,
+                "num_median": -0.01244518687576237,
                 "num_3q": 0.7529338059836229,
                 "num_maximum": 3.8144497774211645
             },
@@ -111,10 +111,10 @@
                 "number_of_unique_values": 2,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.1285648693066449,
-                "num_1qu": -0.1285648693066449,
-                "num_median": -0.1285648693066449,
-                "num_3q": -0.1285648693066449,
+                "num_minimum": -0.12856486930664493,
+                "num_1qu": -0.12856486930664493,
+                "num_median": -0.12856486930664493,
+                "num_3q": -0.12856486930664493,
                 "num_maximum": 7.778174593052021
             },
             "FAN_IN": {
@@ -135,9 +135,9 @@
                 "number_of_unique_values": 60,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.9399912194264918,
+                "num_minimum": -0.9399912194264919,
                 "num_1qu": -0.6776978437698257,
-                "num_median": -0.20556976758782639,
+                "num_median": -0.20556976758782625,
                 "num_3q": 0.29278764615983977,
                 "num_maximum": 4.8829217201515
             },
@@ -243,10 +243,10 @@
                 "number_of_unique_values": 5,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.4707538096263148,
-                "num_1qu": -0.4707538096263148,
-                "num_median": -0.4707538096263148,
-                "num_3q": 0.1452325582889694,
+                "num_minimum": -0.47075380962631475,
+                "num_1qu": -0.47075380962631475,
+                "num_median": -0.47075380962631475,
+                "num_3q": 0.14523255828896947,
                 "num_maximum": 4.457137133695959
             },
             "minHALSTEAD_CONTENT": {
@@ -255,11 +255,11 @@
                 "number_of_unique_values": 13,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.7505297337243387,
-                "num_1qu": -0.7505297337243387,
-                "num_median": -0.7505297337243387,
-                "num_3q": 0.7977328561039081,
-                "num_maximum": 3.307515707842094
+                "num_minimum": -0.7505297337243388,
+                "num_1qu": -0.7505297337243388,
+                "num_median": -0.7505297337243388,
+                "num_3q": 0.7977328561039082,
+                "num_maximum": 3.3075157078420943
             },
             "minHALSTEAD_DIFFICULTY": {
                 "name": "minHALSTEAD_DIFFICULTY",
@@ -279,10 +279,10 @@
                 "number_of_unique_values": 12,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.4657398495005295,
-                "num_1qu": -0.4657398495005295,
-                "num_median": -0.4657398495005295,
-                "num_3q": 0.09257603515229647,
+                "num_minimum": -0.4657398495005296,
+                "num_1qu": -0.4657398495005296,
+                "num_median": -0.4657398495005296,
+                "num_3q": 0.0925760351522966,
                 "num_maximum": 4.843844341336213
             },
             "minHALSTEAD_ERROR_EST": {
@@ -291,11 +291,11 @@
                 "number_of_unique_values": 2,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.2456518422202588,
-                "num_1qu": -0.2456518422202588,
-                "num_median": -0.2456518422202588,
-                "num_3q": -0.2456518422202588,
-                "num_maximum": 4.07080195679286
+                "num_minimum": -0.24565184222025874,
+                "num_1qu": -0.24565184222025874,
+                "num_median": -0.24565184222025874,
+                "num_3q": -0.24565184222025874,
+                "num_maximum": 4.0708019567928595
             },
             "minHALSTEAD_LENGTH": {
                 "name": "minHALSTEAD_LENGTH",
@@ -339,11 +339,11 @@
                 "number_of_unique_values": 8,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.6269043695144904,
-                "num_1qu": -0.6269043695144904,
-                "num_median": -0.6269043695144904,
-                "num_3q": 0.5972217949553115,
-                "num_maximum": 4.223695673938868
+                "num_minimum": -0.6269043695144902,
+                "num_1qu": -0.6269043695144902,
+                "num_median": -0.6269043695144902,
+                "num_3q": 0.5972217949553114,
+                "num_maximum": 4.223695673938867
             },
             "minNUM_OPERANDS": {
                 "name": "minNUM_OPERANDS",
@@ -351,11 +351,11 @@
                 "number_of_unique_values": 6,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.5956518181839925,
-                "num_1qu": -0.5956518181839925,
-                "num_median": -0.5956518181839925,
-                "num_3q": 0.3944180958245356,
-                "num_maximum": 5.344767665867178
+                "num_minimum": -0.5956518181839926,
+                "num_1qu": -0.5956518181839926,
+                "num_median": -0.5956518181839926,
+                "num_3q": 0.39441809582453563,
+                "num_maximum": 5.344767665867177
             },
             "minNUM_OPERATORS": {
                 "name": "minNUM_OPERATORS",
@@ -378,7 +378,7 @@
                 "num_minimum": -0.6370484366340259,
                 "num_1qu": -0.6370484366340259,
                 "num_median": -0.6370484366340259,
-                "num_3q": 0.4823366734514767,
+                "num_3q": 0.48233667345147674,
                 "num_maximum": 4.959877113793487
             },
             "minNUM_UNIQUE_OPERATORS": {
@@ -387,10 +387,10 @@
                 "number_of_unique_values": 6,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -1.404259928199173,
-                "num_1qu": -0.49994594302378914,
-                "num_median": -0.49994594302378914,
-                "num_3q": 0.4043680421515943,
+                "num_minimum": -1.4042599281991728,
+                "num_1qu": -0.4999459430237892,
+                "num_median": -0.4999459430237892,
+                "num_3q": 0.40436804215159416,
                 "num_maximum": 3.117309997677744
             },
             "minLOC_TOTAL": {
@@ -401,7 +401,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -0.9192388155425119,
                 "num_1qu": -0.9192388155425119,
-                "num_median": -0.19445436482630066,
+                "num_median": -0.19445436482630057,
                 "num_3q": 0.5303300858899107,
                 "num_maximum": 5.6038212409033905
             },
@@ -438,7 +438,7 @@
                 "num_minimum": -0.4496937504132879,
                 "num_1qu": -0.4496937504132879,
                 "num_median": -0.4496937504132879,
-                "num_3q": 0.011242343760332351,
+                "num_3q": 0.011242343760332216,
                 "num_maximum": 5.081539379670153
             },
             "maxLOC_COMMENTS": {
@@ -459,11 +459,11 @@
                 "number_of_unique_values": 30,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.867605595971791,
-                "num_1qu": -0.753226723190944,
-                "num_median": -0.2957112320675558,
-                "num_3q": 0.5049408773983735,
-                "num_maximum": 4.165064806385479
+                "num_minimum": -0.8676055959717909,
+                "num_1qu": -0.7532267231909439,
+                "num_median": -0.29571123206755573,
+                "num_3q": 0.5049408773983733,
+                "num_maximum": 4.1650648063854785
             },
             "maxDESIGN_COMPLEXITY": {
                 "name": "maxDESIGN_COMPLEXITY",
@@ -507,11 +507,11 @@
                 "number_of_unique_values": 109,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -1.3471341852091858,
-                "num_1qu": -0.8871355152463611,
-                "num_median": -0.09317812067376628,
+                "num_minimum": -1.3471341852091856,
+                "num_1qu": -0.887135515246361,
+                "num_median": -0.09317812067376627,
                 "num_3q": 0.551786489780768,
-                "num_maximum": 3.8356694864412186
+                "num_maximum": 3.835669486441218
             },
             "maxHALSTEAD_DIFFICULTY": {
                 "name": "maxHALSTEAD_DIFFICULTY",
@@ -521,7 +521,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -1.2928300378881594,
                 "num_1qu": -0.8999584903154545,
-                "num_median": -0.08639810721531865,
+                "num_median": -0.08639810721531875,
                 "num_3q": 0.6654307479531718,
                 "num_maximum": 2.8035513004690285
             },
@@ -533,8 +533,8 @@
                 "cat_frequencies": null,
                 "num_minimum": -0.5762755483087255,
                 "num_1qu": -0.5692194332432218,
-                "num_median": -0.3915058329924834,
-                "num_3q": -0.0786081622613733,
+                "num_median": -0.3915058329924835,
+                "num_3q": -0.07860816226137332,
                 "num_maximum": 5.9764566147271125
             },
             "maxHALSTEAD_ERROR_EST": {
@@ -546,7 +546,7 @@
                 "num_minimum": -0.8193018259574127,
                 "num_1qu": -0.7443210801967757,
                 "num_median": -0.2944366102883702,
-                "num_3q": 0.23042860538067245,
+                "num_3q": 0.23042860538067247,
                 "num_maximum": 5.779004210655399
             },
             "maxHALSTEAD_LENGTH": {
@@ -557,7 +557,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -0.9207819824719301,
                 "num_1qu": -0.8070987934789824,
-                "num_median": -0.23313732709995347,
+                "num_median": -0.23313732709995352,
                 "num_3q": 0.2715051216004486,
                 "num_maximum": 5.2125647017329575
             },
@@ -582,7 +582,7 @@
                 "num_minimum": -0.5762755997002679,
                 "num_1qu": -0.5692197865803823,
                 "num_median": -0.3915062636263769,
-                "num_3q": -0.07860838882704226,
+                "num_3q": -0.07860838882704249,
                 "num_maximum": 5.976457805639828
             },
             "maxHALSTEAD_VOLUME": {
@@ -605,7 +605,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -0.9169300234043314,
                 "num_1qu": -0.8139995475045753,
-                "num_median": -0.2405297532059341,
+                "num_median": -0.24052975320593412,
                 "num_3q": 0.3991096327425503,
                 "num_maximum": 5.376533360180756
             },
@@ -629,7 +629,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -1.2032184806349535,
                 "num_1qu": -0.9462812009160311,
-                "num_median": -0.12875349271945993,
+                "num_median": -0.12875349271945996,
                 "num_3q": 0.525268673837797,
                 "num_maximum": 4.402685804141535
             },
@@ -641,7 +641,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -1.8181945157905874,
                 "num_1qu": -0.8022357403573462,
-                "num_median": 0.08672818814673997,
+                "num_median": 0.0867281881467401,
                 "num_3q": 0.7217024227925161,
                 "num_maximum": 2.8806148205881543
             },
@@ -665,8 +665,8 @@
                 "cat_frequencies": null,
                 "num_minimum": -0.7617943595696957,
                 "num_1qu": -0.7617943595696957,
-                "num_median": -0.23541207990837232,
-                "num_3q": 0.3219333958971129,
+                "num_median": -0.23541207990837235,
+                "num_3q": 0.32193339589711284,
                 "num_maximum": 6.339474136300007
             },
             "avgBRANCH_COUNT": {
@@ -675,11 +675,11 @@
                 "number_of_unique_values": 85,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.8810366911873168,
-                "num_1qu": -0.7867787938717425,
-                "num_median": -0.38403996599303264,
-                "num_3q": 0.47223872546393625,
-                "num_maximum": 4.821571894401612
+                "num_minimum": -0.8810366911873166,
+                "num_1qu": -0.7867787938717424,
+                "num_median": -0.3840399659930326,
+                "num_3q": 0.4722387254639362,
+                "num_maximum": 4.821571894401611
             },
             "avgLOC_CODE_AND_COMMENT": {
                 "name": "avgLOC_CODE_AND_COMMENT",
@@ -690,7 +690,7 @@
                 "num_minimum": -0.39106284172858835,
                 "num_1qu": -0.39106284172858835,
                 "num_median": -0.39106284172858835,
-                "num_3q": -0.15984209509068756,
+                "num_3q": -0.15984209509068753,
                 "num_maximum": 5.8133243894969135
             },
             "avgLOC_COMMENTS": {
@@ -701,8 +701,8 @@
                 "cat_frequencies": null,
                 "num_minimum": -0.6584949632465212,
                 "num_1qu": -0.6584949632465212,
-                "num_median": -0.4441350327089792,
-                "num_3q": 0.3037427620441207,
+                "num_median": -0.4441350327089793,
+                "num_3q": 0.3037427620441206,
                 "num_maximum": 4.914863230729567
             },
             "avgCYCLOMATIC_COMPLEXITY": {
@@ -737,7 +737,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -0.5880518040448042,
                 "num_1qu": -0.5880518040448042,
-                "num_median": -0.47561096849661894,
+                "num_median": -0.47561096849661905,
                 "num_3q": 0.21122316822343906,
                 "num_maximum": 6.444196010983927
             },
@@ -749,7 +749,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -1.0477728422319883,
                 "num_1qu": -0.8478884041817308,
-                "num_median": -0.2195803665956506,
+                "num_median": -0.2195803665956507,
                 "num_3q": 0.5367255555054737,
                 "num_maximum": 4.068150298407666
             },
@@ -761,7 +761,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -1.6397246156529859,
                 "num_1qu": -0.8305477337025333,
-                "num_median": -0.07942443228236445,
+                "num_median": -0.07942443228236458,
                 "num_3q": 0.6949566287564337,
                 "num_maximum": 2.672511444330718
             },
@@ -773,7 +773,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -1.4616696501643758,
                 "num_1qu": -0.836224796475804,
-                "num_median": -0.13729897017477752,
+                "num_median": -0.1372989701747775,
                 "num_3q": 0.6298180912489362,
                 "num_maximum": 3.4742700141726637
             },
@@ -786,7 +786,7 @@
                 "num_minimum": -0.6843469913966377,
                 "num_1qu": -0.6648132454071036,
                 "num_median": -0.4313523741581058,
-                "num_3q": 0.19167828358771496,
+                "num_3q": 0.19167828358771488,
                 "num_maximum": 4.7787918130360305
             },
             "avgHALSTEAD_ERROR_EST": {
@@ -797,7 +797,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -0.9698579550392357,
                 "num_1qu": -0.8131833771379795,
-                "num_median": -0.3670235779697147,
+                "num_median": -0.36702357796971463,
                 "num_3q": 0.5710490898206236,
                 "num_maximum": 4.261635894494629
             },
@@ -821,7 +821,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -1.6536579488373062,
                 "num_1qu": -0.7534839345768046,
-                "num_median": -0.1498752962315479,
+                "num_median": -0.14987529623154786,
                 "num_3q": 0.4780485241679946,
                 "num_maximum": 2.898112500151251
             },
@@ -856,8 +856,8 @@
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
                 "num_minimum": -1.0982034897575854,
-                "num_1qu": -0.8544206509518077,
-                "num_median": -0.32226051551007967,
+                "num_1qu": -0.854420650951808,
+                "num_median": -0.3222605155100796,
                 "num_3q": 0.6630638119857395,
                 "num_maximum": 4.074749671892454
             },
@@ -880,10 +880,10 @@
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
                 "num_minimum": -1.3405632150020266,
-                "num_1qu": -0.9191100831481752,
-                "num_median": -0.17711523427981693,
-                "num_3q": 0.8431501736010202,
-                "num_maximum": 3.437883848678477
+                "num_1qu": -0.9191100831481753,
+                "num_median": -0.17711523427981687,
+                "num_3q": 0.8431501736010203,
+                "num_maximum": 3.4378838486784775
             },
             "avgNUM_UNIQUE_OPERATORS": {
                 "name": "avgNUM_UNIQUE_OPERATORS",
@@ -893,7 +893,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -2.0325693983385946,
                 "num_1qu": -0.7594155183502025,
-                "num_median": 0.004476984483918084,
+                "num_median": 0.004476984483917983,
                 "num_3q": 0.6436002663321023,
                 "num_maximum": 2.881804377349351
             },
@@ -905,7 +905,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -1.1881047969453566,
                 "num_1qu": -0.7342709494641858,
-                "num_median": -0.24119345545608253,
+                "num_median": -0.24119345545608248,
                 "num_3q": 0.5412019445622781,
                 "num_maximum": 3.879922923626249
             },
@@ -918,7 +918,7 @@
                 "num_minimum": -0.4778805227446753,
                 "num_1qu": -0.4778805227446753,
                 "num_median": -0.2689493463314227,
-                "num_3q": -0.033901772866513705,
+                "num_3q": -0.033901772866513545,
                 "num_maximum": 8.40169447481856
             },
             "sumBRANCH_COUNT": {
@@ -930,7 +930,7 @@
                 "num_minimum": -0.5808662772649573,
                 "num_1qu": -0.4898162607322355,
                 "num_median": -0.295840138553828,
-                "num_3q": 0.040649052980144165,
+                "num_3q": 0.04064905298014414,
                 "num_maximum": 7.6928091380997685
             },
             "sumLOC_CODE_AND_COMMENT": {
@@ -953,7 +953,7 @@
                 "cat_frequencies": null,
                 "num_minimum": -0.5715728435584948,
                 "num_1qu": -0.5715728435584948,
-                "num_median": -0.44444181325524906,
+                "num_median": -0.4444418132552491,
                 "num_3q": 0.17002483321043832,
                 "num_maximum": 5.361208570592971
             },
@@ -966,7 +966,7 @@
                 "num_minimum": -0.6325315575887277,
                 "num_1qu": -0.5032217821038298,
                 "num_median": -0.2877054896290003,
-                "num_3q": 0.02838507266741656,
+                "num_3q": 0.0283850726674166,
                 "num_maximum": 7.571455309286455
             },
             "sumDESIGN_COMPLEXITY": {
@@ -990,7 +990,7 @@
                 "num_minimum": -0.6523828661998387,
                 "num_1qu": -0.5227913084760335,
                 "num_median": -0.2895265045731842,
-                "num_3q": 0.04741154550870931,
+                "num_3q": 0.0474115455087092,
                 "num_maximum": 8.263516305197955
             },
             "sumLOC_EXECUTABLE": {
@@ -1002,7 +1002,7 @@
                 "num_minimum": -0.6474472364114381,
                 "num_1qu": -0.6108446296011606,
                 "num_median": -0.2983146791441756,
-                "num_3q": 0.05644904840159127,
+                "num_3q": 0.056449048401591234,
                 "num_maximum": 5.865001190678709
             },
             "sumHALSTEAD_CONTENT": {
@@ -1026,7 +1026,7 @@
                 "num_minimum": -0.5931052703760309,
                 "num_1qu": -0.48158481388792673,
                 "num_median": -0.2503064331261331,
-                "num_3q": 0.05573852398874271,
+                "num_3q": 0.05573852398874285,
                 "num_maximum": 8.111128094586096
             },
             "sumHALSTEAD_EFFORT": {
@@ -1035,11 +1035,11 @@
                 "number_of_unique_values": 114,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.39279027795414395,
-                "num_1qu": -0.3881431252740295,
-                "num_median": -0.28065770232001586,
-                "num_3q": -0.08166225404402368,
-                "num_maximum": 8.926949652711652
+                "num_minimum": -0.3927902779541441,
+                "num_1qu": -0.38814312527402967,
+                "num_median": -0.2806577023200159,
+                "num_3q": -0.0816622540440237,
+                "num_maximum": 8.926949652711654
             },
             "sumHALSTEAD_ERROR_EST": {
                 "name": "sumHALSTEAD_ERROR_EST",
@@ -1050,7 +1050,7 @@
                 "num_minimum": -0.5377673870443499,
                 "num_1qu": -0.5020453052167722,
                 "num_median": -0.27183632637456717,
-                "num_3q": -0.01979719684794163,
+                "num_3q": -0.019797196847941782,
                 "num_maximum": 7.805323475302008
             },
             "sumHALSTEAD_LENGTH": {
@@ -1062,7 +1062,7 @@
                 "num_minimum": -0.5767140426186679,
                 "num_1qu": -0.5216424742037921,
                 "num_median": -0.260143702326534,
-                "num_3q": -0.01031572640474641,
+                "num_3q": -0.010315726404746296,
                 "num_maximum": 7.572419233288521
             },
             "sumHALSTEAD_LEVEL": {
@@ -1086,7 +1086,7 @@
                 "num_minimum": -0.3927906250323728,
                 "num_1qu": -0.38814347265617277,
                 "num_median": -0.280658951832262,
-                "num_3q": -0.081662577878379,
+                "num_3q": -0.08166257787837902,
                 "num_maximum": 8.926950764889312
             },
             "sumHALSTEAD_VOLUME": {
@@ -1098,7 +1098,7 @@
                 "num_minimum": -0.5402548664734078,
                 "num_1qu": -0.504547168594674,
                 "num_median": -0.2747538612918484,
-                "num_3q": -0.031229786708283448,
+                "num_3q": -0.031229786708283497,
                 "num_maximum": 7.813662489415401
             },
             "sumNUM_OPERANDS": {
@@ -1110,7 +1110,7 @@
                 "num_minimum": -0.5666058755105129,
                 "num_1qu": -0.5113230954031249,
                 "num_median": -0.2635037363010405,
-                "num_3q": 0.021488526666356363,
+                "num_3q": 0.021488526666356464,
                 "num_maximum": 7.895472086444506
             },
             "sumNUM_OPERATORS": {
@@ -1122,7 +1122,7 @@
                 "num_minimum": -0.5817776138624324,
                 "num_1qu": -0.5287188052822946,
                 "num_median": -0.2622456777464914,
-                "num_3q": -0.008152938879386985,
+                "num_3q": -0.00815293887938701,
                 "num_maximum": 7.356999234361298
             },
             "sumNUM_UNIQUE_OPERANDS": {
@@ -1134,7 +1134,7 @@
                 "num_minimum": -0.6673414994473289,
                 "num_1qu": -0.5699713874283235,
                 "num_median": -0.27343513718862567,
-                "num_3q": 0.054082512329846566,
+                "num_3q": 0.054082512329846594,
                 "num_maximum": 7.387822313034017
             },
             "sumNUM_UNIQUE_OPERATORS": {
@@ -1143,11 +1143,11 @@
                 "number_of_unique_values": 92,
                 "number_of_missing_values": 0,
                 "cat_frequencies": null,
-                "num_minimum": -0.7105476932266194,
-                "num_1qu": -0.5348863648059959,
-                "num_median": -0.2538282393329984,
-                "num_3q": 0.2175296585956745,
-                "num_maximum": 7.387439546964122
+                "num_minimum": -0.7105476932266193,
+                "num_1qu": -0.5348863648059958,
+                "num_median": -0.25382823933299836,
+                "num_3q": 0.21752965859567447,
+                "num_maximum": 7.387439546964121
             },
             "sumLOC_TOTAL": {
                 "name": "sumLOC_TOTAL",
@@ -1157,8 +1157,8 @@
                 "cat_frequencies": null,
                 "num_minimum": -0.6990745930032513,
                 "num_1qu": -0.5863036851551537,
-                "num_median": -0.2852163098325632,
-                "num_3q": 0.04433750824779964,
+                "num_median": -0.28521630983256313,
+                "num_3q": 0.04433750824779967,
                 "num_maximum": 5.611716793758248
             }
         }
