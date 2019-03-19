@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Class",
+    "added_by": "michalSt98",
+    "date": "14-03-2019",
+    "dataset_id": "openml_bank",
+    "type": "classification",
+    "target": "Class"
+  }
+]

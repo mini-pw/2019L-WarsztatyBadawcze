@@ -1,0 +1,105 @@
+[
+  {
+    "id": "cceb7a7795cc60c06fcf686110b07ee4",
+    "added_by": "hubertbaniecki",
+    "date": "14-03-2019",
+    "library": "mlr",
+    "model_name": "classif.gbm",
+    "task_id": "classification_Gender",
+    "dataset_id": "kaggle_Toy-Dataset",
+    "parameters": {
+      "distribution": "bernoulli",
+      "n.trees": 100,
+      "cv.folds": 0,
+      "interaction.depth": 1,
+      "n.minobsinnode": 10,
+      "shrinkage": 0.001,
+      "bag.fraction": 0.5,
+      "train.fraction": 1,
+      "keep.data": false,
+      "verbose": false
+    },
+    "preprocessing": {
+      "City": {
+        "name": "City",
+        "type": "categorical",
+        "number_of_unique_values": 8,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Austin": 12292,
+          "Boston": 8301,
+          "Dallas": 19707,
+          "Los Angeles": 32173,
+          "Mountain View": 14219,
+          "New York City": 50307,
+          "San Diego": 4881,
+          "Washington D.C.": 8120
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Gender": {
+        "name": "Gender",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Female": 66200,
+          "Male": 83800
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Age": {
+        "name": "Age",
+        "type": "numerical",
+        "number_of_unique_values": 41,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 25,
+        "num_1qu": 35,
+        "num_median": 45,
+        "num_mean": 44.9502,
+        "num_3qu": 55,
+        "num_maximum": 65
+      },
+      "Income": {
+        "name": "Income",
+        "type": "numerical",
+        "number_of_unique_values": 71761,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -654,
+        "num_1qu": 80867.75,
+        "num_median": 93655,
+        "num_mean": 91252.7983,
+        "num_3qu": 104519,
+        "num_maximum": 177157
+      },
+      "Illness": {
+        "name": "Illness",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "No": 137861,
+          "Yes": 12139
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
