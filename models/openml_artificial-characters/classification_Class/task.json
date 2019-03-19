@@ -1,8 +1,8 @@
 [
   {
-    "id": "classification_Class",
-    "added_by": "BogdanJastrzebski",
-    "date": "12-03-2019",
+    "id": "classification_",
+    "added_by": "GoniaW",
+    "date": "13-03-2019",
     "dataset_id": "openml_artificial-characters",
     "type": "classification",
     "target": "Class"
