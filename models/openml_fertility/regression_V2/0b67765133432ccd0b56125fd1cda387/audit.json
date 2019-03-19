@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_0b67765133432ccd0b56125fd1cda387",
+    "date": "05-03-2019",
+    "added_by": "lukaszbrzozowski",
+    "model_id": "0b67765133432ccd0b56125fd1cda387",
+    "task_id": "regression_V2",
+    "dataset_id": "openml_fertility",
+    "performance": {
+      "mse": 0.0117139,
+      "rmse": 0.1082308,
+      "mae": 0.0861933,
+      "r2": 0.1172837
+    }
+  }
+]
