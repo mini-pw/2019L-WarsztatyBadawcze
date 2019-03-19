@@ -1,10 +1,10 @@
 [
   {
-    "id": "openml_dermatology",
+    "id": "openml_sonar",
     "added_by": "k-sap",
     "date": "19-03-2019",
-    "dataset_id": "dermatology",
+    "dataset_id": "sonar",
     "type": "classification",
-    "target": "class"
+    "target": "Class"
   }
 ]
