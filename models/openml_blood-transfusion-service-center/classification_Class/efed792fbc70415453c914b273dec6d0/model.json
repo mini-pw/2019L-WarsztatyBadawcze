@@ -1,17 +1,28 @@
 [
   {
-    "id": "eb0dcbda782b9cdf54be336015cc5f4a",
+    "id": "efed792fbc70415453c914b273dec6d0",
     "added_by": "wernerolaf",
-    "date": "11-03-2019",
-    "task_id": "regression_V3",
+    "date": "20-03-2019",
+    "library": "mlr",
+    "model_name": "classif.svm",
+    "task_id": "classification_Class",
     "dataset_id": "openml_blood-transfusion-service-center",
-    "parameters": [
-      {
-        "mtry": 3,
-        "splitrule": "variance",
-        "min.node.size": 5
-      }
-    ],
+    "parameters": {
+      "type": "C-classification",
+      "cost": 1,
+      "nu": 0.5,
+      "class.weights": null,
+      "kernel": "radial",
+      "degree": 3,
+      "coef0": 0,
+      "gamma": null,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
     "preprocessing": [
       {
         "V1": {

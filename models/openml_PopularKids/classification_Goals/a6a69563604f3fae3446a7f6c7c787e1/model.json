@@ -1,21 +1,27 @@
 [
   {
-    "id": "17d3c8d35162c6cd17a226a2ac0ba4d5",
+    "id": "a6a69563604f3fae3446a7f6c7c787e1",
     "added_by": "wernerolaf",
-    "date": "09-03-2019",
+    "date": "20-03-2019",
+    "library": "mlr",
+    "model_name": "classif.svm",
     "task_id": "classification_Goals",
     "dataset_id": "openml_PopularKids",
     "parameters": {
-      "minsplit": 20,
-      "minbucket": null,
-      "cp": 0.01,
-      "maxcompete": 4,
-      "maxsurrogate": 5,
-      "usesurrogate": 2,
-      "surrogatestyle": 0,
-      "maxdepth": 30,
-      "xval": 0,
-      "parms": null
+      "type": "C-classification",
+      "cost": 1,
+      "nu": 0.5,
+      "class.weights": null,
+      "kernel": "radial",
+      "degree": 3,
+      "coef0": 0,
+      "gamma": null,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
     },
     "preprocessing": [
       {
