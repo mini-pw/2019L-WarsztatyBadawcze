@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_a83d5cf9f3c9dc688b8e1f64b2e92047",
+    "date": "05-03-2019",
+    "added_by": "k-sap",
+    "model_id": "a83d5cf9f3c9dc688b8e1f64b2e92047",
+    "task_id": "classification_day",
+    "dataset_id": "openml_electricity",
+    "performance": {
+      "acc":  0.8950168,
+      "auc": 0.9639436,
+      "specificity": 0.9192899, 
+      "recall": 0.8620937, 
+      "precision": 0.8874325, 
+      "f1": 0.8745757 
+    }
+  }
+] 

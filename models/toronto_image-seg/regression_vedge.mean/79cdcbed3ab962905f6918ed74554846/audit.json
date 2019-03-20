@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_79cdcbed3ab962905f6918ed74554846",
+    "date": "13-03-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "79cdcbed3ab962905f6918ed74554846",
+    "task_id": "regression_vedge.mean",
+    "dataset_id": "toronto_image-seg",
+    "performance": {
+      "mse": 2.1144,
+      "rmse": 1.4541,
+      "mae": 0.6903,
+      "r2": 0.6958
+    }
+  }
+]

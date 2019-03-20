@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_c4867ef613cda9c0fb603c5c2f056d8a",
+    "date": "13-03-2019",
+    "added_by": "Pastuszka",
+    "model_id": "c4867ef613cda9c0fb603c5c2f056d8a",
+    "task_id": "classification_yc",
+    "dataset_id": "openml_prnn-synth",
+    "performance": {
+      "acc": 0.856,
+      "auc": 0.9344,
+      "specificity": 0.8553,
+      "recall": 0.8674,
+      "precision": 0.8562,
+      "f1": 0.8586
+    }
+  }
+]

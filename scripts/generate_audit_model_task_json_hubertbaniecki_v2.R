@@ -5,13 +5,20 @@
 library(jsonlite)
 library(mlr)
 
-make3JSON <- function(added_by, dataset_id, modelType, task, lrn, measure) {
+make3JSON <- function(dane, added_by, dataset_id, modelType, task, lrn, measure) {
 
+  # dane - dane
+  # added_by - string 
+  # dataset_id - dataset_id
+  # modelType - regression/classification
+  # task - mlr task
+  # lrn - mlr lrn
+  # measure - wektor nazw miar w postaci stringow
+  
+  
   # DATASET BEZ MISSING VALUES, pustych, "?", Unknown itp.
   # ewentualnie, jeżeli wiemy, że  missing to NA
   #dane <- na.omit(df)
-  
-  dane <- df
   
   # nazwy zmiennych muszą się zgadzać z tymi w code.R , ew. zmienić names(measures)
   # df - hash - classif_task - classif_lrn - r$aggr 
