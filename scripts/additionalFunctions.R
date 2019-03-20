@@ -13,31 +13,14 @@ getDataSet <- function(site, dataset_id) {
   return(siteData)
 }
 
-createOpenMLTaskWDS <- function(openMLData, local, added_by, target, learner, measurer, type, pars) {
-  require("OpenML")
-  require("farff")
+createTaskWDS <- function(site, dataSet, local, added_by, learner, measurer, type, pars) {
   if (local == TRUE) {
     stop("This one hasn't been implemented yet.")
   }
-  suppressMessages({
-    table <- na.omit(openMLData$data)
-    name <- openMLData$desc$name
-  })
-  createOpenMLTaskWDS.internal("openml", table, name, added_by, target, learner, measurer, type, pars)
+  createTaskWDS.internal(site, dataSet$data, dataSet$name, added_by, dataSet$target, learner, measurer, type, pars)
 }
 
-createTorontoTaskWDS <- function(name, local, added_by, target, learner, measurer, type, pars) {
-  if (local == TRUE) {
-    stop("This one hasn't been implemented yet.")
-  }
-  suppressMessages({
-    table <- na.omit(getTorontoData(name))
-    name <- openMLData$desc$name
-  })
-  createOpenMLTaskWDS.internal("toronto", table, name, added_by, target, learner, measurer, type, pars)
-}
-
-createOpenMLTaskWDS.internal <- function(site, table, name, added_by, target, learner, measurer, type, pars) {
+createTaskWDS.internal <- function(site, table, name, added_by, target, learner, measurer, type, pars) {
   if (measurer == "mlr" && type == "") {
     isRegr <- ifelse(substr(learner, 1, 4) == "clas", FALSE, TRUE)
     type <- ifelse(isRegr, "regression", "classification")

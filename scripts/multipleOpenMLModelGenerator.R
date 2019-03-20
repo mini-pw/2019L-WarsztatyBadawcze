@@ -128,14 +128,14 @@ generateMultipleModels <- function(username,
     message("Parameters: ")
     print(modelSettings$modelsParams[[i]])
     tryCatch(
-      createOpenMLTaskWDS(siteData, 
-                          local = FALSE,
-                          added_by = username, 
-                          target = target, 
-                          learner = modelSettings$modelsNames[i],
-                          pars = modelSettings$modelsParams[[i]],
-                          type = "",
-                          measurer = "mlr"),
+      createTaskWDS(site = site,
+                    siteData,
+                    local = FALSE,
+                    added_by = username,
+                    learner = modelSettings$modelsNames[i],
+                    pars = modelSettings$modelsParams[[i]],
+                    type = "",
+                    measurer = "mlr"),
       error = function(e) {
         warning("Internal error occured while creating model. ")
         message(e)
