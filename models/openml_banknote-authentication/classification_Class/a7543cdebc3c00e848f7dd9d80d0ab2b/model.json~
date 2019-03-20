@@ -1,14 +1,14 @@
 [
   {
-    "id": "0f416f89258de5a0f4945eb8979fe533",
+    "id": "a7543cdebc3c00e848f7dd9d80d0ab2b",
     "added_by": "Pastuszka",
     "date": "17-03-2019",
     "library": "mlr",
-    "model_name": "classif.ranger",
+    "model_name": "Random Forests",
     "task_id": "classification_Class",
     "dataset_id": "openml_banknote-authentication",
     "parameters": {
-      "num.trees": 1000,
+      "num.trees": 200,
       "mtry": null,
       "min.node.size": null,
       "replace": true,
@@ -24,7 +24,7 @@
       "verbose": false,
       "seed": null,
       "splitrule": "gini",
-      "num.random.splits": 2,
+      "num.random.splits": 5,
       "keep.inbag": false
     },
     "preprocessing": {
