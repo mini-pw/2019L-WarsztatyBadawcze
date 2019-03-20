@@ -1,27 +1,16 @@
 [
-    {
-        "id": "0b05bc74eca65d46db8228b61f7fc032",
-        "added_by": "k-sap",
-        "date": "13-03-2019",
-   	    "library": "mlr",
-        "model_name": "regr.evtree",
-        "task_id": "regression_Mg",
-        "dataset_id": "openml_glass",
-        "parameters": {
-		  "minibucket": "7",
-		  "minsplit": 20,
-		  "maxdepth": 9,
-		  "niterations": 10000,
-		  "ntrees": 100,
-		  "alpha": 1,
-		  "pmutatemajor": 20,
-		  "pmutateminor": 20,
-		  "pcrossover": 20,
-		  "psplit": 20,
-		  "pprune": 20
-
-        },
-        "preprocessing": {
+  {
+    "id": "openml_glass",
+    "added_by": "wernerolaf",
+    "date": "23-02-2019",
+    "name": "glass",
+    "source": "openml",
+    "url": "https://www.openml.org/d/41",
+    "number_of_features": 10,
+    "number_of_instances": 214,
+    "number_of_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "variables": {
       "RI": {
         "name": "RI",
         "type": "numerical",
