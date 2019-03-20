@@ -1,8 +1,8 @@
 [
   {
     "id": "classification_STATUS",
-    "added_by": "maksymiuks",
-    "date": "05-03-2019",
+    "added_by": "wernerolaf",
+    "date": "19-03-2019",
     "dataset_id": "openml_lupus",
     "type": "classification",
     "target": "STATUS"
