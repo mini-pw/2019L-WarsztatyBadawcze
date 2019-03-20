@@ -7,7 +7,7 @@
     "task_id": "classification_sex",
     "dataset_id": "kaggle_heart-disease",
     "performance": {
-      "acc": 0.7521311
+      "acc": 0.7521311,
       "auc": null,
       "specificity": null,
       "recall": null,
