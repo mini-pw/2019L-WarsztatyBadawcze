@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_25866dbd5f781862ffda16899489fae2",
+    "date": "20-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "25866dbd5f781862ffda16899489fae2",
+    "task_id": "classification_yc",
+    "dataset_id": "openml_prnn-synth",
+    "performance": {
+      "f1": 0.8586,
+      "acc": 0.856,
+      "auc": 0.9344,
+      "tnr": 0.8553,
+      "tpr": 0.8674,
+      "ppv": 0.8562
+    }
+  }
+]
