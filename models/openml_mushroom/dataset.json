@@ -1,0 +1,466 @@
+[
+  {
+    "id": "openml_mushroom",
+    "added_by": "airi314",
+    "date": "20-03-2019",
+    "name": "mushroom",
+    "source": "openml",
+    "url": "https://www.openml.org/data/v1/download/24/mushroom.arff",
+    "number_of_features": 23,
+    "number_of_instances": 8124,
+    "number_of_missing_values": 2480,
+    "number_of_instances_with_missing_values": 2480,
+    "variables": {
+      "cap.shape": {
+        "name": "cap.shape",
+        "type": "categorical",
+        "number_of_unique_values": 6,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 452,
+          "c": 4,
+          "f": 3152,
+          "k": 828,
+          "s": 32,
+          "x": 3656
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "cap.surface": {
+        "name": "cap.surface",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "f": 2320,
+          "g": 4,
+          "s": 2556,
+          "y": 3244
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "cap.color": {
+        "name": "cap.color",
+        "type": "categorical",
+        "number_of_unique_values": 10,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 168,
+          "c": 44,
+          "e": 1500,
+          "g": 1840,
+          "n": 2284,
+          "p": 144,
+          "r": 16,
+          "u": 16,
+          "w": 1040,
+          "y": 1072
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "bruises.3F": {
+        "name": "bruises.3F",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "f": 4748,
+          "t": 3376
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "odor": {
+        "name": "odor",
+        "type": "categorical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "a": 400,
+          "c": 192,
+          "f": 2160,
+          "l": 400,
+          "m": 36,
+          "n": 3528,
+          "p": 256,
+          "s": 576,
+          "y": 576
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "gill.attachment": {
+        "name": "gill.attachment",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "a": 210,
+          "d": 0,
+          "f": 7914,
+          "n": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "gill.spacing": {
+        "name": "gill.spacing",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "c": 6812,
+          "d": 0,
+          "w": 1312
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "gill.size": {
+        "name": "gill.size",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 5612,
+          "n": 2512
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "gill.color": {
+        "name": "gill.color",
+        "type": "categorical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 1728,
+          "e": 96,
+          "g": 752,
+          "h": 732,
+          "k": 408,
+          "n": 1048,
+          "o": 64,
+          "p": 1492,
+          "r": 24,
+          "u": 492,
+          "w": 1202,
+          "y": 86
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "stalk.shape": {
+        "name": "stalk.shape",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "e": 3516,
+          "t": 4608
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "stalk.root": {
+        "name": "stalk.root",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 2480,
+        "cat_frequencies": {
+          "b": 3776,
+          "c": 556,
+          "e": 1120,
+          "r": 192,
+          "u": 0,
+          "z": 0,
+          "NA's": 2480
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "stalk.surface.above.ring": {
+        "name": "stalk.surface.above.ring",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "f": 552,
+          "k": 2372,
+          "s": 5176,
+          "y": 24
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "stalk.surface.below.ring": {
+        "name": "stalk.surface.below.ring",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "f": 600,
+          "k": 2304,
+          "s": 4936,
+          "y": 284
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "stalk.color.above.ring": {
+        "name": "stalk.color.above.ring",
+        "type": "categorical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 432,
+          "c": 36,
+          "e": 96,
+          "g": 576,
+          "n": 448,
+          "o": 192,
+          "p": 1872,
+          "w": 4464,
+          "y": 8
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "stalk.color.below.ring": {
+        "name": "stalk.color.below.ring",
+        "type": "categorical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 432,
+          "c": 36,
+          "e": 96,
+          "g": 576,
+          "n": 512,
+          "o": 192,
+          "p": 1872,
+          "w": 4384,
+          "y": 24
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "veil.type": {
+        "name": "veil.type",
+        "type": "categorical",
+        "number_of_unique_values": 1,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "p": 8124,
+          "u": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "veil.color": {
+        "name": "veil.color",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "n": 96,
+          "o": 96,
+          "w": 7924,
+          "y": 8
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "ring.number": {
+        "name": "ring.number",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "n": 36,
+          "o": 7488,
+          "t": 600
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "ring.type": {
+        "name": "ring.type",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "c": 0,
+          "e": 2776,
+          "f": 48,
+          "l": 1296,
+          "n": 36,
+          "p": 3968,
+          "s": 0,
+          "z": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "spore.print.color": {
+        "name": "spore.print.color",
+        "type": "categorical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 48,
+          "h": 1632,
+          "k": 1872,
+          "n": 1968,
+          "o": 48,
+          "r": 72,
+          "u": 48,
+          "w": 2388,
+          "y": 48
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "population": {
+        "name": "population",
+        "type": "categorical",
+        "number_of_unique_values": 6,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "a": 384,
+          "c": 340,
+          "n": 400,
+          "s": 1248,
+          "v": 4040,
+          "y": 1712
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "habitat": {
+        "name": "habitat",
+        "type": "categorical",
+        "number_of_unique_values": 7,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "d": 3148,
+          "g": 2148,
+          "l": 832,
+          "m": 292,
+          "p": 1144,
+          "u": 368,
+          "w": 192
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "class": {
+        "name": "class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "e": 4208,
+          "p": 3916
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
