@@ -1,8 +1,10 @@
 [
   {
-    "id": "2e254a9fa09341ce4c29d4c9c83ca9d9",
+    "id": "ff9b66ce3c6b7c935306374bdecacf80",
     "added_by": "granatb",
     "date": "13-03-2019",
+	"library": "mlr",
+	"model_name": "classif.randomForestSRC",
     "task_id": "classification_danger_index",
     "dataset_id": "openml_sleep",
     "parameters": {
