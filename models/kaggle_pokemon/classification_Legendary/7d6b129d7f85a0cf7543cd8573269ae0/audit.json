@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_7d6b129d7f85a0cf7543cd8573269ae0",
+    "date": "14-03-2019",
+    "added_by": "hubertbaniecki",
+    "model_id": "7d6b129d7f85a0cf7543cd8573269ae0",
+    "task_id": "classification_Legendary",
+    "dataset_id": "kaggle_pokemon",
+    "performance": {
+      "acc": 0.9397,
+      "auc": 0.9644,
+      "specificity": 0.5175,
+      "recall": 0.9814,
+      "precision": 0.9538,
+      "f1": 0.9672
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_V2",
+    "added_by": "mckraqs",
+    "date": "08-03-2019",
+    "dataset_id": "openml_skin-segmentation",
+    "type": "regression",
+    "target": "V2"
+  }
+  ] 
