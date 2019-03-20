@@ -1,0 +1,94 @@
+[
+    {
+        "id": "d0c567b7bf5d78319bc9beeac1e01d67",
+        "added_by": "Siemashko",
+        "date": "12-03-2019",
+        "library": "scikit",
+        "model_name": "RandomForestClassifier",
+        "task_id": "classification_Sex",
+        "dataset_id": "openml_aids",
+        "parameters": {
+            "bootstrap": true,
+            "class_weight": null,
+            "criterion": "gini",
+            "max_depth": 2,
+            "max_features": 3,
+            "max_leaf_nodes": null,
+            "min_impurity_decrease": 0.0,
+            "min_impurity_split": null,
+            "min_samples_leaf": 1,
+            "min_samples_split": 2,
+            "min_weight_fraction_leaf": 0.0,
+            "n_estimators": 500,
+            "n_jobs": null,
+            "oob_score": false,
+            "random_state": null,
+            "verbose": 0,
+            "warm_start": false
+        },
+        "preprocessing": {
+            "Age": {
+                "name": "Age",
+                "type": "categorical",
+                "number_of_unique_values": 5,
+                "number_of_missing_values": 0,
+                "cat_frequencies": {
+                    "0.0": 9,
+                    "1.0": 6,
+                    "2.0": 10,
+                    "3.0": 10,
+                    "4.0": 7
+                },
+                "num_minimum": null,
+                "num_1qu": null,
+                "num_median": null,
+                "num_mean": null,
+                "num_3qu": null,
+                "num_maximum": null
+            },
+            "Race": {
+                "name": "Race",
+                "type": "categorical",
+                "number_of_unique_values": 5,
+                "number_of_missing_values": 0,
+                "cat_frequencies": {
+                    "0.0": 8,
+                    "1.0": 8,
+                    "2.0": 9,
+                    "3.0": 7,
+                    "4.0": 10
+                },
+                "num_minimum": null,
+                "num_1qu": null,
+                "num_median": null,
+                "num_mean": null,
+                "num_3qu": null,
+                "num_maximum": null
+            },
+            "AIDS": {
+                "name": "AIDS",
+                "type": "numerical",
+                "number_of_unique_values": 42,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 3.0,
+                "num_1qu": 114.5,
+                "num_median": 2048.0,
+                "num_3q": 9073.75,
+                "num_maximum": 82334.0
+            },
+            "Total": {
+                "name": "Total",
+                "type": "numerical",
+                "number_of_unique_values": 42,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 162616.0,
+                "num_1qu": 706360.5,
+                "num_median": 1811587.0,
+                "num_3q": 3683905.25,
+                "num_maximum": 22686934.0
+            }
+        }
+    }
+]

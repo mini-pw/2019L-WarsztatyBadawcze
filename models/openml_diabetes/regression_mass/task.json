@@ -1,0 +1,10 @@
+[
+  {
+    "id": "regression_mass",
+    "added_by": "pysiakk",
+    "date": "12-03-2019",
+    "dataset_id": "openml_diabetes",
+    "type": "regression",
+    "target": "mass"
+  }
+]

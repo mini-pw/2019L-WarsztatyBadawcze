@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_e0ae5a9a07b95e41e81739b94d67735b",
+    "date": "13-03-2019",
+    "added_by": "witoldmerkel",
+    "model_id": "e0ae5a9a07b95e41e81739b94d67735b",
+    "task_id": "regression_AIDS",
+    "dataset_id": "openml_aids",
+    "performance": {
+      "mse": 170606832,
+      "rmse": 13061.66,
+      "mae": 10092.32,
+      "r2": 0.4486211
+    }
+  }
+]
