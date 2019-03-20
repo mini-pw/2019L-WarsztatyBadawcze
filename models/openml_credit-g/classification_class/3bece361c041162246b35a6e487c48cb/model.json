@@ -2,9 +2,9 @@
   {
     "id": "3bece361c041162246b35a6e487c48cb",
     "added_by": "Adamoso",
-    "date": "15-03-2019",
+    "date": "19-03-2019",
     "library": "mlr",
-    "model_name": "Random Forest",
+    "model_name": "classif.randomForest",
     "task_id": "classification_class",
     "dataset_id": "openml_credit-g",
     "parameters": {

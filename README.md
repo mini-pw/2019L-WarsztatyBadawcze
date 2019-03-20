@@ -16,10 +16,10 @@ Strona przedmiotu Warsztaty Badawcze dla specjalności IAD na wydziale MiNI PW
 * [2] W: Modele niskowymiarowe ([lm](https://www.youtube.com/watch?v=Q4GNLhRtZNc&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=18), [regresja logistyczna](https://www.youtube.com/watch?v=-la3q9d7AKQ&index=32&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN), [drzewa](https://medium.com/analytics-vidhya/a-guide-to-machine-learning-in-r-for-beginners-decision-trees-c24dfd490abb), [svm](https://www.youtube.com/watch?v=hCOIMkcsm_g&index=70&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)). Wprowadzenie do biblioteki [mlr](https://mlr.mlr-org.com/) do trenowania modeli. 
 * [3] W: Miary oceny modelu (loss functions, CV), Wprowadzenie do biblioteki [caret](http://topepo.github.io/caret/index.html) do trenowania modeli.
 * [4] W: Modele wysokowymiarowe (lasy, xgboost, [sieci neuronowe](https://www.youtube.com/watch?v=1ZhtwInuOD0&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=43)) 
-* [5] W: . Strategie doboru hiperparametrów (random search, grid search, [mlrMBO](http://mlrmbo.mlr-org.com))
-* [6] W: **Prezentacje Pracy domowej**. Wybór zmiennych (filtr, greed search) Wprowadzenie do biblioteki [parsnip](https://tidymodels.github.io/parsnip/) do trenowania modeli.
-* [7] W: Inżynieria zmiennych
-* [8] W: *Prezentacja I części projektu*
+* [5] W: Wyjaśnialne uczenie maszynowe ([DALEX](https://github.com/pbiecek/DALEX))
+* [6] W: **Prezentacje Pracy domowej**. Wprowadzenie do biblioteki [parsnip](https://tidymodels.github.io/parsnip/) do trenowania modeli.
+* [7] W: Wybór zmiennych (filtr, greed search), inżynieria zmiennych.
+* [8] W: *Prezentacja I części projektu*, Strategie doboru hiperparametrów (random search, grid search, [mlrMBO](http://mlrmbo.mlr-org.com)).
 * [9] W: Testy modelu - jak ich używać
 * [10] W: Testy modelu - jak je robić
 * [11] W: Wyjaśniacze PDP jak je robić
