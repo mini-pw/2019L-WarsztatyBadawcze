@@ -1,10 +1,10 @@
 [
   {
-    "id": "openml_boston",
+    "id": "openml_lupus",
     "added_by": "maksymiuks",
     "date": "20-03-2019",
-    "dataset_id": "boston",
+    "dataset_id": "lupus",
     "type": "classification",
-    "target": "binaryClass"
+    "target": "STATUS"
   }
 ]
