@@ -201,7 +201,7 @@ createOpenMLTaskWDS.internal <- function(site, table, name, added_by, target, le
     write(getFilledCode(site, name, target, learner, mes, measurer, parsText, hash, isRegr),
           paste0(site, "_", name, sep, type, "_", target, sep, hash, sep, "code.R"))
     sink(paste0(site, "_", name, sep, type, "_", target, sep, hash, sep, "sessionInfo.txt"))
-    sessionInfo()
+    print(sessionInfo())
     sink()
   }
   

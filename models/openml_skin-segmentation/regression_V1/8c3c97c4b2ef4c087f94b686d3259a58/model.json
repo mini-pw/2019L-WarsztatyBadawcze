@@ -3,7 +3,7 @@
 	"added_by": "mckraqs",
 	"date": "02-03-2019",
 	"library": "mlr",
-	"model": "regr.gbm",
+	"model_name": "regr.gbm",
 	"task_id": "regression_V1",
 	"dataset_id": "openml_skin-segmentation",
 	"parameters": {
