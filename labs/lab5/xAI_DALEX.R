@@ -1,5 +1,7 @@
 # install.packages("DALEX")
 # install.packages("auditor")
+# https://github.com/pbiecek/DALEX
+# https://pbiecek.github.io/DALEX_docs/
 library(DALEX)
 library(auditor)
 library(randomForest)
@@ -66,7 +68,7 @@ plot(svd_rf, svd_lm)
 
 
 # Detailed models
-
+library(auditor)
 audit_lm <- audit(apartments_lm_model, 
                   data = apartmentsTest, y = apartmentsTest$m2.price)
 audit_rf <- audit(apartments_rf_model, 
@@ -79,8 +81,8 @@ plot(audit_rf, type = "Prediction", variable = "m2.price")
 # Improved model
 library("DALEX")
 
-apartments_lm_model_improved <- lm(m2.price ~ I(construction.year < 1935 | construction.year > 1995) + surface + floor + 
-                                     no.rooms + district, data = apartments)
+apartments_lm_model_improved <- lm(m2.price ~ I(construction.year < 1935 | construction.year > 1995) + 
+                                     surface + floor + no.rooms + district, data = apartments)
 
 explainer_lm_improved <- explain(apartments_lm_model_improved, label = "lm_imp",
                                  data = apartmentsTest[,2:6], y = apartmentsTest$m2.price)
