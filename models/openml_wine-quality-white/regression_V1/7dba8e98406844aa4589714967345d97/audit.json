@@ -1,0 +1,17 @@
+[
+  {
+    "id": "audit_7dba8e98406844aa4589714967345d97",
+    "date": "12-03-2019",
+    "added_by": "pmizinski",
+    "model_id": "7dba8e98406844aa4589714967345d97",
+    "task_id": "regression_V1",
+    "dataset_id": "openml_wine-quality-white",
+    "performance": {
+      "mse": 0.2907211,
+      "rmse": 0.5391856,
+      "mae": 0.3772674,
+      "r2": 0.6226222
+      
+    }
+  }
+  ] 
