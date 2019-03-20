@@ -1,8 +1,21 @@
 source("extendedDataGetter.R")
+source("dataSet.R")
+
+getDataSet <- function(site, dataset_id) {
+  if (site == "openml") {
+    siteData <- getOMLDataSet(data.id = dataset_id)
+    siteData <- as.DataSet(siteData)
+  } else if (site == "toronto") {
+    siteData <- getTorontoDataSet(name = dataset_id)
+  } else {
+    error("This function doesn't support using this site. Please implement it and commit to Github")
+  }
+  return(siteData)
+}
 
 createOpenMLTaskWDS <- function(openMLData, local, added_by, target, learner, measurer, type, pars) {
-  library("OpenML")
-  library("farff")
+  require("OpenML")
+  require("farff")
   if (local == TRUE) {
     stop("This one hasn't been implemented yet.")
   }
@@ -11,6 +24,17 @@ createOpenMLTaskWDS <- function(openMLData, local, added_by, target, learner, me
     name <- openMLData$desc$name
   })
   createOpenMLTaskWDS.internal("openml", table, name, added_by, target, learner, measurer, type, pars)
+}
+
+createTorontoTaskWDS <- function(name, local, added_by, target, learner, measurer, type, pars) {
+  if (local == TRUE) {
+    stop("This one hasn't been implemented yet.")
+  }
+  suppressMessages({
+    table <- na.omit(getTorontoData(name))
+    name <- openMLData$desc$name
+  })
+  createOpenMLTaskWDS.internal("toronto", table, name, added_by, target, learner, measurer, type, pars)
 }
 
 createOpenMLTaskWDS.internal <- function(site, table, name, added_by, target, learner, measurer, type, pars) {
