@@ -3,6 +3,8 @@
         "id": "a6474813ee1d35cc3b426999bf378279",
         "added_by": "Siemashko",
         "date": "19-03-2019",
+	"library": "scikit",
+	"model_name": "MLPRegressor",
         "task_id": "regression_NUMDEFECTS",
         "dataset_id": "openml_kc1-numeric",
         "parameters": {
