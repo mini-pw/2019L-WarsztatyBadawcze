@@ -4,7 +4,7 @@
         "added_by": "mckraqs",
         "date": "16-03-2019",
         "library": "scikit",
-        "model": "KNeighborsClassifier",
+        "model_name": "KNeighborsClassifier",
         "task_id": "classification_Survival_status",
         "dataset_id": "openml_haberman",
         "parameters": {

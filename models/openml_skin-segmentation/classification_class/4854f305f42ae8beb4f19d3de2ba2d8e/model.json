@@ -3,7 +3,7 @@
 	"added_by": "mckraqs",
 	"date": "02-03-2019",
 	"library": "mlr",
-	"model": "classif.logreg",
+	"model_name": "classif.logreg",
 	"task_id": "classification_Class",
 	"dataset_id": "openml_skin-segmentation",
 	"parameters": {

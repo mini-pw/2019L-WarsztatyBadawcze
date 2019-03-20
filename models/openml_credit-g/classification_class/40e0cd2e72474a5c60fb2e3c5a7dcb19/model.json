@@ -2,9 +2,9 @@
   {
     "id": "40e0cd2e72474a5c60fb2e3c5a7dcb19",
     "added_by": "Adamoso",
-    "date": "15-03-2019",
+    "date": "19-03-2019",
     "library": "mlr",
-    "model_name": "Random forest based on conditional inference trees",
+    "model_name": "classif.cforest",
     "task_id": "classification_class",
     "dataset_id": "openml_credit-g",
     "parameters": {

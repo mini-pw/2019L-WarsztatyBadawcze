@@ -1,0 +1,18 @@
+[
+    {
+      "id": "audit_71d19aab84a554ef20475ad007c66c85",
+      "date": "06-03-2019",
+      "added_by": "lukaszbrzozowski",
+      "model_id": "71d19aab84a554ef20475ad007c66c85",
+      "task_id": "classification_erythema",
+      "dataset_id": "openml_dermatology",
+      "performance": {
+        "acc":  0.5251174,
+        "auc":  null,
+        "specificity": null,
+        "recall": null,
+        "precision": null,
+        "f1": null
+      }
+    }
+  ]
