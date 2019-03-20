@@ -8,7 +8,7 @@
     "task_id": "regression_quality",
     "dataset_id": "kaggle_red-wine-quality",
     "parameters": {
-        "neurons: 50
+        "neurons": 50
       },
     "preprocessing": {
       "fixed acidity": {
