@@ -1,0 +1,663 @@
+[{
+	"id": "4f7335dba39287076182cbed5cffa904",
+	"added_by": "lukaszbrzozowski",
+	"date": "05-03-2019",
+	"library": "mlr",
+	"model_name": "classif.glmnet",
+	"task_id": "classification_class",
+	"dataset_id": "openml_dermatology",
+	"parameters": {
+  	"alpha": 1,
+    "s": 0.01,
+    "exact": false,
+    "nlambda": 100,
+    "lambda.min.ratio": null,
+    "lambda": null,
+    "standardize": true,
+    "intercept": true,
+    "thresh": 1e-07,
+    "dfmax": null,
+    "pmax": null,
+    "exclude": null,
+    "penalty.factor": null,
+    "lower.limits": null,
+    "upper.limits": null,
+    "maxit": 100000,
+    "type.logistic": null,
+    "type.multinomial": null,
+    "fdev": 1e-05,
+    "devmax": 0.999,
+    "eps": 1e-06,
+    "big": 9.9e+35,
+    "mnlam": 5,
+    "pmin": 1e-09,
+    "exmx": 250,
+    "prec": 1e-10,
+    "mxit": 100
+	},
+  "preprocessing": {
+		"clubbing_of_the_rete_ridges": {
+							"cat_frequencies": {
+									"0.0": 252,
+									"2.0": 61,
+									"1.0": 19,
+									"3.0": 34
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "clubbing_of_the_rete_ridges",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"parakeratosis": {
+							"cat_frequencies": {
+									"0.0": 86,
+									"2.0": 132,
+									"1.0": 118,
+									"3.0": 30
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "parakeratosis",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"family_history": {
+							"cat_frequencies": {
+									"0.0": 320,
+									"1.0": 46
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 2,
+							"name": "family_history",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"perifollicular_parakeratosis": {
+							"cat_frequencies": {
+									"0.0": 345,
+									"2.0": 13,
+									"1.0": 4,
+									"3.0": 4
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "perifollicular_parakeratosis",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"polygonal_papules": {
+							"cat_frequencies": {
+									"0.0": 297,
+									"2.0": 41,
+									"1.0": 1,
+									"3.0": 27
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "polygonal_papules",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"elongation_of_the_rete_ridges": {
+							"cat_frequencies": {
+									"0.0": 198,
+									"2.0": 95,
+									"1.0": 23,
+									"3.0": 50
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "elongation_of_the_rete_ridges",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"follicular_horn_plug": {
+							"cat_frequencies": {
+									"0.0": 344,
+									"2.0": 8,
+									"1.0": 10,
+									"3.0": 4
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "follicular_horn_plug",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"vacuolisation_and_damage_of_basal_layer": {
+							"cat_frequencies": {
+									"0.0": 294,
+									"2.0": 43,
+									"1.0": 3,
+									"3.0": 26
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "vacuolisation_and_damage_of_basal_layer",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"fibrosis_of_the_papillary_dermis": {
+							"cat_frequencies": {
+									"0.0": 312,
+									"2.0": 23,
+									"1.0": 8,
+									"3.0": 23
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "fibrosis_of_the_papillary_dermis",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"thinning_of_the_suprapapillary_epidermis": {
+							"cat_frequencies": {
+									"0.0": 256,
+									"2.0": 60,
+									"1.0": 19,
+									"3.0": 31
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "thinning_of_the_suprapapillary_epidermis",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"Age": {
+							"num_3q": 49.75,
+							"cat_frequencies": null,
+							"name": "Age",
+							"num_maximum": 75.0,
+							"number_of_unique_values": 60,
+							"num_median": 35.0,
+							"type": "numerical",
+							"number_of_missing_values": 0,
+							"num_minimum": 0.0,
+							"num_1qu": 25.0
+					},
+					"spongiform_pustule": {
+							"cat_frequencies": {
+									"0.0": 296,
+									"2.0": 26,
+									"1.0": 38,
+									"3.0": 6
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "spongiform_pustule",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"definite_borders": {
+							"cat_frequencies": {
+									"0.0": 59,
+									"2.0": 168,
+									"1.0": 93,
+									"3.0": 46
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "definite_borders",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"itching": {
+							"cat_frequencies": {
+									"0.0": 118,
+									"2.0": 100,
+									"1.0": 72,
+									"3.0": 76
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "itching",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"focal_hypergranulosis": {
+							"cat_frequencies": {
+									"0.0": 295,
+									"2.0": 43,
+									"1.0": 13,
+									"3.0": 15
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "focal_hypergranulosis",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"oral_mucosal_involvement": {
+							"cat_frequencies": {
+									"0.0": 299,
+									"2.0": 45,
+									"1.0": 9,
+									"3.0": 13
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "oral_mucosal_involvement",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"inflammatory_monoluclear_inflitrate": {
+							"cat_frequencies": {
+									"0.0": 13,
+									"2.0": 206,
+									"1.0": 85,
+									"3.0": 62
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "inflammatory_monoluclear_inflitrate",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"munro_microabcess": {
+							"cat_frequencies": {
+									"0.0": 286,
+									"2.0": 33,
+									"1.0": 37,
+									"3.0": 10
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "munro_microabcess",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"knee_and_elbow_involvement": {
+							"cat_frequencies": {
+									"0.0": 251,
+									"2.0": 64,
+									"1.0": 28,
+									"3.0": 23
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "knee_and_elbow_involvement",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"scaling": {
+							"cat_frequencies": {
+									"0.0": 8,
+									"2.0": 195,
+									"1.0": 111,
+									"3.0": 52
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "scaling",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"erythema": {
+							"cat_frequencies": {
+									"0.0": 4,
+									"2.0": 215,
+									"1.0": 57,
+									"3.0": 90
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "erythema",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"melanin_incontinence": {
+							"cat_frequencies": {
+									"0.0": 296,
+									"2.0": 46,
+									"1.0": 8,
+									"3.0": 16
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "melanin_incontinence",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"saw-tooth_appearance_of_retes": {
+							"cat_frequencies": {
+									"0.0": 294,
+									"2.0": 40,
+									"1.0": 5,
+									"3.0": 27
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "saw-tooth_appearance_of_retes",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"class": {
+							"cat_frequencies": {
+									"1": 61,
+									"0": 112,
+									"3": 49,
+									"2": 72,
+									"5": 20,
+									"4": 52
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 6,
+							"name": "class",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"exocytosis": {
+							"cat_frequencies": {
+									"0.0": 118,
+									"2.0": 129,
+									"1.0": 57,
+									"3.0": 62
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "exocytosis",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"hyperkeratosis": {
+							"cat_frequencies": {
+									"0.0": 227,
+									"2.0": 44,
+									"1.0": 90,
+									"3.0": 5
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "hyperkeratosis",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"koebner_phenomenon": {
+							"cat_frequencies": {
+									"0.0": 224,
+									"2.0": 54,
+									"1.0": 70,
+									"3.0": 18
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "koebner_phenomenon",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"eosinophils_in_the_infiltrate": {
+							"cat_frequencies": {
+									"0.0": 324,
+									"2.0": 9,
+									"1.0": 33
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 3,
+							"name": "eosinophils_in_the_infiltrate",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"disappearance_of_the_granular_layer": {
+							"cat_frequencies": {
+									"0.0": 273,
+									"2.0": 49,
+									"1.0": 30,
+									"3.0": 14
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "disappearance_of_the_granular_layer",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"acanthosis": {
+							"cat_frequencies": {
+									"0.0": 10,
+									"2.0": 210,
+									"1.0": 71,
+									"3.0": 75
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "acanthosis",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"band-like_infiltrate": {
+							"cat_frequencies": {
+									"0.0": 289,
+									"2.0": 22,
+									"1.0": 3,
+									"3.0": 52
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "band-like_infiltrate",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"follicular_papules": {
+							"cat_frequencies": {
+									"0.0": 333,
+									"2.0": 16,
+									"1.0": 11,
+									"3.0": 6
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "follicular_papules",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"spongiosis": {
+							"cat_frequencies": {
+									"0.0": 199,
+									"2.0": 96,
+									"1.0": 28,
+									"3.0": 43
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "spongiosis",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"scalp_involvement": {
+							"cat_frequencies": {
+									"0.0": 264,
+									"2.0": 56,
+									"1.0": 30,
+									"3.0": 16
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "scalp_involvement",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					},
+					"PNL_infiltrate": {
+							"cat_frequencies": {
+									"0.0": 235,
+									"2.0": 55,
+									"1.0": 69,
+									"3.0": 7
+							},
+							"num_3qu": null,
+							"number_of_unique_values": 4,
+							"name": "PNL_infiltrate",
+							"num_maximum": null,
+							"num_mean": null,
+							"number_of_missing_values": 0,
+							"num_minimum": null,
+							"num_median": null,
+							"type": "categorical",
+							"num_1qu": null
+					}
+				}
+			}]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_beaa2277831980d3df006d2e8167b81a",
+    "date": "28-02-2019",
+    "added_by": "GoniaW",
+    "model_id": "beaa2277831980d3df006d2e8167b81a",
+    "task_id": "regression_pedi",
+    "dataset_id": "openml_diabetes",
+    "performance": {
+      "mse":  0.1317857,
+      "rmse": 0.3630231,
+      "mae": 0.2696386,
+      "r2": -0.2183094
+    }
+  }
+]

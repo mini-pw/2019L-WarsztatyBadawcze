@@ -1,0 +1,16 @@
+[
+    {
+        "id": "audit_8929863fb127b68256f53c16e5476a2a",
+        "date": "20-03-2019",
+        "added_by": "Siemashko",
+        "model_id": "8929863fb127b68256f53c16e5476a2a",
+        "task_id": "regression_NUMDEFECTS",
+        "dataset_id": "openml_kc1-numeric",
+        "performance": {
+            "MSE": 43.70034300043042,
+            "RMSE": 6.61062349558878,
+            "MAE": 2.9762262496764293,
+            "R2": 0.5396359478450218
+        }
+    }
+]
