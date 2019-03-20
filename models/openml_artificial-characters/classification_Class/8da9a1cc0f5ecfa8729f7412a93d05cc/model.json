@@ -2,6 +2,8 @@
 	"id": "8da9a1cc0f5ecfa8729f7412a93d05cc",
 	"added_by": "BogdanJastrzebski",
 	"date": "12-03-2019",
+	"library": "mlr",
+    	"model_name": "classif.randomForest",
 	"task_id": "classification_Class",
 	"dataset_id": "openml_artificial-characters",
 	"parameters": {
