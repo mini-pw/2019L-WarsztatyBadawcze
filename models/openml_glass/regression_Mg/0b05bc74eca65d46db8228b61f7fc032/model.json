@@ -3,6 +3,8 @@
         "id": "0b05bc74eca65d46db8228b61f7fc032",
         "added_by": "k-sap",
         "date": "13-03-2019",
+   	    "library": "mlr",
+        "model_name": "regr.evtree",
         "task_id": "regression_Mg",
         "dataset_id": "openml_glass",
         "parameters": {
