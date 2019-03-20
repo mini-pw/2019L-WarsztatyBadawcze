@@ -1,10 +1,10 @@
 [
   {
-    "id": "classification_STATUS",
+    "id": "classification_Class",
     "added_by": "wernerolaf",
     "date": "19-03-2019",
-    "dataset_id": "openml_lupus",
+    "dataset_id": "openml_fertility",
     "type": "classification",
-    "target": "STATUS"
+    "target": "Class"
   }
 ]
