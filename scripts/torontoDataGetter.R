@@ -26,12 +26,12 @@ head(dataset)
 head(dataset)
 
 #:# model
-task = make", ifelse(isRegr, "Regr", "Classif"), "Task(id = \"", name, "\", data = dataset, target = \"", target, "\")
+task = make", ifelse(isRegr, "Regr", "Classif"), "Task(id = \"task\", data = dataset, target = \"", target, "\")
 lrn = makeLearner(\"", learner, "\", par.vals = ", deparse(pars), ifelse(isRegr, "", ", predict.type = \"prob\""), ")
 
 #:# hash 
 #:# ", hash, "
-hash <- digest(lrn)
+hash <- digest(list(task, lrn))
 hash
 
 #:# audit
@@ -43,7 +43,8 @@ ACC
 #:# session info
 sink(paste0(\"sessionInfo.txt\"))
 sessionInfo()
-sink()"))
+sink()"
+                ))
 }
 
 extendedTwoClassSummary <- function (data, lev = NULL, model = NULL) {
@@ -146,13 +147,23 @@ createTorontoDataset <- function(name, added_by) {
   write(dataJson, paste0("./toronto_", name, "/dataset.json"))
 }
 
-createTorontoTask <- function(name, added_by, target, learner, measurer = "mlr", type = "", pars = list(), local = FALSE) {
+createTask <- function(site, ...) {
+  if (site == "toronto") {
+    createTorontoTask(...)
+  }
+}
+
+createTorontoTask <- function(name, local = FALSE, ...) {
   if (local) {
     table <- read.csv(paste0(name, ".csv"))
   }
   else {
     table <- getTorontoData(name)
   }
+  createTask.internal("toronto", table, name, ...)
+}
+
+createTask.internal <- function(site, table, name, added_by, target, learner, measurer = "mlr", type = "", pars = list()) {
   if (measurer == "mlr" && type == "") {
     isRegr <- ifelse(substr(learner, 1, 4) == "clas", FALSE, TRUE)
     type <- ifelse(isRegr, "regression", "classification")
@@ -191,30 +202,33 @@ createTorontoTask <- function(name, added_by, target, learner, measurer = "mlr",
       }
     }
     if (isRegr) {
-      task <- makeRegrTask(id = paste0("toronto_", name), data = table, target = target)
+      task <- makeRegrTask(id = "task", data = table, target = target)
       lrn <- makeLearner(learner, par.vals = pars)
       r <- resample(lrn, task, cv, measures = mes)
     }
     else {
-      task <- makeClassifTask(id = paste0("toronto_", name), data = table, target = target)
+      task <- makeClassifTask(id = "task", data = table, target = target)
       lrn <- makeLearner(learner, par.vals = pars, predict.type = "prob")
       r <- resample(lrn, task, cv, measures = mes)
     }
     results <- r$aggr
     params <- processParams(getParamSet(lrn), getHyperPars(lrn))
+    internalName <- lrn$name
+    hash <- digest(list(task, lrn))
   }
   else if (measurer == "caret") {
     train_control <- trainControl(method = "cv", number = 5,
-      summaryFunction = ifelse(length(unique(table$target)) == 2, extendedTwoClassSummary, defaultSummary))
+                                  summaryFunction = ifelse(length(unique(table$target)) == 2, extendedTwoClassSummary, defaultSummary))
+    train_formula <- as.formula(paste0(target, " ~ ."))
     if (is_empty(pars)) {
-      cvx <- caret::train(as.formula(paste0(target, " ~ .")), data = table, method = learner, trControl = train_control)
+      cvx <- caret::train(train_formula, data = table, method = learner, trControl = train_control)
       tune <- cvx$bestTune
       params <- cvx$bestTune
-      cvx <- caret::train(as.formula(paste0(target, " ~ .")), data = table, method = learner, tuneGrid = expand.grid(tune),
+      cvx <- caret::train(train_formula, data = table, method = learner, tuneGrid = expand.grid(tune),
                           trControl = train_control)
     }
     else {
-      cvx <- caret::train(as.formula(paste0(target, " ~ .")), data = table, method = learner, tuneGrid = expand.grid(pars),
+      cvx <- caret::train(train_formula, data = table, method = learner, tuneGrid = expand.grid(pars),
                           trControl = train_control)
       params <- pars
     }
@@ -230,20 +244,21 @@ createTorontoTask <- function(name, added_by, target, learner, measurer = "mlr",
         results <- cvx$results[, "Accuracy"]
       }
     }
+    internalName <- cvx$modelInfo$label
+    hash <- digest(list(train_formula, table, learner, params))
   }
   
   params <- as.list(params)
   
   if (isRegr) {
     length(results) <- 4
-    names(results) <- c("MSE", "RMSE", "MAE", "R2")
+    names(results) <- c("mse", "rmse", "mae", "r2")
   }
   else {
     length(results) <- 6
-    names(results) <- c("ACC", "AUC", "Specificity", "Recall", "Precision", "F1")
+    names(results) <- c("acc", "auc", "specificity", "recall", "precision", "f1")
   }
   
-  hash <- digest(learner)
   toAuditJson <- list(id = paste0("audit_", hash),
                       date = format(Sys.Date(), "%d-%m-%Y"),
                       added_by = added_by,
@@ -259,6 +274,8 @@ createTorontoTask <- function(name, added_by, target, learner, measurer = "mlr",
   toModelJson <- list(id = hash,
                       added_by = added_by,
                       date = format(Sys.Date(), "%d-%m-%Y"),
+                      library = measurer,
+                      model_name = internalName,
                       task_id = paste0(type, "_", target),
                       dataset_id = paste0("toronto_", name),
                       parameters = params,
