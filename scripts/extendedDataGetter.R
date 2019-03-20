@@ -143,6 +143,12 @@ getTorontoData <- function(name, saveToCsv = FALSE) {
   return(table)
 }
 
+getTorontoDataSet <- function(name) {
+  #creating DataSet object
+  dataSet <- DataSet(getTorontoData(name), name)
+  return(dataSet)
+}
+
 createDataset.internal <- function(site, table, name, added_by, source, url, variables) {
   toDataJson <- list(id = paste0(site, "_", name),
                      added_by = added_by,
