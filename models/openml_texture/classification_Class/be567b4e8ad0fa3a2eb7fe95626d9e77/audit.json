@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_be567b4e8ad0fa3a2eb7fe95626d9e77",
+    "date": "19-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "be567b4e8ad0fa3a2eb7fe95626d9e77",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_texture",
+    "performance": {
+      "f1": null,
+      "acc": 0.988,
+      "auc": null,
+      "tnr": null,
+      "tpr": null,
+      "ppv": null
+    }
+  }
+]

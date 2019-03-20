@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_855c99577081dfcdfee6dc6662fec5cd",
+    "date": "19-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "855c99577081dfcdfee6dc6662fec5cd",
+    "task_id": "classification_Goals",
+    "dataset_id": "openml_PopularKids",
+    "performance": {
+      "f1": null,
+      "acc": 0.5253,
+      "auc": null,
+      "tnr": null,
+      "tpr": null,
+      "ppv": null
+    }
+  }
+]

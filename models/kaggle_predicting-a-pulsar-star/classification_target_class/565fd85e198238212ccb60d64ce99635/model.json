@@ -2,6 +2,8 @@
 	"id": "565fd85e198238212ccb60d64ce99635",
 	"added_by": "BogdanJastrzebski",
 	"date": "12-03-2019",
+	"library": "caret",
+    	"model_name": "kknn",
 	"task_id": "classification_target_class",
 	"dataset_id": "kaggle_predicting-a-pulsar-star",
 	"parameters": {
