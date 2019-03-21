@@ -3,7 +3,7 @@
     "id": "d899d5862c965ec1560eadf80cb1c784",
     "added_by": "witoldmerkel",
     "date": "13-03-2019",
-    "library": "mar",
+    "library": "mlr",
     "model_name": "classif.boosting",
     "task_id": "classification_Sex",
     "dataset_id": "openml_irish",
