@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_class",
+    "added_by": "wernerolaf",
+    "date": "19-03-2019",
+    "dataset_id": "openml_monk-problems-1",
+    "type": "classification",
+    "target": "class"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_f55a2ad46af3966d8377aa2e2b44fb09",
+    "date": "13-03-2019",
+    "added_by": "maksymiuks",
+    "model_id": "f55a2ad46af3966d8377aa2e2b44fb09",
+    "task_id": "regression_f1",
+    "dataset_id": "openml_isolet",
+    "performance": {
+      "mse": 0.0055,
+      "rmse": 0.0743,
+      "mae": 0.0527,
+      "r2": 0.9014
+    }
+  }
+]

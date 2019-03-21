@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_9cba280602307ece30cce2816e003fa1",
+    "date": "20-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "9cba280602307ece30cce2816e003fa1",
+    "task_id": "classification_Survival_status",
+    "dataset_id": "openml_haberman",
+    "performance": {
+      "f1": 0.8389,
+      "acc": 0.729,
+      "auc": 0.7066,
+      "tnr": 0.0879,
+      "tpr": 0.9664,
+      "ppv": 0.7464
+    }
+  }
+]
