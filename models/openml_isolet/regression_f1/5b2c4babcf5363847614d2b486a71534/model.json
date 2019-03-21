@@ -3,6 +3,8 @@
     "id": "5b2c4babcf5363847614d2b486a71534",
     "added_by": "maksymiuks",
     "date": "05-03-2019",
+    "library": "mlr",
+    "model_name": "regr.gbm",
     "task_id": "regression_f1",
     "dataset_id": "openml_isolet",
     "parameters": {
