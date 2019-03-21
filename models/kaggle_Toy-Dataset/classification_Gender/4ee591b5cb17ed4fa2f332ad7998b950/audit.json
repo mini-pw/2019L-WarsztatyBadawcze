@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_4ee591b5cb17ed4fa2f332ad7998b950",
+    "date": "14-03-2019",
+    "added_by": "hubertbaniecki",
+    "model_id": "4ee591b5cb17ed4fa2f332ad7998b950",
+    "task_id": "classification_Gender",
+    "dataset_id": "kaggle_Toy-Dataset",
+    "performance": {
+      "acc": 0.6722,
+      "auc": 0.7286,
+      "specificity": 0.8131,
+      "recall": 0.4939,
+      "precision": 0.6763,
+      "f1": 0.5707
+    }
+  }
+]

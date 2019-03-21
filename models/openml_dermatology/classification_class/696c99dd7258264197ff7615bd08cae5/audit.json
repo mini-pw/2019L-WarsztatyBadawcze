@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_696c99dd7258264197ff7615bd08cae5",
+    "date": "19-03-2019",
+    "added_by": "k-sap",
+    "model_id": "696c99dd7258264197ff7615bd08cae5",
+    "task_id": "classification_class",
+    "dataset_id": "openml_dermatology",
+    "performance": {
+      "acc": 0.9664,
+      "auc": null,
+      "specificity": null,
+      "recall": null,
+      "precision": null,
+      "f1": null
+    }
+  }
+]

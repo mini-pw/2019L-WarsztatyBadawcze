@@ -1,0 +1,483 @@
+[
+  {
+    "id": "6538f003ef59d825369fe7252c10a929",
+    "added_by": "airi314",
+    "date": "20-03-2019",
+    "library": "mlr",
+    "model_name": "classif.ada",
+    "task_id": "classification_class",
+    "dataset_id": "openml_mushroom",
+    "parameters": {
+      "loss": "logistic",
+      "type": "discrete",
+      "iter": 50,
+      "nu": 0.1,
+      "bag.frac": 0.5,
+      "model.coef": true,
+      "bag.shift": false,
+      "max.iter": 20,
+      "delta": 1e-10,
+      "verbose": false,
+      "minsplit": 20,
+      "minbucket": null,
+      "cp": 0.01,
+      "maxcompete": 4,
+      "maxsurrogate": 5,
+      "usesurrogate": 2,
+      "surrogatestyle": 0,
+      "maxdepth": 30,
+      "xval": 0
+    },
+    "preprocessing": {
+      "cap.shape": {
+        "name": "cap.shape",
+        "type": "categorical",
+        "number_of_unique_values": 6,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 300,
+          "c": 4,
+          "f": 2432,
+          "k": 36,
+          "s": 32,
+          "x": 2840
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "cap.surface": {
+        "name": "cap.surface",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "f": 2160,
+          "g": 4,
+          "s": 1260,
+          "y": 2220
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "cap.color": {
+        "name": "cap.color",
+        "type": "categorical",
+        "number_of_unique_values": 8,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 120,
+          "c": 44,
+          "e": 588,
+          "g": 1696,
+          "n": 1164,
+          "p": 96,
+          "r": 0,
+          "u": 0,
+          "w": 880,
+          "y": 1056
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "bruises.3F": {
+        "name": "bruises.3F",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "f": 2460,
+          "t": 3184
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "odor": {
+        "name": "odor",
+        "type": "categorical",
+        "number_of_unique_values": 7,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "a": 400,
+          "c": 192,
+          "f": 1584,
+          "l": 400,
+          "m": 36,
+          "n": 2776,
+          "p": 256,
+          "s": 0,
+          "y": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "gill.attachment": {
+        "name": "gill.attachment",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "a": 18,
+          "d": 0,
+          "f": 5626,
+          "n": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "gill.spacing": {
+        "name": "gill.spacing",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "c": 4620,
+          "d": 0,
+          "w": 1024
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "gill.size": {
+        "name": "gill.size",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 4940,
+          "n": 704
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "gill.color": {
+        "name": "gill.color",
+        "type": "categorical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 0,
+          "e": 0,
+          "g": 656,
+          "h": 720,
+          "k": 408,
+          "n": 984,
+          "o": 0,
+          "p": 1384,
+          "r": 24,
+          "u": 480,
+          "w": 966,
+          "y": 22
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "stalk.shape": {
+        "name": "stalk.shape",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "e": 2764,
+          "t": 2880
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "stalk.root": {
+        "name": "stalk.root",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 3776,
+          "c": 556,
+          "e": 1120,
+          "r": 192,
+          "u": 0,
+          "z": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "stalk.surface.above.ring": {
+        "name": "stalk.surface.above.ring",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "f": 552,
+          "k": 1332,
+          "s": 3736,
+          "y": 24
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "stalk.surface.below.ring": {
+        "name": "stalk.surface.below.ring",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "f": 552,
+          "k": 1296,
+          "s": 3544,
+          "y": 252
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "stalk.color.above.ring": {
+        "name": "stalk.color.above.ring",
+        "type": "categorical",
+        "number_of_unique_values": 7,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 432,
+          "c": 36,
+          "e": 0,
+          "g": 576,
+          "n": 448,
+          "o": 0,
+          "p": 1008,
+          "w": 3136,
+          "y": 8
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "stalk.color.below.ring": {
+        "name": "stalk.color.below.ring",
+        "type": "categorical",
+        "number_of_unique_values": 7,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 432,
+          "c": 36,
+          "e": 0,
+          "g": 576,
+          "n": 496,
+          "o": 0,
+          "p": 1008,
+          "w": 3088,
+          "y": 8
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "veil.type": {
+        "name": "veil.type",
+        "type": "categorical",
+        "number_of_unique_values": 1,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "p": 5644,
+          "u": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "veil.color": {
+        "name": "veil.color",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "n": 0,
+          "o": 0,
+          "w": 5636,
+          "y": 8
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "ring.number": {
+        "name": "ring.number",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "n": 36,
+          "o": 5488,
+          "t": 120
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "ring.type": {
+        "name": "ring.type",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "c": 0,
+          "e": 824,
+          "f": 0,
+          "l": 1296,
+          "n": 36,
+          "p": 3488,
+          "s": 0,
+          "z": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "spore.print.color": {
+        "name": "spore.print.color",
+        "type": "categorical",
+        "number_of_unique_values": 6,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 0,
+          "h": 1584,
+          "k": 1872,
+          "n": 1920,
+          "o": 0,
+          "r": 72,
+          "u": 48,
+          "w": 148,
+          "y": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "population": {
+        "name": "population",
+        "type": "categorical",
+        "number_of_unique_values": 6,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "a": 384,
+          "c": 52,
+          "n": 256,
+          "s": 1104,
+          "v": 2160,
+          "y": 1688
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "habitat": {
+        "name": "habitat",
+        "type": "categorical",
+        "number_of_unique_values": 6,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "d": 2492,
+          "g": 1860,
+          "l": 64,
+          "m": 292,
+          "p": 568,
+          "u": 368,
+          "w": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "class": {
+        "name": "class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "e": 3488,
+          "p": 2156
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
