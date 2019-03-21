@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_9e581e03fe32525fd41d690760d053fb",
+    "date": "19-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "9e581e03fe32525fd41d690760d053fb",
+    "task_id": "classification_Type",
+    "dataset_id": "openml_glass",
+    "performance": {
+      "f1": null,
+      "acc": 0.6545,
+      "auc": null,
+      "tnr": null,
+      "tpr": null,
+      "ppv": null
+    }
+  }
+]

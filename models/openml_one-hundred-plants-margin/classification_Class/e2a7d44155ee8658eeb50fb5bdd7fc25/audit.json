@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_e2a7d44155ee8658eeb50fb5bdd7fc25",
+    "date": "19-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "e2a7d44155ee8658eeb50fb5bdd7fc25",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_one-hundred-plants-margin",
+    "performance": {
+      "f1": null,
+      "acc": 0.8388,
+      "auc": null,
+      "tnr": null,
+      "tpr": null,
+      "ppv": null
+    }
+  }
+]
