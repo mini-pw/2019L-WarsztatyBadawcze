@@ -13,7 +13,7 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
   setPars <- c("id", "number_of_features", "number_of_instances", "number_of_missing_values", "number_of_instances_with_missing_values")
   
   parnames <- character()
-
+  
   for(i in 1:length(parameters)){
     parameters[[i]] <- paste0("parameters.", parameters[[i]])
     parnames <- c(parnames, parameters[[i]][1])
@@ -31,15 +31,16 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
     p <- paste0(dir, sep, "dataset.json")
     if(!file.exists(p)){
       warning(paste("file:", p, "does not exist"))
-      break
+      next
     }
     setJson <- fromJSON(p)
-    r <- setJson[, setPars]
+    rzero <- setJson[, setPars]
+    r <- rzero
     for(task in taskDirs){
       p <- paste0(task, sep, "task.json")
       if(!file.exists(p)){
         warning(paste("file:", p, "does not exist"))
-        break
+        next
       }
       taskJson <- fromJSON(p)
       if(taskJson$type != taskType) break
@@ -47,23 +48,24 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
       modelDirs <- list.dirs(task, recursive=FALSE)
       
       for(modelHash in modelDirs){
+        r <- rzero
         p <- paste0(modelHash, sep, "model.json")
         if(!file.exists(p)){
           warning(paste("file:", p, "does not exist"))
-          break
+          next
         }
         model <- fromJSON(p)
         if(!"model_name" %in% colnames(model)){
           warning(paste("missing model_name in", p))
-          break
+          next
         }
         if(!model$model_name %in% classifier){
-          break
+          next
         }
         p <- paste0(modelHash, sep, "audit.json")
         if(!file.exists(p)){
           warning(paste("file:", p, "does not exist"))
-          break
+          next
         }
         audit <- fromJSON(p)
         r <- cbind(r, t(unlist(audit)[measures]))
@@ -89,4 +91,4 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
 }
 
 #przykład
-out <- scrape("classif.randomForest", c("acc", "f1"), list(c("num_trees", "ntree"), c("nodesize")), "classification")
+out <- scrape("classif.ranger", c("acc", "f1"), list(c("num.trees", "ntree"), c("num.random.splits")), "classification")
