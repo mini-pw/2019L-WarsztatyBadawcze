@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_c898f64de5b9d9fabb965d4bd52f669a",
+    "date": "20-03-2019",
+    "added_by": "airi314",
+    "model_id": "c898f64de5b9d9fabb965d4bd52f669a",
+    "task_id": "classification_class",
+    "dataset_id": "openml_mushroom",
+    "performance": {
+      "acc": 1,
+      "auc": 1,
+      "specificity": 1,
+      "recall": 1,
+      "precision": 1,
+      "f1": 1
+    }
+  }
+]

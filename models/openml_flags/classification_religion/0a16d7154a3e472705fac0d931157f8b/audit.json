@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_0a16d7154a3e472705fac0d931157f8b",
+    "date": "20-03-2019",
+    "added_by": "granatb",
+    "model_id": "0a16d7154a3e472705fac0d931157f8b",
+    "task_id": "classification_religion",
+    "dataset_id": "openml_flags",
+    "performance": {
+      "acc": 0.4949,
+      "auc": null,
+      "specificity": null,
+      "recall": null,
+      "precision": null,
+      "f1": null
+    }
+  }
+]
