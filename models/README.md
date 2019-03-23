@@ -1,10 +1,10 @@
 # Data Sets
 
-## Number of data sets: 68
+## Number of data sets: 69
 
-## Number of tasks: 98
+## Number of tasks: 99
 
-## Number of models: 242
+## Number of models: 283
 
 |name                                |source         | features| instances| missing_val| tasks| models|
 |:-----------------------------------|:--------------|--------:|---------:|-----------:|-----:|------:|
@@ -25,7 +25,7 @@
 |adult                               |openml         |       15|     48842|        3620|     0|      0|
 |aids                                |openml         |        5|        50|           0|     2|      2|
 |arcene                              |openml         |    10001|       200|           0|     0|      0|
-|artificial-characters               |openml         |        8|     10218|           0|     2|      7|
+|artificial-characters               |openml         |        8|     10218|           0|     2|     13|
 |auto_price                          |openml         |       16|       159|           0|     4|      6|
 |banana                              |openml         |        3|      5300|           0|     1|      2|
 |bank                                |openml         |       17|     45211|           0|     2|     11|
@@ -37,16 +37,17 @@
 |Chscase geyser 1                    |openml         |        3|       222|           0|     1|      2|
 |churn                               |openml         |       21|      5000|           0|     1|     22|
 |credit-g                            |openml         |       21|      1000|           0|     1|     19|
-|dermatology                         |openml         |       35|       366|           8|     2|      2|
-|diabetes                            |openml         |        9|       768|           0|     3|      6|
+|dermatology                         |openml         |       35|       366|           8|     2|     12|
+|diabetes                            |openml         |        9|       768|           0|     3|     11|
 |electricity                         |openml         |        9|     45312|           0|     0|      0|
 |fertility                           |openml         |       10|       100|           0|     4|      4|
 |glass                               |openml         |       10|       214|           0|     2|      3|
 |haberman                            |openml         |        4|       306|           0|     1|     12|
+|house_8L                            |openml         |        9|     22784|           0|     1|     10|
 |humandevel                          |openml         |        4|       131|           0|     0|      0|
 |irish                               |openml         |        6|       500|          32|     2|      4|
 |isolet                              |openml         |      618|      7797|           0|     1|      2|
-|kc1-numeric                         |openml         |       95|       145|           0|     1|      1|
+|kc1-numeric                         |openml         |       95|       145|           0|     1|     11|
 |kr-vs-kp                            |openml         |       37|      3196|           0|     1|      1|
 |liver-disorders                     |openml         |        6|       345|           0|     3|      6|
 |lupus                               |openml         |        4|        87|           0|     2|      4|
