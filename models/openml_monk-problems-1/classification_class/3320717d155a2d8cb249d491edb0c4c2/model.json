@@ -1,0 +1,109 @@
+[
+  {
+    "id": "3320717d155a2d8cb249d491edb0c4c2",
+    "added_by": "wernerolaf",
+    "date": "19-03-2019",
+    "library": "mlr",
+    "model_name": "classif.randomForest",
+    "task_id": "classification_class",
+    "dataset_id": "openml_monk-problems-1",
+    "parameters": {
+      "ntree": 500,
+      "mtry": null,
+      "replace": true,
+      "classwt": null,
+      "cutoff": null,
+      "strata": null,
+      "sampsize": null,
+      "nodesize": 1,
+      "maxnodes": null,
+      "importance": false,
+      "localImp": false,
+      "proximity": false,
+      "oob.prox": null,
+      "norm.votes": true,
+      "do.trace": false,
+      "keep.forest": true,
+      "keep.inbag": false
+    },
+    "preprocessing": [
+      {
+        "class": {
+          "name": "class",
+          "type": "factor",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "0": 278,
+            "1": 278
+          }
+        },
+        "attr1": {
+          "name": "attr1",
+          "type": "factor",
+          "number_of_unique_values": 3,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "1": 189,
+            "2": 186,
+            "3": 181
+          }
+        },
+        "attr2": {
+          "name": "attr2",
+          "type": "factor",
+          "number_of_unique_values": 3,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "1": 179,
+            "2": 186,
+            "3": 191
+          }
+        },
+        "attr3": {
+          "name": "attr3",
+          "type": "factor",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "1": 281,
+            "2": 275
+          }
+        },
+        "attr4": {
+          "name": "attr4",
+          "type": "factor",
+          "number_of_unique_values": 3,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "1": 186,
+            "2": 183,
+            "3": 187
+          }
+        },
+        "attr5": {
+          "name": "attr5",
+          "type": "factor",
+          "number_of_unique_values": 4,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "1": 137,
+            "2": 139,
+            "3": 138,
+            "4": 142
+          }
+        },
+        "attr6": {
+          "name": "attr6",
+          "type": "factor",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "1": 272,
+            "2": 284
+          }
+        }
+      }
+    ]
+  }
+]

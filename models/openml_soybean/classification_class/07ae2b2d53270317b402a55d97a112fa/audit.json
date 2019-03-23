@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_07ae2b2d53270317b402a55d97a112fa",
+    "date": "19-03-2019",
+    "added_by": "BogdanJastrzebski",
+    "model_id": "07ae2b2d53270317b402a55d97a112fa",
+    "task_id": "classification_class",
+    "dataset_id": "openml_soybean",
+    "performance": {
+      "acc": 0.8951,
+      "auc": null,
+      "specificity": null,
+      "recall": null,
+      "precision": null,
+      "f1": null
+    }
+  }
+]
