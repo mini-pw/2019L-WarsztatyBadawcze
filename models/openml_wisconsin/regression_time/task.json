@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_wisconsin",
+    "added_by": "MatiFilozof",
+    "date": "23-03-2019",
+    "dataset_id": "wisconsin",
+    "type": "regression",
+    "target": "time"
+  }
+]
