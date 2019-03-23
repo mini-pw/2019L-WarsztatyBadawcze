@@ -7,12 +7,7 @@
     "task_id": "classification_Class",
     "dataset_id": "openml_volcanoes-e1",
     "performance": {
-      "f1": null,
-      "acc": 0.9146,
-      "auc": null,
-      "tnr": null,
-      "tpr": null,
-      "ppv": null
+      "acc": 0.9146
     }
   }
 ]
