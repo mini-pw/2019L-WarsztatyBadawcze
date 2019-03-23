@@ -3,7 +3,7 @@
 	"added_by": "BogdanJastrzebski",
 	"date": "12-03-2019",
 	"library": "caret",
-        "model_name": "ranger",
+  "model_name": "ranger",
 	"task_id": "regression_Mean.of.the.integrated.profile",
 	"dataset_id": "kaggle_predicting-a-pulsar-star",
 	"parameters": {
