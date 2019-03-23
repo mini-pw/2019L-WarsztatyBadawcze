@@ -1,19 +1,26 @@
 source("extendedDataGetter.R")
+source("dataSet.R")
 
-createOpenMLTaskWDS <- function(openMLData, local, added_by, target, learner, measurer, type, pars) {
-  library("OpenML")
-  library("farff")
+getDataSet <- function(site, dataset_id) {
+  if (site == "openml") {
+    siteData <- getOMLDataSet(data.id = dataset_id)
+    siteData <- as.DataSet(siteData)
+  } else if (site == "toronto") {
+    siteData <- getTorontoDataSet(name = dataset_id)
+  } else {
+    error("This function doesn't support using this site. Please implement it and commit to Github")
+  }
+  return(siteData)
+}
+
+createTaskWDS <- function(site, dataSet, local, added_by, learner, measurer, type, pars) {
   if (local == TRUE) {
     stop("This one hasn't been implemented yet.")
   }
-  suppressMessages({
-    table <- na.omit(openMLData$data)
-    name <- openMLData$desc$name
-  })
-  createOpenMLTaskWDS.internal("openml", table, name, added_by, target, learner, measurer, type, pars)
+  createTaskWDS.internal(site, dataSet$data, dataSet$name, added_by, dataSet$target, learner, measurer, type, pars)
 }
 
-createOpenMLTaskWDS.internal <- function(site, table, name, added_by, target, learner, measurer, type, pars) {
+createTaskWDS.internal <- function(site, table, name, added_by, target, learner, measurer, type, pars) {
   if (measurer == "mlr" && type == "") {
     isRegr <- ifelse(substr(learner, 1, 4) == "clas", FALSE, TRUE)
     type <- ifelse(isRegr, "regression", "classification")
