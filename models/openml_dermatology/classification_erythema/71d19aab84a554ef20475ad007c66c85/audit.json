@@ -7,7 +7,12 @@
     "task_id": "classification_erythema",
     "dataset_id": "openml_dermatology",
     "performance": {
-      "acc": 0.5251
+      "acc": 0.5251,
+      "specificity": null,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "auc": null
     }
   }
 ]

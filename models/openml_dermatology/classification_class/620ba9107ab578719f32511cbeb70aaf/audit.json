@@ -7,7 +7,12 @@
     "task_id": "classification_class",
     "dataset_id": "openml_dermatology",
     "performance": {
-      "acc": 0.972
+      "acc": 0.972,
+      "specificity": null,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "auc": null
     }
   }
 ]

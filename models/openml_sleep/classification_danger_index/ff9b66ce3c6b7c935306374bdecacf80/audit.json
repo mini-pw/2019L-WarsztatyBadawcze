@@ -7,7 +7,12 @@
     "task_id": "classification_danger_index",
     "dataset_id": "openml_sleep",
     "performance": {
-      "acc": 0.8018
+      "acc": 0.8018,
+      "specificity": null,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "auc": null
     }
   }
 ]

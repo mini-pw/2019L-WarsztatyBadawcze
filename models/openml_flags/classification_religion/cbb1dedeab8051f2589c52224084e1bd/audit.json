@@ -7,7 +7,12 @@
     "task_id": "classification_religion",
     "dataset_id": "openml_flags",
     "performance": {
-      "acc": 0.5565
+      "acc": 0.5565,
+      "specificity": null,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "auc": null
     }
   }
 ]
