@@ -7,10 +7,10 @@
     "task_id": "regression_TIME",
     "dataset_id": "openml_lupus",
     "performance": {
-      "mse": 3666.1575193,
-      "rmse": 60.5488028,
-      "mae": 51.7676852,
-	  "rsq": 0.2124759
+      "mse": 3666.1575,
+      "rmse": 60.5488,
+      "mae": 51.7677,
+      "r2": 0.2125
     }
   }
 ]

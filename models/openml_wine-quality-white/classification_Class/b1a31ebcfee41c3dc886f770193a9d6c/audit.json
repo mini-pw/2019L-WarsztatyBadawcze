@@ -7,11 +7,7 @@
     "task_id": "classification_Class",
     "dataset_id": "openml_wine-quality-white",
     "performance": {
-      "acc": 0.6825,
-      "auc": null,
-      "precision": null,
-      "recall": null,
-      "f1": null
+      "acc": 0.6825
     }
   }
 ]

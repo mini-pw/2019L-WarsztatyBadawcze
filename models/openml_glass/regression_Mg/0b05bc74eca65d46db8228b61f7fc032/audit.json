@@ -7,10 +7,10 @@
     "task_id": "regression_openml_glass",
     "dataset_id": "openml_glass",
     "performance": {
-      "mse": 0.6709188,
-      "rmse": 0.8190963,
-      "mae": 0.4394732,
-	  "rsq": 0.6726992
+      "mse": 0.6709,
+      "rmse": 0.8191,
+      "mae": 0.4395,
+      "r2": 0.6727
     }
   }
 ]

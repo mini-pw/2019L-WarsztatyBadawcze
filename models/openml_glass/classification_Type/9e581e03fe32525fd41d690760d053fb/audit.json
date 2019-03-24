@@ -7,12 +7,7 @@
     "task_id": "classification_Type",
     "dataset_id": "openml_glass",
     "performance": {
-      "acc": 0.6545,
-      "specificity": null,
-      "precision": null,
-      "recall": null,
-      "f1": null,
-      "auc": null
+      "acc": 0.6545
     }
   }
 ]

@@ -7,10 +7,10 @@
     "task_id": "regression_V10",
     "dataset_id": "openml_bank",
     "performance": {
-      "mse": 51.53766,
-      "rmse": 7.178974,
-      "mae": 5.780129,
-      "r2": 0.2560569
+      "mse": 51.5377,
+      "rmse": 7.179,
+      "mae": 5.7801,
+      "r2": 0.2561
     }
   }
 ]

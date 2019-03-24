@@ -7,12 +7,7 @@
     "task_id": "classification_Class",
     "dataset_id": "openml_texture",
     "performance": {
-      "acc": 0.988,
-      "specificity": null,
-      "precision": null,
-      "recall": null,
-      "f1": null,
-      "auc": null
+      "acc": 0.988
     }
   }
 ]

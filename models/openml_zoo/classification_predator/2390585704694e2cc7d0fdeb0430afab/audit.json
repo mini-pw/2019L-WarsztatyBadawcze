@@ -7,8 +7,8 @@
     "task_id": "classification_predator",
     "dataset_id": "openml_zoo",
     "performance": {
-      "ACC":  0.6252381,
-      "AUC": 0.7073237
+      "acc": 0.6252,
+      "auc": 0.7073
     }
   }
-] 
+]
