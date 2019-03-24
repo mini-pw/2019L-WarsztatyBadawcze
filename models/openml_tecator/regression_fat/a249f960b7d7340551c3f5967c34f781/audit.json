@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_a249f960b7d7340551c3f5967c34f781",
+    "date": "24-03-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "a249f960b7d7340551c3f5967c34f781",
+    "task_id": "regression_fat",
+    "dataset_id": "openml_tecator",
+    "performance": {
+      "mse": 838641.563,
+      "rmse": 915.7738,
+      "mae": 699.5263,
+      "r2": -4725.6448
+    }
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "7966fbb05a3fbfeda9ff032b8a9727b9",
+    "added_by": "MatiFilozof",
+    "date": "24-03-2019",
+    "library": "mlr",
+    "model_name": "regr.svm",
+    "task_id": "regression_col_3",
+    "dataset_id": "openml_rabe_166",
+    "parameters": {
+      "type": "eps-regression",
+      "kernel": "polynomial",
+      "degree": 3,
+      "gamma": null,
+      "coef0": 0,
+      "cost": 1,
+      "nu": 0.5,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "epsilon": null,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing": {
+      "col_1": {
+        "name": "col_1",
+        "type": "numerical",
+        "number_of_unique_values": 40,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 10.75,
+        "num_median": 20.5,
+        "num_mean": 20.5,
+        "num_3qu": 30.25,
+        "num_maximum": 40
+      },
+      "col_2": {
+        "name": "col_2",
+        "type": "numerical",
+        "number_of_unique_values": 38,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 30.8,
+        "num_1qu": 38.05,
+        "num_median": 43.8,
+        "num_mean": 43.1975,
+        "num_3qu": 48.45,
+        "num_maximum": 54.3
+      },
+      "col_3": {
+        "name": "col_3",
+        "type": "numerical",
+        "number_of_unique_values": 40,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 109,
+        "num_1qu": 129.5,
+        "num_median": 152,
+        "num_mean": 155.65,
+        "num_3qu": 184.75,
+        "num_maximum": 204
+      }
+    }
+  }
+]
