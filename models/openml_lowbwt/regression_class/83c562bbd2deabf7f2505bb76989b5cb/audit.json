@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_83c562bbd2deabf7f2505bb76989b5cb",
+    "date": "24-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "83c562bbd2deabf7f2505bb76989b5cb",
+    "task_id": "regression_class",
+    "dataset_id": "openml_lowbwt",
+    "performance": {
+      "mse": 217011.0778,
+      "rmse": 465.8445,
+      "mae": 372.9369,
+      "r2": 0.5764
+    }
+  }
+]

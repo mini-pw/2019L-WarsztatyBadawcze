@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_longley",
+    "added_by": "DominikRafacz",
+    "date": "24-03-2019",
+    "dataset_id": "longley",
+    "type": "regression",
+    "target": "employed"
+  }
+]
