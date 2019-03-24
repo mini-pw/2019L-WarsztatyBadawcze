@@ -143,6 +143,12 @@ getTorontoData <- function(name, saveToCsv = FALSE) {
   return(table)
 }
 
+getTorontoDataSet <- function(name) {
+  #creating DataSet object
+  dataSet <- DataSet(getTorontoData(name), name)
+  return(dataSet)
+}
+
 createDataset.internal <- function(site, table, name, added_by, source, url, variables) {
   toDataJson <- list(id = paste0(site, "_", name),
                      added_by = added_by,
@@ -294,7 +300,7 @@ createTask.internal <- function(site, table, name, added_by, target, learner, me
   write(getFilledCode(site, name, target, learner, mes, measurer, parsText, hash, isRegr),
         paste0(site, "_", name, "/", type, "_", target, "/", hash, "/code.R"))
   sink(paste0(site, "_", name, "/", type, "_", target, "/", hash, "/sessionInfo.txt"))
-  sessionInfo()
+  print(sessionInfo())
   sink()
 }
 

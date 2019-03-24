@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_e1fbc409fc87a594b761e000ebd7607c",
+    "date": "13-03-2019",
+    "added_by": "granatb",
+    "model_id": "e1fbc409fc87a594b761e000ebd7607c",
+    "task_id": "regression_total_sleep",
+    "dataset_id": "openml_sleep",
+    "performance": {
+      "MSE":  18.15653,
+	  "RMSE": 4.261047,
+	  "MAE": 3.060395,
+	  "R2": 0.5352831
+    }
+  }
+] 
