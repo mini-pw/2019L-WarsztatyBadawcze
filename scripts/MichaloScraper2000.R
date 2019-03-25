@@ -2,7 +2,7 @@ library(jsonlite)
 
 #skrypt tworzący dataframe z wynikami i parametrami modeli z repozytorium 
 
-scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c("RandomForest", "classif.RForest")
+scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c("RandomForest", "classif.RForest"), JEŚLI NULL ZBIERA WSZYSTKIE
                    measures, #nazwy miar, np c("mse", "rmse", "mae", "r2")
                    parameters, #lista parametrów klasyfikatora, w której elementy mogą być wektorami z różnymi nazwami jednego parametru
                    taskType,  #"classification" lub "regression"
@@ -12,7 +12,7 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
   measures <- paste0("performance.", measures)
   setPars <- c("id", "number_of_features", "number_of_instances", "number_of_missing_values", "number_of_instances_with_missing_values")
   colPars0 <- c('name', 'type', 'number_of_unique_values', 'number_of_missing_values', 'num_minimum', 'num_1qu', 'num_median', 'num_mean', 'num_3qu', 'num_maximum')
-  colPars <- c(colPars0, "ncats")
+  colPars <- c(colPars0, c("ncats", "largestCatSize", "smallestCatSize")) # coś o kotach
   colPars <- paste0("target.", colPars)
   parnames <- character()
   
@@ -20,10 +20,13 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
     parameters[[i]] <- paste0("parameters.", parameters[[i]])
     parnames <- c(parnames, parameters[[i]][1])
   }
-  columns <- c(setPars, colPars, measures, parnames)
+  columns <- c(setPars, colPars, "model_name", measures, parnames)
   df <- data.frame(n=character(), a=integer(), b=integer(), c=integer(), d=integer(),
-                   e=character(), f=character(), g=integer(), h=integer(), i=integer(), j=integer(), k=integer(), l=integer(), m=integer(), n=integer(), p=integer(), stringsAsFactors=FALSE)
-  for(i in 1:(length(measures)+length(parameters))){
+                   e=character(), f=character(), g=integer(), h=integer(), i=integer(), j=integer(), k=integer(), l=integer(), m=integer(), n=integer(), p=integer(), l=integer(), m=integer(), n=character(), stringsAsFactors=FALSE)
+  for(i in 1:length(measures)){
+    df <- cbind(df, double(), stringsAsFactors = FALSE)
+  }
+  for(i in 1:length(parameters)){
     df <- cbind(df, character())
   }
   colnames(df) <- columns
@@ -47,7 +50,7 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
       if(taskJson$type != taskType) break
       target <- taskJson$target
       ReZero <- setJson[, setPars]
-      print(setJson$id)
+      message(setJson$id)
       if(length(target) == 0){
         warning(paste("Missing target in", task))
         break
@@ -62,11 +65,12 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
       }
       ReZero <- cbind(ReZero, setJson$variables[, target][colPars0])
       if(taskType == "classification"){
-        ReZero <- cbind(ReZero, length(colnames(setJson$variables[, target][, "cat_frequencies"])))
+        maxcat <- max(setJson$variables[, target][, "cat_frequencies"])
+        mincat <- min(setJson$variables[, target][, "cat_frequencies"])
+        ReZero <- cbind(ReZero, length(colnames(setJson$variables[, target][, "cat_frequencies"])), maxcat, mincat)
       }else if(taskType == "regression"){
-        ReZero <- cbind(ReZero, NA)
+        ReZero <- cbind(ReZero, c(NA, NA, NA))
       }
-      rowname <- taskJson$id
       modelDirs <- list.dirs(task, recursive=FALSE)
       
       for(modelHash in modelDirs){
@@ -81,7 +85,7 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
           warning(paste("missing model_name in", p))
           next
         }
-        if(!model$model_name %in% classifier){
+        if(!model$model_name %in% classifier && !is.null(classifier)){
           next
         }
         p <- paste0(modelHash, sep, "audit.json")
@@ -90,7 +94,7 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
           next
         }
         audit <- fromJSON(p)
-        r <- cbind(r, t(unlist(audit)[measures]))
+        r <- cbind(r, model$model_name, t(unlist(audit)[measures]))
         ModelParams <- unlist(model)
         pars <- rep(NA, length.out = length(parameters))
         for(i in 1:length(parameters)){
@@ -104,6 +108,7 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
         }
         r <- cbind(r, t(pars))
         names(r) <- columns
+        if(model$id %in% rownames(df)) next
         df <- rbind(df, r)
         rownames(df)[nrow(df)] <- model$id
       }
@@ -113,4 +118,4 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
 }
 
 #przykład
-out <- scrape("classif.ranger", c("acc", "f1"), list(c("num.trees", "ntree"), c("num.random.splits")), "classification")
+out <- scrape(NULL, c("acc", "f1"), list(c("num.trees", "ntree"), c("num.random.splits")), "classification")
