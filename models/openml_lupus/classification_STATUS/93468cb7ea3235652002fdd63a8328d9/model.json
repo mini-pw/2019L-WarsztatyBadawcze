@@ -19,7 +19,7 @@
       "xval": 0,
       "parms": null
     },
-    "preprocessing": [
+    "preprocessing":
       {
         "TIME": {
           "name": "TIME",
@@ -68,6 +68,6 @@
           "num_maximum": 4.67
         }
       }
-    ]
+
   }
 ]

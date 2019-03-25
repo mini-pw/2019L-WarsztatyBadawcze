@@ -3,6 +3,8 @@
         "id": "a5a078898703d7e1e7b6b3322b4f0ac8",
         "added_by": "WojciechKretowicz",
         "date": "06-03-2019",
+        "library": "scikit",
+        "model_name": "LinearRegression",
         "task_id": "regression_Mg",
         "dataset_id": "openml_glass",
         "parameters": {
