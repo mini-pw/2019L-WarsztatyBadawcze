@@ -3,6 +3,8 @@
     "id": "7ca00d39e52391a73f0ca182165af572",
     "added_by": "WojciechKretowicz",
     "date": "11-03-2019",
+    "library": "mlr",
+    "model_name": "classif.ada",
     "task_id": "classification_class",
     "dataset_id": "openml_kr-vs-kp",
     "parameters": {
