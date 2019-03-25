@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_4559bce5b39f66237b1f850b2e4543a0",
+    "date": "23-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "4559bce5b39f66237b1f850b2e4543a0",
+    "task_id": "regression_price",
+    "dataset_id": "openml_auto_price",
+    "performance": {
+      "mse": 9172452.7405,
+      "rmse": 3028.6057,
+      "mae": 1781.3488,
+      "r2": 0.7291
+    }
+  }
+]
