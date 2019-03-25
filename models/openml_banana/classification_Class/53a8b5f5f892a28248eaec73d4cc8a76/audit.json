@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_53a8b5f5f892a28248eaec73d4cc8a76",
+    "date": "19-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "53a8b5f5f892a28248eaec73d4cc8a76",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_banana",
+    "performance": {
+      "f1": 0.9127,
+      "acc": 0.9023,
+      "auc": 0.9659,
+      "tnr": 0.8715,
+      "tpr": 0.9275,
+      "ppv": 0.8986
+    }
+  }
+]

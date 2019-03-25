@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_40609dd8b13590fe7eb41f820eb2be01",
+    "date": "23-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "40609dd8b13590fe7eb41f820eb2be01",
+    "task_id": "regression_drinks",
+    "dataset_id": "openml_liver-disorders",
+    "performance": {
+      "mse": 9.2639,
+      "rmse": 3.0437,
+      "mae": 2.2948,
+      "r2": 0.1372
+    }
+  }
+]
