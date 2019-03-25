@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_787b3a1390bbe836b8987b9a6d7ad8a4",
+    "date": "23-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "787b3a1390bbe836b8987b9a6d7ad8a4",
+    "task_id": "regression_grade_point_average",
+    "dataset_id": "openml_mbagrade",
+    "performance": {
+      "mse": 0.1446,
+      "rmse": 0.3802,
+      "mae": 0.2965,
+      "r2": -0.7738
+    }
+  }
+]
