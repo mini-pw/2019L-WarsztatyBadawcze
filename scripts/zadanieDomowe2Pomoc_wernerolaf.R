@@ -4,6 +4,7 @@ library(jsonlite)
 library(OpenML)
 library(farff)
 library(digest) 
+library(caret)
   
   #wczytujemy dataset
   dataset<-read_json("dataset.json",simplifyVector = TRUE)
@@ -20,18 +21,20 @@ library(digest)
   
   #robimy taska i learnera
   classif_task = makeClassifTask(id = paste("classif_",dane$target.features,sep = ""), data = train, target =dane$target.features)
-  classif_learner<-makeLearner("classif.featureless")
+  classif_learner<-makeLearner("classif.rpart",predict.type = "prob")
   
-  #testy Acc, AUC, Specificity, Recall, Precision, F1 regresja:MSE, RMSE, MAE, R2
-  listMeasures(classif_task)
+  #testy Acc, AUC, Specificity, Recall, Precision, F1 regresja:MSE, RMSE, MAE, R2 | "f1", "acc" "auc" "tnr" "tpr" "ppv"| "mse" "mae" "rmse" "rsq" 
+  Rcuda<-list(f1=f1, acc=acc, auc=auc, tnr=tnr, tpr=tpr ,ppv=ppv)
+  measures<-intersect(listMeasures(classif_task),c("f1", "acc", "auc", "tnr", "tpr" ,"ppv"))
+  
   cv <- makeResampleDesc("CV", iters = 5)
-  r <- resample(classif_learner, classif_task, cv,measures = list(acc))
-  ACC <- r$aggr
+  r <- resample(classif_learner, classif_task, cv,measures = Rcuda[measures])
+  
   
   #bierzemy parametry
   parametry<-getParamSet(classif_learner)
   parametry<-parametry$pars
-  parametry<-lapply(parametry, FUN=function(x){x$default})
+  parametry<-lapply(parametry, FUN=function(x){ ifelse(is.null(x$default), NA, x$default)})
   hiper<-getHyperPars(classif_learner)
   parametry[names(hiper)]<-hiper
   #haszujemy
@@ -52,10 +55,13 @@ library(digest)
   modeldozapisu<-toJSON(list(modeldozapisu),pretty = TRUE,auto_unbox = TRUE)
  
   taskdozapisu<-list(id=paste("classification_",dane$target.features,sep = ""),added_by= "wernerolaf",
-                        date= format.Date(Sys.Date(),"%d-%m-%Y") ,dataset_id= dataset$id,type="classification",target=dane$target.features)
+                        date= format.Date(Sys.Date(),"%d-%m-%Y") ,
+                     dataset_id= dataset$id,type="classification",target=dane$target.features)
   
   auditdozapisu<-list(id=paste("audit_",hash,sep = ""),
-                      date= format.Date(Sys.Date(),"%d-%m-%Y"),added_by= "wernerolaf",model_id=hash,task_id=paste("classification_",dane$target.features,sep = ""),dataset_id=dataset$id,performance=list(ACC=ACC))
+                      date= format.Date(Sys.Date(),"%d-%m-%Y"),added_by= "wernerolaf",
+                      model_id=hash,task_id=paste("classification_",dane$target.features,sep = ""),
+                      dataset_id=dataset$id,performance=as.list(r$aggr))
   
   taskdozapisu<-toJSON(list(taskdozapisu),pretty = TRUE,auto_unbox = TRUE)
   

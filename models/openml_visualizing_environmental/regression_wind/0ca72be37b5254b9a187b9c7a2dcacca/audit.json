@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_0ca72be37b5254b9a187b9c7a2dcacca",
+    "date": "24-03-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "0ca72be37b5254b9a187b9c7a2dcacca",
+    "task_id": "regression_wind",
+    "dataset_id": "openml_visualizing_environmental",
+    "performance": {
+      "mse": 8.2316,
+      "rmse": 2.8691,
+      "mae": 2.2156,
+      "r2": 0.2788
+    }
+  }
+]

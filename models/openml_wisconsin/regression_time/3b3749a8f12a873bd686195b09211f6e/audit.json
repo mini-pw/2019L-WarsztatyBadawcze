@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_3b3749a8f12a873bd686195b09211f6e",
+    "date": "23-03-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "3b3749a8f12a873bd686195b09211f6e",
+    "task_id": "regression_time",
+    "dataset_id": "openml_wisconsin",
+    "performance": {
+      "mse": 1580.6062,
+      "rmse": 39.7568,
+      "mae": 30.217,
+      "r2": -0.3591
+    }
+  }
+]

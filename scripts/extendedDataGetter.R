@@ -11,18 +11,18 @@ getLinkToFile <- function(site, name) {
     return(paste0("read.csv(\"https://raw.githubusercontent.com/mini-pw/2019L-WarsztatyBadawcze_zbiory/master/", site, "_", name, "/", name, ".csv\")"))
   }
   if (tolower(site) == "openml") {
-    return(paste0("getOMLDataSet(data.name = ", name, ")"))
+    return(paste0("getOMLDataSet(data.name = \"", name, "\")"))
   }
 }
 
 getFilledModelCode <- function(measurer, target, learner, parsText, isRegr) {
   if (measurer == "mlr") {
-    return(paste0("task = make", ifelse(isRegr, "Regr", "Classif"), "Task(id = \"task\", data = dataset, target = \"", target, "\")\n",
+    return(paste0("task = make", ifelse(isRegr, "Regr", "Classif"), "Task(id = \"task\", data = dataset$data, target = \"", target, "\")\n",
                   "lrn = makeLearner(\"", learner, "\", par.vals = ", parsText, ifelse(isRegr, "", ", predict.type = \"prob\""), ")"))
   }
   if (measurer == "caret") {
     return(paste0("train_control <- trainControl(method = \"cv\", number = 5)\n",
-                  "cvx <- train(", target, " ~ ., data = dataset, method = \"", learner, "\", tuneGrid = ", parsText, ", trControl = train_control)"))
+                  "cvx <- train(", target, " ~ ., data = dataset$data, method = \"", learner, "\", tuneGrid = ", parsText, ", trControl = train_control)"))
   }
 }
 
@@ -48,15 +48,16 @@ getFilledAuditCode <- function(measurer, measures) {
 }
 
 getFilledCode <- function(site, name, target, learner, measures, measurer, parsText, hash, isRegr) {
+  require(R.utils)
   return(paste0(
 "#:# libraries\nlibrary(digest)\nlibrary(mlr)",
 ifelse(tolower(site) == "openml", "\nlibrary(OpenML)\nlibrary(farff)", ""), "\n\n",
 "#:# config\nset.seed(1)\n\n",
-"#:# data\ndataset <- ", doCall(getLinkToFile, site = site, name = name), "\nhead(dataset)\n\n",
-"#:# preprocessing\nhead(dataset)\n\n",
+"#:# data\ndataset <- ", doCall(getLinkToFile, site = site, name = name), "\nhead(dataset$data)\n\n",
+"#:# preprocessing\nhead(dataset$data)\n\n",
 "#:# model\n", doCall(getFilledModelCode, measurer = measurer, target = target, learner = learner, parsText = parsText, isRegr = isRegr), "\n\n",
 "#:# hash\n#:# ", hash, "\nhash <- digest(list(", doCall(getFilledHashCode, measurer = measurer, target = target, learner = learner, parsText = parsText), "))\nhash\n\n",
-"#:# audit", doCall(getFilledAuditCode, measurer = measurer, measures = measures), "\n\n",
+"#:# audit\n", doCall(getFilledAuditCode, measurer = measurer, measures = measures), "\n\n",
 "#:# session info\nsink(paste0(\"sessionInfo.txt\"))\nsessionInfo()\nsink()"
 ))
 }
@@ -117,29 +118,38 @@ processParams <- function(defaults, hypers) {
   defaults <- sapply(defaults$pars, "[", "default")
   names(defaults) <- listNames
   params <- modifyList(defaults, hypers)
-  return(defaults)
+  return(params)
 }
 
 getTorontoData <- function(name, saveToCsv = FALSE) {
   download.file(paste0("https://www.cs.toronto.edu/pub/neuron/delve/data/tarfiles/", name, ".tar.gz"), "tmp.tar.gz")
   untar("tmp.tar.gz")
-  table <- read.table(paste0("./", name, "/Dataset.data.gz"))
-  # nazwy kolumn:
-  res <- readLines(paste0("./", name, "/Dataset.spec"))
-  res <- res[-c(1:grep("Attributes:", res))]
-  writeLines(res, "tmp.txt")
-  cols <- read.table("tmp.txt", comment.char = "u")$V2
-  colnames(table) <- make.names(cols, unique = TRUE)
-  # czyszczenie pomocniczych plików
-  file.remove("tmp.txt")
-  file.remove("tmp.tar.gz")
-  unlink(name, TRUE)
+  tryCatch({
+    table <- read.table(paste0("./", name, "/Dataset.data.gz"))
+    # nazwy kolumn:
+    res <- readLines(paste0("./", name, "/Dataset.spec"))
+    res <- res[-c(1:grep("Attributes:", res))]
+    writeLines(res, "tmp.txt")
+    cols <- read.table("tmp.txt", comment.char = "u")$V2
+    colnames(table) <- make.names(cols, unique = TRUE)
+  }, finally = {
+    # czyszczenie pomocniczych plików
+    file.remove("tmp.tar.gz")
+    file.remove("tmp.txt")
+    removeDirectory(name, recursive = TRUE)
+  })
   # końcowe poprawki
   # here can be inserted dealing with missing data and all that stuff
   if(saveToCsv) {
     write.csv(table, paste0(name, ".csv"), row.names = FALSE)
   }
   return(table)
+}
+
+getTorontoDataSet <- function(name) {
+  #creating DataSet object
+  dataSet <- DataSet(getTorontoData(name), name)
+  return(dataSet)
 }
 
 createDataset.internal <- function(site, table, name, added_by, source, url, variables) {
@@ -186,35 +196,38 @@ createTask.internal <- function(site, table, name, added_by, target, learner, me
   
   if (measurer == "mlr") {
     library("mlr")
+    set.seed(1)
+    if (isRegr) {
+      task <- makeRegrTask(id = "task", data = table, target = target)
+      lrn <- makeLearner(learner, par.vals = pars)
+    }
+    else {
+      task <- makeClassifTask(id = "task", data = table, target = target)
+      lrn <- makeLearner(learner, par.vals = pars, predict.type = "prob")
+    }
+
     cv <- makeResampleDesc("CV", iters = 5)
     if (isRegr) {
       mes <- list(mse, rmse, mae, rsq)
     }
     else {
-      if (length(unique(table$target)) == 2) {
+      if (length(unique(table[[target]])) == 2) {
         mes <- list(acc, auc, tnr, tpr, ppv, f1)
       }
       else {
         mes <- list(acc)
       }
     }
-    if (isRegr) {
-      task <- makeRegrTask(id = "task", data = table, target = target)
-      lrn <- makeLearner(learner, par.vals = pars)
-      r <- mlr::resample(lrn, task, cv, measures = mes)
-    }
-    else {
-      task <- makeClassifTask(id = "task", data = table, target = target)
-      lrn <- makeLearner(learner, par.vals = pars, predict.type = "prob")
-      r <- mlr::resample(lrn, task, cv, measures = mes)
-    }
+    
+    r <- mlr::resample(lrn, task, cv, measures = mes)
     results <- r$aggr
     params <- processParams(getParamSet(lrn), getHyperPars(lrn))
-    internalName <- lrn$name
+    internalName <- learner
     hash <- digest(list(task, lrn))
   }
   else if (measurer == "caret") {
     library("caret")
+    set.seed(1)
     train_control <- trainControl(method = "cv", number = 5,
                                   summaryFunction = ifelse(length(unique(table$target)) == 2, extendedTwoClassSummary, defaultSummary))
     train_formula <- as.formula(paste0(target, " ~ ."))
@@ -290,7 +303,7 @@ createTask.internal <- function(site, table, name, added_by, target, learner, me
   write(getFilledCode(site, name, target, learner, mes, measurer, parsText, hash, isRegr),
         paste0(site, "_", name, "/", type, "_", target, "/", hash, "/code.R"))
   sink(paste0(site, "_", name, "/", type, "_", target, "/", hash, "/sessionInfo.txt"))
-  sessionInfo()
+  print(sessionInfo())
   sink()
 }
 
@@ -341,7 +354,7 @@ createOpenMLTask <- function(name, local, added_by, target, learner, measurer, t
   else {
     openMLData <- getOMLDataSet(data.name = name)
   }
-  table <- openMLData$data
+  table <- na.omit(openMLData$data)
   name <- openMLData$desc$name
   createTask.internal("openml", table, name, added_by, target, learner, measurer, type, pars)
 }
@@ -357,10 +370,10 @@ createDataset <- function(site, name, added_by) {
 
 createTask <- function(site, name, local = FALSE, added_by, target, learner, measurer = "mlr", type = "", pars = list()) {
   if (tolower(site) == "toronto") {
-    createTorontoTask(name, local, added_by, target, learner, measurer = "mlr", type = "", pars = list())
+    createTorontoTask(name, local, added_by, target, learner, measurer = "mlr", type = type, pars = list())
   }
   else if (tolower(site) == "openml") {
-    createOpenMLTask(name, local, added_by, target, learner, measurer = "mlr", type = "", pars = list())
+    createOpenMLTask(name, local, added_by, target, learner, measurer = "mlr", type = type, pars = list())
   }
 }
 

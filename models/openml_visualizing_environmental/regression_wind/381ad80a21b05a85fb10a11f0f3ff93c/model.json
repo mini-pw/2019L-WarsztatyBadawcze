@@ -1,0 +1,73 @@
+[
+  {
+    "id": "381ad80a21b05a85fb10a11f0f3ff93c",
+    "added_by": "MatiFilozof",
+    "date": "24-03-2019",
+    "library": "mlr",
+    "model_name": "regr.plsr",
+    "task_id": "regression_wind",
+    "dataset_id": "openml_visualizing_environmental",
+    "parameters": {
+      "ncomp": null,
+      "method": "oscorespls",
+      "scale": true,
+      "model": true,
+      "x": false,
+      "y": false
+    },
+    "preprocessing": {
+      "ozone": {
+        "name": "ozone",
+        "type": "numerical",
+        "number_of_unique_values": 66,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 18,
+        "num_median": 31,
+        "num_mean": 42.0991,
+        "num_3qu": 62,
+        "num_maximum": 168
+      },
+      "radiation": {
+        "name": "radiation",
+        "type": "numerical",
+        "number_of_unique_values": 93,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 7,
+        "num_1qu": 113.5,
+        "num_median": 207,
+        "num_mean": 184.8018,
+        "num_3qu": 255.5,
+        "num_maximum": 334
+      },
+      "temperature": {
+        "name": "temperature",
+        "type": "numerical",
+        "number_of_unique_values": 39,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 57,
+        "num_1qu": 71,
+        "num_median": 79,
+        "num_mean": 77.7928,
+        "num_3qu": 84.5,
+        "num_maximum": 97
+      },
+      "wind": {
+        "name": "wind",
+        "type": "numerical",
+        "number_of_unique_values": 28,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2.3,
+        "num_1qu": 7.4,
+        "num_median": 9.7,
+        "num_mean": 9.9387,
+        "num_3qu": 11.5,
+        "num_maximum": 20.7
+      }
+    }
+  }
+]
