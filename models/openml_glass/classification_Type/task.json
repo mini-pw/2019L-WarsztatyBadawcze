@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Type",
+    "added_by": "wernerolaf",
+    "date": "19-03-2019",
+    "dataset_id": "openml_glass",
+    "type": "classification",
+    "target": "Type"
+  }
+]

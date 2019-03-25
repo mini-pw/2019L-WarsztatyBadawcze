@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_f4da2d66722ed637faed3cae1a03d6eb",
+    "date": "19-03-2019",
+    "added_by": "BogdanJastrzebski",
+    "model_id": "f4da2d66722ed637faed3cae1a03d6eb",
+    "task_id": "classification_class",
+    "dataset_id": "openml_wine",
+    "performance": {
+      "acc": 0.9433,
+      "auc": null,
+      "specificity": null,
+      "recall": null,
+      "precision": null,
+      "f1": null
+    }
+  }
+]

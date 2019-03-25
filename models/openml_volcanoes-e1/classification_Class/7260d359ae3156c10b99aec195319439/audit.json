@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_7260d359ae3156c10b99aec195319439",
+    "date": "19-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "7260d359ae3156c10b99aec195319439",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_volcanoes-e1",
+    "performance": {
+      "f1": null,
+      "acc": 0.9146,
+      "auc": null,
+      "tnr": null,
+      "tpr": null,
+      "ppv": null
+    }
+  }
+]

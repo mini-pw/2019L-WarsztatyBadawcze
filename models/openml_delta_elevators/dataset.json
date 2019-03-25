@@ -1,0 +1,107 @@
+[
+  {
+    "id": "openml_delta_elevators",
+    "added_by": "DominikRafacz",
+    "date": "23-03-2019",
+    "name": "delta_elevators",
+    "source": "openml",
+    "url": "https://www.openml.org/data/v1/download/52348/delta_elevators.arff",
+    "number_of_features": 7,
+    "number_of_instances": 9517,
+    "number_of_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "variables": {
+      "climbRate": {
+        "name": "climbRate",
+        "type": "numerical",
+        "number_of_unique_values": 278,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -15,
+        "num_1qu": -3.9,
+        "num_median": -0.9,
+        "num_mean": -0.2899,
+        "num_3qu": 3.5,
+        "num_maximum": 15.1
+      },
+      "Altitude": {
+        "name": "Altitude",
+        "type": "numerical",
+        "number_of_unique_values": 20,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -100,
+        "num_1qu": -30,
+        "num_median": -10,
+        "num_mean": -12.3043,
+        "num_3qu": 0,
+        "num_maximum": 90
+      },
+      "RollRate": {
+        "name": "RollRate",
+        "type": "numerical",
+        "number_of_unique_values": 309,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.0237,
+        "num_1qu": -0.004,
+        "num_median": 0.0001,
+        "num_mean": 0,
+        "num_3qu": 0.0041,
+        "num_maximum": 0.0184
+      },
+      "curRoll": {
+        "name": "curRoll",
+        "type": "numerical",
+        "number_of_unique_values": 100,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.051,
+        "num_1qu": -0.009,
+        "num_median": 0.002,
+        "num_mean": 0.0016,
+        "num_3qu": 0.012,
+        "num_maximum": 0.049
+      },
+      "diffClb": {
+        "name": "diffClb",
+        "type": "numerical",
+        "number_of_unique_values": 16,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.8,
+        "num_1qu": -0.1,
+        "num_median": 0,
+        "num_mean": -0.0004,
+        "num_3qu": 0.1,
+        "num_maximum": 0.7
+      },
+      "diffDiffClb": {
+        "name": "diffDiffClb",
+        "type": "numerical",
+        "number_of_unique_values": 6,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.03,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": -0.0002,
+        "num_3qu": 0,
+        "num_maximum": 0.02
+      },
+      "Se": {
+        "name": "Se",
+        "type": "numerical",
+        "number_of_unique_values": 26,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.014,
+        "num_1qu": -0.002,
+        "num_median": 0.001,
+        "num_mean": -0.0001,
+        "num_3qu": 0.001,
+        "num_maximum": 0.013
+      }
+    }
+  }
+]

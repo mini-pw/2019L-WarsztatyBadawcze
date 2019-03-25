@@ -1,0 +1,133 @@
+[
+  {
+    "id": "51b8e2f48c66ac820cada52aa54d1483",
+    "added_by": "MatiFilozof",
+    "date": "24-03-2019",
+    "library": "mlr",
+    "model_name": "regr.svm",
+    "task_id": "regression_Log_exposure",
+    "dataset_id": "openml_analcatdata_supreme",
+    "parameters": {
+      "type": "eps-regression",
+      "kernel": "polynomial",
+      "degree": 3,
+      "gamma": null,
+      "coef0": 0,
+      "cost": 1,
+      "nu": 0.5,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "epsilon": null,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing": {
+      "Actions_taken": {
+        "name": "Actions_taken",
+        "type": "numerical",
+        "number_of_unique_values": 10,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.1088,
+        "num_3qu": 0,
+        "num_maximum": 11
+      },
+      "Liberal": {
+        "name": "Liberal",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 1,
+        "num_mean": 0.5197,
+        "num_3qu": 1,
+        "num_maximum": 1
+      },
+      "Unconstitutional": {
+        "name": "Unconstitutional",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.0782,
+        "num_3qu": 0,
+        "num_maximum": 1
+      },
+      "Precedent_alteration": {
+        "name": "Precedent_alteration",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.023,
+        "num_3qu": 0,
+        "num_maximum": 1
+      },
+      "Unanimous": {
+        "name": "Unanimous",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.3376,
+        "num_3qu": 1,
+        "num_maximum": 1
+      },
+      "Year_of_decision": {
+        "name": "Year_of_decision",
+        "type": "numerical",
+        "number_of_unique_values": 36,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1953,
+        "num_1qu": 1964,
+        "num_median": 1973,
+        "num_mean": 1972.3485,
+        "num_3qu": 1981,
+        "num_maximum": 1988
+      },
+      "Lower_court_disagreement": {
+        "name": "Lower_court_disagreement",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.2256,
+        "num_3qu": 0,
+        "num_maximum": 1
+      },
+      "Log_exposure": {
+        "name": "Log_exposure",
+        "type": "numerical",
+        "number_of_unique_values": 10,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 2.08,
+        "num_median": 2.3,
+        "num_mean": 2.0337,
+        "num_3qu": 2.3,
+        "num_maximum": 2.3
+      }
+    }
+  }
+]

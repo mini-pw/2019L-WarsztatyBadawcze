@@ -1,10 +1,10 @@
 [
   {
-    "id": "classification_binaryClass",
-    "added_by": "Siemashko",
-    "date": "02-03-2019",
-    "dataset_id": "openml_boston",
+    "id": "openml_boston",
+    "added_by": "maksymiuks",
+    "date": "20-03-2019",
+    "dataset_id": "boston",
     "type": "classification",
     "target": "binaryClass"
   }
-] 
+]

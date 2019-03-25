@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_4753f39ad4249ff97da8d5b9a5243072",
+    "date": "24-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "4753f39ad4249ff97da8d5b9a5243072",
+    "task_id": "regression_TE",
+    "dataset_id": "openml_cloud",
+    "performance": {
+      "mse": 0.1733,
+      "rmse": 0.4163,
+      "mae": 0.26,
+      "r2": 0.815
+    }
+  }
+]

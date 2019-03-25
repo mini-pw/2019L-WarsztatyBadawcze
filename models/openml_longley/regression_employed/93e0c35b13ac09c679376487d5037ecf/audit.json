@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_93e0c35b13ac09c679376487d5037ecf",
+    "date": "24-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "93e0c35b13ac09c679376487d5037ecf",
+    "task_id": "regression_employed",
+    "dataset_id": "openml_longley",
+    "performance": {
+      "mse": 180384.1104,
+      "rmse": 424.7165,
+      "mae": 356.8566,
+      "r2": 0.8794
+    }
+  }
+]
