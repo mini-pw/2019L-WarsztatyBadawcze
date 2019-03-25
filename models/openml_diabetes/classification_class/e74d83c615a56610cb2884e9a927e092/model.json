@@ -23,7 +23,7 @@
       "fitted": true,
       "scale": true
     },
-    "preprocessing": [
+    "preprocessing":
       {
         "preg": {
           "name": "preg",
@@ -132,6 +132,6 @@
           }
         }
       }
-    ]
+   
   }
 ]

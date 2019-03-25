@@ -26,7 +26,7 @@
       "keep.forest": true,
       "keep.inbag": false
     },
-    "preprocessing": [
+    "preprocessing": 
       {
         "V1": {
           "name": "V1",
@@ -75,6 +75,5 @@
           "num_median": 0.4149
         }
       }
-    ]
   }
 ]

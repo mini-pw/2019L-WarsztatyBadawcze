@@ -23,7 +23,7 @@
       "fitted": true,
       "scale": true
     },
-    "preprocessing": [
+    "preprocessing": 
       {
         "V1": {
           "name": "V1",
@@ -58,6 +58,5 @@
           "num_median": -0.0372
         }
       }
-    ]
   }
 ]
