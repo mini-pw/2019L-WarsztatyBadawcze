@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_analcatdata_supreme",
+    "added_by": "MatiFilozof",
+    "date": "24-03-2019",
+    "dataset_id": "analcatdata_supreme",
+    "type": "regression",
+    "target": "Log_exposure"
+  }
+]
