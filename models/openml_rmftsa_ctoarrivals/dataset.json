@@ -1,0 +1,68 @@
+[
+  {
+    "id": "openml_rmftsa_ctoarrivals",
+    "added_by": "MatiFilozof",
+    "date": "24-03-2019",
+    "name": "rmftsa_ctoarrivals",
+    "source": "openml",
+    "url": "https://www.openml.org/data/v1/download/52986/rmftsa_ctoarrivals.arff",
+    "number_of_features": 3,
+    "number_of_instances": 264,
+    "number_of_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "variables": {
+      "year": {
+        "name": "year",
+        "type": "numerical",
+        "number_of_unique_values": 22,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1979,
+        "num_1qu": 1984,
+        "num_median": 1989.5,
+        "num_mean": 1989.5,
+        "num_3qu": 1995,
+        "num_maximum": 2000
+      },
+      "month": {
+        "name": "month",
+        "type": "categorical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "April": 22,
+          "August": 22,
+          "December": 22,
+          "February": 22,
+          "January": 22,
+          "July": 22,
+          "June": 22,
+          "March": 22,
+          "May": 22,
+          "November": 22,
+          "October": 22,
+          "September": 22
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "arrivals": {
+        "name": "arrivals",
+        "type": "numerical",
+        "number_of_unique_values": 263,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 9718,
+        "num_1qu": 44812.5,
+        "num_median": 86327,
+        "num_mean": 115088.5379,
+        "num_3qu": 174741.25,
+        "num_maximum": 362299
+      }
+    }
+  }
+]

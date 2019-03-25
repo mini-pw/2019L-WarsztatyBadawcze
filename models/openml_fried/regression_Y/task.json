@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_fried",
+    "added_by": "MatiFilozof",
+    "date": "24-03-2019",
+    "dataset_id": "fried",
+    "type": "regression",
+    "target": "Y"
+  }
+]
