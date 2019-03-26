@@ -19,7 +19,7 @@
       "xval": 0,
       "parms": null
     },
-    "preprocessing": [
+    "preprocessing":
       {
         "animal": {
           "name": "animal",
@@ -306,6 +306,5 @@
           }
         }
       }
-    ]
   }
 ]
