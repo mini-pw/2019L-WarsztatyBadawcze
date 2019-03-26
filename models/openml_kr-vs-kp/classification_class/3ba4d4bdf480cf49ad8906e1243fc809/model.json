@@ -23,7 +23,7 @@
       "fitted": true,
       "scale": true
     },
-    "preprocessing": [
+    "preprocessing":
       {
         "bkblk": {
           "name": "bkblk",
@@ -397,6 +397,5 @@
           }
         }
       }
-    ]
   }
 ]
