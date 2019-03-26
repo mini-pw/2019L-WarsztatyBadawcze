@@ -3,6 +3,8 @@
         "id": "627a6252a3bb34b31667b659bd28046b",
         "added_by": "WojciechKretowicz",
         "date": "13-03-2019",
+        "library": "scikit",
+        "model_name": "MLPClassifier",
         "task_id": "classification_Class",
         "dataset_id": "openml_banana",
         "parameters": {
