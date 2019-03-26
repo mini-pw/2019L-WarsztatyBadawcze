@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_4150a0596fff36fcf613aedd2e02830f",
+    "date": "24-03-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "4150a0596fff36fcf613aedd2e02830f",
+    "task_id": "regression_Quality",
+    "dataset_id": "openml_hutsof99_logis",
+    "performance": {
+      "mse": 82.2376,
+      "rmse": 9.0685,
+      "mae": 6.9544,
+      "r2": 0.2542
+    }
+  }
+]

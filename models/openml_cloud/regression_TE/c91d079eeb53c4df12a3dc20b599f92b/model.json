@@ -1,0 +1,124 @@
+[
+  {
+    "id": "c91d079eeb53c4df12a3dc20b599f92b",
+    "added_by": "DominikRafacz",
+    "date": "24-03-2019",
+    "library": "mlr",
+    "model_name": "regr.gausspr",
+    "task_id": "regression_TE",
+    "dataset_id": "openml_cloud",
+    "parameters": {
+      "scaled": true,
+      "kernel": "polydot",
+      "sigma": null,
+      "degree": 3,
+      "scale": 1,
+      "offset": 1,
+      "order": 1,
+      "var": 0.001,
+      "tol": 0.001,
+      "fit": false
+    },
+    "preprocessing": {
+      "period": {
+        "name": "period",
+        "type": "numerical",
+        "number_of_unique_values": 108,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 55.75,
+        "num_median": 106.5,
+        "num_mean": 100.5741,
+        "num_3qu": 133.25,
+        "num_maximum": 194
+      },
+      "seeded": {
+        "name": "seeded",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "S": 54,
+          "U": 54
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "season": {
+        "name": "season",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "AUTUMN": 24,
+          "WINTER": 28,
+          "SPRING": 32,
+          "SUMMER": 24
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "NC": {
+        "name": "NC",
+        "type": "numerical",
+        "number_of_unique_values": 97,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0.41,
+        "num_median": 1.285,
+        "num_mean": 1.5064,
+        "num_3qu": 2.1325,
+        "num_maximum": 9.42
+      },
+      "SC": {
+        "name": "SC",
+        "type": "numerical",
+        "number_of_unique_values": 89,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.02,
+        "num_1qu": 0.535,
+        "num_median": 0.995,
+        "num_mean": 1.2021,
+        "num_3qu": 1.6625,
+        "num_maximum": 4.02
+      },
+      "NWC": {
+        "name": "NWC",
+        "type": "numerical",
+        "number_of_unique_values": 101,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.04,
+        "num_1qu": 0.8825,
+        "num_median": 1.915,
+        "num_mean": 2.1929,
+        "num_3qu": 3.05,
+        "num_maximum": 7.84
+      },
+      "TE": {
+        "name": "TE",
+        "type": "numerical",
+        "number_of_unique_values": 94,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0.5125,
+        "num_median": 0.91,
+        "num_mean": 1.2326,
+        "num_3qu": 1.675,
+        "num_maximum": 6
+      }
+    }
+  }
+]
