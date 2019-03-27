@@ -10,7 +10,7 @@
     "parameters": {
       "model": false
     },
-    "preprocessing": [
+    "preprocessing": 
       {
         "company1": {
           "name": "company1",
@@ -131,6 +131,6 @@
           }
         }
       }
-    ]
+    
   }
 ]

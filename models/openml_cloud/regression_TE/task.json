@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_cloud",
+    "added_by": "DominikRafacz",
+    "date": "24-03-2019",
+    "dataset_id": "cloud",
+    "type": "regression",
+    "target": "TE"
+  }
+]

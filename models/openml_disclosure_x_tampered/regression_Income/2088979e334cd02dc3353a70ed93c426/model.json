@@ -1,0 +1,73 @@
+[
+  {
+    "id": "2088979e334cd02dc3353a70ed93c426",
+    "added_by": "MatiFilozof",
+    "date": "24-03-2019",
+    "library": "mlr",
+    "model_name": "regr.plsr",
+    "task_id": "regression_Income",
+    "dataset_id": "openml_disclosure_x_tampered",
+    "parameters": {
+      "ncomp": null,
+      "method": "kernelpls",
+      "scale": true,
+      "model": true,
+      "x": false,
+      "y": false
+    },
+    "preprocessing": {
+      "Age": {
+        "name": "Age",
+        "type": "numerical",
+        "number_of_unique_values": 662,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2.7816,
+        "num_1qu": 31.4027,
+        "num_median": 41.6738,
+        "num_mean": 42.3148,
+        "num_3qu": 53.0145,
+        "num_maximum": 91.9618
+      },
+      "Civil": {
+        "name": "Civil",
+        "type": "numerical",
+        "number_of_unique_values": 662,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -6.5515,
+        "num_1qu": 13.8303,
+        "num_median": 18.3775,
+        "num_mean": 18.232,
+        "num_3qu": 23.0944,
+        "num_maximum": 40.5645
+      },
+      "Can.US": {
+        "name": "Can.US",
+        "type": "numerical",
+        "number_of_unique_values": 662,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.1077,
+        "num_1qu": 6.7389,
+        "num_median": 9.8011,
+        "num_mean": 9.896,
+        "num_3qu": 12.9997,
+        "num_maximum": 24.9651
+      },
+      "Income": {
+        "name": "Income",
+        "type": "numerical",
+        "number_of_unique_values": 662,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -21480.26,
+        "num_1qu": 54542.816,
+        "num_median": 73591.381,
+        "num_mean": 72793.8166,
+        "num_3qu": 89957.78,
+        "num_maximum": 224442.25
+      }
+    }
+  }
+]

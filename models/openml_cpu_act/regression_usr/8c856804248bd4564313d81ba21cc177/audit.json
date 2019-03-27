@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_8c856804248bd4564313d81ba21cc177",
+    "date": "23-03-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "8c856804248bd4564313d81ba21cc177",
+    "task_id": "regression_usr",
+    "dataset_id": "openml_cpu_act",
+    "performance": {
+      "mse": 93.0643,
+      "rmse": 9.647,
+      "mae": 6.0724,
+      "r2": 0.725
+    }
+  }
+]
