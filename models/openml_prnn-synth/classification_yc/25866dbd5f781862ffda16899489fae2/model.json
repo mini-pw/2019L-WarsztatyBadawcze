@@ -23,7 +23,7 @@
       "fitted": true,
       "scale": true
     },
-    "preprocessing": [
+    "preprocessing": 
       {
         "xs": {
           "name": "xs",
@@ -60,6 +60,6 @@
           }
         }
       }
-    ]
+    
   }
 ]
