@@ -19,7 +19,7 @@
       "xval": 0,
       "parms": null
     },
-    "preprocessing": [
+    "preprocessing": 
       {
         "top.left.square": {
           "name": "top.left.square",
@@ -131,6 +131,6 @@
           }
         }
       }
-    ]
+    
   }
 ]

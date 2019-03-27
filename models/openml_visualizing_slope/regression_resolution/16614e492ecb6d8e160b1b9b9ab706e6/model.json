@@ -1,0 +1,81 @@
+[
+  {
+    "id": "16614e492ecb6d8e160b1b9b9ab706e6",
+    "added_by": "MatiFilozof",
+    "date": "24-03-2019",
+    "library": "mlr",
+    "model_name": "regr.svm",
+    "task_id": "regression_resolution",
+    "dataset_id": "openml_visualizing_slope",
+    "parameters": {
+      "type": "eps-regression",
+      "kernel": "polynomial",
+      "degree": 3,
+      "gamma": null,
+      "coef0": 0,
+      "cost": 1,
+      "nu": 0.5,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "epsilon": null,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing": {
+      "error": {
+        "name": "error",
+        "type": "numerical",
+        "number_of_unique_values": 44,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 3.1042,
+        "num_1qu": 6.2617,
+        "num_median": 7.9844,
+        "num_mean": 9.3621,
+        "num_3qu": 11.9622,
+        "num_maximum": 19.4375
+      },
+      "percent": {
+        "name": "percent",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 50,
+        "num_1qu": 60,
+        "num_median": 75,
+        "num_mean": 75,
+        "num_3qu": 90,
+        "num_maximum": 100
+      },
+      "distance": {
+        "name": "distance",
+        "type": "numerical",
+        "number_of_unique_values": 44,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.2648,
+        "num_1qu": 9.875,
+        "num_median": 21.3678,
+        "num_mean": 20.6852,
+        "num_3qu": 31.2813,
+        "num_maximum": 37.4052
+      },
+      "resolution": {
+        "name": "resolution",
+        "type": "numerical",
+        "number_of_unique_values": 41,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1.9521,
+        "num_median": 4.4927,
+        "num_mean": 5.8773,
+        "num_3qu": 8.6612,
+        "num_maximum": 19.4703
+      }
+    }
+  }
+]

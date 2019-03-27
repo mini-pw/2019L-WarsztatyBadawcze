@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_b21f3e5fc5a4950a368d792756f26764",
+    "date": "23-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "b21f3e5fc5a4950a368d792756f26764",
+    "task_id": "regression_Se",
+    "dataset_id": "openml_delta_elevators",
+    "performance": {
+      "mse": 2.0594e-06,
+      "rmse": 0.0014,
+      "mae": 0.0011,
+      "r2": 0.6345
+    }
+  }
+]
