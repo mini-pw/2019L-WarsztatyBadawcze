@@ -1,0 +1,142 @@
+[
+  {
+    "id": "2daccba2e9fb0f30552ae8c45690a276",
+    "added_by": "DominikRafacz",
+    "date": "23-03-2019",
+    "library": "mlr",
+    "model_name": "regr.gausspr",
+    "task_id": "regression_y",
+    "dataset_id": "openml_kin8nm",
+    "parameters": {
+      "scaled": true,
+      "kernel": "vanilladot",
+      "sigma": null,
+      "degree": 3,
+      "scale": 1,
+      "offset": 1,
+      "order": 1,
+      "var": 0.001,
+      "tol": 0.001,
+      "fit": false
+    },
+    "preprocessing": {
+      "theta1": {
+        "name": "theta1",
+        "type": "numerical",
+        "number_of_unique_values": 8192,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.5706,
+        "num_1qu": -0.7703,
+        "num_median": -0.002,
+        "num_mean": 0.0094,
+        "num_3qu": 0.7912,
+        "num_maximum": 1.5708
+      },
+      "theta2": {
+        "name": "theta2",
+        "type": "numerical",
+        "number_of_unique_values": 8192,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.5707,
+        "num_1qu": -0.7783,
+        "num_median": -0.0152,
+        "num_mean": -0.0072,
+        "num_3qu": 0.7791,
+        "num_maximum": 1.5707
+      },
+      "theta3": {
+        "name": "theta3",
+        "type": "numerical",
+        "number_of_unique_values": 8192,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.5707,
+        "num_1qu": -0.7497,
+        "num_median": 0.0413,
+        "num_mean": 0.0228,
+        "num_3qu": 0.7924,
+        "num_maximum": 1.5707
+      },
+      "theta4": {
+        "name": "theta4",
+        "type": "numerical",
+        "number_of_unique_values": 8190,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.5703,
+        "num_1qu": -0.7806,
+        "num_median": -0.0136,
+        "num_mean": -0.0129,
+        "num_3qu": 0.7602,
+        "num_maximum": 1.5702
+      },
+      "theta5": {
+        "name": "theta5",
+        "type": "numerical",
+        "number_of_unique_values": 8192,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.5707,
+        "num_1qu": -0.7705,
+        "num_median": 0.0097,
+        "num_mean": 0.0079,
+        "num_3qu": 0.7912,
+        "num_maximum": 1.5706
+      },
+      "theta6": {
+        "name": "theta6",
+        "type": "numerical",
+        "number_of_unique_values": 8191,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.5703,
+        "num_1qu": -0.8021,
+        "num_median": -0.0036,
+        "num_mean": -0.0097,
+        "num_3qu": 0.7818,
+        "num_maximum": 1.5706
+      },
+      "theta7": {
+        "name": "theta7",
+        "type": "numerical",
+        "number_of_unique_values": 8192,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.5706,
+        "num_1qu": -0.7769,
+        "num_median": 0.0013,
+        "num_mean": 0.0084,
+        "num_3qu": 0.798,
+        "num_maximum": 1.5705
+      },
+      "theta8": {
+        "name": "theta8",
+        "type": "numerical",
+        "number_of_unique_values": 8192,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.5689,
+        "num_1qu": -0.7774,
+        "num_median": 0.002,
+        "num_mean": 0.0012,
+        "num_3qu": 0.7809,
+        "num_maximum": 1.5702
+      },
+      "y": {
+        "name": "y",
+        "type": "numerical",
+        "number_of_unique_values": 8191,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.0402,
+        "num_1qu": 0.5236,
+        "num_median": 0.7088,
+        "num_mean": 0.7143,
+        "num_3qu": 0.9014,
+        "num_maximum": 1.4585
+      }
+    }
+  }
+]

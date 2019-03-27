@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_auto_price",
+    "added_by": "DominikRafacz",
+    "date": "23-03-2019",
+    "dataset_id": "auto_price",
+    "type": "regression",
+    "target": "price"
+  }
+]

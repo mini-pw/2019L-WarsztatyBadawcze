@@ -3,7 +3,7 @@
 	"added_by": "pysiakk",
 	"date": "02-03-2019",
 	"library": "mlr",
-	"model_name": "75c0b2a3b1bafc0057f3a189da02dedf",
+	"model_name": "regr.earth",
 	"task_id": "regression_vicdemand",
 	"dataset_id": "openml_electricity",
 	"parameters": {
