@@ -124,23 +124,32 @@ processParams <- function(defaults, hypers) {
 getTorontoData <- function(name, saveToCsv = FALSE) {
   download.file(paste0("https://www.cs.toronto.edu/pub/neuron/delve/data/tarfiles/", name, ".tar.gz"), "tmp.tar.gz")
   untar("tmp.tar.gz")
-  table <- read.table(paste0("./", name, "/Dataset.data.gz"))
-  # nazwy kolumn:
-  res <- readLines(paste0("./", name, "/Dataset.spec"))
-  res <- res[-c(1:grep("Attributes:", res))]
-  writeLines(res, "tmp.txt")
-  cols <- read.table("tmp.txt", comment.char = "u")$V2
-  colnames(table) <- make.names(cols, unique = TRUE)
-  # czyszczenie pomocniczych plików
-  file.remove("tmp.txt")
-  file.remove("tmp.tar.gz")
-  unlink(name, TRUE)
+  tryCatch({
+    table <- read.table(paste0("./", name, "/Dataset.data.gz"))
+    # nazwy kolumn:
+    res <- readLines(paste0("./", name, "/Dataset.spec"))
+    res <- res[-c(1:grep("Attributes:", res))]
+    writeLines(res, "tmp.txt")
+    cols <- read.table("tmp.txt", comment.char = "u")$V2
+    colnames(table) <- make.names(cols, unique = TRUE)
+  }, finally = {
+    # czyszczenie pomocniczych plików
+    file.remove("tmp.tar.gz")
+    file.remove("tmp.txt")
+    removeDirectory(name, recursive = TRUE)
+  })
   # końcowe poprawki
   # here can be inserted dealing with missing data and all that stuff
   if(saveToCsv) {
     write.csv(table, paste0(name, ".csv"), row.names = FALSE)
   }
   return(table)
+}
+
+getTorontoDataSet <- function(name) {
+  #creating DataSet object
+  dataSet <- DataSet(getTorontoData(name), name)
+  return(dataSet)
 }
 
 createDataset.internal <- function(site, table, name, added_by, source, url, variables) {
@@ -294,7 +303,7 @@ createTask.internal <- function(site, table, name, added_by, target, learner, me
   write(getFilledCode(site, name, target, learner, mes, measurer, parsText, hash, isRegr),
         paste0(site, "_", name, "/", type, "_", target, "/", hash, "/code.R"))
   sink(paste0(site, "_", name, "/", type, "_", target, "/", hash, "/sessionInfo.txt"))
-  sessionInfo()
+  print(sessionInfo())
   sink()
 }
 

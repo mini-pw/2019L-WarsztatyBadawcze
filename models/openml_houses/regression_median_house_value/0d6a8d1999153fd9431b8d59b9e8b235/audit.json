@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_0d6a8d1999153fd9431b8d59b9e8b235",
+    "date": "23-03-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "0d6a8d1999153fd9431b8d59b9e8b235",
+    "task_id": "regression_median_house_value",
+    "dataset_id": "openml_houses",
+    "performance": {
+      "mse": 26813265766.253,
+      "rmse": 163747.5672,
+      "mae": 58541.9748,
+      "r2": -1.1024
+    }
+  }
+]

@@ -1,0 +1,401 @@
+[
+  {
+    "id": "3ba4d4bdf480cf49ad8906e1243fc809",
+    "added_by": "wernerolaf",
+    "date": "20-03-2019",
+    "library": "mlr",
+    "model_name": "classif.svm",
+    "task_id": "classification_class",
+    "dataset_id": "openml_kr-vs-kp",
+    "parameters": {
+      "type": "C-classification",
+      "cost": 1,
+      "nu": 0.5,
+      "class.weights": null,
+      "kernel": "radial",
+      "degree": 3,
+      "coef0": 0,
+      "gamma": null,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing":
+      {
+        "bkblk": {
+          "name": "bkblk",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 2839,
+            "'t'": 357
+          }
+        },
+        "bknwy": {
+          "name": "bknwy",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 2971,
+            "'t'": 225
+          }
+        },
+        "bkon8": {
+          "name": "bkon8",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 3076,
+            "'t'": 120
+          }
+        },
+        "bkona": {
+          "name": "bkona",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 2874,
+            "'t'": 322
+          }
+        },
+        "bkspr": {
+          "name": "bkspr",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 2129,
+            "'t'": 1067
+          }
+        },
+        "bkxbq": {
+          "name": "bkxbq",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 1722,
+            "'t'": 1474
+          }
+        },
+        "bkxcr": {
+          "name": "bkxcr",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 2026,
+            "'t'": 1170
+          }
+        },
+        "bkxwp": {
+          "name": "bkxwp",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 2500,
+            "'t'": 696
+          }
+        },
+        "blxwp": {
+          "name": "blxwp",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 1980,
+            "'t'": 1216
+          }
+        },
+        "bxqsq": {
+          "name": "bxqsq",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 2225,
+            "'t'": 971
+          }
+        },
+        "cntxt": {
+          "name": "cntxt",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 1817,
+            "'t'": 1379
+          }
+        },
+        "dsopp": {
+          "name": "dsopp",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 2860,
+            "'t'": 336
+          }
+        },
+        "dwipd": {
+          "name": "dwipd",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'g'": 991,
+            "'l'": 2205
+          }
+        },
+        "hdchk": {
+          "name": "hdchk",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 3181,
+            "'t'": 15
+          }
+        },
+        "katri": {
+          "name": "katri",
+          "type": "categorical",
+          "number_of_unique_values": 3,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'b'": 224,
+            "'n'": 2526,
+            "'w'": 446
+          }
+        },
+        "mulch": {
+          "name": "mulch",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 3040,
+            "'t'": 156
+          }
+        },
+        "qxmsq": {
+          "name": "qxmsq",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 3099,
+            "'t'": 97
+          }
+        },
+        "r2ar8": {
+          "name": "r2ar8",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 1000,
+            "'t'": 2196
+          }
+        },
+        "reskd": {
+          "name": "reskd",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 3170,
+            "'t'": 26
+          }
+        },
+        "reskr": {
+          "name": "reskr",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 2714,
+            "'t'": 482
+          }
+        },
+        "rimmx": {
+          "name": "rimmx",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 2612,
+            "'t'": 584
+          }
+        },
+        "rkxwp": {
+          "name": "rkxwp",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 2556,
+            "'t'": 640
+          }
+        },
+        "rxmsq": {
+          "name": "rxmsq",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 3013,
+            "'t'": 183
+          }
+        },
+        "simpl": {
+          "name": "simpl",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 1975,
+            "'t'": 1221
+          }
+        },
+        "skach": {
+          "name": "skach",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 3185,
+            "'t'": 11
+          }
+        },
+        "skewr": {
+          "name": "skewr",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 980,
+            "'t'": 2216
+          }
+        },
+        "skrxp": {
+          "name": "skrxp",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 3021,
+            "'t'": 175
+          }
+        },
+        "spcop": {
+          "name": "spcop",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 3195,
+            "'t'": 1
+          }
+        },
+        "stlmt": {
+          "name": "stlmt",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 3149,
+            "'t'": 47
+          }
+        },
+        "thrsk": {
+          "name": "thrsk",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 3060,
+            "'t'": 136
+          }
+        },
+        "wkcti": {
+          "name": "wkcti",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 2631,
+            "'t'": 565
+          }
+        },
+        "wkna8": {
+          "name": "wkna8",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 3021,
+            "'t'": 175
+          }
+        },
+        "wknck": {
+          "name": "wknck",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 1984,
+            "'t'": 1212
+          }
+        },
+        "wkovl": {
+          "name": "wkovl",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 1189,
+            "'t'": 2007
+          }
+        },
+        "wkpos": {
+          "name": "wkpos",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'f'": 851,
+            "'t'": 2345
+          }
+        },
+        "wtoeg": {
+          "name": "wtoeg",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'n'": 2407,
+            "'t'": 789
+          }
+        },
+        "class": {
+          "name": "class",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'nowin'": 1527,
+            "'won'": 1669
+          }
+        }
+      }
+  }
+]

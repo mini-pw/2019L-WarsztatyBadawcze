@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_b9393037c407391f344faf84bdc56cfc",
+    "date": "20-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "b9393037c407391f344faf84bdc56cfc",
+    "task_id": "classification_Sex",
+    "dataset_id": "openml_aids",
+    "performance": {
+      "f1": 0.3245,
+      "acc": 0.44,
+      "auc": 0.4892,
+      "tnr": 0.5571,
+      "tpr": 0.5,
+      "ppv": 0.495
+    }
+  }
+]

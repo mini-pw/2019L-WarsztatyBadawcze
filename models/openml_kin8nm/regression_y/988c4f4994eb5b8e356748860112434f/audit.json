@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_988c4f4994eb5b8e356748860112434f",
+    "date": "23-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "988c4f4994eb5b8e356748860112434f",
+    "task_id": "regression_y",
+    "dataset_id": "openml_kin8nm",
+    "performance": {
+      "mse": 0.0408,
+      "rmse": 0.202,
+      "mae": 0.1622,
+      "r2": 0.4124
+    }
+  }
+]

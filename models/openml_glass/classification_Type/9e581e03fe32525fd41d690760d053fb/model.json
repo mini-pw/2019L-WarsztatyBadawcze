@@ -1,0 +1,148 @@
+[
+  {
+    "id": "9e581e03fe32525fd41d690760d053fb",
+    "added_by": "wernerolaf",
+    "date": "19-03-2019",
+    "library": "mlr",
+    "model_name": "classif.rpart",
+    "task_id": "classification_Type",
+    "dataset_id": "openml_glass",
+    "parameters": {
+      "minsplit": 20,
+      "minbucket": null,
+      "cp": 0.01,
+      "maxcompete": 4,
+      "maxsurrogate": 5,
+      "usesurrogate": 2,
+      "surrogatestyle": 0,
+      "maxdepth": 30,
+      "xval": 0,
+      "parms": null
+    },
+    "preprocessing":
+      {
+        "RI": {
+          "name": "RI",
+          "type": "numerical",
+          "number_of_unique_values": 178,
+          "number_of_missing_values": 0,
+          "num_minimum": 1.5112,
+          "num_1qu": 1.5165,
+          "num_median": 1.5177,
+          "num_mean": 1.5184,
+          "num_3qu": 1.5192,
+          "num_maximum": 1.5339
+        },
+        "Na": {
+          "name": "Na",
+          "type": "numerical",
+          "number_of_unique_values": 142,
+          "number_of_missing_values": 0,
+          "num_minimum": 10.73,
+          "num_1qu": 12.9075,
+          "num_median": 13.3,
+          "num_mean": 13.4079,
+          "num_3qu": 13.825,
+          "num_maximum": 17.38
+        },
+        "Mg": {
+          "name": "Mg",
+          "type": "numerical",
+          "number_of_unique_values": 94,
+          "number_of_missing_values": 0,
+          "num_minimum": 0,
+          "num_1qu": 2.115,
+          "num_median": 3.48,
+          "num_mean": 2.6845,
+          "num_3qu": 3.6,
+          "num_maximum": 4.49
+        },
+        "Al": {
+          "name": "Al",
+          "type": "numerical",
+          "number_of_unique_values": 118,
+          "number_of_missing_values": 0,
+          "num_minimum": 0.29,
+          "num_1qu": 1.19,
+          "num_median": 1.36,
+          "num_mean": 1.4449,
+          "num_3qu": 1.63,
+          "num_maximum": 3.5
+        },
+        "Si": {
+          "name": "Si",
+          "type": "numerical",
+          "number_of_unique_values": 133,
+          "number_of_missing_values": 0,
+          "num_minimum": 69.81,
+          "num_1qu": 72.28,
+          "num_median": 72.79,
+          "num_mean": 72.6509,
+          "num_3qu": 73.0875,
+          "num_maximum": 75.41
+        },
+        "K": {
+          "name": "K",
+          "type": "numerical",
+          "number_of_unique_values": 65,
+          "number_of_missing_values": 0,
+          "num_minimum": 0,
+          "num_1qu": 0.1225,
+          "num_median": 0.555,
+          "num_mean": 0.4971,
+          "num_3qu": 0.61,
+          "num_maximum": 6.21
+        },
+        "Ca": {
+          "name": "Ca",
+          "type": "numerical",
+          "number_of_unique_values": 143,
+          "number_of_missing_values": 0,
+          "num_minimum": 5.43,
+          "num_1qu": 8.24,
+          "num_median": 8.6,
+          "num_mean": 8.957,
+          "num_3qu": 9.1725,
+          "num_maximum": 16.19
+        },
+        "Ba": {
+          "name": "Ba",
+          "type": "numerical",
+          "number_of_unique_values": 34,
+          "number_of_missing_values": 0,
+          "num_minimum": 0,
+          "num_1qu": 0,
+          "num_median": 0,
+          "num_mean": 0.175,
+          "num_3qu": 0,
+          "num_maximum": 3.15
+        },
+        "Fe": {
+          "name": "Fe",
+          "type": "numerical",
+          "number_of_unique_values": 32,
+          "number_of_missing_values": 0,
+          "num_minimum": 0,
+          "num_1qu": 0,
+          "num_median": 0,
+          "num_mean": 0.057,
+          "num_3qu": 0.1,
+          "num_maximum": 0.51
+        },
+        "Type": {
+          "name": "Type",
+          "type": "categorical",
+          "number_of_unique_values": 6,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "'build wind float'": 70,
+            "'build wind non-float'": 76,
+            "containers": 13,
+            "headlamps": 29,
+            "tableware": 9,
+            "'vehic wind float'": 17
+          }
+        }
+      }
+  }
+]
