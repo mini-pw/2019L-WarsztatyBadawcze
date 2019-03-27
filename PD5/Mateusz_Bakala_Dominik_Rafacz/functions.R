@@ -204,5 +204,7 @@ do_workout <- function(df) {
   }
   
   list(model = classif,
-    explainer = explain(classif, data=test_df, y=test_df$r2, label= "ranger", predict_function = custom_predict_classif))
+    explainer = explain(classif, data=test_df, y=test_df$r2, label= "ranger", predict_function = custom_predict_classif),
+    pred = predict(classif, newdata=test_df))
+    
 }

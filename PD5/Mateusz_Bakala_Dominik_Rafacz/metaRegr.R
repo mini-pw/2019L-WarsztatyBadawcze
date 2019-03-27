@@ -12,17 +12,23 @@ models_info <- lapply(models_info, function(x) {
 })
 
 models_df <- create_df_from_info(models_info)
+write.csv(models_df, "models_df.csv", row.names = FALSE)
+
 
 #####Trenowanko
 
 library(dplyr)
 library(DALEX)
-df <- prepare(models_df, 0.5)
+df <- prepare(models_df, 0)
 
 res <- do_workout(df)
 model <- res$model
 explainer <- res$explainer
+pred <- res$pred
 # performance
+
+mlr::calculateROCMeasures(pred)
+
 perf <- model_performance(explainer)
 plot(perf)
 plot(perf, geom="boxplot")

@@ -1,0 +1,94 @@
+---
+title: "Meta®egr"
+author: "Mateusz Bąkała & Dominik ®afacz"
+date: "26 marca 2019"
+output: 
+  prettydoc::html_pretty:
+    theme: hsptr
+    highlight: github
+---
+![](logo/logo_transparent_caption.png)
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+source("functions.R")
+models_df <- read.csv("models_df.csv")
+```
+
+Celem tego dokumentu jest zilustrowanie procesu tworzenia oraz zasady działania pakietu Meta®egr: almost part of Tidyverse.
+
+# Zebrane dane
+
+Zmiennymi w zbiorze modeli są:
+
+* **columns** -- liczba kolumn datasetu
+* **insts** -- liczba wierszy datasetu
+* **model_param** -- nazwa modelu oraz wybrana opcja jednego różnicującego parametru; rozpatrywane modele to:
+    + regr.svm
+    + regr.plsr
+    + regr.gausspr
+* **target_iqr** -- rozstęp międzykwartylny zmiennej target
+* **target_diff** -- różnica między minimum i maksimum zmiennej target
+* **target_skewness** -- skośność zmiennej target (z przedziału [-1, 1])
+* **binary_factors** -- liczba zmiennych predykcyjnych będących faktorami o dwóch (lub mniej) klasach
+* **factors3to5** -- liczba zmiennych predykcyjnych będących faktorami o trzech do pięciu klasach
+* **big_factors** -- liczba zmiennych predykcyjnych będących faktorami o więcej niż pięciu klasach
+* **nonskew_numerics** -- liczba zmiennych predykcyjnych ciągłych o bezwzględnej skośności nie większej niż 0.2
+* **small_skew_numerics** -- liczba zmiennych predykcyjnych ciągłych o bezwzględnej skośności z przedziału (0.2, 0.5]
+* **big_skew_numerics** -- liczba zmiennych predykcyjnych ciągłych o bezwzględnej skośności większej niż 0.5
+* **r2** -- kolumna docelowa predykcji wskazująca, czy parametr r2 danego modelu jest większy, czy mniejszy od zadanego progu
+
+```{r echo=FALSE}
+df <- prepare(models_df, 0.5)
+kableExtra::kable(df[c(1,84,56,57,123), c("target_iqr", "binary_factors", "nonskew_numerics", "insts", "r2")])
+```
+
+# Trening
+
+Do uczenia użyliśmy po długich perypetiach lasu losowego. Poniżej wyniki treningu z progiem **r2** ustawionym na 0.5:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, fig.width = 10, fig.height=8, fig.align="center" }
+library(dplyr)
+library(DALEX)
+
+res <- do_workout(df)
+model <- res$model
+explainer <- res$explainer
+pred <- res$pred
+# performance
+perf <- model_performance(explainer)
+plot(perf)
+plot(perf, geom="boxplot")
+
+mlr::calculateROCMeasures(pred)
+
+# variable importance
+vi <- variable_importance(explainer, loss_function = loss_root_mean_square)
+plot(vi)
+
+pdp  <- variable_response(explainer, variable = "target_skewness", type = "pdp")
+plot(pdp)
+
+pdp  <- variable_response(explainer, variable = "model_param", type = "pdp")
+plot(pdp)
+
+library(ggplot2)
+ggplot(data = df, aes(x = target_skewness, fill = r2)) +
+  geom_histogram(position = position_identity(), alpha = 0.7) +
+  guides(fill = guide_legend("r2>0.5"))
+
+ggplot(data = df, aes(x = r2)) + geom_histogram(stat = "count") + facet_wrap(~model_param)
+
+
+
+```
+
+
+# Wnioski i obserwacje
+
+* trudno jest przewidywać regresję
+* przydałoby się więcej danych
+* warto by przechowywać więcej informacji o zmiennych (np. odchylenie standardowe)
+* DALEX nie pozwala poróWnywać takich samych modeli mlr, ale o np. różnych parametrach
