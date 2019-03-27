@@ -23,7 +23,7 @@
       "fitted": true,
       "scale": true
     },
-    "preprocessing": [
+    "preprocessing": 
       {
         "Sex": {
           "cat_frequencies": {
@@ -84,6 +84,5 @@
           "num_1qu": 702786.5
         }
       }
-    ]
   }
 ]

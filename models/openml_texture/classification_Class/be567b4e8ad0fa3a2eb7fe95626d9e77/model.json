@@ -13,7 +13,7 @@
       "prob": false,
       "use.all": true
     },
-    "preprocessing": [
+    "preprocessing": 
       {
         "V1": {
           "name": "V1",
@@ -475,6 +475,6 @@
           }
         }
       }
-    ]
+    
   }
 ]
