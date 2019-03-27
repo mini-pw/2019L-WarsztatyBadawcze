@@ -1,0 +1,103 @@
+[{
+	"id": "329e26fc4ac7088ca02526dd5ab088ea",
+	"added_by": "Pastuszka",
+	"date": "13-03-2019",
+	"library": "mlr",
+	"model_name": "classif.bartMachine",
+	"task_id": "classification_Class",
+	"dataset_id": "openml_banknote-authentication",
+	"parameters": {
+  	"num_trees": 50,
+    "num_burn_in": 250,
+    "num_iterations_after_burn_in": 1000,
+    "alpha": 0.95,
+    "beta": 2,
+    "k": 2,
+    "q": 0.9,
+    "prob_rule_class": 0.5,
+    "mh_prob_steps": [0.2777778, 0.2777778, 0.4444444],
+    "debug_log": false,
+    "run_in_sample": true,
+    "cov_prior_vec": null,
+    "use_missing_data": true,
+    "num_rand_samps_in_library": 1e+04,
+    "use_missing_data_dummies_as_covars": false,
+    "replace_missing_data_with_x_j_bar": false,
+    "impute_missingness_with_rf_impute": false,
+    "impute_missingness_with_x_j_bar_for_lm": true,
+    "mem_cache_for_speed": true,
+    "serialize": false,
+    "seed": 123,
+    "verbose": true
+	},
+	"preprocessing": {
+		"V1": {
+        		"name": "V1",
+        		"type": "numerical",
+        		"number_of_unique_values": 1338,
+        		"number_of_missing_values": 0,
+        		"cat_frequencies": null,
+        		"num_minimum": -7.0421,
+        		"num_1qu": -1.773,
+        		"num_median": 0.49618,
+        		"num_mean": 0.43373525728863,
+        		"num_3qu": 2.821475,
+        		"num_maximum": 6.8248
+      		},
+      		"V2": {
+        		"name": "V2",
+        		"type": "numerical",
+        		"number_of_unique_values": 1256,
+        		"number_of_missing_values": 0,
+        		"cat_frequencies": null,
+        		"num_minimum": -13.7731,
+        		"num_1qu": -1.7082,
+        		"num_median": 2.31965,
+        		"num_mean": 1.922353121,
+        		"num_3qu": 6.814625,
+        		"num_maximum": 12.9516
+      		},
+      		"V3": {
+        		"name": "V3",
+        		"type": "numerical",
+        		"number_of_unique_values": 1270,
+        		"number_of_missing_values": 0,
+        		"cat_frequencies": null,
+        		"num_minimum": -5.2861,
+        		"num_1qu": -1.574975,
+        		"num_median": 0.61663,
+        		"num_mean": 1.397627,
+        		"num_3qu": 3.17925,
+        		"num_maximum": 17.9274
+      		},
+      		"V4": {
+        		"name": "V4",
+        		"type": "numerical",
+        		"number_of_unique_values": 1156,
+        		"number_of_missing_values": 0,
+        		"cat_frequencies": null,
+        		"num_minimum": -8.5482,
+        		"num_1qu": -2.41345,
+        		"num_median": -0.58665,
+        		"num_mean": -1.191656521137,
+       			"num_3qu": 0.39481,
+        		"num_maximum": 2.4495
+      		},
+      		"Class": {
+        		"name": "Class",
+        		"type": "categorical",
+        		"number_of_unique_values": 2,
+        		"number_of_missing_values": 0,
+        		"cat_frequencies": {
+          		"1": 762,
+          		"2": 610
+        	},
+        		"num_minimum": null,
+        		"num_1qu": null,
+        		"num_median": null,
+        		"num_mean": null,
+        		"num_3qu": null,
+        		"num_maximum": null
+      		}
+	}
+}]

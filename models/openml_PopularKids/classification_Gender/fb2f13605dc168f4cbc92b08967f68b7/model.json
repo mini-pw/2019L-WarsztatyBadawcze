@@ -1,0 +1,194 @@
+[
+  {
+    "id": "fb2f13605dc168f4cbc92b08967f68b7",
+    "added_by": "WojtekBogucki",
+    "date": "18-03-2019",
+    "library": "mlr",
+    "model_name": "classif.h2o.randomForest",
+    "task_id": "classification_Gender",
+    "dataset_id": "openml_PopularKids",
+    "parameters": {
+      "mtries": -1,
+      "sample_rate": 0.632,
+      "build_tree_one_node": false,
+      "ntrees": 100,
+      "max_depth": 20,
+      "min_rows": 1,
+      "nbins": 20,
+      "nbins_cats": 1024,
+      "binomial_double_trees": true,
+      "balance_classes": false,
+      "max_after_balance_size": 5,
+      "seed": 1233
+    },
+    "preprocessing": {
+      "Gender": {
+        "name": "Gender",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "boy": 227,
+          "girl": 251
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Grade": {
+        "name": "Grade",
+        "type": "numerical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 4,
+        "num_1qu": 5,
+        "num_median": 5,
+        "num_mean": 5.1339,
+        "num_3qu": 6,
+        "num_maximum": 6
+      },
+      "Age": {
+        "name": "Age",
+        "type": "numerical",
+        "number_of_unique_values": 6,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 7,
+        "num_1qu": 10,
+        "num_median": 11,
+        "num_mean": 10.4226,
+        "num_3qu": 11,
+        "num_maximum": 13
+      },
+      "Race": {
+        "name": "Race",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Other": 36,
+          "White": 442
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Urban.Rural": {
+        "name": "Urban.Rural",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Rural": 149,
+          "Suburban": 151,
+          "Urban": 178
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "School": {
+        "name": "School",
+        "type": "categorical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Brentwood Elementary": 67,
+          "Brentwood Middle": 84,
+          "Brown Middle": 52,
+          "Elm": 21,
+          "Main": 68,
+          "Portage": 61,
+          "Ridge": 48,
+          "Sand": 28,
+          "Westdale Middle": 49
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Goals": {
+        "name": "Goals",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Grades": 247,
+          "Popular": 141,
+          "Sports": 90
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Grades": {
+        "name": "Grades",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 2,
+        "num_median": 3,
+        "num_mean": 2.6172,
+        "num_3qu": 4,
+        "num_maximum": 4
+      },
+      "Sports": {
+        "name": "Sports",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 1,
+        "num_median": 2,
+        "num_mean": 2.0858,
+        "num_3qu": 3,
+        "num_maximum": 4
+      },
+      "Looks": {
+        "name": "Looks",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 1,
+        "num_median": 2,
+        "num_mean": 2.1004,
+        "num_3qu": 3,
+        "num_maximum": 4
+      },
+      "Money": {
+        "name": "Money",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 3,
+        "num_median": 3,
+        "num_mean": 3.1967,
+        "num_3qu": 4,
+        "num_maximum": 4
+      }
+    }
+  }
+]

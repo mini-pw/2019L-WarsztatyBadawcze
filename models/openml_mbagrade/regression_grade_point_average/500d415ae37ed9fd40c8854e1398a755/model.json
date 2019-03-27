@@ -1,0 +1,67 @@
+[
+  {
+    "id": "500d415ae37ed9fd40c8854e1398a755",
+    "added_by": "DominikRafacz",
+    "date": "23-03-2019",
+    "library": "mlr",
+    "model_name": "regr.gausspr",
+    "task_id": "regression_grade_point_average",
+    "dataset_id": "openml_mbagrade",
+    "parameters": {
+      "scaled": true,
+      "kernel": "vanilladot",
+      "sigma": null,
+      "degree": 3,
+      "scale": 1,
+      "offset": 1,
+      "order": 1,
+      "var": 0.001,
+      "tol": 0.001,
+      "fit": false
+    },
+    "preprocessing": {
+      "sex": {
+        "name": "sex",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 48,
+          "1": 13
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "GMAT": {
+        "name": "GMAT",
+        "type": "numerical",
+        "number_of_unique_values": 26,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 420,
+        "num_1qu": 530,
+        "num_median": 570,
+        "num_mean": 574.7541,
+        "num_3qu": 610,
+        "num_maximum": 720
+      },
+      "grade_point_average": {
+        "name": "grade_point_average",
+        "type": "numerical",
+        "number_of_unique_values": 57,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2.533,
+        "num_1qu": 3.1,
+        "num_median": 3.324,
+        "num_mean": 3.2904,
+        "num_3qu": 3.481,
+        "num_maximum": 3.905
+      }
+    }
+  }
+]

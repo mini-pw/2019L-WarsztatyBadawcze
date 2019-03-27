@@ -1,0 +1,149 @@
+[{
+	"id": "94bdc21c4a2263884a00dad198630db5",
+	"added_by": "lukaszbrzozowski",
+	"date": "12-03-2019",
+	"library": "mlr",
+	"model_name": "classif.binomial",
+	"task_id": "classification_V3",
+	"dataset_id": "openml_fertility",
+	"parameters": {
+		"link": "logit",
+		"model": true
+},
+  "preprocessing": {
+    "V1": {
+        "name": "V1",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1,
+        "num_1qu": -1,
+        "num_median": -0.33,
+        "num_mean": -0.0789,
+        "num_3qu": 1,
+        "num_maximum": 1
+    },
+    "V2": {
+        "name": "V2",
+        "type": "numerical",
+        "number_of_unique_values": 18,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.5,
+        "num_1qu": 0.56,
+        "num_median": 0.67,
+        "num_mean": 0.669,
+        "num_3qu": 0.75,
+        "num_maximum": 1
+    },
+    "V3": {
+        "name": "V3",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 1,
+        "num_mean": 0.87,
+        "num_3qu": 1,
+        "num_maximum": 1
+    },
+    "V4": {
+        "name": "V4",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.44,
+        "num_3qu": 1,
+        "num_maximum": 1
+    },
+    "V5": {
+        "name": "V5",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 1,
+        "num_mean": 0.51,
+        "num_3qu": 1,
+        "num_maximum": 1
+    },
+    "V6": {
+        "name": "V6",
+        "type": "numerical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.19,
+        "num_3qu": 1,
+        "num_maximum": 1
+    },
+    "V7": {
+        "name": "V7",
+        "type": "numerical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.2,
+        "num_1qu": 0.8,
+        "num_median": 0.8,
+        "num_mean": 0.832,
+        "num_3qu": 1,
+        "num_maximum": 1
+    },
+    "V8": {
+        "name": "V8",
+        "type": "numerical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1,
+        "num_1qu": -1,
+        "num_median": -1,
+        "num_mean": -0.35,
+        "num_3qu": 0,
+        "num_maximum": 1
+    },
+    "V9": {
+        "name": "V9",
+        "type": "numerical",
+        "number_of_unique_values": 14,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.06,
+        "num_1qu": 0.25,
+        "num_median": 0.38,
+        "num_mean": 0.4068,
+        "num_3qu": 0.5,
+        "num_maximum": 1
+    },
+    "Class": {
+        "name": "Class",
+        "type": "nominal",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+            "1": 88,
+            "2": 12
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+    }
+  }
+  
+}]

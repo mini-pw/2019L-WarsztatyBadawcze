@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_dfbb4163d6e0b2109c46d4166135689f",
+    "date": "14-03-2019",
+    "added_by": "witoldmerkel",
+    "model_id": "dfbb4163d6e0b2109c46d4166135689f",
+    "task_id": "regression_V2",
+    "dataset_id": "openml_Satellite",
+    "performance": {
+      "mse": 35.7258,
+      "rmse": 5.9771,
+      "mae": 4.309,
+      "r2": 0.8609
+    }
+  }
+]

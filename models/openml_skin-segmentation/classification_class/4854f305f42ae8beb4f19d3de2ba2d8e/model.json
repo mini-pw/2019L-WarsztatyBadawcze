@@ -2,6 +2,8 @@
 	"id": "4854f305f42ae8beb4f19d3de2ba2d8e",
 	"added_by": "mckraqs",
 	"date": "02-03-2019",
+	"library": "mlr",
+	"model_name": "classif.logreg",
 	"task_id": "classification_Class",
 	"dataset_id": "openml_skin-segmentation",
 	"parameters": {

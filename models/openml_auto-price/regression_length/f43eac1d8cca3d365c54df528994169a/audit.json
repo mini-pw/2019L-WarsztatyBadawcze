@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_f43eac1d8cca3d365c54df528994169a",
+    "date": "06-03-2019",
+    "added_by": "Adamoso",
+    "model_id": "f43eac1d8cca3d365c54df528994169a",
+    "task_id": "regression_length",
+    "dataset_id": "auto_price",
+    "performance": {
+      "mse": 19.81668,
+      "rmse": 4.451593,
+      "mae": 3.451177,
+      "r2": 0.850392
+    }
+  }
+]

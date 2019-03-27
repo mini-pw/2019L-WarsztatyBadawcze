@@ -1,0 +1,81 @@
+---
+title: "Zadanie 5"
+author: "Olaf Werner"
+date: "March 25, 2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(dplyr)
+library(mlr)
+klasyfikacja<-read.csv("klasyfikacja.csv")
+model<-"regr.gbm"
+
+klasyfikacja<-klasyfikacja[!is.na(klasyfikacja$acc),]
+
+klasyfikacja %>% group_by(model_name) %>% filter(n()>3)->klasyfikacja_filter
+klasyfikacja %>% group_by(model_name) %>% filter(n()>3)->klasyfikacja_filter
+klasyfikacja_filter %>% group_by(task_id,dataset_id) %>% filter(n()>8)->klasyfikacja_filter
+klasyfikacja_filter %>% group_by(model_name) %>% filter(n()>3)->klasyfikacja_filter
+klasyfikacja_filter$task_id<-substring(klasyfikacja_filter$task_id,first = 16)
+
+set.seed(1)
+train_filter<-klasyfikacja_filter[-c(1,2,4,6)]
+train<-klasyfikacja[-1]
+
+#robimy taska i learnera
+train[sapply(train, is.character)] <- lapply(train[sapply(train, is.character)], 
+                                       as.factor)
+
+train_filter[sapply(train_filter, is.character)] <- lapply(train_filter[sapply(train_filter, is.character)], 
+                                             as.factor)
+train<-sample_frac(train)
+
+train_filter<-sample_frac(train_filter)
+```
+
+## Zbiór danych
+Nasz zbiór danych zastał stworzony na podstawie danych o stworzonych przez nas modelach. Głównym problemem było to że w tych plikach pojawiały się rozmaite błędy, które trzeba było poprawić. Ponieważ jedne modele były klasyfikacyjne, a inne regresyjne to podzieliłem je na dwa osobne zbiory. Z powodu małej ilości slajdów opowiem tylko o zbiorze modeli klasyfikacyjnych i ich metamodelu.
+
+```{r echo=TRUE}
+dim(klasyfikacja)
+table(klasyfikacja$library)
+```
+
+
+## Metamodel
+Ponieważ gbm jest dość popularny i radzi sobie z brakami danych to będzie moim metamodelem. train_filter to zbiór bez rzadkich modeli i bez rzadkich tasków , nie ma też zbędych kolumn takich jak kto dodał ani id modelu. train to pełny zbiór bez id modelu
+
+```{r echo=TRUE, warning=FALSE}
+task = makeRegrTask(id = "task", data = train_filter, "acc")
+learner<-makeLearner(model)
+measures<-list(rmse=rmse, mae=mae,rsq=rsq)
+cv <- makeResampleDesc("CV", iters = 5)
+wyniki_filter <- resample(learner, task, cv,measures = measures,show.info=FALSE)
+task = makeRegrTask(id = "task", data = train, "acc")
+wyniki_full<-resample(learner, task, cv,measures = measures,show.info=FALSE)
+
+
+```
+
+
+##Podsumowanie
+Ponieważ w zbiorze pełnym są rzadkie zbiory i nieraz występujące tylko raz modele to i tak poszło dobrze jak spojrzymy na rmse kiedy wartości acc są od 0 do 1
+
+```{r}
+#wyniki pełnego
+wyniki_full$aggr
+
+#wyniki filtrowanego
+wyniki_filter$aggr
+```
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_50cddddd032c235de9e788c4f20e7b9a",
+    "date": "24-03-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "50cddddd032c235de9e788c4f20e7b9a",
+    "task_id": "regression_Income",
+    "dataset_id": "openml_disclosure_x_tampered",
+    "performance": {
+      "mse": 890621016.5106,
+      "rmse": 29843.2742,
+      "mae": 23025.1071,
+      "r2": 0.0095
+    }
+  }
+]

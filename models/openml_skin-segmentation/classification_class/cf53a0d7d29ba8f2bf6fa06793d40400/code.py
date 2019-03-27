@@ -13,7 +13,7 @@ import datetime
 import json
 
 #:# config
-np.random.seed(42)
+np.random.seed(420)
 
 #:# data
 datasetOpenmlId = 1502
@@ -42,7 +42,7 @@ model = RandomForestClassifier(n_estimators=1000, max_depth=9)
 model.fit(X_train, y_train)
 
 #:# hash
-#:# e37d46e1a5c0065376d1471f564f3ac7
+#:# cf53a0d7d29ba8f2bf6fa06793d40400
 md5 = hashlib.md5(str(model).encode('utf-8')).hexdigest()
 print(f'md5: {md5}')
 

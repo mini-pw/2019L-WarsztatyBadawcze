@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_eddc80da42940ee05ed92bea2fa85b15",
+    "date": "13-03-2019",
+    "added_by": "k-sap",
+    "model_id": "eddc80da42940ee05ed92bea2fa85b15",
+    "task_id": "regression_TIME",
+    "dataset_id": "openml_lupus",
+    "performance": {
+      "mse": 3970.686,
+      "rmse": 63.01338,
+      "mae": 51.98953,
+	  "r2": 0.1594414
+    }
+  }
+]
