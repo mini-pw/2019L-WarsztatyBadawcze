@@ -11,7 +11,7 @@
       "link": "logit",
       "model": false
     },
-    "preprocessing": [
+    "preprocessing":
       {
         "V1": {
           "name": "V1",
@@ -132,6 +132,5 @@
           }
         }
       }
-    ]
   }
 ]

@@ -23,9 +23,9 @@ generateMultipleModels <- function(username,
   require(R.utils)
   
   site <- tolower(site)
-  if (is.null(target) && site != "openml") {
-    stop("Please provide target name! Only OpenML supports finding it automatically")
-  }
+  # if (is.null(target) && site != "openml") {
+  #   stop("Please provide target name! Only OpenML supports finding it automatically")
+  # }
   
   if(auto_search){
     #finding all dirs beggining with "<site>_", usually "openml_"
@@ -105,6 +105,7 @@ generateMultipleModels <- function(username,
   if (is.null(target)) {
     target <- siteData$target[1]
     if(is.null(target)) {
+      show(siteData)
       target <- readline(
         prompt = "Tried to select target automatically, but failed. Provide one manually (with plain text, please): ")
     }
