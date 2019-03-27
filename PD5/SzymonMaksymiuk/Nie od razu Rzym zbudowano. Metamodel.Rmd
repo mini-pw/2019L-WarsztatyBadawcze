@@ -1,0 +1,117 @@
+---
+title: "Nie od razu Rzym zbudowno. Metamodel"
+author: "Szymon Maksymiuk"
+datse: "27 March 2019"
+output:
+  rmdformats::readthedown:
+    code_folding: hide
+    self_contained: true
+    thumbnails: false
+    lightbox: false
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(dplyr)
+library(DALEX)
+library(readr)
+library(mlr)
+library(caret)
+library(tidyverse)
+library(stringi)
+library(DataExplorer)
+data <- select(read.csv("MetaModelData.csv"), -c(X))
+
+
+```
+
+# Wstęp
+
+Celem projektu jest analiza różnnych modeli wyuczonych na jednym zbiorze danych w celu predykcji wyników nowych modeli przed ich ewaluacją. Może to mieć szczególne zastosowanie w czasie gdy nasz zbiór danych jest bardzo duży i wytrenowanie modelu mogłoby zająć dużo czasu. Jest to podejście trochę inne niż to zawarte w faktycznej pracy domowej, aczkolwiek uważam je za równie ciekawe.
+
+# Zbiór danych
+
+Zbiór danych *conference_attendance* (dostępny na OpenML) https://www.openml.org/d/41538. Zawiera zanonimizowane dane uczestników konferencji **DwuMian**, która w ostatni weekend odbyła się na Wydziale MIMUW. Szerszy opis tego zbioru jest niestety tematem na inną prezentację. Skupmy się na fakcie, że w modelach opartych o ten zbiór staramy się przewidzieć czy zapisany uczestnik, który uiścił opłatę konferencyjną faktycznie przybędzie na konferencję. 
+
+```{r pressure, echo=FALSE}
+
+kableExtra::kable(data[order(data$target, decreasing = TRUE),][1:10,], label = "Zbiór danych MetaModelData.csv", align = 'c')
+
+```
+
+
+# Metamodel
+
+Meta model powstał na bazie $1374$ modeli wytrenowanych na zbiorze *conference_attendance*. Z uwagi na naturę tego zbioru, wszystkie zmienne są faktorami, postanowiłem skorzystać z lasów losowych. Z bilbioteki **mlr** wybrałem  $4$ różne implementacje lasów losowych oraz pewną część wspólną parametrów, które możemy podać. Wytrenowałem w ten sposób modele na pewnej siatce. Część wyników można zobaczyć w powyższej tabelce. 
+
+## Zmiennych
+
+Mój model przyjmować będzie następujące zmienne:
+
+* **model** - Faktor opisujący rodzaj użytego lasu losowego. 
+* **ntrees** - Parametr drzew losowych
+* **ntries** - j.w.
+* **nodesize** - j.w.
+* **target** - zmienna celu, będąca wynikiem **AUC** dla modeli na zbiorze *conference_attendance*
+
+Przedstawmy rozkład zmiannej celu, pomoże nam to w ocenie jakości naszego klasyfikatora.
+
+```{r}
+summary(data$target)
+```
+  
+  
+## Trenowanie modelu
+
+Po wielu próbach okazało się, że w przypadku regresji na metamodelu ponownie najlepiej już użyć lasu losowego, mówiąc dokładniej implementacji **randomForestSRC**. Ponieżej przedstawię moje wyniki. Sprawdzenia jakości modelu dokonałem korzystając z siedmiokrotnej kroswalidacji. Jako parametry przyjąłem te domyślne z myślą aby strojeniem ich zająć się na dalszym etapie, po analizie wyników.
+
+```{r, echo=FALSE, results='hide', message=FALSE}
+set.seed(123, "L'Ecuyer")
+regr_task = makeRegrTask(id = "meta", data = data, target = "target")
+regr_lrn = makeLearner("regr.randomForestSRC")
+cv <- makeResampleDesc("CV", iters = 7)
+r <- resample(regr_lrn, regr_task, cv, measures = list(mse))
+MSE <- r$aggr
+MSE
+
+```
+
+```{r echo=FALSE}
+names(MSE) <- "MSE mean"
+MSE
+```
+
+
+## Analiza modelu
+
+Postaram się teraz przedstawić zwięzła acz wartościową analizę przedstawionego modelu przy użyciu biblioteki **DALEX**.
+
+
+```{r echo=FALSE, message=FALSE}
+set.seed(123, "L'Ecuyer")
+regr_rf <- mlr::train(regr_lrn, regr_task)
+
+custom_predict <- function(object, newdata) {pred <- predict(object, newdata=newdata)
+                                              response <- pred$data$response
+                                              return(response)}
+
+explainer <- DALEX::explain(regr_rf, data=data, y=data$target, predict_function = custom_predict, label="rf")
+mp <- model_performance(explainer)
+plot(mp)
+plot(mp, geom = "boxplot")
+vi <- variable_importance(explainer, loss_function = loss_root_mean_square)
+plot(vi)
+pdp  <- variable_response(explainer, variable = "model", type = "pdp")
+plot(pdp)
+pdp2  <- variable_response(explainer, variable = "ntrees", type = "pdp")
+plot(pdp2)
+
+
+```
+
+
+# Wnioski
+
+* Pomysł według mnie jest ciekawe - warto go rozwijać 
+* mtry jest ważnijeszym parametrem niż ntrees
+* Rodzaj zastosowanej implementacji lasóW losowych znacząco wpływa na wynik modelu
