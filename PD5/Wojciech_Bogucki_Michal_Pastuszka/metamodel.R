@@ -32,27 +32,27 @@ out$performance.acc <- as.numeric(as.character(out$performance.acc))
 out$parameters.num.trees <- as.numeric(as.character(out$parameters.num.trees))
 df_stat <- df_status(out)
 # one hot enc -------------------------------------------------------------
-library(vtreat)
-library(magrittr)
-
-vars <- c("model_name","target.type")
-
-treatplan <- designTreatmentsZ(out, vars)
-
-scoreFrame <- treatplan %>%
-  use_series(scoreFrame) %>%
-  select(varName, origName, code)
-
-newvars <- scoreFrame %>%
-  filter(code %in% c("clean", "lev")) %>%
-  use_series(varName)
-
-
-out <- cbind(out,prepare(treatplan, out, varRestriction = newvars))
-out$model_name <- NULL
-out$target.type <- NULL
-
-out <- drop_columns(out,c("target.name"))
+# library(vtreat)
+# library(magrittr)
+# 
+# vars <- c("model_name","target.type")
+# 
+# treatplan <- designTreatmentsZ(out, vars)
+# 
+# scoreFrame <- treatplan %>%
+#   use_series(scoreFrame) %>%
+#   select(varName, origName, code)
+# 
+# newvars <- scoreFrame %>%
+#   filter(code %in% c("clean", "lev")) %>%
+#   use_series(varName)
+# 
+# 
+# out <- cbind(out,prepare(treatplan, out, varRestriction = newvars))
+# out$model_name <- NULL
+# out$target.type <- NULL
+# 
+# out <- drop_columns(out,c("target.name"))
 out$id <- as.factor(out$id)
 out$target.name <- as.factor(out$target.name)
 out$model_name <- as.factor(out$model_name)
@@ -61,11 +61,11 @@ out$target.largestCatSize <- NULL
 out$target.smallestCatSize <- NULL
 
 # random forest -----------------------------------------------------------
-
+out3 <- select(out,-id, -target.name)
         
 set.seed(123,"L'Ecuyer")
-regr_task <- makeRegrTask(id="task",data=select(out,-id, -target.name),target="performance.acc")
-
+regr_task <- makeRegrTask(id="task",data=out3,target="performance.acc")
+# regr_task <- makeRegrTask(id="task",data=out,target="performance.acc")
 
 learner_rf <- makeLearner("regr.randomForest", par.vals = list(ntree=100))
 
@@ -94,25 +94,7 @@ r <- resample(learner_rpart, regr_task, cv, measures = list(mse,rmse,mae,rsq))
 measure <- r$aggr
 measure
 
-# xgboost -----------------------------------------------------------------
-
-learner_xgb <- makeLearner("regr.xgboost")
-
-cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(learner_xgb, regr_task, cv, measures = list(mse,rmse,mae,rsq))
-measure <- r$aggr
-measure
-
-# knn -----------------------------------------------------------------
-
-learner_knn <- makeLearner("regr.rknn")
-
-cv <- makeResampleDesc("CV", iters = 5)
-r <- resample(learner_knn, regr_task, cv, measures = list(mse,rmse,mae,rsq))
-measure <- r$aggr
-measure
-
-# por?wnanie modeli -------------------------------------------------------
+# porownanie modeli -------------------------------------------------------
 
 library(DALEX)
 
@@ -144,15 +126,18 @@ vi_regr_rf <- variable_importance(explainer_regr_rf, loss_function = loss_root_m
 vi_regr_rpart <- variable_importance(explainer_regr_rpart, loss_function = loss_root_mean_square)
 vi_regr_gbm <- variable_importance(explainer_regr_gbm, loss_function = loss_root_mean_square)
 # vi_regr_xgb <- variable_importance(explainer_regr_xgb, loss_function = loss_root_mean_square)
-
+png("dalex.png")
 plot(vi_regr_rf,vi_regr_rpart,vi_regr_gbm)
+dev.off()
 
-pdp_regr_rf  <- variable_response(explainer_regr_rf, variable =  "performance.acc", type = "pdp")
-pdp_regr_rpart  <- variable_response(explainer_regr_rpart, variable =  "performance.acc", type = "pdp")
-pdp_regr_gbm <- variable_response(explainer_regr_gbm, variable =  "performance.acc", type = "pdp")
+pdp_regr_rf  <- variable_response(explainer_regr_rf, variable =  "parameters.num.trees", type = "pdp")
+pdp_regr_rpart  <- variable_response(explainer_regr_rpart, variable =  "parameters.num.trees", type = "pdp")
+pdp_regr_gbm <- variable_response(explainer_regr_gbm, variable =  "parameters.num.trees", type = "pdp")
 # pdp_regr_xgb  <- variable_response(explainer_regr_xgb, variable =  "performance.acc", type = "pdp")
 plot(pdp_regr_rf,pdp_regr_rpart,pdp_regr_gbm)
 
+
+# inne testy --------------------------------------------------------------
 
 library(auditor)
 library(randomForest)
@@ -175,7 +160,7 @@ rf_mp
 
 n <- nrow(out)
 
-set.seed(74239)
+set.seed(7429)
 
 splitind <- rep(1, n)
 traininddnum <- floor(n*0.25)
@@ -191,7 +176,7 @@ model_rf <- randomForest(performance.acc~.,data=data_train,ntree=100)
 predicted_mi2_rf <- predict(model_rf, data_test)
 sqrt(mean((predicted_mi2_rf - data_test$performance.acc)^2))
 
-cbin(pred=predicted_mi2_rf,real=data_test$performance.acc)
+cbind(pred=predicted_mi2_rf,real=data_test$performance.acc)
 
 
 explainer_regr_rf <- explain(model_rf, data=data_test, y=data_test$performance.acc, predict_function = custom_predict, label="rf")
