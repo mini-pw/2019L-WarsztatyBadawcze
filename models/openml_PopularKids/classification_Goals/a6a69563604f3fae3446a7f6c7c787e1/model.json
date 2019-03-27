@@ -23,7 +23,7 @@
       "fitted": true,
       "scale": true
     },
-    "preprocessing": [
+    "preprocessing": 
       {
         "Gender": {
           "name": "Gender",
@@ -157,6 +157,6 @@
           "num_maximum": 4
         }
       }
-    ]
+    
   }
 ]
