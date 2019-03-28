@@ -4,7 +4,7 @@ author: "Mateusz Bąkała & Dominik ®afacz"
 date: "26 marca 2019"
 output: 
   prettydoc::html_pretty:
-    theme: hsptr
+    theme: hpstr
     highlight: github
 ---
 ![](logo/logo_transparent_caption.png)
@@ -91,4 +91,4 @@ ggplot(data = df, aes(x = r2)) + geom_histogram(stat = "count") + facet_wrap(~mo
 * trudno jest przewidywać regresję
 * przydałoby się więcej danych
 * warto by przechowywać więcej informacji o zmiennych (np. odchylenie standardowe)
-* DALEX nie pozwala poróWnywać takich samych modeli mlr, ale o np. różnych parametrach
+* DALEX nie pozwala porównywać takich samych modeli mlr, ale o np. różnych parametrach
