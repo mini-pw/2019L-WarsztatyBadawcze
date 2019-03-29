@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_visualizing_environmental",
+    "added_by": "MatiFilozof",
+    "date": "24-03-2019",
+    "dataset_id": "visualizing_environmental",
+    "type": "regression",
+    "target": "wind"
+  }
+]

@@ -3,6 +3,8 @@
         "id": "f576777ec52b96b63f5133ed58a02b9b",
         "added_by": "WojciechKretowicz",
         "date": "11-03-2019",
+        "library": "scikit",
+        "model_name": "LinearRegression",
         "task_id": "classification_binaryClass",
         "dataset_id": "openml_stock",
         "parameters": {

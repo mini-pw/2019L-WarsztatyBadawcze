@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Class",
+    "added_by": "wernerolaf",
+    "date": "19-03-2019",
+    "dataset_id": "openml_tic-tac-toe",
+    "type": "classification",
+    "target": "Class"
+  }
+]

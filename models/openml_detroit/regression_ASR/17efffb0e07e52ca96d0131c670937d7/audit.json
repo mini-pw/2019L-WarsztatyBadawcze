@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_17efffb0e07e52ca96d0131c670937d7",
+    "date": "24-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "17efffb0e07e52ca96d0131c670937d7",
+    "task_id": "regression_ASR",
+    "dataset_id": "openml_detroit",
+    "performance": {
+      "mse": 84106.4421,
+      "rmse": 290.0111,
+      "mae": 114.4616,
+      "r2": -30.1922
+    }
+  }
+]

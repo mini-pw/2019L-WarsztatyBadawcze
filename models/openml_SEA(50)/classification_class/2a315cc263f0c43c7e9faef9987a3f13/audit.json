@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_2a315cc263f0c43c7e9faef9987a3f13",
+    "date": "14-03-2019",
+    "added_by": "hubertbaniecki",
+    "model_id": "2a315cc263f0c43c7e9faef9987a3f13",
+    "task_id": "classification_class",
+    "dataset_id": "openml_SEA(50)",
+    "performance": {
+      "acc": 0.8414,
+      "auc": 0.8768,
+      "specificity": 0.9041,
+      "recall": 0.7415,
+      "precision": 0.8292,
+      "f1": 0.7829
+    }
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "9cba280602307ece30cce2816e003fa1",
+    "added_by": "wernerolaf",
+    "date": "20-03-2019",
+    "library": "mlr",
+    "model_name": "classif.svm",
+    "task_id": "classification_Survival_status",
+    "dataset_id": "openml_haberman",
+    "parameters": {
+      "type": "C-classification",
+      "cost": 1,
+      "nu": 0.5,
+      "class.weights": null,
+      "kernel": "radial",
+      "degree": 3,
+      "coef0": 0,
+      "gamma": null,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing":
+      {
+        "Age_of_patient_at_time_of_operation": {
+          "name": "Age_of_patient_at_time_of_operation",
+          "type": "numerical",
+          "number_of_unique_values": 49,
+          "number_of_missing_values": 0,
+          "num_minimum": 30,
+          "num_1qu": 44,
+          "num_median": 52,
+          "num_3q": 60.75,
+          "num_maximum": 83
+        },
+        "Patients_year_of_operation": {
+          "name": "Patients_year_of_operation",
+          "type": "numerical",
+          "number_of_unique_values": 12,
+          "number_of_missing_values": 0,
+          "num_minimum": 58,
+          "num_1qu": 60,
+          "num_median": 63,
+          "num_3q": 65.75,
+          "num_maximum": 69
+        },
+        "Number_of_positive_axillary_nodes_detected": {
+          "name": "Number_of_positive_axillary_nodes_detected",
+          "type": "numerical",
+          "number_of_unique_values": 31,
+          "number_of_missing_values": 0,
+          "num_minimum": 0,
+          "num_1qu": 0,
+          "num_median": 1,
+          "num_3q": 4,
+          "num_maximum": 52
+        },
+        "Survival_status": {
+          "name": "Survival_status",
+          "type": "categorical",
+          "number_of_unique_values": 2,
+          "number_of_missing_values": 0,
+          "cat_frequencies": {
+            "1": 225,
+            "2": 81
+          }
+        }
+      }
+  }
+]
