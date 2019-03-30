@@ -21,6 +21,20 @@
       "fitted": true,
       "scale": true
     },
+<<<<<<< HEAD
+    "preprocessing": 
+      {
+        "V1": {
+          "name": "V1",
+          "num_1qu": -0.7533,
+          "number_of_missing_values": 0,
+          "type": "numerical",
+          "number_of_unique_values": 2112,
+          "num_maximum": 2.81,
+          "num_minimum": -3.09,
+          "num_3q": 0.782,
+          "num_median": -0.0153
+=======
     "preprocessing": {
       "V1": {
         "name": "V1",
@@ -40,6 +54,7 @@
         "cat_frequencies": {
           "1": 2376,
           "0": 2924
+>>>>>>> master
         },
         "number_of_unique_values": 2
       },
@@ -54,6 +69,9 @@
         "num_3q": 0.8225,
         "num_median": -0.0372
       }
+<<<<<<< HEAD
+=======
     }
+>>>>>>> master
   }
 ]

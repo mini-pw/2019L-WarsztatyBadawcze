@@ -21,11 +21,25 @@
       "fitted": true,
       "scale": true
     },
+<<<<<<< HEAD
+    "preprocessing": 
+      {
+        "Sex": {
+          "cat_frequencies": {
+            "1": 25,
+            "0": 25
+          },
+          "number_of_unique_values": 2,
+          "name": "Sex",
+          "number_of_missing_values": 0,
+          "type": "categorical"
+=======
     "preprocessing": {
       "Sex": {
         "cat_frequencies": {
           "1": 25,
           "0": 25
+>>>>>>> master
         },
         "number_of_unique_values": 2,
         "name": "Sex",
@@ -80,6 +94,9 @@
         "num_minimum": 162616,
         "num_1qu": 702786.5
       }
+<<<<<<< HEAD
+=======
     }
+>>>>>>> master
   }
 ]

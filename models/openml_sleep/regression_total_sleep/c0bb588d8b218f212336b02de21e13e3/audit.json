@@ -7,6 +7,15 @@
     "task_id": "regression_total_sleep",
     "dataset_id": "openml_sleep",
     "performance": {
+<<<<<<< HEAD
+      "mse": 35.22854,
+      "rmse": 5.935363,
+      "mae": 3.615391,
+      "r2": 0.4854227
+    }
+  }
+] 
+=======
       "mse": 35.2285,
       "rmse": 5.9354,
       "mae": 3.6154,
@@ -14,3 +23,4 @@
     }
   }
 ]
+>>>>>>> master

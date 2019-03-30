@@ -1,4 +1,20 @@
 [
+<<<<<<< HEAD
+    {
+        "id": "audit_4dd329d93b648a67f8809ba6fb666040",
+        "date": "20-03-2019",
+        "added_by": "Siemashko",
+        "model_id": "4dd329d93b648a67f8809ba6fb666040",
+        "task_id": "regression_NUMDEFECTS",
+        "dataset_id": "openml_kc1-numeric",
+        "performance": {
+            "mse": 42.24317869158124,
+            "rmse": 6.499475262787085,
+            "mae": 2.967767184395089,
+            "r2": 0.5549865382481867
+        }
+    }
+=======
   {
     "id": "audit_4dd329d93b648a67f8809ba6fb666040",
     "date": "20-03-2019",
@@ -13,4 +29,5 @@
       "r2": 0.555
     }
   }
+>>>>>>> master
 ]

@@ -4,7 +4,7 @@
     "added_by": "MatiFilozof",
     "date": "13-03-2019",
     "library": "mlr",
-    "model_name": "Training Neural Network by Backpropagation",
+    "model_name": "classif.nnTrain",
     "task_id": "classification_sex",
     "dataset_id": "toronto_abalone",
     "parameters": {

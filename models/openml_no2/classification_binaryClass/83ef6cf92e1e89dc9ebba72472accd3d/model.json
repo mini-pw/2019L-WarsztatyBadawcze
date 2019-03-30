@@ -1,0 +1,126 @@
+[
+  {
+    "id": "83ef6cf92e1e89dc9ebba72472accd3d",
+    "added_by": "MatiFilozof",
+    "date": "28-03-2019",
+    "library": "mlr",
+    "model_name": "classif.kknn",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_no2",
+    "parameters": {
+      "k": 5,
+      "distance": 2,
+      "kernel": "epanechnikov",
+      "scale": true
+    },
+    "preprocessing": {
+      "no2_concentration": {
+        "name": "no2_concentration",
+        "type": "numerical",
+        "number_of_unique_values": 385,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1.2238,
+        "num_1qu": 3.2139,
+        "num_median": 3.848,
+        "num_mean": 3.6984,
+        "num_3qu": 4.2169,
+        "num_maximum": 6.3951
+      },
+      "cars_per_hour": {
+        "name": "cars_per_hour",
+        "type": "numerical",
+        "number_of_unique_values": 464,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 4.1271,
+        "num_1qu": 6.1758,
+        "num_median": 7.4254,
+        "num_mean": 6.9733,
+        "num_3qu": 7.7932,
+        "num_maximum": 8.3485
+      },
+      "temperature_at_2m": {
+        "name": "temperature_at_2m",
+        "type": "numerical",
+        "number_of_unique_values": 223,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -18.6,
+        "num_1qu": -3.9,
+        "num_median": 1.1,
+        "num_mean": 0.8474,
+        "num_3qu": 4.9,
+        "num_maximum": 21.1
+      },
+      "wind_speed": {
+        "name": "wind_speed",
+        "type": "numerical",
+        "number_of_unique_values": 78,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.3,
+        "num_1qu": 1.675,
+        "num_median": 2.8,
+        "num_mean": 3.056,
+        "num_3qu": 4.2,
+        "num_maximum": 9.9
+      },
+      "temperature_diff_2m_25m": {
+        "name": "temperature_diff_2m_25m",
+        "type": "numerical",
+        "number_of_unique_values": 61,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -5.4,
+        "num_1qu": -0.2,
+        "num_median": 0,
+        "num_mean": 0.1494,
+        "num_3qu": 0.6,
+        "num_maximum": 4.3
+      },
+      "wind_direction": {
+        "name": "wind_direction",
+        "type": "numerical",
+        "number_of_unique_values": 373,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2,
+        "num_1qu": 72,
+        "num_median": 97,
+        "num_mean": 143.3704,
+        "num_3qu": 220,
+        "num_maximum": 359
+      },
+      "hour_of_day": {
+        "name": "hour_of_day",
+        "type": "numerical",
+        "number_of_unique_values": 24,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 6,
+        "num_median": 12.5,
+        "num_mean": 12.382,
+        "num_3qu": 18,
+        "num_maximum": 24
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 251,
+          "N": 249
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
