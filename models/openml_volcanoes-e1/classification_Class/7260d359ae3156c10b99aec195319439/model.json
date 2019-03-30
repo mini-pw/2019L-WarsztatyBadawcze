@@ -9,23 +9,17 @@
     "dataset_id": "openml_volcanoes-e1",
     "parameters": {
       "ntree": 500,
-      "mtry": null,
       "replace": true,
-      "classwt": null,
-      "cutoff": null,
-      "strata": null,
-      "sampsize": null,
       "nodesize": 1,
-      "maxnodes": null,
       "importance": false,
       "localImp": false,
       "proximity": false,
-      "oob.prox": null,
       "norm.votes": true,
       "do.trace": false,
       "keep.forest": true,
       "keep.inbag": false
     },
+<<<<<<< HEAD
     "preprocessing": 
       {
         "V1": {
@@ -38,42 +32,58 @@
           "num_minimum": 16,
           "num_3q": 780.5,
           "num_median": 536
+=======
+    "preprocessing": {
+      "V1": {
+        "name": "V1",
+        "num_1qu": 307.5,
+        "number_of_missing_values": 0,
+        "type": "numerical",
+        "number_of_unique_values": 669,
+        "num_maximum": 1005,
+        "num_minimum": 16,
+        "num_3q": 780.5,
+        "num_median": 536
+      },
+      "Class": {
+        "name": "Class",
+        "number_of_missing_values": 0,
+        "type": "categorical",
+        "cat_frequencies": {
+          "1": 9,
+          "2": 21,
+          "0": 1083,
+          "3": 49,
+          "4": 21
+>>>>>>> master
         },
-        "Class": {
-          "name": "Class",
-          "number_of_missing_values": 0,
-          "type": "categorical",
-          "cat_frequencies": {
-            "1": 9,
-            "2": 21,
-            "0": 1083,
-            "3": 49,
-            "4": 21
-          },
-          "number_of_unique_values": 5
-        },
-        "V2": {
-          "name": "V2",
-          "num_1qu": 242.5,
-          "number_of_missing_values": 0,
-          "type": "numerical",
-          "number_of_unique_values": 682,
-          "num_maximum": 1006,
-          "num_minimum": 16,
-          "num_3q": 735,
-          "num_median": 471
-        },
-        "V3": {
-          "name": "V3",
-          "num_1qu": 0.3762,
-          "number_of_missing_values": 0,
-          "type": "numerical",
-          "number_of_unique_values": 1178,
-          "num_maximum": 0.7755,
-          "num_minimum": 0.35,
-          "num_3q": 0.4793,
-          "num_median": 0.4149
-        }
+        "number_of_unique_values": 5
+      },
+      "V2": {
+        "name": "V2",
+        "num_1qu": 242.5,
+        "number_of_missing_values": 0,
+        "type": "numerical",
+        "number_of_unique_values": 682,
+        "num_maximum": 1006,
+        "num_minimum": 16,
+        "num_3q": 735,
+        "num_median": 471
+      },
+      "V3": {
+        "name": "V3",
+        "num_1qu": 0.3762,
+        "number_of_missing_values": 0,
+        "type": "numerical",
+        "number_of_unique_values": 1178,
+        "num_maximum": 0.7755,
+        "num_minimum": 0.35,
+        "num_3q": 0.4793,
+        "num_median": 0.4149
       }
+<<<<<<< HEAD
+=======
+    }
+>>>>>>> master
   }
 ]

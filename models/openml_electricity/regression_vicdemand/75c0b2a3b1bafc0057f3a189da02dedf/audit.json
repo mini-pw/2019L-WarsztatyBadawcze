@@ -7,10 +7,17 @@
     "task_id": "regression_vicdemand",
     "dataset_id": "openml_electricity",
     "performance": {
+<<<<<<< HEAD
       "mse": 0.003688705,
       "rmse": 0.060721140,
       "mae": 0.046839542,
       "r2": 0.747940400
+=======
+      "mse": 0.0037,
+      "rmse": 0.0607,
+      "mae": 0.0468,
+      "r2": 0.7479
+>>>>>>> master
     }
   }
-] 
+]
