@@ -8,7 +8,11 @@
     "dataset_id": "openml_credit-g",
     "performance": {
       "acc": 0.736,
-      "auc": 0.7836
+      "auc": 0.7836,
+      "specificity": null,
+      "precision": null,
+      "recall": null,
+      "f1": null
     }
   }
 ]

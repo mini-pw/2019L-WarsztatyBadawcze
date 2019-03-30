@@ -6,6 +6,13 @@
     "model_id": "9ddf48ef73d740970fabd13a48745ee4",
     "task_id": "classification_class",
     "dataset_id": "openml_dermatology",
-    "performance": {}
+    "performance": {
+      "specificity": null,
+      "precision": null,
+      "recall": null,
+      "acc": null,
+      "auc": null,
+      "f1": null
+    }
   }
 ]

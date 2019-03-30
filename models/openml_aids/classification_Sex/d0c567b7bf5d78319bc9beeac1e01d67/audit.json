@@ -11,7 +11,8 @@
       "precision": 0.6667,
       "recall": 0.5,
       "f1": 0.5714,
-      "auc": 0.5625
+      "auc": 0.5625,
+      "specificity": null
     }
   }
 ]

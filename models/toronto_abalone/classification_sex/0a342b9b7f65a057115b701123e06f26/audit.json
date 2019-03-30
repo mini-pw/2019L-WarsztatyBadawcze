@@ -7,7 +7,12 @@
     "task_id": "classification_sex",
     "dataset_id": "toronto_abalone",
     "performance": {
-      "acc": 0.5437
+      "acc": 0.5437,
+      "specificity": null,
+      "precision": null,
+      "recall": null,
+      "auc": null,
+      "f1": null
     }
   }
 ]
