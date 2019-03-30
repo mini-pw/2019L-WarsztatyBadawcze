@@ -7,12 +7,7 @@
     "task_id": "classification_Goals",
     "dataset_id": "openml_PopularKids",
     "performance": {
-      "f1": null,
-      "acc": 0.5523,
-      "auc": null,
-      "tnr": null,
-      "tpr": null,
-      "ppv": null
+      "acc": 0.5523
     }
   }
 ]

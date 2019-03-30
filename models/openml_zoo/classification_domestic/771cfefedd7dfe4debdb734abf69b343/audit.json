@@ -1,18 +1,13 @@
 [
   {
-    "id": "audit_771cfefedd7dfe4debdb734abf69b343",    
+    "id": "audit_771cfefedd7dfe4debdb734abf69b343",
     "date": "12-03-2019",
     "added_by": "pysiakk",
     "model_id": "771cfefedd7dfe4debdb734abf69b343",
     "task_id": "classification_domestic",
     "dataset_id": "openml_zoo",
     "performance": {
-      "acc":  0.8614,
-      "auc": null,
-      "specificity": null,
-      "recall": null,
-      "precision": null,
-      "f1": null
+      "acc": 0.8614
     }
   }
-] 
+]

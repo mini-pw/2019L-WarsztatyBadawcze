@@ -7,8 +7,8 @@
     "task_id": "classification_class",
     "dataset_id": "openml_credit-g",
     "performance": {
-      "ACC":  0.7360000,
-      "AUC": 0.7835834
+      "acc": 0.736,
+      "auc": 0.7836
     }
   }
 ]

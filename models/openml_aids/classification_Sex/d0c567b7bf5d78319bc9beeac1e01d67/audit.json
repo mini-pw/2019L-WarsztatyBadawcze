@@ -1,17 +1,17 @@
 [
-    {
-        "id": "audit_d0c567b7bf5d78319bc9beeac1e01d67",
-        "date": "12-03-2019",
-        "added_by": "Siemashko",
-        "model_id": "d0c567b7bf5d78319bc9beeac1e01d67",
-        "task_id": "classification_Sex",
-        "dataset_id": "openml_aids",
-        "performance": {
-            "acc": 0.625,
-            "precision": 0.6666666666666666,
-            "recall": 0.5,
-            "f1": 0.5714285714285715,
-            "auc": 0.5625
-        }
+  {
+    "id": "audit_d0c567b7bf5d78319bc9beeac1e01d67",
+    "date": "12-03-2019",
+    "added_by": "Siemashko",
+    "model_id": "d0c567b7bf5d78319bc9beeac1e01d67",
+    "task_id": "classification_Sex",
+    "dataset_id": "openml_aids",
+    "performance": {
+      "acc": 0.625,
+      "precision": 0.6667,
+      "recall": 0.5,
+      "f1": 0.5714,
+      "auc": 0.5625
     }
+  }
 ]

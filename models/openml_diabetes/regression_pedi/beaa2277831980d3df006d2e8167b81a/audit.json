@@ -7,10 +7,10 @@
     "task_id": "regression_pedi",
     "dataset_id": "openml_diabetes",
     "performance": {
-      "mse":  0.1317857,
-      "rmse": 0.3630231,
-      "mae": 0.2696386,
-      "r2": -0.2183094
+      "mse": 0.1318,
+      "rmse": 0.363,
+      "mae": 0.2696,
+      "r2": -0.2183
     }
   }
 ]

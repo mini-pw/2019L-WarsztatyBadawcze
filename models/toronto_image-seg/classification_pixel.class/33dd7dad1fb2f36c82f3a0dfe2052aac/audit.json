@@ -7,12 +7,7 @@
     "task_id": "classification_pixel.class",
     "dataset_id": "toronto_image-seg",
     "performance": {
-      "acc": 0.9766,
-      "auc": null,
-      "specificity": null,
-      "recall": null,
-      "precision": null,
-      "f1": null
+      "acc": 0.9766
     }
   }
 ]

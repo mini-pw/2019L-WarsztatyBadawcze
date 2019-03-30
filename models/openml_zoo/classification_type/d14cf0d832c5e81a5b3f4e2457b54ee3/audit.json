@@ -7,12 +7,7 @@
     "task_id": "classification_type",
     "dataset_id": "openml_zoo",
     "performance": {
-      "f1": null,
-      "acc": 0.841,
-      "auc": null,
-      "tnr": null,
-      "tpr": null,
-      "ppv": null
+      "acc": 0.841
     }
   }
 ]

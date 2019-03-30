@@ -7,7 +7,7 @@
     "task_id": "classification_class",
     "dataset_id": "openml_electricity",
     "performance": {
-      "ACC": 0.7194
+      "acc": 0.7194
     }
   }
 ]

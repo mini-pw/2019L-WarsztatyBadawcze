@@ -7,11 +7,7 @@
     "task_id": "classification_symboling",
     "dataset_id": "auto_price",
     "performance": {
-      "acc": 0.8256965,
-      "auc": null,
-      "specificity": null,
-      "recall": null,
-      "f1": null
+      "acc": 0.8257
     }
   }
 ]
