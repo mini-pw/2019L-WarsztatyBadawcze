@@ -1,0 +1,120 @@
+[
+  {
+    "id": "7a48718db50a3f3236f0676581fb9a37",
+    "added_by": "DominikRafacz",
+    "date": "24-03-2019",
+    "library": "mlr",
+    "model_name": "regr.svm",
+    "task_id": "regression_employed",
+    "dataset_id": "openml_longley",
+    "parameters": {
+      "type": "eps-regression",
+      "kernel": "radial",
+      "degree": 3,
+      "gamma": null,
+      "coef0": 0,
+      "cost": 1,
+      "nu": 0.5,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "epsilon": null,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing": {
+      "deflator": {
+        "name": "deflator",
+        "type": "numerical",
+        "number_of_unique_values": 16,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 83,
+        "num_1qu": 94.525,
+        "num_median": 100.6,
+        "num_mean": 101.6813,
+        "num_3qu": 111.25,
+        "num_maximum": 116.9
+      },
+      "GNP": {
+        "name": "GNP",
+        "type": "numerical",
+        "number_of_unique_values": 16,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 234289,
+        "num_1qu": 317881,
+        "num_median": 381427,
+        "num_mean": 387698.4375,
+        "num_3qu": 454085.5,
+        "num_maximum": 554894
+      },
+      "unemployed": {
+        "name": "unemployed",
+        "type": "numerical",
+        "number_of_unique_values": 16,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1870,
+        "num_1qu": 2348.25,
+        "num_median": 3143.5,
+        "num_mean": 3193.3125,
+        "num_3qu": 3842.5,
+        "num_maximum": 4806
+      },
+      "armed_forces": {
+        "name": "armed_forces",
+        "type": "numerical",
+        "number_of_unique_values": 16,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1456,
+        "num_1qu": 2298,
+        "num_median": 2717.5,
+        "num_mean": 2606.6875,
+        "num_3qu": 3060.75,
+        "num_maximum": 3594
+      },
+      "population": {
+        "name": "population",
+        "type": "numerical",
+        "number_of_unique_values": 16,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 107608,
+        "num_1qu": 111788.5,
+        "num_median": 116803.5,
+        "num_mean": 117424,
+        "num_3qu": 122304,
+        "num_maximum": 130081
+      },
+      "year": {
+        "name": "year",
+        "type": "numerical",
+        "number_of_unique_values": 16,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1947,
+        "num_1qu": 1950.75,
+        "num_median": 1954.5,
+        "num_mean": 1954.5,
+        "num_3qu": 1958.25,
+        "num_maximum": 1962
+      },
+      "employed": {
+        "name": "employed",
+        "type": "numerical",
+        "number_of_unique_values": 16,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 60171,
+        "num_1qu": 62712.5,
+        "num_median": 65504,
+        "num_mean": 65317,
+        "num_3qu": 68290.5,
+        "num_maximum": 70551
+      }
+    }
+  }
+]

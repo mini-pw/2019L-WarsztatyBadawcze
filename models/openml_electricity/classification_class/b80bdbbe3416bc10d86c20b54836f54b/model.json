@@ -10,7 +10,7 @@
     "parameters": {
       "model": true
     },
-    "preprocessing": [
+    "preprocessing":
       {
         "date": {
           "name": "date",
@@ -119,6 +119,6 @@
           }
         }
       }
-    ]
+   
   }
 ]

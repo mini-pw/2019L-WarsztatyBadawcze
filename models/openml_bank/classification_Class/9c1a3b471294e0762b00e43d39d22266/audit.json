@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_9c1a3b471294e0762b00e43d39d22266",
+    "date": "20-03-2019",
+    "added_by": "WojciechKretowicz",
+    "model_id": "9c1a3b471294e0762b00e43d39d22266",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_bank-marketing",
+    "performance": {
+      "acc": 0.9077,
+      "auc": 0.933,
+      "specificity": 0.4649,
+      "recall": 0.9663,
+      "precision": 0.9317,
+      "f1": 0.9487
+    }
+  }
+]

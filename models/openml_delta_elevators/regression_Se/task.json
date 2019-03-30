@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_delta_elevators",
+    "added_by": "DominikRafacz",
+    "date": "23-03-2019",
+    "dataset_id": "delta_elevators",
+    "type": "regression",
+    "target": "Se"
+  }
+]

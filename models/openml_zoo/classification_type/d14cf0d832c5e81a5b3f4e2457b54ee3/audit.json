@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_d14cf0d832c5e81a5b3f4e2457b54ee3",
+    "date": "19-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "d14cf0d832c5e81a5b3f4e2457b54ee3",
+    "task_id": "classification_type",
+    "dataset_id": "openml_zoo",
+    "performance": {
+      "f1": null,
+      "acc": 0.841,
+      "auc": null,
+      "tnr": null,
+      "tpr": null,
+      "ppv": null
+    }
+  }
+]
