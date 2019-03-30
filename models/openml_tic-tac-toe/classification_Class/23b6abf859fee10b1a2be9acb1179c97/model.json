@@ -9,128 +9,124 @@
     "dataset_id": "openml_tic-tac-toe",
     "parameters": {
       "minsplit": 20,
-      "minbucket": null,
       "cp": 0.01,
       "maxcompete": 4,
       "maxsurrogate": 5,
       "usesurrogate": 2,
       "surrogatestyle": 0,
       "maxdepth": 30,
-      "xval": 0,
-      "parms": null
+      "xval": 0
     },
-    "preprocessing": [
-      {
-        "top.left.square": {
-          "name": "top.left.square",
-          "type": "nominal",
-          "number_of_unique_values": 3,
-          "number_of_missing_values": 0,
-          "cat_frequencies": {
-            "b": 205,
-            "o": 335,
-            "x": 418
-          }
-        },
-        "top.middle.square": {
-          "name": "top.middle.square",
-          "type": "nominal",
-          "number_of_unique_values": 3,
-          "number_of_missing_values": 0,
-          "cat_frequencies": {
-            "b": 250,
-            "o": 330,
-            "x": 378
-          }
-        },
-        "top.right.square": {
-          "name": "top.right.square",
-          "type": "nominal",
-          "number_of_unique_values": 3,
-          "number_of_missing_values": 0,
-          "cat_frequencies": {
-            "b": 205,
-            "o": 335,
-            "x": 418
-          }
-        },
-        "middle.left.square": {
-          "name": "middle.left.square",
-          "type": "nominal",
-          "number_of_unique_values": 3,
-          "number_of_missing_values": 0,
-          "cat_frequencies": {
-            "b": 250,
-            "o": 330,
-            "x": 378
-          }
-        },
-        "middle.middle.square": {
-          "name": "middle.middle.square",
-          "type": "nominal",
-          "number_of_unique_values": 3,
-          "number_of_missing_values": 0,
-          "cat_frequencies": {
-            "b": 160,
-            "o": 340,
-            "x": 458
-          }
-        },
-        "middle.right.square": {
-          "name": "middle.right.square",
-          "type": "nominal",
-          "number_of_unique_values": 3,
-          "number_of_missing_values": 0,
-          "cat_frequencies": {
-            "b": 250,
-            "o": 330,
-            "x": 378
-          }
-        },
-        "bottom.left.square": {
-          "name": "bottom.left.square",
-          "type": "nominal",
-          "number_of_unique_values": 3,
-          "number_of_missing_values": 0,
-          "cat_frequencies": {
-            "b": 205,
-            "o": 335,
-            "x": 418
-          }
-        },
-        "bottom.middle.square": {
-          "name": "bottom.middle.square",
-          "type": "nominal",
-          "number_of_unique_values": 3,
-          "number_of_missing_values": 0,
-          "cat_frequencies": {
-            "b": 250,
-            "o": 330,
-            "x": 378
-          }
-        },
-        "bottom.right.square": {
-          "name": "bottom.right.square",
-          "type": "nominal",
-          "number_of_unique_values": 3,
-          "number_of_missing_values": 0,
-          "cat_frequencies": {
-            "b": 205,
-            "o": 335,
-            "x": 418
-          }
-        },
-        "Class": {
-          "name": "Class",
-          "type": "nominal",
-          "number_of_unique_values": 2,
-          "number_of_missing_values": 0,
-          "cat_frequencies": {
-            "positive": 332,
-            "negative": 626
-          }
+    "preprocessing": {
+      "top.left.square": {
+        "name": "top.left.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 205,
+          "o": 335,
+          "x": 418
+        }
+      },
+      "top.middle.square": {
+        "name": "top.middle.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 250,
+          "o": 330,
+          "x": 378
+        }
+      },
+      "top.right.square": {
+        "name": "top.right.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 205,
+          "o": 335,
+          "x": 418
+        }
+      },
+      "middle.left.square": {
+        "name": "middle.left.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 250,
+          "o": 330,
+          "x": 378
+        }
+      },
+      "middle.middle.square": {
+        "name": "middle.middle.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 160,
+          "o": 340,
+          "x": 458
+        }
+      },
+      "middle.right.square": {
+        "name": "middle.right.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 250,
+          "o": 330,
+          "x": 378
+        }
+      },
+      "bottom.left.square": {
+        "name": "bottom.left.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 205,
+          "o": 335,
+          "x": 418
+        }
+      },
+      "bottom.middle.square": {
+        "name": "bottom.middle.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 250,
+          "o": 330,
+          "x": 378
+        }
+      },
+      "bottom.right.square": {
+        "name": "bottom.right.square",
+        "type": "nominal",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "b": 205,
+          "o": 335,
+          "x": 418
+        }
+      },
+      "Class": {
+        "name": "Class",
+        "type": "nominal",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "positive": 332,
+          "negative": 626
         }
       }
-    ]
+    }
   }
 ]

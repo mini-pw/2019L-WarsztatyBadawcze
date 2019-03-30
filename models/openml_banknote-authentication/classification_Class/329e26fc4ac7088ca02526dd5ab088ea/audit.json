@@ -1,4 +1,3 @@
-  
 [
   {
     "id": "audit_329e26fc4ac7088ca02526dd5ab088ea",
@@ -8,12 +7,12 @@
     "task_id": "classification_Class",
     "dataset_id": "openml_banknote-authentication",
     "performance": {
-      "acc":  0.9978129,
-      "auc": 1.0000000,
-      "specificity": 1.0000000, 
-      "recall": 0.9961534, 
-      "precision": 1.0000000, 
-      "f1": 0.9980661 
+      "acc": 0.9978,
+      "auc": 1,
+      "specificity": 1,
+      "recall": 0.9962,
+      "precision": 1,
+      "f1": 0.9981
     }
   }
 ]

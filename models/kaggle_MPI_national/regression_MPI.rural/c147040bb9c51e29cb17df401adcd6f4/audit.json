@@ -7,10 +7,10 @@
     "task_id": "regression_MPI.Rural",
     "dataset_id": "kaggle_MPI_national",
     "performance": {
-      "MSE": 0.0004,
-      "RMSE": 0.0206,
-      "MAE": 0.0161,
-      "RSQ": 0.988
+      "mse": 0.0004,
+      "rmse": 0.0206,
+      "mae": 0.0161,
+      "r2": 0.988
     }
   }
 ]

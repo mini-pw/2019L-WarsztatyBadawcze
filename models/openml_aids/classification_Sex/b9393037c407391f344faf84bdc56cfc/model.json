@@ -11,11 +11,9 @@
       "type": "C-classification",
       "cost": 1,
       "nu": 0.5,
-      "class.weights": null,
       "kernel": "radial",
       "degree": 3,
       "coef0": 0,
-      "gamma": null,
       "cachesize": 40,
       "tolerance": 0.001,
       "shrinking": true,
@@ -23,67 +21,65 @@
       "fitted": true,
       "scale": true
     },
-    "preprocessing": [
-      {
-        "Sex": {
-          "cat_frequencies": {
-            "1": 25,
-            "0": 25
-          },
-          "number_of_unique_values": 2,
-          "name": "Sex",
-          "number_of_missing_values": 0,
-          "type": "categorical"
+    "preprocessing": {
+      "Sex": {
+        "cat_frequencies": {
+          "1": 25,
+          "0": 25
         },
-        "AIDS": {
-          "num_3q": 9073.75,
-          "name": "AIDS",
-          "num_maximum": 82334,
-          "number_of_unique_values": 50,
-          "num_median": 1640,
-          "type": "numerical",
-          "number_of_missing_values": 0,
-          "num_minimum": 3,
-          "num_1qu": 114.5
+        "number_of_unique_values": 2,
+        "name": "Sex",
+        "number_of_missing_values": 0,
+        "type": "categorical"
+      },
+      "AIDS": {
+        "num_3q": 9073.75,
+        "name": "AIDS",
+        "num_maximum": 82334,
+        "number_of_unique_values": 50,
+        "num_median": 1640,
+        "type": "numerical",
+        "number_of_missing_values": 0,
+        "num_minimum": 3,
+        "num_1qu": 114.5
+      },
+      "Age": {
+        "cat_frequencies": {
+          "0.0": 10,
+          "2.0": 10,
+          "1.0": 10,
+          "4.0": 10,
+          "3.0": 10
         },
-        "Age": {
-          "cat_frequencies": {
-            "0.0": 10,
-            "2.0": 10,
-            "1.0": 10,
-            "4.0": 10,
-            "3.0": 10
-          },
-          "number_of_unique_values": 5,
-          "name": "Age",
-          "number_of_missing_values": 0,
-          "type": "categorical"
+        "number_of_unique_values": 5,
+        "name": "Age",
+        "number_of_missing_values": 0,
+        "type": "categorical"
+      },
+      "Race": {
+        "cat_frequencies": {
+          "0.0": 10,
+          "2.0": 10,
+          "1.0": 10,
+          "4.0": 10,
+          "3.0": 10
         },
-        "Race": {
-          "cat_frequencies": {
-            "0.0": 10,
-            "2.0": 10,
-            "1.0": 10,
-            "4.0": 10,
-            "3.0": 10
-          },
-          "number_of_unique_values": 5,
-          "name": "Race",
-          "number_of_missing_values": 0,
-          "type": "categorical"
-        },
-        "Total": {
-          "num_3q": 2806359.25,
-          "name": "Total",
-          "num_maximum": 22686934,
-          "number_of_unique_values": 50,
-          "num_median": 1616417.5,
-          "type": "numerical",
-          "number_of_missing_values": 0,
-          "num_minimum": 162616,
-          "num_1qu": 702786.5
-        }
+        "number_of_unique_values": 5,
+        "name": "Race",
+        "number_of_missing_values": 0,
+        "type": "categorical"
+      },
+      "Total": {
+        "num_3q": 2806359.25,
+        "name": "Total",
+        "num_maximum": 22686934,
+        "number_of_unique_values": 50,
+        "num_median": 1616417.5,
+        "type": "numerical",
+        "number_of_missing_values": 0,
+        "num_minimum": 162616,
+        "num_1qu": 702786.5
       }
-    ]
+    }
   }
 ]
