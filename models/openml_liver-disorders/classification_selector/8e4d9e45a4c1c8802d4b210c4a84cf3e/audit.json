@@ -1,17 +1,18 @@
 [
-    {
-        "id": "audit_8e4d9e45a4c1c8802d4b210c4a84cf3e",
-        "date": "06-03-2019",
-        "added_by": "Siemashko",
-        "model_id": "8e4d9e45a4c1c8802d4b210c4a84cf3e",
-        "task_id": "classification_selector",
-        "dataset_id": "openml_liver-disorders",
-        "performance": {
-            "auc": 0.8336134453781512,
-            "acc": 0.8076923076923077,
-            "f1": 0.8571428571428571,
-            "recall": 0.8571428571428571,
-            "precision": 0.8571428571428571
-        }
+  {
+    "id": "audit_8e4d9e45a4c1c8802d4b210c4a84cf3e",
+    "date": "06-03-2019",
+    "added_by": "Siemashko",
+    "model_id": "8e4d9e45a4c1c8802d4b210c4a84cf3e",
+    "task_id": "classification_selector",
+    "dataset_id": "openml_liver-disorders",
+    "performance": {
+      "auc": 0.8336,
+      "acc": 0.8077,
+      "f1": 0.8571,
+      "recall": 0.8571,
+      "precision": 0.8571,
+      "specificity": null
     }
+  }
 ]
