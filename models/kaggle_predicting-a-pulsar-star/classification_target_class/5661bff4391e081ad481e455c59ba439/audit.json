@@ -7,11 +7,11 @@
     "task_id": "classification_target_class",
     "dataset_id": "kaggle_predicting-a-pulsar-star",
     "performance": {
-      "acc": 0.9783775,
-      "auc": null,
+      "acc": 0.9784,
       "specificity": null,
-      "recall": null,
       "precision": null,
+      "recall": null,
+      "auc": null,
       "f1": null
     }
   }
