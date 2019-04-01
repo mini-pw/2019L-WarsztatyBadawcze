@@ -7,10 +7,10 @@
     "task_id": "regression_suicides100k_pop",
     "dataset_id": "kaggle_suicide-rates-overview-1985-to-2016",
     "performance": {
-      "mse": 0.0049628,
-      "rmse": 0.070446972,
-      "mae": 0.040816092,
-      "r2": 0.328702076
+      "mse": 0.005,
+      "rmse": 0.0704,
+      "mae": 0.0408,
+      "r2": 0.3287
     }
   }
 ]
