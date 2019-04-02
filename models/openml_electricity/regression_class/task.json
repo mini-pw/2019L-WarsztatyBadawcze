@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_electricity",
+    "added_by": "DominikRafacz",
+    "date": "02-04-2019",
+    "dataset_id": "electricity",
+    "type": "regression",
+    "target": "class"
+  }
+]
