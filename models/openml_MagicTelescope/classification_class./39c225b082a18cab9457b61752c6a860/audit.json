@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_39c225b082a18cab9457b61752c6a860",
+    "date": "02-04-2019",
+    "added_by": "Pastuszka",
+    "model_id": "39c225b082a18cab9457b61752c6a860",
+    "task_id": "classification_class.",
+    "dataset_id": "openml_MagicTelescope",
+    "performance": {
+      "acc": 1,
+      "auc": 1,
+      "specificity": 1,
+      "recall": 1,
+      "precision": 1,
+      "f1": 1
+    }
+  }
+]
