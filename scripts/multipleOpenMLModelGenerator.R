@@ -127,7 +127,9 @@ generateMultipleModels <- function(username,
     cat(modelSettings$modelsNames[i])
     cat("\n")
     message("Parameters: ")
-    invisible(lapply(modelSettings$modelsParams[[i]], cat))
+    t2 <- unlist(modelSettings$modelsParams[[i]])
+    cat(paste(names(t2), "=", t2, collapse = "\n"))
+    cat("\n")
     tryCatch(
       createTaskWDS(site = site,
                     siteData,

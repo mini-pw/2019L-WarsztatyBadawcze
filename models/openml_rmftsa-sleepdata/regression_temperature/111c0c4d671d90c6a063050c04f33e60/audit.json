@@ -7,10 +7,10 @@
     "task_id": "regression_temperature",
     "dataset_id": "openml_rmftsa-sleepdata",
     "performance": {
-      "mse":  0.01478135,
-      "rmse":  0.12157859,
-      "mae":  0.09830354,
-      "r2":  0.29475175
+      "mse": 0.0148,
+      "rmse": 0.1216,
+      "mae": 0.0983,
+      "r2": 0.2948
     }
   }
-] 
+]

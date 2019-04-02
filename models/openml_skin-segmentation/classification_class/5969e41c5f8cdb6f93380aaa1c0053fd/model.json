@@ -1,0 +1,56 @@
+[
+    {
+        "id": "5969e41c5f8cdb6f93380aaa1c0053fd",
+        "added_by": "mckraqs",
+        "date": "30-03-2019",
+        "library": "scikit",
+        "model_name": "AdaBoostClassifier",
+        "task_id": "classification_Class",
+        "dataset_id": "skin-segmentation",
+        "parameters": {
+            "algorithm": "SAMME.R",
+            "base_estimator": null,
+            "learning_rate": 1.0,
+            "n_estimators": 1,
+            "random_state": null
+        },
+        "preprocessing": {
+            "V1": {
+                "name": "V1",
+                "type": "numerical",
+                "number_of_unique_values": 256,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.0,
+                "num_1qu": 68.0,
+                "num_median": 139.0,
+                "num_3q": 176.0,
+                "num_maximum": 255.0
+            },
+            "V2": {
+                "name": "V2",
+                "type": "numerical",
+                "number_of_unique_values": 256,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.0,
+                "num_1qu": 87.0,
+                "num_median": 153.0,
+                "num_3q": 177.0,
+                "num_maximum": 255.0
+            },
+            "V3": {
+                "name": "V3",
+                "type": "numerical",
+                "number_of_unique_values": 256,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.0,
+                "num_1qu": 71.0,
+                "num_median": 128.0,
+                "num_3q": 165.0,
+                "num_maximum": 255.0
+            }
+        }
+    }
+]
