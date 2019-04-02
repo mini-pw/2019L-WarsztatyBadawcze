@@ -7,12 +7,12 @@
     "task_id": "classification_selector",
     "dataset_id": "openml_liver-disorders",
     "performance": {
-      "acc":  0.7362,
-      "auc": 0.2217241,
+      "acc": 0.7362,
+      "auc": 0.2217,
       "specificity": 0.83,
-      "recall": 0.6068966,
-      "precision": 0.720339,
-      "f1": 0.6587697
+      "recall": 0.6069,
+      "precision": 0.7203,
+      "f1": 0.6588
     }
   }
-] 
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "d5e2ca6db092f906a85304a1396e32cd",
+    "added_by": "michalSt98",
+    "date": "29-03-2019",
+    "library": "mlr",
+    "model_name": "classif.bartMachine",
+    "task_id": "classification_STATUS",
+    "dataset_id": "openml_lupus",
+    "parameters": {
+      "num_trees": 100,
+      "num_burn_in": 10,
+      "num_iterations_after_burn_in": 1000,
+      "alpha": 0.95,
+      "beta": 2,
+      "k": 2,
+      "q": 0.9,
+      "prob_rule_class": 0.5,
+      "mh_prob_steps": [0.2778, 0.2778, 0.4444],
+      "debug_log": false,
+      "run_in_sample": true,
+      "cov_prior_vec": null,
+      "use_missing_data": true,
+      "num_rand_samps_in_library": 10000,
+      "use_missing_data_dummies_as_covars": false,
+      "replace_missing_data_with_x_j_bar": false,
+      "impute_missingness_with_rf_impute": false,
+      "impute_missingness_with_x_j_bar_for_lm": true,
+      "mem_cache_for_speed": true,
+      "serialize": false,
+      "seed": null,
+      "verbose": true
+    },
+    "preprocessing": {
+      "TIME": {
+        "name": "TIME",
+        "type": "numerical",
+        "number_of_unique_values": 75,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 4,
+        "num_1qu": 87.5,
+        "num_median": 147,
+        "num_mean": 142.3448,
+        "num_3qu": 193.5,
+        "num_maximum": 276
+      },
+      "STATUS": {
+        "name": "STATUS",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "alive": 52,
+          "dead": 35
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "DURATION": {
+        "name": "DURATION",
+        "type": "numerical",
+        "number_of_unique_values": 27,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.1,
+        "num_1qu": 0.1,
+        "num_median": 2,
+        "num_mean": 10.4805,
+        "num_3qu": 9,
+        "num_maximum": 106
+      },
+      "LOG.1.DURATION.": {
+        "name": "LOG.1.DURATION.",
+        "type": "numerical",
+        "number_of_unique_values": 27,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.1,
+        "num_1qu": 0.1,
+        "num_median": 1.1,
+        "num_mean": 1.4178,
+        "num_3qu": 2.3,
+        "num_maximum": 4.67
+      }
+    }
+  }
+]

@@ -7,10 +7,10 @@
     "task_id": "regression_length",
     "dataset_id": "auto_price",
     "performance": {
-      "mse": 19.81668,
-      "rmse": 4.451593,
-      "mae": 3.451177,
-      "r2": 0.850392
+      "mse": 19.8167,
+      "rmse": 4.4516,
+      "mae": 3.4512,
+      "r2": 0.8504
     }
   }
 ]

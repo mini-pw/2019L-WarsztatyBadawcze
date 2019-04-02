@@ -7,10 +7,10 @@
     "task_id": "regression_quality",
     "dataset_id": "kaggle_red-wine-quality",
     "performance": {
-      "mse": 0.394638,
-      "rmse": 0.6282022,
-      "mae": 0.484582,
-      "r2": 0.3983393
+      "mse": 0.3946,
+      "rmse": 0.6282,
+      "mae": 0.4846,
+      "r2": 0.3983
     }
   }
 ]
