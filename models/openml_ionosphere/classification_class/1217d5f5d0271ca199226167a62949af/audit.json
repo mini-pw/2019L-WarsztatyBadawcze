@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_1217d5f5d0271ca199226167a62949af",
+    "date": "31-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "1217d5f5d0271ca199226167a62949af",
+    "task_id": "classification_class",
+    "dataset_id": "openml_ionosphere",
+    "performance": {
+      "acc": 0.6808,
+      "auc": 0.8251,
+      "specificity": 1,
+      "recall": 0.1134,
+      "precision": 1,
+      "f1": 0.194
+    }
+  }
+]

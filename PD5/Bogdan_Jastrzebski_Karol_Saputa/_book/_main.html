@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Warsztaty Badawcze 1 - PD5</title>
+  <meta name="description" content="Warsztaty Badawcze 1 - PD5">
+  <meta name="generator" content="bookdown <!--bookdown:version--> and GitBook 2.6.7">
+
+  <meta property="og:title" content="Warsztaty Badawcze 1 - PD5" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Warsztaty Badawcze 1 - PD5" />
+  
+  
+  
+
+<meta name="author" content="Karol Saputa &amp; Bogdan Jastrzębski">
+
+
+<meta name="date" content="2019-03-27">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<!--bookdown:link_prev-->
+<!--bookdown:link_next-->
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+<!--bookdown:title:start-->
+<div id="header">
+<h1 class="title">Warsztaty Badawcze 1 - PD5</h1>
+<p class="author"><em>Karol Saputa &amp; Bogdan Jastrzębski</em></p>
+<p class="date"><em>March 27, 2019</em></p>
+</div>
+<!--bookdown:title:end-->
+
+<!--bookdown:toc:start-->
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+<!--bookdown:toc2:start-->
+<ul>
+<li><a href="#analiza-zbioru"><span class="toc-section-number">0.1</span> Analiza zbioru</a></li>
+<li><a href="#analiza-zbioru-1"><span class="toc-section-number">0.2</span> Analiza zbioru</a></li>
+<li><a href="#variable-impact"><span class="toc-section-number">0.3</span> Variable impact</a></li>
+<li><a href="#ocena-jakosci"><span class="toc-section-number">0.4</span> Ocena jakości</a></li>
+<li><a href="#podsumowanie"><span class="toc-section-number">0.5</span> Podsumowanie</a></li>
+</ul>
+<!--bookdown:toc2:end-->
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Warsztaty Badawcze 1 - PD5</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<!--bookdown:toc:end-->
+<!--bookdown:body:start-->
+<div id="analiza-zbioru" class="section level2">
+<h2><span class="header-section-number">0.1</span> Analiza zbioru</h2>
+<pre><code>## [1] &quot;library&quot;                     &quot;model_name&quot;                 
+## [3] &quot;numberOfCategoricalFeatures&quot; &quot;numberOfNumericalFeatures&quot;  
+## [5] &quot;meanUniqueNumericalValues&quot;   &quot;meanUniqueCategoricalValues&quot;
+## [7] &quot;meanNumberMissing&quot;           &quot;number_of_instances&quot;        
+## [9] &quot;ACC&quot;</code></pre>
+<p><img src="plots/na_final.png" width="500px" height="360px" /></p>
+</div>
+<div id="analiza-zbioru-1" class="section level2">
+<h2><span class="header-section-number">0.2</span> Analiza zbioru</h2>
+<p><img src="plots/coorr.png" width="625" height="500px" /></p>
+</div>
+<div id="variable-impact" class="section level2">
+<h2><span class="header-section-number">0.3</span> Variable impact</h2>
+<p><img src="plots/BartMachineImpact.png" width="548" height="500px" /></p>
+</div>
+<div id="ocena-jakosci" class="section level2">
+<h2><span class="header-section-number">0.4</span> Ocena jakości</h2>
+<p><code>regr_task = makeRegrTask(id = &quot;task&quot;, data = df, target = &quot;ACC&quot;)</code></p>
+<p><code>regr_lrn = makeLearner(&quot;regr.bartMachine&quot;)</code></p>
+<table>
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th align="center">Score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>mse.test.mean</td>
+<td align="center">0.0016731</td>
+</tr>
+<tr class="even">
+<td>rmse.test.rmse</td>
+<td align="center">0.0409037</td>
+</tr>
+<tr class="odd">
+<td>mae.test.mean</td>
+<td align="center">0.0252164</td>
+</tr>
+<tr class="even">
+<td>rsq.test.mean</td>
+<td align="center">0.8596590</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="podsumowanie" class="section level2">
+<h2><span class="header-section-number">0.5</span> Podsumowanie</h2>
+<p>Trudne rzeczy:</p>
+<ul>
+<li><p>omijanie błędów w bazie modeli, ew. ich poprawki.</p></li>
+<li><p>wybranie zmiennych opisujących zbiór danych, w szczególności stworzenie takich cech, które istniałyby dla (prawie) wszystkich <code>dataset.json</code></p></li>
+<li><p>odrzucanie obserwacji (gdy robi się ich dużo mniej)</p></li>
+<li><p>weryfikacja wyników?</p></li>
+</ul>
+<!--chapter:end:presentation.Rmd-->
+</div>
+<!--bookdown:body:end-->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<!--bookdown:link_prev-->
+<!--bookdown:link_next-->
+    </div>
+  </div>
+<!--bookdown:config-->
+
+</body>
+
+</html>

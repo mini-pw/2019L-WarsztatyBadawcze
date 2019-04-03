@@ -8,7 +8,7 @@ getDataSet <- function(site, dataset_id) {
   } else if (site == "toronto") {
     siteData <- getTorontoDataSet(name = dataset_id)
   } else {
-    error("This function doesn't support using this site. Please implement it and commit to Github")
+    stop("This function doesn't support using this site. Please implement it and commit to Github")
   }
   return(siteData)
 }

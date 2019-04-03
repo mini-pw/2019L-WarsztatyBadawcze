@@ -1,0 +1,28 @@
+R version 3.5.3 (2019-03-11)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 18.04.2 LTS
+
+Matrix products: default
+BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8          LC_NUMERIC=C                  LC_TIME=pl_PL.UTF-8           LC_COLLATE=en_US.UTF-8        LC_MONETARY=pl_PL.UTF-8      
+ [6] LC_MESSAGES=en_US.UTF-8       LC_PAPER=pl_PL.UTF-8          LC_NAME=pl_PL.UTF-8           LC_ADDRESS=pl_PL.UTF-8        LC_TELEPHONE=pl_PL.UTF-8     
+[11] LC_MEASUREMENT=pl_PL.UTF-8    LC_IDENTIFICATION=pl_PL.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] reader_1.0.6      NCmisc_1.1.6      farff_1.0         readr_1.3.1       R.utils_2.8.0     R.oo_1.22.0       R.methodsS3_1.7.1 digest_0.6.18     purrr_0.3.2      
+[10] dplyr_0.8.0.1     OpenML_1.8        mlr_2.13          ParamHelpers_1.12 jsonlite_1.6      stringi_1.4.3    
+
+loaded via a namespace (and not attached):
+ [1] RWeka_0.4-40      tidyselect_0.2.5  inum_1.0-0        splines_3.5.3     rJava_0.9-10      lattice_0.20-38   colorspace_1.4-0  yaml_2.2.0        survival_2.43-3  
+[10] XML_3.98-1.19     rlang_0.3.1       e1071_1.7-0.1     pillar_1.3.1      glue_1.3.1        xgboost_0.82.1    plyr_1.8.4        munsell_0.5.0     gtable_0.2.0     
+[19] mvtnorm_1.0-10    memoise_1.1.0     ada_2.0-5         RWekajars_3.9.3-1 parallelMap_1.3   parallel_3.5.3    curl_3.3          class_7.3-15      Rcpp_1.0.1       
+[28] scales_1.0.0      backports_1.1.3   checkmate_1.9.1   fastmatch_1.1-0   ranger_0.11.2     ggplot2_3.1.0     hms_0.4.2         BBmisc_1.11       proftools_0.99-2 
+[37] grid_3.5.3        tools_3.5.3       magrittr_1.5      lazyeval_0.2.2    tibble_2.1.1      Formula_1.2-3     crayon_1.3.4      pkgconfig_2.0.2   partykit_1.2-3   
+[46] libcoin_1.0-4     Matrix_1.2-17     data.table_1.12.0 assertthat_0.2.0  evtree_1.0-7      httr_1.4.0        rstudioapi_0.9.0  rpart_4.1-13      R6_2.4.0         
+[55] nnet_7.3-12       compiler_3.5.3   

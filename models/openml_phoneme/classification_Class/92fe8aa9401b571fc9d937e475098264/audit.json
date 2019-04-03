@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_92fe8aa9401b571fc9d937e475098264",
+    "date": "31-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "92fe8aa9401b571fc9d937e475098264",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_phoneme",
+    "performance": {
+      "acc": 0.8362,
+      "auc": 0.892,
+      "specificity": 0.7472,
+      "recall": 0.8729,
+      "precision": 0.8932,
+      "f1": 0.8828
+    }
+  }
+]
