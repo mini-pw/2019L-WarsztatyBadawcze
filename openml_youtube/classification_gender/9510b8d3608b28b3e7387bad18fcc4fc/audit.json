@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_9510b8d3608b28b3e7387bad18fcc4fc",
+    "date": "03-04-2019",
+    "added_by": "granatb",
+    "model_id": "9510b8d3608b28b3e7387bad18fcc4fc",
+    "task_id": "classification_gender",
+    "dataset_id": "openml_youtube",
+    "performance": {
+      "acc": 0.8516,
+      "auc": 0.8578,
+      "specificity": 0.8322,
+      "recall": 0.868,
+      "precision": 0.8431,
+      "f1": 0.8552
+    }
+  }
+]
