@@ -4,7 +4,7 @@
     "added_by": "MatiFilozof",
     "date": "13-03-2019",
     "library": "mlr",
-    "model_name": "Neural Network",
+    "model_name": "regr.nnet",
     "task_id": "regression_rings",
     "dataset_id": "toronto_abalone",
     "parameters": {

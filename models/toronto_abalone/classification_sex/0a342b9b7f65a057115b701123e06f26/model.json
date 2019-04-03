@@ -4,7 +4,7 @@
     "added_by": "MatiFilozof",
     "date": "13-03-2019",
     "library": "caret",
-    "model_name": "Regularized Discriminant Analysis",
+    "model_name": "rda",
     "task_id": "classification_sex",
     "dataset_id": "toronto_abalone",
     "parameters": {

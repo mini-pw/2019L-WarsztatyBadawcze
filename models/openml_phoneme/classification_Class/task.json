@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_phoneme",
+    "added_by": "WojtekBogucki",
+    "date": "31-03-2019",
+    "dataset_id": "phoneme",
+    "type": "classification",
+    "target": "Class"
+  }
+]
