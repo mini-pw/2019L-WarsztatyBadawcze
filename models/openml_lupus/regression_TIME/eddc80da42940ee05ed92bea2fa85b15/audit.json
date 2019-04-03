@@ -8,9 +8,9 @@
     "dataset_id": "openml_lupus",
     "performance": {
       "mse": 3970.686,
-      "rmse": 63.01338,
-      "mae": 51.98953,
-	  "r2": 0.1594414
+      "rmse": 63.0134,
+      "mae": 51.9895,
+      "r2": 0.1594
     }
   }
 ]

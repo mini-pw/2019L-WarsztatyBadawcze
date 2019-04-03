@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_1c657976aa8447d4983c98b6dc5206f9",
+    "date": "29-03-2019",
+    "added_by": "witoldmerkel",
+    "model_id": "1c657976aa8447d4983c98b6dc5206f9",
+    "task_id": "classification_Target",
+    "dataset_id": "openml_Satellite",
+    "performance": {
+      "acc": 0.9933,
+      "auc": 0.9902,
+      "specificity": 0.6111,
+      "recall": 0.999,
+      "precision": 0.9943,
+      "f1": 0.9966
+    }
+  }
+]

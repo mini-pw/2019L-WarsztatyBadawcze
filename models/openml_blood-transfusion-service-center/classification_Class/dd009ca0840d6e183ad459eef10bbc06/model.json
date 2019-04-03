@@ -1,0 +1,101 @@
+[
+  {
+    "id": "dd009ca0840d6e183ad459eef10bbc06",
+    "added_by": "PiotrMizinski",
+    "date": "03-04-2019",
+    "library": "mlr",
+    "model_name": "classif.ranger",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_blood-transfusion-service-center",
+    "parameters": {
+      "num.trees": 500,
+      "mtry": null,
+      "min.node.size": null,
+      "replace": true,
+      "sample.fraction": null,
+      "split.select.weights": null,
+      "always.split.variables": null,
+      "respect.unordered.factors": "order",
+      "importance": "none",
+      "write.forest": true,
+      "scale.permutation.importance": false,
+      "num.threads": 1,
+      "save.memory": false,
+      "verbose": false,
+      "seed": null,
+      "splitrule": "gini",
+      "num.random.splits": 4,
+      "keep.inbag": false
+    },
+    "preprocessing": {
+      "V1": {
+        "name": "V1",
+        "type": "numerical",
+        "number_of_unique_values": 31,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 2.75,
+        "num_median": 7,
+        "num_mean": 9.5067,
+        "num_3qu": 14,
+        "num_maximum": 74
+      },
+      "V2": {
+        "name": "V2",
+        "type": "numerical",
+        "number_of_unique_values": 33,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 2,
+        "num_median": 4,
+        "num_mean": 5.5147,
+        "num_3qu": 7,
+        "num_maximum": 50
+      },
+      "V3": {
+        "name": "V3",
+        "type": "numerical",
+        "number_of_unique_values": 33,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 250,
+        "num_1qu": 500,
+        "num_median": 1000,
+        "num_mean": 1378.6765,
+        "num_3qu": 1750,
+        "num_maximum": 12500
+      },
+      "V4": {
+        "name": "V4",
+        "type": "numerical",
+        "number_of_unique_values": 78,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2,
+        "num_1qu": 16,
+        "num_median": 28,
+        "num_mean": 34.2821,
+        "num_3qu": 50,
+        "num_maximum": 98
+      },
+      "Class": {
+        "name": "Class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 570,
+          "2": 178
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
