@@ -1,4 +1,3 @@
-library(OpenML)
 library(mlr)
 
 set.seed(1)

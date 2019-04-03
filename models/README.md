@@ -2,9 +2,9 @@
 
 ## Number of data sets: 102
 
-## Number of tasks: 144
+## Number of tasks: 146
 
-## Number of models: 1619
+## Number of models: 1830
 
 |name                                |source         | features| instances| missing_val| tasks| models|
 |:-----------------------------------|:--------------|--------:|---------:|-----------:|-----:|------:|
@@ -22,7 +22,7 @@
 |Video Games Sales                   |kaggle         |       16|     16719|        9772|     0|      0|
 |Gender Recognition by voice         |kaggle         |       21|      3168|           0|     0|      0|
 |abalone                             |openml         |        9|      4177|           0|     2|      2|
-|adult                               |openml         |       15|     48842|        3620|     0|      0|
+|adult                               |openml         |       15|     48842|        3620|     1|     45|
 |aids                                |openml         |        5|        50|           0|     2|      3|
 |analcatdata_supreme                 |openml         |        8|      4052|           0|     1|      9|
 |arcene                              |openml         |    10001|       200|           0|     0|      0|
@@ -33,7 +33,7 @@
 |bank-marketing                      |openml         |       17|     45211|           0|     1|      3|
 |bank                                |openml         |       17|     45211|           0|     2|     21|
 |banknote-authentication             |openml         |        5|      1372|           0|     2|     17|
-|blood-transfusion-service-center    |openml         |        5|       748|           0|     1|      2|
+|blood-transfusion-service-center    |openml         |        5|       748|           0|     1|     96|
 |BNG-credit-g                        |openml         |       21|   1000000|           0|     0|      0|
 |boston                              |openml         |       14|       506|           0|     2|     70|
 |Breast Cancer Wisconsin             |openml         |       10|       286|           9|     1|     20|
@@ -77,7 +77,7 @@
 |mushroom                            |openml         |       23|      8124|        2480|     1|     10|
 |no2                                 |openml         |        8|       500|           0|     1|     61|
 |one-hundred-plants-margin           |openml         |       65|      1600|           0|     1|      2|
-|ozone-level-8hr                     |openml         |       73|      2534|           0|     1|      1|
+|ozone-level-8hr                     |openml         |       73|      2534|           0|     2|     73|
 |phoneme                             |openml         |        6|      5404|           0|     1|    144|
 |PopularKids                         |openml         |       11|       478|           0|     3|     21|
 |prnn_synth                          |openml         |        3|       250|           0|     1|      3|
