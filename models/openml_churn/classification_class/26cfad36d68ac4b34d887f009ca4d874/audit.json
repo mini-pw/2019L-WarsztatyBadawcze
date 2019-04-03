@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_26cfad36d68ac4b34d887f009ca4d874",
+    "date": "02-04-2019",
+    "added_by": "Adamoso",
+    "model_id": "26cfad36d68ac4b34d887f009ca4d874",
+    "task_id": "classification_class",
+    "dataset_id": "openml_churn",
+    "performance": {
+      "acc": 0.8798,
+      "auc": 0.8799,
+      "specificity": 0.3219,
+      "recall": 0.9718,
+      "precision": 0.8968,
+      "f1": 0.9328
+    }
+  }
+]
