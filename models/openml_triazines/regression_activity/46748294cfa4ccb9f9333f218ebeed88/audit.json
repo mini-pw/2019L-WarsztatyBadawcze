@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_46748294cfa4ccb9f9333f218ebeed88",
+    "date": "24-03-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "46748294cfa4ccb9f9333f218ebeed88",
+    "task_id": "regression_activity",
+    "dataset_id": "openml_triazines",
+    "performance": {
+      "mse": 1.69608413329838e+29,
+      "rmse": 411835420198212,
+      "mae": 304156462028946,
+      "r2": -8.28817035834138e+30
+    }
+  }
+]

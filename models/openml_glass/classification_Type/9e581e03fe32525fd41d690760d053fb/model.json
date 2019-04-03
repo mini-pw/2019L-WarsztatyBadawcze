@@ -19,7 +19,7 @@
       "xval": 0,
       "parms": null
     },
-    "preprocessing": [
+    "preprocessing":
       {
         "RI": {
           "name": "RI",
@@ -144,6 +144,5 @@
           }
         }
       }
-    ]
   }
 ]

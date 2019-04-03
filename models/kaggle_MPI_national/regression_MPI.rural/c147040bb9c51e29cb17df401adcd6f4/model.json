@@ -3,6 +3,8 @@
     "id": "c147040bb9c51e29cb17df401adcd6f4",
     "added_by": "WojciechKretowicz",
     "date": "11-03-2019",
+    "library": "mlr",
+    "model_name": "regr.svm",
     "task_id": "regression_MPI.Rural",
     "dataset_id": "kaggle_MPI_national",
     "parameters": {

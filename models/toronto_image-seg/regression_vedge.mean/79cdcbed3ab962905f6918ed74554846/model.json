@@ -4,7 +4,7 @@
     "added_by": "MatiFilozof",
     "date": "13-03-2019",
     "library": "mlr",
-    "model_name": "Decision Tree",
+    "model_name": "regr.rpart",
     "task_id": "regression_vedge.mean",
     "dataset_id": "toronto_image-seg",
     "parameters": {

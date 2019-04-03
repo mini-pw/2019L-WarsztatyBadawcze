@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_242c2e3054b8d20cb8cb020690550a65",
+    "date": "24-03-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "242c2e3054b8d20cb8cb020690550a65",
+    "task_id": "regression_arrivals",
+    "dataset_id": "openml_rmftsa_ctoarrivals",
+    "performance": {
+      "mse": 1193840241.4964,
+      "rmse": 34551.9933,
+      "mae": 28544.289,
+      "r2": 0.8377
+    }
+  }
+]

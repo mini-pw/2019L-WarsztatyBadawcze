@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_kin8nm",
+    "added_by": "DominikRafacz",
+    "date": "23-03-2019",
+    "dataset_id": "kin8nm",
+    "type": "regression",
+    "target": "y"
+  }
+]

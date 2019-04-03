@@ -7,10 +7,10 @@
     "task_id": "regression_TAX",
     "dataset_id": "openml_boston",
     "performance": {
-      "mse": 6140.7569221,
-      "rmse": 78.3629818,
-      "maq": 47.9131961,
-      "rsq": 0.7807893
+      "mse": 6140.7569,
+      "rmse": 78.363,
+      "mae": 47.9132,
+      "r2": 0.7808
     }
   }
 ]

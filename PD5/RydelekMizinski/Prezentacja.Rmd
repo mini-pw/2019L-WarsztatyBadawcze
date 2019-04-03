@@ -1,0 +1,335 @@
+---
+title: "Praca Domowa"
+author: "Adam Rydelek, Piotr Miziñski"
+date: "26 marca 2019"
+output:
+  html_document:
+    df_print: paged
+    toc: true
+    toc_float: true
+    code_folding: hide
+    number_sections: true
+---
+```{r echo=FALSE, include=FALSE, warning=FALSE, message=FALSE, error=FALSE}
+set.seed(1)
+library(dplyr)
+library(stringi)
+library(jsonlite)
+library(mlr)
+library(OpenML)
+library(DALEX)
+library(auditor)
+```
+# Wprowadzenie
+
+## Sposób odczytu danych
+
+Do odczytania potrzebnych nam plików wykorzystaliœmy komendê *list.files*, oraz odpowiedni pattern. Nastêpnie sczytaliœmy dane do ramki danych za pomoc¹ funkcji *fromJSON* z pakietu `jsonlite`. Powsta³y nam w ten sposób 3 ramki danych stworzone z plików typu **model.json**, **audit.json**, **dataset.json**. 
+```{r,echo=TRUE,warning=FALSE, error=FALSE}
+### audit
+#pobieramy pliki audit
+files <- list.files(pattern = "audit\\.json$", recursive=TRUE)
+
+#data.frame liczba auditow o danej liczbie kolumn i drugi dla b³êdnych auditów
+nc <- data.frame("ncol" = 0)
+bledne <- data.frame("nr" = 0)
+dobre <- data.frame("nr" = 0)
+
+#data.framy dla regresji i klasyfikacji
+dR <- fromJSON(files[1])
+dR <- cbind(dR,dR$performance)
+dR <- select(dR,-performance)
+
+dC <- fromJSON(files[4])
+dC <- cbind(dC,dC$performance)
+dC <- select(dC,-performance)
+
+#pêtla, ¿eby miec numery plikow
+for(i in 1:length(files)){
+  
+  p <- fromJSON(files[i])
+  p <- cbind(p,p$performance)
+  p <- select(p,-performance)
+  
+  names(p) <- tolower(names(p))
+
+  
+  if(ncol(p) == 10){
+    if(names(p)[10] == 'rsq'){
+      names(p)[10] <- 'r2'
+    }
+    
+    if(all(names(p) == names(dR))){
+      dR <- rbind(dR,p)
+      dobre <- rbind(dobre,data.frame("nr" = i))
+    }
+    else{
+      bledne <- rbind(bledne,data.frame("nr" = i))
+    }
+  }
+  
+  if(ncol(p) == 12){
+    if(all(names(p) == names(dC))){
+      dC <- rbind(dC,p)
+      dobre <- rbind(dobre,data.frame("nr" = i))
+    }
+    else{
+      bledne <- rbind(bledne,data.frame("nr" = i))
+    }
+  }
+  
+  if(ncol(p) != 10){
+    if(ncol(p) != 12){
+      bledne <- rbind(bledne,data.frame("nr" = i))
+    }
+  }
+  
+  nc <- rbind(nc,data.frame("ncol" = ncol(p)))
+  
+}
+
+#unique
+nc <- unique(nc)[-1,]
+bledne <- unique(bledne)[-1,]
+dobre <- unique(dobre)[-1,]
+dR <- unique(dR)
+dC <- unique(dC)
+
+
+#pobieramy pliki model
+filesM <- list.files(pattern = "model\\.json$", recursive=TRUE)
+
+#data.frame liczba modeli o danej liczbie kolumn i drugi dla b³êdnych modeli
+ncM <- data.frame("ncol" = 0)
+bledneM <- data.frame("nr" = 0)
+dobreM <- data.frame("nr" = 0)
+
+dM <- fromJSON(filesM[1])
+
+#przygotowanie zbioru, pierwszy wiersz
+dMClean <- select(dM, id, library, model_name, task_id, dataset_id)
+pre <- dM$preprocessing
+dMClean$nC <- ncol(pre)
+
+ncat =0
+nnum = 0
+for(i in names(pre)){
+  a<-pre[i]
+  a<-a[,1]
+  if(a$type == c("categorical")){
+    ncat =  ncat + 1
+  }
+  else{
+    nnum = nnum + 1
+  }
+}
+
+dMClean$ncat <- ncat
+dMClean$nnum <- nnum
+names(dMClean) <- tolower(names(dMClean))
+
+
+for(j in 2:length(filesM)){
+  
+  dM <- fromJSON(filesM[j])
+  pre <- dM$preprocessing
+  
+  if(ncol(dM) == 9){
+    if(colnames(dM)[5] == "model"){
+      colnames(dM)[5] <- "model_name"
+    } 
+    
+    dMCleanH <- select(dM, id, library, model_name, task_id, dataset_id)
+
+    #liczba i rodzaj kolumn
+    dMCleanH$nC <- ncol(pre)
+    ncat =0
+    nnum = 0
+    for(i in names(pre)){
+      a<-pre[i]
+      a<-a[,1]
+      if(a$type == c("categorical")){
+        ncat =  ncat + 1
+      }
+      else{
+        nnum = nnum + 1
+      }
+    }
+    
+    dMCleanH$ncat <- ncat
+    dMCleanH$nnum <- nnum
+    
+    #laczenie
+    names(dMCleanH) <- tolower(names(dMCleanH))
+    if(all(names(dMCleanH) == names(dMClean))){
+      dMClean <- rbind(dMClean,dMCleanH)
+      dobreM <- rbind(dobreM,data.frame("nr" = j))
+    }
+    else{
+      bledneM <- rbind(bledneM,data.frame("nr" = j))
+    }
+  }
+
+}
+
+dMClean <- unique(dMClean)
+
+#laczenie zbiorow
+kC <- left_join(dC, dMClean, by = c("model_id" = "id"))
+kR <- left_join(dR, dMClean, by = c("model_id" = "id"))
+
+kC <- kC[!is.na(kC$model_name),]
+mod <- select(kC, -c(id, model_id, task_id.y, dataset_id.y))
+
+mod[sapply(mod, is.character)] <- lapply(mod[sapply(mod, is.character)], 
+                                         as.factor)
+mod <- mod[!is.na(mod$acc),]
+mod <- mod[,4:ncol(mod)]
+mod <- mod[,-(3:7)]
+
+#dataset.json
+filesDS <- list.files(pattern = "dataset\\.json$", recursive=TRUE)
+
+dDS <- fromJSON(filesDS[1])
+
+#przygotowanie zbioru, pierwszy wiersz
+dDS <- select(dDS, id, number_of_instances, number_of_missing_values, number_of_instances_with_missing_values)
+
+for(k in 2:length(filesDS)){
+  p <- fromJSON(filesDS[k])
+  p <- select(p, id, number_of_instances, number_of_missing_values, number_of_instances_with_missing_values)
+  
+  dDS <- rbind(dDS,p)
+}
+
+data <- left_join(mod, dDS, by = c("dataset_id.x" = "id"))
+data <- data[!is.na(data$number_of_instances),]
+data <- data[,-1]
+data <- data[,-4]
+```
+
+## Koñcowa ramka danych
+
+Nastêpnie odrzuciliœmy b³êdne wiersze i kolumny, które nie by³y istotne dla modelu, takie jak jego **task_id**, czy **author**. Uznaliœmy, ¿e skupimy siê jedynie na modelach *klasyfikacyjnych*. W ten sposób powsta³a koñcowa ramka danych:
+
+<div style="width = 100%">
+```{r}
+dataShow <- data
+colnames(dataShow)[6] <- "instances"
+colnames(dataShow)[7] <- "missing values"
+colnames(dataShow)[8] <- "missing instances"
+DT::datatable(dataShow)
+```
+</div>
+
+# Metamodel
+
+Jako, ¿e mamy ju¿ przygotowane dane, nadszed³ czas na wybór modelu. Uznaliœmy, ¿e zrobimy *regresjê* na zmiennej **accuracy**, która bêdzie naszym targetem. 
+
+## Wybór odpowiedniego modelu
+
+Wybraliœmy 3 modele: `rpart`, `cforest` i `bartMachine` do porównania, które da³y nastêpuj¹ce wyniki:
+
+```{r, echo=TRUE, warning=FALSE, error=FALSE, include=FALSE}
+regr_task <- makeRegrTask(id = "task", data = data, target = "acc")
+regr_lrn <- makeLearner("regr.rpart", par.vals = list(maxdepth = 10))
+cv <- makeResampleDesc("CV", iters = 5)
+r <- resample(regr_lrn, regr_task, cv, measures = list(mse,rmse,mae,rsq))
+
+
+regr_lrn2 <- makeLearner("regr.bartMachine")
+r2 <- resample(regr_lrn2, regr_task, cv, measures = list(mse,rmse,mae,rsq))
+
+
+regr_lrn3 <- makeLearner("regr.cforest")
+r3 <- resample(regr_lrn3, regr_task, cv, measures = list(mse,rmse,mae,rsq))
+
+regr_lrn4 <- makeLearner("regr.bartMachine", par.vals = list(num_trees = 100))
+r4 <- resample(regr_lrn4, regr_task, cv, measures = list(mse,rmse,mae,rsq))
+
+
+results <- data.frame(r$aggr,r3$aggr,r2$aggr)
+colnames(results) <- c("rpart", "cfortest", "bartMachine")
+```
+
+```{r}
+DT::datatable(results)
+```
+
+Jak widaæ po porównaniu miar powy¿szych modeli najlepiej prezentuje siê `bartMachine`.
+
+## Przyk³ad predykcji
+
+Aby sprawdziæ dok³adniej na ile skuteczny jest nasz metamodel postanowiliœmy sprawdziæ jego predykcjê na nowym modelu i porównaæ z jego prawdziwym accuracy. Do tego celu stworzyliœmy model **classif.logreg** na ramce danych *openml_boston*, który nie by³ obecny w zbiorze ucz¹cym/testowym. Nastêpnie wstawiliœmy jego dane do naszego modelu i porównaliœmy z jego wynikami. Rezultat wygl¹da nastêpuj¹co:
+
+```{r, echo=TRUE, warning=FALSE, error=FALSE, include=FALSE}
+#data
+boston <- getOMLDataSet(data.id = 853)
+boston <- boston$data
+
+# preprocessing
+boston <- na.omit(boston)
+boston$binaryClass <-as.factor(boston$binaryClass)
+
+# model
+classif_task <- makeClassifTask(id = "boston", data = boston, target = "binaryClass")
+classif_lrn <- makeLearner("classif.logreg", predict.type = "prob")
+
+# audit
+rtest <- resample(classif_lrn, classif_task, cv, measures = list(acc))
+
+test <- dDS[dDS$id=="openml_boston",]
+test2 <- data.frame(library="mlr", model_name="classif.logreg",ncat=2,nnum=12,number_of_instances=506, number_of_missing_values=0, number_of_instances_with_missing_values=0)
+
+train1 = train(regr_lrn2, regr_task)
+prediction <- predict(train1, newdata=test2)
+resultOfComparison <- data.frame(Prawdziwa_wartosc = rtest$aggr)
+resultOfComparison <- cbind(resultOfComparison, prediction$data)
+colnames(resultOfComparison)[2] <- "Przewidziana_wartosc"
+```
+```{r}
+resultOfComparison
+```
+
+
+Mo¿na wiêc zauwa¿yæ, ¿e dla tego przyk³adu model przewidzia³ accuracy z bardzo dobr¹ dok³adnoœci¹.
+
+# Wizualizacja modelu
+
+Aby zrozumieæ dzia³anie naszego wybranego modelu - *bartMachine* i porównaæ go z gorszym *rpart* wykorzystaliœmy pakiet `DALEX`.
+
+## Wa¿noœæ zmiennych
+
+<div style="width = 100%">
+![](/Users/Adam/Desktop/WB/CaseStudies2019S/models/plot1.png) 
+</div>
+
+## Wp³yw liczby kategorii na predykcjê
+
+<div style="width = 100%">
+![](/Users/Adam/Desktop/WB/CaseStudies2019S/models/plot2.png) 
+</div>
+
+## Rozk³ad rezyduum
+
+<div style="width = 100%">
+![](/Users/Adam/Desktop/WB/CaseStudies2019S/models/plot3.png) 
+</div>
+
+## Porównanie accuracy i predicted accuracy
+
+### rpart
+<div style="width = 100%">
+![](/Users/Adam/Desktop/WB/CaseStudies2019S/models/plot4b.png) 
+</div>
+
+### bartMachine
+<div style="width = 100%">
+![](/Users/Adam/Desktop/WB/CaseStudies2019S/models/plot4a.png) 
+</div>
+
+## Podzia³ na grupy w zale¿noœci od stosowanego modelu
+
+<div style="width = 100%">
+![](/Users/Adam/Desktop/WB/CaseStudies2019S/models/plot5.png) 
+</div>

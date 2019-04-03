@@ -23,7 +23,7 @@
       "fitted": true,
       "scale": true
     },
-    "preprocessing": [
+    "preprocessing":
       {
         "Age_of_patient_at_time_of_operation": {
           "name": "Age_of_patient_at_time_of_operation",
@@ -69,6 +69,5 @@
           }
         }
       }
-    ]
   }
 ]
