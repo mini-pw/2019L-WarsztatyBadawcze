@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_efb79cb3c13d708ff819d61f6d5487f6",
+    "date": "02-04-2019",
+    "added_by": "lukaszbrzozowski",
+    "model_id": "efb79cb3c13d708ff819d61f6d5487f6",
+    "task_id": "classification_problems",
+    "dataset_id": "openml_kc2",
+    "performance": {
+      "acc": 0.8085,
+      "auc": 0.7883,
+      "specificity": 0.5398,
+      "recall": 0.8754,
+      "precision": 0.8844,
+      "f1": 0.8787
+    }
+  }
+]
