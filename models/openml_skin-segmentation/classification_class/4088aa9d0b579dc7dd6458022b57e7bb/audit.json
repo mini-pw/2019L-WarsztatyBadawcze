@@ -1,0 +1,18 @@
+[
+    {
+        "id": "audit_4088aa9d0b579dc7dd6458022b57e7bb",
+        "date": "30-03-2019",
+        "added_by": "mckraqs",
+        "model_id": "4088aa9d0b579dc7dd6458022b57e7bb",
+        "task_id": "classification_Class",
+        "dataset_id": "skin-segmentation",
+        "performance": {
+            "acc": 0.9996735493348567,
+            "auc": 0.999879672021021,
+            "specificity": 0.9997352045544816,
+            "recall": 0.9996576046017942,
+            "precision": 0.999931502157682,
+            "f1": 0.9997945346209164
+        }
+    }
+]

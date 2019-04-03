@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_Satellite",
+    "added_by": "witoldmerkel",
+    "date": "29-03-2019",
+    "dataset_id": "Satellite",
+    "type": "classification",
+    "target": "Target"
+  }
+]
