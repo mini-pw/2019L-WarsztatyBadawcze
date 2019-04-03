@@ -7,11 +7,11 @@
     "task_id": "classification_Class",
     "dataset_id": "openml_artificial-characters",
     "performance": {
-      "acc": 0.2263658,
-      "auc": null,
+      "acc": 0.2264,
       "specificity": null,
-      "recall": null,
       "precision": null,
+      "recall": null,
+      "auc": null,
       "f1": null
     }
   }

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_6e60c9a23ecf12ed76c3c2342099ad6a",
+    "date": "30-03-2019",
+    "added_by": "hubertbaniecki",
+    "model_id": "6e60c9a23ecf12ed76c3c2342099ad6a",
+    "task_id": "classification_class",
+    "dataset_id": "openml_monks-problems-2",
+    "performance": {
+      "acc": 0.6573,
+      "auc": 0.5,
+      "specificity": 0,
+      "recall": 1,
+      "precision": 0.6573,
+      "f1": 0.7922
+    }
+  }
+]

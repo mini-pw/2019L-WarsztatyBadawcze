@@ -7,10 +7,10 @@
     "task_id": "regression_wage",
     "dataset_id": "kaggle_beauty",
     "performance": {
-      "mse":  17.82939,
-      "rmse": 4.2184414,
-      "mae": 2.3967374,
-      "r2": 0.1943873                 
+      "mse": 17.8294,
+      "rmse": 4.2184,
+      "mae": 2.3967,
+      "r2": 0.1944
     }
   }
-] 
+]

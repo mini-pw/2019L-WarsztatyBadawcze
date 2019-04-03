@@ -1,0 +1,18 @@
+[
+    {
+        "id": "audit_226fdb93dcc7f4bf0a3149387cec9c82",
+        "date": "03-04-2019",
+        "added_by": "Siemashko",
+        "model_id": "226fdb93dcc7f4bf0a3149387cec9c82",
+        "task_id": "classification_binaryClass",
+        "dataset_id": "openml_boston",
+        "performance": {
+            "acc": 0.9019607843137255,
+            "auc": 0.956964656964657,
+            "precision": 0.9354838709677419,
+            "recall": 0.7837837837837838,
+            "specificity": 0.9692307692307692,
+            "f1": 0.8529411764705881
+        }
+    }
+]
