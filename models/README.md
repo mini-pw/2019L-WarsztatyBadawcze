@@ -1,10 +1,10 @@
 # Data Sets
 
-## Number of data sets: 103
+## Number of data sets: 104
 
-## Number of tasks: 147
+## Number of tasks: 148
 
-## Number of models: 1911
+## Number of models: 2005
 
 |name                                |source         | features| instances| missing_val| tasks| models|
 |:-----------------------------------|:--------------|--------:|---------:|-----------:|-----:|------:|
@@ -33,6 +33,7 @@
 |bank-marketing                      |openml         |       17|     45211|           0|     1|      3|
 |bank                                |openml         |       17|     45211|           0|     2|     21|
 |banknote-authentication             |openml         |        5|      1372|           0|     2|     17|
+|blogger                             |openml         |        6|       100|           0|     1|     57|
 |blood-transfusion-service-center    |openml         |        5|       748|           0|     1|     96|
 |BNG-credit-g                        |openml         |       21|   1000000|           0|     0|      0|
 |boston                              |openml         |       14|       506|           0|     2|     70|
@@ -105,7 +106,7 @@
 |White Wine Quality                  |openml         |       12|      4898|           0|     2|     23|
 |wine                                |openml         |       14|       178|           0|     1|      5|
 |wisconsin                           |openml         |       33|       194|           0|     1|     20|
-|youtube                             |openml         |       31|       404|           0|     1|     22|
+|youtube                             |openml         |       31|       404|           0|     1|     59|
 |zoo                                 |openml         |       18|       101|           0|     4|      5|
 |abalone                             |cs.toronto.edu |        9|      4177|           0|     2|      4|
 |demo                                |cs.toronto.edu |        5|      2048|           0|     0|      0|
