@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_auto_price",
+    "added_by": "WojciechKretowicz",
+    "date": "03-04-2019",
+    "dataset_id": "auto_price",
+    "type": "classification",
+    "target": "binaryClass"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_ac79f5085c658b2da2d4122d30e65ad6",
+    "date": "03-04-2019",
+    "added_by": "PiotrMizinski",
+    "model_id": "ac79f5085c658b2da2d4122d30e65ad6",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_blood-transfusion-service-center",
+    "performance": {
+      "acc": 0.7874,
+      "auc": 0.7114,
+      "specificity": 0.3596,
+      "recall": 0.918,
+      "precision": 0.8218,
+      "f1": 0.8671
+    }
+  }
+]
