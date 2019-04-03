@@ -1,16 +1,16 @@
 [
-    {
-        "id": "audit_4dd329d93b648a67f8809ba6fb666040",
-        "date": "20-03-2019",
-        "added_by": "Siemashko",
-        "model_id": "4dd329d93b648a67f8809ba6fb666040",
-        "task_id": "regression_NUMDEFECTS",
-        "dataset_id": "openml_kc1-numeric",
-        "performance": {
-            "MSE": 42.24317869158124,
-            "RMSE": 6.499475262787085,
-            "MAE": 2.967767184395089,
-            "R2": 0.5549865382481867
-        }
+  {
+    "id": "audit_4dd329d93b648a67f8809ba6fb666040",
+    "date": "20-03-2019",
+    "added_by": "Siemashko",
+    "model_id": "4dd329d93b648a67f8809ba6fb666040",
+    "task_id": "regression_NUMDEFECTS",
+    "dataset_id": "openml_kc1-numeric",
+    "performance": {
+      "mse": 42.2432,
+      "rmse": 6.4995,
+      "mae": 2.9678,
+      "r2": 0.555
     }
+  }
 ]

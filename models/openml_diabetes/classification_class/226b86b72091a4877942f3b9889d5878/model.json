@@ -1,0 +1,139 @@
+[
+  {
+    "id": "226b86b72091a4877942f3b9889d5878",
+    "added_by": "GoniaW",
+    "date": "31-03-2019",
+    "library": "mlr",
+    "model_name": "classif.kknn",
+    "task_id": "classification_class",
+    "dataset_id": "openml_diabetes",
+    "parameters": {
+      "k": 20,
+      "distance": 2,
+      "kernel": "inv",
+      "scale": true
+    },
+    "preprocessing": {
+      "preg": {
+        "name": "preg",
+        "type": "numerical",
+        "number_of_unique_values": 17,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 3,
+        "num_mean": 3.8451,
+        "num_3qu": 6,
+        "num_maximum": 17
+      },
+      "plas": {
+        "name": "plas",
+        "type": "numerical",
+        "number_of_unique_values": 136,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 99,
+        "num_median": 117,
+        "num_mean": 120.8945,
+        "num_3qu": 140.25,
+        "num_maximum": 199
+      },
+      "pres": {
+        "name": "pres",
+        "type": "numerical",
+        "number_of_unique_values": 47,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 62,
+        "num_median": 72,
+        "num_mean": 69.1055,
+        "num_3qu": 80,
+        "num_maximum": 122
+      },
+      "skin": {
+        "name": "skin",
+        "type": "numerical",
+        "number_of_unique_values": 51,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 23,
+        "num_mean": 20.5365,
+        "num_3qu": 32,
+        "num_maximum": 99
+      },
+      "insu": {
+        "name": "insu",
+        "type": "numerical",
+        "number_of_unique_values": 186,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 30.5,
+        "num_mean": 79.7995,
+        "num_3qu": 127.25,
+        "num_maximum": 846
+      },
+      "mass": {
+        "name": "mass",
+        "type": "numerical",
+        "number_of_unique_values": 248,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 27.3,
+        "num_median": 32,
+        "num_mean": 31.9926,
+        "num_3qu": 36.6,
+        "num_maximum": 67.1
+      },
+      "pedi": {
+        "name": "pedi",
+        "type": "numerical",
+        "number_of_unique_values": 517,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.078,
+        "num_1qu": 0.2438,
+        "num_median": 0.3725,
+        "num_mean": 0.4719,
+        "num_3qu": 0.6262,
+        "num_maximum": 2.42
+      },
+      "age": {
+        "name": "age",
+        "type": "numerical",
+        "number_of_unique_values": 52,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 21,
+        "num_1qu": 24,
+        "num_median": 29,
+        "num_mean": 33.2409,
+        "num_3qu": 41,
+        "num_maximum": 81
+      },
+      "class": {
+        "name": "class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "tested_negative": 500,
+          "tested_positive": 268
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
