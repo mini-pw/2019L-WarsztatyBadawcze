@@ -18,10 +18,10 @@ Strona przedmiotu Warsztaty Badawcze dla specjalności IAD na wydziale MiNI PW
 * [4] W: Modele wysokowymiarowe (lasy, xgboost, [sieci neuronowe](https://www.youtube.com/watch?v=1ZhtwInuOD0&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=43)) 
 * [5] W: Wyjaśnialne uczenie maszynowe ([DALEX](https://github.com/pbiecek/DALEX))
 * [6] W: **Prezentacje Pracy domowej**. 
-* [7] W: Strategie doboru hiperparametrów (random search, grid search). Wprowadzenie do biblioteki [parsnip](https://tidymodels.github.io/parsnip/) do trenowania modeli. [parsnip i DALEX](https://htmlpreview.github.io/?https://github.com/maksymiuks/DALEX_docs/blob/master/vignettes/DALEX_parsnip.html) Projekt.
-* [8] W: [mlrMBO](http://mlrmbo.mlr-org.com). Projekt
+* [7] W: Strategie doboru hiperparametrów (random search, grid search). Wprowadzenie do biblioteki [parsnip](https://tidymodels.github.io/parsnip/) do trenowania modeli. [parsnip i DALEX](https://htmlpreview.github.io/?https://github.com/maksymiuks/DALEX_docs/blob/master/vignettes/DALEX_parsnip.html).
+* [8] W: [mlrMBO](http://mlrmbo.mlr-org.com). Projekt.
 * [9] W: Plan piątkowy 
-* [10] W: **Pierwsza Prezentacja Projektu** 
+* [10] W: **Pierwsza Prezentacja Projektu** (24 kwietnia)
 * [11] W: Wybór zmiennych (filtr, greed search), inżynieria zmiennych.
 * [12] W: Wyjaśniacze PDP jak je robić
 * [13] W: Wyjaśniacze PDP - jak je porównywać
