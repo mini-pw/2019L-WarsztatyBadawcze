@@ -70,9 +70,25 @@ test_that("validate audit jsons", {
   for(json in audit_json_files){
     json_to_validate <- fromJSON(json)
     if(any(colnames(json_to_validate) !=  c("id", "date", "added_by", "model_id", "task_id", "dataset_id", "performance"))){
-      print(json)
+      print(paste(json_to_validate$added_by, json, sep ="    "))
     }
+    if(grepl("regression_", json_to_validate$task_id)){
+      measures <- names(json_to_validate$performance)
+      check_measures <- all(c("mse",  "rmse", "mae", "r2") %in%  measures) 
+      expect_true(check_measures)
+      if(check_measures==FALSE) print(paste(json_to_validate$added_by, json, sep = "     "))
+    }
+    if(grepl("classification_", json_to_validate$task_id)){
+      measures <- names(json_to_validate$performance)
+      check_measures <- all(c("acc", "auc", "specificity", "recall", "precision", "f1") %in%  measures) 
+      expect_true(check_measures)
+      if(check_measures==FALSE) print(paste(json_to_validate$added_by, json, sep = "     "))
+    }
+    
     expect_equal(colnames(json_to_validate), c("id", "date", "added_by", "model_id", "task_id", "dataset_id", "performance"))
+    
+    
+    
   }
 })
 
