@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_ozone-level-8hr",
+    "added_by": "k-sap",
+    "date": "03-04-2019",
+    "dataset_id": "ozone-level-8hr",
+    "type": "classification",
+    "target": "Class"
+  }
+]
