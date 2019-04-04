@@ -1,7 +1,7 @@
 source("extendedDataGetter.R")
 source("additionalFunctions.R")
 source("modelsSettings.R")
-
+setwd(paste0("..", .Platform$file.sep, "models"))
 
 
 generateMultipleModels <- function(username,
