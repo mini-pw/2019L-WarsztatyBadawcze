@@ -70,14 +70,14 @@ createTaskWDS.internal <- function(site, table, name, added_by, target, learner,
     
     cv <- makeResampleDesc("CV", iters = 5)
     if (isRegr) {
-      mes <- list(mse, rmse, mae, rsq)
+      mes <- list(mlr::mse, mlr::rmse, mlr::mae, mlr::rsq)
     }
     else {
       if (length(unique(table[[target]])) == 2) {
-        mes <- list(acc, auc, tnr, tpr, ppv, f1)
+        mes <- list(mlr::acc, mlr::auc, mlr::tnr, mlr::tpr, mlr::ppv, mlr::f1)
       }
       else {
-        mes <- list(acc)
+        mes <- list(mlr::acc)
       }
     }
     

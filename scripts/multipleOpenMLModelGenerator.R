@@ -1,8 +1,18 @@
 source("extendedDataGetter.R")
 source("additionalFunctions.R")
 source("modelsSettings.R")
+setwd(paste0("..", .Platform$file.sep, "models"))
 
-
+generateMultipleModelsAndDatasets <- function(username,
+                                              modelSettings,
+                                              dataset_ids) {
+  for (dataset_id in dataset_ids) {
+    print("--------------------------------------------")
+    print(paste0("Dataset number ", dataset_id))
+    print("--------------------------------------------")
+    generateMultipleModels(username, modelSettings, dataset_id)
+  }
+}
 
 generateMultipleModels <- function(username,
                                    modelSettings,
