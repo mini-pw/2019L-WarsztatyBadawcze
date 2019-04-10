@@ -1,10 +1,10 @@
 # Data Sets
 
-## Number of data sets: 104
+## Number of data sets: 105
 
-## Number of tasks: 148
+## Number of tasks: 149
 
-## Number of models: 2005
+## Number of models: 2082
 
 |name                                |source         | features| instances| missing_val| tasks| models|
 |:-----------------------------------|:--------------|--------:|---------:|-----------:|-----:|------:|
@@ -92,6 +92,7 @@
 |sleep                               |openml         |        8|        62|          11|     2|      3|
 |sonar                               |openml         |       61|       208|           0|     1|      6|
 |soybean                             |openml         |       36|       683|         121|     1|      5|
+|spambase                            |openml         |       58|      4601|           0|     1|     77|
 |SpeedDating                         |openml         |      123|      8378|           0|     1|      1|
 |stock                               |openml         |       10|       950|           0|     3|     67|
 |tecator                             |openml         |      125|       240|           0|     1|      9|
