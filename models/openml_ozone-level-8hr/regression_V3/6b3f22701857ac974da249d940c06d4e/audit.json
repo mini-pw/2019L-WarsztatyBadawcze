@@ -7,10 +7,10 @@
     "task_id": "regression_V3",
     "dataset_id": "openml_ozone-level-8hr",
     "performance": {
-      "mse": 1.359467024,
-      "rmse":  1.165961845,
-      "mae":  0.868963759,
-      "r2" : -0.002366178
+      "mse": 1.3595,
+      "rmse": 1.166,
+      "mae": 0.869,
+      "r2": -0.0024
     }
   }
 ]

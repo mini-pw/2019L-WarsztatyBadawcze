@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_a402c97b847404403d664c21aa86eccc",
+    "date": "30-03-2019",
+    "added_by": "hubertbaniecki",
+    "model_id": "a402c97b847404403d664c21aa86eccc",
+    "task_id": "classification_Sex",
+    "dataset_id": "openml_irish",
+    "performance": {
+      "acc": 0.552,
+      "auc": 0.5733,
+      "specificity": 0.5931,
+      "recall": 0.5283,
+      "precision": 0.567,
+      "f1": 0.5319
+    }
+  }
+]

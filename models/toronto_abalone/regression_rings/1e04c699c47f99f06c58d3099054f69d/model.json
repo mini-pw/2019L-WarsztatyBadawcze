@@ -4,7 +4,7 @@
     "added_by": "MatiFilozof",
     "date": "13-03-2019",
     "library": "caret",
-    "model_name": "Independent Component Regression",
+    "model_name": "icr",
     "task_id": "regression_rings",
     "dataset_id": "toronto_abalone",
     "parameters": {

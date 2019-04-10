@@ -9,9 +9,9 @@
     "performance": {
       "acc": 0.5252,
       "auc": 0.568,
-      "tnr": 0.6384,
-      "tpr": 0.4976,
-      "ppv": 0.5515,
+      "specificity": 0.6384,
+      "recall": 0.4976,
+      "precision": 0.5515,
       "f1": 0.4506
     }
   }
