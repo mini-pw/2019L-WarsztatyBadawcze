@@ -1,0 +1,172 @@
+[
+  {
+    "id": "8d6edfc3392455b2a6bc118ce61dc0ca",
+    "added_by": "MatiFilozof",
+    "date": "12-04-2019",
+    "library": "mlr",
+    "model_name": "classif.IBk",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_ilpd",
+    "parameters": {
+      "I": false,
+      "F": true,
+      "K": 1,
+      "E": false,
+      "W": null,
+      "X": true,
+      "A": "weka.core.neighboursearch.LinearNNSearch",
+      "output-debug-info": false
+    },
+    "preprocessing": {
+      "V1": {
+        "name": "V1",
+        "type": "numerical",
+        "number_of_unique_values": 72,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 4,
+        "num_1qu": 33,
+        "num_median": 45,
+        "num_mean": 44.7461,
+        "num_3qu": 58,
+        "num_maximum": 90
+      },
+      "V2": {
+        "name": "V2",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Female": 142,
+          "Male": 441
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V3": {
+        "name": "V3",
+        "type": "numerical",
+        "number_of_unique_values": 113,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.4,
+        "num_1qu": 0.8,
+        "num_median": 1,
+        "num_mean": 3.2988,
+        "num_3qu": 2.6,
+        "num_maximum": 75
+      },
+      "V4": {
+        "name": "V4",
+        "type": "numerical",
+        "number_of_unique_values": 80,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.1,
+        "num_1qu": 0.2,
+        "num_median": 0.3,
+        "num_mean": 1.4861,
+        "num_3qu": 1.3,
+        "num_maximum": 19.7
+      },
+      "V5": {
+        "name": "V5",
+        "type": "numerical",
+        "number_of_unique_values": 263,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 63,
+        "num_1qu": 175.5,
+        "num_median": 208,
+        "num_mean": 290.5763,
+        "num_3qu": 298,
+        "num_maximum": 2110
+      },
+      "V6": {
+        "name": "V6",
+        "type": "numerical",
+        "number_of_unique_values": 152,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 10,
+        "num_1qu": 23,
+        "num_median": 35,
+        "num_mean": 80.7136,
+        "num_3qu": 60.5,
+        "num_maximum": 2000
+      },
+      "V7": {
+        "name": "V7",
+        "type": "numerical",
+        "number_of_unique_values": 177,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 10,
+        "num_1qu": 25,
+        "num_median": 42,
+        "num_mean": 109.9108,
+        "num_3qu": 87,
+        "num_maximum": 4929
+      },
+      "V8": {
+        "name": "V8",
+        "type": "numerical",
+        "number_of_unique_values": 58,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2.7,
+        "num_1qu": 5.8,
+        "num_median": 6.6,
+        "num_mean": 6.4832,
+        "num_3qu": 7.2,
+        "num_maximum": 9.6
+      },
+      "V9": {
+        "name": "V9",
+        "type": "numerical",
+        "number_of_unique_values": 40,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.9,
+        "num_1qu": 2.6,
+        "num_median": 3.1,
+        "num_mean": 3.1419,
+        "num_3qu": 3.8,
+        "num_maximum": 5.5
+      },
+      "V10": {
+        "name": "V10",
+        "type": "numerical",
+        "number_of_unique_values": 70,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.3,
+        "num_1qu": 0.7,
+        "num_median": 0.9471,
+        "num_mean": 0.9471,
+        "num_3qu": 1.1,
+        "num_maximum": 2.8
+      },
+      "Class": {
+        "name": "Class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 416,
+          "2": 167
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
