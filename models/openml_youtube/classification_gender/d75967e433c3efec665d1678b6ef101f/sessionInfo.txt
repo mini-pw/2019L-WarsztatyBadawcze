@@ -1,0 +1,26 @@
+R version 3.4.4 (2018-03-15)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 17134)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=Polish_Poland.1250  LC_CTYPE=Polish_Poland.1250    LC_MONETARY=Polish_Poland.1250 LC_NUMERIC=C                  
+[5] LC_TIME=Polish_Poland.1250    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] farff_1.0         readr_1.3.1       dplyr_0.7.4       OpenML_1.8        stringi_1.3.1     R.utils_2.8.0     R.oo_1.22.0      
+ [8] R.methodsS3_1.7.1 digest_0.6.15     reader_1.0.6      NCmisc_1.1.6      purrr_0.2.4       jsonlite_1.6      kknn_1.3.1       
+[15] mlr_2.13          ParamHelpers_1.12
+
+loaded via a namespace (and not attached):
+ [1] splines_3.4.4       lattice_0.20-35     colorspace_1.3-2    survival_2.41-3     XML_3.98-1.17       rlang_0.3.1         e1071_1.7-0        
+ [8] pillar_1.2.1        glue_1.2.0          bindrcpp_0.2.2      bindr_0.1.1         plyr_1.8.4          munsell_0.5.0       gtable_0.2.0       
+[15] memoise_1.1.0       parallelMap_1.3     parallel_3.4.4      curl_3.2            class_7.3-14        Rcpp_0.12.16        scales_1.0.0       
+[22] backports_1.1.2     checkmate_1.9.1     fastmatch_1.1-0     ranger_0.11.2       ggplot2_3.0.0       hms_0.4.2           BBmisc_1.11        
+[29] proftools_0.99-2    grid_3.4.4          tools_3.4.4         magrittr_1.5        lazyeval_0.2.1      tibble_1.4.2        randomForest_4.6-14
+[36] pkgconfig_2.0.1     Matrix_1.2-12       data.table_1.11.2   assertthat_0.2.0    httr_1.3.1          R6_2.2.2            rpart_4.1-13       
+[43] igraph_1.2.4        compiler_3.4.4     
