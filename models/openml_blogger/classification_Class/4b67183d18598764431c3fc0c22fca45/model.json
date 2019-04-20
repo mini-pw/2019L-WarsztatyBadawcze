@@ -1,0 +1,133 @@
+[
+  {
+    "id": "4b67183d18598764431c3fc0c22fca45",
+    "added_by": "airi314",
+    "date": "03-04-2019",
+    "library": "mlr",
+    "model_name": "classif.randomForest",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_blogger",
+    "parameters": {
+      "ntree": 1000,
+      "mtry": 3,
+      "replace": true,
+      "classwt": null,
+      "cutoff": null,
+      "strata": null,
+      "sampsize": null,
+      "nodesize": 1,
+      "maxnodes": null,
+      "importance": false,
+      "localImp": false,
+      "proximity": false,
+      "oob.prox": null,
+      "norm.votes": true,
+      "do.trace": false,
+      "keep.forest": true,
+      "keep.inbag": false
+    },
+    "preprocessing": {
+      "V1": {
+        "name": "V1",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "high": 39,
+          "low": 14,
+          "medium": 47
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V2": {
+        "name": "V2",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "left": 52,
+          "middle": 14,
+          "right": 34
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V3": {
+        "name": "V3",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "impression": 24,
+          "news": 19,
+          "political": 35,
+          "scientific": 7,
+          "tourism": 15
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V4": {
+        "name": "V4",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 14,
+          "yes": 86
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V5": {
+        "name": "V5",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 28,
+          "yes": 72
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Class": {
+        "name": "Class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 32,
+          "2": 68
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
