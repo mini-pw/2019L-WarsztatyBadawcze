@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_e0e25f649ecff910c4bb62c0f386b54d",
+    "date": "10-04-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "e0e25f649ecff910c4bb62c0f386b54d",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_steel-plates-fault",
+    "performance": {
+      "acc": 0.8274,
+      "auc": 0.8517,
+      "specificity": 0.72,
+      "recall": 0.8853,
+      "precision": 0.8572,
+      "f1": 0.87
+    }
+  }
+]

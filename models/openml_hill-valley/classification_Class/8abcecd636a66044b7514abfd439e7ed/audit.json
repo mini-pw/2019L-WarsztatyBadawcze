@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_8abcecd636a66044b7514abfd439e7ed",
+    "date": "10-04-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "8abcecd636a66044b7514abfd439e7ed",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_hill-valley",
+    "performance": {
+      "acc": 0.6865,
+      "auc": 0.8587,
+      "specificity": 0.4416,
+      "recall": 0.9326,
+      "precision": 0.6268,
+      "f1": 0.7488
+    }
+  }
+]
