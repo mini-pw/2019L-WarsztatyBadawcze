@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_monks-problems-1",
+    "added_by": "MatiFilozof",
+    "date": "04-04-2019",
+    "dataset_id": "monks-problems-1",
+    "type": "classification",
+    "target": "class"
+  }
+]
