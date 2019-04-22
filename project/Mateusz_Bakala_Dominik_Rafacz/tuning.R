@@ -64,14 +64,14 @@ models_and_params <- list(
   )
 )
 
+library(parallelMap)
+parallelStartSocket(4, level = "mlr.tuneParams")
 best_pars <- lapply(models_and_params, function(x) {
   best_pars_ <- lapply(dsets, function(y) {
     pars <- tuneParams(
       makeLearner(x$model, predict.type = "prob"),
       makeClassifTask(id = "task", data = y$data, target = y$target),
-      resampling = makeFixedHoldoutInstance(train.inds = 1:ltsr,
-                                            test.inds = (ltsr + 1):(ltsr + lvsr),
-                                            size = ltsr + lvsr),
+      resampling = cv3,
       measures = mlr::auc,
       par.set = x$parset,
       control = tunecontrol,
@@ -81,5 +81,6 @@ best_pars <- lapply(models_and_params, function(x) {
   })
   best_pars_
 })
+parallelStop()
 
 print(best_pars)
