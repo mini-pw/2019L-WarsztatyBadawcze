@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_2d87ad29f208cf4ef98d26a34671f036",
+    "date": "12-04-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "2d87ad29f208cf4ef98d26a34671f036",
+    "task_id": "classification_class",
+    "dataset_id": "openml_monks-problems-3",
+    "performance": {
+      "acc": 0.9838,
+      "auc": 0.9889,
+      "specificity": 0.9867,
+      "recall": 0.9824,
+      "precision": 0.9845,
+      "f1": 0.9831
+    }
+  }
+]
