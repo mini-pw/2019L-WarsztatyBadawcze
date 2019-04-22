@@ -1,0 +1,36 @@
+---
+title: "PD 5"
+author: "Bartłomiej Granat"
+date: "27 marca, 2019"
+output: ioslides_presentation
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, cache=TRUE, warning = FALSE)
+
+source("parser.R")
+```
+
+## Dane
+
+Zbiór danych, którego używam do trenowania modelu zawiera kolumny liczby zmiennych, liczby obserwacji i nazwy klasyfikatora. Następnie tworzę dwie ramki, w którym jedna zawiera dodatkowo kolumnę z acc, a druga auc.
+
+```{r}
+df_disp <- head(df1)
+print(df_disp, row.names=FALSE)
+```
+
+
+## Metamodel
+Zarówno do predykcji acc i auc wykorzystałem po 5 modeli z domyślnymi parametrami poprzez pakiet $mlr$. Są to: $rpart, svm, kknn, gbm, randomForestSRC$.
+Poniżej znajdują się wyniki
+```{r}
+scores1
+```
+
+## Metamodel c.d.
+
+```{r}
+scores2
+```
+

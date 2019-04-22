@@ -1,16 +1,18 @@
 [
-    {
-        "id": "audit_627a6252a3bb34b31667b659bd28046b",
-        "date": "13-03-2019",
-        "added_by": "WojciechKretowicz",
-        "model_id": "627a6252a3bb34b31667b659bd28046b",
-        "task_id": "classification_Class",
-        "dataset_id": "openml_banana",
-        "performance": {
-            "acc": 0.89937106918239,
-            "auc": 0.8970372730168844,
-            "recall": 0.8684931506849315,
-            "precision": 0.9083094555873925
-        }
+  {
+    "id": "audit_627a6252a3bb34b31667b659bd28046b",
+    "date": "13-03-2019",
+    "added_by": "WojciechKretowicz",
+    "model_id": "627a6252a3bb34b31667b659bd28046b",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_banana",
+    "performance": {
+      "acc": 0.8994,
+      "auc": 0.897,
+      "recall": 0.8685,
+      "precision": 0.9083,
+      "specificity": null,
+      "f1": null
     }
+  }
 ]

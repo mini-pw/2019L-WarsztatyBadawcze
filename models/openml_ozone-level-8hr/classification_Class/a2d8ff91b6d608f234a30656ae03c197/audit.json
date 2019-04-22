@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_a2d8ff91b6d608f234a30656ae03c197",
+    "date": "03-04-2019",
+    "added_by": "k-sap",
+    "model_id": "a2d8ff91b6d608f234a30656ae03c197",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_ozone-level-8hr",
+    "performance": {
+      "acc": 0.9369,
+      "auc": 0.5151,
+      "specificity": 0,
+      "recall": 1,
+      "precision": 0.9369,
+      "f1": 0.9673
+    }
+  }
+]

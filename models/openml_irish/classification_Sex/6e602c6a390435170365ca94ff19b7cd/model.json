@@ -1,0 +1,125 @@
+[
+  {
+    "id": "6e602c6a390435170365ca94ff19b7cd",
+    "added_by": "hubertbaniecki",
+    "date": "30-03-2019",
+    "library": "mlr",
+    "model_name": "classif.rpart",
+    "task_id": "classification_Sex",
+    "dataset_id": "openml_irish",
+    "parameters": {
+      "minsplit": 20,
+      "minbucket": 10,
+      "cp": 0.001,
+      "maxcompete": 4,
+      "maxsurrogate": 5,
+      "usesurrogate": 2,
+      "surrogatestyle": 0,
+      "maxdepth": 30,
+      "xval": 0,
+      "parms": null
+    },
+    "preprocessing": {
+      "Sex": {
+        "name": "Sex",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "female": 250,
+          "male": 250
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "DVRT": {
+        "name": "DVRT",
+        "type": "numerical",
+        "number_of_unique_values": 68,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 65,
+        "num_1qu": 90,
+        "num_median": 101,
+        "num_mean": 100.152,
+        "num_3qu": 111,
+        "num_maximum": 140
+      },
+      "Educational_level": {
+        "name": "Educational_level",
+        "type": "categorical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 6,
+        "cat_frequencies": {
+          "3rd_level_complete": 57,
+          "3rd_level_incomplete": 7,
+          "Junior_cycle_incomplete-secondary_school": 30,
+          "Junior_cycle_incomplete-vocational_school": 50,
+          "Junior_cycle_terminal_leaver-secondary_school": 65,
+          "Junior_cycle_terminal_leaver-vocational_school": 68,
+          "Primary_terminal_leaver": 37,
+          "Senior_cycle_incomplete-secondary_school": 9,
+          "Senior_cycle_incomplete-vocational_school": 13,
+          "Senior_cycle_terminal_leaver-secondary_school": 158,
+          "NA's": 6
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Leaving_Certificate": {
+        "name": "Leaving_Certificate",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "not_taken": 278,
+          "taken": 222
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Prestige_score": {
+        "name": "Prestige_score",
+        "type": "numerical",
+        "number_of_unique_values": 28,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 18,
+        "num_1qu": 28,
+        "num_median": 37,
+        "num_mean": 38.9346,
+        "num_3qu": 46,
+        "num_maximum": 75
+      },
+      "Type_school": {
+        "name": "Type_school",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "primary_terminal_leaver": 37,
+          "secondary": 325,
+          "vocational": 138
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

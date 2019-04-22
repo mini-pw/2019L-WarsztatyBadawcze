@@ -1,0 +1,92 @@
+[
+  {
+    "id": "973619349858a73bb2ecb89e9954a038",
+    "added_by": "MatiFilozof",
+    "date": "10-04-2019",
+    "library": "mlr",
+    "model_name": "classif.bartMachine",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_transplant",
+    "parameters": {
+      "num_trees": 100,
+      "num_burn_in": 250,
+      "num_iterations_after_burn_in": 1000,
+      "alpha": 0.95,
+      "beta": 2,
+      "k": 2,
+      "q": 0.9,
+      "prob_rule_class": 0.5,
+      "mh_prob_steps": [0.2778, 0.2778, 0.4444],
+      "debug_log": false,
+      "run_in_sample": true,
+      "cov_prior_vec": null,
+      "use_missing_data": true,
+      "num_rand_samps_in_library": 10000,
+      "use_missing_data_dummies_as_covars": false,
+      "replace_missing_data_with_x_j_bar": false,
+      "impute_missingness_with_rf_impute": false,
+      "impute_missingness_with_x_j_bar_for_lm": true,
+      "mem_cache_for_speed": true,
+      "serialize": false,
+      "seed": null,
+      "verbose": true
+    },
+    "preprocessing": {
+      "obs": {
+        "name": "obs",
+        "type": "numerical",
+        "number_of_unique_values": 131,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 33.5,
+        "num_median": 66,
+        "num_mean": 66,
+        "num_3qu": 98.5,
+        "num_maximum": 131
+      },
+      "e": {
+        "name": "e",
+        "type": "numerical",
+        "number_of_unique_values": 127,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.057,
+        "num_1qu": 0.722,
+        "num_median": 1.654,
+        "num_mean": 2.3791,
+        "num_3qu": 3.402,
+        "num_maximum": 12.131
+      },
+      "z": {
+        "name": "z",
+        "type": "numerical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0.5,
+        "num_median": 2,
+        "num_mean": 2.3817,
+        "num_3qu": 3,
+        "num_maximum": 18
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 83,
+          "N": 48
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

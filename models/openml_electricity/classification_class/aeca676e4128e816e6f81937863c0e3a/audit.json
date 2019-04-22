@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_aeca676e4128e816e6f81937863c0e3a",
+    "date": "02-04-2019",
+    "added_by": "DominikRafacz",
+    "model_id": "aeca676e4128e816e6f81937863c0e3a",
+    "task_id": "classification_class",
+    "dataset_id": "openml_electricity",
+    "performance": {
+      "acc": 0.8131,
+      "auc": 0.8927,
+      "specificity": 0.8468,
+      "recall": 0.7679,
+      "precision": 0.7873,
+      "f1": 0.7771
+    }
+  }
+]
