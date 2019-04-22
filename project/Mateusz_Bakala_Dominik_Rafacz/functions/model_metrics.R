@@ -124,6 +124,35 @@ count_nums_skewness <- function(dset) {
   unlist(lapply(levels(parted), function(lvl) sum(parted == lvl)))
 }
 
+count_transforms <- function(vec1, vec2) {
+  if(length(vec1) != length(vec2)) {
+    stop("Różna długość!")
+  }
+  n <- length(vec1)
+  if(sum(vec1-vec2) < 0) {
+    tmp <- vec1
+    vec1 <- vec2
+    vec2 <- tmp
+  }
+  trans <- 0L
+  if(all(vec1==vec2)) {
+    return(0)
+  }
+  lastdif <- (n:1)[cumsum(vec1[n:1]-vec2[n:1]) != 0][1] #ostatnia pozycja, na której wektory się różnią
+  if(lastdif!=1){
+    for(i in 1L:(lastdif-1)) {
+      difr <- vec1[i] - vec2[i]
+      vec1[i] <- vec1[i] - difr
+      vec1[i+1] <- vec1[i+1] + difr
+      trans <- trans + abs(difr)
+    }
+  }
+  difr <- vec1[lastdif]-vec2[lastdif]
+  vec1[lastdif] <- vec1[lastdif] - difr
+  trans + abs(difr) * n
+  trans
+}
+
 compare_datasets <- function(dataset_info, r_dataset_info) {
   ds_vec <- c(count_factors_range(dataset_info), count_nums_skewness(dataset_info))
   rs_vec <- c(count_factors_range(r_dataset_info), count_nums_skewness(r_dataset_info))
@@ -141,6 +170,8 @@ compare_datasets_v2 <- function(dataset_info, r_dataset_info) {
   mean(vec)
 }
 
-compare_datasets_scaled <- function(dataset_info, r_dataset_inf) {
-  1- exp(-compare_datasets(dataset_info, r_dataset_info))
+compare_datasets_v3 <- function(dataset_info, r_dataset_info) {
+  fr <- count_transforms(count_factors_range(dataset_info), count_factors_range(r_dataset_info))
+  ns <- count_transforms(count_nums_skewness(dataset_info), count_nums_skewness(r_dataset_info))
+  sum(fr, ns)
 }

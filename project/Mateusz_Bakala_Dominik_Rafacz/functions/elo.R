@@ -10,6 +10,12 @@ datasetSimilarity_v2 <- function(datasetPath) {
   compare_datasets_v2(dataset, reference)
 }
 
+datasetSimilarity_v3 <- function(datasetPath) {
+  # TO-DO: porównać docelowy oraz bieżący dataset
+  dataset <- read_json(datasetPath)[[1]]
+  exp(-compare_datasets_v3(dataset, reference))
+}
+
 elo <- function(modelAUC, modelScore, datasetWeight, tune) {
   # liczenie update klasyfikacji
   difference <- outer(names(modelAUC), names(modelAUC), function(x, y) {
@@ -21,7 +27,7 @@ elo <- function(modelAUC, modelScore, datasetWeight, tune) {
   difference
 }
 
-computeELOScores <- function(niter = 6, tune = 5, scale = 50, compareType = "v2") {
+computeELOScores <- function(niter = 6, tune = 5, scale = 50, compareType = "v3") {
   # inicjalizacja zmiennych
   sep <- .Platform$file.sep
   modelScore <- numeric(0)
@@ -40,7 +46,9 @@ computeELOScores <- function(niter = 6, tune = 5, scale = 50, compareType = "v2"
       datasetWeight <- datasetSimilarity(paste0(ddir, sep, "dataset.json"))
     } else if (compareType == "v2") {
       datasetWeight <- datasetSimilarity_v2(paste0(ddir, sep, "dataset.json"))
-    } else {
+    } else if (compareType == "v3") {
+      datasetWeight <- datasetSimilarity_v3(paste0(ddir, sep, "dataset.json"))
+    }else {
       stop("Incorrect compareType!")
     }
     taskDirs <- list.dirs(path = ddir, recursive = FALSE)
@@ -81,13 +89,15 @@ computeELOScores <- function(niter = 6, tune = 5, scale = 50, compareType = "v2"
           aucStats[[tdir]]$data <- modelAUC
           aucStats[[tdir]]$weight <- datasetWeight
           # dodanie ddir do testedDirs, jeśli nie pojawił się wcześniej (zakomentowana teoretycznie ładniejsza wersja)
-          testedDirs <- c(testedDirs, ddir)
+          testedDirs <- c(testedDirs, tdir)
           # testedDirs <- c(testedDirs, paste0(task$dataset_id, " (target: ", task$target, ")"))
           modelsInDirs <- c(modelsInDirs, length(modelAUC))
           if (compareType == "v1") {
             weights <- c(weights, weightToSimilarity(datasetWeight, scale))
           } else if (compareType == "v2") {
             weights <- c(weights, datasetWeight)
+          } else if (compareType == "v3") {
+            weights <- c(weights, weightToSimilarity(datasetWeight, scale))
           }
         }
       }
@@ -117,6 +127,7 @@ computeELOScores <- function(niter = 6, tune = 5, scale = 50, compareType = "v2"
     # print(modelScore)
   }
   
+  browser()
   result <- cbind(data.frame(modelScore = modelScore, appeared = appeared), t(scoreHistory))
   if (niter == 1) {
     colnames(result) <- c("modelScore", "appeared")
