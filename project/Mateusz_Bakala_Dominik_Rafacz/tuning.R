@@ -64,8 +64,8 @@ models_and_params <- list(
   )
 )
 
-best_pars <- lapply(dataset_list, function(y) {
-  best_pars_ <- lapply(models_and_params, function(x) {
+best_pars <- lapply(models_and_params, function(x) {
+  best_pars_ <- lapply(dataset_list, function(y) {
     pars <- tuneParams(
       makeLearner(x$model, predict.type = "prob"),
       makeClassifTask(id = "task", data = y$data, target = y$target),
