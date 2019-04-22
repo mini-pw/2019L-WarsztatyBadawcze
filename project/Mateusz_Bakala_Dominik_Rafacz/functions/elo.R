@@ -4,30 +4,24 @@ datasetSimilarity <- function(datasetPath) {
   exp(-compare_datasets(dataset, reference))
 }
 
+datasetSimilarity_v2 <- function(datasetPath) {
+  # TO-DO: porównać docelowy oraz bieżący dataset
+  dataset <- read_json(datasetPath)[[1]]
+  compare_datasets_v2(dataset, reference)
+}
+
 elo <- function(modelAUC, modelScore, datasetWeight, tune) {
-  difference <- matrix(ncol = length(modelAUC), nrow = length(modelAUC))
   # liczenie update klasyfikacji
-  for (i in 1:length(modelAUC)) {
-    model <- names(modelAUC)[i]
-    # każdy z każdym
-    for (j in 1:length(modelAUC)) {
-      otherModel <- names(modelAUC)[j]
-      # dzielimy przez zwycięzcę minus przegranego
-      scoreDiff <- modelAUC[model] - modelAUC[otherModel]
-      difference[j, i] <- (scoreDiff + 1)/2 - 1/(10^((modelScore[otherModel] - modelScore[model])/tune) + 1)
-      # if (modelAUC[model] >= modelAUC[otherModel]) {
-      #   difference[j, i] <- (exp(modelAUC[model]) - exp(modelAUC[otherModel]))/exp(modelScore[model] - modelScore[otherModel])
-      # } else {
-      #   difference[j, i] <- (exp(modelAUC[model]) - exp(modelAUC[otherModel]))/exp(modelScore[otherModel] - modelScore[model])
-      # }
-    }
-  }
+  difference <- outer(names(modelAUC), names(modelAUC), function(x, y) {
+    scoreDiff <- modelAUC[y] - modelAUC[x]
+    (scoreDiff + 1)/2 - 1/(10^((modelScore[x] - modelScore[y])/tune) + 1)
+  })
   difference <- datasetWeight * colSums(difference)
   names(difference) <- names(modelAUC)
   difference
 }
 
-computeELOScores <- function(niter = 6, tune = 5) {
+computeELOScores <- function(niter = 6, tune = 5, scale = 50, compareType = "v2") {
   # inicjalizacja zmiennych
   sep <- .Platform$file.sep
   modelScore <- numeric(0)
@@ -42,7 +36,13 @@ computeELOScores <- function(niter = 6, tune = 5) {
   # dataset poniżej wyrzuca error :/
   datasetDirs <- datasetDirs[datasetDirs != paste0(".", sep, "openml_kc2")]
   for (ddir in datasetDirs) {
-    datasetWeight <- datasetSimilarity(paste0(ddir, sep, "dataset.json"))
+    if (compareType == "v1") {
+      datasetWeight <- datasetSimilarity(paste0(ddir, sep, "dataset.json"))
+    } else if (compareType == "v2") {
+      datasetWeight <- datasetSimilarity_v2(paste0(ddir, sep, "dataset.json"))
+    } else {
+      stop("Incorrect compareType!")
+    }
     taskDirs <- list.dirs(path = ddir, recursive = FALSE)
     for (tdir in taskDirs) {
       # filtrowanie wyłącznie tasków klasyfikacji
@@ -81,7 +81,11 @@ computeELOScores <- function(niter = 6, tune = 5) {
           # dodanie ddir do testedDirs, jeśli nie pojawił się wcześniej
           testedDirs <- c(testedDirs, ddir)
           modelsInDirs <- c(modelsInDirs, length(modelAUC))
-          weights <- c(weights, weightToSimilarity(datasetWeight))
+          if (compareType == "v1") {
+            weights <- c(weights, weightToSimilarity(datasetWeight, scale))
+          } else if (compareType == "v2") {
+            weights <- c(weights, datasetWeight)
+          }
         }
       }
     }
@@ -127,26 +131,26 @@ computeELOScores <- function(niter = 6, tune = 5) {
   list(data = result, numberOfModels = dirStats)
 }
 
-weightToSimilarity <- function(weight) {
-  exp(weight/100)
+weightToSimilarity <- function(weight, scale) {
+  exp(log(weight)/scale)
 }
 
-computeAllSimiliarities <- function() {
-  sep <- .Platform$file.sep
-  datasetDirs <- list.dirs(recursive = FALSE)
-  # dataset poniżej wyrzuca error :/
-  datasetDirs <- datasetDirs[datasetDirs != paste0(".", sep, "openml_kc2")]
-  
-  rs_vec <- c(count_factors_range(reference), count_nums_skewness(reference))
-  for (ddir in datasetDirs) {
-    print(paste0("Dataset: ", ddir))
-    #datasetWeight <- datasetSimilarity(paste0(ddir, sep, "dataset.json"))
-    dataset <- read_json(paste0(ddir, sep, "dataset.json"))[[1]]
-    ds_vec <- c(count_factors_range(dataset), count_nums_skewness(dataset))
-    #print(ds_vec)
-    dw <- sqrt(sum((ds_vec-rs_vec)^2))
-    #print(dw)
-    datasetWeight <- exp(-dw/100)
-    print(datasetWeight)
-  }
-}
+# computeAllSimiliarities <- function() {
+#   sep <- .Platform$file.sep
+#   datasetDirs <- list.dirs(recursive = FALSE)
+#   # dataset poniżej wyrzuca error :/
+#   datasetDirs <- datasetDirs[datasetDirs != paste0(".", sep, "openml_kc2")]
+#   
+#   rs_vec <- c(count_factors_range(reference), count_nums_skewness(reference))
+#   for (ddir in datasetDirs) {
+#     print(paste0("Dataset: ", ddir))
+#     #datasetWeight <- datasetSimilarity(paste0(ddir, sep, "dataset.json"))
+#     dataset <- read_json(paste0(ddir, sep, "dataset.json"))[[1]]
+#     ds_vec <- c(count_factors_range(dataset), count_nums_skewness(dataset))
+#     #print(ds_vec)
+#     dw <- sqrt(sum((ds_vec-rs_vec)^2))
+#     #print(dw)
+#     datasetWeight <- exp(-dw/100)
+#     print(datasetWeight)
+#   }
+# }

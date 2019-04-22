@@ -130,6 +130,17 @@ compare_datasets <- function(dataset_info, r_dataset_info) {
   sqrt(sum((ds_vec-rs_vec)^2))
 }
 
+compare_datasets_v2 <- function(dataset_info, r_dataset_info) {
+  ds_vec <- c(count_factors_range(dataset_info), count_nums_skewness(dataset_info))
+  rs_vec <- c(count_factors_range(r_dataset_info), count_nums_skewness(r_dataset_info))
+  vec <- ds_vec/rs_vec
+  # jeśli 0/0, to otrzymujemy NaN, a chcemy 1
+  vec[is.nan(vec)] <- 1
+  # wyrównanie do [0, 1]
+  vec[vec > 1] <- 1/vec[vec > 1]
+  mean(vec)
+}
+
 compare_datasets_scaled <- function(dataset_info, r_dataset_inf) {
   1- exp(-compare_datasets(dataset_info, r_dataset_info))
 }
