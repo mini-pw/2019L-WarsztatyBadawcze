@@ -1,4 +1,4 @@
-source("standardizing.R")
+source("ourBestiests/standardizing.R")
 dsets <- list()
 
 library(OpenML)
@@ -15,7 +15,7 @@ temp <- getOMLDataSet(data.name = "ilpd")
 dsets[[4]] <- list(data = temp$data, target = temp$target.features)
 
 #w tym folderze
-dsets[[5]] <- list(data = read.csv(file = "pokemon.csv")[-1], target = "Legendary")
+dsets[[5]] <- list(data = read.csv(file = "ourBestiests/pokemon.csv")[-1], target = "Legendary")
 
 dsets <- normalize_all(dsets, targets)
 
