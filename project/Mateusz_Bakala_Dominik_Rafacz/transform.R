@@ -4,8 +4,6 @@ DataExplorer::plot_correlation(raw_test)
 test <- raw_test[,c("Zuzanna", "Lena", "Maja", "Hanna", "Zofia", "Amelia", "Natalia", "Wiktoria",
                     "Emilia", "Antonina", "Laura", "Anna", "Nadia", "Liliana", "Y")]
 
-cmp <- DataExplorer::plot_histogram(test_mod)
-
 standardise <- function(x){
   (x-min(x))/(max(x) - min(x))
 }
@@ -25,6 +23,8 @@ test_mod$Zuzanna <- as.logical(test_mod$Zuzanna)
 test_mod$Natalia <- as.logical(test_mod$Natalia)
 test_mod$Nadia <- as.logical(test_mod$Nadia)
 test_mod$Liliana <- as.logical(test_mod$Liliana)
+
+cmp <- DataExplorer::plot_histogram(test_mod)
 
 write.csv(test_mod, "WarsztatyBadawcze_transformed.csv", row.names = FALSE)
 create_fake_json(test_mod)

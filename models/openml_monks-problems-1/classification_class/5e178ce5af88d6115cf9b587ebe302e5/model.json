@@ -1,0 +1,142 @@
+[
+  {
+    "id": "5e178ce5af88d6115cf9b587ebe302e5",
+    "added_by": "MatiFilozof",
+    "date": "12-04-2019",
+    "library": "mlr",
+    "model_name": "classif.nnet",
+    "task_id": "classification_class",
+    "dataset_id": "openml_monks-problems-1",
+    "parameters": {
+      "size": 3,
+      "maxit": 100,
+      "skip": false,
+      "rang": 0.7,
+      "decay": 0,
+      "Hess": false,
+      "trace": true,
+      "MaxNWts": 1000,
+      "abstol": 0.0001,
+      "reltol": 1e-008
+    },
+    "preprocessing": {
+      "class": {
+        "name": "class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 278,
+          "1": 278
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "attr1": {
+        "name": "attr1",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 189,
+          "2": 186,
+          "3": 181
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "attr2": {
+        "name": "attr2",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 179,
+          "2": 186,
+          "3": 191
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "attr3": {
+        "name": "attr3",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 281,
+          "2": 275
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "attr4": {
+        "name": "attr4",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 186,
+          "2": 183,
+          "3": 187
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "attr5": {
+        "name": "attr5",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 137,
+          "2": 139,
+          "3": 138,
+          "4": 142
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "attr6": {
+        "name": "attr6",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 272,
+          "2": 284
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
