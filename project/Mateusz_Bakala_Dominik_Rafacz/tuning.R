@@ -1,3 +1,4 @@
+source(paste0("ourBestiests/gettingData.R"))
 library(mlr)
 library(mlrMBO)
 
@@ -8,8 +9,7 @@ control <- setMBOControlMultiPoint(control, method = "cl", cl.lie = min)
 tunecontrol <- makeTuneControlMBO(mbo.control = control)
 
 # lista linków do datasetów
-dataset_list <- list(
-)
+# zmienna "dsets"
 
 # lista modeli z ich parametrami
 models_and_params <- list(
@@ -65,7 +65,7 @@ models_and_params <- list(
 )
 
 best_pars <- lapply(models_and_params, function(x) {
-  best_pars_ <- lapply(dataset_list, function(y) {
+  best_pars_ <- lapply(dsets, function(y) {
     pars <- tuneParams(
       makeLearner(x$model, predict.type = "prob"),
       makeClassifTask(id = "task", data = y$data, target = y$target),
