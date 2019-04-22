@@ -2,54 +2,23 @@
   {
     "id": "fake_datasets_deterred_dataset",
     "added_by": "almost_tidyverse",
-    "date": "10-04-2019",
+    "date": "22-04-2019",
     "name": "deterred_dataset",
     "source": "fake_source",
     "url": "http://fake.com",
-    "number_of_features": 23,
+    "number_of_features": 14,
     "number_of_instances": 4184,
     "number_of_missing_values": 0,
     "number_of_instances_with_missing_values": 0,
     "variables": {
-      "Y": {
-        "name": "Y",
-        "type": "categorical",
-        "number_of_unique_values": 1,
-        "number_of_missing_values": 0,
-        "cat_frequencies": {
-          "FALSE": 4184
-        },
-        "num_minimum": null,
-        "num_1qu": null,
-        "num_median": null,
-        "num_mean": null,
-        "num_3qu": null,
-        "num_maximum": null
-      },
       "Zuzanna": {
         "name": "Zuzanna",
         "type": "categorical",
         "number_of_unique_values": 2,
         "number_of_missing_values": 0,
         "cat_frequencies": {
-          "0": 3951,
-          "1": 233
-        },
-        "num_minimum": null,
-        "num_1qu": null,
-        "num_median": null,
-        "num_mean": null,
-        "num_3qu": null,
-        "num_maximum": null
-      },
-      "Julia": {
-        "name": "Julia",
-        "type": "categorical",
-        "number_of_unique_values": 2,
-        "number_of_missing_values": 0,
-        "cat_frequencies": {
-          "0": 3951,
-          "1": 233
+          "FALSE": 3951,
+          "TRUE": 233
         },
         "num_minimum": null,
         "num_1qu": null,
@@ -60,97 +29,68 @@
       },
       "Lena": {
         "name": "Lena",
-        "type": "categorical",
+        "type": "numerical",
         "number_of_unique_values": 53,
         "number_of_missing_values": 0,
         "cat_frequencies": null,
-        "num_minimum": 20,
-        "num_1qu": 63,
-        "num_median": 71,
-        "num_mean": 69.2486,
-        "num_3qu": 80,
-        "num_maximum": 94
+        "num_minimum": 0,
+        "num_1qu": 0.5811,
+        "num_median": 0.6892,
+        "num_mean": 0.6655,
+        "num_3qu": 0.8108,
+        "num_maximum": 1
       },
       "Maja": {
         "name": "Maja",
-        "type": "categorical",
+        "type": "numerical",
         "number_of_unique_values": 117,
         "number_of_missing_values": 0,
         "cat_frequencies": null,
         "num_minimum": 0,
-        "num_1qu": 6,
-        "num_median": 25,
-        "num_mean": 32.2813,
-        "num_3qu": 53,
-        "num_maximum": 154
+        "num_1qu": 0.3858,
+        "num_median": 0.646,
+        "num_mean": 0.5577,
+        "num_3qu": 0.7909,
+        "num_maximum": 1
       },
       "Hanna": {
         "name": "Hanna",
-        "type": "categorical",
+        "type": "numerical",
         "number_of_unique_values": 213,
         "number_of_missing_values": 0,
         "cat_frequencies": null,
         "num_minimum": 0,
-        "num_1qu": 52,
-        "num_median": 73,
-        "num_mean": 74.0767,
-        "num_3qu": 95,
-        "num_maximum": 258
+        "num_1qu": 0.2016,
+        "num_median": 0.2829,
+        "num_mean": 0.2871,
+        "num_3qu": 0.3682,
+        "num_maximum": 1
       },
       "Zofia": {
         "name": "Zofia",
-        "type": "categorical",
+        "type": "numerical",
         "number_of_unique_values": 65,
         "number_of_missing_values": 0,
         "cat_frequencies": null,
-        "num_minimum": 20,
-        "num_1qu": 87,
-        "num_median": 96,
-        "num_mean": 88.359,
-        "num_3qu": 100,
-        "num_maximum": 100
+        "num_minimum": 0,
+        "num_1qu": 0.8375,
+        "num_median": 0.95,
+        "num_mean": 0.8545,
+        "num_3qu": 1,
+        "num_maximum": 1
       },
       "Amelia": {
         "name": "Amelia",
-        "type": "categorical",
+        "type": "numerical",
         "number_of_unique_values": 481,
         "number_of_missing_values": 0,
         "cat_frequencies": null,
         "num_minimum": 0,
-        "num_1qu": 117,
-        "num_median": 176,
-        "num_mean": 183.2992,
-        "num_3qu": 247,
-        "num_maximum": 603
-      },
-      "Alicja": {
-        "name": "Alicja",
-        "type": "categorical",
-        "number_of_unique_values": 19,
-        "number_of_missing_values": 0,
-        "cat_frequencies": null,
-        "num_minimum": 0,
-        "num_1qu": 0,
-        "num_median": 1,
-        "num_mean": 1.2882,
-        "num_3qu": 2,
-        "num_maximum": 20
-      },
-      "Aleksandra": {
-        "name": "Aleksandra",
-        "type": "categorical",
-        "number_of_unique_values": 2,
-        "number_of_missing_values": 0,
-        "cat_frequencies": {
-          "0": 3946,
-          "1": 238
-        },
-        "num_minimum": null,
-        "num_1qu": null,
-        "num_median": null,
-        "num_mean": null,
-        "num_3qu": null,
-        "num_maximum": null
+        "num_1qu": 0.194,
+        "num_median": 0.2919,
+        "num_mean": 0.304,
+        "num_3qu": 0.4096,
+        "num_maximum": 1
       },
       "Natalia": {
         "name": "Natalia",
@@ -158,40 +98,8 @@
         "number_of_unique_values": 2,
         "number_of_missing_values": 0,
         "cat_frequencies": {
-          "0": 3879,
-          "1": 305
-        },
-        "num_minimum": null,
-        "num_1qu": null,
-        "num_median": null,
-        "num_mean": null,
-        "num_3qu": null,
-        "num_maximum": null
-      },
-      "Oliwia": {
-        "name": "Oliwia",
-        "type": "categorical",
-        "number_of_unique_values": 2,
-        "number_of_missing_values": 0,
-        "cat_frequencies": {
-          "0": 3951,
-          "1": 233
-        },
-        "num_minimum": null,
-        "num_1qu": null,
-        "num_median": null,
-        "num_mean": null,
-        "num_3qu": null,
-        "num_maximum": null
-      },
-      "Maria": {
-        "name": "Maria",
-        "type": "categorical",
-        "number_of_unique_values": 2,
-        "number_of_missing_values": 0,
-        "cat_frequencies": {
-          "0": 3951,
-          "1": 233
+          "FALSE": 3879,
+          "TRUE": 305
         },
         "num_minimum": null,
         "num_1qu": null,
@@ -202,68 +110,68 @@
       },
       "Wiktoria": {
         "name": "Wiktoria",
-        "type": "categorical",
+        "type": "numerical",
         "number_of_unique_values": 87,
         "number_of_missing_values": 0,
         "cat_frequencies": null,
         "num_minimum": 0,
-        "num_1qu": 50,
-        "num_median": 67,
-        "num_mean": 62.7937,
-        "num_3qu": 82,
-        "num_maximum": 100
+        "num_1qu": 0.5,
+        "num_median": 0.67,
+        "num_mean": 0.6279,
+        "num_3qu": 0.82,
+        "num_maximum": 1
       },
       "Emilia": {
         "name": "Emilia",
-        "type": "categorical",
+        "type": "numerical",
         "number_of_unique_values": 84,
         "number_of_missing_values": 0,
         "cat_frequencies": null,
         "num_minimum": 0,
         "num_1qu": 0,
         "num_median": 0,
-        "num_mean": 10.5989,
-        "num_3qu": 13,
-        "num_maximum": 83
+        "num_mean": 0.2854,
+        "num_3qu": 0.5956,
+        "num_maximum": 1
       },
       "Antonina": {
         "name": "Antonina",
-        "type": "categorical",
+        "type": "numerical",
         "number_of_unique_values": 91,
         "number_of_missing_values": 0,
         "cat_frequencies": null,
         "num_minimum": 0,
-        "num_1qu": 20,
-        "num_median": 31,
-        "num_mean": 32.8086,
-        "num_3qu": 45,
-        "num_maximum": 100
+        "num_1qu": 0.2,
+        "num_median": 0.31,
+        "num_mean": 0.3281,
+        "num_3qu": 0.45,
+        "num_maximum": 1
       },
       "Laura": {
         "name": "Laura",
-        "type": "categorical",
+        "type": "numerical",
         "number_of_unique_values": 79,
         "number_of_missing_values": 0,
         "cat_frequencies": null,
         "num_minimum": 0,
-        "num_1qu": 12,
-        "num_median": 20,
-        "num_mean": 21.1685,
-        "num_3qu": 29,
-        "num_maximum": 100
+        "num_1qu": 0.12,
+        "num_median": 0.2,
+        "num_mean": 0.2117,
+        "num_3qu": 0.29,
+        "num_maximum": 1
       },
       "Anna": {
         "name": "Anna",
-        "type": "categorical",
+        "type": "numerical",
         "number_of_unique_values": 8,
         "number_of_missing_values": 0,
         "cat_frequencies": null,
         "num_minimum": 0,
-        "num_1qu": 5,
-        "num_median": 6,
-        "num_mean": 6.022,
-        "num_3qu": 8,
-        "num_maximum": 8
+        "num_1qu": 0.625,
+        "num_median": 0.75,
+        "num_mean": 0.7527,
+        "num_3qu": 1,
+        "num_maximum": 1
       },
       "Nadia": {
         "name": "Nadia",
@@ -271,24 +179,8 @@
         "number_of_unique_values": 2,
         "number_of_missing_values": 0,
         "cat_frequencies": {
-          "0": 3842,
-          "1": 342
-        },
-        "num_minimum": null,
-        "num_1qu": null,
-        "num_median": null,
-        "num_mean": null,
-        "num_3qu": null,
-        "num_maximum": null
-      },
-      "Pola": {
-        "name": "Pola",
-        "type": "categorical",
-        "number_of_unique_values": 2,
-        "number_of_missing_values": 0,
-        "cat_frequencies": {
-          "0": 3944,
-          "1": 240
+          "FALSE": 3842,
+          "TRUE": 342
         },
         "num_minimum": null,
         "num_1qu": null,
@@ -303,40 +195,8 @@
         "number_of_unique_values": 2,
         "number_of_missing_values": 0,
         "cat_frequencies": {
-          "0": 1989,
-          "1": 2195
-        },
-        "num_minimum": null,
-        "num_1qu": null,
-        "num_median": null,
-        "num_mean": null,
-        "num_3qu": null,
-        "num_maximum": null
-      },
-      "Nikola": {
-        "name": "Nikola",
-        "type": "categorical",
-        "number_of_unique_values": 2,
-        "number_of_missing_values": 0,
-        "cat_frequencies": {
-          "0": 3951,
-          "1": 233
-        },
-        "num_minimum": null,
-        "num_1qu": null,
-        "num_median": null,
-        "num_mean": null,
-        "num_3qu": null,
-        "num_maximum": null
-      },
-      "Gabriela": {
-        "name": "Gabriela",
-        "type": "categorical",
-        "number_of_unique_values": 2,
-        "number_of_missing_values": 0,
-        "cat_frequencies": {
-          "0": 3951,
-          "1": 233
+          "FALSE": 1989,
+          "TRUE": 2195
         },
         "num_minimum": null,
         "num_1qu": null,

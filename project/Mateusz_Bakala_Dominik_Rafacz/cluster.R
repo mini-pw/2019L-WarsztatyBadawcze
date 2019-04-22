@@ -1,28 +1,5 @@
-source("project/Mateusz_Bakala_Dominik_Rafacz/genie.R")
-raw_test <- read.csv("project/WarsztatyBadawcze_test.csv", sep = ";")
-
-DataExplorer::plot_correlation(raw_test)
-
-test <- raw_test[,c("Zuzanna", "Lena", "Maja", "Hanna", "Zofia", "Amelia", "Natalia", "Wiktoria",
-                 "Emilia", "Antonina", "Laura", "Anna", "Nadia", "Liliana", "Y")]
-
-cmp <- DataExplorer::plot_histogram(test_mod)
-
-standardise <- function(x){
-  (x-min(x))/(max(x) - min(x))
-}
-
-test_mod <- test[,-15]
-test_mod$Lena <- standardise(test_mod$Lena)
-test_mod$Maja <- standardise(log(test_mod$Maja + 1))
-test_mod$Hanna <- standardise(test_mod$Hanna)
-test_mod$Zofia <- standardise(test_mod$Zofia)
-test_mod$Amelia <- standardise(test_mod$Amelia)
-test_mod$Wiktoria <- standardise(test_mod$Wiktoria)
-test_mod$Emilia <- standardise(log(test_mod$Emilia + 1))
-test_mod$Antonina <- standardise(test_mod$Antonina)
-test_mod$Laura <- standardise(test_mod$Laura)
-test_mod$Anna <- standardise(test_mod$Anna)
+source("genie.R")
+test_mod <- read.csv("WarsztatyBadawcze_transformed.csv")
 
 test_pca <- prcomp(test_mod, center = TRUE, scale. = TRUE) 
 
