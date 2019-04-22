@@ -56,6 +56,7 @@ computeELOScores <- function(niter = 6, tune = 5, scale = 50, compareType = "v3"
       # filtrowanie wyłącznie tasków klasyfikacji
       if (grepl("classification", tdir)) {
         message(paste0("Present task: ", tdir))
+        task <- fromJSON(paste0(tdir, sep, "task.json"))
         modelDirs <- list.dirs(tdir, recursive = FALSE)
         modelAUC <- numeric(0)
         # policzenie podobieństwa datasetów
@@ -69,6 +70,7 @@ computeELOScores <- function(niter = 6, tune = 5, scale = 50, compareType = "v3"
         }
         for (model in names(modelAUC)) {
           # classif.neuralnet często zwraca AUC = 0.5, to oznacza jakiś problem
+          # a classif.featureless po prostu jest gupi i śmierdzi
           if (is.na(modelAUC[model]) || model %in% c("classif.neuralnet", "classif.featureless")) {
             # if (is.na(modelAUC[model])) {
             modelAUC <- modelAUC[names(modelAUC) != model]
@@ -86,8 +88,9 @@ computeELOScores <- function(niter = 6, tune = 5, scale = 50, compareType = "v3"
           modelAUC <- 2*abs(modelAUC - 0.5)
           aucStats[[tdir]]$data <- modelAUC
           aucStats[[tdir]]$weight <- datasetWeight
-          # dodanie ddir do testedDirs, jeśli nie pojawił się wcześniej
+          # dodanie ddir do testedDirs, jeśli nie pojawił się wcześniej (zakomentowana teoretycznie ładniejsza wersja)
           testedDirs <- c(testedDirs, tdir)
+          # testedDirs <- c(testedDirs, paste0(task$dataset_id, " (target: ", task$target, ")"))
           modelsInDirs <- c(modelsInDirs, length(modelAUC))
           if (compareType == "v1") {
             weights <- c(weights, weightToSimilarity(datasetWeight, scale))
@@ -151,7 +154,7 @@ weightToSimilarity <- function(weight, scale) {
 #   datasetDirs <- list.dirs(recursive = FALSE)
 #   # dataset poniżej wyrzuca error :/
 #   datasetDirs <- datasetDirs[datasetDirs != paste0(".", sep, "openml_kc2")]
-#   
+# 
 #   rs_vec <- c(count_factors_range(reference), count_nums_skewness(reference))
 #   for (ddir in datasetDirs) {
 #     print(paste0("Dataset: ", ddir))
