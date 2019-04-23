@@ -163,9 +163,10 @@ computeLittleELOScores <- function(dsets, niter = 6, tune = 5, scale = 50) {
       # swoista miara błędu
       difference <- elo(aucs, modelScore, weightToSimilarity(x$similarity, 1/scale), tune)
       # update klasyfikacji pseudo-ELO dla modeli
-      for (model in names(x$data)) {
+      for (model in names(aucs)) {
         modelScore[model] <<- modelScore[model] + difference[model]
       }
+      modelScore[model] + difference[model]
     })
     if (i != niter) {
       scoreHistory <- rbind(scoreHistory, modelScore)
