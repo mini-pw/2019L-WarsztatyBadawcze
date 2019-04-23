@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_9b6490f993468cf9e830c38ff4a483ca",
+    "date": "10-04-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "9b6490f993468cf9e830c38ff4a483ca",
+    "task_id": "classification_class",
+    "dataset_id": "openml_heart-statlog",
+    "performance": {
+      "acc": 0.8296,
+      "auc": 0.9036,
+      "specificity": 0.797,
+      "recall": 0.8557,
+      "precision": 0.8423,
+      "f1": 0.8485
+    }
+  }
+]
