@@ -7,10 +7,10 @@
     "task_id": "regression_Mean.of.the.integrated.profile",
     "dataset_id": "kaggle_predicting-a-pulsar-star",
     "performance": {
-		"mse": 69.15261,
-		"rmse":8.315805,
-		"mae":6.597948,
-		"r2": 0.8949159
+      "mse": 69.1526,
+      "rmse": 8.3158,
+      "mae": 6.5979,
+      "r2": 0.8949
     }
   }
 ]

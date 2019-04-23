@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_8f50b75d05f0d92a175edb926d5bf08c",
+    "date": "12-04-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "8f50b75d05f0d92a175edb926d5bf08c",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_qsar-biodeg",
+    "performance": {
+      "acc": 0.8645,
+      "auc": 0.9313,
+      "specificity": 0.7236,
+      "recall": 0.9373,
+      "precision": 0.8693,
+      "f1": 0.9015
+    }
+  }
+]

@@ -4,7 +4,7 @@
     "added_by": "MatiFilozof",
     "date": "13-03-2019",
     "library": "mlr",
-    "model_name": "Random Forest",
+    "model_name": "classif.randomForest",
     "task_id": "classification_pixel.class",
     "dataset_id": "toronto_image-seg",
     "parameters": {

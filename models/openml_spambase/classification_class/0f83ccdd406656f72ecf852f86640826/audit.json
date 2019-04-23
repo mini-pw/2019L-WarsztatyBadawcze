@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_0f83ccdd406656f72ecf852f86640826",
+    "date": "10-04-2019",
+    "added_by": "maksymiuks",
+    "model_id": "0f83ccdd406656f72ecf852f86640826",
+    "task_id": "classification_class",
+    "dataset_id": "openml_spambase",
+    "performance": {
+      "acc": 0.9446,
+      "auc": 0.9822,
+      "specificity": 0.9137,
+      "recall": 0.9649,
+      "precision": 0.9448,
+      "f1": 0.9547
+    }
+  }
+]

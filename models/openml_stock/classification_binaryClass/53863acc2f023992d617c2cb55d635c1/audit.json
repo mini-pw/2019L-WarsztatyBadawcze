@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_53863acc2f023992d617c2cb55d635c1",
+    "date": "30-03-2019",
+    "added_by": "wernerolaf",
+    "model_id": "53863acc2f023992d617c2cb55d635c1",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_stock",
+    "performance": {
+      "acc": 0.92,
+      "auc": 0.9607,
+      "specificity": 0.9004,
+      "recall": 0.9391,
+      "precision": 0.9098,
+      "f1": 0.9234
+    }
+  }
+]

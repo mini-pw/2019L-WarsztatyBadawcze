@@ -7,11 +7,10 @@
     "task_id": "regression_V1",
     "dataset_id": "openml_wine-quality-white",
     "performance": {
-      "mse": 0.2907211,
-      "rmse": 0.5391856,
-      "mae": 0.3772674,
-      "r2": 0.6226222
-      
+      "mse": 0.2907,
+      "rmse": 0.5392,
+      "mae": 0.3773,
+      "r2": 0.6226
     }
   }
-  ] 
+]

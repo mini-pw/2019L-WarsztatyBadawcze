@@ -1,0 +1,143 @@
+[
+  {
+    "id": "669b231c6c5e7f778d3117c4724da760",
+    "added_by": "wernerolaf",
+    "date": "30-03-2019",
+    "library": "mlr",
+    "model_name": "classif.gbm",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_stock",
+    "parameters": {
+      "distribution": "huberized",
+      "n.trees": 50,
+      "cv.folds": 0,
+      "interaction.depth": 1,
+      "n.minobsinnode": 10,
+      "shrinkage": 0.001,
+      "bag.fraction": 0.5,
+      "train.fraction": 1,
+      "keep.data": false,
+      "verbose": false
+    },
+    "preprocessing": {
+      "company1": {
+        "name": "company1",
+        "type": "numerical",
+        "number_of_unique_values": 415,
+        "number_of_missing_values": 0,
+        "num_minimum": 17.219,
+        "num_1qu": 27.781,
+        "num_median": 38.922,
+        "num_mean": 37.9256,
+        "num_3qu": 46.875,
+        "num_maximum": 61.5
+      },
+      "company2": {
+        "name": "company2",
+        "type": "numerical",
+        "number_of_unique_values": 271,
+        "number_of_missing_values": 0,
+        "num_minimum": 19.25,
+        "num_1qu": 35.4062,
+        "num_median": 49.0625,
+        "num_mean": 43.9555,
+        "num_3qu": 53.25,
+        "num_maximum": 60.25
+      },
+      "company3": {
+        "name": "company3",
+        "type": "numerical",
+        "number_of_unique_values": 94,
+        "number_of_missing_values": 0,
+        "num_minimum": 12.75,
+        "num_1qu": 16.125,
+        "num_median": 19.375,
+        "num_mean": 18.7045,
+        "num_3qu": 20.875,
+        "num_maximum": 25.125
+      },
+      "company4": {
+        "name": "company4",
+        "type": "numerical",
+        "number_of_unique_values": 186,
+        "number_of_missing_values": 0,
+        "num_minimum": 34.375,
+        "num_1qu": 41.375,
+        "num_median": 43.9375,
+        "num_mean": 45.3529,
+        "num_3qu": 48.125,
+        "num_maximum": 60.125
+      },
+      "company5": {
+        "name": "company5",
+        "type": "numerical",
+        "number_of_unique_values": 373,
+        "number_of_missing_values": 0,
+        "num_minimum": 27.75,
+        "num_1qu": 49.6562,
+        "num_median": 61.75,
+        "num_mean": 60.8636,
+        "num_3qu": 71.8438,
+        "num_maximum": 94.125
+      },
+      "company6": {
+        "name": "company6",
+        "type": "numerical",
+        "number_of_unique_values": 153,
+        "number_of_missing_values": 0,
+        "num_minimum": 14.125,
+        "num_1qu": 18,
+        "num_median": 25.75,
+        "num_mean": 24.1226,
+        "num_3qu": 28.875,
+        "num_maximum": 35.25
+      },
+      "company7": {
+        "name": "company7",
+        "type": "numerical",
+        "number_of_unique_values": 203,
+        "number_of_missing_values": 0,
+        "num_minimum": 58,
+        "num_1qu": 65.625,
+        "num_median": 68.625,
+        "num_mean": 70.6734,
+        "num_3qu": 76.375,
+        "num_maximum": 87.25
+      },
+      "company8": {
+        "name": "company8",
+        "type": "numerical",
+        "number_of_unique_values": 99,
+        "number_of_missing_values": 0,
+        "num_minimum": 16.375,
+        "num_1qu": 21.25,
+        "num_median": 22.5,
+        "num_mean": 23.2942,
+        "num_3qu": 26.375,
+        "num_maximum": 29.25
+      },
+      "company9": {
+        "name": "company9",
+        "type": "numerical",
+        "number_of_unique_values": 155,
+        "number_of_missing_values": 0,
+        "num_minimum": 31.5,
+        "num_1qu": 41.75,
+        "num_median": 44.75,
+        "num_mean": 44.2142,
+        "num_3qu": 47.625,
+        "num_maximum": 53
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "N": 462,
+          "P": 488
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,28 @@
+R version 3.5.2 (2018-12-20)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS Mojave 10.14.3
+
+Matrix products: default
+BLAS: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib
+
+locale:
+[1] pl_PL.UTF-8/pl_PL.UTF-8/pl_PL.UTF-8/C/pl_PL.UTF-8/pl_PL.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] kknn_1.3.1        readr_1.3.1       dplyr_0.8.0.1     OpenML_1.8        mlr_2.13          ParamHelpers_1.12
+ [7] stringi_1.3.1     R.utils_2.8.0     R.oo_1.22.0       R.methodsS3_1.7.1 digest_0.6.18     reader_1.0.6     
+[13] NCmisc_1.1.6      purrr_0.3.0       jsonlite_1.6     
+
+loaded via a namespace (and not attached):
+ [1] httr_1.4.0          tools_3.5.2         backports_1.1.3     R6_2.4.0            rpart_4.1-13        lazyeval_0.2.1     
+ [7] colorspace_1.4-0    tidyselect_0.2.5    curl_3.3            compiler_3.5.2      parallelMap_1.3     scales_1.0.0       
+[13] checkmate_1.9.1     randomForest_4.6-14 pkgconfig_2.0.2     rlang_0.3.1         rstudioapi_0.9.0    BBmisc_1.11        
+[19] magrittr_1.5        ada_2.0-5           Matrix_1.2-15       Rcpp_1.0.0          munsell_0.5.0       yaml_2.2.0         
+[25] plyr_1.8.4          grid_3.5.2          parallel_3.5.2      crayon_1.3.4        lattice_0.20-38     splines_3.5.2      
+[31] hms_0.4.2           knitr_1.21          pillar_1.3.1        igraph_1.2.4        ranger_0.11.2       fastmatch_1.1-0    
+[37] XML_3.98-1.17       glue_1.3.0          data.table_1.12.0   gtable_0.2.0        assertthat_0.2.0    ggplot2_3.1.0      
+[43] xfun_0.5            farff_1.0           survival_2.43-3     tibble_2.0.1        proftools_0.99-2    memoise_1.1.0      

@@ -7,10 +7,10 @@
     "task_id": "regression_oldpeak",
     "dataset_id": "kaggle_heart-disease",
     "performance": {
-      "mse": 0.9610404,
-      "rmse": 0.980326,
-      "mae": 0.098032,
-      "r2": 0.960326
+      "mse": 0.961,
+      "rmse": 0.9803,
+      "mae": 0.098,
+      "r2": 0.9603
     }
   }
 ]

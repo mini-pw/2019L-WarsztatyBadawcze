@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_a4acbe8af297b49d06cdd0446a8d9684",
+    "date": "10-04-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "a4acbe8af297b49d06cdd0446a8d9684",
+    "task_id": "classification_class",
+    "dataset_id": "openml_oil_spill",
+    "performance": {
+      "acc": 0.9552,
+      "auc": 0.8933,
+      "specificity": 0.0286,
+      "recall": 0.9978,
+      "precision": 0.9572,
+      "f1": 0.977
+    }
+  }
+]
