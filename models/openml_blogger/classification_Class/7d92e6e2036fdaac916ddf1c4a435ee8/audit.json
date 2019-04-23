@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_7d92e6e2036fdaac916ddf1c4a435ee8",
+    "date": "03-04-2019",
+    "added_by": "airi314",
+    "model_id": "7d92e6e2036fdaac916ddf1c4a435ee8",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_blogger",
+    "performance": {
+      "acc": 0.77,
+      "auc": 0.8176,
+      "specificity": 0.959,
+      "recall": 0.3855,
+      "precision": 0.8533,
+      "f1": 0.5069
+    }
+  }
+]

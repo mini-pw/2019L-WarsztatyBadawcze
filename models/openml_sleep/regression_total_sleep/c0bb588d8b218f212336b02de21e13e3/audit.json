@@ -7,10 +7,10 @@
     "task_id": "regression_total_sleep",
     "dataset_id": "openml_sleep",
     "performance": {
-      "MSE":  35.22854,
-	  "RMSE": 5.935363,
-	  "MAE": 3.615391,
-	  "R2": 0.4854227
+      "mse": 35.2285,
+      "rmse": 5.9354,
+      "mae": 3.6154,
+      "r2": 0.4854
     }
   }
-] 
+]

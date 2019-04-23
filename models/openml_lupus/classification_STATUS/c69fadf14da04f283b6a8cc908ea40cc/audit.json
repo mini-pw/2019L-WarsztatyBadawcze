@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_c69fadf14da04f283b6a8cc908ea40cc",
+    "date": "29-03-2019",
+    "added_by": "michalSt98",
+    "model_id": "c69fadf14da04f283b6a8cc908ea40cc",
+    "task_id": "classification_STATUS",
+    "dataset_id": "openml_lupus",
+    "performance": {
+      "acc": 0.7229,
+      "auc": 0.7574,
+      "specificity": 0.5705,
+      "recall": 0.8618,
+      "precision": 0.7593,
+      "f1": 0.78
+    }
+  }
+]

@@ -8,10 +8,10 @@
     "dataset_id": "openml_soybean",
     "performance": {
       "acc": 0.8951,
-      "auc": null,
       "specificity": null,
-      "recall": null,
       "precision": null,
+      "recall": null,
+      "auc": null,
       "f1": null
     }
   }

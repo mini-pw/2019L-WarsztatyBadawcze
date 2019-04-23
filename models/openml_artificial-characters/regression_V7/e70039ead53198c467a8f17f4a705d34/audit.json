@@ -7,10 +7,10 @@
     "task_id": "regression_V7",
     "dataset_id": "openml_artificial-characters",
     "performance": {
-		"mse": 62.0961740,
-		"rmse":7.8801126,
-		"mae":6.2554594,
-		"r2":0.4977999
+      "mse": 62.0962,
+      "rmse": 7.8801,
+      "mae": 6.2555,
+      "r2": 0.4978
     }
   }
 ]

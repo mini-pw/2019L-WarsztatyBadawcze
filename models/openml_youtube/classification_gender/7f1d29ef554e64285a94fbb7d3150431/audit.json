@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_7f1d29ef554e64285a94fbb7d3150431",
+    "date": "10-04-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "7f1d29ef554e64285a94fbb7d3150431",
+    "task_id": "classification_gender",
+    "dataset_id": "openml_youtube",
+    "performance": {
+      "acc": 0.5495,
+      "auc": 0.5773,
+      "specificity": 0.4723,
+      "recall": 0.6159,
+      "precision": 0.5637,
+      "f1": 0.526
+    }
+  }
+]
