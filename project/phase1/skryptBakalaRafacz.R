@@ -4,11 +4,6 @@ testset <- read.csv("WarsztatyBadawcze_test.csv", sep = ";")
 columns <- c("Zuzanna", "Lena", "Maja", "Hanna", "Zofia", "Amelia", "Natalia", "Wiktoria",
              "Emilia", "Antonina", "Laura", "Anna", "Nadia", "Liliana", "Y")
 
-##############
-#trainset <- test_mod
-#testset <- test_mod
-#trainset[1,"Y"] <- TRUE
-
 trainset <- trainset[,columns]
 testset <- testset[,columns]
 
@@ -33,7 +28,7 @@ for(i in 1:length(numecols)) {
 
 library(mlr)
 tsk <- makeClassifTask("deferred", data = trainset, target = "Y")
-lrn <- makeLearner("", predict.type = "prob", par.vals = list())
+lrn <- makeLearner("classif.ranger", predict.type = "prob", par.vals = list(min.node.size=6))
 
 trn <- train(lrn, tsk)
 
