@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_a990db42ce2a798f9820a735974c776e",
+    "date": "12-04-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "a990db42ce2a798f9820a735974c776e",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_eeg-eye-state",
+    "performance": {
+      "acc": 0.7688,
+      "auc": 0.8349,
+      "specificity": 0.6432,
+      "recall": 0.8716,
+      "precision": 0.7504,
+      "f1": 0.8061
+    }
+  }
+]

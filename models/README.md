@@ -1,10 +1,10 @@
 # Data Sets
 
-## Number of data sets: 103
+## Number of data sets: 117
 
-## Number of tasks: 147
+## Number of tasks: 162
 
-## Number of models: 1911
+## Number of models: 3648
 
 |name                                |source         | features| instances| missing_val| tasks| models|
 |:-----------------------------------|:--------------|--------:|---------:|-----------:|-----:|------:|
@@ -33,6 +33,7 @@
 |bank-marketing                      |openml         |       17|     45211|           0|     1|      3|
 |bank                                |openml         |       17|     45211|           0|     2|     21|
 |banknote-authentication             |openml         |        5|      1372|           0|     2|     17|
+|blogger                             |openml         |        6|       100|           0|     1|     57|
 |blood-transfusion-service-center    |openml         |        5|       748|           0|     1|     96|
 |BNG-credit-g                        |openml         |       21|   1000000|           0|     0|      0|
 |boston                              |openml         |       14|       506|           0|     2|     70|
@@ -47,23 +48,28 @@
 |detroit                             |openml         |       14|        13|           0|     1|      9|
 |diabetes                            |openml         |        9|       768|           0|     3|     76|
 |disclosure_x_tampered               |openml         |        4|       662|           0|     1|      9|
+|dresses-sales                       |openml         |       13|       500|         401|     1|     38|
+|eeg-eye-state                       |openml         |       15|     14980|           0|     1|     71|
 |electricity                         |openml         |        9|     45312|           0|     4|     79|
 |fertility                           |openml         |       10|       100|           0|     5|      5|
 |flags                               |openml         |       30|       194|           0|     1|     11|
 |fried                               |openml         |       11|     40768|           0|     1|      3|
 |glass                               |openml         |       10|       214|           0|     3|      4|
 |haberman                            |openml         |        4|       306|           0|     1|     13|
+|heart-statlog                       |openml         |       14|       270|           0|     1|    181|
+|hill-valley                         |openml         |      101|      1212|           0|     1|     77|
 |house_8L                            |openml         |        9|     22784|           0|     1|     10|
 |houses                              |openml         |        9|     20640|           0|     1|      6|
 |humandevel                          |openml         |        4|       131|           0|     0|      0|
 |hutsof99_logis                      |openml         |        8|        70|           0|     1|      9|
+|ilpd                                |openml         |       11|       583|           0|     1|     89|
 |ionosphere                          |openml         |       35|       351|           0|     1|     84|
 |irish                               |openml         |        6|       500|          32|     2|     39|
 |isolet                              |openml         |      618|      7797|           0|     1|      2|
 |kc1-numeric                         |openml         |       95|       145|           0|     1|     11|
 |kc2                                 |openml         |       22|       522|           0|     1|     66|
 |kin8nm                              |openml         |        9|      8192|           0|     1|      9|
-|kr-vs-kp                            |openml         |       37|      3196|           0|     1|      2|
+|kr-vs-kp                            |openml         |       37|      3196|           0|     1|     34|
 |liver-disorders                     |openml         |        6|       345|           0|     3|     15|
 |longley                             |openml         |        7|        16|           0|     1|      9|
 |lowbwt                              |openml         |       10|       189|           0|     1|      9|
@@ -73,15 +79,20 @@
 |mnist_rotation                      |openml         |      785|     62000|           0|     1|      1|
 |monk-problems-1                     |openml         |        7|       556|           0|     1|      1|
 |monk-problems-3                     |openml         |        7|       554|           0|     0|      0|
-|monks-problems-2                    |openml         |        7|       601|           0|     1|     86|
+|monks-problems-1                    |openml         |        7|       556|           0|     1|     46|
+|monks-problems-2                    |openml         |        7|       601|           0|     1|     88|
+|monks-problems-3                    |openml         |        7|       554|           0|     1|     43|
 |mushroom                            |openml         |       23|      8124|        2480|     1|     10|
-|no2                                 |openml         |        8|       500|           0|     1|     61|
+|no2                                 |openml         |        8|       500|           0|     1|     85|
+|oil_spill                           |openml         |       50|       937|           0|     1|    116|
 |one-hundred-plants-margin           |openml         |       65|      1600|           0|     1|      2|
 |ozone-level-8hr                     |openml         |       73|      2534|           0|     2|     73|
-|phoneme                             |openml         |        6|      5404|           0|     1|    144|
+|PhishingWebsites                    |openml         |       31|     11055|           0|     1|     92|
+|phoneme                             |openml         |        6|      5404|           0|     1|    216|
 |PopularKids                         |openml         |       11|       478|           0|     3|     21|
 |prnn_synth                          |openml         |        3|       250|           0|     1|      3|
 |profb                               |openml         |       10|       672|         666|     1|      1|
+|qsar-biodeg                         |openml         |       42|      1055|           0|     1|     86|
 |rabe_166                            |openml         |        3|        40|           0|     1|      9|
 |rmftsa_sleepdata                    |openml         |        3|      1024|           0|     2|      2|
 |rmftsa_ctoarrivals                  |openml         |        3|       264|           0|     1|      9|
@@ -89,23 +100,26 @@
 |SEA(50)                             |openml         |        4|   1000000|           0|     2|      8|
 |skin-segmentation                   |openml         |        4|    245057|           0|     3|     65|
 |sleep                               |openml         |        8|        62|          11|     2|      3|
-|sonar                               |openml         |       61|       208|           0|     1|      6|
+|sonar                               |openml         |       61|       208|           0|     1|    194|
 |soybean                             |openml         |       36|       683|         121|     1|      5|
+|spambase                            |openml         |       58|      4601|           0|     1|     77|
 |SpeedDating                         |openml         |      123|      8378|           0|     1|      1|
+|steel-plates-fault                  |openml         |       34|      1941|           0|     1|     84|
 |stock                               |openml         |       10|       950|           0|     3|     67|
 |tecator                             |openml         |      125|       240|           0|     1|      9|
 |texture                             |openml         |       41|      5500|           0|     1|      1|
 |tic-tac-toe                         |openml         |       10|       958|           0|     1|      1|
-|transplant                          |openml         |        4|       131|           0|     1|      1|
+|transplant                          |openml         |        4|       131|           0|     1|     57|
 |triazines                           |openml         |       61|       186|           0|     1|      9|
 |visualizing_environmental           |openml         |        4|       111|           0|     1|      9|
 |visualizing_slope                   |openml         |        4|        44|           0|     1|      9|
 |volcanoes-e1                        |openml         |        4|      1183|           0|     1|      1|
+|wdbc                                |openml         |       31|       569|           0|     1|     87|
 |wind                                |openml         |       15|      6574|           0|     1|      9|
 |White Wine Quality                  |openml         |       12|      4898|           0|     2|     23|
 |wine                                |openml         |       14|       178|           0|     1|      5|
 |wisconsin                           |openml         |       33|       194|           0|     1|     20|
-|youtube                             |openml         |       31|       404|           0|     1|     22|
+|youtube                             |openml         |       31|       404|           0|     2|    241|
 |zoo                                 |openml         |       18|       101|           0|     4|      5|
 |abalone                             |cs.toronto.edu |        9|      4177|           0|     2|      4|
 |demo                                |cs.toronto.edu |        5|      2048|           0|     0|      0|
