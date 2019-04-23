@@ -145,6 +145,32 @@ computeELOScores <- function(niter = 6, tune = 5, scale = 50, compareType = "v3"
   list(data = result, numberOfModels = dirStats)
 }
 
+computeLittleELOScores <- function() {
+  modelScore <- numeric(0)
+  scoreHistory <- numeric(0)
+  for (i in 1:niter) {
+    lapply(aucStats, function(x) {
+      aucs <- sapply(x, function(x2) {
+        x2$AUC
+      })
+      for (model in names(x$data)) {
+        if (is.na(modelScore[model])) {
+          modelScore[model] <<- 0
+        }
+      }
+      # swoista miara błędu
+      difference <- elo(aucs, modelScore, x$similarity, tune)
+      # update klasyfikacji pseudo-ELO dla modeli
+      for (model in names(x$data)) {
+        modelScore[model] <<- modelScore[model] + difference[model]
+      }
+    })
+    if (i != niter) {
+      scoreHistory <- rbind(scoreHistory, modelScore)
+    }
+  }
+}
+
 weightToSimilarity <- function(weight, scale) {
   exp(log(weight)/scale)
 }
