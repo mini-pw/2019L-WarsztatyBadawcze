@@ -21,6 +21,6 @@ lrn <- makeLearner("classif.svm", predict.type = "prob", par.vals = list(cost = 
 
 model <- train(lrn, task)
 pred <- predict(model, newdata=test)
-write.csv(prediction$data$prob.TRUE, "preds.csv", row.names = FALSE)
+write.csv(pred$data$prob.TRUE, "preds.csv", row.names = FALSE)
 
 
