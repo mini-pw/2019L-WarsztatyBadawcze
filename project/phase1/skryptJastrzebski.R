@@ -8,7 +8,6 @@ library(readr)
 ## Wczytanie danych
 
 train <- read.csv2("train.csv")
-train$Y <- rep(c(TRUE, FALSE, FALSE, TRUE, FALSE, TRUE), length.out=nrow(train))
 test <- read.csv2("WarsztatyBadawcze_test.csv")
 
 # Usunięcie niepotrzebnych zmiennych
