@@ -1,0 +1,10 @@
+[
+  {
+    "id": "openml_spambase",
+    "added_by": "maksymiuks",
+    "date": "10-04-2019",
+    "dataset_id": "spambase",
+    "type": "classification",
+    "target": "class"
+  }
+]
