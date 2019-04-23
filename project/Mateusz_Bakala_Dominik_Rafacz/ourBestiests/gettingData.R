@@ -18,4 +18,4 @@ dsets[[4]] <- list(data = temp$data, target = temp$target.features)
 dsets[[5]] <- list(data = read.csv(file = "ourBestiests/pokemon.csv")[-1], target = "Legendary")
 
 dsets <- normalize_all(dsets, targets)
-
+dsets[[5]]$data <- dsets[[5]]$data[-1]

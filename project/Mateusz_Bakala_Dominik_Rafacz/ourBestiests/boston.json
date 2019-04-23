@@ -1,0 +1,192 @@
+[
+    {
+        "id": "openml_boston",
+        "added_by": "Siemashko",
+        "date": "22-02-2019",
+        "name": "boston",
+        "source": "openml",
+        "url": "https://www.openml.org/d/853",
+        "number_of_features": 14,
+        "number_of_instances": 506,
+        "number_of_missing_values": 0,
+        "number_of_instances_with_missing_values": 0,
+        "variables": {
+            "CRIM": {
+                "name": "CRIM",
+                "type": "numerical",
+                "number_of_unique_values": 504,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.006320000160485506,
+                "num_1qu": 0.08204500190913677,
+                "num_median": 0.25651000440120697,
+                "num_3q": 3.6770825386047363,
+                "num_maximum": 88.9761962890625
+            },
+            "ZN": {
+                "name": "ZN",
+                "type": "numerical",
+                "number_of_unique_values": 26,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.0,
+                "num_1qu": 0.0,
+                "num_median": 0.0,
+                "num_3q": 12.5,
+                "num_maximum": 100.0
+            },
+            "INDUS": {
+                "name": "INDUS",
+                "type": "numerical",
+                "number_of_unique_values": 76,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.46000000834465027,
+                "num_1qu": 5.190000057220459,
+                "num_median": 9.6899995803833,
+                "num_3q": 18.100000381469727,
+                "num_maximum": 27.739999771118164
+            },
+            "CHAS": {
+                "name": "CHAS",
+                "type": "categorical",
+                "number_of_unique_values": 2,
+                "number_of_missing_values": 0,
+                "cat_frequencies": {
+                    "0.0": 471,
+                    "1.0": 35
+                },
+                "num_minimum": null,
+                "num_1qu": null,
+                "num_median": null,
+                "num_mean": null,
+                "num_3qu": null,
+                "num_maximum": null
+            },
+            "NOX": {
+                "name": "NOX",
+                "type": "numerical",
+                "number_of_unique_values": 81,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.38499999046325684,
+                "num_1qu": 0.4490000009536743,
+                "num_median": 0.5379999876022339,
+                "num_3q": 0.6240000128746033,
+                "num_maximum": 0.8709999918937683
+            },
+            "RM": {
+                "name": "RM",
+                "type": "numerical",
+                "number_of_unique_values": 446,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 3.561000108718872,
+                "num_1qu": 5.885500192642212,
+                "num_median": 6.208500146865845,
+                "num_3q": 6.6234999895095825,
+                "num_maximum": 8.779999732971191
+            },
+            "AGE": {
+                "name": "AGE",
+                "type": "numerical",
+                "number_of_unique_values": 356,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 2.9000000953674316,
+                "num_1qu": 45.02499961853027,
+                "num_median": 77.5,
+                "num_3q": 94.07499885559082,
+                "num_maximum": 100.0
+            },
+            "DIS": {
+                "name": "DIS",
+                "type": "numerical",
+                "number_of_unique_values": 412,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 1.1296000480651855,
+                "num_1qu": 2.100174903869629,
+                "num_median": 3.2074499130249023,
+                "num_3q": 5.188425183296204,
+                "num_maximum": 12.126500129699707
+            },
+            "RAD": {
+                "name": "RAD",
+                "type": "numerical",
+                "number_of_unique_values": 9,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 1.0,
+                "num_1qu": 4.0,
+                "num_median": 5.0,
+                "num_3q": 24.0,
+                "num_maximum": 24.0
+            },
+            "TAX": {
+                "name": "TAX",
+                "type": "numerical",
+                "number_of_unique_values": 66,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 187.0,
+                "num_1qu": 279.0,
+                "num_median": 330.0,
+                "num_3q": 666.0,
+                "num_maximum": 711.0
+            },
+            "PTRATIO": {
+                "name": "PTRATIO",
+                "type": "numerical",
+                "number_of_unique_values": 46,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 12.600000381469727,
+                "num_1qu": 17.399999618530273,
+                "num_median": 19.050000190734863,
+                "num_3q": 20.200000762939453,
+                "num_maximum": 22.0
+            },
+            "B": {
+                "name": "B",
+                "type": "numerical",
+                "number_of_unique_values": 357,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.3199999928474426,
+                "num_1qu": 375.3774871826172,
+                "num_median": 391.44000244140625,
+                "num_3q": 396.2250061035156,
+                "num_maximum": 396.8999938964844
+            },
+            "LSTAT": {
+                "name": "LSTAT",
+                "type": "numerical",
+                "number_of_unique_values": 455,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 1.7300000190734863,
+                "num_1qu": 6.949999928474426,
+                "num_median": 11.360000133514404,
+                "num_3q": 16.954999446868896,
+                "num_maximum": 37.970001220703125
+            },
+            "binaryClass": {
+                "name": "binaryClass",
+                "type": "categorical",
+                "number_of_unique_values": 2,
+                "number_of_missing_values": 0,
+                "cat_frequencies": {
+                    "0": 297,
+                    "1": 209
+                },
+                "num_minimum": null,
+                "num_1qu": null,
+                "num_median": null,
+                "num_mean": null,
+                "num_3qu": null,
+                "num_maximum": null
+            }
+        }
+    }
+]
