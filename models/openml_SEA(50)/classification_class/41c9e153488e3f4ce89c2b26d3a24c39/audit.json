@@ -7,12 +7,12 @@
     "task_id": "classification_class",
     "dataset_id": "openml_Sea(50)",
     "performance": {
-      "acc":  0.8416610,
-      "auc": 0.8772442,
-      "specificity": 0.8787158,
-      "recall": 0.7831109,
-      "precision": 0.8024228,
-      "f1": 0.7924654
+      "acc": 0.8417,
+      "auc": 0.8772,
+      "specificity": 0.8787,
+      "recall": 0.7831,
+      "precision": 0.8024,
+      "f1": 0.7925
     }
   }
-] 
+]

@@ -7,10 +7,10 @@
     "task_id": "regression_V4",
     "dataset_id": "openml_banknote-authentication",
     "performance": {
-      "mse":  2.509221,
-      "rmse":  1.584052,
-      "mae":  1.243836,
-      "r2":  0.4580378
+      "mse": 2.5092,
+      "rmse": 1.5841,
+      "mae": 1.2438,
+      "r2": 0.458
     }
   }
-] 
+]

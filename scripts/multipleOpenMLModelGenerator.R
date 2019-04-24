@@ -1,8 +1,18 @@
 source("extendedDataGetter.R")
 source("additionalFunctions.R")
 source("modelsSettings.R")
+setwd(paste0("..", .Platform$file.sep, "models"))
 
-
+generateMultipleModelsAndDatasets <- function(username,
+                                              modelSettings,
+                                              dataset_ids) {
+  for (dataset_id in dataset_ids) {
+    print("--------------------------------------------")
+    print(paste0("Dataset number ", dataset_id))
+    print("--------------------------------------------")
+    generateMultipleModels(username, modelSettings, dataset_id)
+  }
+}
 
 generateMultipleModels <- function(username,
                                    modelSettings,
@@ -127,7 +137,9 @@ generateMultipleModels <- function(username,
     cat(modelSettings$modelsNames[i])
     cat("\n")
     message("Parameters: ")
-    invisible(lapply(modelSettings$modelsParams[[i]], cat))
+    t2 <- unlist(modelSettings$modelsParams[[i]])
+    cat(paste(names(t2), "=", t2, collapse = "\n"))
+    cat("\n")
     tryCatch(
       createTaskWDS(site = site,
                     siteData,

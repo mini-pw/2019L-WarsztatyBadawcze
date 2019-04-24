@@ -1,18 +1,18 @@
 [
-    {
-        "id": "audit_c293f39f240aaef3bcfbfbb63db2d8ca",
-        "date": "16-03-2019",
-        "added_by": "mckraqs",
-        "model_id": "c293f39f240aaef3bcfbfbb63db2d8ca",
-        "task_id": "classification_Survival_status",
-        "dataset_id": "openml_haberman",
-        "performance": {
-            "acc": 0.8260869565217391,
-            "auc": 0.669407894736842,
-            "specificity": 0.9210526315789473,
-            "recall": 0.375,
-            "precision": 0.5,
-            "f1": 0.42857142857142855
-        }
+  {
+    "id": "audit_c293f39f240aaef3bcfbfbb63db2d8ca",
+    "date": "16-03-2019",
+    "added_by": "mckraqs",
+    "model_id": "c293f39f240aaef3bcfbfbb63db2d8ca",
+    "task_id": "classification_Survival_status",
+    "dataset_id": "openml_haberman",
+    "performance": {
+      "acc": 0.8261,
+      "auc": 0.6694,
+      "specificity": 0.9211,
+      "recall": 0.375,
+      "precision": 0.5,
+      "f1": 0.4286
     }
+  }
 ]

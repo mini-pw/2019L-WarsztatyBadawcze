@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_56347e458c81ef775f636092738d4f75",
+    "date": "12-04-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "56347e458c81ef775f636092738d4f75",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_dresses-sales",
+    "performance": {
+      "acc": 0.592,
+      "auc": 0.6016,
+      "specificity": 0.3953,
+      "recall": 0.7349,
+      "precision": 0.6271,
+      "f1": 0.6762
+    }
+  }
+]
