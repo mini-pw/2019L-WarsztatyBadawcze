@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_mnist_rotation",
+    "id": "regression_class",
     "added_by": "MatiFilozof",
     "date": "23-03-2019",
-    "dataset_id": "mnist_rotation",
+    "dataset_id": "openml_mnist_rotation",
     "type": "regression",
     "target": "class"
   }

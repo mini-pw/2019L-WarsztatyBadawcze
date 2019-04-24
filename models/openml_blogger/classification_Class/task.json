@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_blogger",
+    "id": "classification_Class",
     "added_by": "airi314",
     "date": "03-04-2019",
-    "dataset_id": "blogger",
+    "dataset_id": "openml_blogger",
     "type": "classification",
     "target": "Class"
   }

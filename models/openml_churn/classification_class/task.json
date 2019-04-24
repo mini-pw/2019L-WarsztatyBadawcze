@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_churn",
+    "id": "classification_class",
     "added_by": "DominikRafacz",
     "date": "17-03-2019",
-    "dataset_id": "churn",
+    "dataset_id": "openml_churn",
     "type": "classification",
     "target": "class"
   }
