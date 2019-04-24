@@ -131,16 +131,16 @@ train %>%
   logItAll %>% 
   super_duper_feature(rotation) %>% 
   oneHot(uni) %>% 
-  czy0w %>% 
-  cluster -> bujka
+  czy0w  -> bujka # %>% 
+  #cluster -> bujka
 
 test %>% 
   usunNiepotrzebneZmienne %>% 
   logItAll %>% 
   super_duper_feature(rotation) %>% 
   oneHot(uni) %>% 
-  czy0w %>% 
-  cluster -> bajka
+  czy0w -> bajka # %>% 
+ # cluster -> bajka
 
 # Klasyfikacja
 
