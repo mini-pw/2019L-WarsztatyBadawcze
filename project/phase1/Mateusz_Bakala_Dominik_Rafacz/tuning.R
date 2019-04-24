@@ -38,6 +38,15 @@ models_and_params <- list(
   #     makeIntegerParam("nbins", 10, 40)
   #   )
   # ),
+  # ranger = list(
+  #   model = "classif.ranger",
+  #   parset = makeParamSet(
+  #     makeIntegerParam("num.trees", 50, 500),
+  #     makeIntegerParam("mtry", 1, 9),
+  #     makeIntegerParam("min.node.size", 1, 20),
+  #     makeDiscreteParam("splitrule", values = c("gini", "extratrees"))
+  #   )
+  # ),
   # svm = list(
   #   model = "classif.svm",
   #   parset = makeParamSet(
@@ -47,21 +56,12 @@ models_and_params <- list(
   #     makeIntegerParam("degree", lower = 2, upper = 4, requires = quote(kernel == "polynomial"))
   #   )
   # ),
-  # randomForest = list(
-  #   model = "classif.randomForest",
-  #   parset = makeParamSet(
-  #     makeIntegerParam("ntree", 50, 500),
-  #     makeIntegerParam("mtry", 1, 9),
-  #     makeIntegerParam("nodesize", 1, 20)
-  #   )
-  # ),
-  ranger = list(
-    model = "classif.ranger",
+  randomForest = list(
+    model = "classif.randomForest",
     parset = makeParamSet(
-      makeIntegerParam("num.trees", 50, 500),
-      makeIntegerParam("mtry", 1, 8),
-      makeIntegerParam("min.node.size", 1, 20),
-      makeDiscreteParam("splitrule", values = c("gini", "extratrees"))
+      makeIntegerParam("ntree", 50, 500),
+      makeIntegerParam("mtry", 1, 9),
+      makeIntegerParam("nodesize", 1, 20)
     )
   )
 )

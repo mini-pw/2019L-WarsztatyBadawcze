@@ -1,0 +1,30 @@
+./openml_boston/classification_binaryClass                                  8      0.7408182207 ok
+./openml_stock/classification_binaryClass                                   6      0.7408182207 ok ok
+./openml_house_8L/classification_binaryClass                                2      0.7261490371 ok
+./openml_adult/classification_binaryClass                                   3      0.7117703228 meh
+./openml_MagicTelescope/classification_class                                4      0.6976763261 meh
+./openml_credit-g/classification_class                                      3      0.6838614092 meh
+./openml_diabetes/classification_class                                     10      0.6838614092 meh
+./openml_ilpd/classification_Class                                         13      0.6570468198 ok
+./kaggle_pokemon/classification_Legendary                                   4      0.6440364211 ok
+./openml_liver-disorders/classification_selector                            3      0.6440364211 NA
+./openml_churn/classification_class                                         8      0.6065306597 NA
+./openml_no2/classification_binaryClass                                    11      0.5712090638 NA
+./openml_heart-statlog/classification_class                                20      0.5598983666 NA
+./openml_electricity/classification_class                                   7      0.5379444376 NA
+
+
+
+classif.randomForest        7.540241e-07       11  1.256708e-07  2.513415e-07  3.770122e-07  5.026828e-07
+classif.gbm                 6.747333e-07       11  1.124556e-07  2.249112e-07  3.373668e-07  4.498223e-07 meh
+classif.svm                 6.128634e-07       16  1.021440e-07  2.042879e-07  3.064318e-07  4.085757e-07
+RandomForestClassifier      4.525885e-07        4  7.543146e-08  1.508629e-07  2.262943e-07  3.017257e-07 meh
+AdaBoostClassifier          8.597554e-08        2  1.432927e-08  2.865853e-08  4.298779e-08  5.731704e-08 meh
+classif.logreg              4.437474e-08       10  7.395793e-09  1.479158e-08  2.218737e-08  2.958316e-08
+LogisticRegression          3.713295e-08        1  6.188830e-09  1.237766e-08  1.856648e-08  2.475531e-08 meh
+classif.earth               3.443572e-08        3  5.739286e-09  1.147857e-08  1.721786e-08  2.295714e-08 meh
+classif.ranger              4.263505e-09       14  7.105831e-10  1.421167e-09  2.131751e-09  2.842335e-09 
+classif.h2o.randomForest    3.676173e-09       17  6.126955e-10  1.225391e-09  1.838086e-09  2.450782e-09 
+glm                         3.264189e-09        1  5.440315e-10  1.088063e-09  1.632095e-09  2.176126e-09 
+classif.gamboost            3.210882e-09        7  5.351470e-10  1.070294e-09  1.605441e-09  2.140588e-09
+classif.lda                 3.004128e-09       15  5.006880e-10  1.001376e-09  1.502064e-09  2.002752e-09 meh

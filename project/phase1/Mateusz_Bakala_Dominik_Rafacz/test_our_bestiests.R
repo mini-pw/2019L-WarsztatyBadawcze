@@ -46,7 +46,7 @@ for(j in 2:4) {
   res <- mlr::resample(lrn[[j]],tsk, mlr::cv5, measures = mlr::auc)
   datsetsres[[3]]$models[[j]] <- list(AUC = res$aggr["auc.test.mean"], par.vals = lrn[[j]]$par.vals)
 }
-names(datsetsres[[3]]$models) <- modnames[2:4]
+names(datsetsres[[3]]$models) <- modnames[1:4]
 
 names(datsetsres) <- datnames
 

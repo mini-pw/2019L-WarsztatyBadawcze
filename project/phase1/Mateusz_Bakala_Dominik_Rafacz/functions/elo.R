@@ -48,7 +48,7 @@ computeELOScores <- function(niter = 6, tune = 5, scale = 50, compareType = "v3"
       datasetWeight <- datasetSimilarity_v2(paste0(ddir, sep, "dataset.json"))
     } else if (compareType == "v3") {
       datasetWeight <- datasetSimilarity_v3(paste0(ddir, sep, "dataset.json"))
-    } else {
+    }else {
       stop("Incorrect compareType!")
     }
     taskDirs <- list.dirs(path = ddir, recursive = FALSE)
@@ -145,44 +145,6 @@ computeELOScores <- function(niter = 6, tune = 5, scale = 50, compareType = "v3"
   list(data = result, numberOfModels = dirStats)
 }
 
-# wymaga podania listy z wynikami dsets
-computeLittleELOScores <- function(dsets, niter = 6, tune = 5, scale = 50) {
-  modelScore <- numeric(0)
-  scoreHistory <- numeric(0)
-  
-  for (i in 1:niter) {
-    lapply(dsets, function(x) {
-      aucs <- sapply(x$models, function(x2) {
-        x2$AUC
-      })
-      for (model in names(aucs)) {
-        if (is.na(modelScore[model])) {
-          modelScore[model] <<- 0
-        }
-      }
-      # swoista miara błędu
-      difference <- elo(aucs, modelScore, weightToSimilarity(x$similarity, 1/scale), tune)
-      # update klasyfikacji pseudo-ELO dla modeli
-      for (model in names(aucs)) {
-        modelScore[model] <<- modelScore[model] + difference[model]
-      }
-      modelScore[model] + difference[model]
-    })
-    if (i != niter) {
-      scoreHistory <- rbind(scoreHistory, modelScore)
-    }
-  }
-  
-  result <- cbind(data.frame(modelScore = modelScore), t(scoreHistory))
-  if (niter == 1) {
-    colnames(result) <- c("modelScore")
-  } else {
-    colnames(result) <- c("modelScore", paste0("scoreHistory", 1:(niter-1)))
-  }
-  result[order(result$modelScore, decreasing = TRUE), ]
-}
-
-# similarityToWeigth działa poprzez podanie scale = 1/scale
 weightToSimilarity <- function(weight, scale) {
   exp(log(weight)/scale)
 }
