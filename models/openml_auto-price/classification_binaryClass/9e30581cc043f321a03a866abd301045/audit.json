@@ -5,7 +5,7 @@
     "added_by": "WojciechKretowicz",
     "model_id": "9e30581cc043f321a03a866abd301045",
     "task_id": "classification_binaryClass",
-    "dataset_id": "openml_auto_price",
+    "dataset_id": "openml_auto-price",
     "performance": {
       "acc": 0.9185,
       "auc": 0.9944,

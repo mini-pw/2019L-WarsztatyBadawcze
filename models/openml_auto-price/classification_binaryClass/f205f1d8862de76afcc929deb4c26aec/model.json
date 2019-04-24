@@ -6,7 +6,7 @@
     "library": "mlr",
     "model_name": "classif.ranger",
     "task_id": "classification_binaryClass",
-    "dataset_id": "openml_auto_price",
+    "dataset_id": "openml_auto-price",
     "parameters": {
       "num.trees": 500,
       "mtry": 3,

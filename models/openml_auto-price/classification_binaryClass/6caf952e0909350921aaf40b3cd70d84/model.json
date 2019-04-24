@@ -6,7 +6,7 @@
     "library": "mlr",
     "model_name": "classif.svm",
     "task_id": "classification_binaryClass",
-    "dataset_id": "openml_auto_price",
+    "dataset_id": "openml_auto-price",
     "parameters": {
       "type": "C-classification",
       "cost": 1,
