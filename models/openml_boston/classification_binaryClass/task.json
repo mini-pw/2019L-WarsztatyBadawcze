@@ -1,9 +1,9 @@
 [
   {
-    "id": "classification_binaryClass",
+    "id": "openml_boston",
     "added_by": "maksymiuks",
     "date": "20-03-2019",
-    "dataset_id": "openml_boston",
+    "dataset_id": "boston",
     "type": "classification",
     "target": "binaryClass"
   }

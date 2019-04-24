@@ -3,8 +3,8 @@
     "id": "classification_class",
     "added_by": "michalSt98",
     "date": "02-03-2019",
-    "dataset_id": "openml_SEA(50)",
+    "dataset_id": "openml_Sea(50)",
     "type": "classification",
     "target": "class"
   }
-]
+] 

@@ -1,9 +1,9 @@
 [
   {
-    "id": "regression_vedge.mean",
+    "id": "toronto_image-seg",
     "added_by": "MatiFilozof",
     "date": "13-03-2019",
-    "dataset_id": "toronto_image-seg",
+    "dataset_id": "image-seg",
     "type": "regression",
     "target": "vedge.mean"
   }

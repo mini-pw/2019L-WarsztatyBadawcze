@@ -1,9 +1,9 @@
 [
   {
-    "id": "classification_class",
+    "id": "openml_ionosphere",
     "added_by": "DominikRafacz",
     "date": "31-03-2019",
-    "dataset_id": "openml_ionosphere",
+    "dataset_id": "ionosphere",
     "type": "classification",
     "target": "class"
   }

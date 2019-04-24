@@ -1,9 +1,9 @@
 [
   {
-    "id": "classification_class",
+    "id": "openml_oil_spill",
     "added_by": "MatiFilozof",
     "date": "04-04-2019",
-    "dataset_id": "openml_oil_spill",
+    "dataset_id": "oil_spill",
     "type": "classification",
     "target": "class"
   }

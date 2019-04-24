@@ -5,7 +5,7 @@
 	"library": "mlr",
 	"model_name": "regr.gbm",
 	"task_id": "regression_drinks",
-	"dataset_id": "openml_rmftsa-sleepdata",
+	"dataset_id": "openml_liver-disorders",
 	"parameters": {
 		"distribution": "gaussian",
 		"n.trees": 100,

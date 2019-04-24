@@ -1,9 +1,9 @@
 [
   {
-    "id": "regression_class",
+    "id": "openml_lowbwt",
     "added_by": "MatiFilozof",
     "date": "23-03-2019",
-    "dataset_id": "openml_lowbwt",
+    "dataset_id": "lowbwt",
     "type": "regression",
     "target": "class"
   }

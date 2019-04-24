@@ -1,9 +1,9 @@
 [
   {
-    "id": "classification_class",
+    "id": "openml_monks-problems-2",
     "added_by": "hubertbaniecki",
     "date": "30-03-2019",
-    "dataset_id": "openml_monks-problems-2",
+    "dataset_id": "monks-problems-2",
     "type": "classification",
     "target": "class"
   }

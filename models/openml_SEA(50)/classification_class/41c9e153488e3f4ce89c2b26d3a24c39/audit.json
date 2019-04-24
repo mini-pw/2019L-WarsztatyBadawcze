@@ -5,7 +5,7 @@
     "added_by": "michalSt98",
     "model_id": "41c9e153488e3f4ce89c2b26d3a24c39",
     "task_id": "classification_class",
-    "dataset_id": "openml_SEA(50)",
+    "dataset_id": "openml_Sea(50)",
     "performance": {
       "acc": 0.8417,
       "auc": 0.8772,

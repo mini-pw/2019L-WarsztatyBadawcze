@@ -1,9 +1,9 @@
 [
   {
-    "id": "regression_grade_point_average",
+    "id": "openml_mbagrade",
     "added_by": "DominikRafacz",
     "date": "23-03-2019",
-    "dataset_id": "openml_mbagrade",
+    "dataset_id": "mbagrade",
     "type": "regression",
     "target": "grade_point_average"
   }

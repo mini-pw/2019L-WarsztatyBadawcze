@@ -5,9 +5,14 @@
     "added_by": "BogdanJastrzebski",
     "model_id": "8da9a1cc0f5ecfa8729f7412a93d05cc",
     "task_id": "classification_sex",
-    "dataset_id": "kaggle_heart_disease",
+    "dataset_id": "kaggle_heart-disease",
     "performance": {
-      "acc": 0.7521
+      "acc": 0.7521,
+      "specificity": null,
+      "precision": null,
+      "recall": null,
+      "auc": null,
+      "f1": null
     }
   }
 ]

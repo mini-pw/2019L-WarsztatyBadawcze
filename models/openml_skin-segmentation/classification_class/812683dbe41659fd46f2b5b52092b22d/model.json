@@ -1,56 +1,64 @@
 [
-  {
-    "id": "812683dbe41659fd46f2b5b52092b22d",
-    "added_by": "mckraqs",
-    "date": "30-03-2019",
-    "library": "scikit",
-    "model_name": "DecisionTreeClassifier",
-    "task_id": "classification_Class",
-    "dataset_id": "openml_skin-segmentation",
-    "parameters": {
-      "criterion": "gini",
-      "max_depth": 12,
-      "min_impurity_decrease": 0,
-      "min_samples_leaf": 1,
-      "min_samples_split": 2,
-      "min_weight_fraction_leaf": 0,
-      "presort": false,
-      "splitter": "best"
-    },
-    "preprocessing": {
-      "V1": {
-        "name": "V1",
-        "type": "numerical",
-        "number_of_unique_values": 256,
-        "number_of_missing_values": 0,
-        "num_minimum": 0,
-        "num_1qu": 68,
-        "num_median": 139,
-        "num_3q": 176,
-        "num_maximum": 255
-      },
-      "V2": {
-        "name": "V2",
-        "type": "numerical",
-        "number_of_unique_values": 256,
-        "number_of_missing_values": 0,
-        "num_minimum": 0,
-        "num_1qu": 87,
-        "num_median": 153,
-        "num_3q": 177,
-        "num_maximum": 255
-      },
-      "V3": {
-        "name": "V3",
-        "type": "numerical",
-        "number_of_unique_values": 256,
-        "number_of_missing_values": 0,
-        "num_minimum": 0,
-        "num_1qu": 71,
-        "num_median": 128,
-        "num_3q": 165,
-        "num_maximum": 255
-      }
+    {
+        "id": "812683dbe41659fd46f2b5b52092b22d",
+        "added_by": "mckraqs",
+        "date": "30-03-2019",
+        "library": "scikit",
+        "model_name": "DecisionTreeClassifier",
+        "task_id": "classification_Class",
+        "dataset_id": "skin-segmentation",
+        "parameters": {
+            "class_weight": null,
+            "criterion": "gini",
+            "max_depth": 12,
+            "max_features": null,
+            "max_leaf_nodes": null,
+            "min_impurity_decrease": 0.0,
+            "min_impurity_split": null,
+            "min_samples_leaf": 1,
+            "min_samples_split": 2,
+            "min_weight_fraction_leaf": 0.0,
+            "presort": false,
+            "random_state": null,
+            "splitter": "best"
+        },
+        "preprocessing": {
+            "V1": {
+                "name": "V1",
+                "type": "numerical",
+                "number_of_unique_values": 256,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.0,
+                "num_1qu": 68.0,
+                "num_median": 139.0,
+                "num_3q": 176.0,
+                "num_maximum": 255.0
+            },
+            "V2": {
+                "name": "V2",
+                "type": "numerical",
+                "number_of_unique_values": 256,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.0,
+                "num_1qu": 87.0,
+                "num_median": 153.0,
+                "num_3q": 177.0,
+                "num_maximum": 255.0
+            },
+            "V3": {
+                "name": "V3",
+                "type": "numerical",
+                "number_of_unique_values": 256,
+                "number_of_missing_values": 0,
+                "cat_frequencies": null,
+                "num_minimum": 0.0,
+                "num_1qu": 71.0,
+                "num_median": 128.0,
+                "num_3q": 165.0,
+                "num_maximum": 255.0
+            }
+        }
     }
-  }
 ]

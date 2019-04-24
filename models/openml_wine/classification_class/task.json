@@ -1,9 +1,9 @@
 [
   {
-    "id": "classification_class",
+    "id": "openml_wine",
     "added_by": "BogdanJastrzebski",
     "date": "19-03-2019",
-    "dataset_id": "openml_wine",
+    "dataset_id": "wine",
     "type": "classification",
     "target": "class"
   }

@@ -1,9 +1,9 @@
 [
   {
-    "id": "regression_col_3",
+    "id": "openml_rabe_166",
     "added_by": "MatiFilozof",
     "date": "24-03-2019",
-    "dataset_id": "openml_rabe_166",
+    "dataset_id": "rabe_166",
     "type": "regression",
     "target": "col_3"
   }

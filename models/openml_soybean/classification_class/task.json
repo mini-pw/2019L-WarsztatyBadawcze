@@ -1,9 +1,9 @@
 [
   {
-    "id": "classification_class",
+    "id": "openml_soybean",
     "added_by": "BogdanJastrzebski",
     "date": "19-03-2019",
-    "dataset_id": "openml_soybean",
+    "dataset_id": "soybean",
     "type": "classification",
     "target": "class"
   }

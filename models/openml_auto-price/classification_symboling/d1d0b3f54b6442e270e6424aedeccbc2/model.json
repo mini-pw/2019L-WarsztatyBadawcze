@@ -6,8 +6,9 @@
     "library": "caret",
     "model_name": "classif_treebag",
     "task_id": "classification_symboling",
-    "dataset_id": "openml_auto-price",
-    "parameters": {},
+    "dataset_id": "auto_price",
+    "parameters": {
+    },
     "preprocessing": {
       "symboling": {
         "name": "symboling",
@@ -21,13 +22,20 @@
           "1": 46,
           "2": 29,
           "3": 13
-        }
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
       },
       "normalized.losses": {
         "name": "normalized.losses",
         "type": "numerical",
         "number_of_unique_values": 51,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 65,
         "num_1qu": 94,
         "num_median": 113,
@@ -40,6 +48,7 @@
         "type": "numerical",
         "number_of_unique_values": 40,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 86.6,
         "num_1qu": 94.5,
         "num_median": 96.9,
@@ -52,6 +61,7 @@
         "type": "numerical",
         "number_of_unique_values": 56,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 141.1,
         "num_1qu": 165.65,
         "num_median": 172.4,
@@ -64,6 +74,7 @@
         "type": "numerical",
         "number_of_unique_values": 33,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 60.3,
         "num_1qu": 64,
         "num_median": 65.4,
@@ -76,6 +87,7 @@
         "type": "numerical",
         "number_of_unique_values": 39,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 49.4,
         "num_1qu": 52.25,
         "num_median": 54.1,
@@ -88,6 +100,7 @@
         "type": "numerical",
         "number_of_unique_values": 136,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 1488,
         "num_1qu": 2065.5,
         "num_median": 2340,
@@ -100,6 +113,7 @@
         "type": "numerical",
         "number_of_unique_values": 32,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 61,
         "num_1qu": 97,
         "num_median": 110,
@@ -112,6 +126,7 @@
         "type": "numerical",
         "number_of_unique_values": 33,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 2.54,
         "num_1qu": 3.05,
         "num_median": 3.27,
@@ -124,6 +139,7 @@
         "type": "numerical",
         "number_of_unique_values": 31,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 2.07,
         "num_1qu": 3.105,
         "num_median": 3.27,
@@ -136,6 +152,7 @@
         "type": "numerical",
         "number_of_unique_values": 29,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 7,
         "num_1qu": 8.7,
         "num_median": 9,
@@ -148,6 +165,7 @@
         "type": "numerical",
         "number_of_unique_values": 48,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 48,
         "num_1qu": 69,
         "num_median": 88,
@@ -160,6 +178,7 @@
         "type": "numerical",
         "number_of_unique_values": 20,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 4150,
         "num_1qu": 4800,
         "num_median": 5200,
@@ -172,6 +191,7 @@
         "type": "numerical",
         "number_of_unique_values": 25,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 15,
         "num_1qu": 23,
         "num_median": 26,
@@ -184,6 +204,7 @@
         "type": "numerical",
         "number_of_unique_values": 28,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 18,
         "num_1qu": 28,
         "num_median": 32,
@@ -199,7 +220,13 @@
         "cat_frequencies": {
           "N": 54,
           "P": 105
-        }
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
       }
     }
   }

@@ -1,9 +1,9 @@
 [
   {
-    "id": "classification_Class",
+    "id": "openml_wdbc",
     "added_by": "MatiFilozof",
     "date": "10-04-2019",
-    "dataset_id": "openml_wdbc",
+    "dataset_id": "wdbc",
     "type": "classification",
     "target": "Class"
   }

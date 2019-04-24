@@ -1,9 +1,9 @@
 [
   {
-    "id": "regression_median_house_value",
+    "id": "openml_houses",
     "added_by": "MatiFilozof",
     "date": "23-03-2019",
-    "dataset_id": "openml_houses",
+    "dataset_id": "houses",
     "type": "regression",
     "target": "median_house_value"
   }

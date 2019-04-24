@@ -1,18 +1,18 @@
 [
-  {
-    "id": "audit_ca079ed29137fda0a0b3d1d2d2b2345f",
-    "date": "30-03-2019",
-    "added_by": "mckraqs",
-    "model_id": "ca079ed29137fda0a0b3d1d2d2b2345f",
-    "task_id": "classification_Class",
-    "dataset_id": "openml_skin-segmentation",
-    "performance": {
-      "acc": 0.9584,
-      "auc": 0.9837,
-      "specificity": 0.892,
-      "recall": 0.9755,
-      "precision": 0.9722,
-      "f1": 0.9738
+    {
+        "id": "audit_ca079ed29137fda0a0b3d1d2d2b2345f",
+        "date": "30-03-2019",
+        "added_by": "mckraqs",
+        "model_id": "ca079ed29137fda0a0b3d1d2d2b2345f",
+        "task_id": "classification_Class",
+        "dataset_id": "skin-segmentation",
+        "performance": {
+            "acc": 0.9583503359721429,
+            "auc": 0.9837207602467093,
+            "specificity": 0.8919634582285185,
+            "recall": 0.9755187290282819,
+            "precision": 0.9721568226021087,
+            "f1": 0.9738348743014372
+        }
     }
-  }
 ]

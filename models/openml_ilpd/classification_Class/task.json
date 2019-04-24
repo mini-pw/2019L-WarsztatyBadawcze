@@ -1,9 +1,9 @@
 [
   {
-    "id": "classification_Class",
+    "id": "openml_ilpd",
     "added_by": "MatiFilozof",
     "date": "04-04-2019",
-    "dataset_id": "openml_ilpd",
+    "dataset_id": "ilpd",
     "type": "classification",
     "target": "Class"
   }

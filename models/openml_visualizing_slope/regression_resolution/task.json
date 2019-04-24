@@ -1,9 +1,9 @@
 [
   {
-    "id": "regression_resolution",
+    "id": "openml_visualizing_slope",
     "added_by": "MatiFilozof",
     "date": "24-03-2019",
-    "dataset_id": "openml_visualizing_slope",
+    "dataset_id": "visualizing_slope",
     "type": "regression",
     "target": "resolution"
   }

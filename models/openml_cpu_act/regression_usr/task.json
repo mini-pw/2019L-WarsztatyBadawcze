@@ -1,9 +1,9 @@
 [
   {
-    "id": "regression_usr",
+    "id": "openml_cpu_act",
     "added_by": "MatiFilozof",
     "date": "23-03-2019",
-    "dataset_id": "openml_cpu_act",
+    "dataset_id": "cpu_act",
     "type": "regression",
     "target": "usr"
   }

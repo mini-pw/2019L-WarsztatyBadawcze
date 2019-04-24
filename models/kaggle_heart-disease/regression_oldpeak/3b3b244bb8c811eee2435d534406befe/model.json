@@ -1,14 +1,14 @@
-[
-  {
-    "id": "3b3b244bb8c811eee2435d534406befe",
-    "added_by": "BogdanJastrzebski",
-    "date": "5-03-2019",
-    "library": "mlr",
-    "model_name": "regr.rpart",
-    "task_id": "regression_oldpeak",
-    "dataset_id": "kaggle_heart_disease",
-    "parameters": {
+[{
+	"id": "3b3b244bb8c811eee2435d534406befe",
+	"added_by": "BogdanJastrzebski",
+	"date": "5-03-2019",
+        "library": "mlr",
+	"model_name":"regr.rpart",
+	"task_id": "regression_oldpeak",
+	"dataset_id": "kaggle_heart-disease",
+	"parameters": {
       "minsplit": 20,
+      "minbucket": null,
       "cp": 0.01,
       "maxcompete": 4,
       "maxsurrogate": 5,
@@ -18,11 +18,12 @@
       "xval": 10
     },
     "preprocessing": {
-      "age": {
+    "age": {
         "name": "age",
         "type": "numerical",
         "number_of_unique_values": 41,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 29,
         "num_1qu": 47.5,
         "num_median": 55,
@@ -35,6 +36,7 @@
         "type": "numerical",
         "number_of_unique_values": 2,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 0,
         "num_1qu": 0,
         "num_median": 1,
@@ -42,11 +44,13 @@
         "num_3qu": 1,
         "num_maximum": 1
       },
-      "cp": {
+  
+      "cp":{
         "name": "cp",
         "type": "numerical",
         "number_of_unique_values": 4,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 0,
         "num_1qu": 0,
         "num_median": 1,
@@ -59,6 +63,7 @@
         "type": "numerical",
         "number_of_unique_values": 49,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 94,
         "num_1qu": 120,
         "num_median": 130,
@@ -71,6 +76,7 @@
         "type": "numerical",
         "number_of_unique_values": 152,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 126,
         "num_1qu": 211,
         "num_median": 240,
@@ -83,6 +89,7 @@
         "type": "numerical",
         "number_of_unique_values": 2,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 0,
         "num_1qu": 0,
         "num_median": 0,
@@ -95,6 +102,7 @@
         "type": "numerical",
         "number_of_unique_values": 3,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 0,
         "num_1qu": 0,
         "num_median": 1,
@@ -107,6 +115,7 @@
         "type": "numerical",
         "number_of_unique_values": 91,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 71,
         "num_1qu": 133.5,
         "num_median": 153,
@@ -119,6 +128,7 @@
         "type": "numerical",
         "number_of_unique_values": 2,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 0,
         "num_1qu": 0,
         "num_median": 0,
@@ -131,6 +141,7 @@
         "type": "numerical",
         "number_of_unique_values": 40,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 0,
         "num_1qu": 0,
         "num_median": 0.8,
@@ -143,6 +154,7 @@
         "type": "numerical",
         "number_of_unique_values": 3,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 0,
         "num_1qu": 1,
         "num_median": 1,
@@ -155,6 +167,7 @@
         "type": "numerical",
         "number_of_unique_values": 5,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 0,
         "num_1qu": 0,
         "num_median": 0,
@@ -162,11 +175,13 @@
         "num_3qu": 1,
         "num_maximum": 4
       },
+
       "thal": {
         "name": "thal",
         "type": "numerical",
         "number_of_unique_values": 4,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 0,
         "num_1qu": 2,
         "num_median": 2,
@@ -179,13 +194,12 @@
         "type": "numerical",
         "number_of_unique_values": 2,
         "number_of_missing_values": 0,
+        "cat_frequencies": null,
         "num_minimum": 0,
         "num_1qu": 0,
         "num_median": 1,
         "num_mean": 0.5446,
         "num_3qu": 1,
-        "num_maximum": 1
-      }
+        "num_maximum": 1}
     }
-  }
-]
+}]

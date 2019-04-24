@@ -5,7 +5,7 @@
         "library": "mlr",
 	"model_name": "classif.h2o.deeplearning",
 	"task_id": "classification_class",
-	"dataset_id": "openml_SEA(50)",
+	"dataset_id": "openml_Sea(50)",
 	"parameters": {
   	"autoencoder": false,
 "use_all_factor_level": true,

@@ -1,9 +1,9 @@
 [
   {
-    "id": "classification_Class",
+    "id": "openml_eeg-eye-state",
     "added_by": "MatiFilozof",
     "date": "10-04-2019",
-    "dataset_id": "openml_eeg-eye-state",
+    "dataset_id": "eeg-eye-state",
     "type": "classification",
     "target": "Class"
   }

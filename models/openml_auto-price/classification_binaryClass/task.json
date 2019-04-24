@@ -3,7 +3,7 @@
     "id": "classification_binaryClass",
     "added_by": "Adamoso",
     "date": "06-03-2019",
-    "dataset_id": "openml_auto-price",
+    "dataset_id": "auto_price",
     "type": "classification",
     "target": "binaryClass"
   }

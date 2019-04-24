@@ -5,7 +5,7 @@
     "added_by": "Adamoso",
     "model_id": "f43eac1d8cca3d365c54df528994169a",
     "task_id": "regression_length",
-    "dataset_id": "openml_auto-price",
+    "dataset_id": "auto_price",
     "performance": {
       "mse": 19.8167,
       "rmse": 4.4516,

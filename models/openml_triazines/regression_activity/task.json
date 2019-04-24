@@ -1,9 +1,9 @@
 [
   {
-    "id": "regression_activity",
+    "id": "openml_triazines",
     "added_by": "DominikRafacz",
     "date": "24-03-2019",
-    "dataset_id": "openml_triazines",
+    "dataset_id": "triazines",
     "type": "regression",
     "target": "activity"
   }

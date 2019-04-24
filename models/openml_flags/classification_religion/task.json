@@ -1,9 +1,9 @@
 [
   {
-    "id": "classification_religion",
+    "id": "openml_flags",
     "added_by": "granatb",
     "date": "20-03-2019",
-    "dataset_id": "openml_flags",
+    "dataset_id": "flags",
     "type": "classification",
     "target": "religion"
   }

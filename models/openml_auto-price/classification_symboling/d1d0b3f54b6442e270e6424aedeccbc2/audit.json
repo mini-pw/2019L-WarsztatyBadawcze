@@ -5,9 +5,14 @@
     "added_by": "Adamoso",
     "model_id": "d1d0b3f54b6442e270e6424aedeccbc2",
     "task_id": "classification_symboling",
-    "dataset_id": "openml_auto-price",
+    "dataset_id": "auto_price",
     "performance": {
-      "acc": 0.8257
+      "acc": 0.8257,
+      "specificity": null,
+      "precision": null,
+      "recall": null,
+      "auc": null,
+      "f1": null
     }
   }
 ]
