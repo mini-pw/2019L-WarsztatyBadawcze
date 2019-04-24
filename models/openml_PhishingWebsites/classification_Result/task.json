@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_PhishingWebsites",
+    "id": "classification_Result",
     "added_by": "MatiFilozof",
     "date": "04-04-2019",
-    "dataset_id": "PhishingWebsites",
+    "dataset_id": "openml_PhishingWebsites",
     "type": "classification",
     "target": "Result"
   }

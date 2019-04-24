@@ -5,7 +5,7 @@
     "added_by": "BogdanJastrzebski",
     "model_id": "3b3b244bb8c811eee2435d534406befe",
     "task_id": "regression_oldpeak",
-    "dataset_id": "kaggle_heart-disease",
+    "dataset_id": "kaggle_heart_disease",
     "performance": {
       "mse": 0.961,
       "rmse": 0.9803,

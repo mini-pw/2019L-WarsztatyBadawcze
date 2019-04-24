@@ -1,56 +1,51 @@
 [
-    {
-        "id": "ccfd4534c7fede2be7ed75e6dcb7a95f",
-        "added_by": "mckraqs",
-        "date": "30-03-2019",
-        "library": "scikit",
-        "model_name": "AdaBoostClassifier",
-        "task_id": "classification_Class",
-        "dataset_id": "skin-segmentation",
-        "parameters": {
-            "algorithm": "SAMME.R",
-            "base_estimator": null,
-            "learning_rate": 1,
-            "n_estimators": 50,
-            "random_state": null
-        },
-        "preprocessing": {
-            "V1": {
-                "name": "V1",
-                "type": "numerical",
-                "number_of_unique_values": 256,
-                "number_of_missing_values": 0,
-                "cat_frequencies": null,
-                "num_minimum": 0.0,
-                "num_1qu": 68.0,
-                "num_median": 139.0,
-                "num_3q": 176.0,
-                "num_maximum": 255.0
-            },
-            "V2": {
-                "name": "V2",
-                "type": "numerical",
-                "number_of_unique_values": 256,
-                "number_of_missing_values": 0,
-                "cat_frequencies": null,
-                "num_minimum": 0.0,
-                "num_1qu": 87.0,
-                "num_median": 153.0,
-                "num_3q": 177.0,
-                "num_maximum": 255.0
-            },
-            "V3": {
-                "name": "V3",
-                "type": "numerical",
-                "number_of_unique_values": 256,
-                "number_of_missing_values": 0,
-                "cat_frequencies": null,
-                "num_minimum": 0.0,
-                "num_1qu": 71.0,
-                "num_median": 128.0,
-                "num_3q": 165.0,
-                "num_maximum": 255.0
-            }
-        }
+  {
+    "id": "ccfd4534c7fede2be7ed75e6dcb7a95f",
+    "added_by": "mckraqs",
+    "date": "30-03-2019",
+    "library": "scikit",
+    "model_name": "AdaBoostClassifier",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_skin-segmentation",
+    "parameters": {
+      "algorithm": "SAMME.R",
+      "learning_rate": 1,
+      "n_estimators": 50
+    },
+    "preprocessing": {
+      "V1": {
+        "name": "V1",
+        "type": "numerical",
+        "number_of_unique_values": 256,
+        "number_of_missing_values": 0,
+        "num_minimum": 0,
+        "num_1qu": 68,
+        "num_median": 139,
+        "num_3q": 176,
+        "num_maximum": 255
+      },
+      "V2": {
+        "name": "V2",
+        "type": "numerical",
+        "number_of_unique_values": 256,
+        "number_of_missing_values": 0,
+        "num_minimum": 0,
+        "num_1qu": 87,
+        "num_median": 153,
+        "num_3q": 177,
+        "num_maximum": 255
+      },
+      "V3": {
+        "name": "V3",
+        "type": "numerical",
+        "number_of_unique_values": 256,
+        "number_of_missing_values": 0,
+        "num_minimum": 0,
+        "num_1qu": 71,
+        "num_median": 128,
+        "num_3q": 165,
+        "num_maximum": 255
+      }
     }
+  }
 ]
