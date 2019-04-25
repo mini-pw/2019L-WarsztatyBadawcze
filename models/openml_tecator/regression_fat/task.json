@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_tecator",
+    "id": "regression_fat",
     "added_by": "MatiFilozof",
     "date": "24-03-2019",
-    "dataset_id": "tecator",
+    "dataset_id": "openml_tecator",
     "type": "regression",
     "target": "fat"
   }

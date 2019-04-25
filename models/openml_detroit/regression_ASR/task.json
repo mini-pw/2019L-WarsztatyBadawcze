@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_detroit",
+    "id": "regression_ASR",
     "added_by": "DominikRafacz",
     "date": "24-03-2019",
-    "dataset_id": "detroit",
+    "dataset_id": "openml_detroit",
     "type": "regression",
     "target": "ASR"
   }
