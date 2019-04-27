@@ -1,0 +1,105 @@
+[
+  {
+    "id": "bc105bb746b49a94288f0fbb5abf3289",
+    "added_by": "MatiFilozof",
+    "date": "12-04-2019",
+    "library": "mlr",
+    "model_name": "classif.nodeHarvest",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_phoneme",
+    "parameters": {
+      "nodesize": 10,
+      "nodes": 1000,
+      "maxinter": 2,
+      "mode": "outbag",
+      "lambda": null,
+      "addto": null,
+      "onlyinter": null,
+      "silent": false,
+      "biascorr": false
+    },
+    "preprocessing": {
+      "V1": {
+        "name": "V1",
+        "type": "numerical",
+        "number_of_unique_values": 5336,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.9337,
+        "num_1qu": -0.6698,
+        "num_median": -0.3802,
+        "num_mean": 3.3309e-009,
+        "num_3qu": 0.3149,
+        "num_maximum": 3.8286
+      },
+      "V2": {
+        "name": "V2",
+        "type": "numerical",
+        "number_of_unique_values": 5312,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -3.0387,
+        "num_1qu": -0.7791,
+        "num_median": -0.2151,
+        "num_mean": 5.5514e-009,
+        "num_3qu": 0.7137,
+        "num_maximum": 3.6648
+      },
+      "V3": {
+        "name": "V3",
+        "type": "numerical",
+        "number_of_unique_values": 5308,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.7959,
+        "num_1qu": -0.9506,
+        "num_median": -0.0386,
+        "num_mean": 6.1066e-009,
+        "num_3qu": 0.7771,
+        "num_maximum": 2.6309
+      },
+      "V4": {
+        "name": "V4",
+        "type": "numerical",
+        "number_of_unique_values": 5336,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.4853,
+        "num_1qu": -0.7583,
+        "num_median": -0.1423,
+        "num_mean": -9.4375e-009,
+        "num_3qu": 0.6759,
+        "num_maximum": 3.0469
+      },
+      "V5": {
+        "name": "V5",
+        "type": "numerical",
+        "number_of_unique_values": 4499,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.3675,
+        "num_1qu": -0.5405,
+        "num_median": -0.2127,
+        "num_mean": -6.6987e-008,
+        "num_3qu": 0.2045,
+        "num_maximum": 4.5867
+      },
+      "Class": {
+        "name": "Class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 3818,
+          "2": 1586
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

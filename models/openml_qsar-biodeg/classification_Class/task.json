@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_qsar-biodeg",
+    "id": "classification_Class",
     "added_by": "MatiFilozof",
     "date": "10-04-2019",
-    "dataset_id": "qsar-biodeg",
+    "dataset_id": "openml_qsar-biodeg",
     "type": "classification",
     "target": "Class"
   }

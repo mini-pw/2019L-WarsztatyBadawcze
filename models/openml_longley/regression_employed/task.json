@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_longley",
+    "id": "regression_employed",
     "added_by": "DominikRafacz",
     "date": "24-03-2019",
-    "dataset_id": "longley",
+    "dataset_id": "openml_longley",
     "type": "regression",
     "target": "employed"
   }

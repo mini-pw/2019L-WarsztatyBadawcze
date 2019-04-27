@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_steel-plates-fault",
+    "id": "classification_Class",
     "added_by": "MatiFilozof",
     "date": "10-04-2019",
-    "dataset_id": "steel-plates-fault",
+    "dataset_id": "openml_steel-plates-fault",
     "type": "classification",
     "target": "Class"
   }

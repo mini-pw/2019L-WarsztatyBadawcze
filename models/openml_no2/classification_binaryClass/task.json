@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_no2",
+    "id": "classification_binaryClass",
     "added_by": "MatiFilozof",
     "date": "28-03-2019",
-    "dataset_id": "no2",
+    "dataset_id": "openml_no2",
     "type": "classification",
     "target": "binaryClass"
   }
