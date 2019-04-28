@@ -5,7 +5,7 @@
     "added_by": "Adamoso",
     "model_id": "5c732b82735e2df9e47ef6fae74d5f63",
     "task_id": "classification_binaryClass",
-    "dataset_id": "auto_price",
+    "dataset_id": "openml_auto-price",
     "performance": {
       "acc": 0.9748,
       "auc": 0.9982,
