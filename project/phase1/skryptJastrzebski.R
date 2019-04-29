@@ -144,37 +144,45 @@ test %>%
 
 # Klasyfikacja
 
+print(31*0.257)
+
 ranger <- makeLearner("classif.ranger",
-                      predict.type = "prob")
+                      predict.type = "prob",
+                      par.vals = list(num.trees = 983,
+                                      replace = FALSE,
+                                      sample.fraction = 0.703,
+                                      mtry = 8,
+                                      min.node.size = 1))
+
 
 task <- makeClassifTask(id = "asdf",
                         data = bujka,
                         target = "Y")
 
-cv <- makeResampleDesc(method = "CV",
-                       iters = 3)
+# cv <- makeResampleDesc(method = "CV",
+#                       iters = 3)
 
-ps <- makeParamSet(
-  makeIntegerParam("mtry",
-                   lower = 1,
-                   upper = ncol(bujka) - 1),
-  makeIntegerParam("num.trees",
-                   lower = 1, 
-                   upper = 700)
-)
+#ps <- makeParamSet(
+#  makeIntegerParam("mtry",
+#                   lower = 1,
+#                   upper = ncol(bujka) - 1),
+#  makeIntegerParam("num.trees",
+#                   lower = 1, 
+#                   upper = 700)
+#)
 
-ctrl <- makeTuneControlGrid()
+#ctrl <- makeTuneControlGrid()
 
-res <- tuneParams(ranger, 
-                  task,
-                  resampling = cv,
-                  measures = list(auc),
-                  par.set = ps,
-                  control = ctrl)
+#res <- tuneParams(ranger, 
+#                  task,
+#                  resampling = cv,
+#                  measures = list(auc),
+#                  par.set = ps,
+#                  control = ctrl)
 
-lrn <- setHyperPars(ranger, par.vals = res$x)
+#lrn <- setHyperPars(ranger, par.vals = res$x)
 
-model <- train(lrn, task)
+model <- train(ranger, task)
 
 prediction <- predict(model, newdata = bajka)
 
