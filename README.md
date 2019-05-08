@@ -19,13 +19,13 @@ Strona przedmiotu Warsztaty Badawcze dla specjalności IAD na wydziale MiNI PW
 * [5] W: Wyjaśnialne uczenie maszynowe ([DALEX](https://github.com/pbiecek/DALEX))
 * [6] W: **Prezentacje Pracy domowej**. 
 * [7] W: Strategie doboru hiperparametrów (random search, grid search). Wprowadzenie do biblioteki [parsnip](https://tidymodels.github.io/parsnip/) do trenowania modeli. [parsnip i DALEX](https://htmlpreview.github.io/?https://github.com/maksymiuks/DALEX_docs/blob/master/vignettes/DALEX_parsnip.html).
-* [8] W: [mlrMBO](http://mlrmbo.mlr-org.com). Projekt.
+* [8] W: Projekt.
 * [9] W: Plan piątkowy 
 * [10] W: **Pierwsza Prezentacja Projektu** (24 kwietnia)
-* [11] W: Wybór zmiennych (filtr, greed search), inżynieria zmiennych.
-* [12] W: Wyjaśniacze PDP jak je robić
-* [13] W: Wyjaśniacze PDP - jak je porównywać
-* [14] W: reprodukowalność wyników (archivist)
+* [11] W: 
+* [12] W: 
+* [13] W: Zastępstwo (22 maja)
+* [14] W: 
 * [15] W: **Druga Prezentacja Projektu**
 
 

@@ -40,10 +40,10 @@ createTaskWDS.internal <- function(site, table, name, added_by, target, learner,
     dir.create(paste0(site, "_", name, sep, type, "_", target))
   }
   if(!file.exists(paste0(site, "_", name, sep, type, "_", target, sep, "task.json"))){
-    toTaskJson <- list(id = paste0(site, "_", name),
+    toTaskJson <- list(id = paste0(type, "_", target),
                        added_by = added_by,
                        date = format(Sys.Date(), "%d-%m-%Y"),
-                       dataset_id = name,
+                       dataset_id = paste0(site, "_", name),
                        type = type,
                        target = target)
     taskJson <- list(toTaskJson) %>% toJSON(auto_unbox = TRUE, pretty = TRUE, null = "null")
@@ -70,14 +70,14 @@ createTaskWDS.internal <- function(site, table, name, added_by, target, learner,
     
     cv <- makeResampleDesc("CV", iters = 5)
     if (isRegr) {
-      mes <- list(mse, rmse, mae, rsq)
+      mes <- list(mlr::mse, mlr::rmse, mlr::mae, mlr::rsq)
     }
     else {
       if (length(unique(table[[target]])) == 2) {
-        mes <- list(acc, auc, tnr, tpr, ppv, f1)
+        mes <- list(mlr::acc, mlr::auc, mlr::tnr, mlr::tpr, mlr::ppv, mlr::f1)
       }
       else {
-        mes <- list(acc)
+        mes <- list(mlr::acc)
       }
     }
     

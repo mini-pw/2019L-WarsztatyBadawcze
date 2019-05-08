@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_class",
+    "added_by": "MatiFilozof",
+    "date": "04-04-2019",
+    "dataset_id": "openml_heart-statlog",
+    "type": "classification",
+    "target": "class"
+  }
+]

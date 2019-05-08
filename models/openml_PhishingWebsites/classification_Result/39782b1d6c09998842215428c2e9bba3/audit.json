@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_39782b1d6c09998842215428c2e9bba3",
+    "date": "04-04-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "39782b1d6c09998842215428c2e9bba3",
+    "task_id": "classification_Result",
+    "dataset_id": "openml_PhishingWebsites",
+    "performance": {
+      "acc": 0.9198,
+      "auc": 0.9804,
+      "specificity": 0.9421,
+      "recall": 0.8917,
+      "precision": 0.9247,
+      "f1": 0.9079
+    }
+  }
+]

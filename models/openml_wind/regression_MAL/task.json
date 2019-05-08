@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_wind",
+    "id": "regression_MAL",
     "added_by": "MatiFilozof",
     "date": "24-03-2019",
-    "dataset_id": "wind",
+    "dataset_id": "openml_wind",
     "type": "regression",
     "target": "MAL"
   }
