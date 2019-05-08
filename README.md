@@ -26,7 +26,7 @@ Strona przedmiotu Warsztaty Badawcze dla specjalności IAD na wydziale MiNI PW
 * [12] W: 
 * [13] W: Zastępstwo (22 maja)
 * [14] W: 
-* [15] W: **Druga Prezentacja Projektu**
+* [15] W: **Druga Prezentacja Projektu** (12 czerwca)
 
 
 # Zasady zaliczenia
