@@ -1,0 +1,227 @@
+[
+  {
+    "id": "6098d367648469e5e51c7fda189fbd33",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ada",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_breast-cancer-dropped-missing-attributes-values",
+    "parameters": {
+      "loss": "exponential",
+      "type": "discrete",
+      "iter": 50,
+      "nu": 0.1,
+      "bag.frac": 0.5,
+      "model.coef": true,
+      "bag.shift": false,
+      "max.iter": 20,
+      "delta": 1e-010,
+      "verbose": false,
+      "minsplit": 20,
+      "minbucket": null,
+      "cp": 0.01,
+      "maxcompete": 4,
+      "maxsurrogate": 5,
+      "usesurrogate": 2,
+      "surrogatestyle": 0,
+      "maxdepth": 30,
+      "xval": 0
+    },
+    "preprocessing": {
+      "age": {
+        "name": "age",
+        "type": "categorical",
+        "number_of_unique_values": 6,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "10-19": 0,
+          "20-29": 1,
+          "30-39": 36,
+          "40-49": 89,
+          "50-59": 91,
+          "60-69": 55,
+          "70-79": 5,
+          "80-89": 0,
+          "90-99": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "menopause": {
+        "name": "menopause",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "lt40": 5,
+          "ge40": 123,
+          "premeno": 149
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "tumor.size": {
+        "name": "tumor.size",
+        "type": "categorical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0-4": 8,
+          "5-9": 4,
+          "10-14": 28,
+          "15-19": 29,
+          "20-24": 48,
+          "25-29": 51,
+          "30-34": 57,
+          "35-39": 19,
+          "40-44": 22,
+          "45-49": 3,
+          "50-54": 8,
+          "55-59": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "inv.nodes": {
+        "name": "inv.nodes",
+        "type": "categorical",
+        "number_of_unique_values": 7,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0-2": 209,
+          "3-5": 34,
+          "6-8": 17,
+          "9-11": 7,
+          "12-14": 3,
+          "15-17": 6,
+          "18-20": 0,
+          "21-23": 0,
+          "24-26": 1,
+          "27-29": 0,
+          "30-32": 0,
+          "33-35": 0,
+          "36-39": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "node.caps": {
+        "name": "node.caps",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "yes": 56,
+          "no": 221
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "deg.malig": {
+        "name": "deg.malig",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 66,
+          "2": 129,
+          "3": 82
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "breast": {
+        "name": "breast",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "left": 145,
+          "right": 132
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "breast.quad": {
+        "name": "breast.quad",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "left_up": 94,
+          "left_low": 106,
+          "right_up": 33,
+          "right_low": 23,
+          "central": 21
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "irradiat": {
+        "name": "irradiat",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "yes": 62,
+          "no": 215
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Class": {
+        "name": "Class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no-recurrence-events": 196,
+          "recurrence-events": 81
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_c6dfd26ddb015deac88c1234ee7246ab",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "c6dfd26ddb015deac88c1234ee7246ab",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_hayes-roth",
+    "performance": {
+      "acc": 0.8405,
+      "auc": 0.7939,
+      "specificity": 0.9625,
+      "recall": 0.6461,
+      "precision": 0.9111,
+      "f1": 0.7524
+    }
+  }
+]

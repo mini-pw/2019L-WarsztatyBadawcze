@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Class",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "dataset_id": "openml_breast-cancer-dropped-missing-attributes-values",
+    "type": "classification",
+    "target": "Class"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_cc87a09f71585df66504d3a7a59f06ae",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "cc87a09f71585df66504d3a7a59f06ae",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_chscase_geyser1",
+    "performance": {
+      "acc": 0.8879,
+      "auc": 0.8963,
+      "specificity": 0.962,
+      "recall": 0.7745,
+      "precision": 0.931,
+      "f1": 0.8417
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_eeb975169253ef170423b66ef5daf5d2",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "eeb975169253ef170423b66ef5daf5d2",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_JapaneseVowels",
+    "performance": {
+      "acc": 0.9376,
+      "auc": 0.979,
+      "specificity": 0.9856,
+      "recall": 0.6885,
+      "precision": 0.9024,
+      "f1": 0.7807
+    }
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "id": "ac2efe495f364b19a4cb6f43a1416b05",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ranger",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_fri_c2_500_5",
+    "parameters": {
+      "num.trees": 500,
+      "mtry": null,
+      "mtry.perc": null,
+      "min.node.size": null,
+      "replace": true,
+      "sample.fraction": null,
+      "split.select.weights": null,
+      "always.split.variables": null,
+      "respect.unordered.factors": "order",
+      "importance": "none",
+      "write.forest": true,
+      "scale.permutation.importance": false,
+      "num.threads": 1,
+      "save.memory": false,
+      "verbose": false,
+      "seed": null,
+      "splitrule": "gini",
+      "num.random.splits": 1,
+      "keep.inbag": false
+    },
+    "preprocessing": {
+      "oz1": {
+        "name": "oz1",
+        "type": "numerical",
+        "number_of_unique_values": 500,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.2802,
+        "num_1qu": -0.7989,
+        "num_median": -0.0244,
+        "num_mean": -1.4e-008,
+        "num_3qu": 0.7616,
+        "num_maximum": 2.3631
+      },
+      "oz2": {
+        "name": "oz2",
+        "type": "numerical",
+        "number_of_unique_values": 500,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.717,
+        "num_1qu": -0.9118,
+        "num_median": -0.0052,
+        "num_mean": 2e-009,
+        "num_3qu": 0.8698,
+        "num_maximum": 1.7085
+      },
+      "oz3": {
+        "name": "oz3",
+        "type": "numerical",
+        "number_of_unique_values": 500,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.9685,
+        "num_1qu": -0.7963,
+        "num_median": -0.1482,
+        "num_mean": 7.2772e-019,
+        "num_3qu": 0.6443,
+        "num_maximum": 3.0941
+      },
+      "oz4": {
+        "name": "oz4",
+        "type": "numerical",
+        "number_of_unique_values": 500,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.7153,
+        "num_1qu": -0.8749,
+        "num_median": 0.0157,
+        "num_mean": -2e-009,
+        "num_3qu": 0.8672,
+        "num_maximum": 1.8142
+      },
+      "oz5": {
+        "name": "oz5",
+        "type": "numerical",
+        "number_of_unique_values": 500,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.7158,
+        "num_1qu": -0.9136,
+        "num_median": -0.0298,
+        "num_mean": 1.4e-008,
+        "num_3qu": 0.8943,
+        "num_maximum": 1.721
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 202,
+          "N": 298
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "4223eaa85db0ea045c9a74bae8a16435",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ctree",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_bolts",
+    "parameters": {
+      "teststat": "quad",
+      "testtype": "Bonferroni",
+      "mincriterion": 0.95,
+      "minsplit": 20,
+      "minbucket": 7,
+      "stump": false,
+      "nresample": 9999,
+      "maxsurrogate": 0,
+      "mtry": 0,
+      "savesplitstats": true,
+      "maxdepth": 0
+    },
+    "preprocessing": {
+      "RUN": {
+        "name": "RUN",
+        "type": "numerical",
+        "number_of_unique_values": 40,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 10.75,
+        "num_median": 20.5,
+        "num_mean": 20.5,
+        "num_3qu": 30.25,
+        "num_maximum": 40
+      },
+      "SPEED1": {
+        "name": "SPEED1",
+        "type": "numerical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2,
+        "num_1qu": 2,
+        "num_median": 4,
+        "num_mean": 4,
+        "num_3qu": 6,
+        "num_maximum": 6
+      },
+      "TOTAL": {
+        "name": "TOTAL",
+        "type": "numerical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 10,
+        "num_1qu": 10,
+        "num_median": 20,
+        "num_mean": 20,
+        "num_3qu": 30,
+        "num_maximum": 30
+      },
+      "SPEED2": {
+        "name": "SPEED2",
+        "type": "numerical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1.5,
+        "num_1qu": 1.5,
+        "num_median": 2,
+        "num_mean": 2,
+        "num_3qu": 2.5,
+        "num_maximum": 2.5
+      },
+      "NUMBER2": {
+        "name": "NUMBER2",
+        "type": "numerical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 1,
+        "num_mean": 1,
+        "num_3qu": 2,
+        "num_maximum": 2
+      },
+      "SENS": {
+        "name": "SENS",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 6,
+        "num_median": 7,
+        "num_mean": 7,
+        "num_3qu": 10,
+        "num_maximum": 10
+      },
+      "TIME": {
+        "name": "TIME",
+        "type": "numerical",
+        "number_of_unique_values": 40,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 3.94,
+        "num_1qu": 10.735,
+        "num_median": 18.05,
+        "num_mean": 36.287,
+        "num_3qu": 34.5975,
+        "num_maximum": 134.01
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 26,
+          "N": 14
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

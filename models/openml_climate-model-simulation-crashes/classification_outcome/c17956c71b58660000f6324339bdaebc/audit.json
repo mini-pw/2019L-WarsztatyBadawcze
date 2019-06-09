@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_c17956c71b58660000f6324339bdaebc",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "c17956c71b58660000f6324339bdaebc",
+    "task_id": "classification_outcome",
+    "dataset_id": "openml_climate-model-simulation-crashes",
+    "performance": {
+      "acc": 0.9574,
+      "auc": 0.9452,
+      "specificity": 0.9779,
+      "recall": 0.7233,
+      "precision": 0.7405,
+      "f1": 0.7266
+    }
+  }
+]
