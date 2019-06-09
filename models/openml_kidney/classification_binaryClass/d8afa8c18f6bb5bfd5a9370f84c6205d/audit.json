@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_d8afa8c18f6bb5bfd5a9370f84c6205d",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "d8afa8c18f6bb5bfd5a9370f84c6205d",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_kidney",
+    "performance": {
+      "acc": 0.6717,
+      "auc": 0.6808,
+      "specificity": 0.5556,
+      "recall": 0.7944,
+      "precision": 0.6807,
+      "f1": 0.7062
+    }
+  }
+]

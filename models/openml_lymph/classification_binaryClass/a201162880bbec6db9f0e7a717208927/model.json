@@ -1,0 +1,328 @@
+[
+  {
+    "id": "a201162880bbec6db9f0e7a717208927",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.kknn",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_lymph",
+    "parameters": {
+      "k": 7,
+      "distance": 2,
+      "kernel": "optimal",
+      "scale": true
+    },
+    "preprocessing": {
+      "lymphatics": {
+        "name": "lymphatics",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "normal": 2,
+          "arched": 67,
+          "deformed": 46,
+          "displaced": 33
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "block_of_affere": {
+        "name": "block_of_affere",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 66,
+          "yes": 82
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "bl_of_lymph_c": {
+        "name": "bl_of_lymph_c",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 122,
+          "yes": 26
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "bl_of_lymph_s": {
+        "name": "bl_of_lymph_s",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 141,
+          "yes": 7
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "by_pass": {
+        "name": "by_pass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 112,
+          "yes": 36
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "extravasates": {
+        "name": "extravasates",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 73,
+          "yes": 75
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "regeneration_of": {
+        "name": "regeneration_of",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 138,
+          "yes": 10
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "early_uptake_in": {
+        "name": "early_uptake_in",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 44,
+          "yes": 104
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "lym_nodes_dimin": {
+        "name": "lym_nodes_dimin",
+        "type": "numerical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 1,
+        "num_median": 1,
+        "num_mean": 1.0608,
+        "num_3qu": 1,
+        "num_maximum": 3
+      },
+      "lym_nodes_enlar": {
+        "name": "lym_nodes_enlar",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 2,
+        "num_median": 2,
+        "num_mean": 2.473,
+        "num_3qu": 3,
+        "num_maximum": 4
+      },
+      "changes_in_lym": {
+        "name": "changes_in_lym",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "bean": 6,
+          "oval": 77,
+          "round": 65
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "defect_in_node": {
+        "name": "defect_in_node",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 3,
+          "lacunar": 49,
+          "lac_margin": 46,
+          "lac_central": 50
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "changes_in_node": {
+        "name": "changes_in_node",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 6,
+          "lacunar": 42,
+          "lac_margin": 75,
+          "lac_central": 25
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "changes_in_stru": {
+        "name": "changes_in_stru",
+        "type": "categorical",
+        "number_of_unique_values": 8,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 2,
+          "grainy": 14,
+          "drop_like": 19,
+          "coarse": 31,
+          "diluted": 28,
+          "reticular": 2,
+          "stripped": 7,
+          "faint": 45
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "special_forms": {
+        "name": "special_forms",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 28,
+          "chalices": 43,
+          "vesicles": 77
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "dislocation_of": {
+        "name": "dislocation_of",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 50,
+          "yes": 98
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "exclusion_of_no": {
+        "name": "exclusion_of_no",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 31,
+          "yes": 117
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "no_of_nodes_in": {
+        "name": "no_of_nodes_in",
+        "type": "numerical",
+        "number_of_unique_values": 8,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 1,
+        "num_median": 2,
+        "num_mean": 2.6014,
+        "num_3qu": 3,
+        "num_maximum": 8
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 81,
+          "N": 67
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

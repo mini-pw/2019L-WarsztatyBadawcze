@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_f7adb976f8773a64c83779adbd007d4d",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "f7adb976f8773a64c83779adbd007d4d",
+    "task_id": "classification_def",
+    "dataset_id": "openml_CastMetal1",
+    "performance": {
+      "acc": 0.8166,
+      "auc": 0.5117,
+      "specificity": 0.1544,
+      "recall": 0.913,
+      "precision": 0.8817,
+      "f1": 0.8962
+    }
+  }
+]

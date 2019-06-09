@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_DL",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "dataset_id": "openml_kc1-binary",
+    "type": "classification",
+    "target": "DL"
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "id": "fbce4b9c03e74fb6d92ba6440de1e4c4",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.rda",
+    "task_id": "classification_STATUS",
+    "dataset_id": "openml_lupus",
+    "parameters": {
+      "lambda": null,
+      "gamma": null,
+      "crossval": true,
+      "fold": 10,
+      "train.fraction": 0.5,
+      "output": false,
+      "schedule": 2,
+      "T.start": 0.1,
+      "halflife": 50,
+      "zero.temp": 0.01,
+      "alpha": 2,
+      "K": 100,
+      "trafo": true,
+      "simAnn": false,
+      "estimate.error": false
+    },
+    "preprocessing": {
+      "TIME": {
+        "name": "TIME",
+        "type": "numerical",
+        "number_of_unique_values": 75,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 4,
+        "num_1qu": 87.5,
+        "num_median": 147,
+        "num_mean": 142.3448,
+        "num_3qu": 193.5,
+        "num_maximum": 276
+      },
+      "STATUS": {
+        "name": "STATUS",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "alive": 52,
+          "dead": 35
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "DURATION": {
+        "name": "DURATION",
+        "type": "numerical",
+        "number_of_unique_values": 27,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.1,
+        "num_1qu": 0.1,
+        "num_median": 2,
+        "num_mean": 10.4805,
+        "num_3qu": 9,
+        "num_maximum": 106
+      },
+      "LOG.1.DURATION.": {
+        "name": "LOG.1.DURATION.",
+        "type": "numerical",
+        "number_of_unique_values": 27,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.1,
+        "num_1qu": 0.1,
+        "num_median": 1.1,
+        "num_mean": 1.4178,
+        "num_3qu": 2.3,
+        "num_maximum": 4.67
+      }
+    }
+  }
+]

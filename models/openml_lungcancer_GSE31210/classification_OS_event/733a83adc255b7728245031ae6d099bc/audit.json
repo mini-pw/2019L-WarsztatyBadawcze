@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_733a83adc255b7728245031ae6d099bc",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "733a83adc255b7728245031ae6d099bc",
+    "task_id": "classification_OS_event",
+    "dataset_id": "openml_lungcancer_GSE31210",
+    "performance": {
+      "acc": 0.8676,
+      "auc": 0.8709,
+      "specificity": 0.2848,
+      "recall": 0.9907,
+      "precision": 0.8726,
+      "f1": 0.9255
+    }
+  }
+]
