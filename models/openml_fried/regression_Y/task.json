@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_fried",
+    "id": "regression_Y",
     "added_by": "MatiFilozof",
     "date": "24-03-2019",
-    "dataset_id": "fried",
+    "dataset_id": "openml_fried",
     "type": "regression",
     "target": "Y"
   }
