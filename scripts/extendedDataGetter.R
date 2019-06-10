@@ -183,10 +183,10 @@ createTask.internal <- function(site, table, name, added_by, target, learner, me
     }
   }
   
-  toTaskJson <- list(id = paste0(site, "_", name),
+  toTaskJson <- list(id = paste0(type, "_", target),
                      added_by = added_by,
                      date = format(Sys.Date(), "%d-%m-%Y"),
-                     dataset_id = name,
+                     dataset_id = paste0(site, "_", name),
                      type = type,
                      target = target)
   taskJson <- list(toTaskJson) %>% toJSON(auto_unbox = TRUE, pretty = TRUE, null = "null")
