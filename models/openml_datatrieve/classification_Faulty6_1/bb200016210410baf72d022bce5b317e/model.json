@@ -1,0 +1,139 @@
+[
+  {
+    "id": "bb200016210410baf72d022bce5b317e",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.kknn",
+    "task_id": "classification_Faulty6_1",
+    "dataset_id": "openml_datatrieve",
+    "parameters": {
+      "k": 7,
+      "distance": 2,
+      "kernel": "optimal",
+      "scale": true
+    },
+    "preprocessing": {
+      "LOC6_0": {
+        "name": "LOC6_0",
+        "type": "numerical",
+        "number_of_unique_values": 125,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 15,
+        "num_1qu": 261.75,
+        "num_median": 685.5,
+        "num_mean": 895.0385,
+        "num_3qu": 1236.75,
+        "num_maximum": 5408
+      },
+      "LOC6_1": {
+        "name": "LOC6_1",
+        "type": "numerical",
+        "number_of_unique_values": 123,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 15,
+        "num_1qu": 280.25,
+        "num_median": 690,
+        "num_mean": 902.8692,
+        "num_3qu": 1220.25,
+        "num_maximum": 5336
+      },
+      "Added_LoC": {
+        "name": "Added_LoC",
+        "type": "numerical",
+        "number_of_unique_values": 103,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2,
+        "num_1qu": 36,
+        "num_median": 77,
+        "num_mean": 117.9462,
+        "num_3qu": 155,
+        "num_maximum": 524
+      },
+      "Del_LoC": {
+        "name": "Del_LoC",
+        "type": "numerical",
+        "number_of_unique_values": 98,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2,
+        "num_1qu": 35.25,
+        "num_median": 77.5,
+        "num_mean": 110.1462,
+        "num_3qu": 140.75,
+        "num_maximum": 594
+      },
+      "Diff_Block": {
+        "name": "Diff_Block",
+        "type": "numerical",
+        "number_of_unique_values": 58,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 9.25,
+        "num_median": 20.5,
+        "num_mean": 25.5615,
+        "num_3qu": 33.75,
+        "num_maximum": 96
+      },
+      "Mod_Rate": {
+        "name": "Mod_Rate",
+        "type": "numerical",
+        "number_of_unique_values": 47,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 17,
+        "num_median": 21.5,
+        "num_mean": 24.4077,
+        "num_3qu": 31,
+        "num_maximum": 78
+      },
+      "Mod_Know": {
+        "name": "Mod_Know",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 1,
+        "num_median": 1,
+        "num_mean": 1.4615,
+        "num_3qu": 2,
+        "num_maximum": 2
+      },
+      "ReusedLoC": {
+        "name": "ReusedLoC",
+        "type": "numerical",
+        "number_of_unique_values": 122,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 12,
+        "num_1qu": 232.75,
+        "num_median": 606.5,
+        "num_mean": 784.8923,
+        "num_3qu": 1094.25,
+        "num_maximum": 4925
+      },
+      "Faulty6_1": {
+        "name": "Faulty6_1",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 119,
+          "1": 11
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

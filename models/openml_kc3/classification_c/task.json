@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_c",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "dataset_id": "openml_kc3",
+    "type": "classification",
+    "target": "c"
+  }
+]

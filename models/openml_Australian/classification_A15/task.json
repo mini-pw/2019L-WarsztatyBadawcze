@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_A15",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "dataset_id": "openml_Australian",
+    "type": "classification",
+    "target": "A15"
+  }
+]

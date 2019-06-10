@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_6bb098a7bee047c0938a5550a3e2fe62",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "6bb098a7bee047c0938a5550a3e2fe62",
+    "task_id": "classification_Sex",
+    "dataset_id": "openml_aids",
+    "performance": {
+      "acc": 0.32,
+      "auc": 0.3474,
+      "specificity": 0.4016,
+      "recall": 0.5111,
+      "precision": 0.4488,
+      "f1": 0.3438
+    }
+  }
+]

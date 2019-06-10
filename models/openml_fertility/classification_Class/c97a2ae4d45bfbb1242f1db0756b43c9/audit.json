@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_c97a2ae4d45bfbb1242f1db0756b43c9",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "c97a2ae4d45bfbb1242f1db0756b43c9",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_fertility",
+    "performance": {
+      "acc": 0.88,
+      "auc": null,
+      "specificity": null,
+      "recall": 0.9889,
+      "precision": 0.8889,
+      "f1": 0.9339
+    }
+  }
+]

@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_mushroom",
+    "id": "classification_class",
     "added_by": "airi314",
     "date": "20-03-2019",
-    "dataset_id": "mushroom",
+    "dataset_id": "openml_mushroom",
     "type": "classification",
     "target": "class"
   }
