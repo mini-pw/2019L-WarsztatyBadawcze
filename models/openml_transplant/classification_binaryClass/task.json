@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_transplant",
+    "id": "classification_binaryClass",
     "added_by": "MatiFilozof",
     "date": "04-04-2019",
-    "dataset_id": "transplant",
+    "dataset_id": "openml_transplant",
     "type": "classification",
     "target": "binaryClass"
   }

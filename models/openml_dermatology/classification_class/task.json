@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_dermatology",
+    "id": "classification_class",
     "added_by": "k-sap",
     "date": "19-03-2019",
-    "dataset_id": "dermatology",
+    "dataset_id": "openml_dermatology",
     "type": "classification",
     "target": "class"
   }
