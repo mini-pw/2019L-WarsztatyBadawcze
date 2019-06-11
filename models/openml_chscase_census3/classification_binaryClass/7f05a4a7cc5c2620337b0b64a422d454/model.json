@@ -1,0 +1,133 @@
+[
+  {
+    "id": "7f05a4a7cc5c2620337b0b64a422d454",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ctree",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_chscase_census3",
+    "parameters": {
+      "teststat": "quad",
+      "testtype": "Bonferroni",
+      "mincriterion": 0.95,
+      "minsplit": 20,
+      "minbucket": 7,
+      "stump": false,
+      "nresample": 9999,
+      "maxsurrogate": 0,
+      "mtry": 0,
+      "savesplitstats": true,
+      "maxdepth": 0
+    },
+    "preprocessing": {
+      "col_1": {
+        "name": "col_1",
+        "type": "numerical",
+        "number_of_unique_values": 372,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 3.1989,
+        "num_1qu": 4.0789,
+        "num_median": 4.2292,
+        "num_mean": 4.2164,
+        "num_3qu": 4.3645,
+        "num_maximum": 4.8835
+      },
+      "col_2": {
+        "name": "col_2",
+        "type": "numerical",
+        "number_of_unique_values": 388,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 3.745,
+        "num_1qu": 4.1257,
+        "num_median": 4.2257,
+        "num_mean": 4.2217,
+        "num_3qu": 4.3238,
+        "num_maximum": 4.7101
+      },
+      "col_3": {
+        "name": "col_3",
+        "type": "numerical",
+        "number_of_unique_values": 385,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 3.9279,
+        "num_1qu": 4.1687,
+        "num_median": 4.2385,
+        "num_mean": 4.2408,
+        "num_3qu": 4.3131,
+        "num_maximum": 4.638
+      },
+      "col_4": {
+        "name": "col_4",
+        "type": "numerical",
+        "number_of_unique_values": 374,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 4.0119,
+        "num_1qu": 4.1888,
+        "num_median": 4.2425,
+        "num_mean": 4.2422,
+        "num_3qu": 4.2948,
+        "num_maximum": 4.4865
+      },
+      "col_5": {
+        "name": "col_5",
+        "type": "numerical",
+        "number_of_unique_values": 358,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 4.0923,
+        "num_1qu": 4.2048,
+        "num_median": 4.2383,
+        "num_mean": 4.2371,
+        "num_3qu": 4.2686,
+        "num_maximum": 4.3747
+      },
+      "col_6": {
+        "name": "col_6",
+        "type": "numerical",
+        "number_of_unique_values": 343,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 4.1564,
+        "num_1qu": 4.2164,
+        "num_median": 4.2363,
+        "num_mean": 4.2372,
+        "num_3qu": 4.2599,
+        "num_maximum": 4.3234
+      },
+      "col_7": {
+        "name": "col_7",
+        "type": "numerical",
+        "number_of_unique_values": 305,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 4.1744,
+        "num_1qu": 4.2213,
+        "num_median": 4.2366,
+        "num_mean": 4.236,
+        "num_3qu": 4.2493,
+        "num_maximum": 4.3016
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 208,
+          "N": 192
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

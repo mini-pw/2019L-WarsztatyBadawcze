@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_c57cd8017c54062d623a67eed47fdd44",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "c57cd8017c54062d623a67eed47fdd44",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_fri_c1_100_25",
+    "performance": {
+      "acc": 0.67,
+      "auc": 0.6851,
+      "specificity": 0.7167,
+      "recall": 0.6258,
+      "precision": 0.6606,
+      "f1": 0.6363
+    }
+  }
+]

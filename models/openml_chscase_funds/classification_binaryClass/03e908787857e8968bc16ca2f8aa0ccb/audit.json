@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_03e908787857e8968bc16ca2f8aa0ccb",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "03e908787857e8968bc16ca2f8aa0ccb",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_chscase_funds",
+    "performance": {
+      "acc": 0.5459,
+      "auc": 0.6526,
+      "specificity": 0.5391,
+      "recall": 0.5529,
+      "precision": 0.5174,
+      "f1": 0.5265
+    }
+  }
+]

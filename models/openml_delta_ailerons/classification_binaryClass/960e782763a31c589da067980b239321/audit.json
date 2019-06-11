@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_960e782763a31c589da067980b239321",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "960e782763a31c589da067980b239321",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_delta_ailerons",
+    "performance": {
+      "acc": 0.9422,
+      "auc": 0.9715,
+      "specificity": 0.9254,
+      "recall": 0.957,
+      "precision": 0.9353,
+      "f1": 0.946
+    }
+  }
+]

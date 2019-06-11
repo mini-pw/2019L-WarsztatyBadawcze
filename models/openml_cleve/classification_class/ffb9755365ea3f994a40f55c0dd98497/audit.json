@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_ffb9755365ea3f994a40f55c0dd98497",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "ffb9755365ea3f994a40f55c0dd98497",
+    "task_id": "classification_class",
+    "dataset_id": "openml_cleve",
+    "performance": {
+      "acc": 0.8184,
+      "auc": 0.8964,
+      "specificity": 0.7892,
+      "recall": 0.8506,
+      "precision": 0.8237,
+      "f1": 0.8344
+    }
+  }
+]

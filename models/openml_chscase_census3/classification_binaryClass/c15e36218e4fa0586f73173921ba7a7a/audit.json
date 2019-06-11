@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_c15e36218e4fa0586f73173921ba7a7a",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "c15e36218e4fa0586f73173921ba7a7a",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_chscase_census3",
+    "performance": {
+      "acc": 0.4725,
+      "auc": 0.4784,
+      "specificity": 0.3396,
+      "recall": 0.6279,
+      "precision": 0.505,
+      "f1": 0.5407
+    }
+  }
+]

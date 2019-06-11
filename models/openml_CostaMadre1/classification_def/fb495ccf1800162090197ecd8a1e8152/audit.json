@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_fb495ccf1800162090197ecd8a1e8152",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "fb495ccf1800162090197ecd8a1e8152",
+    "task_id": "classification_def",
+    "dataset_id": "openml_CostaMadre1",
+    "performance": {
+      "acc": 0.5487,
+      "auc": 0.6533,
+      "specificity": 0.4,
+      "recall": 0.5959,
+      "precision": 0.7113,
+      "f1": 0.5503
+    }
+  }
+]

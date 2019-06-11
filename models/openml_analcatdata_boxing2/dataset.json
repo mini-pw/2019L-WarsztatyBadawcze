@@ -1,0 +1,99 @@
+[
+  {
+    "id": "openml_analcatdata_boxing2",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "name": "analcatdata_boxing2",
+    "source": "openml",
+    "url": "https://www.openml.org/data/v1/download/52556/analcatdata_boxing2.arff",
+    "number_of_features": 4,
+    "number_of_instances": 132,
+    "number_of_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "variables": {
+      "Judge": {
+        "name": "Judge",
+        "type": "categorical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Associated_Press": 12,
+          "B._Logist": 12,
+          "G._Hamada": 12,
+          "HBO-Lederman": 12,
+          "J._Roth": 12,
+          "Las_Vegas_Review-Journal": 12,
+          "Los_Angeles_Times-Kawakami": 12,
+          "Los_Angeles_Times-Springer": 12,
+          "Sportsticker": 12,
+          "USA_Today": 12,
+          "van_de_Wiele": 12
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Official": {
+        "name": "Official",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "No": 96,
+          "Yes": 36
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Round": {
+        "name": "Round",
+        "type": "categorical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 11,
+          "2": 11,
+          "3": 11,
+          "4": 11,
+          "5": 11,
+          "6": 11,
+          "7": 11,
+          "8": 11,
+          "9": 11,
+          "10": 11,
+          "11": 11,
+          "12": 11
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Winner": {
+        "name": "Winner",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Trinidad": 61,
+          "de_la_Hoya": 71
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

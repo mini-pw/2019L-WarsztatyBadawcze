@@ -1,0 +1,91 @@
+[
+  {
+    "id": "7c5d09915a646ac26059cd2c769b4a15",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.svm",
+    "task_id": "classification_Task",
+    "dataset_id": "openml_analcatdata_asbestos",
+    "parameters": {
+      "type": "C-classification",
+      "cost": 1,
+      "nu": 0.5,
+      "class.weights": null,
+      "kernel": "radial",
+      "degree": 3,
+      "coef0": 0,
+      "gamma": null,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing": {
+      "Task": {
+        "name": "Task",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Insulation": 46,
+          "Tile": 37
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Ventilation": {
+        "name": "Ventilation",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "General": 34,
+          "Negative_pressure": 49
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Duration": {
+        "name": "Duration",
+        "type": "numerical",
+        "number_of_unique_values": 63,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 30,
+        "num_1qu": 85,
+        "num_median": 138,
+        "num_mean": 147.0723,
+        "num_3qu": 212.5,
+        "num_maximum": 300
+      },
+      "Exposure": {
+        "name": "Exposure",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "(1)_Low_exposure": 45,
+          "(2)_Action_level": 6,
+          "(3)_Above_legal_limit": 32
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_dcd2a8cc24105485a8ee431df3b982a8",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "dcd2a8cc24105485a8ee431df3b982a8",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_analcatdata_chlamydia",
+    "performance": {
+      "acc": 0.92,
+      "auc": 0.9021,
+      "specificity": 0.875,
+      "recall": 0.9236,
+      "precision": 0.9716,
+      "f1": 0.9464
+    }
+  }
+]

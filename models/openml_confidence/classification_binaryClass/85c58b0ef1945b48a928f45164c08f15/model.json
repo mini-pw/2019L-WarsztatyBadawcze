@@ -1,0 +1,89 @@
+[
+  {
+    "id": "85c58b0ef1945b48a928f45164c08f15",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ada",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_confidence",
+    "parameters": {
+      "loss": "exponential",
+      "type": "discrete",
+      "iter": 50,
+      "nu": 0.1,
+      "bag.frac": 0.5,
+      "model.coef": true,
+      "bag.shift": false,
+      "max.iter": 20,
+      "delta": 1e-010,
+      "verbose": false,
+      "minsplit": 20,
+      "minbucket": null,
+      "cp": 0.01,
+      "maxcompete": 4,
+      "maxsurrogate": 5,
+      "usesurrogate": 2,
+      "surrogatestyle": 0,
+      "maxdepth": 30,
+      "xval": 0
+    },
+    "preprocessing": {
+      "P": {
+        "name": "P",
+        "type": "numerical",
+        "number_of_unique_values": 67,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 50.4,
+        "num_1qu": 89.2,
+        "num_median": 309.95,
+        "num_mean": 338.5736,
+        "num_3qu": 474.225,
+        "num_maximum": 1051.6
+      },
+      "N": {
+        "name": "N",
+        "type": "numerical",
+        "number_of_unique_values": 67,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 120.2,
+        "num_1qu": 209.05,
+        "num_median": 1067.4,
+        "num_mean": 1184.4403,
+        "num_3qu": 2171.025,
+        "num_maximum": 2567
+      },
+      "O": {
+        "name": "O",
+        "type": "numerical",
+        "number_of_unique_values": 70,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 45.9,
+        "num_1qu": 150.3,
+        "num_median": 359.2,
+        "num_mean": 400.6403,
+        "num_3qu": 620.125,
+        "num_maximum": 899.1
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 12,
+          "N": 60
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
