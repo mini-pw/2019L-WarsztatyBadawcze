@@ -1,0 +1,110 @@
+[
+  {
+    "id": "c31c5b2574107095e99f9cb581bf32a1",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.C50",
+    "task_id": "classification_Winner",
+    "dataset_id": "openml_analcatdata_boxing1",
+    "parameters": {
+      "trials": 1,
+      "rules": false,
+      "subset": false,
+      "bands": null,
+      "winnow": false,
+      "noGlobalPruning": false,
+      "CF": 0.25,
+      "minCases": 2,
+      "fuzzyThreshold": false,
+      "sample": 0,
+      "seed": null,
+      "earlyStopping": true,
+      "label": "outcome"
+    },
+    "preprocessing": {
+      "Judge": {
+        "name": "Judge",
+        "type": "categorical",
+        "number_of_unique_values": 10,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Associated_Press": 12,
+          "Boxing_Monthly-Leach": 12,
+          "Boxing_Times": 12,
+          "E._Williams": 12,
+          "ESPN": 12,
+          "HBO-Lederman": 12,
+          "L._OConnell": 12,
+          "S._Christodoulu": 12,
+          "Sportsline": 12,
+          "Sportsticker": 12
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Official": {
+        "name": "Official",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "No": 84,
+          "Yes": 36
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Round": {
+        "name": "Round",
+        "type": "categorical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 10,
+          "2": 10,
+          "3": 10,
+          "4": 10,
+          "5": 10,
+          "6": 10,
+          "7": 10,
+          "8": 10,
+          "9": 10,
+          "10": 10,
+          "11": 10,
+          "12": 10
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Winner": {
+        "name": "Winner",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Holyfield": 42,
+          "Lewis": 78
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

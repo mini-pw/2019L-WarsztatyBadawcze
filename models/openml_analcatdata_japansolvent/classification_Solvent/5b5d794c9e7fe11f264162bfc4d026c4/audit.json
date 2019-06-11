@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_5b5d794c9e7fe11f264162bfc4d026c4",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "5b5d794c9e7fe11f264162bfc4d026c4",
+    "task_id": "classification_Solvent",
+    "dataset_id": "openml_analcatdata_japansolvent",
+    "performance": {
+      "acc": 0.6527,
+      "auc": 0.7492,
+      "specificity": 0.7079,
+      "recall": 0.6143,
+      "precision": 0.7,
+      "f1": 0.5964
+    }
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "eee96174f2d9f775fabf0cc41ff60e48",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.randomForest",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_delta_ailerons",
+    "parameters": {
+      "ntree": 500,
+      "mtry": null,
+      "replace": true,
+      "classwt": null,
+      "cutoff": null,
+      "strata": null,
+      "sampsize": null,
+      "nodesize": 1,
+      "maxnodes": null,
+      "importance": false,
+      "localImp": false,
+      "proximity": false,
+      "oob.prox": null,
+      "norm.votes": true,
+      "do.trace": false,
+      "keep.forest": true,
+      "keep.inbag": false
+    },
+    "preprocessing": {
+      "RollRate": {
+        "name": "RollRate",
+        "type": "numerical",
+        "number_of_unique_values": 304,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.0208,
+        "num_1qu": -0.005,
+        "num_median": 0.0022,
+        "num_mean": 0.0005,
+        "num_3qu": 0.0055,
+        "num_maximum": 0.0177
+      },
+      "PitchRate": {
+        "name": "PitchRate",
+        "type": "numerical",
+        "number_of_unique_values": 147,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.0077,
+        "num_1qu": -0.0002,
+        "num_median": 0.0009,
+        "num_mean": 0.001,
+        "num_3qu": 0.0022,
+        "num_maximum": 0.0108
+      },
+      "currPitch": {
+        "name": "currPitch",
+        "type": "numerical",
+        "number_of_unique_values": 44,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.006,
+        "num_1qu": 0.007,
+        "num_median": 0.01,
+        "num_mean": 0.0108,
+        "num_3qu": 0.014,
+        "num_maximum": 0.041
+      },
+      "currRoll": {
+        "name": "currRoll",
+        "type": "numerical",
+        "number_of_unique_values": 99,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.05,
+        "num_1qu": -0.009,
+        "num_median": 0.004,
+        "num_mean": 0.0026,
+        "num_3qu": 0.012,
+        "num_maximum": 0.051
+      },
+      "diffRollRate": {
+        "name": "diffRollRate",
+        "type": "numerical",
+        "number_of_unique_values": 163,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.0015,
+        "num_1qu": -0.0001,
+        "num_median": -0,
+        "num_mean": -0,
+        "num_3qu": 0.0001,
+        "num_maximum": 0.0008
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 3783,
+          "N": 3346
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

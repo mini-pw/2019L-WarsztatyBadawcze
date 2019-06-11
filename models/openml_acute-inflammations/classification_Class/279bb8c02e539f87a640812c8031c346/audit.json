@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_279bb8c02e539f87a640812c8031c346",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "279bb8c02e539f87a640812c8031c346",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_acute-inflammations",
+    "performance": {
+      "acc": 1,
+      "auc": 1,
+      "specificity": 1,
+      "recall": 1,
+      "precision": 1,
+      "f1": 1
+    }
+  }
+]

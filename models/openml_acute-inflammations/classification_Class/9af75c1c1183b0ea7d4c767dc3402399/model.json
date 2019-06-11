@@ -1,0 +1,150 @@
+[
+  {
+    "id": "9af75c1c1183b0ea7d4c767dc3402399",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.earth",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_acute-inflammations",
+    "parameters": {
+      "trace": 0,
+      "keepxy": false,
+      "degree": 1,
+      "penalty": null,
+      "nk": null,
+      "thresh": 0.001,
+      "minspan": 0,
+      "endspan": 0,
+      "newvar.penalty": 0,
+      "fast.k": 20,
+      "fast.beta": 1,
+      "pmethod": "backward",
+      "nprune": null,
+      "ncross": 1,
+      "nfold": 0,
+      "stratify": true,
+      "linpreds": false,
+      "link": "logit",
+      "maxit": 25,
+      "allowed": null,
+      "Adjust.endspan": 2,
+      "Force.weights": false,
+      "Use.beta.cache": true,
+      "Force.xtx.prune": false,
+      "Get.leverages": true,
+      "Exhaustive.tol": 1e-010
+    },
+    "preprocessing": {
+      "V1": {
+        "name": "V1",
+        "type": "numerical",
+        "number_of_unique_values": 44,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 35.5,
+        "num_1qu": 37.1,
+        "num_median": 37.95,
+        "num_mean": 38.7242,
+        "num_3qu": 40.6,
+        "num_maximum": 41.5
+      },
+      "V2": {
+        "name": "V2",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 91,
+          "yes": 29
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V3": {
+        "name": "V3",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 50,
+          "yes": 70
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V4": {
+        "name": "V4",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 40,
+          "yes": 80
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V5": {
+        "name": "V5",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 61,
+          "yes": 59
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V6": {
+        "name": "V6",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 70,
+          "yes": 50
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Class": {
+        "name": "Class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 61,
+          "yes": 59
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

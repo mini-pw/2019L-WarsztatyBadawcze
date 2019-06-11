@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_8b323dbd3d48b42605b69e41e4bc1e53",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "8b323dbd3d48b42605b69e41e4bc1e53",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_diggle_table_a1",
+    "performance": {
+      "acc": 0.6511,
+      "auc": 0.7083,
+      "specificity": 0.6167,
+      "recall": 0.7,
+      "precision": 0.6879,
+      "f1": 0.6533
+    }
+  }
+]

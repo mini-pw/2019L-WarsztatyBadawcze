@@ -1,0 +1,120 @@
+[
+  {
+    "id": "bd61f9b76fab6cb766d24b36bdc9af0e",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ranger",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_analcatdata_michiganacc",
+    "parameters": {
+      "num.trees": 500,
+      "mtry": null,
+      "mtry.perc": null,
+      "min.node.size": null,
+      "replace": true,
+      "sample.fraction": null,
+      "split.select.weights": null,
+      "always.split.variables": null,
+      "respect.unordered.factors": "order",
+      "importance": "none",
+      "write.forest": true,
+      "scale.permutation.importance": false,
+      "num.threads": 1,
+      "save.memory": false,
+      "verbose": false,
+      "seed": null,
+      "splitrule": "gini",
+      "num.random.splits": 1,
+      "keep.inbag": false
+    },
+    "preprocessing": {
+      "Time_index": {
+        "name": "Time_index",
+        "type": "numerical",
+        "number_of_unique_values": 108,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 27.75,
+        "num_median": 54.5,
+        "num_mean": 54.5,
+        "num_3qu": 81.25,
+        "num_maximum": 108
+      },
+      "Season": {
+        "name": "Season",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Autumn": 27,
+          "Spring": 27,
+          "Summer": 27,
+          "Winter": 27
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Month": {
+        "name": "Month",
+        "type": "categorical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "April": 9,
+          "August": 9,
+          "December": 9,
+          "February": 9,
+          "January": 9,
+          "July": 9,
+          "June": 9,
+          "March": 9,
+          "May": 9,
+          "November": 9,
+          "October": 9,
+          "September": 9
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Unemployment_rate": {
+        "name": "Unemployment_rate",
+        "type": "numerical",
+        "number_of_unique_values": 39,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 7,
+        "num_1qu": 8.75,
+        "num_median": 11,
+        "num_mean": 11.2241,
+        "num_3qu": 13.0625,
+        "num_maximum": 17.25
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 60,
+          "N": 48
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

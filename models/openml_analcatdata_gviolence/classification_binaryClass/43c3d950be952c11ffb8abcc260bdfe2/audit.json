@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_43c3d950be952c11ffb8abcc260bdfe2",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "43c3d950be952c11ffb8abcc260bdfe2",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_analcatdata_gviolence",
+    "performance": {
+      "acc": 0.96,
+      "auc": 0.9881,
+      "specificity": 1,
+      "recall": 0.9417,
+      "precision": 1,
+      "f1": 0.9685
+    }
+  }
+]

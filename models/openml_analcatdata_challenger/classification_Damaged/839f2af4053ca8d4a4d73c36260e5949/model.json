@@ -1,0 +1,70 @@
+[
+  {
+    "id": "839f2af4053ca8d4a4d73c36260e5949",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.nodeHarvest",
+    "task_id": "classification_Damaged",
+    "dataset_id": "openml_analcatdata_challenger",
+    "parameters": {
+      "nodesize": 10,
+      "nodes": 1000,
+      "maxinter": 2,
+      "mode": "mean",
+      "lambda": null,
+      "addto": null,
+      "onlyinter": null,
+      "silent": false,
+      "biascorr": false
+    },
+    "preprocessing": {
+      "Temperature": {
+        "name": "Temperature",
+        "type": "numerical",
+        "number_of_unique_values": 16,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 53,
+        "num_1qu": 67,
+        "num_median": 70,
+        "num_mean": 69.5652,
+        "num_3qu": 75,
+        "num_maximum": 81
+      },
+      "Pressure": {
+        "name": "Pressure",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "50": 36,
+          "100": 12,
+          "200": 90
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Damaged": {
+        "name": "Damaged",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 129,
+          "1": 9
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
