@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_house_8L",
+    "id": "classification_binaryClass",
     "added_by": "MatiFilozof",
     "date": "19-03-2019",
-    "dataset_id": "house_8L",
+    "dataset_id": "openml_house_8L",
     "type": "classification",
     "target": "binaryClass"
   }

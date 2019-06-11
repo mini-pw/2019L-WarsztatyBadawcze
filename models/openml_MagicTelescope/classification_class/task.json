@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_class.",
+    "added_by": "Pastuszka",
+    "date": "02-04-2019",
+    "dataset_id": "openml_MagicTelescope",
+    "type": "classification",
+    "target": "class."
+  }
+]

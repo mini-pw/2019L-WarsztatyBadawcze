@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_1e3d0b0fd84b7052436970f6efa80d52",
+    "date": "31-03-2019",
+    "added_by": "GoniaW",
+    "model_id": "1e3d0b0fd84b7052436970f6efa80d52",
+    "task_id": "classification_class",
+    "dataset_id": "openml_diabetes",
+    "performance": {
+      "acc": 0.7408,
+      "auc": 0.786,
+      "specificity": 0.5543,
+      "recall": 0.8436,
+      "precision": 0.778,
+      "f1": 0.8081
+    }
+  }
+]

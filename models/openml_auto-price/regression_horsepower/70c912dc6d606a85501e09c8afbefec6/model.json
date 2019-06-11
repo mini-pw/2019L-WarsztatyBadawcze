@@ -6,7 +6,7 @@
     "library": "mlr",
     "model_name": "regr.glm",
     "task_id": "regression_horsepower",
-    "dataset_id": "auto_price",
+    "dataset_id": "openml_auto-price",
     "parameters": {
       "family": "gaussian",
       "gaussia.link": "identity",

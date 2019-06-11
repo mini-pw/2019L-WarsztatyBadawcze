@@ -7,10 +7,10 @@
     "task_id": "regression_V9",
     "dataset_id": "openml_fertility",
     "performance": {
-      "mse": 0.02866844,
-      "rmse": 0.1693176,
-      "mae": 0.1349821,
-      "r2": 0.1929768
+      "mse": 0.0287,
+      "rmse": 0.1693,
+      "mae": 0.135,
+      "r2": 0.193
     }
   }
 ]

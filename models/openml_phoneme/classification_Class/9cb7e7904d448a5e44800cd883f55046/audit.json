@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_9cb7e7904d448a5e44800cd883f55046",
+    "date": "10-04-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "9cb7e7904d448a5e44800cd883f55046",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_phoneme",
+    "performance": {
+      "acc": 0.7526,
+      "auc": 0.8096,
+      "specificity": 0.4689,
+      "recall": 0.8704,
+      "precision": 0.7979,
+      "f1": 0.8325
+    }
+  }
+]

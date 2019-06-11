@@ -8,9 +8,9 @@
     "dataset_id": "openml_rmftsa-sleepdata",
     "performance": {
       "mse": 196.9509,
-      "rmse":  14.03392,
-      "mae":  10.76249,
-      "r2":  0.1509261
+      "rmse": 14.0339,
+      "mae": 10.7625,
+      "r2": 0.1509
     }
   }
-] 
+]

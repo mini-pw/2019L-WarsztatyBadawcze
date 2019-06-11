@@ -5,12 +5,12 @@
     "added_by": "airi314",
     "model_id": "8c7201f5db885d565ad832b943dee3dc",
     "task_id": "regression_mcv",
-    "dataset_id": "openml_liver_disorders",
+    "dataset_id": "openml_liver-disorders",
     "performance": {
-      "mse": 18.11284,
-      "rmse": 4.255918,
-      "mae": 3.280137,
-      "r2": 0.1018167
+      "mse": 18.1128,
+      "rmse": 4.2559,
+      "mae": 3.2801,
+      "r2": 0.1018
     }
   }
 ]

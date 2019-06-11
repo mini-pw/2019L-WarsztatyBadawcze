@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Class",
+    "added_by": "MatiFilozof",
+    "date": "04-04-2019",
+    "dataset_id": "openml_dresses-sales",
+    "type": "classification",
+    "target": "Class"
+  }
+]
