@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_disclosure_x_tampered",
+    "id": "regression_Income",
     "added_by": "MatiFilozof",
     "date": "24-03-2019",
-    "dataset_id": "disclosure_x_tampered",
+    "dataset_id": "openml_disclosure_x_tampered",
     "type": "regression",
     "target": "Income"
   }

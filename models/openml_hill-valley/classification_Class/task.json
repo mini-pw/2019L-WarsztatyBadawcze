@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_hill-valley",
+    "id": "classification_Class",
     "added_by": "MatiFilozof",
     "date": "10-04-2019",
-    "dataset_id": "hill-valley",
+    "dataset_id": "openml_hill-valley",
     "type": "classification",
     "target": "Class"
   }

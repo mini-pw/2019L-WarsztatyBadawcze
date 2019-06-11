@@ -1,59 +1,59 @@
 [
-    {
-        "id": "50ba59b8635b51e0543bc1498621b28d",
-        "added_by": "mckraqs",
-        "date": "30-03-2019",
-        "library": "scikit",
-        "model_name": "KNeighborsClassifier",
-        "task_id": "classification_Class",
-        "dataset_id": "skin-segmentation",
-        "parameters": {
-            "algorithm": "auto",
-            "leaf_size": 30,
-            "metric": "minkowski",
-            "metric_params": null,
-            "n_jobs": null,
-            "n_neighbors": 13,
-            "p": 2,
-            "weights": "uniform"
-        },
-        "preprocessing": {
-            "V1": {
-                "name": "V1",
-                "type": "numerical",
-                "number_of_unique_values": 256,
-                "number_of_missing_values": 0,
-                "cat_frequencies": null,
-                "num_minimum": 0.0,
-                "num_1qu": 68.0,
-                "num_median": 139.0,
-                "num_3q": 176.0,
-                "num_maximum": 255.0
-            },
-            "V2": {
-                "name": "V2",
-                "type": "numerical",
-                "number_of_unique_values": 256,
-                "number_of_missing_values": 0,
-                "cat_frequencies": null,
-                "num_minimum": 0.0,
-                "num_1qu": 87.0,
-                "num_median": 153.0,
-                "num_3q": 177.0,
-                "num_maximum": 255.0
-            },
-            "V3": {
-                "name": "V3",
-                "type": "numerical",
-                "number_of_unique_values": 256,
-                "number_of_missing_values": 0,
-                "cat_frequencies": null,
-                "num_minimum": 0.0,
-                "num_1qu": 71.0,
-                "num_median": 128.0,
-                "num_3q": 165.0,
-                "num_maximum": 255.0
-            }
-        }
+  {
+    "id": "50ba59b8635b51e0543bc1498621b28d",
+    "added_by": "mckraqs",
+    "date": "30-03-2019",
+    "library": "scikit",
+    "model_name": "KNeighborsClassifier",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_skin-segmentation",
+    "parameters": {
+      "algorithm": "auto",
+      "leaf_size": 30,
+      "metric": "minkowski",
+      "metric_params": null,
+      "n_jobs": null,
+      "n_neighbors": 13,
+      "p": 2,
+      "weights": "uniform"
+    },
+    "preprocessing": {
+      "V1": {
+        "name": "V1",
+        "type": "numerical",
+        "number_of_unique_values": 256,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 68,
+        "num_median": 139,
+        "num_3q": 176,
+        "num_maximum": 255
+      },
+      "V2": {
+        "name": "V2",
+        "type": "numerical",
+        "number_of_unique_values": 256,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 87,
+        "num_median": 153,
+        "num_3q": 177,
+        "num_maximum": 255
+      },
+      "V3": {
+        "name": "V3",
+        "type": "numerical",
+        "number_of_unique_values": 256,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 71,
+        "num_median": 128,
+        "num_3q": 165,
+        "num_maximum": 255
+      }
     }
+  }
 ]
