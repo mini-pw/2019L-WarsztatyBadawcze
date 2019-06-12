@@ -1,0 +1,58 @@
+[
+  {
+    "id": "openml_balloon",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "name": "balloon",
+    "source": "openml",
+    "url": "https://www.openml.org/data/v1/download/53448/balloon.arff",
+    "number_of_features": 3,
+    "number_of_instances": 2001,
+    "number_of_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "variables": {
+      "id": {
+        "name": "id",
+        "type": "numerical",
+        "number_of_unique_values": 2001,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 501,
+        "num_median": 1001,
+        "num_mean": 1001,
+        "num_3qu": 1501,
+        "num_maximum": 2001
+      },
+      "raw": {
+        "name": "raw",
+        "type": "numerical",
+        "number_of_unique_values": 56,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.58,
+        "num_1qu": 2,
+        "num_median": 2.14,
+        "num_mean": 2.0958,
+        "num_3qu": 2.22,
+        "num_maximum": 2.36
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 482,
+          "N": 1519
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_3149aa5f3bd7e5e8bc617c5b40a1ff85",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "3149aa5f3bd7e5e8bc617c5b40a1ff85",
+    "task_id": "classification_isPresent",
+    "dataset_id": "openml_conference_attendance",
+    "performance": {
+      "acc": 0.8739,
+      "auc": 0.5,
+      "specificity": 0,
+      "recall": 1,
+      "precision": 0.8739,
+      "f1": 0.9325
+    }
+  }
+]

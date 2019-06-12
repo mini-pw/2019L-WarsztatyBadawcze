@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_c3464b0e37d00979042d53162ee8ed96",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "c3464b0e37d00979042d53162ee8ed96",
+    "task_id": "classification_Laid.off",
+    "dataset_id": "openml_analcatdata_lawsuit",
+    "performance": {
+      "acc": 0.9811,
+      "auc": 0.9571,
+      "specificity": 0.87,
+      "recall": 0.9916,
+      "precision": 0.9878,
+      "f1": 0.9896
+    }
+  }
+]

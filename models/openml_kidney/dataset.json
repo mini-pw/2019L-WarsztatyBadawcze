@@ -1,0 +1,121 @@
+[
+  {
+    "id": "openml_kidney",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "name": "kidney",
+    "source": "openml",
+    "url": "https://www.openml.org/data/v1/download/53479/kidney.arff",
+    "number_of_features": 7,
+    "number_of_instances": 76,
+    "number_of_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "variables": {
+      "patient": {
+        "name": "patient",
+        "type": "numerical",
+        "number_of_unique_values": 38,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 10,
+        "num_median": 19.5,
+        "num_mean": 19.5,
+        "num_3qu": 29,
+        "num_maximum": 38
+      },
+      "time": {
+        "name": "time",
+        "type": "numerical",
+        "number_of_unique_values": 60,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2,
+        "num_1qu": 16,
+        "num_median": 39.5,
+        "num_mean": 101.6316,
+        "num_3qu": 149.75,
+        "num_maximum": 562
+      },
+      "status": {
+        "name": "status",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 18,
+          "1": 58
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "age": {
+        "name": "age",
+        "type": "numerical",
+        "number_of_unique_values": 30,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 10,
+        "num_1qu": 34,
+        "num_median": 45.5,
+        "num_mean": 43.6974,
+        "num_3qu": 54,
+        "num_maximum": 69
+      },
+      "sex": {
+        "name": "sex",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "female": 56,
+          "male": 20
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "disease_type": {
+        "name": "disease_type",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Acute_Nephritis": 24,
+          "Glomerulo_Nephritis": 18,
+          "Other": 26,
+          "Polycystic_Kidney_Disease": 8
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 40,
+          "N": 36
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

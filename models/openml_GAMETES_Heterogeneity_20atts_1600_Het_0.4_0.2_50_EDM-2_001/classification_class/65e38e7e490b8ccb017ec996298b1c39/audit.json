@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_65e38e7e490b8ccb017ec996298b1c39",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "65e38e7e490b8ccb017ec996298b1c39",
+    "task_id": "classification_class",
+    "dataset_id": "openml_GAMETES_Heterogeneity_20atts_1600_Het_0.4_0.2_50_EDM-2_001",
+    "performance": {
+      "acc": 0.6975,
+      "auc": 0.7546,
+      "specificity": 0.7114,
+      "recall": 0.6841,
+      "precision": 0.7049,
+      "f1": 0.6933
+    }
+  }
+]

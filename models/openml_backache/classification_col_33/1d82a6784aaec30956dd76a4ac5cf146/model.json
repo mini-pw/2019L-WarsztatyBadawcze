@@ -1,0 +1,547 @@
+[
+  {
+    "id": "1d82a6784aaec30956dd76a4ac5cf146",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.plr",
+    "task_id": "classification_col_33",
+    "dataset_id": "openml_backache",
+    "parameters": {
+      "lambda": 0.0001,
+      "cp.type": "bic",
+      "cp": 2
+    },
+    "preprocessing": {
+      "id": {
+        "name": "id",
+        "type": "numerical",
+        "number_of_unique_values": 180,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 45.75,
+        "num_median": 90.5,
+        "num_mean": 90.5,
+        "num_3qu": 135.25,
+        "num_maximum": 180
+      },
+      "col_2": {
+        "name": "col_2",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 13,
+          "1": 80,
+          "2": 60,
+          "3": 27
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_3": {
+        "name": "col_3",
+        "type": "categorical",
+        "number_of_unique_values": 10,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 62,
+          "1": 2,
+          "2": 6,
+          "3": 10,
+          "4": 11,
+          "5": 14,
+          "6": 26,
+          "7": 26,
+          "8": 21,
+          "9": 2
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_4": {
+        "name": "col_4",
+        "type": "numerical",
+        "number_of_unique_values": 26,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 15,
+        "num_1qu": 22,
+        "num_median": 25,
+        "num_mean": 26.0222,
+        "num_3qu": 29,
+        "num_maximum": 42
+      },
+      "col_5": {
+        "name": "col_5",
+        "type": "numerical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1.47,
+        "num_1qu": 1.55,
+        "num_median": 1.6,
+        "num_mean": 1.6069,
+        "num_3qu": 1.65,
+        "num_maximum": 1.75
+      },
+      "col_6": {
+        "name": "col_6",
+        "type": "numerical",
+        "number_of_unique_values": 68,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 38.2,
+        "num_1qu": 52.3,
+        "num_median": 58.4,
+        "num_mean": 59.64,
+        "num_3qu": 65.9,
+        "num_maximum": 95.5
+      },
+      "col_7": {
+        "name": "col_7",
+        "type": "numerical",
+        "number_of_unique_values": 77,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 47.3,
+        "num_1qu": 63.075,
+        "num_median": 70,
+        "num_mean": 70.6783,
+        "num_3qu": 77.3,
+        "num_maximum": 100
+      },
+      "col_8": {
+        "name": "col_8",
+        "type": "numerical",
+        "number_of_unique_values": 63,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1.08,
+        "num_1qu": 2.84,
+        "num_median": 3.24,
+        "num_mean": 3.2171,
+        "num_3qu": 3.5875,
+        "num_maximum": 6.28
+      },
+      "col_9": {
+        "name": "col_9",
+        "type": "categorical",
+        "number_of_unique_values": 8,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 101,
+          "1": 52,
+          "2": 12,
+          "3": 7,
+          "4": 3,
+          "5": 3,
+          "6": 1,
+          "7": 1
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_10": {
+        "name": "col_10",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 26,
+          "1": 83,
+          "2": 33,
+          "3": 28,
+          "4": 10
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_11": {
+        "name": "col_11",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 157,
+          "1": 23
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_12": {
+        "name": "col_12",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 171,
+          "1": 9
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_13": {
+        "name": "col_13",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 165,
+          "1": 15
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_14": {
+        "name": "col_14",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 123,
+          "1": 57
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_15": {
+        "name": "col_15",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 171,
+          "1": 9
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_16": {
+        "name": "col_16",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 160,
+          "1": 20
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_17": {
+        "name": "col_17",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 142,
+          "1": 38
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_18": {
+        "name": "col_18",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 175,
+          "1": 5
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_19": {
+        "name": "col_19",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 141,
+          "1": 39
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_20": {
+        "name": "col_20",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 150,
+          "1": 30
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_21": {
+        "name": "col_21",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 156,
+          "1": 24
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_22": {
+        "name": "col_22",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 145,
+          "1": 35
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_23": {
+        "name": "col_23",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 166,
+          "1": 14
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_24": {
+        "name": "col_24",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 143,
+          "1": 37
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_25": {
+        "name": "col_25",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 179,
+          "1": 1
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_26": {
+        "name": "col_26",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 176,
+          "1": 4
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_27": {
+        "name": "col_27",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 176,
+          "1": 4
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_28": {
+        "name": "col_28",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 177,
+          "1": 3
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_29": {
+        "name": "col_29",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 170,
+          "1": 10
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_30": {
+        "name": "col_30",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 133,
+          "1": 47
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_31": {
+        "name": "col_31",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 150,
+          "1": 30
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_32": {
+        "name": "col_32",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 166,
+          "1": 14
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "col_33": {
+        "name": "col_33",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 155,
+          "1": 25
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

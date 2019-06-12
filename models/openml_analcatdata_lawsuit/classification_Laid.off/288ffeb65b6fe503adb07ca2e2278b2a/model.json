@@ -1,0 +1,100 @@
+[
+  {
+    "id": "288ffeb65b6fe503adb07ca2e2278b2a",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.svm",
+    "task_id": "classification_Laid.off",
+    "dataset_id": "openml_analcatdata_lawsuit",
+    "parameters": {
+      "type": "C-classification",
+      "cost": 1,
+      "nu": 0.5,
+      "class.weights": null,
+      "kernel": "radial",
+      "degree": 3,
+      "coef0": 0,
+      "gamma": null,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing": {
+      "Length.of.service": {
+        "name": "Length.of.service",
+        "type": "numerical",
+        "number_of_unique_values": 206,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.69,
+        "num_1qu": 7.165,
+        "num_median": 10.425,
+        "num_mean": 12.6257,
+        "num_3qu": 17.87,
+        "num_maximum": 42.89
+      },
+      "CAP": {
+        "name": "CAP",
+        "type": "numerical",
+        "number_of_unique_values": 53,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 6,
+        "num_1qu": 27,
+        "num_median": 36.5,
+        "num_mean": 35.5644,
+        "num_3qu": 45,
+        "num_maximum": 60
+      },
+      "PA.normalized": {
+        "name": "PA.normalized",
+        "type": "numerical",
+        "number_of_unique_values": 29,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1.11,
+        "num_1qu": 17.7875,
+        "num_median": 20.01,
+        "num_mean": 20.182,
+        "num_3qu": 24.45,
+        "num_maximum": 30
+      },
+      "Minority": {
+        "name": "Minority",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 167,
+          "1": 97
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Laid.off": {
+        "name": "Laid.off",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 245,
+          "1": 19
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

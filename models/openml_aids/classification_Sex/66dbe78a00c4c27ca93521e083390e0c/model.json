@@ -1,0 +1,110 @@
+[
+  {
+    "id": "66dbe78a00c4c27ca93521e083390e0c",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.rda",
+    "task_id": "classification_Sex",
+    "dataset_id": "openml_aids",
+    "parameters": {
+      "lambda": null,
+      "gamma": null,
+      "crossval": true,
+      "fold": 10,
+      "train.fraction": 0.5,
+      "output": false,
+      "schedule": 2,
+      "T.start": 0.1,
+      "halflife": 50,
+      "zero.temp": 0.01,
+      "alpha": 2,
+      "K": 100,
+      "trafo": true,
+      "simAnn": false,
+      "estimate.error": false
+    },
+    "preprocessing": {
+      "Sex": {
+        "name": "Sex",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Female": 25,
+          "Male": 25
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Age": {
+        "name": "Age",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "15-24": 10,
+          "25-34": 10,
+          "35-44": 10,
+          "45-54": 10,
+          "55_&_older": 10
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Race": {
+        "name": "Race",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "American_Indian_&_Alaska_Native": 10,
+          "Asian_&_Pacific_Islander": 10,
+          "Black_not_Hispanic": 10,
+          "Hispanic": 10,
+          "White_not_Hispanic": 10
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "AIDS": {
+        "name": "AIDS",
+        "type": "numerical",
+        "number_of_unique_values": 50,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 3,
+        "num_1qu": 114.5,
+        "num_median": 1640,
+        "num_mean": 9037.02,
+        "num_3qu": 9073.75,
+        "num_maximum": 82334
+      },
+      "Total": {
+        "name": "Total",
+        "type": "numerical",
+        "number_of_unique_values": 50,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 162616,
+        "num_1qu": 702786.5,
+        "num_median": 1616417.5,
+        "num_mean": 4423370.62,
+        "num_3qu": 2806359.25,
+        "num_maximum": 22686934
+      }
+    }
+  }
+]

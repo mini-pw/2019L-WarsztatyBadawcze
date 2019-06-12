@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_61950fc08523d2de26ca19f8d748d97c",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "61950fc08523d2de26ca19f8d748d97c",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_arsenic-female-lung",
+    "performance": {
+      "acc": 0.9821,
+      "auc": null,
+      "specificity": null,
+      "recall": 0.9962,
+      "precision": 0.9852,
+      "f1": 0.9906
+    }
+  }
+]

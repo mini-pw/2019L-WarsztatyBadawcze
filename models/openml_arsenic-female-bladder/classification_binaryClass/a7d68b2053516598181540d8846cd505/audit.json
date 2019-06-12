@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_a7d68b2053516598181540d8846cd505",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "a7d68b2053516598181540d8846cd505",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_arsenic-female-bladder",
+    "performance": {
+      "acc": 0.8229,
+      "auc": 0.7825,
+      "specificity": 0.1967,
+      "recall": 0.9239,
+      "precision": 0.8757,
+      "f1": 0.8971
+    }
+  }
+]

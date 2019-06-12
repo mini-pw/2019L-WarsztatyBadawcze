@@ -1,0 +1,184 @@
+[
+  {
+    "id": "003867f5abd7d95cfee247ff472a0969",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.logreg",
+    "task_id": "classification_class",
+    "dataset_id": "openml_badges2",
+    "parameters": {
+      "model": false
+    },
+    "preprocessing": {
+      "ID": {
+        "name": "ID",
+        "type": "numerical",
+        "number_of_unique_values": 294,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 74.25,
+        "num_median": 147.5,
+        "num_mean": 147.5,
+        "num_3qu": 220.75,
+        "num_maximum": 294
+      },
+      "length": {
+        "name": "length",
+        "type": "numerical",
+        "number_of_unique_values": 16,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 7,
+        "num_1qu": 12,
+        "num_median": 14,
+        "num_mean": 14.034,
+        "num_3qu": 16,
+        "num_maximum": 25
+      },
+      "even_odd": {
+        "name": "even_odd",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 140,
+          "1": 154
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "first_char_vowel": {
+        "name": "first_char_vowel",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 267,
+          "1": 27
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "second_char_vowel": {
+        "name": "second_char_vowel",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 84,
+          "1": 210
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "vowels": {
+        "name": "vowels",
+        "type": "numerical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2,
+        "num_1qu": 4,
+        "num_median": 4,
+        "num_mean": 4.6429,
+        "num_3qu": 5,
+        "num_maximum": 10
+      },
+      "consonants": {
+        "name": "consonants",
+        "type": "numerical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 3,
+        "num_1qu": 7,
+        "num_median": 8,
+        "num_mean": 7.9082,
+        "num_3qu": 9,
+        "num_maximum": 16
+      },
+      "vowel_consonant_ratio": {
+        "name": "vowel_consonant_ratio",
+        "type": "numerical",
+        "number_of_unique_values": 40,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.25,
+        "num_1qu": 0.4425,
+        "num_median": 0.57,
+        "num_mean": 0.611,
+        "num_3qu": 0.71,
+        "num_maximum": 1.75
+      },
+      "spaces": {
+        "name": "spaces",
+        "type": "numerical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 1,
+        "num_median": 1,
+        "num_mean": 1.2551,
+        "num_3qu": 1,
+        "num_maximum": 3
+      },
+      "dots": {
+        "name": "dots",
+        "type": "numerical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.2279,
+        "num_3qu": 0,
+        "num_maximum": 2
+      },
+      "words": {
+        "name": "words",
+        "type": "numerical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2,
+        "num_1qu": 2,
+        "num_median": 2,
+        "num_mean": 2.2551,
+        "num_3qu": 2,
+        "num_maximum": 4
+      },
+      "class": {
+        "name": "class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "-": 84,
+          "+": 210
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

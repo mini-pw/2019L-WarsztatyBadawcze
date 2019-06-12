@@ -1,0 +1,76 @@
+[
+  {
+    "id": "947556e0c0a85b56f19ffc134b162af1",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ranger",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_balloon",
+    "parameters": {
+      "num.trees": 500,
+      "mtry": null,
+      "mtry.perc": null,
+      "min.node.size": null,
+      "replace": true,
+      "sample.fraction": null,
+      "split.select.weights": null,
+      "always.split.variables": null,
+      "respect.unordered.factors": "order",
+      "importance": "none",
+      "write.forest": true,
+      "scale.permutation.importance": false,
+      "num.threads": 1,
+      "save.memory": false,
+      "verbose": false,
+      "seed": null,
+      "splitrule": "gini",
+      "num.random.splits": 1,
+      "keep.inbag": false
+    },
+    "preprocessing": {
+      "id": {
+        "name": "id",
+        "type": "numerical",
+        "number_of_unique_values": 2001,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 501,
+        "num_median": 1001,
+        "num_mean": 1001,
+        "num_3qu": 1501,
+        "num_maximum": 2001
+      },
+      "raw": {
+        "name": "raw",
+        "type": "numerical",
+        "number_of_unique_values": 56,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.58,
+        "num_1qu": 2,
+        "num_median": 2.14,
+        "num_mean": 2.0958,
+        "num_3qu": 2.22,
+        "num_maximum": 2.36
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 482,
+          "N": 1519
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

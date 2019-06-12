@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Class",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "dataset_id": "openml_FOREX_usdcad-day-High",
+    "type": "classification",
+    "target": "Class"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_2eb196ed7fe75258b0a89c13550cd76f",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "2eb196ed7fe75258b0a89c13550cd76f",
+    "task_id": "classification_def",
+    "dataset_id": "openml_KnuggetChase3",
+    "performance": {
+      "acc": 0.7729,
+      "auc": 0.6867,
+      "specificity": 0.3115,
+      "recall": 0.8899,
+      "precision": 0.8462,
+      "f1": 0.8637
+    }
+  }
+]
