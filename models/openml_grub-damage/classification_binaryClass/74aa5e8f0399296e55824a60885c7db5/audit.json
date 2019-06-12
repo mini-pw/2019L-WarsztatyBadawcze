@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_74aa5e8f0399296e55824a60885c7db5",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "74aa5e8f0399296e55824a60885c7db5",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_grub-damage",
+    "performance": {
+      "acc": 0.7677,
+      "auc": 0.7881,
+      "specificity": 0.8052,
+      "recall": 0.6339,
+      "precision": 0.6006,
+      "f1": 0.6154
+    }
+  }
+]

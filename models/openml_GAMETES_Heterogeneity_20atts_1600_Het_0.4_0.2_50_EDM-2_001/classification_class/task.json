@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_class",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "dataset_id": "openml_GAMETES_Heterogeneity_20atts_1600_Het_0.4_0.2_50_EDM-2_001",
+    "type": "classification",
+    "target": "class"
+  }
+]

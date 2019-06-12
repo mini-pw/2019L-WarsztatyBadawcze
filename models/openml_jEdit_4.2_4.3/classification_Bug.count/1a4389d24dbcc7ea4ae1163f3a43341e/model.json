@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1a4389d24dbcc7ea4ae1163f3a43341e",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.randomForest",
+    "task_id": "classification_Bug.count",
+    "dataset_id": "openml_jEdit_4.2_4.3",
+    "parameters": {
+      "ntree": 500,
+      "mtry": null,
+      "replace": true,
+      "classwt": null,
+      "cutoff": null,
+      "strata": null,
+      "sampsize": null,
+      "nodesize": 1,
+      "maxnodes": null,
+      "importance": false,
+      "localImp": false,
+      "proximity": false,
+      "oob.prox": null,
+      "norm.votes": true,
+      "do.trace": false,
+      "keep.forest": true,
+      "keep.inbag": false
+    },
+    "preprocessing": {
+      "WMC": {
+        "name": "WMC",
+        "type": "numerical",
+        "number_of_unique_values": 48,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 3,
+        "num_median": 5,
+        "num_mean": 11.6558,
+        "num_3qu": 11,
+        "num_maximum": 351
+      },
+      "DIT": {
+        "name": "DIT",
+        "type": "numerical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 2,
+        "num_mean": 2.4011,
+        "num_3qu": 3,
+        "num_maximum": 8
+      },
+      "NOC": {
+        "name": "NOC",
+        "type": "numerical",
+        "number_of_unique_values": 15,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.7073,
+        "num_3qu": 0,
+        "num_maximum": 38
+      },
+      "CBO": {
+        "name": "CBO",
+        "type": "numerical",
+        "number_of_unique_values": 53,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 4,
+        "num_median": 9,
+        "num_mean": 13.4553,
+        "num_3qu": 18,
+        "num_maximum": 125
+      },
+      "RFC": {
+        "name": "RFC",
+        "type": "numerical",
+        "number_of_unique_values": 114,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 20,
+        "num_median": 32,
+        "num_mean": 169.9756,
+        "num_3qu": 69,
+        "num_maximum": 862
+      },
+      "LCOM": {
+        "name": "LCOM",
+        "type": "numerical",
+        "number_of_unique_values": 65,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 59,
+        "num_mean": 48.8645,
+        "num_3qu": 77,
+        "num_maximum": 100
+      },
+      "NPM": {
+        "name": "NPM",
+        "type": "numerical",
+        "number_of_unique_values": 39,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 3,
+        "num_mean": 7.6829,
+        "num_3qu": 8,
+        "num_maximum": 214
+      },
+      "LOC": {
+        "name": "LOC",
+        "type": "numerical",
+        "number_of_unique_values": 229,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 3,
+        "num_1qu": 39,
+        "num_median": 94,
+        "num_mean": 225.2764,
+        "num_3qu": 216,
+        "num_maximum": 5317
+      },
+      "Bug.count": {
+        "name": "Bug.count",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "true": 204,
+          "false": 165
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

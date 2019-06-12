@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1a896cb002106f0bedb2321319d00ed4",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.C50",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_analcatdata_vehicle",
+    "parameters": {
+      "trials": 1,
+      "rules": false,
+      "subset": false,
+      "bands": null,
+      "winnow": false,
+      "noGlobalPruning": false,
+      "CF": 0.25,
+      "minCases": 2,
+      "fuzzyThreshold": false,
+      "sample": 0,
+      "seed": null,
+      "earlyStopping": true,
+      "label": "outcome"
+    },
+    "preprocessing": {
+      "Alcohol.related": {
+        "name": "Alcohol.related",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "No": 24,
+          "Yes": 24
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Gender": {
+        "name": "Gender",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Female": 24,
+          "Male": 24
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Type": {
+        "name": "Type",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Passenger": 24,
+          "Pedestrian/bicyclist": 24
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Age": {
+        "name": "Age",
+        "type": "categorical",
+        "number_of_unique_values": 6,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0-2": 8,
+          "12-13": 8,
+          "14-15": 8,
+          "3-5": 8,
+          "6-8": 8,
+          "9-11": 8
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 27,
+          "N": 21
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

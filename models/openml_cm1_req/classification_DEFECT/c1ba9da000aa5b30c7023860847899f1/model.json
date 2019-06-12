@@ -1,0 +1,150 @@
+[
+  {
+    "id": "c1ba9da000aa5b30c7023860847899f1",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ctree",
+    "task_id": "classification_DEFECT",
+    "dataset_id": "openml_cm1_req",
+    "parameters": {
+      "teststat": "quad",
+      "testtype": "Bonferroni",
+      "mincriterion": 0.95,
+      "minsplit": 20,
+      "minbucket": 7,
+      "stump": false,
+      "nresample": 9999,
+      "maxsurrogate": 0,
+      "mtry": 0,
+      "savesplitstats": true,
+      "maxdepth": 0
+    },
+    "preprocessing": {
+      "ACTION": {
+        "name": "ACTION",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 1,
+        "num_median": 1,
+        "num_mean": 1.427,
+        "num_3qu": 2,
+        "num_maximum": 4
+      },
+      "CONDITIONAL": {
+        "name": "CONDITIONAL",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.1461,
+        "num_3qu": 0,
+        "num_maximum": 1
+      },
+      "CONTINUANCE": {
+        "name": "CONTINUANCE",
+        "type": "numerical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.4157,
+        "num_3qu": 1,
+        "num_maximum": 2
+      },
+      "IMPERATIVE": {
+        "name": "IMPERATIVE",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 1,
+        "num_median": 1,
+        "num_mean": 1.2472,
+        "num_3qu": 1,
+        "num_maximum": 4
+      },
+      "OPTION": {
+        "name": "OPTION",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.0225,
+        "num_3qu": 0,
+        "num_maximum": 1
+      },
+      "RISK_LEVEL": {
+        "name": "RISK_LEVEL",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 40,
+          "2": 30,
+          "3": 19
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "SOURCE": {
+        "name": "SOURCE",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 1,
+        "num_median": 1,
+        "num_mean": 1.618,
+        "num_3qu": 2,
+        "num_maximum": 5
+      },
+      "WEAK_PHRASE": {
+        "name": "WEAK_PHRASE",
+        "type": "numerical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0,
+        "num_mean": 0.1236,
+        "num_3qu": 0,
+        "num_maximum": 1
+      },
+      "DEFECT": {
+        "name": "DEFECT",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Y": 69,
+          "N": 20
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

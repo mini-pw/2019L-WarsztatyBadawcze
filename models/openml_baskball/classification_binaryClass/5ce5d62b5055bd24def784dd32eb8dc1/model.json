@@ -1,0 +1,86 @@
+[
+  {
+    "id": "5ce5d62b5055bd24def784dd32eb8dc1",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.plr",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_baskball",
+    "parameters": {
+      "lambda": 0.0001,
+      "cp.type": "bic",
+      "cp": 2
+    },
+    "preprocessing": {
+      "assists_per_minute": {
+        "name": "assists_per_minute",
+        "type": "numerical",
+        "number_of_unique_values": 96,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.0494,
+        "num_1qu": 0.1098,
+        "num_median": 0.1584,
+        "num_mean": 0.1613,
+        "num_3qu": 0.2095,
+        "num_maximum": 0.3437
+      },
+      "height": {
+        "name": "height",
+        "type": "numerical",
+        "number_of_unique_values": 13,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 160,
+        "num_1qu": 185,
+        "num_median": 191,
+        "num_mean": 189.875,
+        "num_3qu": 196,
+        "num_maximum": 203
+      },
+      "time_played": {
+        "name": "time_played",
+        "type": "numerical",
+        "number_of_unique_values": 94,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 10.08,
+        "num_1qu": 18.8525,
+        "num_median": 25.71,
+        "num_mean": 25.9444,
+        "num_3qu": 33.935,
+        "num_maximum": 40.71
+      },
+      "age": {
+        "name": "age",
+        "type": "numerical",
+        "number_of_unique_values": 15,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 22,
+        "num_1qu": 25,
+        "num_median": 27,
+        "num_mean": 27.7396,
+        "num_3qu": 30,
+        "num_maximum": 37
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 47,
+          "N": 49
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

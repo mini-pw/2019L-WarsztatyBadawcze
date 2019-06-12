@@ -1,0 +1,141 @@
+[
+  {
+    "id": "cff92fb64ac2d57bccda867da3bf208f",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ranger",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_chscase_census2",
+    "parameters": {
+      "num.trees": 500,
+      "mtry": null,
+      "mtry.perc": null,
+      "min.node.size": null,
+      "replace": true,
+      "sample.fraction": null,
+      "split.select.weights": null,
+      "always.split.variables": null,
+      "respect.unordered.factors": "order",
+      "importance": "none",
+      "write.forest": true,
+      "scale.permutation.importance": false,
+      "num.threads": 1,
+      "save.memory": false,
+      "verbose": false,
+      "seed": null,
+      "splitrule": "gini",
+      "num.random.splits": 1,
+      "keep.inbag": false
+    },
+    "preprocessing": {
+      "col_1": {
+        "name": "col_1",
+        "type": "numerical",
+        "number_of_unique_values": 379,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.292,
+        "num_1qu": 12.8317,
+        "num_median": 17.6795,
+        "num_mean": 20.7305,
+        "num_3qu": 25.691,
+        "num_maximum": 114.719
+      },
+      "col_2": {
+        "name": "col_2",
+        "type": "numerical",
+        "number_of_unique_values": 397,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 6.8405,
+        "num_1qu": 14.3281,
+        "num_median": 18.4985,
+        "num_mean": 20.3492,
+        "num_3qu": 24.6305,
+        "num_maximum": 78.455
+      },
+      "col_3": {
+        "name": "col_3",
+        "type": "numerical",
+        "number_of_unique_values": 398,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 7.912,
+        "num_1qu": 15.3891,
+        "num_median": 18.6994,
+        "num_mean": 19.392,
+        "num_3qu": 22.6255,
+        "num_maximum": 41.3935
+      },
+      "col_4": {
+        "name": "col_4",
+        "type": "numerical",
+        "number_of_unique_values": 399,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 11.8771,
+        "num_1qu": 17.2044,
+        "num_median": 19.2105,
+        "num_mean": 19.8875,
+        "num_3qu": 21.8649,
+        "num_maximum": 47.1488
+      },
+      "col_5": {
+        "name": "col_5",
+        "type": "numerical",
+        "number_of_unique_values": 398,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 14.2672,
+        "num_1qu": 18.2521,
+        "num_median": 19.6352,
+        "num_mean": 19.8396,
+        "num_3qu": 21.0421,
+        "num_maximum": 27.3904
+      },
+      "col_6": {
+        "name": "col_6",
+        "type": "numerical",
+        "number_of_unique_values": 400,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 15.5654,
+        "num_1qu": 18.6007,
+        "num_median": 19.6163,
+        "num_mean": 19.7535,
+        "num_3qu": 20.7443,
+        "num_maximum": 26.329
+      },
+      "col_7": {
+        "name": "col_7",
+        "type": "numerical",
+        "number_of_unique_values": 397,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 16.816,
+        "num_1qu": 18.9964,
+        "num_median": 19.6998,
+        "num_mean": 19.8128,
+        "num_3qu": 20.4707,
+        "num_maximum": 23.8642
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 197,
+          "N": 203
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

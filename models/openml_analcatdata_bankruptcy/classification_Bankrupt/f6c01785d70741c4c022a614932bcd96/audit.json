@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_f6c01785d70741c4c022a614932bcd96",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "f6c01785d70741c4c022a614932bcd96",
+    "task_id": "classification_Bankrupt",
+    "dataset_id": "openml_analcatdata_bankruptcy",
+    "performance": {
+      "acc": 0.54,
+      "auc": 1,
+      "specificity": 1,
+      "recall": 0.2222,
+      "precision": 1,
+      "f1": 0.24
+    }
+  }
+]

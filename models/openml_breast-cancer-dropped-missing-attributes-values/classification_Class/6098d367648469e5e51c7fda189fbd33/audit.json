@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_6098d367648469e5e51c7fda189fbd33",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "6098d367648469e5e51c7fda189fbd33",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_breast-cancer-dropped-missing-attributes-values",
+    "performance": {
+      "acc": 0.7219,
+      "auc": 0.6836,
+      "specificity": 0.3638,
+      "recall": 0.8743,
+      "precision": 0.769,
+      "f1": 0.8161
+    }
+  }
+]

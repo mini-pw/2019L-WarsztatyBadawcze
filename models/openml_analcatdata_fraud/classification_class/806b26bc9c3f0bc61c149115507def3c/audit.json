@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_806b26bc9c3f0bc61c149115507def3c",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "806b26bc9c3f0bc61c149115507def3c",
+    "task_id": "classification_class",
+    "dataset_id": "openml_analcatdata_fraud",
+    "performance": {
+      "acc": 0.7583,
+      "auc": 0.7829,
+      "specificity": 0.7133,
+      "recall": 0.8524,
+      "precision": 0.8429,
+      "f1": 0.8167
+    }
+  }
+]

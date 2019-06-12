@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_class",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "dataset_id": "openml_jungle_chess_2pcs_endgame_elephant_elephant",
+    "type": "classification",
+    "target": "class"
+  }
+]

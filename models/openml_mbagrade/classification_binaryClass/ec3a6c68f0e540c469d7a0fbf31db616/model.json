@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ec3a6c68f0e540c469d7a0fbf31db616",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ada",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_mbagrade",
+    "parameters": {
+      "loss": "exponential",
+      "type": "discrete",
+      "iter": 50,
+      "nu": 0.1,
+      "bag.frac": 0.5,
+      "model.coef": true,
+      "bag.shift": false,
+      "max.iter": 20,
+      "delta": 1e-010,
+      "verbose": false,
+      "minsplit": 20,
+      "minbucket": null,
+      "cp": 0.01,
+      "maxcompete": 4,
+      "maxsurrogate": 5,
+      "usesurrogate": 2,
+      "surrogatestyle": 0,
+      "maxdepth": 30,
+      "xval": 0
+    },
+    "preprocessing": {
+      "sex": {
+        "name": "sex",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 48,
+          "1": 13
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "GMAT": {
+        "name": "GMAT",
+        "type": "numerical",
+        "number_of_unique_values": 26,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 420,
+        "num_1qu": 530,
+        "num_median": 570,
+        "num_mean": 574.7541,
+        "num_3qu": 610,
+        "num_maximum": 720
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 29,
+          "N": 32
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
