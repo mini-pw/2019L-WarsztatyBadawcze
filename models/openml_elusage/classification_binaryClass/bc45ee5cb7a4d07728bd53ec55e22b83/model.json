@@ -1,0 +1,73 @@
+[
+  {
+    "id": "bc45ee5cb7a4d07728bd53ec55e22b83",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.plr",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_elusage",
+    "parameters": {
+      "lambda": 0.0001,
+      "cp.type": "bic",
+      "cp": 2
+    },
+    "preprocessing": {
+      "average_temperature": {
+        "name": "average_temperature",
+        "type": "numerical",
+        "number_of_unique_values": 37,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 24,
+        "num_1qu": 40,
+        "num_median": 54,
+        "num_mean": 53.8182,
+        "num_3qu": 68,
+        "num_maximum": 79
+      },
+      "month": {
+        "name": "month",
+        "type": "categorical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 5,
+          "2": 5,
+          "3": 4,
+          "4": 4,
+          "5": 4,
+          "6": 4,
+          "7": 4,
+          "8": 5,
+          "9": 5,
+          "10": 5,
+          "11": 5,
+          "12": 5
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 31,
+          "N": 24
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

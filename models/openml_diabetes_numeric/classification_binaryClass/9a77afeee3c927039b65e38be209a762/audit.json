@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_9a77afeee3c927039b65e38be209a762",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "9a77afeee3c927039b65e38be209a762",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_diabetes_numeric",
+    "performance": {
+      "acc": 0.6972,
+      "auc": 0.6633,
+      "specificity": 0.8381,
+      "recall": 0.4467,
+      "precision": 0.6333,
+      "f1": 0.5076
+    }
+  }
+]

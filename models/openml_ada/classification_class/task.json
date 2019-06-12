@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_class",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "dataset_id": "openml_ada",
+    "type": "classification",
+    "target": "class"
+  }
+]

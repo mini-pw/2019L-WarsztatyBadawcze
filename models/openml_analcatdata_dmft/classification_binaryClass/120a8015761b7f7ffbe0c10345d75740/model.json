@@ -1,0 +1,122 @@
+[
+  {
+    "id": "120a8015761b7f7ffbe0c10345d75740",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.svm",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_analcatdata_dmft",
+    "parameters": {
+      "type": "C-classification",
+      "cost": 1,
+      "nu": 0.5,
+      "class.weights": null,
+      "kernel": "radial",
+      "degree": 3,
+      "coef0": 0,
+      "gamma": null,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing": {
+      "DMFT.Begin": {
+        "name": "DMFT.Begin",
+        "type": "categorical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 172,
+          "1": 73,
+          "2": 96,
+          "3": 80,
+          "4": 95,
+          "5": 83,
+          "6": 85,
+          "7": 65,
+          "8": 48
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "DMFT.End": {
+        "name": "DMFT.End",
+        "type": "categorical",
+        "number_of_unique_values": 7,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 231,
+          "1": 163,
+          "2": 140,
+          "3": 116,
+          "4": 70,
+          "5": 55,
+          "6": 22
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Gender": {
+        "name": "Gender",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Female": 389,
+          "Male": 408
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Ethnic": {
+        "name": "Ethnic",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Black": 112,
+          "Dark": 302,
+          "White": 383
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 155,
+          "N": 642
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

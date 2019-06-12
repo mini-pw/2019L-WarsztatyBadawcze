@@ -1,0 +1,144 @@
+[
+  {
+    "id": "961bf8c0a9a012c1b143fdce2854aa52",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.nodeHarvest",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_bank8FM",
+    "parameters": {
+      "nodesize": 10,
+      "nodes": 1000,
+      "maxinter": 2,
+      "mode": "mean",
+      "lambda": null,
+      "addto": null,
+      "onlyinter": null,
+      "silent": false,
+      "biascorr": false
+    },
+    "preprocessing": {
+      "a1cx": {
+        "name": "a1cx",
+        "type": "numerical",
+        "number_of_unique_values": 8158,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.5,
+        "num_1qu": -0.2552,
+        "num_median": -0.002,
+        "num_mean": -0.0001,
+        "num_3qu": 0.2561,
+        "num_maximum": 0.4999
+      },
+      "a1cy": {
+        "name": "a1cy",
+        "type": "numerical",
+        "number_of_unique_values": 8171,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.5,
+        "num_1qu": -0.2638,
+        "num_median": -0.0131,
+        "num_mean": -0.0082,
+        "num_3qu": 0.2406,
+        "num_maximum": 0.5
+      },
+      "b2x": {
+        "name": "b2x",
+        "type": "numerical",
+        "number_of_unique_values": 8166,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.5,
+        "num_1qu": -0.2522,
+        "num_median": 0.0021,
+        "num_mean": -0.0012,
+        "num_3qu": 0.2508,
+        "num_maximum": 0.4999
+      },
+      "b2y": {
+        "name": "b2y",
+        "type": "numerical",
+        "number_of_unique_values": 8162,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -0.4997,
+        "num_1qu": -0.25,
+        "num_median": -0.0077,
+        "num_mean": -0.0044,
+        "num_3qu": 0.2453,
+        "num_maximum": 0.4996
+      },
+      "a2pop": {
+        "name": "a2pop",
+        "type": "numerical",
+        "number_of_unique_values": 8186,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0.8958,
+        "num_median": 2.0987,
+        "num_mean": 3.0585,
+        "num_3qu": 4.2295,
+        "num_maximum": 29.7084
+      },
+      "a3pop": {
+        "name": "a3pop",
+        "type": "numerical",
+        "number_of_unique_values": 8188,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.0012,
+        "num_1qu": 0.9122,
+        "num_median": 2.1422,
+        "num_mean": 3.0794,
+        "num_3qu": 4.1863,
+        "num_maximum": 29.6811
+      },
+      "temp": {
+        "name": "temp",
+        "type": "numerical",
+        "number_of_unique_values": 8139,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.0384,
+        "num_1qu": 0.4553,
+        "num_median": 0.6255,
+        "num_mean": 0.6035,
+        "num_3qu": 0.7652,
+        "num_maximum": 0.9832
+      },
+      "mxql": {
+        "name": "mxql",
+        "type": "numerical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 5,
+        "num_1qu": 5,
+        "num_median": 7,
+        "num_mean": 6.5081,
+        "num_3qu": 8,
+        "num_maximum": 8
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 4885,
+          "N": 3307
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

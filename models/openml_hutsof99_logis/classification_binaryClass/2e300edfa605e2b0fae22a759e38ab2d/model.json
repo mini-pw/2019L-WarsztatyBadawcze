@@ -1,0 +1,151 @@
+[
+  {
+    "id": "2e300edfa605e2b0fae22a759e38ab2d",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.rda",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_hutsof99_logis",
+    "parameters": {
+      "lambda": null,
+      "gamma": null,
+      "crossval": true,
+      "fold": 10,
+      "train.fraction": 0.5,
+      "output": false,
+      "schedule": 2,
+      "T.start": 0.1,
+      "halflife": 50,
+      "zero.temp": 0.01,
+      "alpha": 2,
+      "K": 100,
+      "trafo": true,
+      "simAnn": false,
+      "estimate.error": false
+    },
+    "preprocessing": {
+      "Age": {
+        "name": "Age",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 32,
+          "1": 38
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Gender": {
+        "name": "Gender",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 35,
+          "1": 35
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Location": {
+        "name": "Location",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 18,
+          "2": 17,
+          "3": 18,
+          "4": 17
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Coherence": {
+        "name": "Coherence",
+        "type": "numerical",
+        "number_of_unique_values": 61,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1.03,
+        "num_1qu": 2.195,
+        "num_median": 2.785,
+        "num_mean": 2.8096,
+        "num_3qu": 3.3375,
+        "num_maximum": 4.7
+      },
+      "Maturity": {
+        "name": "Maturity",
+        "type": "numerical",
+        "number_of_unique_values": 61,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.98,
+        "num_1qu": 2.095,
+        "num_median": 2.815,
+        "num_mean": 2.794,
+        "num_3qu": 3.3525,
+        "num_maximum": 4.98
+      },
+      "Delay": {
+        "name": "Delay",
+        "type": "numerical",
+        "number_of_unique_values": 50,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2,
+        "num_1qu": 26.25,
+        "num_median": 45,
+        "num_mean": 46.7571,
+        "num_3qu": 69.5,
+        "num_maximum": 102
+      },
+      "Prosecute": {
+        "name": "Prosecute",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 37,
+          "1": 33
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 34,
+          "N": 36
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

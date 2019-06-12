@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_hutsof99_logis",
+    "id": "regression_Quality",
     "added_by": "MatiFilozof",
     "date": "24-03-2019",
-    "dataset_id": "hutsof99_logis",
+    "dataset_id": "openml_hutsof99_logis",
     "type": "regression",
     "target": "Quality"
   }

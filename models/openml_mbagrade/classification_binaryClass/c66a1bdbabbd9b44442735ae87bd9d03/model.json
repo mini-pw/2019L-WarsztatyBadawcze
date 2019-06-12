@@ -1,0 +1,71 @@
+[
+  {
+    "id": "c66a1bdbabbd9b44442735ae87bd9d03",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ctree",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_mbagrade",
+    "parameters": {
+      "teststat": "quad",
+      "testtype": "Bonferroni",
+      "mincriterion": 0.95,
+      "minsplit": 20,
+      "minbucket": 7,
+      "stump": false,
+      "nresample": 9999,
+      "maxsurrogate": 0,
+      "mtry": 0,
+      "savesplitstats": true,
+      "maxdepth": 0
+    },
+    "preprocessing": {
+      "sex": {
+        "name": "sex",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 48,
+          "1": 13
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "GMAT": {
+        "name": "GMAT",
+        "type": "numerical",
+        "number_of_unique_values": 26,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 420,
+        "num_1qu": 530,
+        "num_median": 570,
+        "num_mean": 574.7541,
+        "num_3qu": 610,
+        "num_maximum": 720
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 29,
+          "N": 32
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

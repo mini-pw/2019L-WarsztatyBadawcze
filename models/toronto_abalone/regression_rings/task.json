@@ -1,9 +1,9 @@
 [
   {
-    "id": "toronto_abalone",
+    "id": "regression_rings",
     "added_by": "MatiFilozof",
     "date": "13-03-2019",
-    "dataset_id": "abalone",
+    "dataset_id": "toronto_abalone",
     "type": "regression",
     "target": "rings"
   }
