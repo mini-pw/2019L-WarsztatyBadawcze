@@ -1,0 +1,80 @@
+[
+  {
+    "id": "98654308fa20dc7c6534417852023a81",
+    "added_by": "MatiFilozof",
+    "date": "12-04-2019",
+    "library": "mlr",
+    "model_name": "classif.nnet",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_transplant",
+    "parameters": {
+      "size": 5,
+      "maxit": 100,
+      "skip": false,
+      "rang": 0.7,
+      "decay": 0,
+      "Hess": true,
+      "trace": true,
+      "MaxNWts": 1000,
+      "abstol": 0.0001,
+      "reltol": 1e-008
+    },
+    "preprocessing": {
+      "obs": {
+        "name": "obs",
+        "type": "numerical",
+        "number_of_unique_values": 131,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 33.5,
+        "num_median": 66,
+        "num_mean": 66,
+        "num_3qu": 98.5,
+        "num_maximum": 131
+      },
+      "e": {
+        "name": "e",
+        "type": "numerical",
+        "number_of_unique_values": 127,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.057,
+        "num_1qu": 0.722,
+        "num_median": 1.654,
+        "num_mean": 2.3791,
+        "num_3qu": 3.402,
+        "num_maximum": 12.131
+      },
+      "z": {
+        "name": "z",
+        "type": "numerical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0.5,
+        "num_median": 2,
+        "num_mean": 2.3817,
+        "num_3qu": 3,
+        "num_maximum": 18
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 83,
+          "N": 48
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

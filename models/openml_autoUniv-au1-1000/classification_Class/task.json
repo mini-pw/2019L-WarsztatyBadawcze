@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Class",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "dataset_id": "openml_autoUniv-au1-1000",
+    "type": "classification",
+    "target": "Class"
+  }
+]

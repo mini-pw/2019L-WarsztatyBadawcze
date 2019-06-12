@@ -1,0 +1,172 @@
+[
+  {
+    "id": "c0e44e5c61c3b92c8df6f011713ed56e",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ctree",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_fri_c1_250_10",
+    "parameters": {
+      "teststat": "quad",
+      "testtype": "Bonferroni",
+      "mincriterion": 0.95,
+      "minsplit": 20,
+      "minbucket": 7,
+      "stump": false,
+      "nresample": 9999,
+      "maxsurrogate": 0,
+      "mtry": 0,
+      "savesplitstats": true,
+      "maxdepth": 0
+    },
+    "preprocessing": {
+      "oz1": {
+        "name": "oz1",
+        "type": "numerical",
+        "number_of_unique_values": 250,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.0413,
+        "num_1qu": -0.7816,
+        "num_median": -0.0422,
+        "num_mean": 2.1919e-018,
+        "num_3qu": 0.7419,
+        "num_maximum": 2.0246
+      },
+      "oz2": {
+        "name": "oz2",
+        "type": "numerical",
+        "number_of_unique_values": 250,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.7002,
+        "num_1qu": -0.8445,
+        "num_median": 0.0021,
+        "num_mean": -2.8e-008,
+        "num_3qu": 0.9269,
+        "num_maximum": 1.6789
+      },
+      "oz3": {
+        "name": "oz3",
+        "type": "numerical",
+        "number_of_unique_values": 250,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.5926,
+        "num_1qu": -0.9035,
+        "num_median": 0.0073,
+        "num_mean": 1.6e-008,
+        "num_3qu": 0.7969,
+        "num_maximum": 1.8338
+      },
+      "oz4": {
+        "name": "oz4",
+        "type": "numerical",
+        "number_of_unique_values": 250,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.7667,
+        "num_1qu": -0.8262,
+        "num_median": -0.0113,
+        "num_mean": -1.2e-008,
+        "num_3qu": 0.8399,
+        "num_maximum": 1.6461
+      },
+      "oz5": {
+        "name": "oz5",
+        "type": "numerical",
+        "number_of_unique_values": 250,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.9101,
+        "num_1qu": -0.8697,
+        "num_median": 0.1333,
+        "num_mean": -1.2195e-018,
+        "num_3qu": 0.7927,
+        "num_maximum": 1.6091
+      },
+      "oz6": {
+        "name": "oz6",
+        "type": "numerical",
+        "number_of_unique_values": 250,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.7103,
+        "num_1qu": -0.8839,
+        "num_median": -0.1312,
+        "num_mean": 4e-009,
+        "num_3qu": 0.8939,
+        "num_maximum": 1.7307
+      },
+      "oz7": {
+        "name": "oz7",
+        "type": "numerical",
+        "number_of_unique_values": 250,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.7007,
+        "num_1qu": -0.8264,
+        "num_median": -0.0601,
+        "num_mean": 1.1532e-018,
+        "num_3qu": 0.8939,
+        "num_maximum": 1.7427
+      },
+      "oz8": {
+        "name": "oz8",
+        "type": "numerical",
+        "number_of_unique_values": 250,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.6014,
+        "num_1qu": -0.9222,
+        "num_median": 0.0787,
+        "num_mean": -2e-008,
+        "num_3qu": 0.8758,
+        "num_maximum": 1.6897
+      },
+      "oz9": {
+        "name": "oz9",
+        "type": "numerical",
+        "number_of_unique_values": 250,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.5811,
+        "num_1qu": -0.8635,
+        "num_median": -0.0537,
+        "num_mean": -1.6e-008,
+        "num_3qu": 0.8468,
+        "num_maximum": 1.909
+      },
+      "oz10": {
+        "name": "oz10",
+        "type": "numerical",
+        "number_of_unique_values": 250,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.741,
+        "num_1qu": -0.8793,
+        "num_median": 0.1703,
+        "num_mean": 4e-009,
+        "num_3qu": 0.9018,
+        "num_maximum": 1.6258
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 110,
+          "N": 140
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

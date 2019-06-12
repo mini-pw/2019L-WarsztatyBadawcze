@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_4855c5140393dbe1b73ec93cb2361aac",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "4855c5140393dbe1b73ec93cb2361aac",
+    "task_id": "classification_class",
+    "dataset_id": "openml_jungle_chess_2pcs_endgame_lion_lion",
+    "performance": {
+      "acc": 0.9923,
+      "auc": 0.9998,
+      "specificity": 0.9905,
+      "recall": 0.9937,
+      "precision": 0.9936,
+      "f1": 0.9936
+    }
+  }
+]

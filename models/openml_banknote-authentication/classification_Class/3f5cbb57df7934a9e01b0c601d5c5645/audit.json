@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_3f5cbb57df7934a9e01b0c601d5c5645",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "3f5cbb57df7934a9e01b0c601d5c5645",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_banknote-authentication",
+    "performance": {
+      "acc": 0.9934,
+      "auc": 0.9999,
+      "specificity": 0.9949,
+      "recall": 0.9922,
+      "precision": 0.9962,
+      "f1": 0.9941
+    }
+  }
+]

@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_sonar",
+    "id": "classification_Class",
     "added_by": "k-sap",
     "date": "19-03-2019",
-    "dataset_id": "sonar",
+    "dataset_id": "openml_sonar",
     "type": "classification",
     "target": "Class"
   }

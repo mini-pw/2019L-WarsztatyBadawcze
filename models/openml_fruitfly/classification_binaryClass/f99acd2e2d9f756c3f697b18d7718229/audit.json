@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_f99acd2e2d9f756c3f697b18d7718229",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "f99acd2e2d9f756c3f697b18d7718229",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_fruitfly",
+    "performance": {
+      "acc": 0.488,
+      "auc": 0.3601,
+      "specificity": 0.1801,
+      "recall": 0.7151,
+      "precision": 0.5746,
+      "f1": 0.6227
+    }
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "2c9a27a2f5669cfc9c212f0efc9eec01",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ctree",
+    "task_id": "classification_Survival_status",
+    "dataset_id": "openml_haberman",
+    "parameters": {
+      "teststat": "quad",
+      "testtype": "Bonferroni",
+      "mincriterion": 0.95,
+      "minsplit": 20,
+      "minbucket": 7,
+      "stump": false,
+      "nresample": 9999,
+      "maxsurrogate": 0,
+      "mtry": 0,
+      "savesplitstats": true,
+      "maxdepth": 0
+    },
+    "preprocessing": {
+      "Age_of_patient_at_time_of_operation": {
+        "name": "Age_of_patient_at_time_of_operation",
+        "type": "numerical",
+        "number_of_unique_values": 49,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 30,
+        "num_1qu": 44,
+        "num_median": 52,
+        "num_mean": 52.4575,
+        "num_3qu": 60.75,
+        "num_maximum": 83
+      },
+      "Patients_year_of_operation": {
+        "name": "Patients_year_of_operation",
+        "type": "categorical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "58": 36,
+          "59": 27,
+          "60": 28,
+          "61": 26,
+          "62": 23,
+          "63": 30,
+          "64": 31,
+          "65": 28,
+          "66": 28,
+          "67": 25,
+          "68": 13,
+          "69": 11
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Number_of_positive_axillary_nodes_detected": {
+        "name": "Number_of_positive_axillary_nodes_detected",
+        "type": "numerical",
+        "number_of_unique_values": 31,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 1,
+        "num_mean": 4.0261,
+        "num_3qu": 4,
+        "num_maximum": 52
+      },
+      "Survival_status": {
+        "name": "Survival_status",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 225,
+          "2": 81
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

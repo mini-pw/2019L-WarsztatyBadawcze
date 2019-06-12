@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_78b116c34c4ffa3d20195c0d525c9397",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "78b116c34c4ffa3d20195c0d525c9397",
+    "task_id": "classification_def",
+    "dataset_id": "openml_KungChi3",
+    "performance": {
+      "acc": 0.8373,
+      "auc": 0.7016,
+      "specificity": 0.5,
+      "recall": 0.8878,
+      "precision": 0.9223,
+      "f1": 0.9044
+    }
+  }
+]

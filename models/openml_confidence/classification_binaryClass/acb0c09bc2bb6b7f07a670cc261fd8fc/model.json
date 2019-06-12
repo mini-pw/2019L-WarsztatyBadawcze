@@ -1,0 +1,81 @@
+[
+  {
+    "id": "acb0c09bc2bb6b7f07a670cc261fd8fc",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ctree",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_confidence",
+    "parameters": {
+      "teststat": "quad",
+      "testtype": "Bonferroni",
+      "mincriterion": 0.95,
+      "minsplit": 20,
+      "minbucket": 7,
+      "stump": false,
+      "nresample": 9999,
+      "maxsurrogate": 0,
+      "mtry": 0,
+      "savesplitstats": true,
+      "maxdepth": 0
+    },
+    "preprocessing": {
+      "P": {
+        "name": "P",
+        "type": "numerical",
+        "number_of_unique_values": 67,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 50.4,
+        "num_1qu": 89.2,
+        "num_median": 309.95,
+        "num_mean": 338.5736,
+        "num_3qu": 474.225,
+        "num_maximum": 1051.6
+      },
+      "N": {
+        "name": "N",
+        "type": "numerical",
+        "number_of_unique_values": 67,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 120.2,
+        "num_1qu": 209.05,
+        "num_median": 1067.4,
+        "num_mean": 1184.4403,
+        "num_3qu": 2171.025,
+        "num_maximum": 2567
+      },
+      "O": {
+        "name": "O",
+        "type": "numerical",
+        "number_of_unique_values": 70,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 45.9,
+        "num_1qu": 150.3,
+        "num_median": 359.2,
+        "num_mean": 400.6403,
+        "num_3qu": 620.125,
+        "num_maximum": 899.1
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 12,
+          "N": 60
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "816fa5f720a2b5844184ed3a9886b2e7",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.randomForest",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_analcatdata_vineyard",
+    "parameters": {
+      "ntree": 500,
+      "mtry": null,
+      "replace": true,
+      "classwt": null,
+      "cutoff": null,
+      "strata": null,
+      "sampsize": null,
+      "nodesize": 1,
+      "maxnodes": null,
+      "importance": false,
+      "localImp": false,
+      "proximity": false,
+      "oob.prox": null,
+      "norm.votes": true,
+      "do.trace": false,
+      "keep.forest": true,
+      "keep.inbag": false
+    },
+    "preprocessing": {
+      "Year": {
+        "name": "Year",
+        "type": "categorical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1983": 52,
+          "1984": 52,
+          "1985": 52,
+          "1986": 52,
+          "1987": 52,
+          "1988": 52,
+          "1989": 52,
+          "1990": 52,
+          "1991": 52
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Row": {
+        "name": "Row",
+        "type": "numerical",
+        "number_of_unique_values": 52,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 13.75,
+        "num_median": 26.5,
+        "num_mean": 26.5,
+        "num_3qu": 39.25,
+        "num_maximum": 52
+      },
+      "Group": {
+        "name": "Group",
+        "type": "numerical",
+        "number_of_unique_values": 13,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 4,
+        "num_median": 7,
+        "num_mean": 7,
+        "num_3qu": 10,
+        "num_maximum": 13
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 260,
+          "N": 208
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_2f650c3df7315c4108d2d8d535069de2",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "2f650c3df7315c4108d2d8d535069de2",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_bolts",
+    "performance": {
+      "acc": 0.85,
+      "auc": 1,
+      "specificity": 0.6867,
+      "recall": 0.9667,
+      "precision": 0.8343,
+      "f1": 0.8831
+    }
+  }
+]

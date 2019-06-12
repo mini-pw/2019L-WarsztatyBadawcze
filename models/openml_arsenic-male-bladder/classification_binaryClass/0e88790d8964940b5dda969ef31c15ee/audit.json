@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_0e88790d8964940b5dda969ef31c15ee",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "0e88790d8964940b5dda969ef31c15ee",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_arsenic-male-bladder",
+    "performance": {
+      "acc": 0.9732,
+      "auc": null,
+      "specificity": null,
+      "recall": 0.9945,
+      "precision": 0.9779,
+      "f1": 0.986
+    }
+  }
+]

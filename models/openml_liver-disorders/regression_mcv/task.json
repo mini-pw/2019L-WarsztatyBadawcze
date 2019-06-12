@@ -2,7 +2,7 @@
     "id": "regression_mcv",
     "added_by": "airi314",
     "date": "13-03-2019",
-    "dataset_id": "openml_liver_disorders",
+    "dataset_id": "openml_liver-disorders",
     "type": "regression",
     "target": "mcv"
   }
