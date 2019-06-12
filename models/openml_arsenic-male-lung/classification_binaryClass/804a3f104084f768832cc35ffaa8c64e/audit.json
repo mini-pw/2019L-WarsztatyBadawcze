@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_804a3f104084f768832cc35ffaa8c64e",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "804a3f104084f768832cc35ffaa8c64e",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_arsenic-male-lung",
+    "performance": {
+      "acc": 0.9946,
+      "auc": null,
+      "specificity": null,
+      "recall": 1,
+      "precision": 0.9945,
+      "f1": 0.9972
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_binaryClass",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "dataset_id": "openml_bolts",
+    "type": "classification",
+    "target": "binaryClass"
+  }
+]

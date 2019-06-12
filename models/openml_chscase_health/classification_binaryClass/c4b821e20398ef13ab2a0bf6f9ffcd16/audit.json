@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_c4b821e20398ef13ab2a0bf6f9ffcd16",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "c4b821e20398ef13ab2a0bf6f9ffcd16",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_chscase_health",
+    "performance": {
+      "acc": 0.56,
+      "auc": 0.49,
+      "specificity": 0.5433,
+      "recall": 0.59,
+      "precision": 0.59,
+      "f1": 0.5744
+    }
+  }
+]

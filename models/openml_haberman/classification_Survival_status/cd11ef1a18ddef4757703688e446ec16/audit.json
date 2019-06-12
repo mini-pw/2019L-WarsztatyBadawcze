@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_cd11ef1a18ddef4757703688e446ec16",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "cd11ef1a18ddef4757703688e446ec16",
+    "task_id": "classification_Survival_status",
+    "dataset_id": "openml_haberman",
+    "performance": {
+      "acc": 0.7288,
+      "auc": 0.6596,
+      "specificity": 0.2222,
+      "recall": 0.9118,
+      "precision": 0.7652,
+      "f1": 0.831
+    }
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "id": "eaaf02b2925e4568d3a368373ba32550",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.earth",
+    "task_id": "classification_Winner",
+    "dataset_id": "openml_analcatdata_boxing2",
+    "parameters": {
+      "trace": 0,
+      "keepxy": false,
+      "degree": 1,
+      "penalty": null,
+      "nk": null,
+      "thresh": 0.001,
+      "minspan": 0,
+      "endspan": 0,
+      "newvar.penalty": 0,
+      "fast.k": 20,
+      "fast.beta": 1,
+      "pmethod": "backward",
+      "nprune": null,
+      "ncross": 1,
+      "nfold": 0,
+      "stratify": true,
+      "linpreds": false,
+      "link": "logit",
+      "maxit": 25,
+      "allowed": null,
+      "Adjust.endspan": 2,
+      "Force.weights": false,
+      "Use.beta.cache": true,
+      "Force.xtx.prune": false,
+      "Get.leverages": true,
+      "Exhaustive.tol": 1e-010
+    },
+    "preprocessing": {
+      "Judge": {
+        "name": "Judge",
+        "type": "categorical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Associated_Press": 12,
+          "B._Logist": 12,
+          "G._Hamada": 12,
+          "HBO-Lederman": 12,
+          "J._Roth": 12,
+          "Las_Vegas_Review-Journal": 12,
+          "Los_Angeles_Times-Kawakami": 12,
+          "Los_Angeles_Times-Springer": 12,
+          "Sportsticker": 12,
+          "USA_Today": 12,
+          "van_de_Wiele": 12
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Official": {
+        "name": "Official",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "No": 96,
+          "Yes": 36
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Round": {
+        "name": "Round",
+        "type": "categorical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 11,
+          "2": 11,
+          "3": 11,
+          "4": 11,
+          "5": 11,
+          "6": 11,
+          "7": 11,
+          "8": 11,
+          "9": 11,
+          "10": 11,
+          "11": 11,
+          "12": 11
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Winner": {
+        "name": "Winner",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Trinidad": 61,
+          "de_la_Hoya": 71
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

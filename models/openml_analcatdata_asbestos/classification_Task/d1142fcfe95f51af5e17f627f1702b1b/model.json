@@ -1,0 +1,96 @@
+[
+  {
+    "id": "d1142fcfe95f51af5e17f627f1702b1b",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ranger",
+    "task_id": "classification_Task",
+    "dataset_id": "openml_analcatdata_asbestos",
+    "parameters": {
+      "num.trees": 500,
+      "mtry": null,
+      "mtry.perc": null,
+      "min.node.size": null,
+      "replace": true,
+      "sample.fraction": null,
+      "split.select.weights": null,
+      "always.split.variables": null,
+      "respect.unordered.factors": "order",
+      "importance": "none",
+      "write.forest": true,
+      "scale.permutation.importance": false,
+      "num.threads": 1,
+      "save.memory": false,
+      "verbose": false,
+      "seed": null,
+      "splitrule": "gini",
+      "num.random.splits": 1,
+      "keep.inbag": false
+    },
+    "preprocessing": {
+      "Task": {
+        "name": "Task",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Insulation": 46,
+          "Tile": 37
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Ventilation": {
+        "name": "Ventilation",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "General": 34,
+          "Negative_pressure": 49
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Duration": {
+        "name": "Duration",
+        "type": "numerical",
+        "number_of_unique_values": 63,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 30,
+        "num_1qu": 85,
+        "num_median": 138,
+        "num_mean": 147.0723,
+        "num_3qu": 212.5,
+        "num_maximum": 300
+      },
+      "Exposure": {
+        "name": "Exposure",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "(1)_Low_exposure": 45,
+          "(2)_Action_level": 6,
+          "(3)_Above_legal_limit": 32
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

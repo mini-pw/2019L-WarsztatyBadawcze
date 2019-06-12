@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_8858b1015c8aa602a663676cb5138ef4",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "8858b1015c8aa602a663676cb5138ef4",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_delta_elevators",
+    "performance": {
+      "acc": 0.8603,
+      "auc": 0.9269,
+      "specificity": 0.8548,
+      "recall": 0.8659,
+      "precision": 0.855,
+      "f1": 0.8603
+    }
+  }
+]

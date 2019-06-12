@@ -1,0 +1,234 @@
+[
+  {
+    "id": "f234064dcb67351eae9a94af4fd1fb47",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.logreg",
+    "task_id": "classification_class",
+    "dataset_id": "openml_cleve",
+    "parameters": {
+      "model": false
+    },
+    "preprocessing": {
+      "Age": {
+        "name": "Age",
+        "type": "numerical",
+        "number_of_unique_values": 41,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 29,
+        "num_1qu": 47.5,
+        "num_median": 55,
+        "num_mean": 54.3663,
+        "num_3qu": 61,
+        "num_maximum": 77
+      },
+      "Sex": {
+        "name": "Sex",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 96,
+          "1": 207
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Chest_pain_type": {
+        "name": "Chest_pain_type",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 50,
+          "1": 23,
+          "2": 143,
+          "3": 87
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Trestbps": {
+        "name": "Trestbps",
+        "type": "numerical",
+        "number_of_unique_values": 49,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 94,
+        "num_1qu": 120,
+        "num_median": 130,
+        "num_mean": 131.6238,
+        "num_3qu": 140,
+        "num_maximum": 200
+      },
+      "Cholesterol": {
+        "name": "Cholesterol",
+        "type": "numerical",
+        "number_of_unique_values": 152,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 126,
+        "num_1qu": 211,
+        "num_median": 240,
+        "num_mean": 246.264,
+        "num_3qu": 274.5,
+        "num_maximum": 564
+      },
+      "Fasting_blood_sugar_.lt._120": {
+        "name": "Fasting_blood_sugar_.lt._120",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 258,
+          "1": 45
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Resting_ecg": {
+        "name": "Resting_ecg",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 4,
+          "1": 147,
+          "2": 152
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Max_heart_rate": {
+        "name": "Max_heart_rate",
+        "type": "numerical",
+        "number_of_unique_values": 91,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 71,
+        "num_1qu": 133.5,
+        "num_median": 153,
+        "num_mean": 149.6469,
+        "num_3qu": 166,
+        "num_maximum": 202
+      },
+      "Exercise_induced_angina": {
+        "name": "Exercise_induced_angina",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 204,
+          "1": 99
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Oldpeak": {
+        "name": "Oldpeak",
+        "type": "numerical",
+        "number_of_unique_values": 40,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 0.8,
+        "num_mean": 1.0396,
+        "num_3qu": 1.6,
+        "num_maximum": 6.2
+      },
+      "Slope": {
+        "name": "Slope",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 21,
+          "1": 140,
+          "2": 142
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Number_of_vessels_colored": {
+        "name": "Number_of_vessels_colored",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 175,
+          "1": 65,
+          "2": 38,
+          "3": 20,
+          "4": 5
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Thal": {
+        "name": "Thal",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 2,
+          "1": 18,
+          "2": 166,
+          "3": 117
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "class": {
+        "name": "class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 165,
+          "1": 138
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

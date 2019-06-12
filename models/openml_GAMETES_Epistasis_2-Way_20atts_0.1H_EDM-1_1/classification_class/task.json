@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_class",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "dataset_id": "openml_GAMETES_Epistasis_2-Way_20atts_0.1H_EDM-1_1",
+    "type": "classification",
+    "target": "class"
+  }
+]
