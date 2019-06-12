@@ -1,0 +1,156 @@
+---
+title: "Deferred Learning"
+author: "Lukasz Brzozowski"
+date: "24.04.2019"
+output:
+  html_document:
+    df_print: paged
+    toc: true
+    toc_float: true
+    code_folding: hide
+    number_sections: true
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+library(dplyr)
+library(ggplot2)
+library(DataExplorer)
+library(mlr)
+library(mlrMBO)
+library(reticulate)
+use_python("/home/lukasz/anaconda3/bin/python3.7")
+dat <- read.csv("WarsztatyBadawcze_test.csv", sep=";")
+```
+
+# Oczyszczenie danych
+
+Z danych usuwam jedynie zduplikowane kolumny.
+
+```{r}
+datY <- select(dat, Y)
+dat <- select(dat, -Y)
+
+datT <- t(dat)
+datT1 <- unique(datT)
+datT2 <- as.data.frame(t(datT1))
+head(datT2, 3)
+summarizeColumns(datT2)
+```
+
+#TSNE - 1
+
+Sprawdźmy, jak wygląda reprezentacja naszego zbioru danych w dwóch wymiarach.
+
+```{python, message = FALSE, cache = TRUE}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.manifold import TSNE
+from matplotlib.pyplot import figure
+
+datP = pd.read_csv("datBY.csv")
+tsne = TSNE()
+tsne.fit(datP)
+plt.figure(figsize=(8,6))
+plt.scatter(tsne.embedding_[:, 0], tsne.embedding_[:, 1])
+plt.show()
+```
+
+Czy w powyższych danych mogą istnieć klastry?
+
+# Klasteryzacja
+
+Do klasteryzacji używamy modelu `kkmeans` będącego ulepszeniem zwykłej metody k-średnich o&nbsp;przekształcenie w przestrzeń nieliniową, aby zmniejszyć wadę wyjściowej metody polegającą na nieodnajdowaniu klastrów, które nie są liniowo separowalne.
+```{r, message = FALSE, warning = FALSE, include=FALSE}
+clustTask2 <- makeClusterTask(data = datT2)
+
+clustLrn2 <- makeLearner("cluster.kkmeans", predict.type = "response")
+
+ps = makeParamSet(
+  makeDiscreteParam("kernel",  values = c("rbfdot", "polydot", "vanilladot"))
+)
+
+ctrl <- makeMBOControl()
+ctrl <- setMBOControlTermination(ctrl, iters = 5L)
+tune.ctrl <- makeTuneControlMBO(mbo.control = ctrl)
+
+
+res <- tuneParams(clustLrn2, clustTask2, cv3, par.set = ps, control = tune.ctrl, measures = db)
+```
+```{r, message = FALSE, include = FALSE}
+clustLrnP2 <- makeLearner("cluster.kkmeans", predict.type = "response", par.vals = list(kernel = res$x$kernel))
+
+
+datTrain2 <- train(clustLrnP2, clustTask2)
+datProb1 <- datTrain2$learner.model
+pred <- predict(datTrain2, task = clustTask2)
+```
+```{r}
+performance(pred, measures = list(db, dunn), task = clustTask2)
+```
+
+Niski indeks Daviesa-Bouldina oznacza, że otrzymane klastry są do siebie podobne w sensie rozproszenia i&nbsp;wskazuje na dobrą klasteryzację, zaś niski indeks Dunna przeciwnie oznacza, że klastry "źle się zachowują" w&nbsp;przestrzeni euklidesowej. Pamiętajmy jednak, że użyta metoda klasteryzacji przekształca przestrzeń danych na przestrzeń nieliniową, zatem niekorzystny wynik w metryce euklidesowej nie oznacza złej klasteryzacji.
+
+# TSNE - 2
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.manifold import TSNE
+from matplotlib.pyplot import figure
+tsne = TSNE()
+
+datNew = pd.read_csv("datNew.csv")
+tsne.fit(datNew)
+plt.figure(figsize=(8,6))
+plt.scatter(tsne.embedding_[:,0], tsne.embedding_[:,1], c=datNew['datProb1'])
+```
+
+Powyżej widzimy, jak są rozmieszczone oba klastry w reprezentacji algorytmem TSNE.
+
+Możemy zatem przypuszczać, że podział na klastry będzie dostatecznie dobrze przybliżał podział na klasy, do&nbsp;których chcemy klasyfikować obserwacje.
+
+# Model
+
+Skoro możemy przypuszczać, że klasteryzacja dobrze odwzorowuje podział na klasy, zasymulujemy je i&nbsp;poszukamy modelu, który jak najlepiej kopiuje wynik klasteryzacji. Skoro najlepiej sprawdziło się jądro wielomianowe, naturalnym wyborem będzie SVM z jądrem wielomianowym.
+
+```{r, include = FALSE, cache = FALSE}
+datNew <- read.csv("datNew.csv", sep = ",")
+datNew <- select(datNew, -X)
+classifTask <- makeClassifTask(data = datNew, target = "datProb1")
+classifLrn2 <- makeLearner("classif.ksvm", predict.type = "prob", par.vals = list(kernel = "polydot"))
+r <- resample(classifLrn2, classifTask, cv5, measures = list(acc, auc))
+```
+```{r}
+r
+```
+
+## Tuning parametru C
+```{r, include = FALSE, cache = TRUE}
+Cctrl <- makeMBOControl()
+Cctrl <- setMBOControlTermination(ctrl, iters = 10L)
+Ctune.ctrl <- makeTuneControlMBO(mbo.control = ctrl)
+
+discrete_ps <- makeParamSet(
+  makeNumericParam("C", lower = 0, upper = 5)
+)
+
+res <- tuneParams(classifLrn2, classifTask, cv3, par.set = discrete_ps, control = tune.ctrl, measures = auc)
+```
+
+ <br> **Po optymalizacji bayesowskiej otrzymujemy C równe 4.902217** </br>
+
+## Wyniki modelu
+
+```{r, include = FALSE, cache = FALSE}
+classifLrnS <- makeLearner("classif.ksvm", predict.type = "prob", par.vals = list(kernel = "polydot", C = 4.902217))
+rS <- resample(classifLrnS, classifTask, cv5, measures = list(acc, auc))
+```
+```{r}
+rS
+```
+
+Pamiętajmy, że otrzymane `acc` i `auc` oznaczają, że model predykcyjny dobrze odwzorowuje działanie klasteryzacji, a nie klasyfikuje. Dopiero z wyników indeksów klasteryzacji możemy wnioskować, że takie podejście ma sens, nie jesteśmy jednak w stanie dokładnie przewidzieć, jakie wyniki osiągnie model.
+
