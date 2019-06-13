@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_90f9dfe04c0171b5d363b3e8df8e56eb",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "90f9dfe04c0171b5d363b3e8df8e56eb",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_blood-transfusion-service-center",
+    "performance": {
+      "acc": 0.7633,
+      "auc": 0.7073,
+      "specificity": 0.0234,
+      "recall": 0.9948,
+      "precision": 0.7653,
+      "f1": 0.8647
+    }
+  }
+]

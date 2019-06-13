@@ -1,0 +1,140 @@
+[
+  {
+    "id": "770793bb4aa0e6f90c06e6b8d07c9e15",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.C50",
+    "task_id": "classification_class",
+    "dataset_id": "openml_corral",
+    "parameters": {
+      "trials": 1,
+      "rules": false,
+      "subset": false,
+      "bands": null,
+      "winnow": false,
+      "noGlobalPruning": false,
+      "CF": 0.25,
+      "minCases": 2,
+      "fuzzyThreshold": false,
+      "sample": 0,
+      "seed": null,
+      "earlyStopping": true,
+      "label": "outcome"
+    },
+    "preprocessing": {
+      "A0": {
+        "name": "A0",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 80,
+          "1": 80
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "A1": {
+        "name": "A1",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 80,
+          "1": 80
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "B0": {
+        "name": "B0",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 80,
+          "1": 80
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "B1": {
+        "name": "B1",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 80,
+          "1": 80
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Irrelevant": {
+        "name": "Irrelevant",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 80,
+          "1": 80
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Correlated": {
+        "name": "Correlated",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 86,
+          "1": 74
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "class": {
+        "name": "class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 90,
+          "1": 70
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

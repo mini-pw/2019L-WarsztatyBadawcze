@@ -1,0 +1,141 @@
+[
+  {
+    "id": "c1c540cba8670795e523ce1ee3280465",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.svm",
+    "task_id": "classification_class",
+    "dataset_id": "openml_corral",
+    "parameters": {
+      "type": "C-classification",
+      "cost": 1,
+      "nu": 0.5,
+      "class.weights": null,
+      "kernel": "radial",
+      "degree": 3,
+      "coef0": 0,
+      "gamma": null,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing": {
+      "A0": {
+        "name": "A0",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 80,
+          "1": 80
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "A1": {
+        "name": "A1",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 80,
+          "1": 80
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "B0": {
+        "name": "B0",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 80,
+          "1": 80
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "B1": {
+        "name": "B1",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 80,
+          "1": 80
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Irrelevant": {
+        "name": "Irrelevant",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 80,
+          "1": 80
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Correlated": {
+        "name": "Correlated",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 86,
+          "1": 74
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "class": {
+        "name": "class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 90,
+          "1": 70
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

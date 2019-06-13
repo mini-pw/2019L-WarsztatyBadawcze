@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_isPresent",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "dataset_id": "openml_conference_attendance",
+    "type": "classification",
+    "target": "isPresent"
+  }
+]

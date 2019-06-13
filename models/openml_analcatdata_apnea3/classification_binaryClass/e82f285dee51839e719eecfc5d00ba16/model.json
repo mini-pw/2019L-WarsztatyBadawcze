@@ -1,0 +1,101 @@
+[
+  {
+    "id": "e82f285dee51839e719eecfc5d00ba16",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.ranger",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_analcatdata_apnea3",
+    "parameters": {
+      "num.trees": 500,
+      "mtry": null,
+      "mtry.perc": null,
+      "min.node.size": null,
+      "replace": true,
+      "sample.fraction": null,
+      "split.select.weights": null,
+      "always.split.variables": null,
+      "respect.unordered.factors": "order",
+      "importance": "none",
+      "write.forest": true,
+      "scale.permutation.importance": false,
+      "num.threads": 1,
+      "save.memory": false,
+      "verbose": false,
+      "seed": null,
+      "splitrule": "gini",
+      "num.random.splits": 1,
+      "keep.inbag": false
+    },
+    "preprocessing": {
+      "Automatic": {
+        "name": "Automatic",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "CA": 90,
+          "H": 90,
+          "MA": 90,
+          "N": 90,
+          "OA": 90
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Scorer_2": {
+        "name": "Scorer_2",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "CA": 90,
+          "H": 90,
+          "MA": 90,
+          "N": 90,
+          "OA": 90
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Subject": {
+        "name": "Subject",
+        "type": "numerical",
+        "number_of_unique_values": 18,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 5,
+        "num_median": 9.5,
+        "num_mean": 9.5,
+        "num_3qu": 14,
+        "num_maximum": 18
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 395,
+          "N": 55
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

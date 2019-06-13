@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_c321b43334ef7adf9eed0c88b9866856",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "c321b43334ef7adf9eed0c88b9866856",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_lymph",
+    "performance": {
+      "acc": 0.7979,
+      "auc": 0.8664,
+      "specificity": 0.7863,
+      "recall": 0.8185,
+      "precision": 0.8165,
+      "f1": 0.8126
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_167c7126dbff01a14a06e562f29e5721",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "167c7126dbff01a14a06e562f29e5721",
+    "task_id": "classification_class",
+    "dataset_id": "openml_ionosphere",
+    "performance": {
+      "acc": 0.926,
+      "auc": 0.9794,
+      "specificity": 0.9549,
+      "recall": 0.8719,
+      "precision": 0.916,
+      "f1": 0.8917
+    }
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "65b7e5e729bff75b3478e0c63cb0f642",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.earth",
+    "task_id": "classification_Application.accepted",
+    "dataset_id": "openml_analcatdata_creditscore",
+    "parameters": {
+      "trace": 0,
+      "keepxy": false,
+      "degree": 1,
+      "penalty": null,
+      "nk": null,
+      "thresh": 0.001,
+      "minspan": 0,
+      "endspan": 0,
+      "newvar.penalty": 0,
+      "fast.k": 20,
+      "fast.beta": 1,
+      "pmethod": "backward",
+      "nprune": null,
+      "ncross": 1,
+      "nfold": 0,
+      "stratify": true,
+      "linpreds": false,
+      "link": "logit",
+      "maxit": 25,
+      "allowed": null,
+      "Adjust.endspan": 2,
+      "Force.weights": false,
+      "Use.beta.cache": true,
+      "Force.xtx.prune": false,
+      "Get.leverages": true,
+      "Exhaustive.tol": 1e-010
+    },
+    "preprocessing": {
+      "Age": {
+        "name": "Age",
+        "type": "numerical",
+        "number_of_unique_values": 28,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 20,
+        "num_1qu": 26,
+        "num_median": 31,
+        "num_mean": 32.08,
+        "num_3qu": 37,
+        "num_maximum": 55
+      },
+      "Income.per.dependent": {
+        "name": "Income.per.dependent",
+        "type": "numerical",
+        "number_of_unique_values": 76,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1.5,
+        "num_1qu": 2.365,
+        "num_median": 3,
+        "num_mean": 3.3693,
+        "num_3qu": 3.97,
+        "num_maximum": 10
+      },
+      "Monthly.credit.card.exp": {
+        "name": "Monthly.credit.card.exp",
+        "type": "numerical",
+        "number_of_unique_values": 73,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 81.295,
+        "num_mean": 189.0231,
+        "num_3qu": 252.805,
+        "num_maximum": 1898.03
+      },
+      "Own.home": {
+        "name": "Own.home",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 64,
+          "1": 36
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Self.employed": {
+        "name": "Self.employed",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 95,
+          "1": 5
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Derogatory.reports": {
+        "name": "Derogatory.reports",
+        "type": "categorical",
+        "number_of_unique_values": 6,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 82,
+          "1": 10,
+          "2": 3,
+          "3": 3,
+          "4": 1,
+          "7": 1
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Application.accepted": {
+        "name": "Application.accepted",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 27,
+          "1": 73
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

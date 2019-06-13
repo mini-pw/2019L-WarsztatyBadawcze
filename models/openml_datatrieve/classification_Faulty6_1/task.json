@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Faulty6_1",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "dataset_id": "openml_datatrieve",
+    "type": "classification",
+    "target": "Faulty6_1"
+  }
+]

@@ -6,7 +6,7 @@
     "library": "caret",
     "model_name": "classif_treebag",
     "task_id": "classification_symboling",
-    "dataset_id": "auto_price",
+    "dataset_id": "openml_auto-price",
     "parameters": {
     },
     "preprocessing": {

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "d0d618833b2f76040dd944b46a57a242",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.plr",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_diabetes_numeric",
+    "parameters": {
+      "lambda": 0.0001,
+      "cp.type": "bic",
+      "cp": 2
+    },
+    "preprocessing": {
+      "age": {
+        "name": "age",
+        "type": "numerical",
+        "number_of_unique_values": 37,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.9,
+        "num_1qu": 5.5,
+        "num_median": 10.4,
+        "num_mean": 9.0326,
+        "num_3qu": 11.85,
+        "num_maximum": 15.6
+      },
+      "deficit": {
+        "name": "deficit",
+        "type": "numerical",
+        "number_of_unique_values": 39,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -29,
+        "num_1qu": -12.7,
+        "num_median": -7.8,
+        "num_mean": -8.1488,
+        "num_3qu": -2,
+        "num_maximum": -0.2
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 17,
+          "N": 26
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

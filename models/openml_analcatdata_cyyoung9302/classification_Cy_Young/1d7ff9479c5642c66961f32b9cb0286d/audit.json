@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_1d7ff9479c5642c66961f32b9cb0286d",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "1d7ff9479c5642c66961f32b9cb0286d",
+    "task_id": "classification_Cy_Young",
+    "dataset_id": "openml_analcatdata_cyyoung9302",
+    "performance": {
+      "acc": 0.7292,
+      "auc": 0.682,
+      "specificity": 0.37,
+      "recall": 0.8162,
+      "precision": 0.8269,
+      "f1": 0.8175
+    }
+  }
+]

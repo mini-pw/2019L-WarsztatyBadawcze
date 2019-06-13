@@ -1,9 +1,9 @@
 [
   {
-    "id": "openml_credit-g",
+    "id": "classification_class",
     "added_by": "Adamoso",
     "date": "15-03-2019",
-    "dataset_id": "credit-g",
+    "dataset_id": "openml_credit-g",
     "type": "classification",
     "target": "class"
   }

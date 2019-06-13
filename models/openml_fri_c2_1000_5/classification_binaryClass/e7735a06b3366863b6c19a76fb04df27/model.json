@@ -1,0 +1,109 @@
+[
+  {
+    "id": "e7735a06b3366863b6c19a76fb04df27",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.C50",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_fri_c2_1000_5",
+    "parameters": {
+      "trials": 1,
+      "rules": false,
+      "subset": false,
+      "bands": null,
+      "winnow": false,
+      "noGlobalPruning": false,
+      "CF": 0.25,
+      "minCases": 2,
+      "fuzzyThreshold": false,
+      "sample": 0,
+      "seed": null,
+      "earlyStopping": true,
+      "label": "outcome"
+    },
+    "preprocessing": {
+      "oz1": {
+        "name": "oz1",
+        "type": "numerical",
+        "number_of_unique_values": 1000,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.3761,
+        "num_1qu": -0.7472,
+        "num_median": -0.0121,
+        "num_mean": 2e-009,
+        "num_3qu": 0.7742,
+        "num_maximum": 2.2395
+      },
+      "oz2": {
+        "name": "oz2",
+        "type": "numerical",
+        "number_of_unique_values": 1000,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.7677,
+        "num_1qu": -0.8264,
+        "num_median": 0.0678,
+        "num_mean": 2.5e-008,
+        "num_3qu": 0.8584,
+        "num_maximum": 1.6762
+      },
+      "oz3": {
+        "name": "oz3",
+        "type": "numerical",
+        "number_of_unique_values": 1000,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -2.102,
+        "num_1qu": -0.7357,
+        "num_median": -0.166,
+        "num_mean": 5.4059e-019,
+        "num_3qu": 0.5896,
+        "num_maximum": 3.5117
+      },
+      "oz4": {
+        "name": "oz4",
+        "type": "numerical",
+        "number_of_unique_values": 1000,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.7884,
+        "num_1qu": -0.8277,
+        "num_median": -0.0422,
+        "num_mean": 2.7577e-019,
+        "num_3qu": 0.8557,
+        "num_maximum": 1.7907
+      },
+      "oz5": {
+        "name": "oz5",
+        "type": "numerical",
+        "number_of_unique_values": 1000,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1.6825,
+        "num_1qu": -0.8641,
+        "num_median": -0.0497,
+        "num_mean": -1.3e-008,
+        "num_3qu": 0.8842,
+        "num_maximum": 1.7417
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 416,
+          "N": 584
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

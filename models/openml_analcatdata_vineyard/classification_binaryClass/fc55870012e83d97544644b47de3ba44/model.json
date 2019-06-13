@@ -1,0 +1,95 @@
+[
+  {
+    "id": "fc55870012e83d97544644b47de3ba44",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.rda",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_analcatdata_vineyard",
+    "parameters": {
+      "lambda": null,
+      "gamma": null,
+      "crossval": true,
+      "fold": 10,
+      "train.fraction": 0.5,
+      "output": false,
+      "schedule": 2,
+      "T.start": 0.1,
+      "halflife": 50,
+      "zero.temp": 0.01,
+      "alpha": 2,
+      "K": 100,
+      "trafo": true,
+      "simAnn": false,
+      "estimate.error": false
+    },
+    "preprocessing": {
+      "Year": {
+        "name": "Year",
+        "type": "categorical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1983": 52,
+          "1984": 52,
+          "1985": 52,
+          "1986": 52,
+          "1987": 52,
+          "1988": 52,
+          "1989": 52,
+          "1990": 52,
+          "1991": 52
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Row": {
+        "name": "Row",
+        "type": "numerical",
+        "number_of_unique_values": 52,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 13.75,
+        "num_median": 26.5,
+        "num_mean": 26.5,
+        "num_3qu": 39.25,
+        "num_maximum": 52
+      },
+      "Group": {
+        "name": "Group",
+        "type": "numerical",
+        "number_of_unique_values": 13,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 4,
+        "num_median": 7,
+        "num_mean": 7,
+        "num_3qu": 10,
+        "num_maximum": 13
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 260,
+          "N": 208
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
