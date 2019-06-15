@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_binaryClass",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "dataset_id": "openml_hutsof99_logis",
+    "type": "classification",
+    "target": "binaryClass"
+  }
+]

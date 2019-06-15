@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_2d047a90fa966d1494e4e241c9c59acf",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "2d047a90fa966d1494e4e241c9c59acf",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_analcatdata_apnea1",
+    "performance": {
+      "acc": 0.9368,
+      "auc": 0.9331,
+      "specificity": 0.6281,
+      "recall": 0.9832,
+      "precision": 0.9466,
+      "f1": 0.9644
+    }
+  }
+]

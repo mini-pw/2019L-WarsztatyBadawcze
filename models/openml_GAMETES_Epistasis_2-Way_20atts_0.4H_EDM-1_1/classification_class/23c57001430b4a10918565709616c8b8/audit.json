@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_23c57001430b4a10918565709616c8b8",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "23c57001430b4a10918565709616c8b8",
+    "task_id": "classification_class",
+    "dataset_id": "openml_GAMETES_Epistasis_2-Way_20atts_0.4H_EDM-1_1",
+    "performance": {
+      "acc": 0.6519,
+      "auc": 0.7008,
+      "specificity": 0.6277,
+      "recall": 0.6761,
+      "precision": 0.6458,
+      "f1": 0.6601
+    }
+  }
+]

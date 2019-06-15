@@ -1,0 +1,142 @@
+[
+  {
+    "id": "b8da5120ae7ee64a80a66ee6f3b87833",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.earth",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_blogger",
+    "parameters": {
+      "trace": 0,
+      "keepxy": false,
+      "degree": 1,
+      "penalty": null,
+      "nk": null,
+      "thresh": 0.001,
+      "minspan": 0,
+      "endspan": 0,
+      "newvar.penalty": 0,
+      "fast.k": 20,
+      "fast.beta": 1,
+      "pmethod": "backward",
+      "nprune": null,
+      "ncross": 1,
+      "nfold": 0,
+      "stratify": true,
+      "linpreds": false,
+      "link": "logit",
+      "maxit": 25,
+      "allowed": null,
+      "Adjust.endspan": 2,
+      "Force.weights": false,
+      "Use.beta.cache": true,
+      "Force.xtx.prune": false,
+      "Get.leverages": true,
+      "Exhaustive.tol": 1e-010
+    },
+    "preprocessing": {
+      "V1": {
+        "name": "V1",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "high": 39,
+          "low": 14,
+          "medium": 47
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V2": {
+        "name": "V2",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "left": 52,
+          "middle": 14,
+          "right": 34
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V3": {
+        "name": "V3",
+        "type": "categorical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "impression": 24,
+          "news": 19,
+          "political": 35,
+          "scientific": 7,
+          "tourism": 15
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V4": {
+        "name": "V4",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 14,
+          "yes": 86
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "V5": {
+        "name": "V5",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "no": 28,
+          "yes": 72
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Class": {
+        "name": "Class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 32,
+          "2": 68
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

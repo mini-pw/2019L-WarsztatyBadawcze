@@ -1,0 +1,40 @@
+R version 3.5.1 (2018-07-02)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows >= 8 x64 (build 9200)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=Polish_Poland.1250  LC_CTYPE=Polish_Poland.1250    LC_MONETARY=Polish_Poland.1250 LC_NUMERIC=C                  
+[5] LC_TIME=Polish_Poland.1250    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] earth_4.6.3          plotmo_3.4.2         TeachingDemos_2.10   plotrix_3.7-5        nodeHarvest_0.7-3    stepPlr_0.93        
+ [7] farff_1.0            kknn_1.3.1           readr_1.1.1          stringi_1.1.7        klaR_0.6-14          MASS_7.3-50         
+[13] R.utils_2.6.0        R.oo_1.22.0          R.methodsS3_1.7.1    digest_0.6.15        reader_1.0.6         NCmisc_1.1.5        
+[19] purrr_0.2.5          jsonlite_1.5         bindrcpp_0.2.2       dplyr_0.7.6          OpenML_1.8           mlr_2.12.1          
+[25] ParamHelpers_1.11    RevoUtils_11.0.1     RevoUtilsMath_11.0.0
+
+loaded via a namespace (and not attached):
+  [1] backports_1.1.2     fastmatch_1.1-0     plyr_1.8.4          igraph_1.2.2        lazyeval_0.2.1      adabag_4.2         
+  [7] splines_3.5.1       ggplot2_3.0.0       TH.data_1.0-9       foreach_1.5.0       htmltools_0.3.6     fansi_0.2.3        
+ [13] magrittr_1.5        checkmate_1.8.5     memoise_1.1.0       BBmisc_1.11         doParallel_1.0.13   sfsmisc_1.1-2      
+ [19] recipes_0.1.3       gower_0.1.2         dimRed_0.1.0        sandwich_2.4-0      strucchange_1.5-1   colorspace_1.3-2   
+ [25] crayon_1.3.4        libcoin_1.0-1       bindr_0.1.1         survival_2.42-3     zoo_1.8-3           iterators_1.0.10   
+ [31] glue_1.3.0          DRR_0.0.3           gtable_0.2.0        ipred_0.9-6         questionr_0.6.3     kernlab_0.9-26     
+ [37] ddalpha_1.3.4       DEoptimR_1.0-8      abind_1.4-5         scales_0.5.0        mvtnorm_1.0-8       evtree_1.0-7       
+ [43] miniUI_0.1.1.1      Rcpp_0.12.18        xtable_1.8-2        magic_1.5-8         Formula_1.2-3       stats4_3.5.1       
+ [49] lava_1.6.2          prodlim_2018.04.18  httr_1.3.1          modeltools_0.2-22   pkgconfig_2.0.1     XML_3.98-1.12      
+ [55] nnet_7.3-12         utf8_1.1.4          caret_6.0-80        tidyselect_0.2.4    rlang_0.2.1         reshape2_1.4.3     
+ [61] later_0.7.3         munsell_0.5.0       tools_3.5.1         cli_1.0.0           party_1.3-0         ranger_0.10.1      
+ [67] pls_2.6-0           broom_0.5.0         geometry_0.3-6      stringr_1.3.1       yaml_2.2.0          ModelMetrics_1.1.0 
+ [73] robustbase_0.93-2   randomForest_4.6-14 coin_1.2-2          rFerns_3.0.0        nlme_3.1-137        mime_0.5           
+ [79] proftools_0.99-2    RcppRoll_0.3.0      compiler_3.5.1      rstudioapi_0.7      curl_3.2            e1071_1.7-0        
+ [85] tibble_1.4.2        highr_0.7           lattice_0.20-35     Matrix_1.2-14       pillar_1.3.0        combinat_0.0-8     
+ [91] data.table_1.11.4   httpuv_1.4.5        R6_2.2.2            promises_1.0.1      ada_2.0-5           codetools_0.2-15   
+ [97] assertthat_0.2.0    CVST_0.2-2          withr_2.1.2         multcomp_1.4-8      parallel_3.5.1      hms_0.4.2          
+[103] quadprog_1.5-5      grid_3.5.1          rpart_4.1-13        timeDate_3043.102   tidyr_0.8.1         class_7.3-14       
+[109] inum_1.0-0          parallelMap_1.3     partykit_1.2-2      shiny_1.1.0         lubridate_1.7.4    

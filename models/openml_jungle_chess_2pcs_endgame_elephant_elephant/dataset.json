@@ -1,0 +1,712 @@
+[
+  {
+    "id": "openml_jungle_chess_2pcs_endgame_elephant_elephant",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "name": "jungle_chess_2pcs_endgame_elephant_elephant",
+    "source": "openml",
+    "url": "https://www.openml.org/data/v1/download/18248695/jungle_chess_2pcs_endgame_elephant_elephant.arff",
+    "number_of_features": 47,
+    "number_of_instances": 2351,
+    "number_of_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "variables": {
+      "white_piece0_strength": {
+        "name": "white_piece0_strength",
+        "type": "numerical",
+        "number_of_unique_values": 1,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 7,
+        "num_1qu": 7,
+        "num_median": 7,
+        "num_mean": 7,
+        "num_3qu": 7,
+        "num_maximum": 7
+      },
+      "white_piece0_file": {
+        "name": "white_piece0_file",
+        "type": "numerical",
+        "number_of_unique_values": 7,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 3,
+        "num_mean": 2.9991,
+        "num_3qu": 5,
+        "num_maximum": 6
+      },
+      "white_piece0_rank": {
+        "name": "white_piece0_rank",
+        "type": "numerical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 4,
+        "num_mean": 4.0017,
+        "num_3qu": 7,
+        "num_maximum": 8
+      },
+      "white_piece0_advanced": {
+        "name": "white_piece0_advanced",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "DEF": 959,
+          "MID": 432,
+          "ATT": 960
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "white_piece0_distanceto_white_den": {
+        "name": "white_piece0_distanceto_white_den",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 3,
+        "num_median": 6,
+        "num_mean": 5.8384,
+        "num_3qu": 8,
+        "num_maximum": 11
+      },
+      "white_piece0_distanceto_black_den": {
+        "name": "white_piece0_distanceto_black_den",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 3,
+        "num_median": 6,
+        "num_mean": 5.835,
+        "num_3qu": 8,
+        "num_maximum": 11
+      },
+      "white_piece0_unopposedto_black_den_length": {
+        "name": "white_piece0_unopposedto_black_den_length",
+        "type": "numerical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1,
+        "num_1qu": -1,
+        "num_median": 0,
+        "num_mean": 1.3148,
+        "num_3qu": 3,
+        "num_maximum": 10
+      },
+      "white_piece0_unopposedto_black_den_shortest": {
+        "name": "white_piece0_unopposedto_black_den_shortest",
+        "type": "categorical",
+        "number_of_unique_values": 1,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 2351,
+          "1": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "white_piece0_movesto_white_den": {
+        "name": "white_piece0_movesto_white_den",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 3,
+        "num_median": 6,
+        "num_mean": 5.8384,
+        "num_3qu": 8,
+        "num_maximum": 11
+      },
+      "white_piece0_movesto_black_den": {
+        "name": "white_piece0_movesto_black_den",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 3,
+        "num_median": 6,
+        "num_mean": 5.835,
+        "num_3qu": 8,
+        "num_maximum": 11
+      },
+      "white_piece0_in_trap": {
+        "name": "white_piece0_in_trap",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 2207,
+          "1": 144
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "white_piece0_in_water": {
+        "name": "white_piece0_in_water",
+        "type": "categorical",
+        "number_of_unique_values": 1,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 2351,
+          "1": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "white_piece0_can_cross": {
+        "name": "white_piece0_can_cross",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 584,
+          "1": 1767
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "white_piece0_can_cross_shortest": {
+        "name": "white_piece0_can_cross_shortest",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 718,
+          "1": 1633
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "white_piece0_unopposed_to_bank": {
+        "name": "white_piece0_unopposed_to_bank",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 140,
+          "1": 2211
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "white_piece0_distanceto_black_piece0": {
+        "name": "white_piece0_distanceto_black_piece0",
+        "type": "numerical",
+        "number_of_unique_values": 14,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 4,
+        "num_median": 6,
+        "num_mean": 5.9239,
+        "num_3qu": 8,
+        "num_maximum": 14
+      },
+      "white_piece0_distanceto_black_piece0_parity": {
+        "name": "white_piece0_distanceto_black_piece0_parity",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 1156,
+          "1": 1195
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "white_piece0_nextto_black_piece0": {
+        "name": "white_piece0_nextto_black_piece0",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 2212,
+          "1": 139
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "black_piece0_strength": {
+        "name": "black_piece0_strength",
+        "type": "numerical",
+        "number_of_unique_values": 1,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 7,
+        "num_1qu": 7,
+        "num_median": 7,
+        "num_mean": 7,
+        "num_3qu": 7,
+        "num_maximum": 7
+      },
+      "black_piece0_file": {
+        "name": "black_piece0_file",
+        "type": "numerical",
+        "number_of_unique_values": 7,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 3,
+        "num_mean": 2.9987,
+        "num_3qu": 5,
+        "num_maximum": 6
+      },
+      "black_piece0_rank": {
+        "name": "black_piece0_rank",
+        "type": "numerical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 4,
+        "num_mean": 4.0017,
+        "num_3qu": 7,
+        "num_maximum": 8
+      },
+      "black_piece0_advanced": {
+        "name": "black_piece0_advanced",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "DEF": 960,
+          "MID": 432,
+          "ATT": 959
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "black_piece0_distanceto_white_den": {
+        "name": "black_piece0_distanceto_white_den",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 3,
+        "num_median": 6,
+        "num_mean": 5.8379,
+        "num_3qu": 8,
+        "num_maximum": 11
+      },
+      "black_piece0_distanceto_black_den": {
+        "name": "black_piece0_distanceto_black_den",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 3,
+        "num_median": 6,
+        "num_mean": 5.8345,
+        "num_3qu": 8,
+        "num_maximum": 11
+      },
+      "black_piece0_movesto_white_den": {
+        "name": "black_piece0_movesto_white_den",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 3,
+        "num_median": 6,
+        "num_mean": 5.8379,
+        "num_3qu": 8,
+        "num_maximum": 11
+      },
+      "black_piece0_movesto_black_den": {
+        "name": "black_piece0_movesto_black_den",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 3,
+        "num_median": 6,
+        "num_mean": 5.8345,
+        "num_3qu": 8,
+        "num_maximum": 11
+      },
+      "black_piece0_unopposedto_white_den_length": {
+        "name": "black_piece0_unopposedto_white_den_length",
+        "type": "numerical",
+        "number_of_unique_values": 12,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": -1,
+        "num_1qu": -1,
+        "num_median": -1,
+        "num_mean": 0.7512,
+        "num_3qu": 2,
+        "num_maximum": 10
+      },
+      "black_piece0_unopposedto_white_den_shortest": {
+        "name": "black_piece0_unopposedto_white_den_shortest",
+        "type": "categorical",
+        "number_of_unique_values": 1,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 2351,
+          "1": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "black_piece0_in_trap": {
+        "name": "black_piece0_in_trap",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 2207,
+          "1": 144
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "black_piece0_in_water": {
+        "name": "black_piece0_in_water",
+        "type": "categorical",
+        "number_of_unique_values": 1,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 2351,
+          "1": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "black_piece0_can_cross": {
+        "name": "black_piece0_can_cross",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 756,
+          "1": 1595
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "black_piece0_can_cross_shortest": {
+        "name": "black_piece0_can_cross_shortest",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 868,
+          "1": 1483
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "black_piece0_unopposed_to_bank": {
+        "name": "black_piece0_unopposed_to_bank",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 295,
+          "1": 2056
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "black_piece0_at_d7": {
+        "name": "black_piece0_at_d7",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 2303,
+          "1": 48
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "black_piece0_distanceto_white_piece0": {
+        "name": "black_piece0_distanceto_white_piece0",
+        "type": "numerical",
+        "number_of_unique_values": 14,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 4,
+        "num_median": 6,
+        "num_mean": 5.9239,
+        "num_3qu": 8,
+        "num_maximum": 14
+      },
+      "black_piece0_distanceto_white_piece0_parity": {
+        "name": "black_piece0_distanceto_white_piece0_parity",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 1156,
+          "1": 1195
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "black_piece0_nextto_white_piece0": {
+        "name": "black_piece0_nextto_white_piece0",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 2212,
+          "1": 139
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "highest_strength": {
+        "name": "highest_strength",
+        "type": "categorical",
+        "number_of_unique_values": 1,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "w": 0,
+          "b": 0,
+          "d": 2351
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "closest_to_den": {
+        "name": "closest_to_den",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "w": 1296,
+          "b": 1055
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "closest_to_den_diff": {
+        "name": "closest_to_den_diff",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 3,
+        "num_mean": 3.3845,
+        "num_3qu": 5,
+        "num_maximum": 10
+      },
+      "fastest_to_den": {
+        "name": "fastest_to_den",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "w": 1296,
+          "b": 1055
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "fastest_to_den_diff": {
+        "name": "fastest_to_den_diff",
+        "type": "numerical",
+        "number_of_unique_values": 11,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 3,
+        "num_mean": 3.3845,
+        "num_3qu": 5,
+        "num_maximum": 10
+      },
+      "white_unopposed_to_den": {
+        "name": "white_unopposed_to_den",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 1039,
+          "1": 1312
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "black_unopposed_to_den": {
+        "name": "black_unopposed_to_den",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 1266,
+          "1": 1085
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "white_unopposed_to_den_quick_detour": {
+        "name": "white_unopposed_to_den_quick_detour",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 1462,
+          "1": 889
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "black_unopposed_to_den_quick_detour": {
+        "name": "black_unopposed_to_den_quick_detour",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 1692,
+          "1": 659
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "class": {
+        "name": "class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "w": 1316,
+          "b": 1035,
+          "d": 0
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

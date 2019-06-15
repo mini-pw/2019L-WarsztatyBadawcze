@@ -1,0 +1,111 @@
+[
+  {
+    "id": "cfac8beede9577854bcab7b81c1bee58",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.nodeHarvest",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_analcatdata_wildcat",
+    "parameters": {
+      "nodesize": 10,
+      "nodes": 1000,
+      "maxinter": 2,
+      "mode": "mean",
+      "lambda": null,
+      "addto": null,
+      "onlyinter": null,
+      "silent": false,
+      "biascorr": false
+    },
+    "preprocessing": {
+      "Grievances": {
+        "name": "Grievances",
+        "type": "numerical",
+        "number_of_unique_values": 46,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 0,
+        "num_median": 4,
+        "num_mean": 13.9018,
+        "num_3qu": 15,
+        "num_maximum": 155
+      },
+      "Rotate": {
+        "name": "Rotate",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 77,
+          "1": 86
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Union": {
+        "name": "Union",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 58,
+          "1": 105
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Workforce": {
+        "name": "Workforce",
+        "type": "numerical",
+        "number_of_unique_values": 134,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 6,
+        "num_1qu": 55,
+        "num_median": 155,
+        "num_mean": 227.3804,
+        "num_3qu": 392.5,
+        "num_maximum": 920
+      },
+      "Log_workforce": {
+        "name": "Log_workforce",
+        "type": "numerical",
+        "number_of_unique_values": 134,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1.7918,
+        "num_1qu": 4.0072,
+        "num_median": 5.0434,
+        "num_mean": 4.8676,
+        "num_3qu": 5.9725,
+        "num_maximum": 6.8244
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 116,
+          "N": 47
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

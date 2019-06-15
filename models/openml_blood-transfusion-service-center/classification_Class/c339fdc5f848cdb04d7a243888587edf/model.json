@@ -1,0 +1,109 @@
+[
+  {
+    "id": "c339fdc5f848cdb04d7a243888587edf",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.earth",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_blood-transfusion-service-center",
+    "parameters": {
+      "trace": 0,
+      "keepxy": false,
+      "degree": 1,
+      "penalty": null,
+      "nk": null,
+      "thresh": 0.001,
+      "minspan": 0,
+      "endspan": 0,
+      "newvar.penalty": 0,
+      "fast.k": 20,
+      "fast.beta": 1,
+      "pmethod": "backward",
+      "nprune": null,
+      "ncross": 1,
+      "nfold": 0,
+      "stratify": true,
+      "linpreds": false,
+      "link": "logit",
+      "maxit": 25,
+      "allowed": null,
+      "Adjust.endspan": 2,
+      "Force.weights": false,
+      "Use.beta.cache": true,
+      "Force.xtx.prune": false,
+      "Get.leverages": true,
+      "Exhaustive.tol": 1e-010
+    },
+    "preprocessing": {
+      "V1": {
+        "name": "V1",
+        "type": "numerical",
+        "number_of_unique_values": 31,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 2.75,
+        "num_median": 7,
+        "num_mean": 9.5067,
+        "num_3qu": 14,
+        "num_maximum": 74
+      },
+      "V2": {
+        "name": "V2",
+        "type": "numerical",
+        "number_of_unique_values": 33,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 2,
+        "num_median": 4,
+        "num_mean": 5.5147,
+        "num_3qu": 7,
+        "num_maximum": 50
+      },
+      "V3": {
+        "name": "V3",
+        "type": "numerical",
+        "number_of_unique_values": 33,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 250,
+        "num_1qu": 500,
+        "num_median": 1000,
+        "num_mean": 1378.6765,
+        "num_3qu": 1750,
+        "num_maximum": 12500
+      },
+      "V4": {
+        "name": "V4",
+        "type": "numerical",
+        "number_of_unique_values": 78,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 2,
+        "num_1qu": 16,
+        "num_median": 28,
+        "num_mean": 34.2821,
+        "num_3qu": 50,
+        "num_maximum": 98
+      },
+      "Class": {
+        "name": "Class",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 570,
+          "2": 178
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Cy_Young",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "dataset_id": "openml_analcatdata_cyyoung9302",
+    "type": "classification",
+    "target": "Cy_Young"
+  }
+]

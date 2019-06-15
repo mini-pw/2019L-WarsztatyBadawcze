@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_def",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "dataset_id": "openml_CastMetal1",
+    "type": "classification",
+    "target": "def"
+  }
+]

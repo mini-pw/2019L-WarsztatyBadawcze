@@ -1,0 +1,10 @@
+[
+  {
+    "id": "classification_Solvent",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "dataset_id": "openml_analcatdata_japansolvent",
+    "type": "classification",
+    "target": "Solvent"
+  }
+]

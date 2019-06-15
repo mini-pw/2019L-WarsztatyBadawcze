@@ -1,0 +1,92 @@
+[
+  {
+    "id": "2f54cbd10e9ce35011230ca683fd185e",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.logreg",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_fruitfly",
+    "parameters": {
+      "model": false
+    },
+    "preprocessing": {
+      "PARTNERS": {
+        "name": "PARTNERS",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "8": 50,
+          "0": 25,
+          "1": 50
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "TYPE": {
+        "name": "TYPE",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 50,
+          "9": 25,
+          "1": 50
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "THORAX": {
+        "name": "THORAX",
+        "type": "numerical",
+        "number_of_unique_values": 46,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 16,
+        "num_1qu": 46,
+        "num_median": 58,
+        "num_mean": 57.44,
+        "num_3qu": 70,
+        "num_maximum": 97
+      },
+      "SLEEP": {
+        "name": "SLEEP",
+        "type": "numerical",
+        "number_of_unique_values": 14,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.64,
+        "num_1qu": 0.76,
+        "num_median": 0.84,
+        "num_mean": 0.821,
+        "num_3qu": 0.88,
+        "num_maximum": 0.94
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 76,
+          "N": 49
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
