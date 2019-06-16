@@ -118,4 +118,5 @@ scrape <- function(classifier, #wektor alternatywnych nazw klasyfikatora , np c(
 }
 
 #przykład
-out <- scrape(NULL, c("acc", "f1"), list(c("num.trees", "ntree"), c("num.random.splits")), "classification")
+out <- scrape(classifier = c('classif.RRF'), NULL, names(getLearnerParamSet('classif.RRF')[1]$pars), "classification")
+out
