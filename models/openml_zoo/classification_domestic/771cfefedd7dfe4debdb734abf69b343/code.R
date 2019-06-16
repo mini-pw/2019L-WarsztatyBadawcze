@@ -1,7 +1,6 @@
 #:# libraries
 library(digest)
 library(caret)
-library(OpenML)
 
 #:# config
 set.seed(123, "L'Ecuyer")
@@ -16,7 +15,7 @@ head(dat)
 dat <- na.omit(dat)
 
 #:# model
-classif_trn <- caret::train(domestic ~ ., data = dat, method = "gaussprPoly", seed = 123)
+classif_trn <- train(domestic ~ ., data = dat, method = "gaussprPoly", seed = 123)
 classif_trn$times <- NULL
 
 #:# hash 
@@ -27,7 +26,7 @@ hash
 #:# audit
 set.seed(123, "L'Ecuyer")
 ctrl <- trainControl(method="cv", number=5, classProbs = TRUE, summaryFunction = twoClassSummary)
-classif_trn_ctr <- caret::train(domestic ~ ., data = dat, method = "gaussprPoly",
+classif_trn_ctr <- train(domestic ~ ., data = dat, method = "gaussprPoly",
                          seed = 123,
                          trControl = ctrl,
                          metric = "ROC")
