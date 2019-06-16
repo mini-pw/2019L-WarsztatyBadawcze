@@ -1,0 +1,71 @@
+[
+  {
+    "id": "a186bd2d0dbacc14838c0b1d96583648",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.svm",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_chscase_vine2",
+    "parameters": {
+      "type": "C-classification",
+      "cost": 1,
+      "nu": 0.5,
+      "class.weights": null,
+      "kernel": "radial",
+      "degree": 3,
+      "coef0": 0,
+      "gamma": null,
+      "cachesize": 40,
+      "tolerance": 0.001,
+      "shrinking": true,
+      "cross": 0,
+      "fitted": true,
+      "scale": true
+    },
+    "preprocessing": {
+      "col_1": {
+        "name": "col_1",
+        "type": "numerical",
+        "number_of_unique_values": 9,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1983,
+        "num_1qu": 1985,
+        "num_median": 1987,
+        "num_mean": 1987,
+        "num_3qu": 1989,
+        "num_maximum": 1991
+      },
+      "col_2": {
+        "name": "col_2",
+        "type": "numerical",
+        "number_of_unique_values": 52,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 13.75,
+        "num_median": 26.5,
+        "num_mean": 26.5,
+        "num_3qu": 39.25,
+        "num_maximum": 52
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 256,
+          "N": 212
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

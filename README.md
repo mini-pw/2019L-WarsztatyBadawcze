@@ -22,11 +22,11 @@ Strona przedmiotu Warsztaty Badawcze dla specjalności IAD na wydziale MiNI PW
 * [8] W: Projekt.
 * [9] W: Plan piątkowy 
 * [10] W: **Pierwsza Prezentacja Projektu** (24 kwietnia)
-* [11] W: Wybór zmiennych (filtr, greed search), inżynieria zmiennych.
-* [12] W: Wyjaśniacze PDP jak je robić
-* [13] W: Wyjaśniacze PDP - jak je porównywać
-* [14] W: reprodukowalność wyników (archivist)
-* [15] W: **Druga Prezentacja Projektu**
+* [11] W: Tworzenie pakietów w R
+* [12] W: Projekt
+* [13] W: Zastępstwo (22 maja)
+* [14] W: Projekt
+* [15] W: **Druga Prezentacja Projektu** (12 czerwca)
 
 
 # Zasady zaliczenia

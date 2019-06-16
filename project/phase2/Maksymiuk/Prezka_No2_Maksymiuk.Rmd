@@ -1,0 +1,225 @@
+---
+title: "Deferred Learning"
+author: "Szymon Maksymiuk"
+date: "12/06/2019"
+output:
+  html_document:
+    df_print: paged
+    toc: true
+    toc_float: true
+    code_folding: hide
+    number_sections: true
+    theme: spacelab
+---
+
+```{r warning=FALSE, message=FALSE}
+library(ggplot2)
+library(DALEX)
+library(dplyr)
+library(e1071)
+library(sjstats)
+
+boston <- select(read.csv("boston.csv"), -binaryClass)
+stock <- select(read.csv("stock.csv"), -binaryClass)
+house <- select(read.csv("house_8L.csv"), -binaryClass)
+libp <- select(read.csv("phpOJxGL9.csv"), -Class)
+pokemon <- select(read.csv("pokemon.csv"), -is_legendary)
+testset <- select(read.csv("WarsztatyBadawcze_test.csv", sep = ";"), -c(Y, Zuzanna, Julia, Oliwia, Maria, Nikola, Gabriela))
+
+normalize <- function(x) {
+  if(!is.factor(x)){
+  res <- ((x - min(x)) / (max(x) - min(x)))
+  }else{
+  res <- x
+  }
+  res
+  
+}
+
+get_stats <- function(X){
+  X <- as.data.frame(lapply(X, normalize))
+  ncount <- 0
+  for (i in 1:ncol(X)) {
+    if(length(unique(X[,i])) < 4){
+      ncount <- ncount +1
+      X[,i] <- as.factor(X[,i])
+    }
+  }
+  
+  list(
+    fdiscrete = ncount/ncol(X), 
+    fnumeric = (ncol(X) - ncount)/ncol(X),
+    skew = unlist(lapply(X, function(x){
+      if(is.factor(x)){
+        res <- NA
+      }else{
+        res <- skewness(x, na.rm = TRUE)
+      }
+      res
+    })),
+    var = unlist(lapply(X, function(x){
+      if(is.factor(x)){
+        res <- NA
+      }else{
+        res <- var(x, na.rm = TRUE)
+      }
+      res
+    })),
+    cv = unlist(lapply(X, function(x){
+      if(is.factor(x)){
+        res <- NA
+      }else{
+        res <- cv(x)
+      }
+      res
+    })),
+    IQR = unlist(lapply(X, function(x){
+      if(is.factor(x)){
+        res <- NA
+      }else{
+        res <- IQR(x, na.rm = TRUE)
+      }
+      res
+    })),
+    balance = mean(unlist(lapply(X, function(x){
+      if(!is.factor(x)){
+       res <- NA 
+      }else{
+       res <- min(table(x))/length(x)
+      }
+      res
+    })), na.rm = TRUE)
+    )
+  
+}
+
+index <- function(X, Y){
+  Xinfo <- get_stats(X)
+  Yinfo <- get_stats(Y)
+  if(is.nan(Xinfo$balance) | is.infinite(Xinfo$balance)){
+    Xinfo$balance <- 0
+  }
+  if(is.nan(Yinfo$balance) | is.finite(Xinfo$balance)){
+    Yinfo$balance <- 0
+  }
+  xi <- c(mean(Xinfo$skew, na.rm = TRUE), 
+          mean(Xinfo$var, na.rm = TRUE),
+          sum(head(sort(Xinfo$var), n = 3)),
+          Xinfo$fnumeric,
+          sum(abs(Xinfo$skew) > 1.5, na.rm = TRUE),
+          Xinfo$balance,
+          mean(Xinfo$cv, na.rm = TRUE),
+          mean(Xinfo$IQR, na.rm = TRUE),
+          ncol(X)
+  )
+  yi <- c(mean(Yinfo$skew, na.rm = TRUE), 
+          mean(Yinfo$var, na.rm = TRUE),
+          sum(head(sort(Yinfo$var), n = 3)),
+          Yinfo$fnumeric,
+          sum(abs(Yinfo$skew) > 1.5, na.rm = TRUE),
+          Yinfo$balance,
+          mean(Yinfo$cv, na.rm = TRUE),
+          mean(Yinfo$IQR, na.rm = TRUE),
+          ncol(Y)
+  )
+
+  1 - (sum(abs(xi-yi)))/(6+max(ncol(X), ncol(Y))+ max(c(mean(Yinfo$skew, na.rm = TRUE), mean(Yinfo$skew, na.rm = TRUE)), na.rm = TRUE) + 
+                           max(c(mean(Yinfo$cv, na.rm = TRUE), mean(Yinfo$cv, na.rm = TRUE)), na.rm = TRUE) + 
+                           max(c(mean(Yinfo$IQR, na.rm = TRUE), mean(Yinfo$IQR, na.rm = TRUE)), na.rm = TRUE)+ 
+                           max(ncol(X), ncol(Y)))
+  
+  
+}
+```
+
+# Zbiory Danych
+
+* Boston
+* Stock
+* libp
+* House
+* ~~Pokemon~~
+
+
+# Modele
+
+* ada
+* ksvm
+* ranger
+
+# Trenowanie
+
+* ada
+  + nu
+  + bag.frac
+  + max.iter
+  + minsplit
+  + cp
+* ksvm
+  + C
+  + sigma
+* ranger
+  + num.trees
+  + mtry
+  + min.node.size
+  
+# Wyniki
+
+```{r}
+data <- data.frame(
+  set = c("Boston", "Stock", "libp", "House", "Boston", "Stock", "libp", "House", "Boston", "Stock", "libp", "House"), 
+  model = c("ksvm", "ksvm", "ksvm", "ksvm", "ranger", "ranger", "ranger", "ranger", "ada", "ada", "ada", "ada"),
+  auc = c(0.890, 0.969, 0.719, 0.854, 0.897, 0.965, 0.7, 0.873, 0.893, 0.962, 0.723, 0.872))
+
+
+ggplot(data = data, aes(x = set, y=auc, color = model))+
+  geom_point(size = 7) +
+  theme_drwhy()
+
+```
+
+# Podobieństwo zbiorów
+
+## Indeks
+
+$$x = (mS, mV, t3V, fN, s1.5, b, mC, mI, nC)$$
+
+* $mS$ - Średnia skośność zmiennych
+* $mV$ - Średnia wariancja zmiennych
+* $t3V$ - Suma 3 największych wariancji
+* $fN$ - Frakcja zmiennych numerycznych
+* $s1.5$ - Liczba zmiennych o skośności absolutnej większej niż 1.5
+* $b$ - Średni balans zmiennych kategorycznych. Frakcja liczności najmniej licznej kategorii
+* $mC$ - Średni współczynnik zmienności (odchylenie przez średnią)
+* $mI$ - Średni IQR
+* $nC$ - Liczba kolumn
+
+
+$$S_{M}(X, Y) = 1 - \frac{\sum_{i=1}^{9} |x_{i} - y_{i}|}{6 + 2\max(nC_{x}, nC_{y}) + \max(mS_{x}, mS_{y}) + \max(mC_{x}, mC_{y}) + max(mI_{x}, mI_{y})}$$
+
+```{r warning=FALSE, message=FALSE}
+paste0("Boston: ", index(testset, boston), sep = "")
+paste0("Pokemon: ", index(testset, pokemon), sep = "")
+paste0("Libp: ", index(testset, libp), sep = "")
+paste0("Stock: ", index(testset, stock), sep = "")
+paste0("House: ", index(testset, house), sep = "")
+```
+
+## Optymalne Parametry
+
+
+
+* $X$ - zbiór o nieznanych etykietach
+* $Y = \{Y_{1}, \cdots, Y_{l}\}$ - zbiór zbiorów pomocniczych
+* $P_{i} = (p_{1}, \cdots p_{n})$ - zbiór parametrów optymalnych dla zbioru $Y_{i}$
+* $P_{B}$ - wektor parametróW optymalnych dla zbioru $X$
+
+$$P_{B} = \frac{\sum_{Y} (S_{M}(X, Y_{i})\cdot P_{i})}{\sum_{Y} S_{M}(X, Y_{i})}$$
+
+# Ostateczny model
+
+* Ranger
+  + num.trees = 1600
+  + mtry = 3
+  + min.node.size = 8
+

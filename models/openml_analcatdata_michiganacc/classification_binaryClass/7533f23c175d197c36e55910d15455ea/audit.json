@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_7533f23c175d197c36e55910d15455ea",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "7533f23c175d197c36e55910d15455ea",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_analcatdata_michiganacc",
+    "performance": {
+      "acc": 0.6476,
+      "auc": 0.6806,
+      "specificity": 0.707,
+      "recall": 0.5876,
+      "precision": 0.7138,
+      "f1": 0.631
+    }
+  }
+]

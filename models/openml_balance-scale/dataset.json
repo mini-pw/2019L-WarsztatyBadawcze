@@ -1,0 +1,84 @@
+[
+  {
+    "id": "openml_balance-scale",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "name": "balance-scale",
+    "source": "openml",
+    "url": "https://www.openml.org/data/v1/download/53531/balance-scale.arff",
+    "number_of_features": 5,
+    "number_of_instances": 625,
+    "number_of_missing_values": 0,
+    "number_of_instances_with_missing_values": 0,
+    "variables": {
+      "left.weight": {
+        "name": "left.weight",
+        "type": "numerical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 2,
+        "num_median": 3,
+        "num_mean": 3,
+        "num_3qu": 4,
+        "num_maximum": 5
+      },
+      "left.distance": {
+        "name": "left.distance",
+        "type": "numerical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 2,
+        "num_median": 3,
+        "num_mean": 3,
+        "num_3qu": 4,
+        "num_maximum": 5
+      },
+      "right.weight": {
+        "name": "right.weight",
+        "type": "numerical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 2,
+        "num_median": 3,
+        "num_mean": 3,
+        "num_3qu": 4,
+        "num_maximum": 5
+      },
+      "right.distance": {
+        "name": "right.distance",
+        "type": "numerical",
+        "number_of_unique_values": 5,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 2,
+        "num_median": 3,
+        "num_mean": 3,
+        "num_3qu": 4,
+        "num_maximum": 5
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 288,
+          "N": 337
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

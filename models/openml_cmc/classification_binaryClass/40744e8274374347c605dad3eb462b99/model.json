@@ -1,0 +1,180 @@
+[
+  {
+    "id": "40744e8274374347c605dad3eb462b99",
+    "added_by": "MatiFilozof",
+    "date": "09-06-2019",
+    "library": "mlr",
+    "model_name": "classif.plr",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_cmc",
+    "parameters": {
+      "lambda": 0.0001,
+      "cp.type": "bic",
+      "cp": 2
+    },
+    "preprocessing": {
+      "Wifes_age": {
+        "name": "Wifes_age",
+        "type": "numerical",
+        "number_of_unique_values": 34,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 16,
+        "num_1qu": 26,
+        "num_median": 32,
+        "num_mean": 32.5384,
+        "num_3qu": 39,
+        "num_maximum": 49
+      },
+      "Wifes_education": {
+        "name": "Wifes_education",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 152,
+          "2": 334,
+          "3": 410,
+          "4": 577
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Husbands_education": {
+        "name": "Husbands_education",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 44,
+          "2": 178,
+          "3": 352,
+          "4": 899
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Number_of_children_ever_born": {
+        "name": "Number_of_children_ever_born",
+        "type": "numerical",
+        "number_of_unique_values": 15,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0,
+        "num_1qu": 1,
+        "num_median": 3,
+        "num_mean": 3.2614,
+        "num_3qu": 4,
+        "num_maximum": 16
+      },
+      "Wifes_religion": {
+        "name": "Wifes_religion",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 220,
+          "1": 1253
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Wifes_now_working.": {
+        "name": "Wifes_now_working.",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 369,
+          "1": 1104
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Husbands_occupation": {
+        "name": "Husbands_occupation",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 436,
+          "2": 425,
+          "3": 585,
+          "4": 27
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Standard.of.living_index": {
+        "name": "Standard.of.living_index",
+        "type": "categorical",
+        "number_of_unique_values": 4,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "1": 129,
+          "2": 229,
+          "3": 431,
+          "4": 684
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Media_exposure": {
+        "name": "Media_exposure",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "0": 1364,
+          "1": 109
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 629,
+          "N": 844
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

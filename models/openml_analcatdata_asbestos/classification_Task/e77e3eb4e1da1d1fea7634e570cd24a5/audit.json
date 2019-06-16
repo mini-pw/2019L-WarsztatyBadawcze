@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_e77e3eb4e1da1d1fea7634e570cd24a5",
+    "date": "08-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "e77e3eb4e1da1d1fea7634e570cd24a5",
+    "task_id": "classification_Task",
+    "dataset_id": "openml_analcatdata_asbestos",
+    "performance": {
+      "acc": 0.7566,
+      "auc": 0.8197,
+      "specificity": 0.8256,
+      "recall": 0.6833,
+      "precision": 0.8442,
+      "f1": 0.7415
+    }
+  }
+]

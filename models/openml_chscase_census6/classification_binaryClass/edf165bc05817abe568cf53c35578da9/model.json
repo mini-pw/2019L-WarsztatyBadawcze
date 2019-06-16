@@ -1,0 +1,113 @@
+[
+  {
+    "id": "edf165bc05817abe568cf53c35578da9",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.kknn",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_chscase_census6",
+    "parameters": {
+      "k": 7,
+      "distance": 2,
+      "kernel": "optimal",
+      "scale": true
+    },
+    "preprocessing": {
+      "col_1": {
+        "name": "col_1",
+        "type": "numerical",
+        "number_of_unique_values": 396,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 0.0007,
+        "num_1qu": 2.4948,
+        "num_median": 6.021,
+        "num_mean": 8.5726,
+        "num_3qu": 11.9328,
+        "num_maximum": 99.9078
+      },
+      "col_2": {
+        "name": "col_2",
+        "type": "numerical",
+        "number_of_unique_values": 400,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1.1483,
+        "num_1qu": 5.3764,
+        "num_median": 8.3951,
+        "num_mean": 10.1349,
+        "num_3qu": 12.3694,
+        "num_maximum": 101.919
+      },
+      "col_3": {
+        "name": "col_3",
+        "type": "numerical",
+        "number_of_unique_values": 400,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 4.1918,
+        "num_1qu": 7.7213,
+        "num_median": 9.6901,
+        "num_mean": 11.2776,
+        "num_3qu": 12.1826,
+        "num_maximum": 83.7629
+      },
+      "col_4": {
+        "name": "col_4",
+        "type": "numerical",
+        "number_of_unique_values": 400,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 5.8642,
+        "num_1qu": 8.7681,
+        "num_median": 10.0525,
+        "num_mean": 11.2837,
+        "num_3qu": 12.045,
+        "num_maximum": 41.3163
+      },
+      "col_5": {
+        "name": "col_5",
+        "type": "numerical",
+        "number_of_unique_values": 398,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 5.5331,
+        "num_1qu": 9.3831,
+        "num_median": 10.5358,
+        "num_mean": 11.8777,
+        "num_3qu": 12.6939,
+        "num_maximum": 31.2951
+      },
+      "col_6": {
+        "name": "col_6",
+        "type": "numerical",
+        "number_of_unique_values": 397,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 7.6178,
+        "num_1qu": 10.0716,
+        "num_median": 11.238,
+        "num_mean": 12.1036,
+        "num_3qu": 12.9933,
+        "num_maximum": 24.5554
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 235,
+          "N": 165
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]

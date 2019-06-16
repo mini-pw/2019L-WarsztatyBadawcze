@@ -1,0 +1,18 @@
+[
+  {
+    "id": "audit_7c34acc07eafee0dd5765c5c7ef11213",
+    "date": "09-06-2019",
+    "added_by": "MatiFilozof",
+    "model_id": "7c34acc07eafee0dd5765c5c7ef11213",
+    "task_id": "classification_Class",
+    "dataset_id": "openml_bank-marketing",
+    "performance": {
+      "acc": 0.8883,
+      "auc": 0.8516,
+      "specificity": 0.0677,
+      "recall": 0.9953,
+      "precision": 0.8912,
+      "f1": 0.9404
+    }
+  }
+]

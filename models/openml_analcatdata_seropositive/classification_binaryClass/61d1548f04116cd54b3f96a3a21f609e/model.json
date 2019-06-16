@@ -1,0 +1,78 @@
+[
+  {
+    "id": "61d1548f04116cd54b3f96a3a21f609e",
+    "added_by": "MatiFilozof",
+    "date": "08-06-2019",
+    "library": "mlr",
+    "model_name": "classif.kknn",
+    "task_id": "classification_binaryClass",
+    "dataset_id": "openml_analcatdata_seropositive",
+    "parameters": {
+      "k": 7,
+      "distance": 2,
+      "kernel": "optimal",
+      "scale": true
+    },
+    "preprocessing": {
+      "Age": {
+        "name": "Age",
+        "type": "numerical",
+        "number_of_unique_values": 44,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 1,
+        "num_1qu": 11.75,
+        "num_median": 22.5,
+        "num_mean": 22.5,
+        "num_3qu": 33.25,
+        "num_maximum": 44
+      },
+      "Disease": {
+        "name": "Disease",
+        "type": "categorical",
+        "number_of_unique_values": 3,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "Mumps": 44,
+          "Parvovirus": 44,
+          "Rubella": 44
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      },
+      "Positive": {
+        "name": "Positive",
+        "type": "numerical",
+        "number_of_unique_values": 91,
+        "number_of_missing_values": 0,
+        "cat_frequencies": null,
+        "num_minimum": 9,
+        "num_1qu": 35.75,
+        "num_median": 57.5,
+        "num_mean": 84.2197,
+        "num_3qu": 111.25,
+        "num_maximum": 345
+      },
+      "binaryClass": {
+        "name": "binaryClass",
+        "type": "categorical",
+        "number_of_unique_values": 2,
+        "number_of_missing_values": 0,
+        "cat_frequencies": {
+          "P": 86,
+          "N": 46
+        },
+        "num_minimum": null,
+        "num_1qu": null,
+        "num_median": null,
+        "num_mean": null,
+        "num_3qu": null,
+        "num_maximum": null
+      }
+    }
+  }
+]
